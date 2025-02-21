@@ -1,466 +1,641 @@
-# sent_id = CD15_01-03
-# speaker_id = @SP1
+# sent_id = CD15_01-01
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 1083, 13604
-# morphemic_text = nan -i ni kʉ- kw =a'ba' =ri , kʉtʉkʉnʉn ikʉ kinki , eymi biga =gwi , ka'a chwi , ɉe , ɉwi , tima n -eyka =sin ʉn- kʉ- rigʉnsi zwey -ngwa n -eyka =ri .
-# text = nari ni kʉkwa'ba'ri , kʉtʉkʉnʉn ikʉ kinki , eymi bigagwi , ka' chwi , ɉe , ɉwi , tima neykasin ʉnkʉrigʉnsi zweyngwa neykari .
-# text_en = It's like this where we live,. the Ika people first, how many things, taking care of the earth,. be in harmony with the sun, the water, and the moon.
-# text_phrase-gls-es = es así donde vivimos primeramente los arhuacos, cuantas cosas [tienen bajo su responsabilidad], cuidar la tierra el agua, el sol, y también con la luna estar en armonía
-1	nan	nan	AUX	_	_	_	_	_	AlignBegin=1083|AlignEnd=1341|GE=[AUX]|Gloss=AUX|nWord=1|RX=[AUX]
-2	-i		VERB	_	_	_	_	_	AlignBegin=1341|AlignEnd=1599|GE=while|Gloss=while|nWord=1|RX=[VERB]
-3	ni	ni	AUX	_	_	_	_	_	AlignBegin=1599|AlignEnd=2115|GE=[DECL]|Gloss=DECL|nWord=2|RX=[AUX]
-4	kʉ-		V>V	_	_	_	_	_	AlignBegin=2115|AlignEnd=2244|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]
-5	kw	kw	V	_	_	_	_	_	AlignBegin=2244|AlignEnd=2373|GE=live|Gloss=live|nWord=3|RX=[V]
-6	=a'ba'		POST	_	_	_	_	_	AlignBegin=2373|AlignEnd=2502|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
-7	=ri		PRT	_	_	_	_	_	AlignBegin=2502|AlignEnd=2631|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-8	,		_	_	_	_	_	_	AlignBegin=2631|AlignEnd=3145|nWord=4
-9	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=3166|AlignEnd=3731|GE=first|Gloss=first|nWord=5|RX=[ADV]
-10	ikʉ	ikʉ	NPROP	_	_	_	_	_	AlignBegin=3731|AlignEnd=4296|GE=[Ika]|Gloss=Ika|nWord=6|RX=[NPROP]
-11	kinki	kinki	ADV	_	_	_	_	_	AlignBegin=4296|AlignEnd=4861|GE=always|Gloss=always|nWord=7|RX=[ADV]
-12	,		_	_	_	_	_	_	AlignBegin=4861|AlignEnd=5426|nWord=8
-13	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=5426|AlignEnd=5991|GE=there|Gloss=there|nWord=9|RX=[ADV]
-14	biga	biga	INTERROG	_	_	_	_	_	AlignBegin=5991|AlignEnd=6273|GE=how.many|Gloss=how.many|nWord=10|RX=[INTERROG]
-15	=gwi		ADV	_	_	_	_	_	AlignBegin=6273|AlignEnd=6556|GE=also|Gloss==also|nWord=10|RX=[ADV]
-16	,		_	_	_	_	_	_	AlignBegin=6556|AlignEnd=7121|nWord=11
-17	ka'a	ka'a	N	_	_	_	_	_	AlignBegin=7121|AlignEnd=7686|GE=earth|Gloss=earth|nWord=12|RX=[N]
-18	chwi	chwi	V	_	_	_	_	_	AlignBegin=7686|AlignEnd=8251|GE=take.care|Gloss=take.care|nWord=13|RX=[V]
-19	,		_	_	_	_	_	_	AlignBegin=8251|AlignEnd=8812|nWord=14
-20	ɉe	ɉe	N	_	_	_	_	_	AlignBegin=8812|AlignEnd=9291|GE=water|Gloss=water|nWord=15|RX=[N]
-21	,		_	_	_	_	_	_	AlignBegin=9291|AlignEnd=9770|nWord=16
-22	ɉwi	ɉwi	N	_	_	_	_	_	AlignBegin=9770|AlignEnd=10249|GE=sun|Gloss=sun|nWord=17|RX=[N]
-23	,		_	_	_	_	_	_	AlignBegin=10249|AlignEnd=10728|nWord=18
-24	tima	tima	N	_	_	_	_	_	AlignBegin=10728|AlignEnd=11207|GE=moon|Gloss=moon|nWord=19|RX=[N]
-25	n	n	AUX	_	_	_	_	_	AlignBegin=11207|AlignEnd=11367|GE=aux|Gloss=aux|nWord=20|RX=[AUX]
-26	-eyka		V:ANY	_	_	_	_	_	AlignBegin=11367|AlignEnd=11527|GE=[EYKA]|Gloss=EYKA|nWord=20|RX=[V:ANY]
-27	=sin		POST	_	_	_	_	_	AlignBegin=11527|AlignEnd=11686|GE=with|Gloss==with|nWord=20|RX=[POST]
-28	ʉn-		V>V	_	_	_	_	_	AlignBegin=11686|AlignEnd=11846|GE=[MID]|Gloss=MID|nWord=21|RX=[V>V]
-29	kʉ-		V>V	_	_	_	_	_	AlignBegin=11846|AlignEnd=12006|GE=[APPL1]|Gloss=APPL1|nWord=21|RX=[V>V]
-30	rigʉnsi	rigʉnsi	V	_	_	_	_	_	AlignBegin=12006|AlignEnd=12165|GE=be.in.harmony|Gloss=be.in.harmony|nWord=21|RX=[V]
-31	zwey	zwey	VI	_	_	_	_	_	AlignBegin=12165|AlignEnd=12405|GE=go|Gloss=go|nWord=22|RX=[VI]
-32	-ngwa		VERB	_	_	_	_	_	AlignBegin=12405|AlignEnd=12644|GE=[FUT]|Gloss=FUT|nWord=22|RX=[VERB]
-33	n	n	AUX	_	_	_	_	_	AlignBegin=12644|AlignEnd=12804|GE=aux|Gloss=aux|nWord=23|RX=[AUX]
-34	-eyka		V:ANY	_	_	_	_	_	AlignBegin=12804|AlignEnd=12964|GE=[EYKA]|Gloss=EYKA|nWord=23|RX=[V:ANY]
-35	=ri		PRT	_	_	_	_	_	AlignBegin=12964|AlignEnd=13123|GE=[TOP]|Gloss==TOP|nWord=23|RX=[PRT]
-36	.		.	_	_	_	_	_	AlignBegin=13123|AlignEnd=13604|Gloss=.|nWord=24
+# sent_timecode = 1116, 3317
+# morphemic_text = nan -i ni kʉ- kw =a'ba' =ri ,.
+# text = nari ni kʉkwa'ba'ri ,.
+# text_en = It's like this where we live,
+# text_phrase-gls-es = es así donde vivimos
+1	nan	nan	AUX	_	_	_	_	_	AlignBegin=1116|AlignEnd=1391|GE=[AUX]|Gloss=AUX|nWord=1|RX=[AUX]
+2	-i		VERB	_	_	_	_	_	AlignBegin=1391|AlignEnd=1666|GE=while|Gloss=while|nWord=1|RX=[VERB]
+3	ni	ni	AUX	_	_	_	_	_	AlignBegin=1666|AlignEnd=2216|GE=[DECL]|Gloss=DECL|nWord=2|RX=[AUX]
+4	kʉ-		V>V	_	_	_	_	_	AlignBegin=2216|AlignEnd=2354|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]
+5	kw	kw	V	_	_	_	_	_	AlignBegin=2354|AlignEnd=2492|GE=live|Gloss=live|nWord=3|RX=[V]
+6	=a'ba'		POST	_	_	_	_	_	AlignBegin=2492|AlignEnd=2630|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
+7	=ri		PRT	_	_	_	_	_	AlignBegin=2630|AlignEnd=2766|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
+8	,.		_	_	_	_	_	_	AlignBegin=2766|AlignEnd=3317|nWord=4
+
+# sent_id = CD15_02-02
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 3325, 7806
+# morphemic_text = kʉtʉkʉnʉn ikʉ kinki , eymi biga =gwi , ka'a chwi ,.
+# text = kʉtʉkʉnʉn ikʉ kinki , eymi bigagwi , ka' chwi ,.
+# text_en = first, Ika people, how many things, take care of the earth,
+# text_phrase-gls-es = primeramente los arhuacos, cuantas cosas [tienen bajo su responsabilidad], cuidar la tierra
+1	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=3325|AlignEnd=3773|GE=first|Gloss=first|nWord=1|RX=[ADV]
+2	ikʉ	ikʉ	NPROP	_	_	_	_	_	AlignBegin=3773|AlignEnd=4221|GE=[Ika]|Gloss=Ika|nWord=2|RX=[NPROP]
+3	kinki	kinki	PRT	_	_	_	_	_	AlignBegin=4221|AlignEnd=4669|GE=always|Gloss=always|nWord=3|RX=[PRT]
+4	,		_	_	_	_	_	_	AlignBegin=4669|AlignEnd=5117|nWord=4
+5	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=5117|AlignEnd=5565|GE=there|Gloss=there|nWord=5|RX=[ADV]
+6	biga	biga	INTERROG	_	_	_	_	_	AlignBegin=5565|AlignEnd=5789|GE=how.many|Gloss=how.many|nWord=6|RX=[INTERROG]
+7	=gwi		ADV	_	_	_	_	_	AlignBegin=5789|AlignEnd=6013|GE=also|Gloss==also|nWord=6|RX=[ADV]
+8	,		_	_	_	_	_	_	AlignBegin=6013|AlignEnd=6461|nWord=7
+9	ka'a	ka'a	N	_	_	_	_	_	AlignBegin=6461|AlignEnd=6909|GE=earth|Gloss=earth|nWord=8|RX=[N]
+10	chwi	chwi	V	_	_	_	_	_	AlignBegin=6909|AlignEnd=7357|GE=take.care|Gloss=take.care|nWord=9|RX=[V]
+11	,.		_	_	_	_	_	_	AlignBegin=7357|AlignEnd=7806|nWord=10
+
+# sent_id = CD15_03-03
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 8806, 13488
+# morphemic_text = ɉe , ɉwi , tima n -eyka =sin ʉn- kʉ- rigʉnsi zwey -ngwa n -eyka =ri ..
+# text = ɉe , ɉwi , tima neykasin ʉnkʉrigʉnsi zweyngwa neykari ..
+# text_en = be in harmony with the sun, the water, and the moon.
+# text_phrase-gls-es = el agua, el sol, y también con la luna estar en armonía
+1	ɉe	ɉe	N	_	_	_	_	_	AlignBegin=8806|AlignEnd=9274|GE=water|Gloss=water|nWord=1|RX=[N]
+2	,		_	_	_	_	_	_	AlignBegin=9274|AlignEnd=9742|nWord=2
+3	ɉwi	ɉwi	N	_	_	_	_	_	AlignBegin=9742|AlignEnd=10210|GE=sun|Gloss=sun|nWord=3|RX=[N]
+4	,		_	_	_	_	_	_	AlignBegin=10210|AlignEnd=10678|nWord=4
+5	tima	tima	N	_	_	_	_	_	AlignBegin=10678|AlignEnd=11146|GE=moon|Gloss=moon|nWord=5|RX=[N]
+6	n	n	AUX	_	_	_	_	_	AlignBegin=11146|AlignEnd=11302|GE=aux|Gloss=aux|nWord=6|RX=[AUX]
+7	-eyka		V:ANY	_	_	_	_	_	AlignBegin=11302|AlignEnd=11458|GE=[EYKA]|Gloss=EYKA|nWord=6|RX=[V:ANY]
+8	=sin		POST	_	_	_	_	_	AlignBegin=11458|AlignEnd=11614|GE=with|Gloss==with|nWord=6|RX=[POST]
+9	ʉn-		V>V	_	_	_	_	_	AlignBegin=11614|AlignEnd=11770|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
+10	kʉ-		V>V	_	_	_	_	_	AlignBegin=11770|AlignEnd=11926|GE=[APPL1]|Gloss=APPL1|nWord=7|RX=[V>V]
+11	rigʉnsi	rigʉnsi	V	_	_	_	_	_	AlignBegin=11926|AlignEnd=12082|GE=be.in.harmony|Gloss=be.in.harmony|nWord=7|RX=[V]
+12	zwey	zwey	VI	_	_	_	_	_	AlignBegin=12082|AlignEnd=12316|GE=go|Gloss=go|nWord=8|RX=[VI]
+13	-ngwa		VERB	_	_	_	_	_	AlignBegin=12316|AlignEnd=12550|GE=[FUT]|Gloss=FUT|nWord=8|RX=[VERB]
+14	n	n	AUX	_	_	_	_	_	AlignBegin=12550|AlignEnd=12706|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
+15	-eyka		V:ANY	_	_	_	_	_	AlignBegin=12706|AlignEnd=12862|GE=[EYKA]|Gloss=EYKA|nWord=9|RX=[V:ANY]
+16	=ri		PRT	_	_	_	_	_	AlignBegin=12862|AlignEnd=13018|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
+17	..		_	_	_	_	_	_	AlignBegin=13018|AlignEnd=13488|nWord=10
 
 # sent_id = CD15_04-04
-# speaker_id = @SP1
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 13604, 18249
+# sent_timecode = 13490, 17695
 # morphemic_text = ma'keywa nʉn -kʉrwa nu' nan -i iwa a- y -ʉn nug -a nʉn =di .
 # text = ma'keywa nʉnkʉrwa nu' nari iwa ayʉn nuga nʉndi .
 # text_en = We're saying that we're four people.
 # text_phrase-gls-es = Estamos diciendo que somos cuatro pueblos.
-1	ma'keywa	ma'keywa	NUM	_	_	_	_	_	AlignBegin=13604|AlignEnd=14120|GE=four|Gloss=four|nWord=1|RX=[NUM]
-2	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=14120|AlignEnd=14378|GE=cop|Gloss=cop|nWord=2|RX=[COP]
-3	-kʉrwa		V:ANY	_	_	_	_	_	AlignBegin=14378|AlignEnd=14636|GE=[1PL].[S].[INCL]|Gloss=1PL.S.INCL|nWord=2|RX=[V:ANY]
-4	nu'	nu'	COP	_	_	_	_	_	AlignBegin=14636|AlignEnd=15152|GE=aux|Gloss=aux|nWord=3|RX=[COP]
-5	nan	nan	AUX	_	_	_	_	_	AlignBegin=15152|AlignEnd=15410|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
-6	-i		VERB	_	_	_	_	_	AlignBegin=15410|AlignEnd=15668|GE=while|Gloss=while|nWord=4|RX=[VERB]
-7	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=15668|AlignEnd=16184|GE=now|Gloss=now|nWord=5|RX=[ADV]
-8	a-		V:ANY	_	_	_	_	_	AlignBegin=16184|AlignEnd=16356|GE=[1PL].[S]|Gloss=1PL.S|nWord=6|RX=[V:ANY]
-9	y	y	VI	_	_	_	_	_	AlignBegin=16356|AlignEnd=16528|GE=say|Gloss=say|nWord=6|RX=[VI]
-10	-ʉn		VERB	_	_	_	_	_	AlignBegin=16528|AlignEnd=16700|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
-11	nug	nug	AUX	_	_	_	_	_	AlignBegin=16700|AlignEnd=16958|GE=aux|Gloss=aux|nWord=7|RX=[AUX]
-12	-a		V:ANY	_	_	_	_	_	AlignBegin=16958|AlignEnd=17216|GE=[NONEGO]|Gloss=NONEGO|nWord=7|RX=[V:ANY]
-13	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=17216|AlignEnd=17474|GE=cop|Gloss=cop|nWord=8|RX=[COP]
-14	=di		PRT	_	_	_	_	_	AlignBegin=17474|AlignEnd=17732|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
-15	.		.	_	_	_	_	_	AlignBegin=17732|AlignEnd=18249|Gloss=.|nWord=9
+1	ma'keywa	ma'keywa	NUM	_	_	_	_	_	AlignBegin=13490|AlignEnd=13957|GE=four|Gloss=four|nWord=1|RX=[NUM]
+2	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=13957|AlignEnd=14191|GE=cop|Gloss=cop|nWord=2|RX=[COP]
+3	-kʉrwa		V:ANY	_	_	_	_	_	AlignBegin=14191|AlignEnd=14424|GE=[1PL].[S].[INCL]|Gloss=1PL.S.INCL|nWord=2|RX=[V:ANY]
+4	nu'	nu'	COP	_	_	_	_	_	AlignBegin=14424|AlignEnd=14891|GE=aux|Gloss=aux|nWord=3|RX=[COP]
+5	nan	nan	AUX	_	_	_	_	_	AlignBegin=14891|AlignEnd=15125|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
+6	-i		VERB	_	_	_	_	_	AlignBegin=15125|AlignEnd=15358|GE=while|Gloss=while|nWord=4|RX=[VERB]
+7	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=15358|AlignEnd=15825|GE=now|Gloss=now|nWord=5|RX=[ADV]
+8	a-		V:ANY	_	_	_	_	_	AlignBegin=15825|AlignEnd=15981|GE=[1PL].[S]|Gloss=1PL.S|nWord=6|RX=[V:ANY]
+9	y	y	VI	_	_	_	_	_	AlignBegin=15981|AlignEnd=16137|GE=say|Gloss=say|nWord=6|RX=[VI]
+10	-ʉn		VERB	_	_	_	_	_	AlignBegin=16137|AlignEnd=16292|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
+11	nug	nug	AUX	_	_	_	_	_	AlignBegin=16292|AlignEnd=16526|GE=aux|Gloss=aux|nWord=7|RX=[AUX]
+12	-a		V:ANY	_	_	_	_	_	AlignBegin=16526|AlignEnd=16759|GE=[NONEGO]|Gloss=NONEGO|nWord=7|RX=[V:ANY]
+13	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=16759|AlignEnd=16993|GE=cop|Gloss=cop|nWord=8|RX=[COP]
+14	=di		PRT	_	_	_	_	_	AlignBegin=16993|AlignEnd=17226|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+15	.		.	_	_	_	_	_	AlignBegin=17226|AlignEnd=17695|Gloss=.|nWord=9
 
-# sent_id = CD15_05-06
-# speaker_id = @SP1
+# sent_id = CD15_05-05
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 18320, 31229
-# morphemic_text = ey andi , kankwamʉ neki nʉ -ndi , ima =ri nan -i =ri dikin =gwi ( eh ) kunsamʉ nʉ- kʉnari .
-# text = ey andi , kankwamʉ neki nʉndi , imari nariri dikingwi ( eh ) kunsamʉ nʉkʉnari .
-# text_en = for example, if [referring to] the Kankuamo people,. they [lit. you] also have the same culture. | nü> mal dicho, correcto: winü-künari.
-# text_phrase-gls-es = por ejemplo, si es el Kankuamo, ellos también tienen la misma cultura [fuerza]
+# sent_timecode = 18317, 24232
+# morphemic_text = ey andi , kankwamʉ neki nʉ -ndi ,.
+# text = ey andi , kankwamʉ neki nʉndi ,.
+# text_en = for example, if [referring to] the Kankuamo people,
+# text_phrase-gls-es = por ejemplo, si es el Kankuamo,
 # text_phrase-gls-tl = ey andi = for example
-1	ey	ey	PRT	_	_	_	_	_	AlignBegin=18320|AlignEnd=19164|GE=so|Gloss=so|nWord=1|RX=[PRT]
-2	andi	andi	ADV	_	_	_	_	_	AlignBegin=19164|AlignEnd=20008|GE=so|Gloss=so|nWord=2|RX=[ADV]
-3	,		_	_	_	_	_	_	AlignBegin=20008|AlignEnd=20852|nWord=3
-4	kankwamʉ	kankwamʉ	NPROP	_	_	_	_	_	AlignBegin=20852|AlignEnd=21696|GE=[Kankuamo].[people]|Gloss=Kankuamo.people|nWord=4|RX=[NPROP]
-5	neki	neki	PRT	_	_	_	_	_	AlignBegin=21696|AlignEnd=22540|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
-6	nʉ	nʉ	AUX	_	_	_	_	_	AlignBegin=22540|AlignEnd=22962|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
-7	-ndi		V:ANY	_	_	_	_	_	AlignBegin=22962|AlignEnd=23384|GE=[COND]|Gloss=COND|nWord=6|RX=[V:ANY]
-8	,		_	_	_	_	_	_	AlignBegin=23384|AlignEnd=24229|nWord=7
-9	ima	ima	DEM	_	_	_	_	_	AlignBegin=24249|AlignEnd=24637|GE=this|Gloss=this|nWord=8|RX=[DEM]
-10	=ri		PRT	_	_	_	_	_	AlignBegin=24637|AlignEnd=25025|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
-11	nan	nan	AUX	_	_	_	_	_	AlignBegin=25025|AlignEnd=25284|GE=[AUX]|Gloss=AUX|nWord=9|RX=[AUX]
-12	-i		VERB	_	_	_	_	_	AlignBegin=25284|AlignEnd=25543|GE=while|Gloss=while|nWord=9|RX=[VERB]
-13	=ri		PRT	_	_	_	_	_	AlignBegin=25543|AlignEnd=25801|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-14	dikin	dikin	ADV	_	_	_	_	_	AlignBegin=25801|AlignEnd=26189|GE=same|Gloss=same|nWord=10|RX=[ADV]
-15	=gwi		ADV	_	_	_	_	_	AlignBegin=26189|AlignEnd=26577|GE=also|Gloss==also|nWord=10|RX=[ADV]
-16	(		_	_	_	_	_	_	AlignBegin=26577|AlignEnd=27353|nWord=11
-17	eh	eh	INTERJ	_	_	_	_	_	AlignBegin=27353|AlignEnd=28129|GE=[HES]|Gloss=HES|nWord=12|RX=[INTERJ]
-18	)		_	_	_	_	_	_	AlignBegin=28129|AlignEnd=28905|nWord=13
-19	kunsamʉ	kunsamʉ	N	_	_	_	_	_	AlignBegin=28905|AlignEnd=29681|GE=nature's.law|Gloss=nature's.law|nWord=14|RX=[N]
-20	nʉ-		V:ANY	_	_	_	_	_	AlignBegin=29681|AlignEnd=30069|GE=[1SG].[O]|Gloss=1SG.O|nWord=15|RX=[V:ANY]
-21	kʉnari	kʉnari	VT	_	_	_	_	_	AlignBegin=30069|AlignEnd=30457|GE=have|Gloss=have|nWord=15|RX=[VT]
-22	.		.	_	_	_	_	_	AlignBegin=30457|AlignEnd=31229|Gloss=.|nWord=16
+1	ey	ey	PRT	_	_	_	_	_	AlignBegin=18317|AlignEnd=19162|GE=so|Gloss=so|nWord=1|RX=[PRT]
+2	andi	andi	ADV	_	_	_	_	_	AlignBegin=19162|AlignEnd=20007|GE=so|Gloss=so|nWord=2|RX=[ADV]
+3	,		_	_	_	_	_	_	AlignBegin=20007|AlignEnd=20852|nWord=3
+4	kankwamʉ	kankwamʉ	NPROP	_	_	_	_	_	AlignBegin=20852|AlignEnd=21697|GE=[Kankuamo].[people]|Gloss=Kankuamo.people|nWord=4|RX=[NPROP]
+5	neki	neki	PRT	_	_	_	_	_	AlignBegin=21697|AlignEnd=22542|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
+6	nʉ	nʉ	AUX	_	_	_	_	_	AlignBegin=22542|AlignEnd=22964|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
+7	-ndi		V:ANY	_	_	_	_	_	AlignBegin=22964|AlignEnd=23387|GE=[COND]|Gloss=COND|nWord=6|RX=[V:ANY]
+8	,.		_	_	_	_	_	_	AlignBegin=23387|AlignEnd=24232|nWord=7
 
-# sent_id = CD15_07-20
-# speaker_id = @SP1
+# sent_id = CD15_06-06
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 31229, 96041
-# morphemic_text = ʉya a'we -kuma -na , i'ngwi ʉn- k- ipan -na =gwi nan -i =ri , zwey -n nug -a na' , nʉn -no ? ʉw -e' =ki ingiti ʉn- zori gunti , ( mhm ) yuga =ɉina =sin anʉn- kʉnari ʉn- zwey -n nus -i nʉn =kʉ =ri , ingiti mʉkʉ anʉn- ki- za- 'tikuma =gwi , ga'kʉnamʉ anʉn- ki- za- 'tikuma =gwi , eymʉnka' n -eyka =ri , ikʉ nʉn -kw =a'ba' =ri , ingʉ =ri , bunachʉ =sin yuga =ɉina =sin na' , nʉn -no ? ( ehm ) ingiti ga'kʉnamʉ anʉn- k- ipari zwey -kw =a'ba' =ri ingʉ =ri , ( mhm ) dikin diney =gwi zʉn na' , nʉn -no ? nan -i kinki =ri a- kingwi zʉn kunsamʉ kʉ- chu -kuma -na ( ay -e' ) aw -e' =ki eyma i'ngwi diwʉn nig =a'ba' =ri , mʉkʉ ʉn- kʉ- cho'sʉ -y =a'ba' , ga' ʉn- gawi =ri ʉya kinki a'zʉna =se' =ri ayey =gwi ga' ʉn- gawi =ri zwey -n nug -a nan -i =ri , kinki =ri na' , nʉn -no ? aw -e' =ki ga' ʉn- gaw -i zwey -kw =a'ba' , asay zwey -kw =a'ba' , ikʉndi anʉn- ki- za- 'tikuma -na , ey , ikʉ na , ( ik ) ikʉ -n asay -kwa zan -a anʉn- ki- za- 'tikuma -na ni .
-# text = ʉya a'wekumana , i'ngwi ʉnkipannagwi nariri , zweyn nuga na' , nʉnno ? ʉwe'ki ingiti ʉnzori gunti , ( mhm ) yugaɉinasin anʉnkʉnari ʉnzweyn nusi nʉnkʉri , ingiti mʉkʉ anʉnkiza'tikumagwi , ga'kʉnamʉ anʉnkiza'tikumagwi , eymʉnka' neykari , ikʉ nʉnkwa'ba'ri , ingʉri , bunachʉsin yugaɉinasin na' , nʉnno ? ( ehm ) ingiti ga'kʉnamʉ anʉnkipari zweykwa'ba'ri ingʉri , ( mhm ) dikin dineygwi zʉn na' , nʉnno ? nari kinkiri akingwi zʉn kunsamʉ kʉchukumana ( aye' ) awe'ki eyma i'ngwi diwʉn niga'ba'ri , mʉkʉ ʉnkʉcho'sʉya'ba' , ga' ʉngawiri ʉya kinki a'zʉnase'ri ayeygwi ga' ʉngawiri zweyn nuga nariri , kinkiri na' , nʉnno ? awe'ki ga' ʉngawi zweykwa'ba' , asay zweykwa'ba' , ikʉndi anʉnkiza'tikumana , ey , ikʉ na , ( ik ) ikʉn asaykwa zana anʉnkiza'tikumana ni .
-# text_en = this was given to them,. they received it [lit. one],. they go like this, right?. but as they move forward,. from hanging out with the younger brothers,. they are slowly forgetting their traditional way of dressing [lit. clothes],. they are also forgetting their language,. Those who are here, being indigenous, well, are with the non-indigenous people, with the younger brothers, right?. the way of exchanging the language little by little, well, it's the same, right?. But the same law was left to them. But what makes them different, is the way of dressing,. do traditional work, those who think about it are also still doing traditional work, it's like this, right?. But the way of doing the traditional work, the way of speaking, they lost their language,. so, indigenous people, they lost being able to speak in [their] indigenous language.
-# text_phrase-gls-es = esto les entregaron, ellos lo recibieron así es que van [diariamente de la cultura, con ciertas herramientas] pero a medida que avanzan De tanto juntarse con los hermanos menores van perdiendo lentamente la ropa así mismo va perdiendo el idioma Los que están acá, en el sentido de ser indígena están con los bunachi, con los hermanos menores, cierto? la forma de intercambiar el idioma poco a poco well, ambos son lo mismo, cierto? pero les dejaron la misma tradición Pero, lo que los hace diferente es la forma de vestir los que hacen el trabajo tradicional fielmente [lit. los que piensan en hacer el trabajo tradicional], también siguen haciendo el trabajo tradicional, es así, cierto? pero la forma de seguir haciendo el trabajo tradicional la forma de hablar perdierdon la lengua la forma de hablar la han perdido.
-# text_phrase-gls-tl = anünkünari > juntarse, reunirse/meet anünkipari = intercambiar/exchange ga üngawi = hacer trabajo tradicional; [O=ri S=se'=ri V] O V
-1	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=31229|AlignEnd=31583|GE=this|Gloss=this|nWord=1|RX=[PRO]
-2	a'we	a'we	VD	_	_	_	_	_	AlignBegin=31583|AlignEnd=31701|GE=give|Gloss=give|nWord=2|RX=[VD]
-3	-kuma		V:ANY	_	_	_	_	_	AlignBegin=31701|AlignEnd=31819|GE=[ANTIC]|Gloss=ANTIC|nWord=2|RX=[V:ANY]
-4	-na		VERB	_	_	_	_	_	AlignBegin=31819|AlignEnd=31937|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
-5	,		_	_	_	_	_	_	AlignBegin=31937|AlignEnd=32291|nWord=3
-6	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=32291|AlignEnd=32520|GE=one|Gloss=one|nWord=4|RX=[NUM]
-7	ʉn-		V>V	_	_	_	_	_	AlignBegin=32520|AlignEnd=32566|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
-8	k-		V>V	_	_	_	_	_	AlignBegin=32566|AlignEnd=32612|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
-9	ipan	ipan	V	_	_	_	_	_	AlignBegin=32612|AlignEnd=32658|GE=receive|Gloss=receive|nWord=5|RX=[V]
-10	-na		VERB	_	_	_	_	_	AlignBegin=32658|AlignEnd=32704|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
-11	=gwi		ADV	_	_	_	_	_	AlignBegin=32704|AlignEnd=32749|GE=also|Gloss==also|nWord=5|RX=[ADV]
-12	nan	nan	AUX	_	_	_	_	_	AlignBegin=32749|AlignEnd=32825|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
-13	-i		VERB	_	_	_	_	_	AlignBegin=32825|AlignEnd=32901|GE=while|Gloss=while|nWord=6|RX=[VERB]
-14	=ri		PRT	_	_	_	_	_	AlignBegin=32901|AlignEnd=32978|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
-15	,		_	_	_	_	_	_	AlignBegin=32978|AlignEnd=33208|nWord=7
-16	zwey	zwey	VI	_	_	_	_	_	AlignBegin=33229|AlignEnd=33366|GE=go|Gloss=go|nWord=8|RX=[VI]
-17	-n		VERB	_	_	_	_	_	AlignBegin=33366|AlignEnd=33503|GE=[IPFV]|Gloss=IPFV|nWord=8|RX=[VERB]
-18	nug	nug	AUX	_	_	_	_	_	AlignBegin=33503|AlignEnd=33640|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
-19	-a		V:ANY	_	_	_	_	_	AlignBegin=33640|AlignEnd=33777|GE=[NONEGO]|Gloss=NONEGO|nWord=9|RX=[V:ANY]
-20	na'	na'	AUX	_	_	_	_	_	AlignBegin=33777|AlignEnd=34051|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
-21	,		_	_	_	_	_	_	AlignBegin=34051|AlignEnd=34325|nWord=11
-22	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=34325|AlignEnd=34462|GE=cop|Gloss=cop|nWord=12|RX=[COP]
-23	-no		VERB	_	_	_	_	_	AlignBegin=34462|AlignEnd=34599|GE=[Q]|Gloss=Q|nWord=12|RX=[VERB]
-24	?		?	_	_	_	_	_	AlignBegin=34599|AlignEnd=34874|GE=[?]|Gloss=?|nWord=13
-25	ʉw	ʉw	AUX	_	_	_	_	_	AlignBegin=34874|AlignEnd=35137|GE=aux|Gloss=aux|nWord=14|RX=[AUX]
-26	-e'		VERB	_	_	_	_	_	AlignBegin=35137|AlignEnd=35400|GE=then|Gloss=then|nWord=14|RX=[VERB]
-27	=ki		POST	_	_	_	_	_	AlignBegin=35400|AlignEnd=35662|GE=[CNTR]|Gloss==CNTR|nWord=14|RX=[POST]
-28	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=35662|AlignEnd=36450|GE=little|Gloss=little|nWord=15|RX=[ADV]
-29	ʉn-		V>V	_	_	_	_	_	AlignBegin=36450|AlignEnd=36844|GE=[MID]|Gloss=MID|nWord=16|RX=[V>V]
-30	zori	zori	V	_	_	_	_	_	AlignBegin=36844|AlignEnd=37238|GE=go|Gloss=go|nWord=16|RX=[V]
-31	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=37238|AlignEnd=38026|GE=all|Gloss=all|nWord=17|RX=[ADV]
-32	,		_	_	_	_	_	_	AlignBegin=38026|AlignEnd=38812|nWord=18
-33	(		_	_	_	_	_	_	AlignBegin=38812|AlignEnd=39388|nWord=19
-34	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=39388|AlignEnd=39964|GE=[HES]|Gloss=HES|nWord=20|RX=[INTERJ]
-35	)		_	_	_	_	_	_	AlignBegin=39964|AlignEnd=40540|nWord=21
-36	yuga	yuga	N	_	_	_	_	_	AlignBegin=40540|AlignEnd=40732|GE=little.brother|Gloss=little.brother|nWord=22|RX=[N]
-37	=ɉina		DET	_	_	_	_	_	AlignBegin=40732|AlignEnd=40924|GE=many[animated]|Gloss==many[animated]|nWord=22|RX=[DET]
-38	=sin		POST	_	_	_	_	_	AlignBegin=40924|AlignEnd=41116|GE=with|Gloss==with|nWord=22|RX=[POST]
-39	anʉn-		V>V	_	_	_	_	_	AlignBegin=41116|AlignEnd=41404|GE=[MID]|Gloss=MID|nWord=23|RX=[V>V]
-40	kʉnari	kʉnari	VT	_	_	_	_	_	AlignBegin=41404|AlignEnd=41692|GE=have|Gloss=have|nWord=23|RX=[VT]
-41	ʉn-		V>V	_	_	_	_	_	AlignBegin=41692|AlignEnd=41884|GE=[MID]|Gloss=MID|nWord=24|RX=[V>V]
-42	zwey	zwey	VI	_	_	_	_	_	AlignBegin=41884|AlignEnd=42076|GE=go|Gloss=go|nWord=24|RX=[VI]
-43	-n		VERB	_	_	_	_	_	AlignBegin=42076|AlignEnd=42268|GE=[IPFV]|Gloss=IPFV|nWord=24|RX=[VERB]
-44	nus	nus	COP	_	_	_	_	_	AlignBegin=42268|AlignEnd=42556|GE=aux|Gloss=aux|nWord=25|RX=[COP]
-45	-i		VERB	_	_	_	_	_	AlignBegin=42556|AlignEnd=42844|GE=while|Gloss=while|nWord=25|RX=[VERB]
-46	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=42844|AlignEnd=43036|GE=cop|Gloss=cop|nWord=26|RX=[COP]
-47	=kʉ		POST	_	_	_	_	_	AlignBegin=43036|AlignEnd=43228|GE=[CNTR]|Gloss==CNTR|nWord=26|RX=[POST]
-48	=ri		PRT	_	_	_	_	_	AlignBegin=43228|AlignEnd=43420|GE=[TOP]|Gloss==TOP|nWord=26|RX=[PRT]
-49	,		_	_	_	_	_	_	AlignBegin=43420|AlignEnd=43999|nWord=27
-50	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=43999|AlignEnd=44733|GE=little|Gloss=little|nWord=28|RX=[ADV]
-51	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=44733|AlignEnd=45467|GE=cloth|Gloss=cloth|nWord=29|RX=[N]
-52	anʉn-		V>V	_	_	_	_	_	AlignBegin=45467|AlignEnd=45614|GE=[MID]|Gloss=MID|nWord=30|RX=[V>V]
-53	ki-		VERB	_	_	_	_	_	AlignBegin=45614|AlignEnd=45761|GE=[APPL3]|Gloss=APPL3|nWord=30|RX=[VERB]
-54	za-		V:ANY	_	_	_	_	_	AlignBegin=45761|AlignEnd=45908|GE=[ZA]|Gloss=ZA|nWord=30|RX=[V:ANY]
-55	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=45908|AlignEnd=46055|GE=forget|Gloss=forget|nWord=30|RX=[VI]
-56	=gwi		ADV	_	_	_	_	_	AlignBegin=46055|AlignEnd=46201|GE=also|Gloss==also|nWord=30|RX=[ADV]
-57	,		_	_	_	_	_	_	AlignBegin=46201|AlignEnd=46937|nWord=31
-58	ga'kʉnamʉ	ga'kʉnamʉ	N	_	_	_	_	_	AlignBegin=46958|AlignEnd=47737|GE=language|Gloss=language|nWord=32|RX=[N]
-59	anʉn-		V>V	_	_	_	_	_	AlignBegin=47737|AlignEnd=47893|GE=[MID]|Gloss=MID|nWord=33|RX=[V>V]
-60	ki-		VERB	_	_	_	_	_	AlignBegin=47893|AlignEnd=48049|GE=[APPL3]|Gloss=APPL3|nWord=33|RX=[VERB]
-61	za-		V:ANY	_	_	_	_	_	AlignBegin=48049|AlignEnd=48205|GE=[ZA]|Gloss=ZA|nWord=33|RX=[V:ANY]
-62	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=48205|AlignEnd=48361|GE=forget|Gloss=forget|nWord=33|RX=[VI]
-63	=gwi		ADV	_	_	_	_	_	AlignBegin=48361|AlignEnd=48516|GE=also|Gloss==also|nWord=33|RX=[ADV]
-64	,		_	_	_	_	_	_	AlignBegin=48516|AlignEnd=49296|nWord=34
-65	eymʉnka'	eymʉnka'	ADV	_	_	_	_	_	AlignBegin=49354|AlignEnd=50241|GE=here|Gloss=here|nWord=35|RX=[ADV]
-66	n	n	AUX	_	_	_	_	_	AlignBegin=50241|AlignEnd=50537|GE=aux|Gloss=aux|nWord=36|RX=[AUX]
-67	-eyka		V:ANY	_	_	_	_	_	AlignBegin=50537|AlignEnd=50833|GE=[EYKA]|Gloss=EYKA|nWord=36|RX=[V:ANY]
-68	=ri		PRT	_	_	_	_	_	AlignBegin=50833|AlignEnd=51128|GE=[TOP]|Gloss==TOP|nWord=36|RX=[PRT]
-69	,		_	_	_	_	_	_	AlignBegin=51128|AlignEnd=52015|nWord=37
-70	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=52015|AlignEnd=52902|GE=indigenous.person|Gloss=indigenous.person|nWord=38|RX=[N]
-71	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=52902|AlignEnd=53124|GE=cop|Gloss=cop|nWord=39|RX=[COP]
-72	-kw		VERB	_	_	_	_	_	AlignBegin=53124|AlignEnd=53346|GE=[ABLE]|Gloss=ABLE|nWord=39|RX=[VERB]
-73	=a'ba'		POST	_	_	_	_	_	AlignBegin=53346|AlignEnd=53568|GE=[LOC]|Gloss==LOC|nWord=39|RX=[POST]
-74	=ri		PRT	_	_	_	_	_	AlignBegin=53568|AlignEnd=53789|GE=[TOP]|Gloss==TOP|nWord=39|RX=[PRT]
-75	,		_	_	_	_	_	_	AlignBegin=53789|AlignEnd=54676|nWord=40
-76	ingʉ	ingʉ	INTERJ	_	_	_	_	_	AlignBegin=54676|AlignEnd=55120|GE=well|Gloss=well|nWord=41|RX=[INTERJ]
-77	=ri		PRT	_	_	_	_	_	AlignBegin=55120|AlignEnd=55563|GE=[TOP]|Gloss==TOP|nWord=41|RX=[PRT]
-78	,		_	_	_	_	_	_	AlignBegin=55563|AlignEnd=56450|nWord=42
-79	bunachʉ	bunachʉ	N	_	_	_	_	_	AlignBegin=56450|AlignEnd=56894|GE=non-indigenous person|Gloss=non-indigenous person|nWord=43|RX=[N]
-80	=sin		POST	_	_	_	_	_	AlignBegin=56894|AlignEnd=57337|GE=with|Gloss==with|nWord=43|RX=[POST]
-81	yuga	yuga	N	_	_	_	_	_	AlignBegin=57337|AlignEnd=57633|GE=little.brother|Gloss=little.brother|nWord=44|RX=[N]
-82	=ɉina		DET	_	_	_	_	_	AlignBegin=57633|AlignEnd=57929|GE=many[animated]|Gloss==many[animated]|nWord=44|RX=[DET]
-83	=sin		POST	_	_	_	_	_	AlignBegin=57929|AlignEnd=58224|GE=with|Gloss==with|nWord=44|RX=[POST]
-84	na'	na'	AUX	_	_	_	_	_	AlignBegin=58224|AlignEnd=59111|GE=[AUX]|Gloss=AUX|nWord=45|RX=[AUX]
-85	,		_	_	_	_	_	_	AlignBegin=59111|AlignEnd=59998|nWord=46
-86	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=59998|AlignEnd=60442|GE=cop|Gloss=cop|nWord=47|RX=[COP]
-87	-no		VERB	_	_	_	_	_	AlignBegin=60442|AlignEnd=60885|GE=[Q]|Gloss=Q|nWord=47|RX=[VERB]
-88	?		?	_	_	_	_	_	AlignBegin=60885|AlignEnd=61770|GE=[?]|Gloss=?|nWord=48
-89	(		_	_	_	_	_	_	AlignBegin=61791|AlignEnd=62181|nWord=49
-90	ehm	ehm	INTERJ	_	_	_	_	_	AlignBegin=62181|AlignEnd=62571|GE=[HES]|Gloss=HES|nWord=50|RX=[INTERJ]
-91	)		_	_	_	_	_	_	AlignBegin=62571|AlignEnd=62961|nWord=51
-92	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=62961|AlignEnd=63351|GE=little|Gloss=little|nWord=52|RX=[ADV]
-93	ga'kʉnamʉ	ga'kʉnamʉ	N	_	_	_	_	_	AlignBegin=63351|AlignEnd=63741|GE=language|Gloss=language|nWord=53|RX=[N]
-94	anʉn-		V>V	_	_	_	_	_	AlignBegin=63741|AlignEnd=63871|GE=[MID]|Gloss=MID|nWord=54|RX=[V>V]
-95	k-		V>V	_	_	_	_	_	AlignBegin=63871|AlignEnd=64001|GE=[APPL1]|Gloss=APPL1|nWord=54|RX=[V>V]
-96	ipari	ipari	V	_	_	_	_	_	AlignBegin=64001|AlignEnd=64131|GE=receive|Gloss=receive|nWord=54|RX=[V]
-97	zwey	zwey	VI	_	_	_	_	_	AlignBegin=64131|AlignEnd=64229|GE=go|Gloss=go|nWord=55|RX=[VI]
-98	-kw		VERB	_	_	_	_	_	AlignBegin=64229|AlignEnd=64327|GE=[ABLE]|Gloss=ABLE|nWord=55|RX=[VERB]
-99	=a'ba'		POST	_	_	_	_	_	AlignBegin=64327|AlignEnd=64425|GE=[LOC]|Gloss==LOC|nWord=55|RX=[POST]
-100	=ri		PRT	_	_	_	_	_	AlignBegin=64425|AlignEnd=64521|GE=[TOP]|Gloss==TOP|nWord=55|RX=[PRT]
-101	ingʉ	ingʉ	INTERJ	_	_	_	_	_	AlignBegin=64521|AlignEnd=64716|GE=well|Gloss=well|nWord=56|RX=[INTERJ]
-102	=ri		PRT	_	_	_	_	_	AlignBegin=64716|AlignEnd=64911|GE=[TOP]|Gloss==TOP|nWord=56|RX=[PRT]
-103	,		_	_	_	_	_	_	AlignBegin=64911|AlignEnd=65301|nWord=57
-104	(		_	_	_	_	_	_	AlignBegin=65301|AlignEnd=65691|nWord=58
-105	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=65691|AlignEnd=66081|GE=[HES]|Gloss=HES|nWord=59|RX=[INTERJ]
-106	)		_	_	_	_	_	_	AlignBegin=66081|AlignEnd=66471|nWord=60
-107	dikin	dikin	ADV	_	_	_	_	_	AlignBegin=66471|AlignEnd=66861|GE=same|Gloss=same|nWord=61|RX=[ADV]
-108	diney	diney	ADV	_	_	_	_	_	AlignBegin=66861|AlignEnd=67056|GE=similar|Gloss=similar|nWord=62|RX=[ADV]
-109	=gwi		ADV	_	_	_	_	_	AlignBegin=67056|AlignEnd=67251|GE=also|Gloss==also|nWord=62|RX=[ADV]
-110	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=67251|AlignEnd=67641|GE=[COP]|Gloss=COP|nWord=63|RX=[COP]
-111	na'	na'	AUX	_	_	_	_	_	AlignBegin=67641|AlignEnd=68031|GE=[AUX]|Gloss=AUX|nWord=64|RX=[AUX]
-112	,		_	_	_	_	_	_	AlignBegin=68031|AlignEnd=68421|nWord=65
-113	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=68421|AlignEnd=68616|GE=cop|Gloss=cop|nWord=66|RX=[COP]
-114	-no		VERB	_	_	_	_	_	AlignBegin=68616|AlignEnd=68811|GE=[Q]|Gloss=Q|nWord=66|RX=[VERB]
-115	?		?	_	_	_	_	_	AlignBegin=68811|AlignEnd=69208|GE=[?]|Gloss=?|nWord=67
-116	nan	nan	AUX	_	_	_	_	_	AlignBegin=69229|AlignEnd=69536|GE=[AUX]|Gloss=AUX|nWord=68|RX=[AUX]
-117	-i		VERB	_	_	_	_	_	AlignBegin=69536|AlignEnd=69843|GE=while|Gloss=while|nWord=68|RX=[VERB]
-118	kinki	kinki	ADV	_	_	_	_	_	AlignBegin=69843|AlignEnd=70150|GE=really|Gloss=really|nWord=69|RX=[ADV]
-119	=ri		PRT	_	_	_	_	_	AlignBegin=70150|AlignEnd=70457|GE=[TOP]|Gloss==TOP|nWord=69|RX=[PRT]
-120	a-		POSS	_	_	_	_	_	AlignBegin=70457|AlignEnd=70764|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=70|RX=[POSS]
-121	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=70764|AlignEnd=71071|GE=same|Gloss=same|nWord=70|RX=[ADJ]
-122	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=71071|AlignEnd=71685|GE=[COP]|Gloss=COP|nWord=71|RX=[COP]
-123	kunsamʉ	kunsamʉ	N	_	_	_	_	_	AlignBegin=71685|AlignEnd=72299|GE=nature's.law|Gloss=nature's.law|nWord=72|RX=[N]
-124	kʉ-		V>V	_	_	_	_	_	AlignBegin=72299|AlignEnd=72453|GE=[APPL1]|Gloss=APPL1|nWord=73|RX=[V>V]
-125	chu	chu	V	_	_	_	_	_	AlignBegin=72453|AlignEnd=72607|GE=leave|Gloss=leave|nWord=73|RX=[V]
-126	-kuma		V:ANY	_	_	_	_	_	AlignBegin=72607|AlignEnd=72761|GE=[ANTIC]|Gloss=ANTIC|nWord=73|RX=[V:ANY]
-127	-na		VERB	_	_	_	_	_	AlignBegin=72761|AlignEnd=72916|GE=[RMTPST]|Gloss=RMTPST|nWord=73|RX=[VERB]
-128	(		_	_	_	_	_	_	AlignBegin=72916|AlignEnd=73289|nWord=74
-129	ay	ay	INTERJ	_	_	_	_	_	AlignBegin=73289|AlignEnd=73475|GE=well|Gloss=well|nWord=75|RX=[INTERJ]
-130	-e'		VERB	_	_	_	_	_	AlignBegin=73475|AlignEnd=73662|GE=then|Gloss=then|nWord=75|RX=[VERB]
-131	)		_	_	_	_	_	_	AlignBegin=73662|AlignEnd=74035|nWord=76
-132	aw	aw	AUX	_	_	_	_	_	AlignBegin=74035|AlignEnd=74159|GE=aux|Gloss=aux|nWord=77|RX=[AUX]
-133	-e'		VERB	_	_	_	_	_	AlignBegin=74159|AlignEnd=74283|GE=then|Gloss=then|nWord=77|RX=[VERB]
-134	=ki		POST	_	_	_	_	_	AlignBegin=74283|AlignEnd=74408|GE=[CNTR]|Gloss==CNTR|nWord=77|RX=[POST]
-135	eyma	eyma	DEM	_	_	_	_	_	AlignBegin=74408|AlignEnd=74781|GE=this|Gloss=this|nWord=78|RX=[DEM]
-136	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=74781|AlignEnd=75154|GE=one|Gloss=one|nWord=79|RX=[NUM]
-137	diwʉn	diwʉn	ADJ	_	_	_	_	_	AlignBegin=75154|AlignEnd=75527|GE=different|Gloss=different|nWord=80|RX=[ADJ]
-138	nig	nig	V	_	_	_	_	_	AlignBegin=75527|AlignEnd=75651|GE=do|Gloss=do|nWord=81|RX=[V]
-139	=a'ba'		POST	_	_	_	_	_	AlignBegin=75651|AlignEnd=75775|GE=[NOM]|Gloss==NOM|nWord=81|RX=[POST]
-140	=ri		PRT	_	_	_	_	_	AlignBegin=75775|AlignEnd=75900|GE=[TOP]|Gloss==TOP|nWord=81|RX=[PRT]
-141	,		_	_	_	_	_	_	AlignBegin=75900|AlignEnd=76273|nWord=82
-142	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=76273|AlignEnd=76646|GE=cloth|Gloss=cloth|nWord=83|RX=[N]
-143	ʉn-		V>V	_	_	_	_	_	AlignBegin=76646|AlignEnd=76721|GE=[MID]|Gloss=MID|nWord=84|RX=[V>V]
-144	kʉ-		V>V	_	_	_	_	_	AlignBegin=76721|AlignEnd=76796|GE=[APPL1]|Gloss=APPL1|nWord=84|RX=[V>V]
-145	cho'sʉ	cho'sʉ	V	_	_	_	_	_	AlignBegin=76796|AlignEnd=76871|GE=put.down[upright]|Gloss=put.down[upright]|nWord=84|RX=[V]
-146	-y		V:ANY	_	_	_	_	_	AlignBegin=76871|AlignEnd=76946|GE=[NONEGO]|Gloss=NONEGO|nWord=84|RX=[V:ANY]
-147	=a'ba'		POST	_	_	_	_	_	AlignBegin=76946|AlignEnd=77019|GE=[LOC]|Gloss==LOC|nWord=84|RX=[POST]
-148	,		_	_	_	_	_	_	AlignBegin=77019|AlignEnd=77395|nWord=85
-149	ga'	ga'	N	_	_	_	_	_	AlignBegin=77395|AlignEnd=77750|GE=word|Gloss=word|nWord=86|RX=[N]
-150	ʉn-		V>V	_	_	_	_	_	AlignBegin=77750|AlignEnd=77868|GE=[MID]|Gloss=MID|nWord=87|RX=[V>V]
-151	gawi	gawi	V	_	_	_	_	_	AlignBegin=77868|AlignEnd=77986|GE=make|Gloss=make|nWord=87|RX=[V]
-152	=ri		PRT	_	_	_	_	_	AlignBegin=77986|AlignEnd=78105|GE=[TOP]|Gloss==TOP|nWord=87|RX=[PRT]
-153	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=78105|AlignEnd=78460|GE=this|Gloss=this|nWord=88|RX=[PRO]
-154	kinki	kinki	ADV	_	_	_	_	_	AlignBegin=78460|AlignEnd=78815|GE=really|Gloss=really|nWord=89|RX=[ADV]
-155	a'zʉna	a'zʉna	V	_	_	_	_	_	AlignBegin=78815|AlignEnd=78933|GE=think|Gloss=think|nWord=90|RX=[V]
-156	=se'		POST	_	_	_	_	_	AlignBegin=78933|AlignEnd=79051|GE=[ERG]|Gloss==ERG|nWord=90|RX=[POST]
-157	=ri		PRT	_	_	_	_	_	AlignBegin=79051|AlignEnd=79170|GE=[TOP]|Gloss==TOP|nWord=90|RX=[PRT]
-158	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=79170|AlignEnd=79348|GE=similar|Gloss=similar|nWord=91|RX=[ADJ]
-159	=gwi		ADV	_	_	_	_	_	AlignBegin=79348|AlignEnd=79525|GE=also|Gloss==also|nWord=91|RX=[ADV]
-160	ga'	ga'	N	_	_	_	_	_	AlignBegin=79525|AlignEnd=79880|GE=word|Gloss=word|nWord=92|RX=[N]
-161	ʉn-		V>V	_	_	_	_	_	AlignBegin=79880|AlignEnd=79998|GE=[MID]|Gloss=MID|nWord=93|RX=[V>V]
-162	gawi	gawi	V	_	_	_	_	_	AlignBegin=79998|AlignEnd=80116|GE=make|Gloss=make|nWord=93|RX=[V]
-163	=ri		PRT	_	_	_	_	_	AlignBegin=80116|AlignEnd=80235|GE=[TOP]|Gloss==TOP|nWord=93|RX=[PRT]
-164	zwey	zwey	VI	_	_	_	_	_	AlignBegin=80235|AlignEnd=80413|GE=go|Gloss=go|nWord=94|RX=[VI]
-165	-n		VERB	_	_	_	_	_	AlignBegin=80413|AlignEnd=80590|GE=[IPFV]|Gloss=IPFV|nWord=94|RX=[VERB]
-166	nug	nug	AUX	_	_	_	_	_	AlignBegin=80590|AlignEnd=80768|GE=aux|Gloss=aux|nWord=95|RX=[AUX]
-167	-a		V:ANY	_	_	_	_	_	AlignBegin=80768|AlignEnd=80945|GE=[NONEGO]|Gloss=NONEGO|nWord=95|RX=[V:ANY]
-168	nan	nan	AUX	_	_	_	_	_	AlignBegin=80945|AlignEnd=81063|GE=[AUX]|Gloss=AUX|nWord=96|RX=[AUX]
-169	-i		VERB	_	_	_	_	_	AlignBegin=81063|AlignEnd=81181|GE=while|Gloss=while|nWord=96|RX=[VERB]
-170	=ri		PRT	_	_	_	_	_	AlignBegin=81181|AlignEnd=81300|GE=[TOP]|Gloss==TOP|nWord=96|RX=[PRT]
-171	,		_	_	_	_	_	_	AlignBegin=81300|AlignEnd=81655|nWord=97
-172	kinki	kinki	ADV	_	_	_	_	_	AlignBegin=81655|AlignEnd=81833|GE=really|Gloss=really|nWord=98|RX=[ADV]
-173	=ri		PRT	_	_	_	_	_	AlignBegin=81833|AlignEnd=82010|GE=[TOP]|Gloss==TOP|nWord=98|RX=[PRT]
-174	na'	na'	AUX	_	_	_	_	_	AlignBegin=82010|AlignEnd=82365|GE=[AUX]|Gloss=AUX|nWord=99|RX=[AUX]
-175	,		_	_	_	_	_	_	AlignBegin=82365|AlignEnd=82720|nWord=100
-176	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=82720|AlignEnd=82898|GE=cop|Gloss=cop|nWord=101|RX=[COP]
-177	-no		VERB	_	_	_	_	_	AlignBegin=82898|AlignEnd=83075|GE=[Q]|Gloss=Q|nWord=101|RX=[VERB]
-178	?		?	_	_	_	_	_	AlignBegin=83075|AlignEnd=83437|GE=[?]|Gloss=?|nWord=102
-179	aw	aw	AUX	_	_	_	_	_	AlignBegin=83437|AlignEnd=83674|GE=aux|Gloss=aux|nWord=103|RX=[AUX]
-180	-e'		VERB	_	_	_	_	_	AlignBegin=83674|AlignEnd=83911|GE=then|Gloss=then|nWord=103|RX=[VERB]
-181	=ki		POST	_	_	_	_	_	AlignBegin=83911|AlignEnd=84149|GE=[CNTR]|Gloss==CNTR|nWord=103|RX=[POST]
-182	ga'	ga'	N	_	_	_	_	_	AlignBegin=84149|AlignEnd=84861|GE=word|Gloss=word|nWord=104|RX=[N]
-183	ʉn-		V>V	_	_	_	_	_	AlignBegin=84861|AlignEnd=85098|GE=[MID]|Gloss=MID|nWord=105|RX=[V>V]
-184	gaw	gaw	V	_	_	_	_	_	AlignBegin=85098|AlignEnd=85335|GE=make|Gloss=make|nWord=105|RX=[V]
-185	-i		VERB	_	_	_	_	_	AlignBegin=85335|AlignEnd=85573|GE=while|Gloss=while|nWord=105|RX=[VERB]
-186	zwey	zwey	VI	_	_	_	_	_	AlignBegin=85573|AlignEnd=85810|GE=go|Gloss=go|nWord=106|RX=[VI]
-187	-kw		VERB	_	_	_	_	_	AlignBegin=85810|AlignEnd=86047|GE=[ABLE]|Gloss=ABLE|nWord=106|RX=[VERB]
-188	=a'ba'		POST	_	_	_	_	_	AlignBegin=86047|AlignEnd=86285|GE=[LOC]|Gloss==LOC|nWord=106|RX=[POST]
-189	,		_	_	_	_	_	_	AlignBegin=86285|AlignEnd=86997|nWord=107
-190	asay	asay	V	_	_	_	_	_	AlignBegin=86997|AlignEnd=87709|GE=speak|Gloss=speak|nWord=108|RX=[V]
-191	zwey	zwey	VI	_	_	_	_	_	AlignBegin=87709|AlignEnd=87946|GE=go|Gloss=go|nWord=109|RX=[VI]
-192	-kw		VERB	_	_	_	_	_	AlignBegin=87946|AlignEnd=88183|GE=[ABLE]|Gloss=ABLE|nWord=109|RX=[VERB]
-193	=a'ba'		POST	_	_	_	_	_	AlignBegin=88183|AlignEnd=88421|GE=[NOM]|Gloss==NOM|nWord=109|RX=[POST]
-194	,		_	_	_	_	_	_	AlignBegin=88421|AlignEnd=89133|nWord=110
-195	ikʉndi	ikʉndi	PRO	_	_	_	_	_	AlignBegin=89133|AlignEnd=89845|GE=[3PL]|Gloss=3PL|nWord=111|RX=[PRO]
-196	anʉn-		V>V	_	_	_	_	_	AlignBegin=89845|AlignEnd=89987|GE=[MID]|Gloss=MID|nWord=112|RX=[V>V]
-197	ki-		VERB	_	_	_	_	_	AlignBegin=89987|AlignEnd=90129|GE=[APPL3]|Gloss=APPL3|nWord=112|RX=[VERB]
-198	za-		V:ANY	_	_	_	_	_	AlignBegin=90129|AlignEnd=90271|GE=[ZA]|Gloss=ZA|nWord=112|RX=[V:ANY]
-199	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=90271|AlignEnd=90413|GE=forget|Gloss=forget|nWord=112|RX=[VI]
-200	-na		VERB	_	_	_	_	_	AlignBegin=90413|AlignEnd=90557|GE=[RMTPST]|Gloss=RMTPST|nWord=112|RX=[VERB]
-201	,		_	_	_	_	_	_	AlignBegin=90557|AlignEnd=91270|nWord=113
-202	ey	ey	PRT	_	_	_	_	_	AlignBegin=91291|AlignEnd=91630|GE=so|Gloss=so|nWord=114|RX=[PRT]
-203	,		_	_	_	_	_	_	AlignBegin=91630|AlignEnd=91969|nWord=115
-204	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=91969|AlignEnd=92308|GE=indigenous.person|Gloss=indigenous.person|nWord=116|RX=[N]
-205	na	na	COP	_	_	_	_	_	AlignBegin=92308|AlignEnd=92647|GE=cop|Gloss=cop|nWord=117|RX=[COP]
-206	,		_	_	_	_	_	_	AlignBegin=92647|AlignEnd=92986|nWord=118
-207	(		_	_	_	_	_	_	AlignBegin=92986|AlignEnd=93325|nWord=119
-208	ik	ik	_	_	_	_	_	_	AlignBegin=93325|AlignEnd=93664|nWord=120
-209	)		_	_	_	_	_	_	AlignBegin=93664|AlignEnd=94003|nWord=121
-210	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=94003|AlignEnd=94173|GE=indigenous.person|Gloss=indigenous.person|nWord=122|RX=[N]
-211	-n		NOUN	_	_	_	_	_	AlignBegin=94173|AlignEnd=94342|GE=[MEANS]|Gloss=MEANS|nWord=122|RX=[NOUN]
-212	asay	asay	V	_	_	_	_	_	AlignBegin=94342|AlignEnd=94512|GE=speak|Gloss=speak|nWord=123|RX=[V]
-213	-kwa		VERB	_	_	_	_	_	AlignBegin=94512|AlignEnd=94681|GE=[ABLE]|Gloss=ABLE|nWord=123|RX=[VERB]
-214	zan	zan	COP	_	_	_	_	_	AlignBegin=94681|AlignEnd=94851|GE=[COP]|Gloss=COP|nWord=124|RX=[COP]
-215	-a		V:ANY	_	_	_	_	_	AlignBegin=94851|AlignEnd=95020|GE=[PFV]|Gloss=PFV|nWord=124|RX=[V:ANY]
-216	anʉn-		V>V	_	_	_	_	_	AlignBegin=95020|AlignEnd=95088|GE=[MID]|Gloss=MID|nWord=125|RX=[V>V]
-217	ki-		VERB	_	_	_	_	_	AlignBegin=95088|AlignEnd=95156|GE=[APPL3]|Gloss=APPL3|nWord=125|RX=[VERB]
-218	za-		V:ANY	_	_	_	_	_	AlignBegin=95156|AlignEnd=95224|GE=[ZA]|Gloss=ZA|nWord=125|RX=[V:ANY]
-219	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=95224|AlignEnd=95292|GE=forget|Gloss=forget|nWord=125|RX=[VI]
-220	-na		VERB	_	_	_	_	_	AlignBegin=95292|AlignEnd=95359|GE=[RMTPST]|Gloss=RMTPST|nWord=125|RX=[VERB]
-221	ni	ni	AUX	_	_	_	_	_	AlignBegin=95359|AlignEnd=95698|GE=[DECL]|Gloss=DECL|nWord=126|RX=[AUX]
-222	.		.	_	_	_	_	_	AlignBegin=95698|AlignEnd=96041|Gloss=.|nWord=127
+# sent_timecode = 24232, 31139
+# morphemic_text = ima =ri nan -i =ri dikin =gwi ( eh ) kunsamʉ nʉ- kʉnari .
+# text = imari nariri dikingwi ( eh ) kunsamʉ nʉkʉnari .
+# text_en = they [lit. you] also have the same culture. | nü> mal dicho, correcto: winü-künari
+# text_phrase-gls-es = ellos también tienen la misma cultura [fuerza]
+1	ima	ima	DEM	_	_	_	_	_	AlignBegin=24232|AlignEnd=24616|GE=this|Gloss=this|nWord=1|RX=[DEM]
+2	=ri		PRT	_	_	_	_	_	AlignBegin=24616|AlignEnd=24999|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
+3	nan	nan	AUX	_	_	_	_	_	AlignBegin=24999|AlignEnd=25255|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
+4	-i		VERB	_	_	_	_	_	AlignBegin=25255|AlignEnd=25511|GE=while|Gloss=while|nWord=2|RX=[VERB]
+5	=ri		PRT	_	_	_	_	_	AlignBegin=25511|AlignEnd=25766|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
+6	dikin	dikin	ADV	_	_	_	_	_	AlignBegin=25766|AlignEnd=26150|GE=same|Gloss=same|nWord=3|RX=[ADV]
+7	=gwi		ADV	_	_	_	_	_	AlignBegin=26150|AlignEnd=26533|GE=also|Gloss==also|nWord=3|RX=[ADV]
+8	(		_	_	_	_	_	_	AlignBegin=26533|AlignEnd=27300|nWord=4
+9	eh	eh	INTERJ	_	_	_	_	_	AlignBegin=27300|AlignEnd=28067|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
+10	)		_	_	_	_	_	_	AlignBegin=28067|AlignEnd=28834|nWord=6
+11	kunsamʉ	kunsamʉ	N	_	_	_	_	_	AlignBegin=28834|AlignEnd=29601|GE=nature's.law|Gloss=nature's.law|nWord=7|RX=[N]
+12	nʉ-		V:ANY	_	_	_	_	_	AlignBegin=29601|AlignEnd=29985|GE=[1SG].[O]|Gloss=1SG.O|nWord=8|RX=[V:ANY]
+13	kʉnari	kʉnari	VT	_	_	_	_	_	AlignBegin=29985|AlignEnd=30368|GE=have|Gloss=have|nWord=8|RX=[VT]
+14	.		.	_	_	_	_	_	AlignBegin=30368|AlignEnd=31139|Gloss=.|nWord=9
 
-# sent_id = CD15_21-23
-# speaker_id = @SP1
+# sent_id = CD15_07-07
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 96041, 112422
-# morphemic_text = ey gwak -ukwa nʉ -ndi , aw -i =ri , ( ehm ) mʉkʉ =se' neki , ʉyʉn -ke , iwa =ri ( ay ) ( a =ri ) ikʉ mʉkʉ zʉn -a ni ay -e' =ki , ( mhm ) iwa =ri eymi neki na' ni nʉn =di .
-# text = ey gwakukwa nʉndi , awiri , ( ehm ) mʉkʉse' neki , ʉyʉnke , iwari ( ay ) ( ari ) ikʉ mʉkʉ zʉna ni aye'ki , ( mhm ) iwari eymi neki na' ni nʉndi .
-# text_en = and if we talk in more detail, for example,. on their clothes, over there, now they say that there were indigenous clothes. now [they say] it was[n't] so..
-# text_phrase-gls-es = y si hablamos más detalladamente, por ejemplo en la ropa, ahora dicen que había ropa indígena. ahora [dicen que] no era así
+# sent_timecode = 31147, 32286
+# morphemic_text = ʉya a'we -kuma -na ,.
+# text = ʉya a'wekumana ,.
+# text_en = this was given to them,
+# text_phrase-gls-es = esto les entregaron,
+1	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=31147|AlignEnd=31527|GE=this|Gloss=this|nWord=1|RX=[PRO]
+2	a'we	a'we	VD	_	_	_	_	_	AlignBegin=31527|AlignEnd=31654|GE=give|Gloss=give|nWord=2|RX=[VD]
+3	-kuma		V:ANY	_	_	_	_	_	AlignBegin=31654|AlignEnd=31781|GE=[ANTIC]|Gloss=ANTIC|nWord=2|RX=[V:ANY]
+4	-na		VERB	_	_	_	_	_	AlignBegin=31781|AlignEnd=31907|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
+5	,.		_	_	_	_	_	_	AlignBegin=31907|AlignEnd=32286|nWord=3
+
+# sent_id = CD15_08-08
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 32294, 33899
+# morphemic_text = i'ngwi ʉn- k- ipan -na =gwi nan -i =ri ,.
+# text = i'ngwi ʉnkipannagwi nariri ,.
+# text_en = they received it [lit. one],
+# text_phrase-gls-es = ellos lo recibieron
+1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=32294|AlignEnd=32695|GE=one|Gloss=one|nWord=1|RX=[NUM]
+2	ʉn-		V>V	_	_	_	_	_	AlignBegin=32695|AlignEnd=32775|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
+3	k-		V>V	_	_	_	_	_	AlignBegin=32775|AlignEnd=32855|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]
+4	ipan	ipan	V	_	_	_	_	_	AlignBegin=32855|AlignEnd=32935|GE=receive|Gloss=receive|nWord=2|RX=[V]
+5	-na		VERB	_	_	_	_	_	AlignBegin=32935|AlignEnd=33015|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
+6	=gwi		ADV	_	_	_	_	_	AlignBegin=33015|AlignEnd=33096|GE=also|Gloss==also|nWord=2|RX=[ADV]
+7	nan	nan	AUX	_	_	_	_	_	AlignBegin=33096|AlignEnd=33230|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
+8	-i		VERB	_	_	_	_	_	AlignBegin=33230|AlignEnd=33364|GE=while|Gloss=while|nWord=3|RX=[VERB]
+9	=ri		PRT	_	_	_	_	_	AlignBegin=33364|AlignEnd=33497|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
+10	,.		_	_	_	_	_	_	AlignBegin=33497|AlignEnd=33899|nWord=4
+
+# sent_id = CD15_09-09
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 33899, 34860
+# morphemic_text = zwey -n nug -a na -' nʉn -no ?.
+# text = zweyn nuga na' nʉnno ?.
+# text_en = they go like this, don't they? [lit. they don't go like this, do they?]
+# text_phrase-gls-es = así es que van [diariamente de la cultura, con ciertas herramientas]
+1	zwey	zwey	VI	_	_	_	_	_	AlignBegin=33899|AlignEnd=33995|GE=go|Gloss=go|nWord=1|RX=[VI]
+2	-n		VERB	_	_	_	_	_	AlignBegin=33995|AlignEnd=34091|GE=[IPFV]|Gloss=IPFV|nWord=1|RX=[VERB]
+3	nug	nug	AUX	_	_	_	_	_	AlignBegin=34091|AlignEnd=34187|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
+4	-a		V:ANY	_	_	_	_	_	AlignBegin=34187|AlignEnd=34283|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
+5	na	na	COP	_	_	_	_	_	AlignBegin=34283|AlignEnd=34379|GE=cop|Gloss=cop|nWord=3|RX=[COP]
+6	-'		VERB	_	_	_	_	_	AlignBegin=34379|AlignEnd=34475|GE=[NEG]|Gloss=NEG|nWord=3|RX=[VERB]
+7	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=34475|AlignEnd=34571|GE=cop|Gloss=cop|nWord=4|RX=[COP]
+8	-no		VERB	_	_	_	_	_	AlignBegin=34571|AlignEnd=34667|GE=[Q]|Gloss=Q|nWord=4|RX=[VERB]
+9	?.		_	_	_	_	_	_	AlignBegin=34667|AlignEnd=34860|nWord=5
+
+# sent_id = CD15_10-10
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 34868, 39441
+# morphemic_text = ʉw -e' =ki ingiti ʉn- zori gunti ,.
+# text = ʉwe'ki ingiti ʉnzori gunti ,.
+# text_en = but as they move forward,
+# text_phrase-gls-es = pero a medida que avanzan
+1	ʉw	ʉw	AUX	_	_	_	_	_	AlignBegin=34868|AlignEnd=35173|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
+2	-e'		VERB	_	_	_	_	_	AlignBegin=35173|AlignEnd=35478|GE=then|Gloss=then|nWord=1|RX=[VERB]
+3	=ki		POST	_	_	_	_	_	AlignBegin=35478|AlignEnd=35783|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[POST]
+4	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=35783|AlignEnd=36698|GE=little|Gloss=little|nWord=2|RX=[ADV]
+5	ʉn-		V>V	_	_	_	_	_	AlignBegin=36698|AlignEnd=37156|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
+6	zori	zori	V	_	_	_	_	_	AlignBegin=37156|AlignEnd=37613|GE=go|Gloss=go|nWord=3|RX=[V]
+7	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=37613|AlignEnd=38528|GE=all|Gloss=all|nWord=4|RX=[ADV]
+8	,.		_	_	_	_	_	_	AlignBegin=38528|AlignEnd=39441|nWord=5
+
+# sent_id = CD15_11-11
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 39921, 44038
+# morphemic_text = ( mhm ) yuga =ɉina =sin anʉn- kʉnari ʉn- zwey -n nus -i nʉn =kʉ =ri ,.
+# text = ( mhm ) yugaɉinasin anʉnkʉnari ʉnzweyn nusi nʉnkʉri ,.
+# text_en = from hanging out with the younger brothers,
+# text_phrase-gls-es = De tanto juntarse con los hermanos menores
+# text_phrase-gls-tl = anünkünari > juntarse, reunirse/meet
+1	(		_	_	_	_	_	_	AlignBegin=39921|AlignEnd=40378|nWord=1
+2	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=40378|AlignEnd=40835|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
+3	)		_	_	_	_	_	_	AlignBegin=40835|AlignEnd=41292|nWord=3
+4	yuga	yuga	N	_	_	_	_	_	AlignBegin=41292|AlignEnd=41444|GE=little.brother|Gloss=little.brother|nWord=4|RX=[N]
+5	=ɉina		DET	_	_	_	_	_	AlignBegin=41444|AlignEnd=41596|GE=many[animated]|Gloss==many[animated]|nWord=4|RX=[DET]
+6	=sin		POST	_	_	_	_	_	AlignBegin=41596|AlignEnd=41749|GE=with|Gloss==with|nWord=4|RX=[POST]
+7	anʉn-		V>V	_	_	_	_	_	AlignBegin=41749|AlignEnd=41977|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
+8	kʉnari	kʉnari	VT	_	_	_	_	_	AlignBegin=41977|AlignEnd=42206|GE=have|Gloss=have|nWord=5|RX=[VT]
+9	ʉn-		V>V	_	_	_	_	_	AlignBegin=42206|AlignEnd=42358|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
+10	zwey	zwey	VI	_	_	_	_	_	AlignBegin=42358|AlignEnd=42510|GE=go|Gloss=go|nWord=6|RX=[VI]
+11	-n		VERB	_	_	_	_	_	AlignBegin=42510|AlignEnd=42663|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
+12	nus	nus	COP	_	_	_	_	_	AlignBegin=42663|AlignEnd=42891|GE=aux|Gloss=aux|nWord=7|RX=[COP]
+13	-i		VERB	_	_	_	_	_	AlignBegin=42891|AlignEnd=43120|GE=while|Gloss=while|nWord=7|RX=[VERB]
+14	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=43120|AlignEnd=43272|GE=cop|Gloss=cop|nWord=8|RX=[COP]
+15	=kʉ		POST	_	_	_	_	_	AlignBegin=43272|AlignEnd=43424|GE=[CNTR]|Gloss==CNTR|nWord=8|RX=[POST]
+16	=ri		PRT	_	_	_	_	_	AlignBegin=43424|AlignEnd=43577|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+17	,.		_	_	_	_	_	_	AlignBegin=43577|AlignEnd=44038|nWord=9
+
+# sent_id = CD15_12-12
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 44046, 47069
+# morphemic_text = ingiti mʉkʉ anʉn- ki- za- 'tikuma =gwi ,.
+# text = ingiti mʉkʉ anʉnkiza'tikumagwi ,.
+# text_en = they are slowly forgetting their traditional way of dressing [lit. clothes],
+# text_phrase-gls-es = van perdiendo lentamente la ropa
+1	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=44046|AlignEnd=44802|GE=little|Gloss=little|nWord=1|RX=[ADV]
+2	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=44802|AlignEnd=45558|GE=cloth|Gloss=cloth|nWord=2|RX=[N]
+3	anʉn-		V>V	_	_	_	_	_	AlignBegin=45558|AlignEnd=45709|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
+4	ki-		VERB	_	_	_	_	_	AlignBegin=45709|AlignEnd=45860|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]
+5	za-		V:ANY	_	_	_	_	_	AlignBegin=45860|AlignEnd=46011|GE=[ZA]|Gloss=ZA|nWord=3|RX=[V:ANY]
+6	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=46011|AlignEnd=46162|GE=forget|Gloss=forget|nWord=3|RX=[VI]
+7	=gwi		ADV	_	_	_	_	_	AlignBegin=46162|AlignEnd=46314|GE=also|Gloss==also|nWord=3|RX=[ADV]
+8	,.		_	_	_	_	_	_	AlignBegin=46314|AlignEnd=47069|nWord=4
+
+# sent_id = CD15_13-13
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 47069, 49296
+# morphemic_text = ga'kʉnamʉ anʉn- ki- za- 'tikuma =gwi ,.
+# text = ga'kʉnamʉ anʉnkiza'tikumagwi ,.
+# text_en = they are also forgetting their language,
+# text_phrase-gls-es = así mismo va perdiendo el idioma
+1	ga'kʉnamʉ	ga'kʉnamʉ	N	_	_	_	_	_	AlignBegin=47069|AlignEnd=47811|GE=language|Gloss=language|nWord=1|RX=[N]
+2	anʉn-		V>V	_	_	_	_	_	AlignBegin=47811|AlignEnd=47959|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
+3	ki-		VERB	_	_	_	_	_	AlignBegin=47959|AlignEnd=48107|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]
+4	za-		V:ANY	_	_	_	_	_	AlignBegin=48107|AlignEnd=48255|GE=[ZA]|Gloss=ZA|nWord=2|RX=[V:ANY]
+5	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=48255|AlignEnd=48403|GE=forget|Gloss=forget|nWord=2|RX=[VI]
+6	=gwi		ADV	_	_	_	_	_	AlignBegin=48403|AlignEnd=48553|GE=also|Gloss==also|nWord=2|RX=[ADV]
+7	,.		_	_	_	_	_	_	AlignBegin=48553|AlignEnd=49296|nWord=3
+
+# sent_id = CD15_14-14
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 49930, 61581
+# morphemic_text = eymʉnka' n -eyka =ri , ikʉ nʉn -kw =a'ba' =ri , ingʉ =ri , bunachʉ =sin yuga =ɉina =sin na -' nʉn -no ?.
+# text = eymʉnka' neykari , ikʉ nʉnkwa'ba'ri , ingʉri , bunachʉsin yugaɉinasin na' nʉnno ?.
+# text_en = Those who are here, being indigenous, well, are with the non-indigenous people, with the younger brothers, aren't they?
+# text_phrase-gls-es = Los que están acá, en el sentido de ser indígena están con los bunachi, con los hermanos menores, cierto?
+1	eymʉnka'	eymʉnka'	ADV	_	_	_	_	_	AlignBegin=49930|AlignEnd=50826|GE=here|Gloss=here|nWord=1|RX=[ADV]
+2	n	n	AUX	_	_	_	_	_	AlignBegin=50826|AlignEnd=51125|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
+3	-eyka		V:ANY	_	_	_	_	_	AlignBegin=51125|AlignEnd=51424|GE=[EYKA]|Gloss=EYKA|nWord=2|RX=[V:ANY]
+4	=ri		PRT	_	_	_	_	_	AlignBegin=51424|AlignEnd=51722|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
+5	,		_	_	_	_	_	_	AlignBegin=51722|AlignEnd=52618|nWord=3
+6	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=52618|AlignEnd=53514|GE=indigenous.person|Gloss=indigenous.person|nWord=4|RX=[N]
+7	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=53514|AlignEnd=53738|GE=cop|Gloss=cop|nWord=5|RX=[COP]
+8	-kw		VERB	_	_	_	_	_	AlignBegin=53738|AlignEnd=53962|GE=[ABLE]|Gloss=ABLE|nWord=5|RX=[VERB]
+9	=a'ba'		POST	_	_	_	_	_	AlignBegin=53962|AlignEnd=54186|GE=[LOC]|Gloss==LOC|nWord=5|RX=[POST]
+10	=ri		PRT	_	_	_	_	_	AlignBegin=54186|AlignEnd=54410|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
+11	,		_	_	_	_	_	_	AlignBegin=54410|AlignEnd=55306|nWord=6
+12	ingʉ	ingʉ	INTERJ	_	_	_	_	_	AlignBegin=55306|AlignEnd=55754|GE=well|Gloss=well|nWord=7|RX=[INTERJ]
+13	=ri		PRT	_	_	_	_	_	AlignBegin=55754|AlignEnd=56202|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
+14	,		_	_	_	_	_	_	AlignBegin=56202|AlignEnd=57098|nWord=8
+15	bunachʉ	bunachʉ	N	_	_	_	_	_	AlignBegin=57098|AlignEnd=57546|GE=non-indigenous person|Gloss=non-indigenous person|nWord=9|RX=[N]
+16	=sin		POST	_	_	_	_	_	AlignBegin=57546|AlignEnd=57994|GE=with|Gloss==with|nWord=9|RX=[POST]
+17	yuga	yuga	N	_	_	_	_	_	AlignBegin=57994|AlignEnd=58293|GE=little.brother|Gloss=little.brother|nWord=10|RX=[N]
+18	=ɉina		DET	_	_	_	_	_	AlignBegin=58293|AlignEnd=58592|GE=many[animated]|Gloss==many[animated]|nWord=10|RX=[DET]
+19	=sin		POST	_	_	_	_	_	AlignBegin=58592|AlignEnd=58890|GE=with|Gloss==with|nWord=10|RX=[POST]
+20	na	na	COP	_	_	_	_	_	AlignBegin=58890|AlignEnd=59338|GE=cop|Gloss=cop|nWord=11|RX=[COP]
+21	-'		VERB	_	_	_	_	_	AlignBegin=59338|AlignEnd=59786|GE=[NEG]|Gloss=NEG|nWord=11|RX=[VERB]
+22	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=59786|AlignEnd=60234|GE=cop|Gloss=cop|nWord=12|RX=[COP]
+23	-no		VERB	_	_	_	_	_	AlignBegin=60234|AlignEnd=60682|GE=[Q]|Gloss=Q|nWord=12|RX=[VERB]
+24	?.		_	_	_	_	_	_	AlignBegin=60682|AlignEnd=61581|nWord=13
+
+# sent_id = CD15_15-15
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 61581, 69224
+# morphemic_text = ( ehm ) ingiti ga'kʉnamʉ anʉn- k- ipari zwey -kw =a'ba' =ri ingʉ =ri , ( mhm ) dikin diney =gwi zʉn na -' nʉn -no ?.
+# text = ( ehm ) ingiti ga'kʉnamʉ anʉnkipari zweykwa'ba'ri ingʉri , ( mhm ) dikin dineygwi zʉn na' nʉnno ?.
+# text_en = the way of exchanging the language little by little, well, it's the same, isn't it?
+# text_phrase-gls-es = la forma de intercambiar el idioma poco a poco well, ambos son lo mismo, cierto?
+# text_phrase-gls-tl = anünkipari = intercambiar/exchange
+1	(		_	_	_	_	_	_	AlignBegin=61581|AlignEnd=62006|nWord=1
+2	ehm	ehm	INTERJ	_	_	_	_	_	AlignBegin=62006|AlignEnd=62431|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
+3	)		_	_	_	_	_	_	AlignBegin=62431|AlignEnd=62856|nWord=3
+4	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=62856|AlignEnd=63281|GE=little|Gloss=little|nWord=4|RX=[ADV]
+5	ga'kʉnamʉ	ga'kʉnamʉ	N	_	_	_	_	_	AlignBegin=63281|AlignEnd=63706|GE=language|Gloss=language|nWord=5|RX=[N]
+6	anʉn-		V>V	_	_	_	_	_	AlignBegin=63706|AlignEnd=63848|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
+7	k-		V>V	_	_	_	_	_	AlignBegin=63848|AlignEnd=63990|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
+8	ipari	ipari	V	_	_	_	_	_	AlignBegin=63990|AlignEnd=64131|GE=receive|Gloss=receive|nWord=6|RX=[V]
+9	zwey	zwey	VI	_	_	_	_	_	AlignBegin=64131|AlignEnd=64237|GE=go|Gloss=go|nWord=7|RX=[VI]
+10	-kw		VERB	_	_	_	_	_	AlignBegin=64237|AlignEnd=64343|GE=[ABLE]|Gloss=ABLE|nWord=7|RX=[VERB]
+11	=a'ba'		POST	_	_	_	_	_	AlignBegin=64343|AlignEnd=64449|GE=[LOC]|Gloss==LOC|nWord=7|RX=[POST]
+12	=ri		PRT	_	_	_	_	_	AlignBegin=64449|AlignEnd=64556|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
+13	ingʉ	ingʉ	INTERJ	_	_	_	_	_	AlignBegin=64556|AlignEnd=64768|GE=well|Gloss=well|nWord=8|RX=[INTERJ]
+14	=ri		PRT	_	_	_	_	_	AlignBegin=64768|AlignEnd=64981|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+15	,		_	_	_	_	_	_	AlignBegin=64981|AlignEnd=65406|nWord=9
+16	(		_	_	_	_	_	_	AlignBegin=65406|AlignEnd=65831|nWord=10
+17	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=65831|AlignEnd=66256|GE=[HES]|Gloss=HES|nWord=11|RX=[INTERJ]
+18	)		_	_	_	_	_	_	AlignBegin=66256|AlignEnd=66681|nWord=12
+19	dikin	dikin	ADV	_	_	_	_	_	AlignBegin=66681|AlignEnd=67106|GE=same|Gloss=same|nWord=13|RX=[ADV]
+20	diney	diney	ADV	_	_	_	_	_	AlignBegin=67106|AlignEnd=67318|GE=similar|Gloss=similar|nWord=14|RX=[ADV]
+21	=gwi		ADV	_	_	_	_	_	AlignBegin=67318|AlignEnd=67531|GE=also|Gloss==also|nWord=14|RX=[ADV]
+22	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=67531|AlignEnd=67956|GE=[COP]|Gloss=COP|nWord=15|RX=[COP]
+23	na	na	COP	_	_	_	_	_	AlignBegin=67956|AlignEnd=68168|GE=cop|Gloss=cop|nWord=16|RX=[COP]
+24	-'		VERB	_	_	_	_	_	AlignBegin=68168|AlignEnd=68381|GE=[NEG]|Gloss=NEG|nWord=16|RX=[VERB]
+25	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=68381|AlignEnd=68593|GE=cop|Gloss=cop|nWord=17|RX=[COP]
+26	-no		VERB	_	_	_	_	_	AlignBegin=68593|AlignEnd=68806|GE=[Q]|Gloss=Q|nWord=17|RX=[VERB]
+27	?.		_	_	_	_	_	_	AlignBegin=68806|AlignEnd=69224|nWord=18
+
+# sent_id = CD15_16-16
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 69224, 73170
+# morphemic_text = nan -i kinki =ri a- kingwi zʉn kunsamʉ kʉ- chu -kuma -na .
+# text = nari kinkiri akingwi zʉn kunsamʉ kʉchukumana .
+# text_en = But the same law was left to them.
+# text_phrase-gls-es = pero les dejaron la misma tradición
+1	nan	nan	AUX	_	_	_	_	_	AlignBegin=69224|AlignEnd=69506|GE=[AUX]|Gloss=AUX|nWord=1|RX=[AUX]
+2	-i		VERB	_	_	_	_	_	AlignBegin=69506|AlignEnd=69788|GE=while|Gloss=while|nWord=1|RX=[VERB]
+3	kinki	kinki	PRT	_	_	_	_	_	AlignBegin=69788|AlignEnd=70070|GE=really|Gloss=really|nWord=2|RX=[PRT]
+4	=ri		PRT	_	_	_	_	_	AlignBegin=70070|AlignEnd=70352|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
+5	a-		POSS	_	_	_	_	_	AlignBegin=70352|AlignEnd=70634|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=3|RX=[POSS]
+6	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=70634|AlignEnd=70916|GE=same|Gloss=same|nWord=3|RX=[ADJ]
+7	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=70916|AlignEnd=71480|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
+8	kunsamʉ	kunsamʉ	N	_	_	_	_	_	AlignBegin=71480|AlignEnd=72044|GE=nature's.law|Gloss=nature's.law|nWord=5|RX=[N]
+9	kʉ-		V>V	_	_	_	_	_	AlignBegin=72044|AlignEnd=72185|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
+10	chu	chu	V	_	_	_	_	_	AlignBegin=72185|AlignEnd=72326|GE=leave|Gloss=leave|nWord=6|RX=[V]
+11	-kuma		V:ANY	_	_	_	_	_	AlignBegin=72326|AlignEnd=72467|GE=[ANTIC]|Gloss=ANTIC|nWord=6|RX=[V:ANY]
+12	-na		VERB	_	_	_	_	_	AlignBegin=72467|AlignEnd=72608|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]
+13	.		.	_	_	_	_	_	AlignBegin=72608|AlignEnd=73170|Gloss=.|nWord=7
+
+# sent_id = CD15_17-17
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 73178, 77232
+# morphemic_text = ( ay -e' ) aw -e' =ki eyma i'ngwi diwʉn nig =a'ba' =ri , mʉkʉ ʉn- kʉ- cho'sʉ -y =a'ba' ,.
+# text = ( aye' ) awe'ki eyma i'ngwi diwʉn niga'ba'ri , mʉkʉ ʉnkʉcho'sʉya'ba' ,.
+# text_en = But what they do differently, is the way of dressing,
+# text_phrase-gls-es = Pero, lo que los hace diferente es la forma de vestir
+1	(		_	_	_	_	_	_	AlignBegin=73178|AlignEnd=73516|nWord=1
+2	ay	ay	INTERJ	_	_	_	_	_	AlignBegin=73516|AlignEnd=73685|GE=well|Gloss=well|nWord=2|RX=[INTERJ]
+3	-e'		VERB	_	_	_	_	_	AlignBegin=73685|AlignEnd=73854|GE=then|Gloss=then|nWord=2|RX=[VERB]
+4	)		_	_	_	_	_	_	AlignBegin=73854|AlignEnd=74192|nWord=3
+5	aw	aw	AUX	_	_	_	_	_	AlignBegin=74192|AlignEnd=74305|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
+6	-e'		VERB	_	_	_	_	_	AlignBegin=74305|AlignEnd=74418|GE=then|Gloss=then|nWord=4|RX=[VERB]
+7	=ki		POST	_	_	_	_	_	AlignBegin=74418|AlignEnd=74530|GE=[CNTR]|Gloss==CNTR|nWord=4|RX=[POST]
+8	eyma	eyma	DEM	_	_	_	_	_	AlignBegin=74530|AlignEnd=74868|GE=this|Gloss=this|nWord=5|RX=[DEM]
+9	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=74868|AlignEnd=75206|GE=one|Gloss=one|nWord=6|RX=[NUM]
+10	diwʉn	diwʉn	ADJ	_	_	_	_	_	AlignBegin=75206|AlignEnd=75544|GE=different|Gloss=different|nWord=7|RX=[ADJ]
+11	nig	nig	V	_	_	_	_	_	AlignBegin=75544|AlignEnd=75657|GE=do|Gloss=do|nWord=8|RX=[V]
+12	=a'ba'		POST	_	_	_	_	_	AlignBegin=75657|AlignEnd=75770|GE=[NOM]|Gloss==NOM|nWord=8|RX=[POST]
+13	=ri		PRT	_	_	_	_	_	AlignBegin=75770|AlignEnd=75882|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+14	,		_	_	_	_	_	_	AlignBegin=75882|AlignEnd=76220|nWord=9
+15	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=76220|AlignEnd=76558|GE=cloth|Gloss=cloth|nWord=10|RX=[N]
+16	ʉn-		V>V	_	_	_	_	_	AlignBegin=76558|AlignEnd=76626|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
+17	kʉ-		V>V	_	_	_	_	_	AlignBegin=76626|AlignEnd=76694|GE=[APPL1]|Gloss=APPL1|nWord=11|RX=[V>V]
+18	cho'sʉ	cho'sʉ	V	_	_	_	_	_	AlignBegin=76694|AlignEnd=76762|GE=put.down[upright]|Gloss=put.down[upright]|nWord=11|RX=[V]
+19	-y		V>N	_	_	_	_	_	AlignBegin=76762|AlignEnd=76830|GE=[NOM]|Gloss=NOM|nWord=11|RX=[V>N]
+20	=a'ba'		POST	_	_	_	_	_	AlignBegin=76830|AlignEnd=76896|GE=[LOC]|Gloss==LOC|nWord=11|RX=[POST]
+21	,.		_	_	_	_	_	_	AlignBegin=76896|AlignEnd=77232|nWord=12
+
+# sent_id = CD15_18-18
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 77883, 83575
+# morphemic_text = ga' ʉn- gawi =ri ʉya kinki a'zʉna =se' =ri ayey =gwi ga' ʉn- gawi =ri zwey -n nug -a nan -i =ri , kinki =ri na -' nʉn -no ?.
+# text = ga' ʉngawiri ʉya kinki a'zʉnase'ri ayeygwi ga' ʉngawiri zweyn nuga nariri , kinkiri na' nʉnno ?.
+# text_en = do traditional work, those who think about it are also still doing traditional work, it's like this, isn't it?
+# text_phrase-gls-es = los que hacen el trabajo tradicional fielmente [lit. los que piensan en hacer el trabajo tradicional], también siguen haciendo el trabajo tradicional, es así, cierto?
+# text_phrase-gls-tl = [O=ri S=se'=ri V] O V
+1	ga'	ga'	N	_	_	_	_	_	AlignBegin=77883|AlignEnd=78239|GE=word|Gloss=word|nWord=1|RX=[N]
+2	ʉn-		V>V	_	_	_	_	_	AlignBegin=78239|AlignEnd=78358|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
+3	gawi	gawi	V	_	_	_	_	_	AlignBegin=78358|AlignEnd=78477|GE=make|Gloss=make|nWord=2|RX=[V]
+4	=ri		PRT	_	_	_	_	_	AlignBegin=78477|AlignEnd=78595|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
+5	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=78595|AlignEnd=78951|GE=this|Gloss=this|nWord=3|RX=[PRO]
+6	kinki	kinki	PRT	_	_	_	_	_	AlignBegin=78951|AlignEnd=79307|GE=really|Gloss=really|nWord=4|RX=[PRT]
+7	a'zʉna	a'zʉna	V	_	_	_	_	_	AlignBegin=79307|AlignEnd=79426|GE=think|Gloss=think|nWord=5|RX=[V]
+8	=se'		POST	_	_	_	_	_	AlignBegin=79426|AlignEnd=79545|GE=[ERG]|Gloss==ERG|nWord=5|RX=[POST]
+9	=ri		PRT	_	_	_	_	_	AlignBegin=79545|AlignEnd=79663|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
+10	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=79663|AlignEnd=79841|GE=similar|Gloss=similar|nWord=6|RX=[ADJ]
+11	=gwi		ADV	_	_	_	_	_	AlignBegin=79841|AlignEnd=80019|GE=also|Gloss==also|nWord=6|RX=[ADV]
+12	ga'	ga'	N	_	_	_	_	_	AlignBegin=80019|AlignEnd=80375|GE=word|Gloss=word|nWord=7|RX=[N]
+13	ʉn-		V>V	_	_	_	_	_	AlignBegin=80375|AlignEnd=80494|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]
+14	gawi	gawi	V	_	_	_	_	_	AlignBegin=80494|AlignEnd=80613|GE=make|Gloss=make|nWord=8|RX=[V]
+15	=ri		PRT	_	_	_	_	_	AlignBegin=80613|AlignEnd=80731|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+16	zwey	zwey	VI	_	_	_	_	_	AlignBegin=80731|AlignEnd=80909|GE=go|Gloss=go|nWord=9|RX=[VI]
+17	-n		VERB	_	_	_	_	_	AlignBegin=80909|AlignEnd=81087|GE=[IPFV]|Gloss=IPFV|nWord=9|RX=[VERB]
+18	nug	nug	AUX	_	_	_	_	_	AlignBegin=81087|AlignEnd=81265|GE=aux|Gloss=aux|nWord=10|RX=[AUX]
+19	-a		V:ANY	_	_	_	_	_	AlignBegin=81265|AlignEnd=81443|GE=[NONEGO]|Gloss=NONEGO|nWord=10|RX=[V:ANY]
+20	nan	nan	AUX	_	_	_	_	_	AlignBegin=81443|AlignEnd=81562|GE=[AUX]|Gloss=AUX|nWord=11|RX=[AUX]
+21	-i		VERB	_	_	_	_	_	AlignBegin=81562|AlignEnd=81681|GE=while|Gloss=while|nWord=11|RX=[VERB]
+22	=ri		PRT	_	_	_	_	_	AlignBegin=81681|AlignEnd=81799|GE=[TOP]|Gloss==TOP|nWord=11|RX=[PRT]
+23	,		_	_	_	_	_	_	AlignBegin=81799|AlignEnd=82155|nWord=12
+24	kinki	kinki	PRT	_	_	_	_	_	AlignBegin=82155|AlignEnd=82333|GE=really|Gloss=really|nWord=13|RX=[PRT]
+25	=ri		PRT	_	_	_	_	_	AlignBegin=82333|AlignEnd=82511|GE=[TOP]|Gloss==TOP|nWord=13|RX=[PRT]
+26	na	na	COP	_	_	_	_	_	AlignBegin=82511|AlignEnd=82689|GE=cop|Gloss=cop|nWord=14|RX=[COP]
+27	-'		VERB	_	_	_	_	_	AlignBegin=82689|AlignEnd=82867|GE=[NEG]|Gloss=NEG|nWord=14|RX=[VERB]
+28	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=82867|AlignEnd=83045|GE=cop|Gloss=cop|nWord=15|RX=[COP]
+29	-no		VERB	_	_	_	_	_	AlignBegin=83045|AlignEnd=83223|GE=[Q]|Gloss=Q|nWord=15|RX=[VERB]
+30	?.		_	_	_	_	_	_	AlignBegin=83223|AlignEnd=83575|nWord=16
+
+# sent_id = CD15_19-19
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 83575, 91073
+# morphemic_text = aw -e' =ki ga' ʉn- gaw -i zwey -kw =a'ba' , asay zwey -kw =a'ba' , ikʉndi anʉn- ki- za- 'tikuma -na ,.
+# text = awe'ki ga' ʉngawi zweykwa'ba' , asay zweykwa'ba' , ikʉndi anʉnkiza'tikumana ,.
+# text_en = But the way of doing the traditional work, the way of speaking, they lost their language,
+# text_phrase-gls-es = pero la forma de seguir haciendo el trabajo tradicional la forma de hablar perdierdon la lengua
+1	aw	aw	AUX	_	_	_	_	_	AlignBegin=83575|AlignEnd=83802|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
+2	-e'		VERB	_	_	_	_	_	AlignBegin=83802|AlignEnd=84029|GE=then|Gloss=then|nWord=1|RX=[VERB]
+3	=ki		POST	_	_	_	_	_	AlignBegin=84029|AlignEnd=84257|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[POST]
+4	ga'	ga'	N	_	_	_	_	_	AlignBegin=84257|AlignEnd=84939|GE=word|Gloss=word|nWord=2|RX=[N]
+5	ʉn-		V>V	_	_	_	_	_	AlignBegin=84939|AlignEnd=85166|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
+6	gaw	gaw	V	_	_	_	_	_	AlignBegin=85166|AlignEnd=85393|GE=make|Gloss=make|nWord=3|RX=[V]
+7	-i		VERB	_	_	_	_	_	AlignBegin=85393|AlignEnd=85621|GE=while|Gloss=while|nWord=3|RX=[VERB]
+8	zwey	zwey	VI	_	_	_	_	_	AlignBegin=85621|AlignEnd=85848|GE=go|Gloss=go|nWord=4|RX=[VI]
+9	-kw		VERB	_	_	_	_	_	AlignBegin=85848|AlignEnd=86075|GE=[ABLE]|Gloss=ABLE|nWord=4|RX=[VERB]
+10	=a'ba'		POST	_	_	_	_	_	AlignBegin=86075|AlignEnd=86303|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]
+11	,		_	_	_	_	_	_	AlignBegin=86303|AlignEnd=86985|nWord=5
+12	asay	asay	V	_	_	_	_	_	AlignBegin=86985|AlignEnd=87667|GE=speak|Gloss=speak|nWord=6|RX=[V]
+13	zwey	zwey	VI	_	_	_	_	_	AlignBegin=87667|AlignEnd=87894|GE=go|Gloss=go|nWord=7|RX=[VI]
+14	-kw		VERB	_	_	_	_	_	AlignBegin=87894|AlignEnd=88121|GE=[ABLE]|Gloss=ABLE|nWord=7|RX=[VERB]
+15	=a'ba'		POST	_	_	_	_	_	AlignBegin=88121|AlignEnd=88349|GE=[NOM]|Gloss==NOM|nWord=7|RX=[POST]
+16	,		_	_	_	_	_	_	AlignBegin=88349|AlignEnd=89031|nWord=8
+17	ikʉndi	ikʉndi	PRO	_	_	_	_	_	AlignBegin=89031|AlignEnd=89713|GE=[3PL]|Gloss=3PL|nWord=9|RX=[PRO]
+18	anʉn-		V>V	_	_	_	_	_	AlignBegin=89713|AlignEnd=89849|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
+19	ki-		VERB	_	_	_	_	_	AlignBegin=89849|AlignEnd=89985|GE=[APPL3]|Gloss=APPL3|nWord=10|RX=[VERB]
+20	za-		V:ANY	_	_	_	_	_	AlignBegin=89985|AlignEnd=90121|GE=[ZA]|Gloss=ZA|nWord=10|RX=[V:ANY]
+21	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=90121|AlignEnd=90257|GE=forget|Gloss=forget|nWord=10|RX=[VI]
+22	-na		VERB	_	_	_	_	_	AlignBegin=90257|AlignEnd=90395|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]
+23	,.		_	_	_	_	_	_	AlignBegin=90395|AlignEnd=91073|nWord=11
+
+# sent_id = CD15_20-20
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 91073, 96033
+# morphemic_text = ey , ikʉ na , ( ik ) ikʉ -n asay -kwa zan -a anʉn- ki- za- 'tikuma -na ni .
+# text = ey , ikʉ na , ( ik ) ikʉn asaykwa zana anʉnkiza'tikumana ni .
+# text_en = so, indigenous people, they lost being able to speak in [their] indigenous language.
+# text_phrase-gls-es = la forma de hablar la han perdido.
+1	ey	ey	PRT	_	_	_	_	_	AlignBegin=91073|AlignEnd=91427|GE=so|Gloss=so|nWord=1|RX=[PRT]
+2	,		_	_	_	_	_	_	AlignBegin=91427|AlignEnd=91781|nWord=2
+3	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=91781|AlignEnd=92135|GE=indigenous.person|Gloss=indigenous.person|nWord=3|RX=[N]
+4	na	na	COP	_	_	_	_	_	AlignBegin=92135|AlignEnd=92489|GE=cop|Gloss=cop|nWord=4|RX=[COP]
+5	,		_	_	_	_	_	_	AlignBegin=92489|AlignEnd=92843|nWord=5
+6	(		_	_	_	_	_	_	AlignBegin=92843|AlignEnd=93197|nWord=6
+7	ik	ik	_	_	_	_	_	_	AlignBegin=93197|AlignEnd=93551|nWord=7
+8	)		_	_	_	_	_	_	AlignBegin=93551|AlignEnd=93905|nWord=8
+9	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=93905|AlignEnd=94082|GE=indigenous.person|Gloss=indigenous.person|nWord=9|RX=[N]
+10	-n		NOUN	_	_	_	_	_	AlignBegin=94082|AlignEnd=94259|GE=[MEANS]|Gloss=MEANS|nWord=9|RX=[NOUN]
+11	asay	asay	V	_	_	_	_	_	AlignBegin=94259|AlignEnd=94436|GE=speak|Gloss=speak|nWord=10|RX=[V]
+12	-kwa		VERB	_	_	_	_	_	AlignBegin=94436|AlignEnd=94613|GE=[ABLE]|Gloss=ABLE|nWord=10|RX=[VERB]
+13	zan	zan	COP	_	_	_	_	_	AlignBegin=94613|AlignEnd=94790|GE=[COP]|Gloss=COP|nWord=11|RX=[COP]
+14	-a		V:ANY	_	_	_	_	_	AlignBegin=94790|AlignEnd=94967|GE=[PFV]|Gloss=PFV|nWord=11|RX=[V:ANY]
+15	anʉn-		V>V	_	_	_	_	_	AlignBegin=94967|AlignEnd=95038|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]
+16	ki-		VERB	_	_	_	_	_	AlignBegin=95038|AlignEnd=95109|GE=[APPL3]|Gloss=APPL3|nWord=12|RX=[VERB]
+17	za-		V:ANY	_	_	_	_	_	AlignBegin=95109|AlignEnd=95180|GE=[ZA]|Gloss=ZA|nWord=12|RX=[V:ANY]
+18	'tikuma	'tikuma	VI	_	_	_	_	_	AlignBegin=95180|AlignEnd=95251|GE=forget|Gloss=forget|nWord=12|RX=[VI]
+19	-na		VERB	_	_	_	_	_	AlignBegin=95251|AlignEnd=95321|GE=[RMTPST]|Gloss=RMTPST|nWord=12|RX=[VERB]
+20	ni	ni	AUX	_	_	_	_	_	AlignBegin=95321|AlignEnd=95675|GE=[DECL]|Gloss=DECL|nWord=13|RX=[AUX]
+21	.		.	_	_	_	_	_	AlignBegin=95675|AlignEnd=96033|Gloss=.|nWord=14
+
+# sent_id = CD15_21-21
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 96042, 98764
+# morphemic_text = ey gwak -ukwa nʉ -ndi , aw -i =ri ,.
+# text = ey gwakukwa nʉndi , awiri ,.
+# text_en = and if we talk in more detail, for example,
+# text_phrase-gls-es = y si hablamos más detalladamente, por ejemplo
+1	ey	ey	PRT	_	_	_	_	_	AlignBegin=96042|AlignEnd=96496|GE=so|Gloss=so|nWord=1|RX=[PRT]
+2	gwak	gwak	V	_	_	_	_	_	AlignBegin=96496|AlignEnd=96723|GE=inform|Gloss=inform|nWord=2|RX=[V]
+3	-ukwa		VERB	_	_	_	_	_	AlignBegin=96723|AlignEnd=96950|GE=[ABLE]|Gloss=ABLE|nWord=2|RX=[VERB]
+4	nʉ	nʉ	AUX	_	_	_	_	_	AlignBegin=96950|AlignEnd=97177|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
+5	-ndi		V:ANY	_	_	_	_	_	AlignBegin=97177|AlignEnd=97404|GE=[COND]|Gloss=COND|nWord=3|RX=[V:ANY]
+6	,		_	_	_	_	_	_	AlignBegin=97404|AlignEnd=97858|nWord=4
+7	aw	aw	AUX	_	_	_	_	_	AlignBegin=97858|AlignEnd=98009|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
+8	-i		VERB	_	_	_	_	_	AlignBegin=98009|AlignEnd=98160|GE=while|Gloss=while|nWord=5|RX=[VERB]
+9	=ri		PRT	_	_	_	_	_	AlignBegin=98160|AlignEnd=98312|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
+10	,.		_	_	_	_	_	_	AlignBegin=98312|AlignEnd=98764|nWord=6
+
+# sent_id = CD15_22-22
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 100710, 110359
+# morphemic_text = ( ehm ) mʉkʉ =se' neki , ʉyʉn -ke , iwa =ri ( ay ) ( a =ri ) ikʉ mʉkʉ zʉn -a ni ay -e' =ki ,.
+# text = ( ehm ) mʉkʉse' neki , ʉyʉnke , iwari ( ay ) ( ari ) ikʉ mʉkʉ zʉna ni aye'ki ,.
+# text_en = on their clothes, over there, now they say that there were indigenous clothes.
+# text_phrase-gls-es = en la ropa, ahora dicen que había ropa indígena.
+1	(		_	_	_	_	_	_	AlignBegin=100710|AlignEnd=101169|nWord=1
+2	ehm	ehm	INTERJ	_	_	_	_	_	AlignBegin=101169|AlignEnd=101628|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
+3	)		_	_	_	_	_	_	AlignBegin=101628|AlignEnd=102087|nWord=3
+4	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=102087|AlignEnd=102317|GE=cloth|Gloss=cloth|nWord=4|RX=[N]
+5	=se'		POST	_	_	_	_	_	AlignBegin=102317|AlignEnd=102546|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]
+6	neki	neki	PRT	_	_	_	_	_	AlignBegin=102546|AlignEnd=103005|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
+7	,		_	_	_	_	_	_	AlignBegin=103005|AlignEnd=103464|nWord=6
+8	ʉyʉn	ʉyʉn	ADV	_	_	_	_	_	AlignBegin=103464|AlignEnd=103694|GE=over.there|Gloss=over.there|nWord=7|RX=[ADV]
+9	-ke		N	_	_	_	_	_	AlignBegin=103694|AlignEnd=103923|GE=[LOC]|Gloss=LOC|nWord=7|RX=[N]
+10	,		_	_	_	_	_	_	AlignBegin=103923|AlignEnd=104382|nWord=8
+11	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=104382|AlignEnd=104612|GE=now|Gloss=now|nWord=9|RX=[ADV]
+12	=ri		PRT	_	_	_	_	_	AlignBegin=104612|AlignEnd=104841|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
+13	(		_	_	_	_	_	_	AlignBegin=104841|AlignEnd=105300|nWord=10
+14	ay	ay	INTERJ	_	_	_	_	_	AlignBegin=105300|AlignEnd=105759|GE=well|Gloss=well|nWord=11|RX=[INTERJ]
+15	)		_	_	_	_	_	_	AlignBegin=105759|AlignEnd=106218|nWord=12
+16	(		_	_	_	_	_	_	AlignBegin=106218|AlignEnd=106677|nWord=13
+17	a	a	PRO	_	_	_	_	_	AlignBegin=106677|AlignEnd=106907|GE=[3SG]|Gloss=3SG|nWord=14|RX=[PRO]
+18	=ri		PRT	_	_	_	_	_	AlignBegin=106907|AlignEnd=107136|GE=[TOP]|Gloss==TOP|nWord=14|RX=[PRT]
+19	)		_	_	_	_	_	_	AlignBegin=107136|AlignEnd=107595|nWord=15
+20	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=107595|AlignEnd=108054|GE=indigenous.person|Gloss=indigenous.person|nWord=16|RX=[N]
+21	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=108054|AlignEnd=108513|GE=cloth|Gloss=cloth|nWord=17|RX=[N]
+22	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=108513|AlignEnd=108743|GE=[COP]|Gloss=COP|nWord=18|RX=[COP]
+23	-a		V:ANY	_	_	_	_	_	AlignBegin=108743|AlignEnd=108972|GE=[PFV]|Gloss=PFV|nWord=18|RX=[V:ANY]
+24	ni	ni	AUX	_	_	_	_	_	AlignBegin=108972|AlignEnd=109431|GE=[DECL]|Gloss=DECL|nWord=19|RX=[AUX]
+25	ay	ay	VI	_	_	_	_	_	AlignBegin=109431|AlignEnd=109584|GE=say|Gloss=say|nWord=20|RX=[VI]
+26	-e'		VERB	_	_	_	_	_	AlignBegin=109584|AlignEnd=109737|GE=then|Gloss=then|nWord=20|RX=[VERB]
+27	=ki		POST	_	_	_	_	_	AlignBegin=109737|AlignEnd=109890|GE=[CNTR]|Gloss==CNTR|nWord=20|RX=[POST]
+28	,.		_	_	_	_	_	_	AlignBegin=109890|AlignEnd=110359|nWord=21
+
+# sent_id = CD15_23-23
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 110359, 112213
+# morphemic_text = ( mhm ) iwa =ri eymi neki na -' ni nʉn =di .
+# text = ( mhm ) iwari eymi neki na' ni nʉndi .
+# text_en = now [they say] it wasn't so.
+# text_phrase-gls-es = ahora [dicen que] no era así
 # text_phrase-gls-tl = correcto: na'nu' ni = no era así; dicen > se entiende por el contexto, no es literal
-1	ey	ey	PRT	_	_	_	_	_	AlignBegin=96041|AlignEnd=96765|GE=so|Gloss=so|nWord=1|RX=[PRT]
-2	gwak	gwak	V	_	_	_	_	_	AlignBegin=96765|AlignEnd=97127|GE=inform|Gloss=inform|nWord=2|RX=[V]
-3	-ukwa		VERB	_	_	_	_	_	AlignBegin=97127|AlignEnd=97489|GE=[ABLE]|Gloss=ABLE|nWord=2|RX=[VERB]
-4	nʉ	nʉ	AUX	_	_	_	_	_	AlignBegin=97489|AlignEnd=97851|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
-5	-ndi		V:ANY	_	_	_	_	_	AlignBegin=97851|AlignEnd=98213|GE=[COND]|Gloss=COND|nWord=3|RX=[V:ANY]
-6	,		_	_	_	_	_	_	AlignBegin=98213|AlignEnd=98937|nWord=4
-7	aw	aw	AUX	_	_	_	_	_	AlignBegin=98937|AlignEnd=99178|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
-8	-i		VERB	_	_	_	_	_	AlignBegin=99178|AlignEnd=99419|GE=while|Gloss=while|nWord=5|RX=[VERB]
-9	=ri		PRT	_	_	_	_	_	AlignBegin=99419|AlignEnd=99661|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-10	,		_	_	_	_	_	_	AlignBegin=99661|AlignEnd=100383|nWord=6
-11	(		_	_	_	_	_	_	AlignBegin=100710|AlignEnd=101102|nWord=7
-12	ehm	ehm	INTERJ	_	_	_	_	_	AlignBegin=101102|AlignEnd=101494|GE=[HES]|Gloss=HES|nWord=8|RX=[INTERJ]
-13	)		_	_	_	_	_	_	AlignBegin=101494|AlignEnd=101886|nWord=9
-14	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=101886|AlignEnd=102082|GE=cloth|Gloss=cloth|nWord=10|RX=[N]
-15	=se'		POST	_	_	_	_	_	AlignBegin=102082|AlignEnd=102278|GE=[LOC]|Gloss==LOC|nWord=10|RX=[POST]
-16	neki	neki	PRT	_	_	_	_	_	AlignBegin=102278|AlignEnd=102670|GE=[CNTR]|Gloss=CNTR|nWord=11|RX=[PRT]
-17	,		_	_	_	_	_	_	AlignBegin=102670|AlignEnd=103062|nWord=12
-18	ʉyʉn	ʉyʉn	ADV	_	_	_	_	_	AlignBegin=103062|AlignEnd=103258|GE=over.there|Gloss=over.there|nWord=13|RX=[ADV]
-19	-ke		N	_	_	_	_	_	AlignBegin=103258|AlignEnd=103454|GE=[LOC]|Gloss=LOC|nWord=13|RX=[N]
-20	,		_	_	_	_	_	_	AlignBegin=103454|AlignEnd=103846|nWord=14
-21	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=103846|AlignEnd=104042|GE=now|Gloss=now|nWord=15|RX=[ADV]
-22	=ri		PRT	_	_	_	_	_	AlignBegin=104042|AlignEnd=104238|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
-23	(		_	_	_	_	_	_	AlignBegin=104238|AlignEnd=104630|nWord=16
-24	ay	ay	INTERJ	_	_	_	_	_	AlignBegin=104630|AlignEnd=105022|GE=well|Gloss=well|nWord=17|RX=[INTERJ]
-25	)		_	_	_	_	_	_	AlignBegin=105022|AlignEnd=105414|nWord=18
-26	(		_	_	_	_	_	_	AlignBegin=105414|AlignEnd=105806|nWord=19
-27	a	a	PRO	_	_	_	_	_	AlignBegin=105806|AlignEnd=106002|GE=[3SG]|Gloss=3SG|nWord=20|RX=[PRO]
-28	=ri		PRT	_	_	_	_	_	AlignBegin=106002|AlignEnd=106198|GE=[TOP]|Gloss==TOP|nWord=20|RX=[PRT]
-29	)		_	_	_	_	_	_	AlignBegin=106198|AlignEnd=106590|nWord=21
-30	ikʉ	ikʉ	N	_	_	_	_	_	AlignBegin=106590|AlignEnd=106982|GE=indigenous.person|Gloss=indigenous.person|nWord=22|RX=[N]
-31	mʉkʉ	mʉkʉ	N	_	_	_	_	_	AlignBegin=106982|AlignEnd=107374|GE=cloth|Gloss=cloth|nWord=23|RX=[N]
-32	zʉn	zʉn	COP	_	_	_	_	_	AlignBegin=107374|AlignEnd=107570|GE=[COP]|Gloss=COP|nWord=24|RX=[COP]
-33	-a		V:ANY	_	_	_	_	_	AlignBegin=107570|AlignEnd=107766|GE=[PFV]|Gloss=PFV|nWord=24|RX=[V:ANY]
-34	ni	ni	AUX	_	_	_	_	_	AlignBegin=107766|AlignEnd=108158|GE=[DECL]|Gloss=DECL|nWord=25|RX=[AUX]
-35	ay	ay	VI	_	_	_	_	_	AlignBegin=108158|AlignEnd=108289|GE=say|Gloss=say|nWord=26|RX=[VI]
-36	-e'		VERB	_	_	_	_	_	AlignBegin=108289|AlignEnd=108420|GE=then|Gloss=then|nWord=26|RX=[VERB]
-37	=ki		POST	_	_	_	_	_	AlignBegin=108420|AlignEnd=108550|GE=[CNTR]|Gloss==CNTR|nWord=26|RX=[POST]
-38	,		_	_	_	_	_	_	AlignBegin=108550|AlignEnd=108933|nWord=27
-39	(		_	_	_	_	_	_	AlignBegin=108933|AlignEnd=109282|nWord=28
-40	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=109282|AlignEnd=109631|GE=[HES]|Gloss=HES|nWord=29|RX=[INTERJ]
-41	)		_	_	_	_	_	_	AlignBegin=109631|AlignEnd=109980|nWord=30
-42	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=109980|AlignEnd=110154|GE=now|Gloss=now|nWord=31|RX=[ADV]
-43	=ri		PRT	_	_	_	_	_	AlignBegin=110154|AlignEnd=110329|GE=[TOP]|Gloss==TOP|nWord=31|RX=[PRT]
-44	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=110329|AlignEnd=110678|GE=there|Gloss=there|nWord=32|RX=[ADV]
-45	neki	neki	PRT	_	_	_	_	_	AlignBegin=110678|AlignEnd=111027|GE=[CNTR]|Gloss=CNTR|nWord=33|RX=[PRT]
-46	na'	na'	AUX	_	_	_	_	_	AlignBegin=111027|AlignEnd=111376|GE=[AUX]|Gloss=AUX|nWord=34|RX=[AUX]
-47	ni	ni	AUX	_	_	_	_	_	AlignBegin=111376|AlignEnd=111725|GE=[DECL]|Gloss=DECL|nWord=35|RX=[AUX]
-48	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=111725|AlignEnd=111899|GE=cop|Gloss=cop|nWord=36|RX=[COP]
-49	=di		PRT	_	_	_	_	_	AlignBegin=111899|AlignEnd=112074|GE=[TOP]|Gloss==TOP|nWord=36|RX=[PRT]
-50	.		.	_	_	_	_	_	AlignBegin=112074|AlignEnd=112422|Gloss=.|nWord=37
+1	(		_	_	_	_	_	_	AlignBegin=110359|AlignEnd=110544|nWord=1
+2	mhm	mhm	INTERJ	_	_	_	_	_	AlignBegin=110544|AlignEnd=110729|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
+3	)		_	_	_	_	_	_	AlignBegin=110729|AlignEnd=110914|nWord=3
+4	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=110914|AlignEnd=111006|GE=now|Gloss=now|nWord=4|RX=[ADV]
+5	=ri		PRT	_	_	_	_	_	AlignBegin=111006|AlignEnd=111099|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
+6	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=111099|AlignEnd=111284|GE=there|Gloss=there|nWord=5|RX=[ADV]
+7	neki	neki	PRT	_	_	_	_	_	AlignBegin=111284|AlignEnd=111469|GE=[CNTR]|Gloss=CNTR|nWord=6|RX=[PRT]
+8	na	na	COP	_	_	_	_	_	AlignBegin=111469|AlignEnd=111561|GE=cop|Gloss=cop|nWord=7|RX=[COP]
+9	-'		VERB	_	_	_	_	_	AlignBegin=111561|AlignEnd=111654|GE=[NEG]|Gloss=NEG|nWord=7|RX=[VERB]
+10	ni	ni	AUX	_	_	_	_	_	AlignBegin=111654|AlignEnd=111839|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
+11	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=111839|AlignEnd=111931|GE=cop|Gloss=cop|nWord=9|RX=[COP]
+12	=di		PRT	_	_	_	_	_	AlignBegin=111931|AlignEnd=112024|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
+13	.		.	_	_	_	_	_	AlignBegin=112024|AlignEnd=112213|Gloss=.|nWord=10
 
 # sent_id = CD15_24-24
-# speaker_id = @SP1
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 112422, 117322
+# sent_timecode = 112224, 117333
 # morphemic_text = emʉnka =ri ey =ki ʉya neki mi- kʉ- nusi , ey =ki ( zwey -n ) zwey -kwa ( nhn ) n =a'ba' =ri .
 # text = emʉnkari eyki ʉya neki mikʉnusi , eyki ( zweyn ) zweykwa ( nhn ) na'ba'ri .
 # text_en = Over here they use this [their own clothes; refers to the Ika people], where they are going.
 # text_phrase-gls-es = Por acá utilizan su propia ropa [se refiere a los arhuacos] donde están yendo (por el momento por todas partes en las cuales se ve)
-1	emʉnka	emʉnka	ADV	_	_	_	_	_	AlignBegin=112422|AlignEnd=112575|GE=here|Gloss=here|nWord=1|RX=[ADV]
-2	=ri		PRT	_	_	_	_	_	AlignBegin=112575|AlignEnd=112728|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	ey	ey	PRT	_	_	_	_	_	AlignBegin=112728|AlignEnd=112881|GE=so|Gloss=so|nWord=2|RX=[PRT]
-4	=ki		POST	_	_	_	_	_	AlignBegin=112881|AlignEnd=113034|GE=[CNTR]|Gloss==CNTR|nWord=2|RX=[POST]
-5	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=113034|AlignEnd=113340|GE=this|Gloss=this|nWord=3|RX=[PRO]
-6	neki	neki	PRT	_	_	_	_	_	AlignBegin=113340|AlignEnd=113646|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
-7	mi-		PRONOUN	_	_	_	_	_	AlignBegin=113646|AlignEnd=113748|GE=[2SG].[O]|Gloss=2SG.O|nWord=5|RX=[PRONOUN]
-8	kʉ-		V>V	_	_	_	_	_	AlignBegin=113748|AlignEnd=113850|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
-9	nusi	nusi	V	_	_	_	_	_	AlignBegin=113850|AlignEnd=113952|GE=stand|Gloss=stand|nWord=5|RX=[V]
-10	,		_	_	_	_	_	_	AlignBegin=113952|AlignEnd=114258|nWord=6
-11	ey	ey	PRT	_	_	_	_	_	AlignBegin=114258|AlignEnd=114411|GE=so|Gloss=so|nWord=7|RX=[PRT]
-12	=ki		POST	_	_	_	_	_	AlignBegin=114411|AlignEnd=114564|GE=[CNTR]|Gloss==CNTR|nWord=7|RX=[POST]
-13	(		_	_	_	_	_	_	AlignBegin=114564|AlignEnd=114870|nWord=8
-14	zwey	zwey	VI	_	_	_	_	_	AlignBegin=114870|AlignEnd=115023|GE=go|Gloss=go|nWord=9|RX=[VI]
-15	-n		VERB	_	_	_	_	_	AlignBegin=115023|AlignEnd=115176|GE=[IPFV]|Gloss=IPFV|nWord=9|RX=[VERB]
-16	)		_	_	_	_	_	_	AlignBegin=115176|AlignEnd=115482|nWord=10
-17	zwey	zwey	VI	_	_	_	_	_	AlignBegin=115482|AlignEnd=115635|GE=go|Gloss=go|nWord=11|RX=[VI]
-18	-kwa		VERB	_	_	_	_	_	AlignBegin=115635|AlignEnd=115788|GE=[ABLE]|Gloss=ABLE|nWord=11|RX=[VERB]
-19	(		_	_	_	_	_	_	AlignBegin=115788|AlignEnd=116094|nWord=12
-20	nhn	nhn	INTERJ	_	_	_	_	_	AlignBegin=116094|AlignEnd=116400|GE=[HES]|Gloss=HES|nWord=13|RX=[INTERJ]
-21	)		_	_	_	_	_	_	AlignBegin=116400|AlignEnd=116706|nWord=14
-22	n	n	AUX	_	_	_	_	_	AlignBegin=116706|AlignEnd=116808|GE=aux|Gloss=aux|nWord=15|RX=[AUX]
-23	=a'ba'		POST	_	_	_	_	_	AlignBegin=116808|AlignEnd=116910|GE=[LOC]|Gloss==LOC|nWord=15|RX=[POST]
-24	=ri		PRT	_	_	_	_	_	AlignBegin=116910|AlignEnd=117012|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
-25	.		.	_	_	_	_	_	AlignBegin=117012|AlignEnd=117322|Gloss=.|nWord=16
+1	emʉnka	emʉnka	ADV	_	_	_	_	_	AlignBegin=112224|AlignEnd=112384|GE=here|Gloss=here|nWord=1|RX=[ADV]
+2	=ri		PRT	_	_	_	_	_	AlignBegin=112384|AlignEnd=112543|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
+3	ey	ey	PRT	_	_	_	_	_	AlignBegin=112543|AlignEnd=112703|GE=so|Gloss=so|nWord=2|RX=[PRT]
+4	=ki		POST	_	_	_	_	_	AlignBegin=112703|AlignEnd=112862|GE=[CNTR]|Gloss==CNTR|nWord=2|RX=[POST]
+5	ʉya	ʉya	PRO	_	_	_	_	_	AlignBegin=112862|AlignEnd=113181|GE=this|Gloss=this|nWord=3|RX=[PRO]
+6	neki	neki	PRT	_	_	_	_	_	AlignBegin=113181|AlignEnd=113500|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
+7	mi-		PRONOUN	_	_	_	_	_	AlignBegin=113500|AlignEnd=113606|GE=[2SG].[O]|Gloss=2SG.O|nWord=5|RX=[PRONOUN]
+8	kʉ-		V>V	_	_	_	_	_	AlignBegin=113606|AlignEnd=113712|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
+9	nusi	nusi	V	_	_	_	_	_	AlignBegin=113712|AlignEnd=113819|GE=stand|Gloss=stand|nWord=5|RX=[V]
+10	,		_	_	_	_	_	_	AlignBegin=113819|AlignEnd=114138|nWord=6
+11	ey	ey	PRT	_	_	_	_	_	AlignBegin=114138|AlignEnd=114298|GE=so|Gloss=so|nWord=7|RX=[PRT]
+12	=ki		POST	_	_	_	_	_	AlignBegin=114298|AlignEnd=114457|GE=[CNTR]|Gloss==CNTR|nWord=7|RX=[POST]
+13	(		_	_	_	_	_	_	AlignBegin=114457|AlignEnd=114776|nWord=8
+14	zwey	zwey	VI	_	_	_	_	_	AlignBegin=114776|AlignEnd=114936|GE=go|Gloss=go|nWord=9|RX=[VI]
+15	-n		VERB	_	_	_	_	_	AlignBegin=114936|AlignEnd=115095|GE=[IPFV]|Gloss=IPFV|nWord=9|RX=[VERB]
+16	)		_	_	_	_	_	_	AlignBegin=115095|AlignEnd=115414|nWord=10
+17	zwey	zwey	VI	_	_	_	_	_	AlignBegin=115414|AlignEnd=115574|GE=go|Gloss=go|nWord=11|RX=[VI]
+18	-kwa		VERB	_	_	_	_	_	AlignBegin=115574|AlignEnd=115733|GE=[ABLE]|Gloss=ABLE|nWord=11|RX=[VERB]
+19	(		_	_	_	_	_	_	AlignBegin=115733|AlignEnd=116052|nWord=12
+20	nhn	nhn	INTERJ	_	_	_	_	_	AlignBegin=116052|AlignEnd=116371|GE=[HES]|Gloss=HES|nWord=13|RX=[INTERJ]
+21	)		_	_	_	_	_	_	AlignBegin=116371|AlignEnd=116690|nWord=14
+22	n	n	AUX	_	_	_	_	_	AlignBegin=116690|AlignEnd=116796|GE=aux|Gloss=aux|nWord=15|RX=[AUX]
+23	=a'ba'		POST	_	_	_	_	_	AlignBegin=116796|AlignEnd=116902|GE=[LOC]|Gloss==LOC|nWord=15|RX=[POST]
+24	=ri		PRT	_	_	_	_	_	AlignBegin=116902|AlignEnd=117009|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
+25	.		.	_	_	_	_	_	AlignBegin=117009|AlignEnd=117333|Gloss=.|nWord=16
 
-# sent_id = CD15_25-26
-# speaker_id = @SP1
+# sent_id = CD15_25-25
+# speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
-# sent_timecode = 117341, 123820
-# morphemic_text = eyma eygumʉn diwʉn kinki kawa -y , ka'a nʉn -no ? nan -i =ri a- kingwi eymʉnke =ta' zwey -n , nuk -ay n -e' kaw -ʉn =ki .
-# text = eyma eygumʉn diwʉn kinki kaway , ka' nʉnno ? nariri akingwi eymʉnketa' zweyn , nukay ne' kawʉnki .
-# text_en = This is what makes them most different, it seems, right?. That go the same on this side, even if they look alike.
-# text_phrase-gls-es = Esto es lo que los hacen más diferente, que van lo mismo por este lado,  aunque se parezca.
+# sent_timecode = 117341, 120470
+# morphemic_text = eyma eygumʉn diwʉn kinki kawa -y , ka'a nʉn -no ?.
+# text = eyma eygumʉn diwʉn kinki kaway , ka' nʉnno ?.
+# text_en = This is what makes them most different, it seems, right?
+# text_phrase-gls-es = Esto es lo que los hacen más diferente,
+1	eyma	eyma	DEM	_	_	_	_	_	AlignBegin=117341|AlignEnd=117689|GE=this|Gloss=this|nWord=1|RX=[DEM]
+2	eygumʉn	eygumʉn	ADV	_	_	_	_	_	AlignBegin=117689|AlignEnd=118037|GE=more|Gloss=more|nWord=2|RX=[ADV]
+3	diwʉn	diwʉn	ADJ	_	_	_	_	_	AlignBegin=118037|AlignEnd=118385|GE=different|Gloss=different|nWord=3|RX=[ADJ]
+4	kinki	kinki	PRT	_	_	_	_	_	AlignBegin=118385|AlignEnd=118733|GE=really|Gloss=really|nWord=4|RX=[PRT]
+5	kawa	kawa	V	_	_	_	_	_	AlignBegin=118733|AlignEnd=118907|GE=seem|Gloss=seem|nWord=5|RX=[V]
+6	-y		VERB	_	_	_	_	_	AlignBegin=118907|AlignEnd=119081|GE=while|Gloss=while|nWord=5|RX=[VERB]
+7	,		_	_	_	_	_	_	AlignBegin=119081|AlignEnd=119429|nWord=6
+8	ka'a	ka'a	V	_	_	_	_	_	AlignBegin=119429|AlignEnd=119777|GE=seem|Gloss=seem|nWord=7|RX=[V]
+9	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=119777|AlignEnd=119951|GE=cop|Gloss=cop|nWord=8|RX=[COP]
+10	-no		VERB	_	_	_	_	_	AlignBegin=119951|AlignEnd=120125|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
+11	?.		_	_	_	_	_	_	AlignBegin=120125|AlignEnd=120470|nWord=9
+
+# sent_id = CD15_26-26
+# speaker_id = @SP15
+# sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-15.WAV/WAV/ARH-TXT-CD-00000-15.WAV
+# sent_timecode = 120470, 124130
+# morphemic_text = nan -i =ri a- kingwi eymʉnke =ta' zwey -n , nuk -ay n -e' kaw -ʉn =ki .
+# text = nariri akingwi eymʉnketa' zweyn , nukay ne' kawʉnki .
+# text_en = That go the same on this side, even if they look alike.
+# text_phrase-gls-es = que van lo mismo por este lado,  aunque se parezca.
 # text_phrase-gls-tl = aunque se parezca=nukay ne kawünki;
-1	eyma	eyma	DEM	_	_	_	_	_	AlignBegin=117341|AlignEnd=117663|GE=this|Gloss=this|nWord=1|RX=[DEM]
-2	eygumʉn	eygumʉn	ADV	_	_	_	_	_	AlignBegin=117663|AlignEnd=117985|GE=more|Gloss=more|nWord=2|RX=[ADV]
-3	diwʉn	diwʉn	ADJ	_	_	_	_	_	AlignBegin=117985|AlignEnd=118307|GE=different|Gloss=different|nWord=3|RX=[ADJ]
-4	kinki	kinki	ADV	_	_	_	_	_	AlignBegin=118307|AlignEnd=118629|GE=really|Gloss=really|nWord=4|RX=[ADV]
-5	kawa	kawa	V	_	_	_	_	_	AlignBegin=118629|AlignEnd=118790|GE=seem|Gloss=seem|nWord=5|RX=[V]
-6	-y		VERB	_	_	_	_	_	AlignBegin=118790|AlignEnd=118951|GE=while|Gloss=while|nWord=5|RX=[VERB]
-7	,		_	_	_	_	_	_	AlignBegin=118951|AlignEnd=119273|nWord=6
-8	ka'a	ka'a	V	_	_	_	_	_	AlignBegin=119273|AlignEnd=119595|GE=seem|Gloss=seem|nWord=7|RX=[V]
-9	nʉn	nʉn	COP	_	_	_	_	_	AlignBegin=119595|AlignEnd=119756|GE=cop|Gloss=cop|nWord=8|RX=[COP]
-10	-no		VERB	_	_	_	_	_	AlignBegin=119756|AlignEnd=119917|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
-11	?		?	_	_	_	_	_	AlignBegin=119917|AlignEnd=120240|GE=[?]|Gloss=?|nWord=9
-12	nan	nan	AUX	_	_	_	_	_	AlignBegin=120240|AlignEnd=120373|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
-13	-i		VERB	_	_	_	_	_	AlignBegin=120373|AlignEnd=120506|GE=while|Gloss=while|nWord=10|RX=[VERB]
-14	=ri		PRT	_	_	_	_	_	AlignBegin=120506|AlignEnd=120638|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
-15	a-		POSS	_	_	_	_	_	AlignBegin=120638|AlignEnd=120837|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=11|RX=[POSS]
-16	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=120837|AlignEnd=121036|GE=same|Gloss=same|nWord=11|RX=[ADJ]
-17	eymʉnke	eymʉnke	ADV	_	_	_	_	_	AlignBegin=121036|AlignEnd=121235|GE=there|Gloss=there|nWord=12|RX=[ADV]
-18	=ta'		POST	_	_	_	_	_	AlignBegin=121235|AlignEnd=121434|GE=[LOC]|Gloss==LOC|nWord=12|RX=[POST]
-19	zwey	zwey	VI	_	_	_	_	_	AlignBegin=121434|AlignEnd=121633|GE=go|Gloss=go|nWord=13|RX=[VI]
-20	-n		VERB	_	_	_	_	_	AlignBegin=121633|AlignEnd=121832|GE=[IPFV]|Gloss=IPFV|nWord=13|RX=[VERB]
-21	,		_	_	_	_	_	_	AlignBegin=121832|AlignEnd=122230|nWord=14
-22	nuk	nuk	AUX	_	_	_	_	_	AlignBegin=122230|AlignEnd=122429|GE=aux|Gloss=aux|nWord=15|RX=[AUX]
-23	-ay		VERB	_	_	_	_	_	AlignBegin=122429|AlignEnd=122628|GE=while|Gloss=while|nWord=15|RX=[VERB]
-24	n	n	AUX	_	_	_	_	_	AlignBegin=122628|AlignEnd=122827|GE=aux|Gloss=aux|nWord=16|RX=[AUX]
-25	-e'		VERB	_	_	_	_	_	AlignBegin=122827|AlignEnd=123026|GE=then|Gloss=then|nWord=16|RX=[VERB]
-26	kaw	kaw	V	_	_	_	_	_	AlignBegin=123026|AlignEnd=123159|GE=seem|Gloss=seem|nWord=17|RX=[V]
-27	-ʉn		VERB	_	_	_	_	_	AlignBegin=123159|AlignEnd=123292|GE=[IPFV]|Gloss=IPFV|nWord=17|RX=[VERB]
-28	=ki		POST	_	_	_	_	_	AlignBegin=123292|AlignEnd=123424|GE=[CNTR]|Gloss==CNTR|nWord=17|RX=[POST]
-29	.		.	_	_	_	_	_	AlignBegin=123424|AlignEnd=123820|Gloss=.|nWord=18
+1	nan	nan	AUX	_	_	_	_	_	AlignBegin=120470|AlignEnd=120606|GE=[AUX]|Gloss=AUX|nWord=1|RX=[AUX]
+2	-i		VERB	_	_	_	_	_	AlignBegin=120606|AlignEnd=120742|GE=while|Gloss=while|nWord=1|RX=[VERB]
+3	=ri		PRT	_	_	_	_	_	AlignBegin=120742|AlignEnd=120877|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
+4	a-		POSS	_	_	_	_	_	AlignBegin=120877|AlignEnd=121081|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=2|RX=[POSS]
+5	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=121081|AlignEnd=121284|GE=same|Gloss=same|nWord=2|RX=[ADJ]
+6	eymʉnke	eymʉnke	ADV	_	_	_	_	_	AlignBegin=121284|AlignEnd=121488|GE=there|Gloss=there|nWord=3|RX=[ADV]
+7	=ta'		POST	_	_	_	_	_	AlignBegin=121488|AlignEnd=121691|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
+8	zwey	zwey	VI	_	_	_	_	_	AlignBegin=121691|AlignEnd=121895|GE=go|Gloss=go|nWord=4|RX=[VI]
+9	-n		VERB	_	_	_	_	_	AlignBegin=121895|AlignEnd=122098|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]
+10	,		_	_	_	_	_	_	AlignBegin=122098|AlignEnd=122505|nWord=5
+11	nuk	nuk	AUX	_	_	_	_	_	AlignBegin=122505|AlignEnd=122709|GE=aux|Gloss=aux|nWord=6|RX=[AUX]
+12	-ay		VERB	_	_	_	_	_	AlignBegin=122709|AlignEnd=122912|GE=while|Gloss=while|nWord=6|RX=[VERB]
+13	n	n	AUX	_	_	_	_	_	AlignBegin=122912|AlignEnd=123116|GE=aux|Gloss=aux|nWord=7|RX=[AUX]
+14	-e'		VERB	_	_	_	_	_	AlignBegin=123116|AlignEnd=123319|GE=then|Gloss=then|nWord=7|RX=[VERB]
+15	kaw	kaw	V	_	_	_	_	_	AlignBegin=123319|AlignEnd=123455|GE=seem|Gloss=seem|nWord=8|RX=[V]
+16	-ʉn		VERB	_	_	_	_	_	AlignBegin=123455|AlignEnd=123591|GE=[IPFV]|Gloss=IPFV|nWord=8|RX=[VERB]
+17	=ki		POST	_	_	_	_	_	AlignBegin=123591|AlignEnd=123726|GE=[CNTR]|Gloss==CNTR|nWord=8|RX=[POST]
+18	.		.	_	_	_	_	_	AlignBegin=123726|AlignEnd=124130|Gloss=.|nWord=9
 
