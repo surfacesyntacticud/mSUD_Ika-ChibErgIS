@@ -121,9 +121,9 @@
 1	kakʉ	kakʉ	NOUN	_	_	9	subj	_	AlignBegin=25179|AlignEnd=25537|GE=father|Gloss=father|nWord=1|RX=[N]
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=25537|AlignEnd=25895|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
 3	zʉ'ʉn	zʉ'ʉn	AUX	_	_	2	mod:emph	_	AlignBegin=25895|AlignEnd=26253|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
-4	(		PUNCT	_	_	_	_	_	AlignBegin=26253|AlignEnd=26611|nWord=4
+4	(		PUNCT	_	_	5	punct	_	AlignBegin=26253|AlignEnd=26611|nWord=4
 5	ih	ih	INTJ	_	_	7	mod	_	AlignBegin=26611|AlignEnd=26969|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
-6	)		PUNCT	_	_	_	_	_	AlignBegin=26969|AlignEnd=27327|nWord=6
+6	)		PUNCT	_	_	5	punct	_	AlignBegin=26969|AlignEnd=27327|nWord=6
 7	ikʉ	ikʉ	PROPN	_	_	9	comp:obj	_	AlignBegin=27327|AlignEnd=27506|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=27506|AlignEnd=27685|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
 9	gow	gow	VERB	_	_	10	comp:aux/m	_	AlignBegin=27685|AlignEnd=27864|GE=build|Gloss=build|nWord=8|RX=[V]
@@ -146,9 +146,9 @@
 # text = ( eh ) awiri emʉnke' ( ke ) kungwa nigwi agwasi
 # text_en = and we say that they were going to stay [lit. exist] here
 # text_phrase-gls-es = Y dijeron que iban a permanecer (vivir) por aquí
-1	(		PUNCT	_	_	_	_	_	AlignBegin=29833|AlignEnd=30298|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=29833|AlignEnd=30298|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=30298|AlignEnd=30763|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=30763|AlignEnd=31228|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=30763|AlignEnd=31228|nWord=3
 4	aw	aw	AUX	_	_	5	comp:aux/m	_	AlignBegin=31228|AlignEnd=31383|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-i		AUX	_	_	_	_	_	AlignBegin=31383|AlignEnd=31538|GE=while|Gloss=while|nWord=4|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=31538|AlignEnd=31693|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
@@ -298,9 +298,9 @@
 6	,		PUNCT	_	_	_	_	_	AlignBegin=55268|AlignEnd=55584|nWord=4
 7	aw	aw	AUX	_	_	8	comp:aux/m	_	AlignBegin=55584|AlignEnd=55742|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 8	-i		AUX	_	_	_	_	_	AlignBegin=55742|AlignEnd=55900|GE=while|Gloss=while|nWord=5|RX=[VERB]
-9	ma'keywa	ma'keywa	NUM	_	_	_	_	_	AlignBegin=55900|AlignEnd=56216|GE=four|Gloss=four|nWord=6|RX=[NUM]
+9	ma'keywa	ma'keywa	NUM	_	_	10	comp:pred	_	AlignBegin=55900|AlignEnd=56216|GE=four|Gloss=four|nWord=6|RX=[NUM]
 10	nʉ	nʉ	AUX	_	_	11	comp:aux/m	_	AlignBegin=56216|AlignEnd=56374|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
-11	-ngwa		AUX	_	_	_	_	_	AlignBegin=56374|AlignEnd=56532|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
+11	-ngwa		AUX	_	_	13	comp:obj	_	AlignBegin=56374|AlignEnd=56532|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
 12	i-		AUX	_	_	13	mod/m	_	AlignBegin=56532|AlignEnd=56690|GE=[APPL2]|Gloss=APPL2|nWord=8|RX=[V>V]
 13	'chʉnha	'chʉnha	VERB	_	_	14	comp:aux	_	AlignBegin=56690|AlignEnd=56848|GE=arrive|Gloss=arrive|nWord=8|RX=[V]
 14	u	u	AUX	_	_	15	comp:aux/m	_	AlignBegin=56848|AlignEnd=57007|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
@@ -341,7 +341,7 @@
 # text_phrase-gls-es = De allí en adelante los que nacieron [quinto, sexto hijo],
 1	eymi	eymi	ADV	_	_	2	comp	_	AlignBegin=62010|AlignEnd=62380|GE=there|Gloss=there|nWord=1|RX=[ADV]
 2	pari	pari	ADP	_	_	4	mod:lmod	_	AlignBegin=62380|AlignEnd=62750|GE=from|Gloss=from|nWord=2|RX=[POST]
-3	ingeygwi	ingeygwi	ADJ	_	_	_	_	_	AlignBegin=62750|AlignEnd=63120|GE=other|Gloss=other|nWord=3|RX=[ADJ]
+3	ingeygwi	ingeygwi	ADJ	_	_	4	subj	_	AlignBegin=62750|AlignEnd=63120|GE=other|Gloss=other|nWord=3|RX=[ADJ]
 4	kwakuma	kwakuma	VERB	_	_	5	comp:aux/m	_	AlignBegin=63120|AlignEnd=63212|GE=be.born|Gloss=be.born|nWord=4|RX=[V]
 5	-y		AUX	_	_	6	comp:aux/m	_	AlignBegin=63212|AlignEnd=63304|GE=while|Gloss=while|nWord=4|RX=[VERB]
 6	-e'		AUX	_	_	_	_	_	AlignBegin=63304|AlignEnd=63396|GE=then|Gloss=then|nWord=4|RX=[VERB]
@@ -404,8 +404,8 @@
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=70067|AlignEnd=70375|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	uw	uw	AUX	_	_	3	comp:aux/m	_	AlignBegin=70375|AlignEnd=70529|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-a'me'		AUX	_	_	_	_	_	AlignBegin=70529|AlignEnd=70683|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
-4	aɉwa	aɉwa	DET	_	_	_	_	_	AlignBegin=70683|AlignEnd=70786|GE=another|Gloss=another|nWord=3|RX=[DET]
-5	=ɉina		PART	_	_	_	_	_	AlignBegin=70786|AlignEnd=70889|GE=many[animated]|Gloss==many[animated]|nWord=3|RX=[PRT]
+4	aɉwa	aɉwa	PRON	_	_	2	comp:pred	_	AlignBegin=70683|AlignEnd=70786|GE=another|Gloss=another|nWord=3|RX=[DET]
+5	=ɉina		PART	_	_	4	mod	_	AlignBegin=70786|AlignEnd=70889|GE=many[animated]|Gloss==many[animated]|nWord=3|RX=[PRT]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=70889|AlignEnd=70991|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 
 # sent_id = AN11_20-20
@@ -513,9 +513,9 @@
 # text = ( eh ) uwa'me' gun , ( eh ) kwa gwiari kwa kawʉri cheychi nanʉkin neyka ni aya nʉndi
 # text_en = That's why we say that the older brother [said by a man] or the older brother [said by a woman] are [the same as] a father.
 # text_phrase-gls-es = Por eso, el hermano [hombre] o el hermano [mujer] es lo mismo que ser un padre, dicen eso.
-1	(		PUNCT	_	_	_	_	_	AlignBegin=90229|AlignEnd=90591|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=90229|AlignEnd=90591|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=90591|AlignEnd=90953|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=90953|AlignEnd=91315|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=90953|AlignEnd=91315|nWord=3
 4	uw	uw	AUX	_	_	5	comp:aux/m	_	AlignBegin=91315|AlignEnd=91496|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-a'me'		AUX	_	_	_	_	_	AlignBegin=91496|AlignEnd=91677|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
 6	gu-		AUX	_	_	_	_	_	AlignBegin=91677|AlignEnd=92039|GE=[GUN]|Gloss=GUN|nWord=5|RX=[V:ANY]
@@ -591,7 +591,7 @@
 2	uw	uw	AUX	_	_	3	comp:aux/m	_	AlignBegin=103647|AlignEnd=103764|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-a'me'		AUX	_	_	_	_	_	AlignBegin=103764|AlignEnd=103881|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
 4	,		PUNCT	_	_	_	_	_	AlignBegin=103881|AlignEnd=104115|nWord=3
-5	eymi	eymi	DET	_	_	_	_	_	AlignBegin=104115|AlignEnd=104232|GE=that|Gloss=that|nWord=4|RX=[DET]
+5	eymi	eymi	PRON	_	_	8	conj:dicto	_	AlignBegin=104115|AlignEnd=104232|GE=that|Gloss=that|nWord=4|RX=[DET]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=104232|AlignEnd=104349|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 7	,		PUNCT	_	_	_	_	_	AlignBegin=104349|AlignEnd=104583|nWord=5
 8	eymi	eymi	PRON	_	_	15	comp:obl	_	AlignBegin=104583|AlignEnd=104817|GE=that|Gloss=that|nWord=6|RX=[DET]
@@ -713,7 +713,7 @@
 # text_en = With respect to spiritual [matters], they are poor, aren't they?
 # text_phrase-gls-es = sería un pobreza espiritual [lit. pobre en espiritu)
 1	ánu'gwe	ánu'gwe	NOUN	_	_	2	comp	_	AlignBegin=121471|AlignEnd=121786|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
-2	=rigʉn		ADP	_	_	_	_	_	AlignBegin=121786|AlignEnd=122101|GE=on.the.other.side|Gloss==on.the.other.side|nWord=1|RX=[POST]
+2	=rigʉn		ADP	_	_	5	comp:obl	_	AlignBegin=121786|AlignEnd=122101|GE=on.the.other.side|Gloss==on.the.other.side|nWord=1|RX=[POST]
 3	=di		PART	_	_	2	mod	_	AlignBegin=122101|AlignEnd=122416|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	nasi	nasi	ADJ	_	_	5	comp:pred@attr	_	AlignBegin=122416|AlignEnd=123361|GE=poor|Gloss=poor|nWord=2|RX=[ADJ]
 5	na	na	AUX	_	_	6	comp:aux/m	_	AlignBegin=123361|AlignEnd=123833|GE=cop|Gloss=cop|nWord=3|RX=[COP]
@@ -732,7 +732,7 @@
 1	iwa	iwa	CCONJ	_	_	9	discourse	_	AlignBegin=125250|AlignEnd=125663|GE=but|Gloss=but|nWord=1|RX=[CONN]
 2	ikʉ	ikʉ	PROPN	_	_	7	subj	_	AlignBegin=125663|AlignEnd=125869|GE=[Ika]|Gloss=Ika|nWord=2|RX=[NPROP]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=125869|AlignEnd=126076|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-4	yow	yow	PRON	_	_	6	subj	_	AlignBegin=126076|AlignEnd=126489|GE=all|Gloss=all|nWord=3|RX=[QUANT]
+4	yow	yow	PRON	_	_	6	comp:obj	_	AlignBegin=126076|AlignEnd=126489|GE=all|Gloss=all|nWord=3|RX=[QUANT]
 5	mi-		PRON	_	_	6	comp:obj/m	_	AlignBegin=126489|AlignEnd=126695|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]
 6	kʉnari	kʉnari	VERB	_	_	7	mod	_	AlignBegin=126695|AlignEnd=126902|GE=have|Gloss=have|nWord=4|RX=[VT]
 7	ku	ku	VERB	_	_	8	comp:aux/m	_	AlignBegin=126902|AlignEnd=127108|GE=live|Gloss=live|nWord=5|RX=[V]

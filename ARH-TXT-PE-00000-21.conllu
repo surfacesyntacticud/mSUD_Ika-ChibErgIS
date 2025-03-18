@@ -56,8 +56,8 @@
 1	nug	nug	AUX	_	_	2	comp:aux/m	_	AlignBegin=18330|AlignEnd=18619|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-e'		AUX	_	_	_	_	_	AlignBegin=18619|AlignEnd=18908|GE=then|Gloss=then|nWord=1|RX=[VERB]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=18908|AlignEnd=19196|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	ma'keywa	ma'keywa	NUM	_	_	_	_	_	AlignBegin=19196|AlignEnd=20062|GE=four|Gloss=four|nWord=2|RX=[NUM]
-5	asewa	asewa	NUM	_	_	_	_	_	AlignBegin=20062|AlignEnd=20928|GE=five|Gloss=five|nWord=3|RX=[NUM]
+4	ma'keywa	ma'keywa	NUM	_	_	8	comp:obj	_	AlignBegin=19196|AlignEnd=20062|GE=four|Gloss=four|nWord=2|RX=[NUM]
+5	asewa	asewa	NUM	_	_	4	mod	_	AlignBegin=20062|AlignEnd=20928|GE=five|Gloss=five|nWord=3|RX=[NUM]
 6	ʉn-		AUX	_	_	7	mod/m	_	AlignBegin=20928|AlignEnd=21216|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
 7	kʉ-		AUX	_	_	8	mod/m	_	AlignBegin=21216|AlignEnd=21504|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]
 8	tasi	tasi	VERB	_	_	_	_	_	AlignBegin=21504|AlignEnd=21793|GE=take|Gloss=take|nWord=4|RX=[V]
@@ -132,14 +132,14 @@
 10	=ri		PART	_	_	9	mod	_	AlignBegin=34047|AlignEnd=34172|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 
 # sent_id = PE21_08-08
+# text = i'ngwi kiwa'na uwe'ri
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 34172, 36380
 # morphemic_text = i'ngwi ki- wa' -na u -w -e' =ri
-# text = i'ngwi kiwa'na uwe'ri
-# text_en = when he dropped one [pear].
+# text_en = when he dropped one [pear]. [lit. when one fell for him]
 # text_phrase-gls-es = y cuando se le cayó una [pera]
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=34172|AlignEnd=34908|GE=one|Gloss=one|nWord=1|RX=[NUM]
+1	i'ngwi	i'ngwi	NUM	_	_	3	subj	_	AlignBegin=34172|AlignEnd=34908|GE=one|Gloss=one|nWord=1|RX=[NUM]
 2	ki-		AUX	_	_	3	mod/m	_	AlignBegin=34908|AlignEnd=35153|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]
 3	wa'	wa'	VERB	_	_	4	comp:aux/m	_	AlignBegin=35153|AlignEnd=35398|GE=fall|Gloss=fall|nWord=2|RX=[V]
 4	-na		AUX	_	_	5	comp:aux	_	AlignBegin=35398|AlignEnd=35644|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
@@ -169,10 +169,10 @@
 # text = i'ngwi kiwa'nana gusiri
 # text_en = and picked up one he had dropped
 # text_phrase-gls-es = y cogió una que se le había caído
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=38879|AlignEnd=39471|GE=one|Gloss=one|nWord=1|RX=[NUM]
+1	i'ngwi	i'ngwi	NUM	_	_	3	subj	_	AlignBegin=38879|AlignEnd=39471|GE=one|Gloss=one|nWord=1|RX=[NUM]
 2	ki-		AUX	_	_	3	mod/m	_	AlignBegin=39471|AlignEnd=39668|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]
 3	wa'na	wa'na	VERB	_	_	4	comp:aux/m	_	AlignBegin=39668|AlignEnd=39865|GE=fall|Gloss=fall|nWord=2|RX=[V]
-4	-na		AUX	_	_	_	_	_	AlignBegin=39865|AlignEnd=40063|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
+4	-na		AUX	_	_	5	comp:obj	_	AlignBegin=39865|AlignEnd=40063|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
 5	gus	gus	VERB	_	_	6	comp:aux/m	_	AlignBegin=40063|AlignEnd=40261|GE=take|Gloss=take|nWord=3|RX=[VT]
 6	-i		AUX	_	_	_	_	_	AlignBegin=40261|AlignEnd=40459|GE=while|Gloss=while|nWord=3|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=40459|AlignEnd=40656|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
@@ -313,8 +313,8 @@
 # text = i'ngwi achʉna chiwako'ku agisa si kanisi nasiri , agisiri
 # text_en = an adult came pulling with a goat tied up with a ribbon, pulling it
 # text_phrase-gls-es = un adulto venía con un cabro amarrado con un laso
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=62530|AlignEnd=62989|GE=one|Gloss=one|nWord=1|RX=[NUM]
-2	achʉna	achʉna	ADJ	_	_	_	_	_	AlignBegin=62989|AlignEnd=63448|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]
+1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=62530|AlignEnd=62989|GE=one|Gloss=one|nWord=1|RX=[NUM]
+2	achʉna	achʉna	ADJ	_	_	4	subj	_	AlignBegin=62989|AlignEnd=63448|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]
 3	chiwako'ku	chiwako'ku	NOUN	_	_	4	comp:obj	_	AlignBegin=63448|AlignEnd=63907|GE=goat|Gloss=goat|nWord=3|RX=[N]
 4	agis	agis	VERB	_	_	5	comp:aux/m	_	AlignBegin=63907|AlignEnd=64137|GE=pull|Gloss=pull|nWord=4|RX=[V]
 5	-a		AUX	_	_	_	_	_	AlignBegin=64137|AlignEnd=64366|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]
@@ -365,7 +365,7 @@
 # text = ingeygwi gʉmʉsinʉ nakʉn nusiri ,
 # text_en = another child was coming
 # text_phrase-gls-es = venía otro ninio
-1	ingeygwi	ingeygwi	ADJ	_	_	_	_	_	AlignBegin=72470|AlignEnd=73146|GE=other|Gloss=other|nWord=1|RX=[ADJ]
+1	ingeygwi	ingeygwi	ADJ	_	_	2	mod	_	AlignBegin=72470|AlignEnd=73146|GE=other|Gloss=other|nWord=1|RX=[ADJ]
 2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	3	subj	_	AlignBegin=73146|AlignEnd=73822|GE=child|Gloss=child|nWord=2|RX=[N]
 3	nak	nak	VERB	_	_	4	comp:aux/m	_	AlignBegin=73822|AlignEnd=74160|GE=come|Gloss=come|nWord=3|RX=[V]
 4	-ʉn		AUX	_	_	5	comp:aux	_	AlignBegin=74160|AlignEnd=74498|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]
@@ -405,7 +405,7 @@
 # text_phrase-gls-es = se bajó y pensó agarrar una [pera]
 1	kʉchari	kʉchari	VERB	_	_	_	_	_	AlignBegin=81358|AlignEnd=81612|GE=go.down|Gloss=go.down|nWord=1|RX=[V]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=81612|AlignEnd=81866|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=81866|AlignEnd=82374|GE=one|Gloss=one|nWord=2|RX=[NUM]
+3	i'ngwi	i'ngwi	NUM	_	_	4	comp:obj	_	AlignBegin=81866|AlignEnd=82374|GE=one|Gloss=one|nWord=2|RX=[NUM]
 4	guk	guk	VERB	_	_	5	comp:aux/m	_	AlignBegin=82374|AlignEnd=82628|GE=take|Gloss=take|nWord=3|RX=[V]
 5	-a		AUX	_	_	6	comp:aux	_	AlignBegin=82628|AlignEnd=82882|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]
 6	uw	uw	AUX	_	_	7	comp:aux/m	_	AlignBegin=82882|AlignEnd=83136|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
@@ -491,7 +491,7 @@
 # text_en = When he was further ahead |
 # text_phrase-gls-es = Cuando iba más adelante
 1	atʉg	atʉg	ADV	_	_	2	comp	_	AlignBegin=94670|AlignEnd=95034|GE=[LOC].[further]|Gloss=LOC.further|nWord=1|RX=[ADV]
-2	=ekʉ		ADP	_	_	_	_	_	AlignBegin=95034|AlignEnd=95397|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
+2	=ekʉ		ADP	_	_	4	mod:lmod	_	AlignBegin=95034|AlignEnd=95397|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=95397|AlignEnd=95639|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
 4	zwey	zwey	VERB	_	_	5	comp:aux/m	_	AlignBegin=95639|AlignEnd=95881|GE=go|Gloss=go|nWord=2|RX=[VI]
 5	-n		AUX	_	_	6	comp:aux	_	AlignBegin=95881|AlignEnd=96124|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]
@@ -579,7 +579,7 @@
 9	uw	uw	AUX	_	_	10	comp:aux/m	_	AlignBegin=109581|AlignEnd=109795|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 10	-a		AUX	_	_	_	_	_	AlignBegin=109795|AlignEnd=110008|GE=[PFV]|Gloss=PFV|nWord=5|RX=[V:ANY]
 11	a'zan	a'zan	VERB	_	_	12	comp	_	AlignBegin=110008|AlignEnd=110151|GE=feel|Gloss=feel|nWord=6|RX=[V]
-12	=ʉkin		ADP	_	_	_	_	_	AlignBegin=110151|AlignEnd=110294|GE=[LIM]|Gloss==LIM|nWord=6|RX=[POST]
+12	=ʉkin		ADP	_	_	5	parataxis	_	AlignBegin=110151|AlignEnd=110294|GE=[LIM]|Gloss==LIM|nWord=6|RX=[POST]
 13	=di		PART	_	_	12	mod	_	AlignBegin=110294|AlignEnd=110436|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 
 # sent_id = PE21_31-31
@@ -709,7 +709,7 @@
 2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	7	subj	_	AlignBegin=126128|AlignEnd=126785|GE=child|Gloss=child|nWord=2|RX=[N]
 3	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=126785|AlignEnd=127442|GE=all|Gloss=all|nWord=3|RX=[ADV]
 4	atʉg	atʉg	ADV	_	_	5	comp	_	AlignBegin=127442|AlignEnd=127770|GE=[LOC].[further]|Gloss=LOC.further|nWord=4|RX=[ADV]
-5	=ekʉ		ADP	_	_	_	_	_	AlignBegin=127770|AlignEnd=128099|GE=[LOC]|Gloss==LOC|nWord=4|RX=[N]
+5	=ekʉ		ADP	_	_	7	mod:lmod	_	AlignBegin=127770|AlignEnd=128099|GE=[LOC]|Gloss==LOC|nWord=4|RX=[N]
 6	win-		PRON	_	_	7	subj/m	_	AlignBegin=128099|AlignEnd=128427|GE=[3PL].[S]|Gloss=3PL.S|nWord=5|RX=[VERB]
 7	cho'	cho'	VERB	_	_	8	comp:aux	_	AlignBegin=128427|AlignEnd=128756|GE=stand|Gloss=stand|nWord=5|RX=[V]
 8	nʉn	nʉn	AUX	_	_	9	comp:aux/m	_	AlignBegin=128756|AlignEnd=128975|GE=cop|Gloss=cop|nWord=6|RX=[COP]
@@ -830,7 +830,7 @@
 # text = máykʉnʉ winneykari zweyn nunay kingwi ʉnwinzoya unari
 # text_en = and the three went where they were going
 # text_phrase-gls-es = y los tres se fueron donde estaban yendo
-1	máykʉnʉ	máykʉnʉ	NUM	_	_	_	_	_	AlignBegin=145330|AlignEnd=145889|GE=three|Gloss=three|nWord=1|RX=[NUM]
+1	máykʉnʉ	máykʉnʉ	NUM	_	_	3	comp:pred	_	AlignBegin=145330|AlignEnd=145889|GE=three|Gloss=three|nWord=1|RX=[NUM]
 2	win-		PRON	_	_	3	subj/m	_	AlignBegin=145889|AlignEnd=146029|GE=[3PL].[S]|Gloss=3PL.S|nWord=2|RX=[VERB]
 3	n	n	AUX	_	_	4	comp:aux/m	_	AlignBegin=146029|AlignEnd=146169|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 4	-eyka		AUX	_	_	_	_	_	AlignBegin=146169|AlignEnd=146309|GE=[EYKA]|Gloss=EYKA|nWord=2|RX=[V:ANY]
@@ -969,7 +969,7 @@
 # text_en = they were divided among the three for eating
 # text_phrase-gls-es = se repartieron entre los tres para comer
 # text_phrase-gls-tl = ESCRITO: winde'we
-1	máykʉnʉ	máykʉnʉ	NUM	_	_	_	_	_	AlignBegin=162528|AlignEnd=163307|GE=three|Gloss=three|nWord=1|RX=[NUM]
+1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	comp:pred	_	AlignBegin=162528|AlignEnd=163307|GE=three|Gloss=three|nWord=1|RX=[NUM]
 2	n	n	AUX	_	_	3	comp:aux/m	_	AlignBegin=163307|AlignEnd=163567|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-eyka		AUX	_	_	4	comp	_	AlignBegin=163567|AlignEnd=163827|GE=[EYKA]|Gloss=EYKA|nWord=2|RX=[V:ANY]
 4	=se'		ADP	_	_	7	comp:obl	_	AlignBegin=163827|AlignEnd=164086|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]
@@ -993,7 +993,7 @@
 4	pera	pera	NOUN	_	_	6	comp:obj	_	AlignBegin=167275|AlignEnd=167819|GE=pear|Gloss=pear|nWord=4|RX=[N]
 5	ania-		AUX	_	_	6	mod/m	_	AlignBegin=167819|AlignEnd=168000|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
 6	zagan	zagan	VERB	_	_	7	comp	_	AlignBegin=168000|AlignEnd=168181|GE=steel|Gloss=steel|nWord=5|RX=[V]
-7	=ekʉ		ADP	_	_	_	_	_	AlignBegin=168181|AlignEnd=168363|GE=[LOC]|Gloss==LOC|nWord=5|RX=[N]
+7	=ekʉ		ADP	_	_	9	mod:lmod	_	AlignBegin=168181|AlignEnd=168363|GE=[LOC]|Gloss==LOC|nWord=5|RX=[N]
 8	kʉ-		AUX	_	_	9	mod/m	_	AlignBegin=168363|AlignEnd=168472|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
 9	zagichʉ	zagichʉ	VERB	_	_	10	comp:aux/m	_	AlignBegin=168472|AlignEnd=168581|GE=pass|Gloss=pass|nWord=6|RX=[V]
 10	-y		AUX	_	_	11	comp:aux/m	_	AlignBegin=168581|AlignEnd=168690|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]
@@ -1145,15 +1145,15 @@
 10	=ri		PART	_	_	9	mod	_	AlignBegin=194734|AlignEnd=194827|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 
 # sent_id = PE21_60-60
+# text = i'ngwi aroma kicho' ne'ri
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 194827, 197298
 # morphemic_text = i'ngwi aroma ki- cho' n -e' =ri
-# text = i'ngwi aroma kicho' ne'ri
-# text_en = He had an empty one
+# text_en = He had an empty one [lit. one empty stood there for him]
 # text_phrase-gls-es = ya tenía una vacía
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=194827|AlignEnd=195445|GE=one|Gloss=one|nWord=1|RX=[NUM]
-2	aroma	aroma	ADJ	_	_	_	_	_	AlignBegin=195445|AlignEnd=196063|GE=empty|Gloss=empty|nWord=2|RX=[ADJ]
+1	i'ngwi	i'ngwi	NUM	_	_	4	subj	_	AlignBegin=194827|AlignEnd=195445|GE=one|Gloss=one|nWord=1|RX=[NUM]
+2	aroma	aroma	ADJ	_	_	1	mod	_	AlignBegin=195445|AlignEnd=196063|GE=empty|Gloss=empty|nWord=2|RX=[ADJ]
 3	ki-		AUX	_	_	4	mod/m	_	AlignBegin=196063|AlignEnd=196372|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]
 4	cho'	cho'	VERB	_	_	5	comp:aux	_	AlignBegin=196372|AlignEnd=196681|GE=stand|Gloss=stand|nWord=3|RX=[V]
 5	n	n	AUX	_	_	6	comp:aux/m	_	AlignBegin=196681|AlignEnd=196887|GE=aux|Gloss=aux|nWord=4|RX=[AUX]

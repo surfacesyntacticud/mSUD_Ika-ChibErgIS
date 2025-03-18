@@ -6,13 +6,13 @@
 # text = ( mhm ) nʉngwari i'ngwi , i'ngwi achʉna kawa keywʉ cho' ,
 # text_en = Well, one, an adult was standing [there],
 # text_phrase-gls-es = Bueno, estaba parado un adulto
-1	(		PUNCT	_	_	_	_	_	AlignBegin=1886|AlignEnd=2495|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=1886|AlignEnd=2495|nWord=1
 2	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=2495|AlignEnd=3104|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=3104|AlignEnd=3713|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=3104|AlignEnd=3713|nWord=3
 4	nʉ	nʉ	AUX	_	_	5	comp:aux/m	_	AlignBegin=3713|AlignEnd=3916|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
 5	-ngwa		AUX	_	_	_	_	_	AlignBegin=3916|AlignEnd=4119|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=4119|AlignEnd=4322|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-7	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=4322|AlignEnd=4931|GE=one|Gloss=one|nWord=5|RX=[NUM]
+7	i'ngwi	i'ngwi	NUM	_	_	9	conj:dicto	_	AlignBegin=4322|AlignEnd=4931|GE=one|Gloss=one|nWord=5|RX=[NUM]
 8	,		PUNCT	_	_	_	_	_	AlignBegin=4931|AlignEnd=5540|nWord=6
 9	i'ngwi	i'ngwi	NUM	_	_	10	mod:num	_	AlignBegin=5540|AlignEnd=6149|GE=one|Gloss=one|nWord=7|RX=[NUM]
 10	achʉna	achʉna	ADJ	_	_	11	comp:pred@attr	_	AlignBegin=6149|AlignEnd=6758|GE=adult|Gloss=adult|nWord=8|RX=[N]
@@ -635,9 +635,9 @@
 8	=ri		PART	_	_	7	mod	_	AlignBegin=96332|AlignEnd=96525|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 9	,		PUNCT	_	_	_	_	_	AlignBegin=96525|AlignEnd=96910|nWord=4
 10	eyma	eyma	PRON	_	_	14	det	_	AlignBegin=96910|AlignEnd=97295|GE=this|Gloss=this|nWord=5|RX=[DEM]
-11	(		PUNCT	_	_	_	_	_	AlignBegin=97295|AlignEnd=97680|nWord=6
+11	(		PUNCT	_	_	12	punct	_	AlignBegin=97295|AlignEnd=97680|nWord=6
 12	ah	ah	INTJ	_	_	_	_	_	AlignBegin=97680|AlignEnd=98065|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
-13	)		PUNCT	_	_	_	_	_	AlignBegin=98065|AlignEnd=98450|nWord=8
+13	)		PUNCT	_	_	12	punct	_	AlignBegin=98065|AlignEnd=98450|nWord=8
 14	achʉna	achʉna	ADJ	_	_	15	comp:pred@pred	_	AlignBegin=98450|AlignEnd=98835|GE=adult|Gloss=adult|nWord=9|RX=[ADJ]
 15	kawa	kawa	VERB	_	_	17	subj	_	AlignBegin=98835|AlignEnd=99220|GE=seem|Gloss=seem|nWord=10|RX=[V]
 16	kʉnzʉwa	kʉnzʉwa	NOUN	_	_	17	comp:obj	_	AlignBegin=99220|AlignEnd=99605|GE=fruit|Gloss=fruit|nWord=11|RX=[N]
@@ -733,14 +733,14 @@
 # text = i'ngwi ( sh ) zʉ'ʉn ko'o neyka nari
 # text_en = There was only one [basket] full
 # text_phrase-gls-es = Solamente había una [canasta] llena
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=111471|AlignEnd=111783|GE=one|Gloss=one|nWord=1|RX=[NUM]
+1	i'ngwi	i'ngwi	NUM	_	_	8	subj	_	AlignBegin=111471|AlignEnd=111783|GE=one|Gloss=one|nWord=1|RX=[NUM]
 2	(		PUNCT	_	_	3	punct	_	AlignBegin=111783|AlignEnd=112095|nWord=2
 3	sh	sh	X	_	_	5	conj:dicto	_	AlignBegin=112095|AlignEnd=112407|nWord=3
 4	)		PUNCT	_	_	3	punct	_	AlignBegin=112407|AlignEnd=112719|nWord=4
-5	zʉ'ʉn	zʉ'ʉn	AUX	_	_	_	_	_	AlignBegin=112719|AlignEnd=113031|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]
+5	zʉ'ʉn	zʉ'ʉn	AUX	_	_	1	mod:emph	_	AlignBegin=112719|AlignEnd=113031|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]
 6	ko'	ko'	ADJ	_	_	7	comp:pred@pred	_	AlignBegin=113031|AlignEnd=113343|GE=full|Gloss=full|nWord=6|RX=[ADJ]
 7	n	n	AUX	_	_	8	comp:aux/m	_	AlignBegin=113343|AlignEnd=113499|GE=aux|Gloss=aux|nWord=7|RX=[AUX]
-8	-eyka		AUX	_	_	9	comp:aux	_	AlignBegin=113499|AlignEnd=113655|GE=[EYKA]|Gloss=EYKA|nWord=7|RX=[V:ANY]
+8	-eyka		AUX	_	_	_	_	_	AlignBegin=113499|AlignEnd=113655|GE=[EYKA]|Gloss=EYKA|nWord=7|RX=[V:ANY]
 9	nan	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=113655|AlignEnd=113811|GE=[AUX]|Gloss=AUX|nWord=8|RX=[AUX]
 10	-i		AUX	_	_	_	_	_	AlignBegin=113811|AlignEnd=113966|GE=while|Gloss=while|nWord=8|RX=[VERB]
 
@@ -752,7 +752,7 @@
 # text = i'ngwiri ʉnchu' zanʉ nare'ri
 # text_en = one [basket] one couldn't see.
 # text_phrase-gls-es = y no se veía una [canasta].
-1	i'ngwi	i'ngwi	NUM	_	_	_	_	_	AlignBegin=113966|AlignEnd=114077|GE=one|Gloss=one|nWord=1|RX=[NUM]
+1	i'ngwi	i'ngwi	NUM	_	_	4	comp:obj	_	AlignBegin=113966|AlignEnd=114077|GE=one|Gloss=one|nWord=1|RX=[NUM]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=114077|AlignEnd=114188|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=114188|AlignEnd=114262|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
 4	chu	chu	VERB	_	_	5	comp:aux/m	_	AlignBegin=114262|AlignEnd=114336|GE=see|Gloss=see|nWord=2|RX=[VT]

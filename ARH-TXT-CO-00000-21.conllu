@@ -6,9 +6,9 @@
 # morphemic_text = ( eh ) ikʉ =se' ingumʉn be =ki niwi =zey kinki ingumʉn ( ʉkach ) a- ka'- chwi ,
 # text_en = We Ika people believe [lit. see] our most where.
 # text_phrase-gls-es = Los arhuacos donde más sentimos que es de nosotros
-1	(		PUNCT	_	_	_	_	_	AlignBegin=2190|AlignEnd=2722|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=2190|AlignEnd=2722|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=2722|AlignEnd=3254|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=3254|AlignEnd=3786|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=3254|AlignEnd=3786|nWord=3
 4	ikʉ	ikʉ	PROPN	_	_	5	comp	_	AlignBegin=3786|AlignEnd=4052|GE=[Ika]|Gloss=Ika|nWord=4|RX=[NPROP]
 5	=se'		ADP	_	_	18	subj	_	AlignBegin=4052|AlignEnd=4318|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
 6	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=4318|AlignEnd=4850|GE=more|Gloss=more|nWord=5|RX=[ADV]
@@ -37,7 +37,7 @@
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=9639|AlignEnd=10090|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=10090|AlignEnd=10541|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=10541|AlignEnd=10992|nWord=3
-4	be	be	PRON	_	_	_	_	_	AlignBegin=10992|AlignEnd=11218|GE=where|Gloss=where|nWord=4|RX=[INTERROG]
+4	be	be	PRON	_	_	6	comp:obl	_	AlignBegin=10992|AlignEnd=11218|GE=where|Gloss=where|nWord=4|RX=[INTERROG]
 5	=ki		PART	_	_	4	mod	_	AlignBegin=11218|AlignEnd=11443|GE=[CNTR]|Gloss==CNTR|nWord=4|RX=[POST]
 6	ɉokwa	ɉokwa	VERB	_	_	_	_	_	AlignBegin=11443|AlignEnd=11669|GE=cook|Gloss=cook|nWord=5|RX=[V]
 7	=kʉchʉ		PART	_	_	6	mod	_	AlignBegin=11669|AlignEnd=11894|GE=[EMPH]|Gloss==EMPH|nWord=5|RX=[PRT]
@@ -64,7 +64,7 @@
 # text_en = it is more gwirwa maize we always (do) it like this (=it is mostly gwirwa maize) | gümü > no tiene significado
 # text_phrase-gls-es = es más maíz gwirwa siempre (lo) hacemos así (=es sobre todo maíz gwirwa)
 1	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=17169|AlignEnd=17512|GE=more|Gloss=more|nWord=1|RX=[ADV]
-2	gwirwa	gwirwa	PROPN	_	_	_	_	_	AlignBegin=17512|AlignEnd=17855|GE=maize.variety|Gloss=maize.variety|nWord=2|RX=[NPROP]
+2	gwirwa	gwirwa	PROPN	_	_	8	comp:pred	_	AlignBegin=17512|AlignEnd=17855|GE=maize.variety|Gloss=maize.variety|nWord=2|RX=[NPROP]
 3	kinki	kinki	PART	_	_	_	_	_	AlignBegin=17855|AlignEnd=18198|GE=always|Gloss=always|nWord=3|RX=[PRT]
 4	zʉn	zʉn	AUX	_	_	3	mod:emph	_	AlignBegin=18198|AlignEnd=18541|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
 5	(		PUNCT	_	_	6	punct	_	AlignBegin=18541|AlignEnd=18884|nWord=5
@@ -72,7 +72,7 @@
 7	)		PUNCT	_	_	6	punct	_	AlignBegin=19227|AlignEnd=19570|nWord=7
 8	n	n	AUX	_	_	9	comp:aux/m	_	AlignBegin=19570|AlignEnd=19742|GE=aux|Gloss=aux|nWord=8|RX=[AUX]
 9	-e'		AUX	_	_	10	comp:aux	_	AlignBegin=19742|AlignEnd=19913|GE=then|Gloss=then|nWord=8|RX=[VERB]
-10	na	na	AUX	_	_	_	_	_	AlignBegin=19913|AlignEnd=20256|GE=cop|Gloss=cop|nWord=9|RX=[COP]
+10	na	na	AUX	_	_	14	comp:obj	_	AlignBegin=19913|AlignEnd=20256|GE=cop|Gloss=cop|nWord=9|RX=[COP]
 11	ey	ey	PART	_	_	_	_	_	AlignBegin=20256|AlignEnd=20599|GE=so|Gloss=so|nWord=10|RX=[PRT]
 12	kinki	kinki	PART	_	_	_	_	_	AlignBegin=20599|AlignEnd=20942|GE=always|Gloss=always|nWord=11|RX=[PRT]
 13	zʉn	zʉn	AUX	_	_	12	mod:emph	_	AlignBegin=20942|AlignEnd=21285|GE=[COP]|Gloss=COP|nWord=12|RX=[COP]
@@ -91,12 +91,12 @@
 # text = gwirwa sanja agwʉgari pinnagwi ku' no
 # text_en = What we call gwirwa sanja exists in many varieties, doesn't it? [lit. what they call sanja all not exists, does it?]
 # text_phrase-gls-es = Lo que le dicen gwirwa sanja (> agugari) existe en muchas variedades (pinnagwi ku' no) | Lo que le dicen gwirwa sanja existe en muchas variedades
-1	gwirwa	gwirwa	PROPN	_	_	_	_	_	AlignBegin=25580|AlignEnd=26834|GE=maize.variety|Gloss=maize.variety|nWord=1|RX=[NPROP]
-2	sanja	sanja	PROPN	_	_	_	_	_	AlignBegin=26834|AlignEnd=28088|GE=variety.of.gwirwa.maize|Gloss=variety.of.gwirwa.maize|nWord=2|RX=[NPROP]
+1	gwirwa	gwirwa	PROPN	_	_	4	comp:obj	_	AlignBegin=25580|AlignEnd=26834|GE=maize.variety|Gloss=maize.variety|nWord=1|RX=[NPROP]
+2	sanja	sanja	PROPN	_	_	1	flat	_	AlignBegin=26834|AlignEnd=28088|GE=variety.of.gwirwa.maize|Gloss=variety.of.gwirwa.maize|nWord=2|RX=[NPROP]
 3	a-		PRON	_	_	4	subj/m	_	AlignBegin=28088|AlignEnd=28506|GE=[1PL].[S]|Gloss=1PL.S|nWord=3|RX=[V:ANY]
 4	gwʉga	gwʉga	VERB	_	_	_	_	_	AlignBegin=28506|AlignEnd=28924|GE=inform|Gloss=inform|nWord=3|RX=[V]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=28924|AlignEnd=29342|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-6	pinna	pinna	PRON	_	_	_	_	_	AlignBegin=29342|AlignEnd=29969|GE=all|Gloss=all|nWord=4|RX=[QUANT]
+6	pinna	pinna	PRON	_	_	8	subj	_	AlignBegin=29342|AlignEnd=29969|GE=all|Gloss=all|nWord=4|RX=[QUANT]
 7	=gwi		ADV	_	_	6	mod	_	AlignBegin=29969|AlignEnd=30596|GE=also|Gloss==also|nWord=4|RX=[ADV]
 8	ku	ku	VERB	_	_	9	comp:aux/m	_	AlignBegin=30596|AlignEnd=31223|GE=exist|Gloss=exist|nWord=5|RX=[V]
 9	-'		AUX	_	_	10	comp:aux	_	AlignBegin=31223|AlignEnd=31850|GE=[NEG]|Gloss=NEG|nWord=5|RX=[VERB]
@@ -151,12 +151,12 @@
 # text_phrase-gls-es = Le echamos la carne del monte, pero no cualquier carne
 1	(		PUNCT	_	_	_	_	_	AlignBegin=42790|AlignEnd=43472|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=43472|AlignEnd=44154|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	ya	ya	ADV	_	_	_	_	_	AlignBegin=44154|AlignEnd=44836|GE=why|Gloss=why|nWord=3|RX=[INTERROG]
+3	ya	ya	X	_	_	_	_	_	AlignBegin=44154|AlignEnd=44836|GE=why|Gloss=why|nWord=3|RX=[INTERROG]
 4	)		PUNCT	_	_	_	_	_	AlignBegin=44836|AlignEnd=45518|nWord=4
-5	kʉnkʉnʉn	kʉnkʉnʉn	NOUN	_	_	_	_	_	AlignBegin=45518|AlignEnd=46200|GE=woods|Gloss=woods|nWord=5|RX=[N]
+5	kʉnkʉnʉn	kʉnkʉnʉn	NOUN	_	_	6	comp:pred	_	AlignBegin=45518|AlignEnd=46200|GE=woods|Gloss=woods|nWord=5|RX=[N]
 6	zanʉ	zanʉ	AUX	_	_	_	_	_	AlignBegin=46200|AlignEnd=46541|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=46541|AlignEnd=46882|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
-8	bema	bema	PRON	_	_	_	_	_	AlignBegin=46882|AlignEnd=47564|GE=which|Gloss=which|nWord=7|RX=[INTERROG]
+8	bema	bema	PRON	_	_	11	comp:obj	_	AlignBegin=46882|AlignEnd=47564|GE=which|Gloss=which|nWord=7|RX=[INTERROG]
 9	neki	neki	PART	_	_	8	mod:emph	_	AlignBegin=47564|AlignEnd=48246|GE=[CNTR]|Gloss=CNTR|nWord=8|RX=[PRT]
 10	kʉ-		AUX	_	_	11	mod/m	_	AlignBegin=48246|AlignEnd=48473|GE=[APPL1]|Gloss=APPL1|nWord=9|RX=[V>V]
 11	sa	sa	VERB	_	_	_	_	_	AlignBegin=48473|AlignEnd=48700|GE=put.down|Gloss=put.down|nWord=9|RX=[V]
@@ -248,14 +248,14 @@
 # text = ( eh ) awiri uwa'ba' ʉmʉko akusi
 # text_en = Then, we add ground toasted pumpkin seeds.
 # text_phrase-gls-es = Luego le echamos ümüko pepa de ahuyama molida
-1	(		PUNCT	_	_	_	_	_	AlignBegin=70560|AlignEnd=71471|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=70560|AlignEnd=71471|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=71471|AlignEnd=72382|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=72382|AlignEnd=73293|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=72382|AlignEnd=73293|nWord=3
 4	aw	aw	AUX	_	_	5	comp:aux/m	_	AlignBegin=73293|AlignEnd=73597|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-i		AUX	_	_	_	_	_	AlignBegin=73597|AlignEnd=73901|GE=while|Gloss=while|nWord=4|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=73901|AlignEnd=74204|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 7	uw	uw	AUX	_	_	8	comp	_	AlignBegin=74204|AlignEnd=74660|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
-8	=a'ba'		ADP	_	_	_	_	_	AlignBegin=74660|AlignEnd=75115|GE=[LOC]|Gloss==LOC|nWord=5|RX=[POST]
+8	=a'ba'		ADP	_	_	11	mod:lmod	_	AlignBegin=74660|AlignEnd=75115|GE=[LOC]|Gloss==LOC|nWord=5|RX=[POST]
 9	ʉmʉko	ʉmʉko	NOUN	_	_	11	comp:obj	_	AlignBegin=75115|AlignEnd=76026|GE=ground.toasted.pumpkin.seeds|Gloss=ground.toasted.pumpkin.seeds|nWord=6|RX=[N]
 10	a-		PRON	_	_	11	udep:poss/m	_	AlignBegin=76026|AlignEnd=76483|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=7|RX=[POSS]
 11	kusi	kusi	VERB	_	_	_	_	_	AlignBegin=76483|AlignEnd=76940|GE=put|Gloss=put|nWord=7|RX=[VT]
@@ -271,7 +271,7 @@
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=76940|AlignEnd=77472|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=77472|AlignEnd=78004|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=78004|AlignEnd=78536|nWord=3
-4	nʉgu	nʉgu	NOUN	_	_	_	_	_	AlignBegin=78536|AlignEnd=79068|GE=salt|Gloss=salt|nWord=4|RX=[N]
+4	nʉgu	nʉgu	NOUN	_	_	6	comp:obj	_	AlignBegin=78536|AlignEnd=79068|GE=salt|Gloss=salt|nWord=4|RX=[N]
 5	kʉ-		AUX	_	_	6	comp:aux	_	AlignBegin=79068|AlignEnd=79334|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
 6	zʉ	zʉ	AUX	_	_	7	comp:aux	_	AlignBegin=79334|AlignEnd=79600|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]
 7	nan	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=79600|AlignEnd=79866|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
@@ -301,7 +301,7 @@
 11	-i		AUX	_	_	_	_	_	AlignBegin=85182|AlignEnd=85363|GE=while|Gloss=while|nWord=8|RX=[VERB]
 12	=ri		PART	_	_	11	mod	_	AlignBegin=85363|AlignEnd=85544|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
 13	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=85544|AlignEnd=86087|GE=more|Gloss=more|nWord=9|RX=[ADV]
-14	niwi	niwi	PRON	_	_	_	_	_	AlignBegin=86087|AlignEnd=86359|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=10|RX=[PRO]
+14	niwi	niwi	PRON	_	_	18	subj	_	AlignBegin=86087|AlignEnd=86359|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=10|RX=[PRO]
 15	=ri		PART	_	_	14	mod	_	AlignBegin=86359|AlignEnd=86630|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
 16	ʉn-		AUX	_	_	17	mod/m	_	AlignBegin=86630|AlignEnd=86767|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
 17	kʉ-		AUX	_	_	18	mod/m	_	AlignBegin=86767|AlignEnd=86904|GE=[APPL1]|Gloss=APPL1|nWord=11|RX=[V>V]
@@ -320,7 +320,7 @@
 2	bunachʉ	bunachʉ	NOUN	_	_	3	comp	_	AlignBegin=87825|AlignEnd=88149|GE=non-indigenous person|Gloss=non-indigenous person|nWord=2|RX=[N]
 3	=se'		ADP	_	_	8	comp:obl	_	AlignBegin=88149|AlignEnd=88473|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]
 4	gu-		X	_	_	_	_	_	AlignBegin=88473|AlignEnd=89121|GE=[GUN]|Gloss=GUN|nWord=3|RX=[V:ANY]
-5	nʉgu	nʉgu	NOUN	_	_	_	_	_	AlignBegin=89121|AlignEnd=89445|GE=salt|Gloss=salt|nWord=4|RX=[N]
+5	nʉgu	nʉgu	NOUN	_	_	8	comp:obj	_	AlignBegin=89121|AlignEnd=89445|GE=salt|Gloss=salt|nWord=4|RX=[N]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=89445|AlignEnd=89769|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 7	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=89769|AlignEnd=90417|GE=more|Gloss=more|nWord=5|RX=[ADV]
 8	kʉnʉ	kʉnʉ	VERB	_	_	9	comp:aux	_	AlignBegin=90417|AlignEnd=91065|GE=have|Gloss=have|nWord=6|RX=[VT]
@@ -357,12 +357,12 @@
 2	ih	ih	INTJ	_	_	4	discourse	_	AlignBegin=93584|AlignEnd=93880|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=93880|AlignEnd=94176|nWord=3
 4	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=94176|AlignEnd=94472|GE=so|Gloss=so|nWord=4|RX=[ADV]
-5	nʉgu	nʉgu	NOUN	_	_	_	_	_	AlignBegin=94472|AlignEnd=94768|GE=salt|Gloss=salt|nWord=5|RX=[N]
+5	nʉgu	nʉgu	NOUN	_	_	7	comp:obj	_	AlignBegin=94472|AlignEnd=94768|GE=salt|Gloss=salt|nWord=5|RX=[N]
 6	kʉ-		AUX	_	_	7	comp:aux	_	AlignBegin=94768|AlignEnd=94916|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
 7	zʉ	zʉ	AUX	_	_	8	comp:aux	_	AlignBegin=94916|AlignEnd=95064|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 8	nan	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=95064|AlignEnd=95212|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 9	-i		AUX	_	_	_	_	_	AlignBegin=95212|AlignEnd=95360|GE=while|Gloss=while|nWord=7|RX=[VERB]
-10	ʉmʉko	ʉmʉko	NOUN	_	_	_	_	_	AlignBegin=95360|AlignEnd=95655|GE=ground.toasted.pumpkin.seeds|Gloss=ground.toasted.pumpkin.seeds|nWord=8|RX=[N]
+10	ʉmʉko	ʉmʉko	NOUN	_	_	7	comp:obl	_	AlignBegin=95360|AlignEnd=95655|GE=ground.toasted.pumpkin.seeds|Gloss=ground.toasted.pumpkin.seeds|nWord=8|RX=[N]
 
 # sent_id = CO21_16-16
 # speaker_id = @SP21
@@ -372,9 +372,9 @@
 # text = ( ehm ) ne'ri eymi kawi du neki gu' na ,
 # text_en = When we have eaten it yet,
 # text_phrase-gls-es = Cuando no hemos probado,
-1	(		PUNCT	_	_	_	_	_	AlignBegin=95655|AlignEnd=96127|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=95655|AlignEnd=96127|nWord=1
 2	ehm	ehm	INTJ	_	_	_	_	_	AlignBegin=96127|AlignEnd=96599|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=96599|AlignEnd=97071|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=96599|AlignEnd=97071|nWord=3
 4	n	n	AUX	_	_	5	comp:aux/m	_	AlignBegin=97071|AlignEnd=97228|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-e'		AUX	_	_	_	_	_	AlignBegin=97228|AlignEnd=97385|GE=then|Gloss=then|nWord=4|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=97385|AlignEnd=97543|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
@@ -419,8 +419,8 @@
 # text = ingeygwi nʉgu eygwi anakusa uwe' nʉnkʉri .
 # text_en = And when we add a little salt,
 # text_phrase-gls-es = Y cuando le echamos un poco de sal,
-1	ingeygwi	ingeygwi	ADJ	_	_	_	_	_	AlignBegin=104088|AlignEnd=104361|GE=other|Gloss=other|nWord=1|RX=[ADJ]
-2	nʉgu	nʉgu	NOUN	_	_	_	_	_	AlignBegin=104361|AlignEnd=104634|GE=salt|Gloss=salt|nWord=2|RX=[N]
+1	ingeygwi	ingeygwi	ADJ	_	_	2	mod	_	AlignBegin=104088|AlignEnd=104361|GE=other|Gloss=other|nWord=1|RX=[ADJ]
+2	nʉgu	nʉgu	NOUN	_	_	6	comp:obj	_	AlignBegin=104361|AlignEnd=104634|GE=salt|Gloss=salt|nWord=2|RX=[N]
 3	ey	ey	PART	_	_	_	_	_	AlignBegin=104634|AlignEnd=104770|GE=so|Gloss=so|nWord=3|RX=[PRT]
 4	=gwi		ADV	_	_	3	mod	_	AlignBegin=104770|AlignEnd=104907|GE=also|Gloss==also|nWord=3|RX=[ADV]
 5	ana-		AUX	_	_	6	mod/m	_	AlignBegin=104907|AlignEnd=105043|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
@@ -459,9 +459,9 @@
 # text_en = It feels like being able to say that the Ika people's [food] is tastier, isn't it?
 # text_phrase-gls-es = Sentimos que la [comida] de los arhuacos es más rica.
 # text_phrase-gls-tl = yükwey > con ganas de decir
-1	(		PUNCT	_	_	_	_	_	AlignBegin=108503|AlignEnd=108784|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=108503|AlignEnd=108784|nWord=1
 2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=108784|AlignEnd=109065|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=109065|AlignEnd=109346|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=109065|AlignEnd=109346|nWord=3
 4	ikʉ	ikʉ	PROPN	_	_	5	comp	_	AlignBegin=109346|AlignEnd=109486|GE=[Ika]|Gloss=Ika|nWord=4|RX=[NPROP]
 5	=zey		ADP	_	_	8	comp:obj	_	AlignBegin=109486|AlignEnd=109627|GE=[GEN]|Gloss==GEN|nWord=4|RX=[POST]
 6	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=109627|AlignEnd=109908|GE=more|Gloss=more|nWord=5|RX=[ADV]
@@ -512,7 +512,7 @@
 12	chugin	chugin	VERB	_	_	13	comp:aux/m	_	AlignBegin=116630|AlignEnd=116785|GE=crash|Gloss=crash|nWord=6|RX=[V]
 13	-na		AUX	_	_	_	_	_	AlignBegin=116785|AlignEnd=116939|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]
 14	,		PUNCT	_	_	_	_	_	AlignBegin=116939|AlignEnd=117403|nWord=7
-15	gwirwa	gwirwa	PROPN	_	_	_	_	_	AlignBegin=117403|AlignEnd=117866|GE=maize.variety|Gloss=maize.variety|nWord=8|RX=[NPROP]
+15	gwirwa	gwirwa	PROPN	_	_	12	conj:appos	_	AlignBegin=117403|AlignEnd=117866|GE=maize.variety|Gloss=maize.variety|nWord=8|RX=[NPROP]
 
 # sent_id = CO21_23-23
 # speaker_id = @SP21

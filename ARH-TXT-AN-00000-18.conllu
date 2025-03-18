@@ -195,7 +195,7 @@
 3	-y		AUX	_	_	4	comp:aux/m	_	AlignBegin=47099|AlignEnd=47290|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
 4	-e'		AUX	_	_	_	_	_	AlignBegin=47290|AlignEnd=47481|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=47481|AlignEnd=47671|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-6	ingweti	ingweti	PRON	_	_	_	_	_	AlignBegin=47671|AlignEnd=48434|GE=each|Gloss=each|nWord=3|RX=[PRO]
+6	ingweti	ingweti	PRON	_	_	8	comp:obj	_	AlignBegin=47671|AlignEnd=48434|GE=each|Gloss=each|nWord=3|RX=[PRO]
 7	keywʉ	keywʉ	PART	_	_	6	discourse	_	AlignBegin=48434|AlignEnd=49197|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 8	chwʉ	chwʉ	VERB	_	_	9	comp:aux/m	_	AlignBegin=49197|AlignEnd=49451|GE=take.care|Gloss=take.care|nWord=5|RX=[V]
 9	-n		AUX	_	_	10	comp:aux	_	AlignBegin=49451|AlignEnd=49705|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]
@@ -205,14 +205,14 @@
 13	.		PUNCT	_	_	_	_	_	AlignBegin=50723|AlignEnd=51486|Gloss=.|nWord=7
 
 # sent_id = AN18_11-11
+# text = bema umʉ'n kinki ( eh ) re'neysi zweykwi niga nʉnno a'zari keywʉ chwʉnpʉna .
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-18.flextext.WAV/WAV/ARH-TXT-AN-00000-18.flextext.WAV
 # sent_timecode = 51486, 59056
 # morphemic_text = bema umʉ'n kinki ( eh ) re'neysi zwey -kwi nig -a nʉn -no a'zari keywʉ chwʉ -n =pʉna .
-# text = bema umʉ'n kinki ( eh ) re'neysi zweykwi niga nʉnno a'zari keywʉ chwʉnpʉna .
-# text_en = "Which one will be where one can increase [their spirit]?" she thought while starting to take care.
-# text_phrase-gls-es = cual será donde puedan ir aumentando [= cual será una de esas muchachas que tenga el espiritú ir aumentando]
-1	bema	bema	PRON	_	_	_	_	_	AlignBegin=51486|AlignEnd=52027|GE=which|Gloss=which|nWord=1|RX=[INTERROG]
+# text_en = "Which one could increase [their spirit]?" she thought while starting to take care.
+# text_phrase-gls-es = cual será la que puedan ir aumentando [= cual será una de esas muchachas que tenga el espiritú ir aumentando]
+1	bema	bema	PRON	_	_	7	subj	_	AlignBegin=51486|AlignEnd=52027|GE=which|Gloss=which|nWord=1|RX=[INTERROG]
 2	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=52027|AlignEnd=52568|GE=more|Gloss=more|nWord=2|RX=[ADV]
 3	kinki	kinki	PART	_	_	_	_	_	AlignBegin=52568|AlignEnd=53109|GE=always|Gloss=always|nWord=3|RX=[PRT]
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=53109|AlignEnd=53650|nWord=4
@@ -224,7 +224,7 @@
 10	nig	nig	AUX	_	_	11	comp:aux/m	_	AlignBegin=55814|AlignEnd=56084|GE=do|Gloss=do|nWord=9|RX=[AUX]
 11	-a		AUX	_	_	12	comp:aux	_	AlignBegin=56084|AlignEnd=56355|GE=[NONEGO]|Gloss=NONEGO|nWord=9|RX=[V:ANY]
 12	nʉn	nʉn	AUX	_	_	13	comp:aux/m	_	AlignBegin=56355|AlignEnd=56625|GE=cop|Gloss=cop|nWord=10|RX=[COP]
-13	-no		AUX	_	_	_	_	_	AlignBegin=56625|AlignEnd=56896|GE=[Q]|Gloss=Q|nWord=10|RX=[VERB]
+13	-no		AUX	_	_	14	comp:obl	_	AlignBegin=56625|AlignEnd=56896|GE=[Q]|Gloss=Q|nWord=10|RX=[VERB]
 14	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=56896|AlignEnd=57437|GE=feel|Gloss=feel|nWord=11|RX=[V]
 15	keywʉ	keywʉ	PART	_	_	14	discourse	_	AlignBegin=57437|AlignEnd=57978|GE=soon|Gloss=soon|nWord=12|RX=[PRT]
 16	chwʉ	chwʉ	VERB	_	_	17	comp:aux/m	_	AlignBegin=57978|AlignEnd=58158|GE=take.care|Gloss=take.care|nWord=13|RX=[V]
@@ -246,7 +246,7 @@
 4	-e'		AUX	_	_	_	_	_	AlignBegin=59951|AlignEnd=60100|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=60100|AlignEnd=60250|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 6	,		PUNCT	_	_	_	_	_	AlignBegin=60250|AlignEnd=60847|nWord=3
-7	gaysinʉ	gaysinʉ	NOUN	_	_	_	_	_	AlignBegin=60847|AlignEnd=61145|GE=young.woman|Gloss=young.woman|nWord=4|RX=[N]
+7	gaysinʉ	gaysinʉ	NOUN	_	_	10	comp:pred	_	AlignBegin=60847|AlignEnd=61145|GE=young.woman|Gloss=young.woman|nWord=4|RX=[N]
 8	=ɉina		PART	_	_	7	mod	_	AlignBegin=61145|AlignEnd=61444|GE=many[animated]|Gloss==many[animated]|nWord=4|RX=[PRT]
 9	win-		PRON	_	_	10	subj/m	_	AlignBegin=61444|AlignEnd=61742|GE=[3PL].[S]|Gloss=3PL.S|nWord=5|RX=[VERB]
 10	nʉn	nʉn	AUX	_	_	11	comp:aux	_	AlignBegin=61742|AlignEnd=62041|GE=cop|Gloss=cop|nWord=5|RX=[COP]
@@ -274,11 +274,11 @@
 # text = in'gwiri Bunekʉndi ka' bunsi ,.
 # text_en = one [of them], Bunekün, was white earth,
 # text_phrase-gls-es = una [de ellas], Bunekün que era tierra blanca
-1	in'gwi	in'gwi	NUM	_	_	_	_	_	AlignBegin=69856|AlignEnd=70540|GE=one|Gloss=one|nWord=1|RX=[NUM]
+1	in'gwi	in'gwi	NUM	_	_	0	root	_	AlignBegin=69856|AlignEnd=70540|GE=one|Gloss=one|nWord=1|RX=[NUM]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=70540|AlignEnd=71224|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	Bunekʉn	Bunekʉn	PROPN	_	_	_	_	_	AlignBegin=71224|AlignEnd=71908|GE=[Bunekʉn]|Gloss=Bunekʉn|nWord=2|RX=[NPROP]
+3	Bunekʉn	Bunekʉn	PROPN	_	_	1	conj:appos	_	AlignBegin=71224|AlignEnd=71908|GE=[Bunekʉn]|Gloss=Bunekʉn|nWord=2|RX=[NPROP]
 4	=di		PART	_	_	3	mod	_	AlignBegin=71908|AlignEnd=72592|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-5	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=72592|AlignEnd=73960|GE=earth|Gloss=earth|nWord=3|RX=[N]
+5	ka'a	ka'a	NOUN	_	_	3	orphan	_	AlignBegin=72592|AlignEnd=73960|GE=earth|Gloss=earth|nWord=3|RX=[N]
 6	bunsi	bunsi	ADJ	_	_	5	mod	_	AlignBegin=73960|AlignEnd=75328|GE=white|Gloss=white|nWord=4|RX=[ADJ]
 7	,		PUNCT	_	_	_	_	_	AlignBegin=75328|AlignEnd=76698|nWord=5|wordform=,.
 
@@ -289,22 +289,23 @@
 # morphemic_text = Mʉnekʉn =di ka'a ziti ,.
 # text = Mʉnekʉndi ka' ziti ,.
 # text_phrase-gls-es = Münekün tierra roja
-1	Mʉnekʉn	Mʉnekʉn	PROPN	_	_	_	_	_	AlignBegin=76698|AlignEnd=77172|GE=[Mʉnekun]|Gloss=Mʉnekun|nWord=1|RX=[NPROP]
+1	Mʉnekʉn	Mʉnekʉn	PROPN	_	_	0	root	_	AlignBegin=76698|AlignEnd=77172|GE=[Mʉnekun]|Gloss=Mʉnekun|nWord=1|RX=[NPROP]
 2	=di		PART	_	_	1	mod	_	AlignBegin=77172|AlignEnd=77646|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=77646|AlignEnd=78594|GE=earth|Gloss=earth|nWord=2|RX=[N]
+3	ka'a	ka'a	NOUN	_	_	1	orphan	_	AlignBegin=77646|AlignEnd=78594|GE=earth|Gloss=earth|nWord=2|RX=[N]
 4	ziti	ziti	ADJ	_	_	3	mod	_	AlignBegin=78594|AlignEnd=79542|GE=red|Gloss=red|nWord=3|RX=[ADJ]
 5	,		PUNCT	_	_	_	_	_	AlignBegin=79542|AlignEnd=80490|nWord=4|wordform=,.
 
 # sent_id = AN18_15-15
+# text = Seynekʉndi ka' twiskʉnʉ .
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-18.flextext.WAV/WAV/ARH-TXT-AN-00000-18.flextext.WAV
 # sent_timecode = 82890, 87259
 # morphemic_text = Seynekʉn =di ka'a twiskʉnʉ .
-# text = Seynekʉndi ka' twiskʉnʉ .
 # text_phrase-gls-es = Senekün tierra negra
-1	Seynekʉn	Seynekʉn	PROPN	_	_	_	_	_	AlignBegin=82890|AlignEnd=83436|GE=[Seynekʉn]|Gloss=Seynekʉn|nWord=1|RX=[NPROP]
+# text_en = Seynekʉn [was] the black earth.
+1	Seynekʉn	Seynekʉn	PROPN	_	_	0	root	_	AlignBegin=82890|AlignEnd=83436|GE=[Seynekʉn]|Gloss=Seynekʉn|nWord=1|RX=[NPROP]
 2	=di		PART	_	_	1	mod	_	AlignBegin=83436|AlignEnd=83982|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=83982|AlignEnd=85074|GE=earth|Gloss=earth|nWord=2|RX=[N]
+3	ka'a	ka'a	NOUN	_	_	1	orphan	_	AlignBegin=83982|AlignEnd=85074|GE=earth|Gloss=earth|nWord=2|RX=[N]
 4	twiskʉnʉ	twiskʉnʉ	ADJ	_	_	3	mod	_	AlignBegin=85074|AlignEnd=86166|GE=black|Gloss=black|nWord=3|RX=[ADJ]
 5	.		PUNCT	_	_	_	_	_	AlignBegin=86166|AlignEnd=87259|Gloss=.|nWord=4
 
@@ -327,7 +328,7 @@
 9	-e'		AUX	_	_	_	_	_	AlignBegin=89790|AlignEnd=89985|GE=then|Gloss=then|nWord=5|RX=[VERB]
 10	=ri		PART	_	_	9	mod	_	AlignBegin=89985|AlignEnd=90179|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 11	,		PUNCT	_	_	_	_	_	AlignBegin=90179|AlignEnd=90763|nWord=6
-12	ingweti	ingweti	PRON	_	_	_	_	_	AlignBegin=90763|AlignEnd=91347|GE=each|Gloss=each|nWord=7|RX=[PRO]
+12	ingweti	ingweti	PRON	_	_	15	comp:obl	_	AlignBegin=90763|AlignEnd=91347|GE=each|Gloss=each|nWord=7|RX=[PRO]
 13	keywʉ	keywʉ	PART	_	_	12	discourse	_	AlignBegin=91347|AlignEnd=91931|GE=soon|Gloss=soon|nWord=8|RX=[PRT]
 14	wina-		PRON	_	_	15	comp:obj/m	_	AlignBegin=91931|AlignEnd=92126|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=9|RX=[VERB]
 15	gu	gu	VERB	_	_	16	comp:aux/m	_	AlignBegin=92126|AlignEnd=92321|GE=take|Gloss=take|nWord=9|RX=[V]
@@ -342,10 +343,10 @@
 # text = Seynekʉndi umʉ'n gaysinʉ awanu' kawa nʉnna awga ni .
 # text_en = They say that Seynekʉn was the less prettiest girl [lit. Seynekʉn wasn't more girl] |
 # text_phrase-gls-es = Dicen que Seynekün no era tan atractiva
-1	Seynekʉn	Seynekʉn	PROPN	_	_	_	_	_	AlignBegin=93102|AlignEnd=93374|GE=[Seynekʉn]|Gloss=Seynekʉn|nWord=1|RX=[NPROP]
+1	Seynekʉn	Seynekʉn	PROPN	_	_	5	subj	_	AlignBegin=93102|AlignEnd=93374|GE=[Seynekʉn]|Gloss=Seynekʉn|nWord=1|RX=[NPROP]
 2	=di		PART	_	_	1	mod	_	AlignBegin=93374|AlignEnd=93646|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=93646|AlignEnd=94190|GE=more|Gloss=more|nWord=2|RX=[ADV]
-4	gaysinʉ	gaysinʉ	NOUN	_	_	_	_	_	AlignBegin=94190|AlignEnd=94734|GE=young.woman|Gloss=young.woman|nWord=3|RX=[N]
+4	gaysinʉ	gaysinʉ	NOUN	_	_	5	comp:obj	_	AlignBegin=94190|AlignEnd=94734|GE=young.woman|Gloss=young.woman|nWord=3|RX=[N]
 5	awan	awan	AUX	_	_	6	comp:aux/m	_	AlignBegin=94734|AlignEnd=95006|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 6	-u'		AUX	_	_	7	comp:aux	_	AlignBegin=95006|AlignEnd=95278|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]
 7	kawa	kawa	AUX	_	_	8	comp:aux	_	AlignBegin=95278|AlignEnd=95822|GE=seem|Gloss=seem|nWord=5|RX=[AUX]
@@ -398,7 +399,7 @@
 # text_en = She always kept her behind the door.
 # text_phrase-gls-es = Siempre la tenía guardada atrás de la puerta
 1	o'kʉta	o'kʉta	NOUN	_	_	2	comp	_	AlignBegin=106670|AlignEnd=106951|GE=door|Gloss=door|nWord=1|RX=[N]
-2	=kʉ		ADP	_	_	_	_	_	AlignBegin=106951|AlignEnd=107232|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
+2	=kʉ		ADP	_	_	5	comp:obl	_	AlignBegin=106951|AlignEnd=107232|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
 3	zʉ'ʉn	zʉ'ʉn	AUX	_	_	2	mod:emph	_	AlignBegin=107232|AlignEnd=107794|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 4	ki-		AUX	_	_	5	comp:aux	_	AlignBegin=107794|AlignEnd=107981|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]
 5	nikwʉ	nikwʉ	AUX	_	_	6	comp:aux/m	_	AlignBegin=107981|AlignEnd=108168|GE=be.in|Gloss=be.in|nWord=3|RX=[AUX]
@@ -420,11 +421,11 @@
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=110160|AlignEnd=110280|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
 3	-e'		AUX	_	_	_	_	_	AlignBegin=110280|AlignEnd=110400|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=110400|AlignEnd=110521|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-5	aɉwa	aɉwa	DET	_	_	_	_	_	AlignBegin=110521|AlignEnd=110681|GE=another|Gloss=another|nWord=2|RX=[DET]
-6	=ɉina		PART	_	_	_	_	_	AlignBegin=110681|AlignEnd=110841|GE=many[animated]|Gloss==many[animated]|nWord=2|RX=[PRT]
+5	aɉwa	aɉwa	PRON	_	_	12	subj	_	AlignBegin=110521|AlignEnd=110681|GE=another|Gloss=another|nWord=2|RX=[DET]
+6	=ɉina		PART	_	_	5	mod	_	AlignBegin=110681|AlignEnd=110841|GE=many[animated]|Gloss==many[animated]|nWord=2|RX=[PRT]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=110841|AlignEnd=111002|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 8	du	du	ADJ	_	_	9	comp:pred@pred	_	AlignBegin=111002|AlignEnd=111483|GE=good|Gloss=good|nWord=3|RX=[ADJ]
-9	kawa	kawa	AUX	_	_	_	_	_	AlignBegin=111483|AlignEnd=111964|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
+9	kawa	kawa	AUX	_	_	12	comp:pred	_	AlignBegin=111483|AlignEnd=111964|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
 10	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=111964|AlignEnd=112445|GE=all|Gloss=all|nWord=5|RX=[ADV]
 11	win-		PRON	_	_	12	subj/m	_	AlignBegin=112445|AlignEnd=112685|GE=[3PL].[S]|Gloss=3PL.S|nWord=6|RX=[VERB]
 12	nʉn	nʉn	AUX	_	_	13	comp:aux	_	AlignBegin=112685|AlignEnd=112926|GE=cop|Gloss=cop|nWord=6|RX=[COP]
@@ -440,10 +441,10 @@
 # text = eymaɉinari ingweti keywʉ chwʉnpana una .
 # text_en = Then she [the mother] began to detect each one of them [identify the strength of each one, what she was born for, what her function was, etc.].
 # text_phrase-gls-es = Luego empezó a detectar cada una de ella [= identificar la fortaleza de cada una, para que nació, cual era su función]
-1	eyma	eyma	PRON	_	_	_	_	_	AlignBegin=114783|AlignEnd=115067|GE=this|Gloss=this|nWord=1|RX=[DEM]
+1	eyma	eyma	PRON	_	_	6	comp:obj	_	AlignBegin=114783|AlignEnd=115067|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	=ɉina		PART	_	_	1	mod	_	AlignBegin=115067|AlignEnd=115351|GE=many[animated]|Gloss==many[animated]|nWord=1|RX=[PRT]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=115351|AlignEnd=115635|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	ingweti	ingweti	PRON	_	_	_	_	_	AlignBegin=115635|AlignEnd=116487|GE=each|Gloss=each|nWord=2|RX=[PRO]
+4	ingweti	ingweti	ADV	_	_	1	mod	_	AlignBegin=115635|AlignEnd=116487|GE=each|Gloss=each|nWord=2|RX=[PRO]
 5	keywʉ	keywʉ	PART	_	_	4	discourse	_	AlignBegin=116487|AlignEnd=117339|GE=soon|Gloss=soon|nWord=3|RX=[PRT]
 6	chwʉ	chwʉ	VERB	_	_	7	comp:aux/m	_	AlignBegin=117339|AlignEnd=117623|GE=see|Gloss=see|nWord=4|RX=[VT]
 7	-n		AUX	_	_	8	comp:aux	_	AlignBegin=117623|AlignEnd=117907|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]
@@ -453,16 +454,16 @@
 11	.		PUNCT	_	_	_	_	_	AlignBegin=119043|AlignEnd=119892|Gloss=.|nWord=6
 
 # sent_id = AN18_23-23
+# text = bema umʉ'n inʉ anikʉkwi nisi keywʉ kwo a'zare'ri .
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-18.flextext.WAV/WAV/ARH-TXT-AN-00000-18.flextext.WAV
 # sent_timecode = 119892, 127200
 # morphemic_text = bema umʉ'n inʉ anikʉ -kwi nis -i keywʉ kw -o a'zar -e' =ri .
-# text = bema umʉ'n inʉ anikʉkwi nisi keywʉ kwo a'zare'ri .
-# text_en = "Which of are are the most productive so far?", she thought.
+# text_en = "Which [one] can produce more?", she thought.
 # text_phrase-gls-es = cuales de ellas son las que más producen hasta el momento, pensó
-1	bema	bema	PRON	_	_	_	_	_	AlignBegin=119892|AlignEnd=120704|GE=which|Gloss=which|nWord=1|RX=[INTERROG]
-2	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=120704|AlignEnd=121516|GE=more|Gloss=more|nWord=2|RX=[ADV]
-3	inʉ	inʉ	PRON	_	_	_	_	_	AlignBegin=121516|AlignEnd=122328|GE=what|Gloss=what|nWord=3|RX=[INTERROG]
+1	bema	bema	PRON	_	_	4	subj	_	AlignBegin=119892|AlignEnd=120704|GE=which|Gloss=which|nWord=1|RX=[INTERROG]
+2	umʉ'n	umʉ'n	ADV	_	_	3	mod	_	AlignBegin=120704|AlignEnd=121516|GE=more|Gloss=more|nWord=2|RX=[ADV]
+3	inʉ	inʉ	PRON	_	_	4	comp:obj	_	AlignBegin=121516|AlignEnd=122328|GE=what|Gloss=what|nWord=3|RX=[INTERROG]
 4	anikʉ	anikʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=122328|AlignEnd=122734|GE=produce|Gloss=produce|nWord=4|RX=[VT]
 5	-kwi		AUX	_	_	6	comp:aux	_	AlignBegin=122734|AlignEnd=123140|GE=[ABLE]|Gloss=ABLE|nWord=4|RX=[VERB]
 6	nis	nis	AUX	_	_	7	comp:aux/m	_	AlignBegin=123140|AlignEnd=123546|GE=do|Gloss=do|nWord=5|RX=[AUX]
@@ -506,28 +507,28 @@
 3	-y		AUX	_	_	4	comp:aux/m	_	AlignBegin=138091|AlignEnd=138274|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
 4	-e'		AUX	_	_	_	_	_	AlignBegin=138274|AlignEnd=138457|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=138457|AlignEnd=138639|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-6	eyma	eyma	PRON	_	_	_	_	_	AlignBegin=138639|AlignEnd=139370|GE=this|Gloss=this|nWord=3|RX=[DEM]
+6	eyma	eyma	PRON	_	_	11	subj	_	AlignBegin=138639|AlignEnd=139370|GE=this|Gloss=this|nWord=3|RX=[DEM]
 7	(		PUNCT	_	_	8	punct	_	AlignBegin=139370|AlignEnd=140101|nWord=4
 8	may	may	X	_	_	10	conj:dicto	_	AlignBegin=140101|AlignEnd=140832|nWord=5
 9	)		PUNCT	_	_	8	punct	_	AlignBegin=140832|AlignEnd=141563|nWord=6
-10	máykʉnʉ	máykʉnʉ	NUM	_	_	_	_	_	AlignBegin=141563|AlignEnd=142294|GE=three|Gloss=three|nWord=7|RX=[NUM]
+10	máykʉnʉ	máykʉnʉ	NUM	_	_	11	comp:pred	_	AlignBegin=141563|AlignEnd=142294|GE=three|Gloss=three|nWord=7|RX=[NUM]
 11	n	n	AUX	_	_	12	comp:aux/m	_	AlignBegin=142294|AlignEnd=142660|GE=aux|Gloss=aux|nWord=8|RX=[AUX]
-12	-eyka		AUX	_	_	_	_	_	AlignBegin=142660|AlignEnd=143025|GE=[EYKA]|Gloss=EYKA|nWord=8|RX=[V:ANY]
-13	Mʉnekʉn	Mʉnekʉn	PROPN	_	_	_	_	_	AlignBegin=143025|AlignEnd=143756|GE=[Mʉnekun]|Gloss=Mʉnekun|nWord=9|RX=[NPROP]
+12	-eyka		AUX	_	_	32	subj	_	AlignBegin=142660|AlignEnd=143025|GE=[EYKA]|Gloss=EYKA|nWord=8|RX=[V:ANY]
+13	Mʉnekʉn	Mʉnekʉn	PROPN	_	_	12	conj:coord	_	AlignBegin=143025|AlignEnd=143756|GE=[Mʉnekun]|Gloss=Mʉnekun|nWord=9|RX=[NPROP]
 14	,		PUNCT	_	_	_	_	_	AlignBegin=143756|AlignEnd=144487|nWord=10
-15	Bunekʉn	Bunekʉn	PROPN	_	_	_	_	_	AlignBegin=144487|AlignEnd=145218|GE=[Bunekʉn]|Gloss=Bunekʉn|nWord=11|RX=[NPROP]
+15	Bunekʉn	Bunekʉn	PROPN	_	_	13	conj:coord	_	AlignBegin=144487|AlignEnd=145218|GE=[Bunekʉn]|Gloss=Bunekʉn|nWord=11|RX=[NPROP]
 16	,		PUNCT	_	_	_	_	_	AlignBegin=145218|AlignEnd=145949|nWord=12
-17	Gunekʉn	Gunekʉn	PROPN	_	_	_	_	_	AlignBegin=145949|AlignEnd=146315|GE=[Gunekʉn]|Gloss=Gunekʉn|nWord=13|RX=[NPROP]
+17	Gunekʉn	Gunekʉn	PROPN	_	_	15	conj:coord	_	AlignBegin=145949|AlignEnd=146315|GE=[Gunekʉn]|Gloss=Gunekʉn|nWord=13|RX=[NPROP]
 18	=di		PART	_	_	17	mod	_	AlignBegin=146315|AlignEnd=146680|GE=[TOP]|Gloss==TOP|nWord=13|RX=[PRT]
 19	,		PUNCT	_	_	_	_	_	AlignBegin=146680|AlignEnd=147411|nWord=14
-20	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=147411|AlignEnd=148142|GE=soil|Gloss=soil|nWord=15|RX=[N]
-21	du	du	ADJ	_	_	_	_	_	AlignBegin=148142|AlignEnd=148873|GE=good|Gloss=good|nWord=16|RX=[ADJ]
+20	ka'a	ka'a	NOUN	_	_	24	subj	_	AlignBegin=147411|AlignEnd=148142|GE=soil|Gloss=soil|nWord=15|RX=[N]
+21	du	du	ADJ	_	_	23	mod	_	AlignBegin=148142|AlignEnd=148873|GE=good|Gloss=good|nWord=16|RX=[ADJ]
 22	neki	neki	PART	_	_	21	mod:emph	_	AlignBegin=148873|AlignEnd=149604|GE=[CNTR]|Gloss=CNTR|nWord=17|RX=[PRT]
 23	zamʉ	zamʉ	NOUN	_	_	24	comp:obj	_	AlignBegin=149604|AlignEnd=150335|GE=food|Gloss=food|nWord=18|RX=[N]
 24	anik	anik	VERB	_	_	25	comp:aux/m	_	AlignBegin=150335|AlignEnd=150701|GE=produce|Gloss=produce|nWord=19|RX=[VT]
-25	-u'		AUX	_	_	26	comp:aux	_	AlignBegin=150701|AlignEnd=151066|GE=[NEG]|Gloss=NEG|nWord=19|RX=[VERB]
+25	-u'		AUX	_	_	26	comp:pred	_	AlignBegin=150701|AlignEnd=151066|GE=[NEG]|Gloss=NEG|nWord=19|RX=[VERB]
 26	n	n	AUX	_	_	27	comp:aux/m	_	AlignBegin=151066|AlignEnd=151432|GE=aux|Gloss=aux|nWord=20|RX=[AUX]
-27	-eyka		AUX	_	_	_	_	_	AlignBegin=151432|AlignEnd=151797|GE=[EYKA]|Gloss=EYKA|nWord=20|RX=[V:ANY]
+27	-eyka		AUX	_	_	32	comp:obj	_	AlignBegin=151432|AlignEnd=151797|GE=[EYKA]|Gloss=EYKA|nWord=20|RX=[V:ANY]
 28	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=151797|AlignEnd=152528|GE=all|Gloss=all|nWord=21|RX=[ADV]
 29	zʉn	zʉn	PART	_	_	28	mod:emph	_	AlignBegin=152528|AlignEnd=153259|GE=[COP]|Gloss=COP|nWord=22|RX=[COP]
 30	winʉ-		PRON	_	_	31	subj/m	_	AlignBegin=153259|AlignEnd=153442|GE=[3PL].[S]|Gloss=3PL.S|nWord=23|RX=[VERB]
@@ -537,18 +538,18 @@
 34	.		PUNCT	_	_	_	_	_	AlignBegin=153990|AlignEnd=154722|Gloss=.|nWord=24
 
 # sent_id = AN18_26-26
+# text = uye'ri bema kinki eygwi nʉnno a'zari nare'ri .
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-18.flextext.WAV/WAV/ARH-TXT-AN-00000-18.flextext.WAV
 # sent_timecode = 154722, 157411
 # morphemic_text = u -y -e' =ri bema kinki ey =gwi nʉn -no a'zari nan -e' =ri .
-# text = uye'ri bema kinki eygwi nʉnno a'zari nare'ri .
-# text_en = So, she was thinking "Which one [of the girls] will be [a productive land]?"
+# text_en = So, she was thinking "Which one of the girls will be a productive land? [lit. Which will it be?]"
 # text_phrase-gls-es = Entonces estaba pensando cual [de las muchachas] será [para que sea una tierra productiva]
 1	u	u	AUX	_	_	2	comp:aux/m	_	AlignBegin=154722|AlignEnd=154806|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=154806|AlignEnd=154890|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
 3	-e'		AUX	_	_	_	_	_	AlignBegin=154890|AlignEnd=154974|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=154974|AlignEnd=155058|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-5	bema	bema	PRON	_	_	_	_	_	AlignBegin=155058|AlignEnd=155394|GE=which|Gloss=which|nWord=2|RX=[INTERROG]
+5	bema	bema	PRON	_	_	9	comp:pred	_	AlignBegin=155058|AlignEnd=155394|GE=which|Gloss=which|nWord=2|RX=[INTERROG]
 6	kinki	kinki	PART	_	_	_	_	_	AlignBegin=155394|AlignEnd=155730|GE=always|Gloss=always|nWord=3|RX=[PRT]
 7	ey	ey	PART	_	_	_	_	_	AlignBegin=155730|AlignEnd=155898|GE=so|Gloss=so|nWord=4|RX=[PRT]
 8	=gwi		ADV	_	_	7	mod	_	AlignBegin=155898|AlignEnd=156066|GE=also|Gloss==also|nWord=4|RX=[ADV]
@@ -597,7 +598,7 @@
 # text = gaysinʉ zazakuse' keywʉ a'sisʉn zoya una .
 # text_en = Then he [Serankwa] went to the girl's mother to ask for her [Seynekün].
 # text_phrase-gls-es = Entonces fue a la madre de la muchacha a pedirsela [Serankwa pidió a Seynekün]
-1	gaysinʉ	gaysinʉ	NOUN	_	_	_	_	_	AlignBegin=167855|AlignEnd=168272|GE=young.woman|Gloss=young.woman|nWord=1|RX=[N]
+1	gaysinʉ	gaysinʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=167855|AlignEnd=168272|GE=young.woman|Gloss=young.woman|nWord=1|RX=[N]
 2	za-		PRON	_	_	3	udep:poss/m	_	AlignBegin=168272|AlignEnd=168411|GE=[POSS]|Gloss=POSS|nWord=2|RX=[N:ANY]
 3	zaku	zaku	NOUN	_	_	4	comp	_	AlignBegin=168411|AlignEnd=168550|GE=mother|Gloss=mother|nWord=2|RX=[N]
 4	=se'		ADP	_	_	6	comp:obl	_	AlignBegin=168550|AlignEnd=168689|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]
@@ -739,7 +740,7 @@
 11	,		PUNCT	_	_	_	_	_	AlignBegin=198773|AlignEnd=199162|nWord=8
 12	iwa	iwa	ADV	_	_	14	comp	_	AlignBegin=199162|AlignEnd=199292|GE=now|Gloss=now|nWord=9|RX=[ADV]
 13	=kʉ		ADP	_	_	12	mod	_	AlignBegin=199292|AlignEnd=199422|GE=[LOC]|Gloss==LOC|nWord=9|RX=[N]
-14	=kin		ADP	_	_	_	_	_	AlignBegin=199422|AlignEnd=199551|GE=[LIM]|Gloss==LIM|nWord=9|RX=[POST]
+14	=kin		ADP	_	_	15	comp:obl	_	AlignBegin=199422|AlignEnd=199551|GE=[LIM]|Gloss==LIM|nWord=9|RX=[POST]
 15	amʉ'kari	amʉ'kari	VERB	_	_	_	_	_	AlignBegin=199551|AlignEnd=199940|GE=serve|Gloss=serve|nWord=10|RX=[VI]
 16	zoya	zoya	VERB	_	_	17	comp:aux	_	AlignBegin=199940|AlignEnd=200329|GE=go|Gloss=go|nWord=11|RX=[V]
 17	awʉ	awʉ	AUX	_	_	18	comp:aux/m	_	AlignBegin=200329|AlignEnd=200523|GE=aux|Gloss=aux|nWord=12|RX=[AUX]
@@ -775,7 +776,7 @@
 # text_phrase-gls-es = Por eso hasta ahora, nos sigue sirviendo a todos [la tierra negra a los humanos]
 1	iwa	iwa	ADV	_	_	3	comp	_	AlignBegin=207705|AlignEnd=207907|GE=now|Gloss=now|nWord=1|RX=[ADV]
 2	=kʉ		ADP	_	_	1	mod	_	AlignBegin=207907|AlignEnd=208109|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
-3	=kin		ADP	_	_	_	_	_	AlignBegin=208109|AlignEnd=208311|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]
+3	=kin		ADP	_	_	5	comp:obl	_	AlignBegin=208109|AlignEnd=208311|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]
 4	ey	ey	PART	_	_	_	_	_	AlignBegin=208311|AlignEnd=208917|GE=so|Gloss=so|nWord=2|RX=[PRT]
 5	uw	uw	AUX	_	_	6	comp:aux/m	_	AlignBegin=208917|AlignEnd=209220|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
 6	-a'me'		AUX	_	_	_	_	_	AlignBegin=209220|AlignEnd=209523|GE=[CAUSE]|Gloss=CAUSE|nWord=3|RX=[VERB]

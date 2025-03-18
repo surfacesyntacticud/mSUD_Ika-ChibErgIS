@@ -8,10 +8,10 @@
 # text_phrase-gls-es = Cuando nosotros nacimos primero, de donde nacimos?
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=5718|AlignEnd=6526|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	ʉndi	ʉndi	ADV	_	_	1	mod	_	AlignBegin=6526|AlignEnd=7334|GE=so|Gloss=so|nWord=2|RX=[ADV]
-3	niwi	niwi	PRON	_	_	_	_	_	AlignBegin=7334|AlignEnd=8142|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=3|RX=[PRO]
+3	niwi	niwi	PRON	_	_	7	subj	_	AlignBegin=7334|AlignEnd=8142|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=3|RX=[PRO]
 4	keywʉ	keywʉ	PART	_	_	3	discourse	_	AlignBegin=8142|AlignEnd=8950|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 5	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=8950|AlignEnd=9758|GE=first|Gloss=first|nWord=5|RX=[ADV]
-6	a-		PRON	_	_	_	_	_	AlignBegin=9758|AlignEnd=9920|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=6|RX=[POSS]
+6	a-	a-	PRON	_	_	7	subj/m	_	AlignBegin=9758|AlignEnd=9920|GE=[3SG.S]|Gloss=3SG.S|nWord=6|RX=[3SG.S]
 7	kwakuma	kwakuma	VERB	_	_	8	comp:aux/m	_	AlignBegin=9920|AlignEnd=10082|GE=be.born|Gloss=be.born|nWord=6|RX=[V]
 8	-y		AUX	_	_	9	comp:aux/m	_	AlignBegin=10082|AlignEnd=10244|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]
 9	-e'		AUX	_	_	_	_	_	AlignBegin=10244|AlignEnd=10406|GE=then|Gloss=then|nWord=6|RX=[VERB]
@@ -85,9 +85,9 @@
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=23969|AlignEnd=24483|nWord=3
 4	keywʉ	keywʉ	PART	_	_	_	_	_	AlignBegin=24483|AlignEnd=24997|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 5	(		PUNCT	_	_	6	punct	_	AlignBegin=24997|AlignEnd=25511|nWord=5
-6	kwakwa	kwakwa	X	_	_	_	_	_	AlignBegin=25511|AlignEnd=26025|nWord=6
+6	kwakwa	kwakwa	X	_	_	9	conj:dicto	_	AlignBegin=25511|AlignEnd=26025|nWord=6
 7	)		PUNCT	_	_	6	punct	_	AlignBegin=26025|AlignEnd=26539|nWord=7
-8	ikʉ	ikʉ	PROPN	_	_	_	_	_	AlignBegin=26539|AlignEnd=27053|GE=[Ika]|Gloss=Ika|nWord=8|RX=[NPROP]
+8	ikʉ	ikʉ	PROPN	_	_	9	subj	_	AlignBegin=26539|AlignEnd=27053|GE=[Ika]|Gloss=Ika|nWord=8|RX=[NPROP]
 9	kwakum	kwakum	VERB	_	_	10	comp:aux/m	_	AlignBegin=27053|AlignEnd=27310|GE=be.born|Gloss=be.born|nWord=9|RX=[V]
 10	-ey		AUX	_	_	_	_	_	AlignBegin=27310|AlignEnd=27567|GE=while|Gloss=while|nWord=9|RX=[VERB]
 11	zwi	zwi	VERB	_	_	12	comp:aux/m	_	AlignBegin=27567|AlignEnd=27824|GE=go|Gloss=go|nWord=10|RX=[VI]
@@ -128,12 +128,12 @@
 # text = ánu'gwe nari kinkiri ikʉ kinki kwukwa nʉnna ni .
 # text_en = the Ika people already existed as spirit
 # text_phrase-gls-es = los arhuacos ya existían en espíritu
-1	ánu'gwe	ánu'gwe	NOUN	_	_	_	_	_	AlignBegin=35274|AlignEnd=35758|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
+1	ánu'gwe	ánu'gwe	NOUN	_	_	2	comp:pred	_	AlignBegin=35274|AlignEnd=35758|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
 2	nan	nan	AUX	_	_	3	comp:aux/m	_	AlignBegin=35758|AlignEnd=36000|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 3	-i		AUX	_	_	_	_	_	AlignBegin=36000|AlignEnd=36242|GE=while|Gloss=while|nWord=2|RX=[VERB]
 4	kinki	kinki	PART	_	_	_	_	_	AlignBegin=36242|AlignEnd=36484|GE=always|Gloss=always|nWord=3|RX=[PRT]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=36484|AlignEnd=36726|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-6	ikʉ	ikʉ	PROPN	_	_	_	_	_	AlignBegin=36726|AlignEnd=37210|GE=[Ika]|Gloss=Ika|nWord=4|RX=[NPROP]
+6	ikʉ	ikʉ	PROPN	_	_	8	subj	_	AlignBegin=36726|AlignEnd=37210|GE=[Ika]|Gloss=Ika|nWord=4|RX=[NPROP]
 7	kinki	kinki	PART	_	_	_	_	_	AlignBegin=37210|AlignEnd=37694|GE=always|Gloss=always|nWord=5|RX=[PRT]
 8	kwu	kwu	VERB	_	_	9	comp:aux/m	_	AlignBegin=37694|AlignEnd=37936|GE=exist|Gloss=exist|nWord=6|RX=[V]
 9	-kwa		AUX	_	_	10	comp:aux	_	AlignBegin=37936|AlignEnd=38178|GE=[ABLE]|Gloss=ABLE|nWord=6|RX=[VERB]
@@ -150,7 +150,7 @@
 # text = ánu'gwe nari .
 # text_en = They were spirits
 # text_phrase-gls-es = Eran espíritus
-1	ánu'gwe	ánu'gwe	NOUN	_	_	_	_	_	AlignBegin=39633|AlignEnd=40049|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
+1	ánu'gwe	ánu'gwe	NOUN	_	_	2	comp:pred	_	AlignBegin=39633|AlignEnd=40049|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
 2	nan	nan	AUX	_	_	3	comp:aux/m	_	AlignBegin=40049|AlignEnd=40257|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 3	-i		AUX	_	_	_	_	_	AlignBegin=40257|AlignEnd=40465|GE=while|Gloss=while|nWord=2|RX=[VERB]
 4	.		PUNCT	_	_	_	_	_	AlignBegin=40465|AlignEnd=40881|Gloss=.|nWord=3
@@ -163,9 +163,9 @@
 # text = ( mhm ) eyma ka'a pʉnku' nʉnkwe' aguga gunʉndi .
 # text_en = We say that, when the earth was not lying down,
 # text_phrase-gls-es = Cuando la tierra no estaba acostada, asi nos dicen
-1	(		PUNCT	_	_	_	_	_	AlignBegin=42133|AlignEnd=42642|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=42133|AlignEnd=42642|nWord=1
 2	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=42642|AlignEnd=43151|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=43151|AlignEnd=43660|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=43151|AlignEnd=43660|nWord=3
 4	eyma	eyma	DET	_	_	5	det	_	AlignBegin=43660|AlignEnd=44169|GE=this|Gloss=this|nWord=4|RX=[DEM]
 5	ka'a	ka'a	NOUN	_	_	6	subj	_	AlignBegin=44169|AlignEnd=44678|GE=earth|Gloss=earth|nWord=5|RX=[N]
 6	pʉnk	pʉnk	VERB	_	_	7	comp:aux/m	_	AlignBegin=44678|AlignEnd=44932|GE=lie.down[flat things]|Gloss=lie.down[flat things]|nWord=6|RX=[V]
@@ -191,14 +191,14 @@
 # text_phrase-gls-es = Este, esto lo que es lo mismo se materializó en espíritu
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=47224|AlignEnd=47601|GE=so|Gloss=so|nWord=1|RX=[ADV]
 2	,		PUNCT	_	_	_	_	_	AlignBegin=47601|AlignEnd=47978|nWord=2
-3	eyma	eyma	PRON	_	_	_	_	_	AlignBegin=47978|AlignEnd=48355|GE=this|Gloss=this|nWord=3|RX=[DEM]
-4	inʉ	inʉ	PRON	_	_	_	_	_	AlignBegin=48355|AlignEnd=48732|GE=what|Gloss=what|nWord=4|RX=[INTERROG]
+3	eyma	eyma	PRON	_	_	13	subj	_	AlignBegin=47978|AlignEnd=48355|GE=this|Gloss=this|nWord=3|RX=[DEM]
+4	inʉ	inʉ	PRON	_	_	3	mod	_	AlignBegin=48355|AlignEnd=48732|GE=what|Gloss=what|nWord=4|RX=[INTERROG]
 5	zana	zana	PART	_	_	4	mod:emph	_	AlignBegin=48732|AlignEnd=49109|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]
-6	ayey	ayey	ADJ	_	_	11	comp:pred@pred	_	AlignBegin=49109|AlignEnd=49486|GE=similar|Gloss=similar|nWord=6|RX=[ADJ]
+6	ayey	ayey	ADJ	_	_	4	mod	_	AlignBegin=49109|AlignEnd=49486|GE=similar|Gloss=similar|nWord=6|RX=[ADJ]
 7	(		PUNCT	_	_	8	punct	_	AlignBegin=49486|AlignEnd=49863|nWord=7
 8	ah	ah	INTJ	_	_	10	discourse	_	AlignBegin=49863|AlignEnd=50240|GE=[HES]|Gloss=HES|nWord=8|RX=[INTERJ]
 9	)		PUNCT	_	_	8	punct	_	AlignBegin=50240|AlignEnd=50617|nWord=9
-10	ánu'gwe	ánu'gwe	NOUN	_	_	_	_	_	AlignBegin=50617|AlignEnd=50994|GE=spirit|Gloss=spirit|nWord=10|RX=[N]
+10	ánu'gwe	ánu'gwe	NOUN	_	_	11	comp:pred	_	AlignBegin=50617|AlignEnd=50994|GE=spirit|Gloss=spirit|nWord=10|RX=[N]
 11	nan	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=50994|AlignEnd=51182|GE=[AUX]|Gloss=AUX|nWord=11|RX=[AUX]
 12	-i		AUX	_	_	_	_	_	AlignBegin=51182|AlignEnd=51371|GE=while|Gloss=while|nWord=11|RX=[VERB]
 13	kwakum	kwakum	VERB	_	_	14	comp:aux/m	_	AlignBegin=51371|AlignEnd=51559|GE=be.born|Gloss=be.born|nWord=12|RX=[V]
@@ -228,21 +228,21 @@
 12	.		PUNCT	_	_	_	_	_	AlignBegin=54682|AlignEnd=54941|Gloss=.|nWord=8
 
 # sent_id = AN21_11-11
+# text = inʉki , beki nʉnna ikʉ ni na , nanukwa ni neki agwaku' nari .
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-21.WAV/WAV/ARH-TXT-AN-00000-21.WAV
 # sent_timecode = 55324, 59837
 # morphemic_text = inʉ =ki , be =ki nʉn -na ikʉ ni na , nan -ukwa ni neki a- gwak -u' nan -i .
-# text = inʉki , beki nʉnna ikʉ ni na , nanukwa ni neki agwaku' nari .
-# text_en = Who, where one was who became a person, they never tell us that
+# text_en = Who [and] where it was that one became a person, they never tell us that
 # text_phrase-gls-es = Quien, donde estaba que se hizo persona, nunca nos dicen eso
-1	inʉ	inʉ	PRON	_	_	_	_	_	AlignBegin=55324|AlignEnd=55485|GE=what|Gloss=what|nWord=1|RX=[INTERROG]
+1	inʉ	inʉ	PRON	_	_	6	comp:pred	_	AlignBegin=55324|AlignEnd=55485|GE=what|Gloss=what|nWord=1|RX=[INTERROG]
 2	=ki		PART	_	_	1	mod	_	AlignBegin=55485|AlignEnd=55646|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]
 3	,		PUNCT	_	_	_	_	_	AlignBegin=55646|AlignEnd=55968|nWord=2
-4	be	be	PRON	_	_	_	_	_	AlignBegin=55968|AlignEnd=56129|GE=where|Gloss=where|nWord=3|RX=[INTERROG]
+4	be	be	PRON	_	_	1	conj:coord	_	AlignBegin=55968|AlignEnd=56129|GE=where|Gloss=where|nWord=3|RX=[INTERROG]
 5	=ki		PART	_	_	4	mod	_	AlignBegin=56129|AlignEnd=56290|GE=[CNTR]|Gloss==CNTR|nWord=3|RX=[PRT]
 6	nʉn	nʉn	AUX	_	_	7	comp:aux/m	_	AlignBegin=56290|AlignEnd=56451|GE=cop|Gloss=cop|nWord=4|RX=[COP]
-7	-na		AUX	_	_	_	_	_	AlignBegin=56451|AlignEnd=56612|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
-8	ikʉ	ikʉ	NOUN	_	_	_	_	_	AlignBegin=56612|AlignEnd=56934|GE=person|Gloss=person|nWord=5|RX=[N]
+7	-na		AUX	_	_	9	subj	_	AlignBegin=56451|AlignEnd=56612|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
+8	ikʉ	ikʉ	NOUN	_	_	9	comp:pred	_	AlignBegin=56612|AlignEnd=56934|GE=person|Gloss=person|nWord=5|RX=[N]
 9	ni	ni	AUX	_	_	10	comp:aux	_	AlignBegin=56934|AlignEnd=57256|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]
 10	na	na	AUX	_	_	_	_	_	AlignBegin=57256|AlignEnd=57578|GE=cop|Gloss=cop|nWord=7|RX=[COP]
 11	,		PUNCT	_	_	_	_	_	AlignBegin=57578|AlignEnd=57900|nWord=8
@@ -285,7 +285,7 @@
 # text = ánu'gwe nari anakwana kinki , ʉndi , ka'a kinki mikʉɉunukwa ni ani'zʉna'me' .
 # text_en = Those who lived as spirits, so, they felt it was important to have land [lit. they felt that you had to need land].
 # text_phrase-gls-es = Los que vivían en espíritu, entonces sentían que era importante tener la tierra [lit. que siempre (tenían que) necesitar la tierra]
-1	ánu'gwe	ánu'gwe	NOUN	_	_	_	_	_	AlignBegin=63391|AlignEnd=63817|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
+1	ánu'gwe	ánu'gwe	NOUN	_	_	3	comp:pred	_	AlignBegin=63391|AlignEnd=63817|GE=spirit|Gloss=spirit|nWord=1|RX=[N]
 2	nan	nan	AUX	_	_	3	comp:aux/m	_	AlignBegin=63817|AlignEnd=64030|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 3	-i		AUX	_	_	_	_	_	AlignBegin=64030|AlignEnd=64243|GE=while|Gloss=while|nWord=2|RX=[VERB]
 4	ana-		AUX	_	_	5	mod/m	_	AlignBegin=64243|AlignEnd=64385|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
@@ -295,7 +295,7 @@
 8	,		PUNCT	_	_	_	_	_	AlignBegin=65095|AlignEnd=65521|nWord=5
 9	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=65521|AlignEnd=65947|GE=so|Gloss=so|nWord=6|RX=[ADV]
 10	,		PUNCT	_	_	_	_	_	AlignBegin=65947|AlignEnd=66373|nWord=7
-11	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=66373|AlignEnd=66799|GE=land|Gloss=land|nWord=8|RX=[N]
+11	ka'a	ka'a	NOUN	_	_	15	comp:obj	_	AlignBegin=66373|AlignEnd=66799|GE=land|Gloss=land|nWord=8|RX=[N]
 12	kinki	kinki	PART	_	_	_	_	_	AlignBegin=66799|AlignEnd=67225|GE=always|Gloss=always|nWord=9|RX=[PRT]
 13	me-		PRON	_	_	14	comp:obj/m	_	AlignBegin=67225|AlignEnd=67331|GE=[2SG].[O]|Gloss=2SG.O|nWord=10|RX=[PRONOUN]
 14	kʉ-		AUX	_	_	15	mod/m	_	AlignBegin=67331|AlignEnd=67437|GE=[APPL1]|Gloss=APPL1|nWord=10|RX=[V>V]
@@ -315,14 +315,14 @@
 # text = ( gun ) ʉndi , ka'ari ikʉ nʉnna .
 # text_en = So, the earth was a person.
 # text_phrase-gls-es = Entonces la tierra era persona.
-1	(		PUNCT	_	_	_	_	_	AlignBegin=68924|AlignEnd=69537|nWord=1
-2	gu-		AUX	_	_	_	_	_	AlignBegin=69537|AlignEnd=70150|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=70150|AlignEnd=70763|nWord=3
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=68924|AlignEnd=69537|nWord=1
+2	gu-		X	_	_	4	conj:dicto	_	AlignBegin=69537|AlignEnd=70150|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=70150|AlignEnd=70763|nWord=3
 4	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=70763|AlignEnd=71376|GE=so|Gloss=so|nWord=4|RX=[ADV]
 5	,		PUNCT	_	_	_	_	_	AlignBegin=71376|AlignEnd=71989|nWord=5
-6	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=71989|AlignEnd=72295|GE=earth|Gloss=earth|nWord=6|RX=[N]
+6	ka'a	ka'a	NOUN	_	_	9	subj	_	AlignBegin=71989|AlignEnd=72295|GE=earth|Gloss=earth|nWord=6|RX=[N]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=72295|AlignEnd=72602|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
-8	ikʉ	ikʉ	NOUN	_	_	_	_	_	AlignBegin=72602|AlignEnd=73215|GE=person|Gloss=person|nWord=7|RX=[N]
+8	ikʉ	ikʉ	NOUN	_	_	9	comp:pred	_	AlignBegin=72602|AlignEnd=73215|GE=person|Gloss=person|nWord=7|RX=[N]
 9	nʉn	nʉn	AUX	_	_	10	comp:aux/m	_	AlignBegin=73215|AlignEnd=73521|GE=cop|Gloss=cop|nWord=8|RX=[COP]
 10	-na		AUX	_	_	_	_	_	AlignBegin=73521|AlignEnd=73828|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]
 11	.		PUNCT	_	_	_	_	_	AlignBegin=73828|AlignEnd=74441|Gloss=.|nWord=9
@@ -336,7 +336,7 @@
 # text_en = And then turn it into land
 # text_phrase-gls-es = Y entonces convertirlo en tierra
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=75082|AlignEnd=75378|GE=so|Gloss=so|nWord=1|RX=[ADV]
-2	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=75378|AlignEnd=75674|GE=land|Gloss=land|nWord=2|RX=[N]
+2	ka'a	ka'a	NOUN	_	_	5	comp:obj	_	AlignBegin=75378|AlignEnd=75674|GE=land|Gloss=land|nWord=2|RX=[N]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=75674|AlignEnd=75773|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	de'-		AUX	_	_	5	mod/m	_	AlignBegin=75773|AlignEnd=75872|GE=[REFL]|Gloss=REFL|nWord=3|RX=[VERB]
 5	gow	gow	VERB	_	_	6	comp:aux	_	AlignBegin=75872|AlignEnd=75970|GE=build|Gloss=build|nWord=3|RX=[V]
@@ -436,11 +436,11 @@
 # text_phrase-gls-es = Entonces a partir de aquí, han vivido las personas
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=90404|AlignEnd=90892|GE=so|Gloss=so|nWord=1|RX=[ADV]
 2	emi	emi	ADV	_	_	3	comp	_	AlignBegin=90892|AlignEnd=91380|GE=here|Gloss=here|nWord=2|RX=[ADV]
-3	pari	pari	ADP	_	_	_	_	_	AlignBegin=91380|AlignEnd=91868|GE=from|Gloss=from|nWord=3|RX=[POST]
+3	pari	pari	ADP	_	_	10	comp:obl	_	AlignBegin=91380|AlignEnd=91868|GE=from|Gloss=from|nWord=3|RX=[POST]
 4	keywʉ	keywʉ	PART	_	_	3	discourse	_	AlignBegin=91868|AlignEnd=92356|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 5	,		PUNCT	_	_	_	_	_	AlignBegin=92356|AlignEnd=92844|nWord=5
 6	emay	emay	ADV	_	_	_	_	_	AlignBegin=92844|AlignEnd=93332|GE=there|Gloss=there|nWord=6|RX=[ADV]
-7	ikʉ	ikʉ	NOUN	_	_	_	_	_	AlignBegin=93332|AlignEnd=93576|GE=people|Gloss=people|nWord=7|RX=[N]
+7	ikʉ	ikʉ	NOUN	_	_	10	subj	_	AlignBegin=93332|AlignEnd=93576|GE=people|Gloss=people|nWord=7|RX=[N]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=93576|AlignEnd=93820|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
 9	ʉn-		AUX	_	_	10	mod/m	_	AlignBegin=93820|AlignEnd=93983|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]
 10	kwe	kwe	VERB	_	_	11	comp:aux/m	_	AlignBegin=93983|AlignEnd=94146|GE=live|Gloss=live|nWord=8|RX=[V]
@@ -455,16 +455,16 @@
 # text = ( mhm ) ka'se' kwimʉkʉnʉsin ( mhm ) kwey nanʉwingwa ni' na .
 # text_en = The earth and the mountain are [destined to] live together.
 # text_phrase-gls-es = La tierra, con la roca para convivir para siempre
-1	(		PUNCT	_	_	_	_	_	AlignBegin=95233|AlignEnd=95985|nWord=1
+1	(		PUNCT	_	_	2	punct	_	AlignBegin=95233|AlignEnd=95985|nWord=1
 2	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=95985|AlignEnd=96737|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
-3	)		PUNCT	_	_	_	_	_	AlignBegin=96737|AlignEnd=97489|nWord=3
+3	)		PUNCT	_	_	2	punct	_	AlignBegin=96737|AlignEnd=97489|nWord=3
 4	ka'a	ka'a	NOUN	_	_	5	comp	_	AlignBegin=97489|AlignEnd=97865|GE=earth|Gloss=earth|nWord=4|RX=[N]
 5	=se'		ADP	_	_	11	subj	_	AlignBegin=97865|AlignEnd=98241|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
 6	kwimʉkʉnʉ	kwimʉkʉnʉ	NOUN	_	_	7	comp	_	AlignBegin=98241|AlignEnd=98617|GE=hill|Gloss=hill|nWord=5|RX=[N]
 7	=sin		ADP	_	_	5	conj:coord	_	AlignBegin=98617|AlignEnd=98993|GE=with|Gloss==with|nWord=5|RX=[POST]
-8	(		PUNCT	_	_	_	_	_	AlignBegin=98993|AlignEnd=99745|nWord=6
+8	(		PUNCT	_	_	9	punct	_	AlignBegin=98993|AlignEnd=99745|nWord=6
 9	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=99745|AlignEnd=100497|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
-10	)		PUNCT	_	_	_	_	_	AlignBegin=100497|AlignEnd=101249|nWord=8
+10	)		PUNCT	_	_	9	punct	_	AlignBegin=100497|AlignEnd=101249|nWord=8
 11	kwe	kwe	VERB	_	_	12	comp:aux/m	_	AlignBegin=101249|AlignEnd=101625|GE=live|Gloss=live|nWord=9|RX=[V]
 12	-y		AUX	_	_	13	comp:aux	_	AlignBegin=101625|AlignEnd=102001|GE=while|Gloss=while|nWord=9|RX=[VERB]
 13	nanʉwi	nanʉwi	AUX	_	_	14	comp:aux/m	_	AlignBegin=102001|AlignEnd=102377|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
@@ -517,8 +517,8 @@
 3	kwe	kwe	VERB	_	_	4	comp:aux/m	_	AlignBegin=112744|AlignEnd=112978|GE=live|Gloss=live|nWord=3|RX=[V]
 4	-y		AUX	_	_	_	_	_	AlignBegin=112978|AlignEnd=113212|GE=while|Gloss=while|nWord=3|RX=[VERB]
 5	pinna	pinna	DET	_	_	6	det	_	AlignBegin=113212|AlignEnd=113680|GE=all|Gloss=all|nWord=4|RX=[QUANT]
-6	aná'nuga	aná'nuga	NOUN	_	_	_	_	_	AlignBegin=113680|AlignEnd=114148|GE=animal|Gloss=animal|nWord=5|RX=[N]
-7	nenʉn	nenʉn	AUX	_	_	_	_	_	AlignBegin=114148|AlignEnd=114616|GE=cop|Gloss=cop|nWord=6|RX=[COP]
+6	aná'nuga	aná'nuga	NOUN	_	_	7	comp:pred	_	AlignBegin=113680|AlignEnd=114148|GE=animal|Gloss=animal|nWord=5|RX=[N]
+7	nenʉn	nenʉn	AUX	_	_	3	comp:obl	_	AlignBegin=114148|AlignEnd=114616|GE=cop|Gloss=cop|nWord=6|RX=[COP]
 8	,		PUNCT	_	_	_	_	_	AlignBegin=114616|AlignEnd=115084|nWord=7
 9	ʉn-		AUX	_	_	10	mod/m	_	AlignBegin=115084|AlignEnd=115240|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]
 10	kwe	kwe	VERB	_	_	11	comp:aux/m	_	AlignBegin=115240|AlignEnd=115396|GE=live|Gloss=live|nWord=8|RX=[V]
@@ -544,9 +544,9 @@
 2	kʉ-		AUX	_	_	3	mod/m	_	AlignBegin=118101|AlignEnd=118206|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]
 3	ɉu	ɉu	VERB	_	_	4	comp:aux	_	AlignBegin=118206|AlignEnd=118311|GE=like|Gloss=like|nWord=2|RX=[V]
 4	ni	ni	AUX	_	_	_	_	_	AlignBegin=118311|AlignEnd=118521|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]
-5	(		PUNCT	_	_	_	_	_	AlignBegin=118521|AlignEnd=118731|nWord=4
+5	(		PUNCT	_	_	6	punct	_	AlignBegin=118521|AlignEnd=118731|nWord=4
 6	ah	ah	INTJ	_	_	_	_	_	AlignBegin=118731|AlignEnd=118941|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
-7	)		PUNCT	_	_	_	_	_	AlignBegin=118941|AlignEnd=119151|nWord=6
+7	)		PUNCT	_	_	6	punct	_	AlignBegin=118941|AlignEnd=119151|nWord=6
 8	i-		AUX	_	_	9	mod/m	_	AlignBegin=119151|AlignEnd=119256|GE=[APPL2]|Gloss=APPL2|nWord=7|RX=[V>V]
 9	'zari	'zari	VERB	_	_	_	_	_	AlignBegin=119256|AlignEnd=119361|GE=know|Gloss=know|nWord=7|RX=[V]
 10	,.		PUNCT	_	_	_	_	_	AlignBegin=119361|AlignEnd=119574|nWord=8
@@ -577,14 +577,14 @@
 # text_phrase-gls-es = y como estaba plana, la tierra estaba así
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=120966|AlignEnd=121309|GE=so|Gloss=so|nWord=1|RX=[ADV]
 2	yʉn	yʉn	ADJ	_	_	6	comp:pred@attr	_	AlignBegin=121309|AlignEnd=121652|GE=flat|Gloss=flat|nWord=2|RX=[ADJ]
-3	(		PUNCT	_	_	_	_	_	AlignBegin=121652|AlignEnd=121995|nWord=3
+3	(		PUNCT	_	_	4	punct	_	AlignBegin=121652|AlignEnd=121995|nWord=3
 4	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=121995|AlignEnd=122338|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]
-5	)		PUNCT	_	_	_	_	_	AlignBegin=122338|AlignEnd=122681|nWord=5
+5	)		PUNCT	_	_	4	punct	_	AlignBegin=122338|AlignEnd=122681|nWord=5
 6	zʉn	zʉn	AUX	_	_	7	comp:aux	_	AlignBegin=122681|AlignEnd=123024|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 7	zar	zar	AUX	_	_	8	comp:aux/m	_	AlignBegin=123024|AlignEnd=123196|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]
 8	-i		AUX	_	_	_	_	_	AlignBegin=123196|AlignEnd=123367|GE=while|Gloss=while|nWord=7|RX=[VERB]
 9	,		PUNCT	_	_	_	_	_	AlignBegin=123367|AlignEnd=123710|nWord=8
-10	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=123710|AlignEnd=123882|GE=earth|Gloss=earth|nWord=9|RX=[N]
+10	ka'a	ka'a	NOUN	_	_	13	comp:pred	_	AlignBegin=123710|AlignEnd=123882|GE=earth|Gloss=earth|nWord=9|RX=[N]
 11	=ri		PART	_	_	10	mod	_	AlignBegin=123882|AlignEnd=124053|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 12	ʉn-		AUX	_	_	13	comp:aux	_	AlignBegin=124053|AlignEnd=124139|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
 13	zʉn	zʉn	AUX	_	_	14	comp:aux/m	_	AlignBegin=124139|AlignEnd=124225|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]
@@ -600,9 +600,9 @@
 # text = gwiaɉinari eymari ka'agʉmmʉ chungwari .
 # text_en = The mountain lion was was going to guard this land
 # text_phrase-gls-es = El león iba a cuidar esta tierra
-1	gwiaɉina	gwiaɉina	NOUN	_	_	_	_	_	AlignBegin=125280|AlignEnd=125724|GE=mountain lion|Gloss=mountain lion|nWord=1|RX=[N]
+1	gwiaɉina	gwiaɉina	NOUN	_	_	3	conj:appos	_	AlignBegin=125280|AlignEnd=125724|GE=mountain lion|Gloss=mountain lion|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=125724|AlignEnd=126169|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	eyma	eyma	PRON	_	_	_	_	_	AlignBegin=126169|AlignEnd=126613|GE=this|Gloss=this|nWord=2|RX=[DEM]
+3	eyma	eyma	PRON	_	_	6	subj	_	AlignBegin=126169|AlignEnd=126613|GE=this|Gloss=this|nWord=2|RX=[DEM]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=126613|AlignEnd=127058|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 5	ka'agʉmmʉ	ka'agʉmmʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=127058|AlignEnd=127947|GE=earth|Gloss=earth|nWord=3|RX=[N]
 6	chu	chu	VERB	_	_	7	comp:aux/m	_	AlignBegin=127947|AlignEnd=128243|GE=guard|Gloss=guard|nWord=4|RX=[V]
@@ -634,19 +634,19 @@
 14	,.		PUNCT	_	_	_	_	_	AlignBegin=137032|AlignEnd=137799|nWord=9
 
 # sent_id = AN21_29-29
+# text = kamʉnzari zu' zu'te gunʉ nare'ri .
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-21.WAV/WAV/ARH-TXT-AN-00000-21.WAV
 # sent_timecode = 138109, 141064
 # morphemic_text = kamʉnza =ri zu' zu' =te gunʉ nan -e' =ri .
-# text = kamʉnzari zu' zu'te gunʉ nare'ri .
-# text_en = The hand of the quake was very thin
+# text_en = The quake, his hand was very thin
 # text_phrase-gls-es = La mano del temblor era muy delgada
-1	kamʉnza	kamʉnza	NOUN	_	_	_	_	_	AlignBegin=138109|AlignEnd=138355|GE=trembling|Gloss=trembling|nWord=1|RX=[N]
+1	kamʉnza	kamʉnza	NOUN	_	_	7	conj:appos	_	AlignBegin=138109|AlignEnd=138355|GE=trembling|Gloss=trembling|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=138355|AlignEnd=138601|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	zu'	zu'	ADJ	_	_	7	comp:pred@pred	_	AlignBegin=138601|AlignEnd=139093|GE=thin|Gloss=thin|nWord=2|RX=[ADJ]
-4	zu'	zu'	ADJ	_	_	3	mod	_	AlignBegin=139093|AlignEnd=139339|GE=thin|Gloss=thin|nWord=3|RX=[ADJ]
+3	zu'	zu'	ADJ	_	_	6	mod	_	AlignBegin=138601|AlignEnd=139093|GE=thin|Gloss=thin|nWord=2|RX=[ADJ]
+4	zu'	zu'	ADJ	_	_	3	mod:redup	_	AlignBegin=139093|AlignEnd=139339|GE=thin|Gloss=thin|nWord=3|RX=[ADJ]
 5	=te		PART	_	_	3	mod	_	AlignBegin=139339|AlignEnd=139585|GE=[PL].[ADJ]|Gloss==PL.ADJ|nWord=3|RX=[ADJ]
-6	gunʉ	gunʉ	NOUN	_	_	_	_	_	AlignBegin=139585|AlignEnd=140077|GE=hand|Gloss=hand|nWord=4|RX=[N]
+6	gunʉ	gunʉ	NOUN	_	_	7	comp:pred	_	AlignBegin=139585|AlignEnd=140077|GE=hand|Gloss=hand|nWord=4|RX=[N]
 7	nan	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=140077|AlignEnd=140241|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
 8	-e'		AUX	_	_	_	_	_	AlignBegin=140241|AlignEnd=140405|GE=then|Gloss=then|nWord=5|RX=[VERB]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=140405|AlignEnd=140569|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
@@ -680,7 +680,7 @@
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=144289|AlignEnd=144408|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
 3	-e'		AUX	_	_	_	_	_	AlignBegin=144408|AlignEnd=144527|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=144527|AlignEnd=144647|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-5	gwiaɉina	gwiaɉina	NOUN	_	_	_	_	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]
+5	gwiaɉina	gwiaɉina	NOUN	_	_	8	subj	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=144885|AlignEnd=145124|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 7	gunʉ	gunʉ	NOUN	_	_	8	comp:obj	_	AlignBegin=145124|AlignEnd=145601|GE=hand|Gloss=hand|nWord=3|RX=[N]
 8	chwa	chwa	VERB	_	_	9	comp:aux	_	AlignBegin=145601|AlignEnd=146078|GE=see|Gloss=see|nWord=4|RX=[VT]
@@ -723,7 +723,7 @@
 7	-n		AUX	_	_	_	_	_	AlignBegin=149424|AlignEnd=149474|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 8	=di		PART	_	_	7	mod	_	AlignBegin=149474|AlignEnd=149524|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 9	,		PUNCT	_	_	_	_	_	AlignBegin=149524|AlignEnd=149724|nWord=6
-10	nʉn	nʉn	PRON	_	_	_	_	_	AlignBegin=149724|AlignEnd=149924|GE=[1SG]|Gloss=1SG|nWord=7|RX=[PRO]
+10	nʉn	nʉn	PRON	_	_	13	subj	_	AlignBegin=149724|AlignEnd=149924|GE=[1SG]|Gloss=1SG|nWord=7|RX=[PRO]
 11	nʉngwa	nʉngwa	AUX	_	_	_	_	_	AlignBegin=149924|AlignEnd=150124|GE=[AUX].[1SG].[FUT]|Gloss=AUX.1SG.FUT|nWord=8|RX=[AUX]
 12	ʉn-		AUX	_	_	13	mod/m	_	AlignBegin=150124|AlignEnd=150224|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]
 13	gaka	gaka	VERB	_	_	14	comp:aux	_	AlignBegin=150224|AlignEnd=150324|GE=put|Gloss=put|nWord=9|RX=[V]
@@ -854,17 +854,17 @@
 # text = a kingwi ʉnkwʉngwa ʉndi gwiaɉinari ( uh ) wa'mʉ ʉnsa .
 # text_en = The mountain lion did damage so that he would live himself.
 # text_phrase-gls-es = El león hizo danyo para que viva el mismo
-1	a	a	PRON	_	_	_	_	_	AlignBegin=162316|AlignEnd=162567|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]
+1	a	a	PRON	_	_	4	subj	_	AlignBegin=162316|AlignEnd=162567|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]
 2	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=162567|AlignEnd=162818|GE=same|Gloss=same|nWord=2|RX=[ADJ]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=162818|AlignEnd=162902|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	kwʉ	kwʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=162902|AlignEnd=162986|GE=live|Gloss=live|nWord=3|RX=[V]
 5	-ngwa		AUX	_	_	_	_	_	AlignBegin=162986|AlignEnd=163069|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
 6	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=163069|AlignEnd=163320|GE=so|Gloss=so|nWord=4|RX=[ADV]
-7	gwiaɉina	gwiaɉina	NOUN	_	_	_	_	_	AlignBegin=163320|AlignEnd=163446|GE=mountain lion|Gloss=mountain lion|nWord=5|RX=[N]
+7	gwiaɉina	gwiaɉina	NOUN	_	_	14	subj	_	AlignBegin=163320|AlignEnd=163446|GE=mountain lion|Gloss=mountain lion|nWord=5|RX=[N]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=163446|AlignEnd=163571|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-9	(		PUNCT	_	_	_	_	_	AlignBegin=163571|AlignEnd=163822|nWord=6
+9	(		PUNCT	_	_	10	punct	_	AlignBegin=163571|AlignEnd=163822|nWord=6
 10	uh	uh	INTJ	_	_	_	_	_	AlignBegin=163822|AlignEnd=164073|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
-11	)		PUNCT	_	_	_	_	_	AlignBegin=164073|AlignEnd=164324|nWord=8
+11	)		PUNCT	_	_	10	punct	_	AlignBegin=164073|AlignEnd=164324|nWord=8
 12	wa'mʉ	wa'mʉ	NOUN	_	_	14	comp:obj	_	AlignBegin=164324|AlignEnd=164575|GE=damage|Gloss=damage|nWord=9|RX=[N]
 13	ʉn-		AUX	_	_	14	mod/m	_	AlignBegin=164575|AlignEnd=164701|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
 14	sa	sa	VERB	_	_	_	_	_	AlignBegin=164701|AlignEnd=164826|GE=put.down|Gloss=put.down|nWord=10|RX=[V]
@@ -893,7 +893,7 @@
 13	-y		AUX	_	_	_	_	_	AlignBegin=166706|AlignEnd=166769|GE=while|Gloss=while|nWord=7|RX=[VERB]
 14	=ri		PART	_	_	13	mod	_	AlignBegin=166769|AlignEnd=166831|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
 15	,		PUNCT	_	_	_	_	_	AlignBegin=166831|AlignEnd=167082|nWord=8
-16	a	a	PRON	_	_	_	_	_	AlignBegin=167082|AlignEnd=167333|GE=[3SG]|Gloss=3SG|nWord=9|RX=[PRO]
+16	a	a	PRON	_	_	19	subj	_	AlignBegin=167082|AlignEnd=167333|GE=[3SG]|Gloss=3SG|nWord=9|RX=[PRO]
 17	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=167333|AlignEnd=167584|GE=same|Gloss=same|nWord=10|RX=[ADJ]
 18	ʉn-		AUX	_	_	19	mod/m	_	AlignBegin=167584|AlignEnd=167668|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
 19	kwʉ	kwʉ	VERB	_	_	20	comp:aux/m	_	AlignBegin=167668|AlignEnd=167752|GE=live|Gloss=live|nWord=11|RX=[V]
@@ -945,7 +945,7 @@
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=173348|AlignEnd=173785|nWord=3
 4	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=173785|AlignEnd=174222|GE=so|Gloss=so|nWord=4|RX=[ADV]
 5	iwa	iwa	ADV	_	_	6	comp	_	AlignBegin=174222|AlignEnd=174440|GE=now|Gloss=now|nWord=5|RX=[ADV]
-6	=kin		ADP	_	_	_	_	_	AlignBegin=174440|AlignEnd=174659|GE=[LIM]|Gloss==LIM|nWord=5|RX=[POST]
+6	=kin		ADP	_	_	9	comp:obl	_	AlignBegin=174440|AlignEnd=174659|GE=[LIM]|Gloss==LIM|nWord=5|RX=[POST]
 7	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=174659|AlignEnd=175096|GE=there|Gloss=there|nWord=6|RX=[ADV]
 8	ʉn-		AUX	_	_	9	comp:aux	_	AlignBegin=175096|AlignEnd=175314|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 9	za	za	AUX	_	_	10	comp:aux	_	AlignBegin=175314|AlignEnd=175533|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]
@@ -978,10 +978,10 @@
 # text = eyma ka'a na'ba'ri awga na'me' .
 # text_en = That's why as for the earth, they say this.
 # text_phrase-gls-es = En cuanto a la tierra dicen así
-1	eyma	eyma	PRON	_	_	_	_	_	AlignBegin=178844|AlignEnd=179471|GE=this|Gloss=this|nWord=1|RX=[DEM]
-2	ka'a	ka'a	NOUN	_	_	_	_	_	AlignBegin=179471|AlignEnd=180098|GE=land|Gloss=land|nWord=2|RX=[N]
+1	eyma	eyma	PRON	_	_	6	comp:obj	_	AlignBegin=178844|AlignEnd=179471|GE=this|Gloss=this|nWord=1|RX=[DEM]
+2	ka'a	ka'a	NOUN	_	_	3	comp:pred	_	AlignBegin=179471|AlignEnd=180098|GE=land|Gloss=land|nWord=2|RX=[N]
 3	n	n	AUX	_	_	4	comp	_	AlignBegin=180098|AlignEnd=180307|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
-4	=a'ba'		ADP	_	_	_	_	_	AlignBegin=180307|AlignEnd=180516|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
+4	=a'ba'		ADP	_	_	6	comp:obl	_	AlignBegin=180307|AlignEnd=180516|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=180516|AlignEnd=180725|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 6	awga	awga	VERB	_	_	7	comp:aux	_	AlignBegin=180725|AlignEnd=181352|GE=say|Gloss=say|nWord=4|RX=[V]
 7	n	n	AUX	_	_	8	comp:aux/m	_	AlignBegin=181352|AlignEnd=181666|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
