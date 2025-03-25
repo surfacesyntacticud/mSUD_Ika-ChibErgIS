@@ -10,7 +10,7 @@
 2	-ngwa		AUX	_	_	_	_	_	AlignBegin=1618|AlignEnd=1816|GE=[FUT]|Gloss=FUT|nWord=1|RX=[VERB]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=1816|AlignEnd=2015|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	i'ngwi	i'ngwi	NUM	_	_	5	mod:num	_	AlignBegin=2015|AlignEnd=2610|GE=one|Gloss=one|nWord=2|RX=[NUM]
-5	achʉna	achʉna	NOUN	_	_	10	subj	_	AlignBegin=2610|AlignEnd=3205|GE=adult|Gloss=adult|nWord=3|RX=[N]
+5	achʉna	achʉna	NOUN	_	Case=Erg	10	subj	_	AlignBegin=2610|AlignEnd=3205|GE=adult|Gloss=adult|nWord=3|RX=[N]
 6	keywʉ	keywʉ	PART	_	_	5	discourse	_	AlignBegin=3205|AlignEnd=3800|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 7	pera	pera	NOUN	_	_	10	comp:obj	_	AlignBegin=3800|AlignEnd=4395|GE=pear|Gloss=pear|nWord=5|RX=[N]
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=4395|AlignEnd=4544|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
@@ -19,7 +19,7 @@
 11	-ʉn		AUX	_	_	12	comp:aux	_	AlignBegin=4842|AlignEnd=4990|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
 12	nu'	nu'	AUX	_	_	13	comp:aux/m	_	AlignBegin=4990|AlignEnd=5288|GE=aux|Gloss=aux|nWord=7|RX=[COP]
 13	-na		AUX	_	_	_	_	_	AlignBegin=5288|AlignEnd=5585|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
-14	.		PUNCT	_	_	_	_	_	AlignBegin=5585|AlignEnd=6180|Gloss=.|nWord=8
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=5585|AlignEnd=6180|Gloss=.|nWord=8
 
 # sent_id = PE17_02-02
 # speaker_id = @SP17
@@ -38,7 +38,7 @@
 7	ʉn-		AUX	_	_	8	mod/m	_	AlignBegin=10600|AlignEnd=10835|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
 8	kʉ-		AUX	_	_	9	mod/m	_	AlignBegin=10835|AlignEnd=11070|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
 9	re'gow	re'gow	VERB	_	_	_	_	_	AlignBegin=11070|AlignEnd=11304|GE=put|Gloss=put|nWord=6|RX=[V]
-10	,		PUNCT	_	_	_	_	_	AlignBegin=11304|AlignEnd=12010|nWord=7|wordform=,.
+10	,		PUNCT	_	_	9	punct	_	AlignBegin=11304|AlignEnd=12010|nWord=7|wordform=,.
 
 # sent_id = PE17_03-03
 # speaker_id = @SP17
@@ -58,7 +58,7 @@
 8	cho's	cho's	VERB	_	_	9	comp:aux/m	_	AlignBegin=14692|AlignEnd=14880|GE=put.down[upright]|Gloss=put.down[upright]|nWord=3|RX=[V]
 9	-i		AUX	_	_	_	_	_	AlignBegin=14880|AlignEnd=15068|GE=while|Gloss=while|nWord=3|RX=[VERB]
 10	=ri		PART	_	_	9	mod	_	AlignBegin=15068|AlignEnd=15254|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-11	,		PUNCT	_	_	_	_	_	AlignBegin=15254|AlignEnd=16190|nWord=4|wordform=,.
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=15254|AlignEnd=16190|nWord=4|wordform=,.
 
 # sent_id = PE17_04-04
 # speaker_id = @SP17
@@ -80,7 +80,7 @@
 10	-'		AUX	_	_	11	comp:aux	_	AlignBegin=19468|AlignEnd=19766|GE=[NEG]|Gloss=NEG|nWord=6|RX=[VERB]
 11	nʉn	nʉn	AUX	_	_	12	comp:aux/m	_	AlignBegin=19766|AlignEnd=20064|GE=cop|Gloss=cop|nWord=7|RX=[COP]
 12	-no		AUX	_	_	_	_	_	AlignBegin=20064|AlignEnd=20362|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]
-13	?.		PUNCT	_	_	_	_	_	AlignBegin=20362|AlignEnd=20960|nWord=8
+13	?.		PUNCT	_	_	12	punct	_	AlignBegin=20362|AlignEnd=20960|nWord=8
 
 # sent_id = PE17_05-05
 # speaker_id = @SP17
@@ -98,13 +98,13 @@
 6	zar	zar	AUX	_	_	7	comp:aux/m	_	AlignBegin=22830|AlignEnd=23027|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
 7	-e'		AUX	_	_	_	_	_	AlignBegin=23027|AlignEnd=23224|GE=then|Gloss=then|nWord=4|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=23224|AlignEnd=23420|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=23420|AlignEnd=24010|nWord=5
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=23420|AlignEnd=24010|nWord=5
 10	i'ngwi	i'ngwi	NUM	_	_	14	comp:obl	_	AlignBegin=24010|AlignEnd=24600|GE=one|Gloss=one|nWord=6|RX=[NUM]
 11	keywʉ	keywʉ	PART	_	_	10	discourse	_	AlignBegin=24600|AlignEnd=25190|GE=soon|Gloss=soon|nWord=7|RX=[PRT]
 12	achʉna	achʉna	NOUN	_	_	14	comp:obj	_	AlignBegin=25190|AlignEnd=25485|GE=adult|Gloss=adult|nWord=8|RX=[N]
 13	=gwi		ADV	_	_	12	mod	_	AlignBegin=25485|AlignEnd=25780|GE=also|Gloss==also|nWord=8|RX=[ADV]
-14	kawa	kawa	AUX	_	_	20	subj	_	AlignBegin=25780|AlignEnd=26370|GE=seem|Gloss=seem|nWord=9|RX=[AUX]
-15	,		PUNCT	_	_	_	_	_	AlignBegin=26370|AlignEnd=26960|nWord=10
+14	kawa	kawa	AUX	_	Case=Erg	20	subj	_	AlignBegin=25780|AlignEnd=26370|GE=seem|Gloss=seem|nWord=9|RX=[AUX]
+15	,		PUNCT	_	_	14	punct	_	AlignBegin=26370|AlignEnd=26960|nWord=10
 16	(		PUNCT	_	_	17	punct	_	AlignBegin=26960|AlignEnd=27550|nWord=11
 17	eh	eh	INTJ	_	_	19	discourse	_	AlignBegin=27550|AlignEnd=28140|GE=[HES]|Gloss=HES|nWord=12|RX=[INTERJ]
 18	)		PUNCT	_	_	17	punct	_	AlignBegin=28140|AlignEnd=28730|nWord=13
@@ -115,7 +115,7 @@
 23	=ta		ADP	_	_	25	mod:lmod	_	AlignBegin=30107|AlignEnd=30304|GE=[LOC]|Gloss==LOC|nWord=16|RX=[POST]
 24	=gwi		ADV	_	_	23	mod	_	AlignBegin=30304|AlignEnd=30500|GE=also|Gloss==also|nWord=16|RX=[ADV]
 25	a'zagi	a'zagi	VERB	_	_	_	_	_	AlignBegin=30500|AlignEnd=31090|GE=cross|Gloss=cross|nWord=17|RX=[V]
-26	.		PUNCT	_	_	_	_	_	AlignBegin=31090|AlignEnd=31681|Gloss=.|nWord=18
+26	.		PUNCT	_	_	25	punct	_	AlignBegin=31090|AlignEnd=31681|Gloss=.|nWord=18
 
 # sent_id = PE17_06-06
 # speaker_id = @SP17
@@ -125,22 +125,22 @@
 # text = eyma inʉ keywʉ chway ( keywʉ nʉngwa ) niku' nari zʉ'ʉn ,.
 # text_en = The [other] one didn't seem that he saw something
 # text_phrase-gls-es = Este no hacia que vio algo
-1	eyma	eyma	PRON	_	_	4	subj	_	AlignBegin=32115|AlignEnd=32332|GE=this|Gloss=this|nWord=1|RX=[DEM]
+1	eyma	eyma	PRON	_	Case=Erg	4	subj	_	AlignBegin=32115|AlignEnd=32332|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	inʉ	inʉ	PRON	_	_	4	comp:obj	_	AlignBegin=32332|AlignEnd=32549|GE=what|Gloss=what|nWord=2|RX=[INTERROG]
 3	keywʉ	keywʉ	PART	_	_	2	discourse	_	AlignBegin=32549|AlignEnd=32766|GE=soon|Gloss=soon|nWord=3|RX=[PRT]
 4	chwa	chwa	VERB	_	_	5	comp:aux/m	_	AlignBegin=32766|AlignEnd=32874|GE=see|Gloss=see|nWord=4|RX=[VT]
 5	-y		AUX	_	_	_	_	_	AlignBegin=32874|AlignEnd=32983|GE=while|Gloss=while|nWord=4|RX=[VERB]
-6	(		PUNCT	_	_	_	_	_	AlignBegin=32983|AlignEnd=33200|nWord=5
+6	(		PUNCT	_	_	7	punct	_	AlignBegin=32983|AlignEnd=33200|nWord=5
 7	keywʉ	keywʉ	PART	_	_	_	_	_	AlignBegin=33200|AlignEnd=33417|GE=soon|Gloss=soon|nWord=6|RX=[PRT]
 8	nʉ	nʉ	AUX	_	_	9	comp:aux/m	_	AlignBegin=33417|AlignEnd=33525|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 9	-ngwa		AUX	_	_	_	_	_	AlignBegin=33525|AlignEnd=33634|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
-10	)		PUNCT	_	_	_	_	_	AlignBegin=33634|AlignEnd=33851|nWord=8
+10	)		PUNCT	_	_	9	punct	_	AlignBegin=33634|AlignEnd=33851|nWord=8
 11	nik	nik	AUX	_	_	12	comp:aux/m	_	AlignBegin=33851|AlignEnd=33959|GE=do|Gloss=do|nWord=9|RX=[AUX]
 12	-u'		AUX	_	_	13	comp:aux	_	AlignBegin=33959|AlignEnd=34068|GE=[NEG]|Gloss=NEG|nWord=9|RX=[VERB]
 13	nan	nan	AUX	_	_	14	comp:aux/m	_	AlignBegin=34068|AlignEnd=34176|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
 14	-i		AUX	_	_	_	_	_	AlignBegin=34176|AlignEnd=34285|GE=while|Gloss=while|nWord=10|RX=[VERB]
 15	zʉ'ʉn	zʉ'ʉn	AUX	_	_	14	mod:emph	_	AlignBegin=34285|AlignEnd=34502|GE=[COP]|Gloss=COP|nWord=11|RX=[COP]
-16	,		PUNCT	_	_	_	_	_	AlignBegin=34502|AlignEnd=34720|nWord=12|wordform=,.
+16	,		PUNCT	_	_	15	punct	_	AlignBegin=34502|AlignEnd=34720|nWord=12|wordform=,.
 
 # sent_id = PE17_07-07
 # speaker_id = @SP17
@@ -153,7 +153,7 @@
 1	a'zagi	a'zagi	VERB	_	_	2	comp:aux	_	AlignBegin=34720|AlignEnd=35203|GE=cross|Gloss=cross|nWord=1|RX=[V]
 2	u	u	AUX	_	_	3	comp:aux/m	_	AlignBegin=35203|AlignEnd=35445|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-na		AUX	_	_	_	_	_	AlignBegin=35445|AlignEnd=35686|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]
-4	.		PUNCT	_	_	_	_	_	AlignBegin=35686|AlignEnd=36170|Gloss=.|nWord=3
+4	.		PUNCT	_	_	3	punct	_	AlignBegin=35686|AlignEnd=36170|Gloss=.|nWord=3
 
 # sent_id = PE17_08-08
 # speaker_id = @SP17
@@ -171,7 +171,7 @@
 6	nus	nus	AUX	_	_	7	comp:aux/m	_	AlignBegin=37010|AlignEnd=37065|GE=aux|Gloss=aux|nWord=5|RX=[COP]
 7	-e'		AUX	_	_	_	_	_	AlignBegin=37065|AlignEnd=37120|GE=then|Gloss=then|nWord=5|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=37120|AlignEnd=37175|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-9	.		PUNCT	_	_	_	_	_	AlignBegin=37175|AlignEnd=37341|Gloss=.|nWord=6
+9	.		PUNCT	_	_	8	punct	_	AlignBegin=37175|AlignEnd=37341|Gloss=.|nWord=6
 
 # sent_id = PE17_09-09
 # speaker_id = @SP17
@@ -184,22 +184,22 @@
 1	ingʉmʉnʉ	ingʉmʉnʉ	ADV	_	_	_	_	_	AlignBegin=37341|AlignEnd=37681|GE=while|Gloss=while|nWord=1|RX=[ADV]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=37681|AlignEnd=38021|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	i'ngwi	i'ngwi	NUM	_	_	4	mod:num	_	AlignBegin=38021|AlignEnd=38701|GE=one|Gloss=one|nWord=2|RX=[NUM]
-4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	9	subj	_	AlignBegin=38701|AlignEnd=39381|GE=child|Gloss=child|nWord=3|RX=[N]
+4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	9	subj	_	AlignBegin=38701|AlignEnd=39381|GE=child|Gloss=child|nWord=3|RX=[N]
 5	keywʉ	keywʉ	PART	_	_	4	discourse	_	AlignBegin=39381|AlignEnd=40061|GE=soon|Gloss=soon|nWord=4|RX=[PRT]
 6	bisikleta	bisikleta	NOUN	_	_	7	comp	_	AlignBegin=40061|AlignEnd=40401|GE=bicycle|Gloss=bicycle|nWord=5|RX=[N]
 7	=se'		ADP	_	_	9	mod:lmod	_	AlignBegin=40401|AlignEnd=40741|GE=[LOC]|Gloss==LOC|nWord=5|RX=[POST]
 8	i-		AUX	_	_	9	comp:aux	_	AlignBegin=40741|AlignEnd=40968|GE=[APPL2]|Gloss=APPL2|nWord=6|RX=[V>V]
 9	nisi	nisi	AUX	_	_	_	_	_	AlignBegin=40968|AlignEnd=41195|GE=do|Gloss=do|nWord=6|RX=[AUX]
 10	=gwi		ADV	_	_	9	mod	_	AlignBegin=41195|AlignEnd=41421|GE=also|Gloss==also|nWord=6|RX=[ADV]
-11	,		PUNCT	_	_	_	_	_	AlignBegin=41421|AlignEnd=42101|nWord=7
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=41421|AlignEnd=42101|nWord=7
 12	nak	nak	VERB	_	_	13	comp:aux/m	_	AlignBegin=42101|AlignEnd=42441|GE=come|Gloss=come|nWord=8|RX=[V]
 13	-ʉn		AUX	_	_	14	comp:aux	_	AlignBegin=42441|AlignEnd=42781|GE=[IPFV]|Gloss=IPFV|nWord=8|RX=[VERB]
 14	nus	nus	AUX	_	_	15	comp:aux/m	_	AlignBegin=42781|AlignEnd=43008|GE=aux|Gloss=aux|nWord=9|RX=[COP]
 15	-i		AUX	_	_	_	_	_	AlignBegin=43008|AlignEnd=43235|GE=while|Gloss=while|nWord=9|RX=[VERB]
 16	=ri		PART	_	_	15	mod	_	AlignBegin=43235|AlignEnd=43461|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-17	,		PUNCT	_	_	_	_	_	AlignBegin=43461|AlignEnd=44141|nWord=10
+17	,		PUNCT	_	_	16	punct	_	AlignBegin=43461|AlignEnd=44141|nWord=10
 18	eymi	eymi	ADV	_	_	20	conj:dicto	_	AlignBegin=44141|AlignEnd=44821|GE=there|Gloss=there|nWord=11|RX=[ADV]
-19	,		PUNCT	_	_	_	_	_	AlignBegin=44821|AlignEnd=45501|nWord=12
+19	,		PUNCT	_	_	18	punct	_	AlignBegin=44821|AlignEnd=45501|nWord=12
 20	eymi	eymi	ADV	_	_	21	comp	_	AlignBegin=45501|AlignEnd=45728|GE=there|Gloss=there|nWord=13|RX=[ADV]
 21	=ta		ADP	_	_	23	mod:lmod	_	AlignBegin=45728|AlignEnd=45955|GE=[LOC]|Gloss==LOC|nWord=13|RX=[POST]
 22	=gwi		ADV	_	_	21	mod	_	AlignBegin=45955|AlignEnd=46181|GE=also|Gloss==also|nWord=13|RX=[ADV]
@@ -208,7 +208,7 @@
 25	nu'	nu'	AUX	_	_	26	comp:aux/m	_	AlignBegin=46861|AlignEnd=47088|GE=aux|Gloss=aux|nWord=15|RX=[COP]
 26	-na		AUX	_	_	_	_	_	AlignBegin=47088|AlignEnd=47315|GE=[RMTPST]|Gloss=RMTPST|nWord=15|RX=[VERB]
 27	=ri		PART	_	_	26	mod	_	AlignBegin=47315|AlignEnd=47541|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
-28	.		PUNCT	_	_	_	_	_	AlignBegin=47541|AlignEnd=48224|Gloss=.|nWord=16
+28	.		PUNCT	_	_	27	punct	_	AlignBegin=47541|AlignEnd=48224|Gloss=.|nWord=16
 
 # sent_id = PE17_10-10
 # speaker_id = @SP17
@@ -225,7 +225,7 @@
 5	-y		AUX	_	_	6	comp:aux/m	_	AlignBegin=51269|AlignEnd=51497|GE=[NONEGO]|Gloss=NONEGO|nWord=4|RX=[V:ANY]
 6	-e'		AUX	_	_	_	_	_	AlignBegin=51497|AlignEnd=51725|GE=then|Gloss=then|nWord=4|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=51725|AlignEnd=51954|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-8	.		PUNCT	_	_	_	_	_	AlignBegin=51954|AlignEnd=52868|Gloss=.|nWord=5
+8	.		PUNCT	_	_	7	punct	_	AlignBegin=51954|AlignEnd=52868|Gloss=.|nWord=5
 
 # sent_id = PE17_11-11
 # speaker_id = @SP17
@@ -243,7 +243,7 @@
 6	-y		AUX	_	_	7	comp:aux/m	_	AlignBegin=54296|AlignEnd=54404|GE=[NONEGO]|Gloss=NONEGO|nWord=3|RX=[V:ANY]
 7	-e'		AUX	_	_	_	_	_	AlignBegin=54404|AlignEnd=54512|GE=then|Gloss=then|nWord=3|RX=[VERB]
 8	neki	neki	PART	_	_	7	mod:emph	_	AlignBegin=54512|AlignEnd=54836|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=54836|AlignEnd=55162|nWord=5|wordform=,.
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=54836|AlignEnd=55162|nWord=5|wordform=,.
 
 # sent_id = PE17_12-12
 # speaker_id = @SP17
@@ -256,7 +256,7 @@
 1	eyma	eyma	DET	_	_	4	det	_	AlignBegin=55162|AlignEnd=55530|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	achʉna	achʉna	ADJ	_	_	3	comp:pred@pred	_	AlignBegin=55530|AlignEnd=55898|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]
 3	kawa	kawa	AUX	_	_	4	comp	_	AlignBegin=55898|AlignEnd=56082|GE=seem|Gloss=seem|nWord=3|RX=[AUX]
-4	=se'		ADP	_	_	5	subj	_	AlignBegin=56082|AlignEnd=56266|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
+4	=se'	=se'	ADP	_	Case=Erg	5	subj	_	AlignBegin=56082|AlignEnd=56266|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
 5	chwa	chwa	VERB	_	_	6	comp:aux/m	_	AlignBegin=56266|AlignEnd=56450|GE=see|Gloss=see|nWord=4|RX=[VT]
 6	-y		AUX	_	_	7	comp:aux	_	AlignBegin=56450|AlignEnd=56634|GE=while|Gloss=while|nWord=4|RX=[VERB]
 7	nik	nik	AUX	_	_	8	comp:aux/m	_	AlignBegin=56634|AlignEnd=56818|GE=do|Gloss=do|nWord=5|RX=[AUX]
@@ -265,7 +265,7 @@
 10	-e'		AUX	_	_	_	_	_	AlignBegin=57186|AlignEnd=57370|GE=then|Gloss=then|nWord=6|RX=[VERB]
 11	pari	pari	ADP	_	_	10	mod	_	AlignBegin=57370|AlignEnd=57554|GE=from|Gloss=from|nWord=7|RX=[POST]
 12	=ri		PART	_	_	11	mod	_	AlignBegin=57554|AlignEnd=57738|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
-13	.		PUNCT	_	_	_	_	_	AlignBegin=57738|AlignEnd=58108|Gloss=.|nWord=8
+13	.		PUNCT	_	_	12	punct	_	AlignBegin=57738|AlignEnd=58108|Gloss=.|nWord=8
 
 # sent_id = PE17_13-13
 # speaker_id = @SP17
@@ -281,7 +281,7 @@
 4	n	n	AUX	_	_	5	comp:aux/m	_	AlignBegin=59408|AlignEnd=59552|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
 5	-aɉʉ		AUX	_	_	_	_	_	AlignBegin=59552|AlignEnd=59696|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=3|RX=[V:ANY]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=59696|AlignEnd=59842|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=59842|AlignEnd=60418|nWord=4|wordform=,.
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=59842|AlignEnd=60418|nWord=4|wordform=,.
 
 # sent_id = PE17_14-14
 # speaker_id = @SP17
@@ -297,7 +297,7 @@
 4	ki-		AUX	_	_	5	mod/m	_	AlignBegin=61386|AlignEnd=61580|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]
 5	cho's	cho's	VERB	_	_	6	comp:aux/m	_	AlignBegin=61580|AlignEnd=61774|GE=put.down[upright]|Gloss=put.down[upright]|nWord=2|RX=[V]
 6	-i		AUX	_	_	_	_	_	AlignBegin=61774|AlignEnd=61966|GE=while|Gloss=while|nWord=2|RX=[VERB]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=61966|AlignEnd=62740|nWord=3|wordform=,.
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=61966|AlignEnd=62740|nWord=3|wordform=,.
 
 # sent_id = PE17_15-15
 # speaker_id = @SP17
@@ -312,7 +312,7 @@
 3	=ri		PART	_	_	2	mod	_	AlignBegin=63441|AlignEnd=63755|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	ʉn-		AUX	_	_	5	mod/m	_	AlignBegin=63755|AlignEnd=64225|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
 5	zoya	zoya	VERB	_	_	_	_	_	AlignBegin=64225|AlignEnd=64695|GE=go|Gloss=go|nWord=2|RX=[VI]
-6	.		PUNCT	_	_	_	_	_	AlignBegin=64695|AlignEnd=65635|Gloss=.|nWord=3
+6	.		PUNCT	_	_	5	punct	_	AlignBegin=64695|AlignEnd=65635|Gloss=.|nWord=3
 
 # sent_id = PE17_16-16
 # speaker_id = @SP17
@@ -328,7 +328,7 @@
 4	eyma	eyma	DET	_	_	7	det	_	AlignBegin=66631|AlignEnd=66963|GE=this|Gloss=this|nWord=4|RX=[DEM]
 5	achʉna	achʉna	ADJ	_	_	6	comp:pred@attr	_	AlignBegin=66963|AlignEnd=67295|GE=adult|Gloss=adult|nWord=5|RX=[ADJ]
 6	kawa	kawa	AUX	_	_	7	comp	_	AlignBegin=67295|AlignEnd=67461|GE=seem|Gloss=seem|nWord=6|RX=[AUX]
-7	=se'		ADP	_	_	8	subj	_	AlignBegin=67461|AlignEnd=67627|GE=[ERG]|Gloss==ERG|nWord=6|RX=[POST]
+7	=se'	=se'	ADP	_	Case=Erg	8	subj	_	AlignBegin=67461|AlignEnd=67627|GE=[ERG]|Gloss==ERG|nWord=6|RX=[POST]
 8	chu	chu	VERB	_	_	9	comp:aux/m	_	AlignBegin=67627|AlignEnd=67738|GE=see|Gloss=see|nWord=7|RX=[VT]
 9	-'		AUX	_	_	_	_	_	AlignBegin=67738|AlignEnd=67849|GE=[NEG]|Gloss=NEG|nWord=7|RX=[VERB]
 10	=kʉchʉ		PART	_	_	9	mod	_	AlignBegin=67849|AlignEnd=67959|GE=[EMPH]|Gloss==EMPH|nWord=7|RX=[PRT]
@@ -336,7 +336,7 @@
 12	-e'		AUX	_	_	13	comp:aux	_	AlignBegin=68125|AlignEnd=68291|GE=then|Gloss=then|nWord=8|RX=[VERB]
 13	nʉn	nʉn	AUX	_	_	14	comp:aux/m	_	AlignBegin=68291|AlignEnd=68457|GE=cop|Gloss=cop|nWord=9|RX=[COP]
 14	-na		AUX	_	_	_	_	_	AlignBegin=68457|AlignEnd=68623|GE=[RMTPST]|Gloss=RMTPST|nWord=9|RX=[VERB]
-15	.		PUNCT	_	_	_	_	_	AlignBegin=68623|AlignEnd=68953|Gloss=.|nWord=10
+15	.		PUNCT	_	_	14	punct	_	AlignBegin=68623|AlignEnd=68953|Gloss=.|nWord=10
 
 # sent_id = PE17_17-17
 # speaker_id = @SP17
@@ -352,7 +352,7 @@
 4	zoya	zoya	VERB	_	_	5	comp:aux	_	AlignBegin=69601|AlignEnd=69817|GE=go|Gloss=go|nWord=2|RX=[VI]
 5	nan	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=69817|AlignEnd=70033|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
 6	-i		AUX	_	_	_	_	_	AlignBegin=70033|AlignEnd=70249|GE=while|Gloss=while|nWord=3|RX=[VERB]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=70249|AlignEnd=70682|nWord=4|wordform=,.
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=70249|AlignEnd=70682|nWord=4|wordform=,.
 
 # sent_id = PE17_18-18
 # speaker_id = @SP17
@@ -368,7 +368,7 @@
 4	nus	nus	AUX	_	_	5	comp:aux/m	_	AlignBegin=71836|AlignEnd=72028|GE=aux|Gloss=aux|nWord=3|RX=[COP]
 5	-e'		AUX	_	_	_	_	_	AlignBegin=72028|AlignEnd=72220|GE=then|Gloss=then|nWord=3|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=72220|AlignEnd=72413|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-7	.		PUNCT	_	_	_	_	_	AlignBegin=72413|AlignEnd=72990|Gloss=.|nWord=4
+7	.		PUNCT	_	_	6	punct	_	AlignBegin=72413|AlignEnd=72990|Gloss=.|nWord=4
 
 # sent_id = PE17_19-19
 # speaker_id = @SP17
@@ -379,7 +379,7 @@
 # text_en = There was also a girl riding a bicycle, over there on the same road.
 # text_phrase-gls-es = También venía una ninia montada en una bicicleta, por allí por el mismo camino.
 1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=73069|AlignEnd=73757|GE=there|Gloss=there|nWord=1|RX=[ADV]
-2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	8	subj	_	AlignBegin=73757|AlignEnd=73986|GE=child|Gloss=child|nWord=2|RX=[N]
+2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	8	subj	_	AlignBegin=73757|AlignEnd=73986|GE=child|Gloss=child|nWord=2|RX=[N]
 3	a'mia	a'mia	NOUN	_	_	2	mod	_	AlignBegin=73986|AlignEnd=74215|GE=woman|Gloss=woman|nWord=2|RX=[N]
 4	=gwi		ADV	_	_	3	mod	_	AlignBegin=74215|AlignEnd=74445|GE=also|Gloss==also|nWord=2|RX=[ADV]
 5	bisikleta	bisikleta	NOUN	_	_	6	comp	_	AlignBegin=74445|AlignEnd=74789|GE=bicycle|Gloss=bicycle|nWord=3|RX=[N]
@@ -391,13 +391,13 @@
 11	-ʉn		AUX	_	_	12	comp:aux	_	AlignBegin=76165|AlignEnd=76509|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]
 12	nu'	nu'	AUX	_	_	13	comp:aux/m	_	AlignBegin=76509|AlignEnd=76853|GE=aux|Gloss=aux|nWord=6|RX=[COP]
 13	-na		AUX	_	_	_	_	_	AlignBegin=76853|AlignEnd=77197|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]
-14	,		PUNCT	_	_	_	_	_	AlignBegin=77197|AlignEnd=77885|nWord=7
+14	,		PUNCT	_	_	13	punct	_	AlignBegin=77197|AlignEnd=77885|nWord=7
 15	eymʉnke	eymʉnke	ADV	_	_	16	comp	_	AlignBegin=77885|AlignEnd=78114|GE=there|Gloss=there|nWord=8|RX=[ADV]
 16	=ta		ADP	_	_	18	mod	_	AlignBegin=78114|AlignEnd=78343|GE=[LOC]|Gloss==LOC|nWord=8|RX=[POST]
 17	=gwi		ADV	_	_	16	mod	_	AlignBegin=78343|AlignEnd=78573|GE=also|Gloss==also|nWord=8|RX=[ADV]
 18	íngwʉnʉ	íngwʉnʉ	NOUN	_	_	19	comp	_	AlignBegin=78573|AlignEnd=78917|GE=way|Gloss=way|nWord=9|RX=[N]
 19	-n		ADP	_	_	10	mod:lmod	_	AlignBegin=78917|AlignEnd=79261|GE=[MEANS]|Gloss=LOC|nWord=9|RX=[NOUN]
-20	.		PUNCT	_	_	_	_	_	AlignBegin=79261|AlignEnd=79945|Gloss=.|nWord=10
+20	.		PUNCT	_	_	19	punct	_	AlignBegin=79261|AlignEnd=79945|Gloss=.|nWord=10
 
 # sent_id = PE17_20-20
 # speaker_id = @SP17
@@ -420,7 +420,7 @@
 11	-y		AUX	_	_	12	comp:aux/m	_	AlignBegin=83052|AlignEnd=83178|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]
 12	-e'		AUX	_	_	_	_	_	AlignBegin=83178|AlignEnd=83304|GE=then|Gloss=then|nWord=5|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=83304|AlignEnd=83431|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-14	.		PUNCT	_	_	_	_	_	AlignBegin=83431|AlignEnd=83937|Gloss=.|nWord=6
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=83431|AlignEnd=83937|Gloss=.|nWord=6
 
 # sent_id = PE17_21-21
 # speaker_id = @SP17
@@ -432,7 +432,7 @@
 # text_phrase-gls-es = Uno de ellos que iba con la canasta de pera puesta
 # text_phrase-gls-tl = puesta
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=84670|AlignEnd=85123|GE=one|Gloss=one|nWord=1|RX=[NUM]
-2	eyma	eyma	PRON	_	_	9	subj	_	AlignBegin=85123|AlignEnd=85576|GE=this|Gloss=this|nWord=2|RX=[DEM]
+2	eyma	eyma	PRON	_	Case=Erg	9	subj	_	AlignBegin=85123|AlignEnd=85576|GE=this|Gloss=this|nWord=2|RX=[DEM]
 3	(		PUNCT	_	_	4	punct	_	AlignBegin=85576|AlignEnd=86029|nWord=3
 4	mhm	mhm	INTJ	_	_	6	discourse	_	AlignBegin=86029|AlignEnd=86482|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]
 5	)		PUNCT	_	_	4	punct	_	AlignBegin=86482|AlignEnd=86935|nWord=5
@@ -446,7 +446,7 @@
 13	nu'	nu'	AUX	_	_	14	comp:aux/m	_	AlignBegin=88747|AlignEnd=88898|GE=aux|Gloss=aux|nWord=10|RX=[COP]
 14	-na		AUX	_	_	_	_	_	AlignBegin=88898|AlignEnd=89049|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]
 15	=ri		PART	_	_	14	mod	_	AlignBegin=89049|AlignEnd=89200|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
-16	.		PUNCT	_	_	_	_	_	AlignBegin=89200|AlignEnd=89650|Gloss=.|nWord=11
+16	.		PUNCT	_	_	15	punct	_	AlignBegin=89200|AlignEnd=89650|Gloss=.|nWord=11
 
 # sent_id = PE17_22-22
 # speaker_id = @SP17
@@ -462,7 +462,7 @@
 4	-y		AUX	_	_	5	comp:aux/m	_	AlignBegin=91012|AlignEnd=91074|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
 5	-e'		AUX	_	_	_	_	_	AlignBegin=91074|AlignEnd=91136|GE=then|Gloss=then|nWord=2|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=91136|AlignEnd=91200|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=91200|AlignEnd=91449|nWord=3|wordform=,.
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=91200|AlignEnd=91449|nWord=3|wordform=,.
 
 # sent_id = PE17_23-23
 # speaker_id = @SP17
@@ -473,11 +473,11 @@
 # text_en = the whole basket fell down,
 # text_phrase-gls-es = se le cayó toda la canasta,
 1	yow	yow	DET	_	_	2	det	_	AlignBegin=91449|AlignEnd=92344|GE=all|Gloss=all|nWord=1|RX=[QUANT]
-2	kanasta	kanasta	NOUN	_	_	4	subj	_	AlignBegin=92344|AlignEnd=93239|GE=basket|Gloss=basket|nWord=2|RX=[N]
+2	kanasta	kanasta	NOUN	_	Case=Abs	4	subj	_	AlignBegin=92344|AlignEnd=93239|GE=basket|Gloss=basket|nWord=2|RX=[N]
 3	ki-		AUX	_	_	4	mod/m	_	AlignBegin=93239|AlignEnd=93537|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]
 4	wa'	wa'	VERB	_	_	_	_	_	AlignBegin=93537|AlignEnd=93835|GE=fall|Gloss=fall|nWord=3|RX=[V]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=93835|AlignEnd=94134|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-6	,		PUNCT	_	_	_	_	_	AlignBegin=94134|AlignEnd=95030|nWord=4|wordform=,.
+6	,		PUNCT	_	_	5	punct	_	AlignBegin=94134|AlignEnd=95030|nWord=4|wordform=,.
 
 # sent_id = PE17_24-24
 # speaker_id = @SP17
@@ -487,12 +487,12 @@
 # text = pera yow kizuna .
 # text_en = all the pear spilled.
 # text_phrase-gls-es = se le regó toda la pera.
-1	pera	pera	NOUN	_	_	4	subj	_	AlignBegin=95030|AlignEnd=95724|GE=pear|Gloss=pear|nWord=1|RX=[N]
+1	pera	pera	NOUN	_	Case=Abs	4	subj	_	AlignBegin=95030|AlignEnd=95724|GE=pear|Gloss=pear|nWord=1|RX=[N]
 2	yow	yow	DET	_	_	1	det	_	AlignBegin=95724|AlignEnd=96418|GE=all|Gloss=all|nWord=2|RX=[QUANT]
 3	ki-		AUX	_	_	4	mod/m	_	AlignBegin=96418|AlignEnd=96649|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]
 4	zu'n	zu'n	VERB	_	_	5	comp:aux/m	_	AlignBegin=96649|AlignEnd=96880|GE=spill|Gloss=spill|nWord=3|RX=[V]
 5	-a		AUX	_	_	_	_	_	AlignBegin=96880|AlignEnd=97112|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]
-6	.		PUNCT	_	_	_	_	_	AlignBegin=97112|AlignEnd=97806|Gloss=.|nWord=4
+6	.		PUNCT	_	_	5	punct	_	AlignBegin=97112|AlignEnd=97806|Gloss=.|nWord=4
 
 # sent_id = PE17_25-25
 # speaker_id = @SP17
@@ -505,24 +505,24 @@
 # text_phrase-gls-tl = izagi una
 1	u	u	AUX	_	_	2	comp:aux/m	_	AlignBegin=97806|AlignEnd=97953|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=97953|AlignEnd=98100|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
-3	-e'		AUX	_	_	_	_	_	AlignBegin=98100|AlignEnd=98247|GE=then|Gloss=then|nWord=1|RX=[VERB]
+3	-e'		AUX	_	_	15	discourse	_	AlignBegin=98100|AlignEnd=98247|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=98247|AlignEnd=98394|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-5	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=98394|AlignEnd=98982|GE=and|Gloss=and|nWord=2|RX=[COORDCONN]
+5	iwa	iwa	CCONJ	_	_	15	cc	_	AlignBegin=98394|AlignEnd=98982|GE=and|Gloss=and|nWord=2|RX=[COORDCONN]
 6	i'ngwi	i'ngwi	NUM	_	_	7	mod:num	_	AlignBegin=98982|AlignEnd=99570|GE=one|Gloss=one|nWord=3|RX=[NUM]
 7	a'mia	a'mia	NOUN	_	_	9	comp:pred	_	AlignBegin=99570|AlignEnd=99864|GE=woman|Gloss=woman|nWord=4|RX=[N]
 8	=gʉma		PART	_	_	7	mod	_	AlignBegin=99864|AlignEnd=100158|GE=[DIM]|Gloss==DIM|nWord=4|RX=[N]
 9	nʉn	nʉn	AUX	_	_	10	comp:aux/m	_	AlignBegin=100158|AlignEnd=100452|GE=cop|Gloss=cop|nWord=5|RX=[COP]
 10	-na		AUX	_	_	11	comp:aux	_	AlignBegin=100452|AlignEnd=100746|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
 11	nʉ	nʉ	AUX	_	_	12	comp:aux/m	_	AlignBegin=100746|AlignEnd=100942|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
-12	-ngwa		AUX	_	_	15	subj	_	AlignBegin=100942|AlignEnd=101138|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]
+12	-ngwa	-ngwa	AUX	_	Case=Abs	15	subj	_	AlignBegin=100942|AlignEnd=101138|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=101138|AlignEnd=101334|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 14	i-		AUX	_	_	15	mod/m	_	AlignBegin=101334|AlignEnd=101628|GE=[APPL2]|Gloss=APPL2|nWord=7|RX=[V>V]
 15	zagi	zagi	VERB	_	_	16	comp:aux	_	AlignBegin=101628|AlignEnd=101922|GE=cross|Gloss=cross|nWord=7|RX=[V]
 16	n	n	AUX	_	_	17	comp:aux/m	_	AlignBegin=101922|AlignEnd=102216|GE=aux|Gloss=aux|nWord=8|RX=[AUX]
 17	-e'		AUX	_	_	18	comp:aux	_	AlignBegin=102216|AlignEnd=102510|GE=then|Gloss=then|nWord=8|RX=[VERB]
 18	u	u	AUX	_	_	19	comp:aux/m	_	AlignBegin=102510|AlignEnd=102804|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
-19	-na		AUX	_	_	_	_	_	AlignBegin=102804|AlignEnd=103098|GE=[RMTPST]|Gloss=RMTPST|nWord=9|RX=[VERB]
-20	.		PUNCT	_	_	_	_	_	AlignBegin=103098|AlignEnd=103689|Gloss=.|nWord=10
+19	-na		AUX	_	_	0	root	_	AlignBegin=102804|AlignEnd=103098|GE=[RMTPST]|Gloss=RMTPST|nWord=9|RX=[VERB]
+20	.		PUNCT	_	_	19	punct	_	AlignBegin=103098|AlignEnd=103689|Gloss=.|nWord=10
 
 # sent_id = PE17_26-26
 # speaker_id = @SP17
@@ -541,7 +541,7 @@
 6	nis	nis	AUX	_	_	7	comp:aux/m	_	AlignBegin=105285|AlignEnd=105462|GE=do|Gloss=do|nWord=4|RX=[AUX]
 7	-i		AUX	_	_	_	_	_	AlignBegin=105462|AlignEnd=105639|GE=while|Gloss=while|nWord=4|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=105639|AlignEnd=105817|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	.		PUNCT	_	_	_	_	_	AlignBegin=105817|AlignEnd=106350|Gloss=.|nWord=5
+9	.		PUNCT	_	_	8	punct	_	AlignBegin=105817|AlignEnd=106350|Gloss=.|nWord=5
 
 # sent_id = PE17_27-27
 # speaker_id = @SP17
@@ -558,7 +558,7 @@
 5	u	u	AUX	_	_	6	comp:aux/m	_	AlignBegin=107531|AlignEnd=107633|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 6	-na		AUX	_	_	_	_	_	AlignBegin=107633|AlignEnd=107735|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=107735|AlignEnd=107838|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-8	.		PUNCT	_	_	_	_	_	AlignBegin=107838|AlignEnd=108146|Gloss=.|nWord=5
+8	.		PUNCT	_	_	7	punct	_	AlignBegin=107838|AlignEnd=108146|Gloss=.|nWord=5
 
 # sent_id = PE17_28-28
 # speaker_id = @SP17
@@ -571,7 +571,7 @@
 # text_phrase-gls-tl = como del mismo tamanyo
 1	eymʉnke'	eymʉnke'	ADV	_	_	_	_	_	AlignBegin=108146|AlignEnd=108432|GE=there|Gloss=there|nWord=1|RX=[ADV]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=108432|AlignEnd=108719|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	,		PUNCT	_	_	_	_	_	AlignBegin=108719|AlignEnd=109292|nWord=2
+3	,		PUNCT	_	_	2	punct	_	AlignBegin=108719|AlignEnd=109292|nWord=2
 4	mowga	mowga	NUM	_	_	7	mod:num	_	AlignBegin=109292|AlignEnd=109865|GE=two|Gloss=two|nWord=3|RX=[NUM]
 5	máykʉnʉ	máykʉnʉ	NUM	_	_	4	mod:num	_	AlignBegin=109865|AlignEnd=110438|GE=three|Gloss=three|nWord=4|RX=[NUM]
 6	keywʉ	keywʉ	PART	_	_	5	discourse	_	AlignBegin=110438|AlignEnd=111011|GE=soon|Gloss=soon|nWord=5|RX=[PRT]
@@ -586,7 +586,7 @@
 15	nu'	nu'	AUX	_	_	16	comp:aux/m	_	AlignBegin=113446|AlignEnd=113589|GE=aux|Gloss=aux|nWord=10|RX=[COP]
 16	-na		AUX	_	_	_	_	_	AlignBegin=113589|AlignEnd=113732|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]
 17	=ri		PART	_	_	16	mod	_	AlignBegin=113732|AlignEnd=113876|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
-18	.		PUNCT	_	_	_	_	_	AlignBegin=113876|AlignEnd=114446|Gloss=.|nWord=11
+18	.		PUNCT	_	_	17	punct	_	AlignBegin=113876|AlignEnd=114446|Gloss=.|nWord=11
 
 # sent_id = PE17_29-29
 # speaker_id = @SP17
@@ -596,15 +596,15 @@
 # text = eymi i'ngwi wa'nʉyin azare'ri ,.
 # text_en = when they knew someone had fallen,
 # text_phrase-gls-es = cuando supieron que se cayó alguien,
-1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=114822|AlignEnd=115417|GE=there|Gloss=there|nWord=1|RX=[ADV]
-2	i'ngwi	i'ngwi	NUM	_	_	3	subj	_	AlignBegin=115417|AlignEnd=116012|GE=one|Gloss=one|nWord=2|RX=[NUM]
+1	eymi	eymi	ADV	_	_	3	mod:lmod	_	AlignBegin=114822|AlignEnd=115417|GE=there|Gloss=there|nWord=1|RX=[ADV]
+2	i'ngwi	i'ngwi	NUM	_	Case=Abs	3	subj	_	AlignBegin=115417|AlignEnd=116012|GE=one|Gloss=one|nWord=2|RX=[NUM]
 3	wa'nʉ	wa'nʉ	VERB	_	_	4	comp:aux/m	_	AlignBegin=116012|AlignEnd=116210|GE=fall|Gloss=fall|nWord=3|RX=[V]
 4	-y		AUX	_	_	5	comp:aux/m	_	AlignBegin=116210|AlignEnd=116408|GE=[NONEGO]|Gloss=NONEGO|nWord=3|RX=[V:ANY]
-5	-in		AUX	_	_	_	_	_	AlignBegin=116408|AlignEnd=116607|GE=[DECL]|Gloss=DECL|nWord=3|RX=[V:ANY]
+5	-in		AUX	_	_	6	comp:obj	_	AlignBegin=116408|AlignEnd=116607|GE=[DECL]|Gloss=DECL|nWord=3|RX=[V:ANY]
 6	azar	azar	VERB	_	_	7	comp:aux/m	_	AlignBegin=116607|AlignEnd=116805|GE=know|Gloss=know|nWord=4|RX=[V]
-7	-e'		AUX	_	_	_	_	_	AlignBegin=116805|AlignEnd=117003|GE=then|Gloss=then|nWord=4|RX=[VERB]
+7	-e'		AUX	_	_	0	root	_	AlignBegin=116805|AlignEnd=117003|GE=then|Gloss=then|nWord=4|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=117003|AlignEnd=117202|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=117202|AlignEnd=117799|nWord=5|wordform=,.
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=117202|AlignEnd=117799|nWord=5|wordform=,.
 
 # sent_id = PE17_30-30
 # speaker_id = @SP17
@@ -618,7 +618,7 @@
 2	i-		AUX	_	_	3	mod/m	_	AlignBegin=117977|AlignEnd=118155|GE=[APPL2]|Gloss=APPL2|nWord=1|RX=[V>V]
 3	gunamʉs	gunamʉs	VERB	_	_	4	comp:aux/m	_	AlignBegin=118155|AlignEnd=118333|GE=help|Gloss=help|nWord=1|RX=[V]
 4	-a		AUX	_	_	_	_	_	AlignBegin=118333|AlignEnd=118511|GE=[PFV]|Gloss=PFV|nWord=1|RX=[V:ANY]
-5	,		PUNCT	_	_	_	_	_	AlignBegin=118511|AlignEnd=119222|nWord=2|wordform=,.
+5	,		PUNCT	_	_	4	punct	_	AlignBegin=118511|AlignEnd=119222|nWord=2|wordform=,.
 
 # sent_id = PE17_31-31
 # speaker_id = @SP17
@@ -636,7 +636,7 @@
 6	winʉ-		PRON	_	_	7	subj/m	_	AlignBegin=122138|AlignEnd=122362|GE=[3PL].[S]|Gloss=3PL.S|nWord=4|RX=[VERB]
 7	ka's	ka's	VERB	_	_	8	comp:aux/m	_	AlignBegin=122362|AlignEnd=122586|GE=put|Gloss=put|nWord=4|RX=[V]
 8	-a		AUX	_	_	_	_	_	AlignBegin=122586|AlignEnd=122810|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=122810|AlignEnd=123484|nWord=5|wordform=,.
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=122810|AlignEnd=123484|nWord=5|wordform=,.
 
 # sent_id = PE17_32-32
 # speaker_id = @SP17
@@ -650,7 +650,7 @@
 2	nenʉn	nenʉn	AUX	_	_	4	comp:obj	_	AlignBegin=124072|AlignEnd=124660|GE=cop|Gloss=cop|nWord=2|RX=[COP]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=124660|AlignEnd=124954|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	cho'	cho'	VERB	_	_	_	_	_	AlignBegin=124954|AlignEnd=125248|GE=stand|Gloss=stand|nWord=3|RX=[V]
-5	,		PUNCT	_	_	_	_	_	AlignBegin=125248|AlignEnd=125838|nWord=4|wordform=,.
+5	,		PUNCT	_	_	4	punct	_	AlignBegin=125248|AlignEnd=125838|nWord=4|wordform=,.
 
 # sent_id = PE17_33-33
 # speaker_id = @SP17
@@ -669,7 +669,7 @@
 7	=se'		ADP	_	_	9	mod:lmod	_	AlignBegin=129830|AlignEnd=130220|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]
 8	anʉ-		AUX	_	_	9	mod/m	_	AlignBegin=130220|AlignEnd=130610|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
 9	kacho'	kacho'	VERB	_	_	_	_	_	AlignBegin=130610|AlignEnd=131000|GE=put.upright|Gloss=put.upright|nWord=5|RX=[V]
-10	,		PUNCT	_	_	_	_	_	AlignBegin=131000|AlignEnd=131780|nWord=6|wordform=,.
+10	,		PUNCT	_	_	9	punct	_	AlignBegin=131000|AlignEnd=131780|nWord=6|wordform=,.
 
 # sent_id = PE17_34-34
 # speaker_id = @SP17
@@ -684,20 +684,20 @@
 3	nʉ	nʉ	AUX	_	_	4	comp:aux/m	_	AlignBegin=133776|AlignEnd=133935|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 4	-ngwa		AUX	_	_	_	_	_	AlignBegin=133935|AlignEnd=134094|GE=[FUT]|Gloss=FUT|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=134094|AlignEnd=134252|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-6	,		PUNCT	_	_	_	_	_	AlignBegin=134252|AlignEnd=134728|nWord=3
-7	eyma	eyma	PRON	_	_	11	subj	_	AlignBegin=134728|AlignEnd=134966|GE=this|Gloss=this|nWord=4|RX=[DEM]
+6	,		PUNCT	_	_	5	punct	_	AlignBegin=134252|AlignEnd=134728|nWord=3
+7	eyma	eyma	PRON	_	Case=Abs	11	subj	_	AlignBegin=134728|AlignEnd=134966|GE=this|Gloss=this|nWord=4|RX=[DEM]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=134966|AlignEnd=135204|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=135204|AlignEnd=135680|nWord=5
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=135204|AlignEnd=135680|nWord=5
 10	ʉn-		AUX	_	_	11	mod/m	_	AlignBegin=135680|AlignEnd=135918|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
 11	zoya	zoya	VERB	_	_	_	_	_	AlignBegin=135918|AlignEnd=136156|GE=go|Gloss=go|nWord=6|RX=[VI]
-12	,		PUNCT	_	_	_	_	_	AlignBegin=136156|AlignEnd=136632|nWord=7
+12	,		PUNCT	_	_	11	punct	_	AlignBegin=136156|AlignEnd=136632|nWord=7
 13	ara'twis	ara'twis	VERB	_	_	14	comp:aux/m	_	AlignBegin=136632|AlignEnd=136870|GE=push|Gloss=push|nWord=8|RX=[V]
 14	-i		AUX	_	_	17	conj:dicto	_	AlignBegin=136870|AlignEnd=137108|GE=while|Gloss=while|nWord=8|RX=[VERB]
-15	,		PUNCT	_	_	_	_	_	AlignBegin=137108|AlignEnd=137584|nWord=9
+15	,		PUNCT	_	_	14	punct	_	AlignBegin=137108|AlignEnd=137584|nWord=9
 16	bisikleta	bisikleta	NOUN	_	_	17	comp:obj	_	AlignBegin=137584|AlignEnd=138060|GE=bicycle|Gloss=bicycle|nWord=10|RX=[N]
 17	ara'twis	ara'twis	VERB	_	_	18	comp:aux/m	_	AlignBegin=138060|AlignEnd=138298|GE=push|Gloss=push|nWord=11|RX=[V]
 18	-i		AUX	_	_	_	_	_	AlignBegin=138298|AlignEnd=138536|GE=while|Gloss=while|nWord=11|RX=[VERB]
-19	.		PUNCT	_	_	_	_	_	AlignBegin=138536|AlignEnd=139012|Gloss=.|nWord=12
+19	.		PUNCT	_	_	18	punct	_	AlignBegin=138536|AlignEnd=139012|Gloss=.|nWord=12
 
 # sent_id = PE17_35-35
 # speaker_id = @SP17
@@ -708,7 +708,7 @@
 # text_en = When he was further ahead,
 # text_phrase-gls-es = Cuando iba más adelante,
 1	una	una	PART	_	_	_	_	_	AlignBegin=139012|AlignEnd=139398|GE=so|Gloss=so|nWord=1|RX=[PRT]
-2	,		PUNCT	_	_	_	_	_	AlignBegin=139398|AlignEnd=139784|nWord=2
+2	,		PUNCT	_	_	1	punct	_	AlignBegin=139398|AlignEnd=139784|nWord=2
 3	yamʉn	yamʉn	ADV	_	_	_	_	_	AlignBegin=139784|AlignEnd=140170|GE=there|Gloss=there|nWord=3|RX=[ADV]
 4	ʉn-		AUX	_	_	5	mod/m	_	AlignBegin=140170|AlignEnd=140299|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
 5	zwey	zwey	VERB	_	_	6	comp:aux/m	_	AlignBegin=140299|AlignEnd=140428|GE=go|Gloss=go|nWord=4|RX=[VI]
@@ -716,7 +716,7 @@
 7	nus	nus	AUX	_	_	8	comp:aux/m	_	AlignBegin=140556|AlignEnd=140685|GE=aux|Gloss=aux|nWord=5|RX=[COP]
 8	-e'		AUX	_	_	_	_	_	AlignBegin=140685|AlignEnd=140814|GE=then|Gloss=then|nWord=5|RX=[VERB]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=140814|AlignEnd=140942|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-10	,		PUNCT	_	_	_	_	_	AlignBegin=140942|AlignEnd=141329|nWord=6|wordform=,.
+10	,		PUNCT	_	_	9	punct	_	AlignBegin=140942|AlignEnd=141329|nWord=6|wordform=,.
 
 # sent_id = PE17_36-36
 # speaker_id = @SP17
@@ -726,7 +726,7 @@
 # text = gʉmʉsinʉ ayeygwi máykʉnʉ rinʉn nari , yamʉngwi rizweyn nuse'ri .
 # text_en = the three children, when they where further ahead,
 # text_phrase-gls-es = los tres ninios cuando iban más adelante,
-1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	subj	_	AlignBegin=141329|AlignEnd=141752|GE=child|Gloss=child|nWord=1|RX=[N]
+1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	6	subj	_	AlignBegin=141329|AlignEnd=141752|GE=child|Gloss=child|nWord=1|RX=[N]
 2	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=141752|AlignEnd=141964|GE=similar|Gloss=similar|nWord=2|RX=[ADJ]
 3	=gwi		ADV	_	_	2	mod	_	AlignBegin=141964|AlignEnd=142175|GE=also|Gloss==also|nWord=2|RX=[ADV]
 4	máykʉnʉ	máykʉnʉ	NUM	_	_	6	comp:pred	_	AlignBegin=142175|AlignEnd=142598|GE=three|Gloss=three|nWord=3|RX=[NUM]
@@ -734,8 +734,8 @@
 6	nʉn	nʉn	AUX	_	_	7	comp:aux	_	AlignBegin=142810|AlignEnd=143021|GE=cop|Gloss=cop|nWord=4|RX=[COP]
 7	nan	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=143021|AlignEnd=143233|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
 8	-i		AUX	_	_	_	_	_	AlignBegin=143233|AlignEnd=143444|GE=while|Gloss=while|nWord=5|RX=[VERB]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=143444|AlignEnd=143867|nWord=6
-10	yamʉn	yamʉn	ADV	_	_	_	_	_	AlignBegin=143867|AlignEnd=144079|GE=there|Gloss=there|nWord=7|RX=[ADV]
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=143444|AlignEnd=143867|nWord=6
+10	yamʉn	yamʉn	ADV	_	_	13	mod:lmod	_	AlignBegin=143867|AlignEnd=144079|GE=there|Gloss=there|nWord=7|RX=[ADV]
 11	=gwi		ADV	_	_	10	mod	_	AlignBegin=144079|AlignEnd=144290|GE=also|Gloss==also|nWord=7|RX=[ADV]
 12	ri-		PRON	_	_	13	subj/m	_	AlignBegin=144290|AlignEnd=144431|GE=[3PL].[S]|Gloss=3PL.S|nWord=8|RX=[V:ANY]
 13	zwey	zwey	VERB	_	_	14	comp:aux/m	_	AlignBegin=144431|AlignEnd=144572|GE=go|Gloss=go|nWord=8|RX=[VI]
@@ -743,7 +743,7 @@
 15	nus	nus	AUX	_	_	16	comp:aux/m	_	AlignBegin=144713|AlignEnd=144854|GE=aux|Gloss=aux|nWord=9|RX=[COP]
 16	-e'		AUX	_	_	_	_	_	AlignBegin=144854|AlignEnd=144995|GE=then|Gloss=then|nWord=9|RX=[VERB]
 17	=ri		PART	_	_	16	mod	_	AlignBegin=144995|AlignEnd=145136|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-18	.		PUNCT	_	_	_	_	_	AlignBegin=145136|AlignEnd=145556|Gloss=.|nWord=10
+18	.		PUNCT	_	_	17	punct	_	AlignBegin=145136|AlignEnd=145556|Gloss=.|nWord=10
 
 # sent_id = PE17_37-37
 # speaker_id = @SP17
@@ -757,10 +757,10 @@
 2	=ri		PART	_	_	1	mod	_	AlignBegin=146757|AlignEnd=146904|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	i'ngwi	i'ngwi	NUM	_	_	4	comp	_	AlignBegin=146904|AlignEnd=147051|GE=one|Gloss=one|nWord=2|RX=[NUM]
 4	=se'	=se'	ADP	_	_	10	comp:obl	_	AlignBegin=147051|AlignEnd=147198|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]
-5	,		PUNCT	_	_	_	_	_	AlignBegin=147198|AlignEnd=147492|nWord=3
-6	sʉmbreru	sʉmbreru	NOUN	_	_	10	subj	_	AlignBegin=147492|AlignEnd=147786|GE=hat|Gloss=hat|nWord=4|RX=[N]
+5	,		PUNCT	_	_	4	punct	_	AlignBegin=147198|AlignEnd=147492|nWord=3
+6	sʉmbreru	sʉmbreru	NOUN	_	Case=Abs	10	subj	_	AlignBegin=147492|AlignEnd=147786|GE=hat|Gloss=hat|nWord=4|RX=[N]
 7	keywʉ	keywʉ	PART	_	_	6	discourse	_	AlignBegin=147786|AlignEnd=148080|GE=soon|Gloss=soon|nWord=5|RX=[PRT]
-8	,		PUNCT	_	_	_	_	_	AlignBegin=148080|AlignEnd=148374|nWord=6
+8	,		PUNCT	_	_	7	punct	_	AlignBegin=148080|AlignEnd=148374|nWord=6
 9	ki-		AUX	_	_	10	mod/m	_	AlignBegin=148374|AlignEnd=148472|GE=[APPL3]|Gloss=APPL3|nWord=7|RX=[VERB]
 10	wa'	wa'	VERB	_	_	11	comp:aux/m	_	AlignBegin=148472|AlignEnd=148570|GE=fall|Gloss=fall|nWord=7|RX=[V]
 11	-na		AUX	_	_	12	comp:aux	_	AlignBegin=148570|AlignEnd=148668|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
@@ -769,11 +769,11 @@
 14	nu'	nu'	AUX	_	_	15	comp:aux/m	_	AlignBegin=148962|AlignEnd=149060|GE=aux|Gloss=aux|nWord=9|RX=[COP]
 15	-na		AUX	_	_	_	_	_	AlignBegin=149060|AlignEnd=149158|GE=[RMTPST]|Gloss=RMTPST|nWord=9|RX=[VERB]
 16	=ri		PART	_	_	15	mod	_	AlignBegin=149158|AlignEnd=149256|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-17	,		PUNCT	_	_	_	_	_	AlignBegin=149256|AlignEnd=149550|nWord=10
+17	,		PUNCT	_	_	16	punct	_	AlignBegin=149256|AlignEnd=149550|nWord=10
 18	(		PUNCT	_	_	19	punct	_	AlignBegin=149550|AlignEnd=149844|nWord=11
 19	kisi	kisi	X	_	_	21	conj:dicto	_	AlignBegin=149844|AlignEnd=150138|nWord=12
 20	)		PUNCT	_	_	19	punct	_	AlignBegin=150138|AlignEnd=150432|nWord=13
-21	sʉmbreru	sʉmbreru	NOUN	_	_	23	subj	_	AlignBegin=150432|AlignEnd=150726|GE=hat|Gloss=hat|nWord=14|RX=[N]
+21	sʉmbreru	sʉmbreru	NOUN	_	Case=Abs	23	subj	_	AlignBegin=150432|AlignEnd=150726|GE=hat|Gloss=hat|nWord=14|RX=[N]
 22	ki-		AUX	_	_	23	mod/m	_	AlignBegin=150726|AlignEnd=150824|GE=[APPL3]|Gloss=APPL3|nWord=15|RX=[VERB]
 23	wa'	wa'	VERB	_	_	24	comp:aux/m	_	AlignBegin=150824|AlignEnd=150922|GE=fall|Gloss=fall|nWord=15|RX=[V]
 24	-na		AUX	_	_	25	comp:aux	_	AlignBegin=150922|AlignEnd=151020|GE=[RMTPST]|Gloss=RMTPST|nWord=15|RX=[VERB]
@@ -786,7 +786,7 @@
 31	nʉ	nʉ	AUX	_	_	32	comp:aux/m	_	AlignBegin=151902|AlignEnd=152000|GE=[AUX]|Gloss=AUX|nWord=19|RX=[AUX]
 32	-ngwa		AUX	_	_	_	_	_	AlignBegin=152000|AlignEnd=152098|GE=[FUT]|Gloss=FUT|nWord=19|RX=[VERB]
 33	=ri		PART	_	_	32	mod	_	AlignBegin=152098|AlignEnd=152196|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]
-34	,		PUNCT	_	_	_	_	_	AlignBegin=152196|AlignEnd=152491|nWord=20|wordform=,.
+34	,		PUNCT	_	_	33	punct	_	AlignBegin=152196|AlignEnd=152491|nWord=20|wordform=,.
 
 # sent_id = PE17_38-38
 # speaker_id = @SP17
@@ -799,7 +799,7 @@
 1	sʉmbreru	sʉmbreru	NOUN	_	_	2	comp:obj	_	AlignBegin=152491|AlignEnd=153361|GE=hat|Gloss=hat|nWord=1|RX=[N]
 2	gusi	gusi	VERB	_	_	_	_	_	AlignBegin=153361|AlignEnd=153796|GE=take|Gloss=take|nWord=2|RX=[V]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=153796|AlignEnd=154231|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-4	.		PUNCT	_	_	_	_	_	AlignBegin=154231|AlignEnd=155101|Gloss=.|nWord=3
+4	.		PUNCT	_	_	3	punct	_	AlignBegin=154231|AlignEnd=155101|Gloss=.|nWord=3
 
 # sent_id = PE17_39-39
 # speaker_id = @SP17
@@ -816,13 +816,13 @@
 5	-y		AUX	_	_	6	comp:aux/m	_	AlignBegin=155712|AlignEnd=155834|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
 6	-e'		AUX	_	_	_	_	_	AlignBegin=155834|AlignEnd=155956|GE=then|Gloss=then|nWord=2|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=155956|AlignEnd=156079|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-8	,		PUNCT	_	_	_	_	_	AlignBegin=156079|AlignEnd=156568|nWord=3
+8	,		PUNCT	_	_	7	punct	_	AlignBegin=156079|AlignEnd=156568|nWord=3
 9	kana	kana	VERB	_	_	10	comp:aux	_	AlignBegin=156568|AlignEnd=157057|GE=sing|Gloss=sing|nWord=4|RX=[V]
 10	u	u	AUX	_	_	11	comp:aux/m	_	AlignBegin=157057|AlignEnd=157179|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 11	-y		AUX	_	_	12	comp:aux/m	_	AlignBegin=157179|AlignEnd=157301|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]
 12	-e'		AUX	_	_	_	_	_	AlignBegin=157301|AlignEnd=157423|GE=then|Gloss=then|nWord=5|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=157423|AlignEnd=157546|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-14	,		PUNCT	_	_	_	_	_	AlignBegin=157546|AlignEnd=158036|nWord=6|wordform=,.
+14	,		PUNCT	_	_	13	punct	_	AlignBegin=157546|AlignEnd=158036|nWord=6|wordform=,.
 
 # sent_id = PE17_40-40
 # speaker_id = @SP17
@@ -839,7 +839,7 @@
 5	-y		AUX	_	_	6	comp:aux/m	_	AlignBegin=159314|AlignEnd=159456|GE=[NONEGO]|Gloss=NONEGO|nWord=3|RX=[V:ANY]
 6	-e'		AUX	_	_	_	_	_	AlignBegin=159456|AlignEnd=159598|GE=then|Gloss=then|nWord=3|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=159598|AlignEnd=159740|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
-8	.		PUNCT	_	_	_	_	_	AlignBegin=159740|AlignEnd=160310|Gloss=.|nWord=4
+8	.		PUNCT	_	_	7	punct	_	AlignBegin=159740|AlignEnd=160310|Gloss=.|nWord=4
 
 # sent_id = PE17_41-41
 # speaker_id = @SP17
@@ -854,7 +854,7 @@
 3	k-		AUX	_	_	4	mod/m	_	AlignBegin=163302|AlignEnd=163652|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]
 4	uzoy	uzoy	VERB	_	_	5	comp:aux/m	_	AlignBegin=163652|AlignEnd=164002|GE=take|Gloss=take|nWord=3|RX=[VT]
 5	-a		AUX	_	_	_	_	_	AlignBegin=164002|AlignEnd=164353|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]
-6	,		PUNCT	_	_	_	_	_	AlignBegin=164353|AlignEnd=165403|nWord=4|wordform=,.
+6	,		PUNCT	_	_	5	punct	_	AlignBegin=164353|AlignEnd=165403|nWord=4|wordform=,.
 
 # sent_id = PE17_42-42
 # speaker_id = @SP17
@@ -871,7 +871,7 @@
 5	nʉ	nʉ	AUX	_	_	6	comp:aux/m	_	AlignBegin=166675|AlignEnd=166816|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
 6	-ngwa		AUX	_	_	_	_	_	AlignBegin=166816|AlignEnd=166957|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=166957|AlignEnd=167099|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-8	.		PUNCT	_	_	_	_	_	AlignBegin=167099|AlignEnd=167523|Gloss=.|nWord=5
+8	.		PUNCT	_	_	7	punct	_	AlignBegin=167099|AlignEnd=167523|Gloss=.|nWord=5
 
 # sent_id = PE17_43-43
 # speaker_id = @SP17
@@ -887,18 +887,18 @@
 4	nʉ	nʉ	AUX	_	_	5	comp:aux/m	_	AlignBegin=167819|AlignEnd=167918|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 5	-ngwa		AUX	_	_	_	_	_	AlignBegin=167918|AlignEnd=168017|GE=[FUT]|Gloss=FUT|nWord=2|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=168017|AlignEnd=168115|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=168115|AlignEnd=168411|nWord=3
-8	eyma	eyma	PRON	_	_	13	subj	_	AlignBegin=168411|AlignEnd=168559|GE=this|Gloss=this|nWord=4|RX=[DEM]
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=168115|AlignEnd=168411|nWord=3
+8	eyma	eyma	PRON	_	Case=Erg	13	subj	_	AlignBegin=168411|AlignEnd=168559|GE=this|Gloss=this|nWord=4|RX=[DEM]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=168559|AlignEnd=168707|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 10	perʉ	perʉ	NOUN	_	_	12	conj:dicto	_	AlignBegin=168707|AlignEnd=169003|GE=dog|Gloss=dog|nWord=5|RX=[N]
-11	,		PUNCT	_	_	_	_	_	AlignBegin=169003|AlignEnd=169299|nWord=6
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=169003|AlignEnd=169299|nWord=6
 12	pera	pera	NOUN	_	_	13	comp:obj	_	AlignBegin=169299|AlignEnd=169595|GE=pear|Gloss=pear|nWord=7|RX=[N]
 13	uzwey	uzwey	VERB	_	_	14	comp:aux/m	_	AlignBegin=169595|AlignEnd=169743|GE=take|Gloss=take|nWord=8|RX=[VT]
 14	-n		AUX	_	_	15	comp:aux	_	AlignBegin=169743|AlignEnd=169891|GE=[IPFV]|Gloss=IPFV|nWord=8|RX=[VERB]
 15	nu'	nu'	AUX	_	_	16	comp:aux/m	_	AlignBegin=169891|AlignEnd=169990|GE=aux|Gloss=aux|nWord=9|RX=[COP]
 16	-na		AUX	_	_	_	_	_	AlignBegin=169990|AlignEnd=170089|GE=[RMTPST]|Gloss=RMTPST|nWord=9|RX=[VERB]
 17	=ri		PART	_	_	16	mod	_	AlignBegin=170089|AlignEnd=170187|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-18	,		PUNCT	_	_	_	_	_	AlignBegin=170187|AlignEnd=170480|nWord=10|wordform=,.
+18	,		PUNCT	_	_	17	punct	_	AlignBegin=170187|AlignEnd=170480|nWord=10|wordform=,.
 
 # sent_id = PE17_44-44
 # speaker_id = @SP17
@@ -911,8 +911,8 @@
 1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	mod:num	_	AlignBegin=170669|AlignEnd=171156|GE=three|Gloss=three|nWord=1|RX=[NUM]
 2	pera	pera	NOUN	_	_	4	comp:obj	_	AlignBegin=171156|AlignEnd=171643|GE=pear|Gloss=pear|nWord=2|RX=[N]
 3	win-		PRON	_	_	4	comp:obj/m	_	AlignBegin=171643|AlignEnd=171887|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=3|RX=[VERB]
-4	a'we	a'we	VERB	_	_	_	_	_	AlignBegin=171887|AlignEnd=172130|GE=give|Gloss=give|nWord=3|RX=[VD]
-5	,		PUNCT	_	_	_	_	_	AlignBegin=172130|AlignEnd=172617|nWord=4
+4	a'we	a'we	VERB	_	_	6	conj:dicto	_	AlignBegin=171887|AlignEnd=172130|GE=give|Gloss=give|nWord=3|RX=[VD]
+5	,		PUNCT	_	_	4	punct	_	AlignBegin=172130|AlignEnd=172617|nWord=4
 6	a'we	a'we	VERB	_	_	7	comp:aux	_	AlignBegin=172617|AlignEnd=173104|GE=give|Gloss=give|nWord=5|RX=[VD]
 7	u	u	AUX	_	_	8	comp:aux/m	_	AlignBegin=173104|AlignEnd=173266|GE=aux|Gloss=aux|nWord=6|RX=[AUX]
 8	-y		AUX	_	_	9	comp:aux/m	_	AlignBegin=173266|AlignEnd=173428|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]
@@ -920,7 +920,7 @@
 10	nʉ	nʉ	AUX	_	_	11	comp:aux/m	_	AlignBegin=173591|AlignEnd=173753|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 11	-ngwa		AUX	_	_	_	_	_	AlignBegin=173753|AlignEnd=173915|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
 12	=ri		PART	_	_	11	mod	_	AlignBegin=173915|AlignEnd=174078|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
-13	,		PUNCT	_	_	_	_	_	AlignBegin=174078|AlignEnd=174568|nWord=8|wordform=,.
+13	,		PUNCT	_	_	12	punct	_	AlignBegin=174078|AlignEnd=174568|nWord=8|wordform=,.
 
 # sent_id = PE17_45-45
 # speaker_id = @SP17
@@ -940,7 +940,7 @@
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=176296|AlignEnd=176397|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
 9	nak	nak	VERB	_	_	10	comp:aux/m	_	AlignBegin=176397|AlignEnd=176498|GE=come|Gloss=come|nWord=4|RX=[V]
 10	-a		AUX	_	_	_	_	_	AlignBegin=176498|AlignEnd=176598|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]
-11	.		PUNCT	_	_	_	_	_	AlignBegin=176598|AlignEnd=176899|Gloss=.|nWord=5
+11	.		PUNCT	_	_	10	punct	_	AlignBegin=176598|AlignEnd=176899|Gloss=.|nWord=5
 
 # sent_id = PE17_46-46
 # speaker_id = @SP17
@@ -951,9 +951,9 @@
 # text_en = and he arrived where the two were waiting for him
 # text_phrase-gls-es = y llegó donde los dos lo estaban esperando
 1	aw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=176899|AlignEnd=177144|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
-2	-i		AUX	_	_	_	_	_	AlignBegin=177144|AlignEnd=177389|GE=while|Gloss=while|nWord=1|RX=[VERB]
+2	-i		AUX	_	_	11	cc	_	AlignBegin=177144|AlignEnd=177389|GE=while|Gloss=while|nWord=1|RX=[VERB]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=177389|AlignEnd=177635|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	mowga	mowga	NUM	_	_	7	subj	_	AlignBegin=177635|AlignEnd=178371|GE=two|Gloss=two|nWord=2|RX=[NUM]
+4	mowga	mowga	NUM	_	Case=Abs	7	subj	_	AlignBegin=177635|AlignEnd=178371|GE=two|Gloss=two|nWord=2|RX=[NUM]
 5	win-		PRON	_	_	6	subj/m	_	AlignBegin=178371|AlignEnd=178555|GE=[3PL].[S]|Gloss=3PL.S|nWord=3|RX=[VERB]
 6	i-		AUX	_	_	7	mod/m	_	AlignBegin=178555|AlignEnd=178739|GE=[APPL2]|Gloss=APPL2|nWord=3|RX=[V>V]
 7	wa'k	wa'k	VERB	_	_	8	comp:aux/m	_	AlignBegin=178739|AlignEnd=178923|GE=look|Gloss=look|nWord=3|RX=[VI]
@@ -961,9 +961,9 @@
 9	nug	nug	AUX	_	_	10	comp	_	AlignBegin=179107|AlignEnd=179475|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 10	=a'ba'		ADP	_	_	12	mod:lmod	_	AlignBegin=179475|AlignEnd=179843|GE=[NOM]|Gloss==NOM|nWord=4|RX=[POST]
 11	kinkum	kinkum	VERB	_	_	12	comp:aux/m	_	AlignBegin=179843|AlignEnd=180088|GE=arrive|Gloss=arrive|nWord=5|RX=[VI]
-12	-e'		AUX	_	_	_	_	_	AlignBegin=180088|AlignEnd=180333|GE=then|Gloss=then|nWord=5|RX=[VERB]
+12	-e'		AUX	_	_	0	root	_	AlignBegin=180088|AlignEnd=180333|GE=then|Gloss=then|nWord=5|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=180333|AlignEnd=180579|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-14	.		PUNCT	_	_	_	_	_	AlignBegin=180579|AlignEnd=181312|Gloss=.|nWord=6
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=180579|AlignEnd=181312|Gloss=.|nWord=6
 
 # sent_id = PE17_47-47
 # speaker_id = @SP17
@@ -975,13 +975,13 @@
 # text_phrase-gls-es = Y le entregaron a cada uno,
 1	a	a	PRON	_	_	2	comp	_	AlignBegin=182290|AlignEnd=182433|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]
 2	=zey		ADP	_	_	5	conj:dicto	_	AlignBegin=182433|AlignEnd=182576|GE=[GEN]|Gloss==GEN|nWord=1|RX=[POST]
-3	,		PUNCT	_	_	_	_	_	AlignBegin=182576|AlignEnd=182862|nWord=2
+3	,		PUNCT	_	_	2	punct	_	AlignBegin=182576|AlignEnd=182862|nWord=2
 4	a	a	PRON	_	_	5	comp	_	AlignBegin=182862|AlignEnd=183005|GE=[3SG]|Gloss=3SG|nWord=3|RX=[PRO]
 5	=zey		ADP	_	_	8	comp:obl	_	AlignBegin=183005|AlignEnd=183148|GE=[GEN]|Gloss==GEN|nWord=3|RX=[POST]
 6	ingweti	ingweti	PRON	_	_	5	udep:poss	_	AlignBegin=183148|AlignEnd=183434|GE=each|Gloss=each|nWord=4|RX=[PRO]
 7	win-		PRON	_	_	8	comp:obj/m	_	AlignBegin=183434|AlignEnd=183577|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=5|RX=[VERB]
 8	a'we	a'we	VERB	_	_	_	_	_	AlignBegin=183577|AlignEnd=183720|GE=give|Gloss=give|nWord=5|RX=[VD]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=183720|AlignEnd=184009|nWord=6|wordform=,.
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=183720|AlignEnd=184009|nWord=6|wordform=,.
 
 # sent_id = PE17_48-48
 # speaker_id = @SP17
@@ -996,7 +996,7 @@
 3	kʉ-		AUX	_	_	4	mod/m	_	AlignBegin=184375|AlignEnd=184558|GE=[APPL1]|Gloss=APPL1|nWord=1|RX=[V>V]
 4	bas	bas	VERB	_	_	5	comp:aux/m	_	AlignBegin=184558|AlignEnd=184741|GE=hand.out|Gloss=hand.out|nWord=1|RX=[VT]
 5	-a		AUX	_	_	_	_	_	AlignBegin=184741|AlignEnd=184925|GE=[PFV]|Gloss=PFV|nWord=1|RX=[V:ANY]
-6	,		PUNCT	_	_	_	_	_	AlignBegin=184925|AlignEnd=185840|nWord=2|wordform=,.
+6	,		PUNCT	_	_	5	punct	_	AlignBegin=184925|AlignEnd=185840|nWord=2|wordform=,.
 
 # sent_id = PE17_49-49
 # speaker_id = @SP17
@@ -1018,7 +1018,7 @@
 10	zoya	zoya	VERB	_	_	11	comp:aux	_	AlignBegin=188646|AlignEnd=188954|GE=go|Gloss=go|nWord=4|RX=[VI]
 11	u	u	AUX	_	_	12	comp:aux/m	_	AlignBegin=188954|AlignEnd=189262|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 12	-na		AUX	_	_	_	_	_	AlignBegin=189262|AlignEnd=189570|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
-13	.		PUNCT	_	_	_	_	_	AlignBegin=189570|AlignEnd=190183|Gloss=.|nWord=6
+13	.		PUNCT	_	_	12	punct	_	AlignBegin=189570|AlignEnd=190183|Gloss=.|nWord=6
 
 # sent_id = PE17_50-50
 # speaker_id = @SP17
@@ -1032,27 +1032,27 @@
 1	yamʉn	yamʉn	ADV	_	_	2	comp	_	AlignBegin=190183|AlignEnd=190336|GE=there|Gloss=there|nWord=1|RX=[ADV]
 2	=ka		ADP	_	_	10	mod:lmod	_	AlignBegin=190336|AlignEnd=190489|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=190489|AlignEnd=190643|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	eyma	eyma	PRON	_	_	6	subj	_	AlignBegin=190643|AlignEnd=191103|GE=this|Gloss=this|nWord=2|RX=[DEM]
+4	eyma	eyma	PRON	_	_	6	comp:obl	_	AlignBegin=190643|AlignEnd=191103|GE=this|Gloss=this|nWord=2|RX=[DEM]
 5	achʉna	achʉna	ADJ	_	_	6	comp:pred@pred	_	AlignBegin=191103|AlignEnd=191563|GE=adult|Gloss=adult|nWord=3|RX=[ADJ]
-6	kawa	kawa	AUX	_	_	10	subj	_	AlignBegin=191563|AlignEnd=192023|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
+6	kawa	kaw	AUX	_	Case=Erg	10	subj	_	AlignBegin=191563|AlignEnd=192023|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
 7	pera	pera	NOUN	_	_	10	comp:obj	_	AlignBegin=192023|AlignEnd=192483|GE=pear|Gloss=pear|nWord=5|RX=[N]
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=192483|AlignEnd=192598|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
 9	kʉ-		AUX	_	_	10	mod/m	_	AlignBegin=192598|AlignEnd=192713|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
 10	tak	tak	VERB	_	_	11	comp:aux/m	_	AlignBegin=192713|AlignEnd=192828|GE=take|Gloss=take|nWord=6|RX=[V]
 11	-ʉn		AUX	_	_	12	comp:aux	_	AlignBegin=192828|AlignEnd=192943|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
 12	nu'	nu'	AUX	_	_	13	comp:aux/m	_	AlignBegin=192943|AlignEnd=193173|GE=aux|Gloss=aux|nWord=7|RX=[COP]
-13	-na		AUX	_	_	_	_	_	AlignBegin=193173|AlignEnd=193403|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
+13	-na		AUX	_	_	19	mod	_	AlignBegin=193173|AlignEnd=193403|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
 14	(		PUNCT	_	_	15	punct	_	AlignBegin=193403|AlignEnd=193863|nWord=8
 15	sig	sig	X	_	_	17	conj:dicto	_	AlignBegin=193863|AlignEnd=194323|nWord=9
 16	)		PUNCT	_	_	15	punct	_	AlignBegin=194323|AlignEnd=194783|nWord=10
-17	sigin	sigin	ADV	_	_	_	_	_	AlignBegin=194783|AlignEnd=195243|GE=daily|Gloss=daily|nWord=11|RX=[ADV]
-18	,		PUNCT	_	_	_	_	_	AlignBegin=195243|AlignEnd=195703|nWord=12
-19	sinke	sinke	ADV	_	_	_	_	_	AlignBegin=195703|AlignEnd=196163|GE=over.there|Gloss=over.there|nWord=13|RX=[ADV]
+17	sigin	sigin	ADV	_	_	10	mod	_	AlignBegin=194783|AlignEnd=195243|GE=daily|Gloss=daily|nWord=11|RX=[ADV]
+18	,		PUNCT	_	_	17	punct	_	AlignBegin=195243|AlignEnd=195703|nWord=12
+19	sinke	sinke	ADV	_	_	21	mod:lmod	_	AlignBegin=195703|AlignEnd=196163|GE=over.there|Gloss=over.there|nWord=13|RX=[ADV]
 20	kʉ-		AUX	_	_	21	mod/m	_	AlignBegin=196163|AlignEnd=196278|GE=[APPL1]|Gloss=APPL1|nWord=14|RX=[V>V]
 21	zagich	zagich	VERB	_	_	22	comp:aux/m	_	AlignBegin=196278|AlignEnd=196393|GE=cross|Gloss=cross|nWord=14|RX=[V]
-22	-i		AUX	_	_	_	_	_	AlignBegin=196393|AlignEnd=196508|GE=while|Gloss=while|nWord=14|RX=[VERB]
+22	-i		AUX	_	_	0	root	_	AlignBegin=196393|AlignEnd=196508|GE=while|Gloss=while|nWord=14|RX=[VERB]
 23	=ri		PART	_	_	22	mod	_	AlignBegin=196508|AlignEnd=196623|GE=[TOP]|Gloss==TOP|nWord=14|RX=[PRT]
-24	,		PUNCT	_	_	_	_	_	AlignBegin=196623|AlignEnd=197082|nWord=15|wordform=,.
+24	,		PUNCT	_	_	23	punct	_	AlignBegin=196623|AlignEnd=197082|nWord=15|wordform=,.
 
 # sent_id = PE17_51-51
 # speaker_id = @SP17
@@ -1078,7 +1078,7 @@
 14	kʉ-		AUX	_	_	15	mod/m	_	AlignBegin=201430|AlignEnd=201548|GE=[APPL1]|Gloss=APPL1|nWord=10|RX=[V>V]
 15	zagichi	zagichi	VERB	_	_	_	_	_	AlignBegin=201548|AlignEnd=201666|GE=pass|Gloss=pass|nWord=10|RX=[V]
 16	=ri		PART	_	_	15	mod	_	AlignBegin=201666|AlignEnd=201782|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
-17	.		PUNCT	_	_	_	_	_	AlignBegin=201782|AlignEnd=202247|Gloss=.|nWord=11
+17	.		PUNCT	_	_	16	punct	_	AlignBegin=201782|AlignEnd=202247|Gloss=.|nWord=11
 
 # sent_id = PE17_52-52
 # text = eyma achʉna kawari pera anʉnkʉtasi keywʉ anʉkʉchare'ri ,.
@@ -1090,7 +1090,7 @@
 # text_phrase-gls-es = El anciano se bajó de recoger la pera,
 1	eyma	eyma	DET	_	_	2	det	_	AlignBegin=202930|AlignEnd=203402|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	achʉna	achʉna	ADJ	_	_	3	comp:pred@pred	_	AlignBegin=203402|AlignEnd=203874|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]
-3	kawa	kawa	AUX	_	_	8	subj	_	AlignBegin=203874|AlignEnd=204110|GE=seem|Gloss=seem|nWord=3|RX=[AUX]
+3	kawa	kaw	AUX	_	Case=Erg	8	subj	_	AlignBegin=203874|AlignEnd=204110|GE=seem|Gloss=seem|nWord=3|RX=[AUX]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=204110|AlignEnd=204346|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 5	pera	pera	NOUN	_	_	8	comp:obj	_	AlignBegin=204346|AlignEnd=204818|GE=pear|Gloss=pear|nWord=4|RX=[N]
 6	anʉn-		AUX	_	_	7	mod/m	_	AlignBegin=204818|AlignEnd=204936|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
@@ -1100,9 +1100,9 @@
 10	keywʉ	keywʉ	PART	_	_	9	discourse	_	AlignBegin=205290|AlignEnd=205762|GE=soon|Gloss=soon|nWord=6|RX=[PRT]
 11	anʉ-		AUX	_	_	12	mod/m	_	AlignBegin=205762|AlignEnd=205880|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 12	kʉchar	kʉchar	VERB	_	_	13	comp:aux/m	_	AlignBegin=205880|AlignEnd=205998|GE=go.down|Gloss=go.down|nWord=7|RX=[V]
-13	-e'		AUX	_	_	_	_	_	AlignBegin=205998|AlignEnd=206116|GE=then|Gloss=then|nWord=7|RX=[VERB]
+13	-e'		AUX	_	_	0	root	_	AlignBegin=205998|AlignEnd=206116|GE=then|Gloss=then|nWord=7|RX=[VERB]
 14	=ri		PART	_	_	13	mod	_	AlignBegin=206116|AlignEnd=206234|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
-15	,		PUNCT	_	_	_	_	_	AlignBegin=206234|AlignEnd=206710|nWord=8|wordform=,.
+15	,		PUNCT	_	_	14	punct	_	AlignBegin=206234|AlignEnd=206710|nWord=8|wordform=,.
 
 # sent_id = PE17_53-53
 # speaker_id = @SP17
@@ -1117,7 +1117,7 @@
 3	kʉchar	kʉchar	VERB	_	_	4	comp:aux/m	_	AlignBegin=208040|AlignEnd=208213|GE=go.down|Gloss=go.down|nWord=2|RX=[V]
 4	-e'		AUX	_	_	_	_	_	AlignBegin=208213|AlignEnd=208386|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=208386|AlignEnd=208560|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-6	,		PUNCT	_	_	_	_	_	AlignBegin=208560|AlignEnd=209080|nWord=3|wordform=,.
+6	,		PUNCT	_	_	5	punct	_	AlignBegin=208560|AlignEnd=209080|nWord=3|wordform=,.
 
 # sent_id = PE17_54-54
 # speaker_id = @SP17
@@ -1134,7 +1134,7 @@
 4	kinu	kinu	VERB	_	_	5	comp:aux	_	AlignBegin=211052|AlignEnd=211225|GE=have|Gloss=have|nWord=3|RX=[VT]
 5	nan	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=211225|AlignEnd=211397|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
 6	-i		AUX	_	_	_	_	_	AlignBegin=211397|AlignEnd=211570|GE=while|Gloss=while|nWord=4|RX=[VERB]
-7	,		PUNCT	_	_	_	_	_	AlignBegin=211570|AlignEnd=211917|nWord=5|wordform=,.
+7	,		PUNCT	_	_	6	punct	_	AlignBegin=211570|AlignEnd=211917|nWord=5|wordform=,.
 
 # sent_id = PE17_55-55
 # speaker_id = @SP17
@@ -1151,16 +1151,16 @@
 5	chu	chu	VERB	_	_	6	comp:aux	_	AlignBegin=212193|AlignEnd=212249|GE=see|Gloss=see|nWord=2|RX=[VT]
 6	zan	zan	AUX	_	_	7	comp:aux/m	_	AlignBegin=212249|AlignEnd=212332|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
 7	-u'		AUX	_	_	_	_	_	AlignBegin=212332|AlignEnd=212415|GE=[NEG]|Gloss=NEG|nWord=3|RX=[VERB]
-8	,		PUNCT	_	_	_	_	_	AlignBegin=212415|AlignEnd=212581|nWord=4
+8	,		PUNCT	_	_	7	punct	_	AlignBegin=212415|AlignEnd=212581|nWord=4
 9	na	na	AUX	_	_	10	comp:aux/m	_	AlignBegin=212581|AlignEnd=212664|GE=cop|Gloss=cop|nWord=5|RX=[COP]
 10	-'		AUX	_	_	11	comp:aux	_	AlignBegin=212664|AlignEnd=212747|GE=[NEG]|Gloss=NEG|nWord=5|RX=[VERB]
 11	nu'	nu'	AUX	_	_	_	_	_	AlignBegin=212747|AlignEnd=212913|GE=aux|Gloss=aux|nWord=6|RX=[COP]
 12	ki	ki	PART	_	_	11	mod	_	AlignBegin=212913|AlignEnd=213079|GE=[CNTR]|Gloss=CNTR|nWord=7|RX=[PRT]
 13	n	n	AUX	_	_	14	comp:aux/m	_	AlignBegin=213079|AlignEnd=213162|GE=aux|Gloss=aux|nWord=8|RX=[AUX]
 14	-o		AUX	_	_	_	_	_	AlignBegin=213162|AlignEnd=213245|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
-15	,		PUNCT	_	_	_	_	_	AlignBegin=213245|AlignEnd=213411|nWord=9
+15	,		PUNCT	_	_	14	punct	_	AlignBegin=213245|AlignEnd=213411|nWord=9
 16	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=213411|AlignEnd=213577|GE=feel|Gloss=feel|nWord=10|RX=[V]
-17	.		PUNCT	_	_	_	_	_	AlignBegin=213577|AlignEnd=213743|Gloss=.|nWord=11
+17	.		PUNCT	_	_	16	punct	_	AlignBegin=213577|AlignEnd=213743|Gloss=.|nWord=11
 
 # sent_id = PE17_56-56
 # speaker_id = @SP17
@@ -1175,7 +1175,7 @@
 3	-a		AUX	_	_	_	_	_	AlignBegin=214462|AlignEnd=214701|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]
 4	wa'k	wa'k	VERB	_	_	5	comp:aux/m	_	AlignBegin=214701|AlignEnd=214941|GE=look|Gloss=look|nWord=3|RX=[VI]
 5	-a		AUX	_	_	_	_	_	AlignBegin=214941|AlignEnd=215180|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]
-6	.		PUNCT	_	_	_	_	_	AlignBegin=215180|AlignEnd=215660|Gloss=.|nWord=4
+6	.		PUNCT	_	_	5	punct	_	AlignBegin=215180|AlignEnd=215660|Gloss=.|nWord=4
 
 # sent_id = PE17_57-57
 # speaker_id = @SP17
@@ -1193,7 +1193,7 @@
 6	=ri		PART	_	_	5	mod	_	AlignBegin=216550|AlignEnd=216728|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 7	ʉya	ʉya	PRON	_	_	11	subj	_	AlignBegin=216728|AlignEnd=217084|GE=this|Gloss=this|nWord=4|RX=[PRO]
 8	azi	azi	ADV	_	_	10	conj:dicto	_	AlignBegin=217084|AlignEnd=217440|GE=how|Gloss=how|nWord=5|RX=[INTERROG]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=217440|AlignEnd=217796|nWord=6
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=217440|AlignEnd=217796|nWord=6
 10	azi	azi	ADV	_	_	_	_	_	AlignBegin=217796|AlignEnd=218152|GE=how|Gloss=how|nWord=7|RX=[INTERROG]
 11	nik	nik	AUX	_	_	12	comp:aux/m	_	AlignBegin=218152|AlignEnd=218330|GE=do|Gloss=do|nWord=8|RX=[AUX]
 12	-o		AUX	_	_	_	_	_	AlignBegin=218330|AlignEnd=218508|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
@@ -1201,7 +1201,7 @@
 14	-u'		AUX	_	_	15	comp:aux	_	AlignBegin=218686|AlignEnd=218864|GE=[NEG]|Gloss=NEG|nWord=9|RX=[VERB]
 15	nan	nan	AUX	_	_	16	comp:aux/m	_	AlignBegin=218864|AlignEnd=219042|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
 16	-i		AUX	_	_	_	_	_	AlignBegin=219042|AlignEnd=219220|GE=while|Gloss=while|nWord=10|RX=[VERB]
-17	,		PUNCT	_	_	_	_	_	AlignBegin=219220|AlignEnd=219578|nWord=11|wordform=,.
+17	,		PUNCT	_	_	16	punct	_	AlignBegin=219220|AlignEnd=219578|nWord=11|wordform=,.
 
 # sent_id = PE17_58-58
 # speaker_id = @SP17
@@ -1218,7 +1218,7 @@
 5	zʉn	zʉn	AUX	_	_	6	comp:aux	_	AlignBegin=220165|AlignEnd=220743|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 6	aw	aw	AUX	_	_	7	comp:aux/m	_	AlignBegin=220743|AlignEnd=221032|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
 7	-i		AUX	_	_	_	_	_	AlignBegin=221032|AlignEnd=221321|GE=while|Gloss=while|nWord=3|RX=[VERB]
-8	,		PUNCT	_	_	_	_	_	AlignBegin=221321|AlignEnd=221900|nWord=4|wordform=,.
+8	,		PUNCT	_	_	7	punct	_	AlignBegin=221321|AlignEnd=221900|nWord=4|wordform=,.
 
 # sent_id = PE17_59-59
 # speaker_id = @SP17
@@ -1241,7 +1241,7 @@
 11	zʉn	zʉn	AUX	_	_	12	comp:aux	_	AlignBegin=224005|AlignEnd=224306|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 12	u	u	AUX	_	_	13	comp:aux/m	_	AlignBegin=224306|AlignEnd=224456|GE=aux|Gloss=aux|nWord=7|RX=[AUX]
 13	-na		AUX	_	_	_	_	_	AlignBegin=224456|AlignEnd=224607|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
-14	.		PUNCT	_	_	_	_	_	AlignBegin=224607|AlignEnd=224910|Gloss=.|nWord=8
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=224607|AlignEnd=224910|Gloss=.|nWord=8
 
 # sent_id = PE17_60-60
 # speaker_id = @SP17
@@ -1252,28 +1252,28 @@
 # text_en = So, the adult thought `What happened to me? What did they do to me?'
 # text_phrase-gls-es = Entonces el mayor pensó "qué se haría?"
 # text_phrase-gls-tl = azi nare'
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=226640|AlignEnd=227243|GE=so|Gloss=so|nWord=1|RX=[PRT]
+1	ey	ey	PART	_	_	4	mod	_	AlignBegin=226640|AlignEnd=227243|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	u	u	AUX	_	_	3	comp:aux/m	_	AlignBegin=227243|AlignEnd=227394|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-y		AUX	_	_	4	comp:aux/m	_	AlignBegin=227394|AlignEnd=227545|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
-4	-e'		AUX	_	_	_	_	_	AlignBegin=227545|AlignEnd=227696|GE=then|Gloss=then|nWord=2|RX=[VERB]
+4	-e'		AUX	_	_	21	discourse	_	AlignBegin=227545|AlignEnd=227696|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=227696|AlignEnd=227846|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-6	achʉna	achʉna	NOUN	_	_	21	subj	_	AlignBegin=227846|AlignEnd=228148|GE=adult|Gloss=adult|nWord=3|RX=[N]
+6	achʉna	achʉna	NOUN	_	_	21	comp:obl	_	AlignBegin=227846|AlignEnd=228148|GE=adult|Gloss=adult|nWord=3|RX=[N]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=228148|AlignEnd=228449|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 8	azi	azi	ADV	_	_	_	_	_	AlignBegin=228449|AlignEnd=228751|GE=how|Gloss=how|nWord=4|RX=[INTERROG]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=228751|AlignEnd=229052|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 10	nʉ-		PRON	_	_	11	comp:obj/m	_	AlignBegin=229052|AlignEnd=229253|GE=[1SG].[O]|Gloss=1SG.O|nWord=5|RX=[V:ANY]
 11	wʉn	wʉn	VERB	_	_	12	comp:aux/m	_	AlignBegin=229253|AlignEnd=229454|GE=happen|Gloss=happen|nWord=5|RX=[V]
 12	-no		AUX	_	_	_	_	_	AlignBegin=229454|AlignEnd=229655|GE=[Q]|Gloss=Q|nWord=5|RX=[VERB]
-13	,		PUNCT	_	_	_	_	_	AlignBegin=229655|AlignEnd=230258|nWord=6
+13	,		PUNCT	_	_	12	punct	_	AlignBegin=229655|AlignEnd=230258|nWord=6
 14	azi	azi	ADV	_	_	_	_	_	AlignBegin=230258|AlignEnd=230861|GE=how|Gloss=how|nWord=7|RX=[INTERROG]
 15	nʉ-		PRON	_	_	16	comp:obj/m	_	AlignBegin=230861|AlignEnd=231012|GE=[1SG].[O]|Gloss=1SG.O|nWord=8|RX=[V:ANY]
 16	kʉ-		AUX	_	_	17	comp:aux	_	AlignBegin=231012|AlignEnd=231163|GE=[APPL1]|Gloss=APPL1|nWord=8|RX=[V>V]
 17	nik	nik	AUX	_	_	18	comp:aux/m	_	AlignBegin=231163|AlignEnd=231314|GE=do|Gloss=do|nWord=8|RX=[AUX]
 18	-u'		AUX	_	_	_	_	_	AlignBegin=231314|AlignEnd=231464|GE=[NEG]|Gloss=NEG|nWord=8|RX=[VERB]
 19	wʉn	wʉn	VERB	_	_	20	comp:aux/m	_	AlignBegin=231464|AlignEnd=231766|GE=happen|Gloss=happen|nWord=9|RX=[V]
-20	-no		AUX	_	_	_	_	_	AlignBegin=231766|AlignEnd=232067|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]
+20	-no		AUX	_	_	21	comp:obj	_	AlignBegin=231766|AlignEnd=232067|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]
 21	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=232067|AlignEnd=232670|GE=feel|Gloss=feel|nWord=10|RX=[V]
-22	.		PUNCT	_	_	_	_	_	AlignBegin=232670|AlignEnd=233275|Gloss=.|nWord=11
+22	.		PUNCT	_	_	21	punct	_	AlignBegin=232670|AlignEnd=233275|Gloss=.|nWord=11
 
 # sent_id = PE17_61-61
 # speaker_id = @SP17
@@ -1293,7 +1293,7 @@
 8	nus	nus	AUX	_	_	9	comp:aux/m	_	AlignBegin=234432|AlignEnd=234564|GE=aux|Gloss=aux|nWord=5|RX=[COP]
 9	-i		AUX	_	_	_	_	_	AlignBegin=234564|AlignEnd=234695|GE=while|Gloss=while|nWord=5|RX=[VERB]
 10	zʉn	zʉn	AUX	_	_	9	mod:emph	_	AlignBegin=234695|AlignEnd=234958|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
-11	,		PUNCT	_	_	_	_	_	AlignBegin=234958|AlignEnd=235220|nWord=7|wordform=,.
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=234958|AlignEnd=235220|nWord=7|wordform=,.
 
 # sent_id = PE17_62-62
 # speaker_id = @SP17
@@ -1309,7 +1309,7 @@
 4	nis	nis	AUX	_	_	5	comp:aux/m	_	AlignBegin=236780|AlignEnd=237170|GE=do|Gloss=do|nWord=3|RX=[AUX]
 5	-i		AUX	_	_	_	_	_	AlignBegin=237170|AlignEnd=237560|GE=while|Gloss=while|nWord=3|RX=[VERB]
 6	zʉ'ʉn	zʉ'ʉn	AUX	_	_	5	mod:emph	_	AlignBegin=237560|AlignEnd=238340|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
-7	.		PUNCT	_	_	_	_	_	AlignBegin=238340|AlignEnd=239119|Gloss=.|nWord=5
+7	.		PUNCT	_	_	6	punct	_	AlignBegin=238340|AlignEnd=239119|Gloss=.|nWord=5
 
 # sent_id = PE17_63-63
 # speaker_id = @SP17
@@ -1319,15 +1319,15 @@
 # text = zʉn , zʉn na' nʉnhao ,.
 # text_en = "it was just this to me?"
 # text_phrase-gls-es = solamente fue esto,
-1	zʉn	zʉn	PART	_	_	_	_	_	AlignBegin=239119|AlignEnd=239341|GE=[COP]|Gloss=COP|nWord=1|RX=[COP]
-2	,		PUNCT	_	_	_	_	_	AlignBegin=239341|AlignEnd=239563|nWord=2
+1	zʉn	zʉn	PART	_	_	3	conj:dicto	_	AlignBegin=239119|AlignEnd=239341|GE=[COP]|Gloss=COP|nWord=1|RX=[COP]
+2	,		PUNCT	_	_	1	punct	_	AlignBegin=239341|AlignEnd=239563|nWord=2
 3	zʉn	zʉn	PART	_	_	_	_	_	AlignBegin=239563|AlignEnd=239785|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
 4	na'	na'	AUX	_	_	_	_	_	AlignBegin=239785|AlignEnd=240007|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
 5	nʉ-		PRON	_	_	6	comp:obj/m	_	AlignBegin=240007|AlignEnd=240063|GE=[1SG].[O]|Gloss=1SG.O|nWord=5|RX=[V:ANY]
 6	nh-		AUX	_	_	7	comp:aux	_	AlignBegin=240063|AlignEnd=240119|GE=[APPL2]|Gloss=APPL2|nWord=5|RX=[V>V]
 7	a	a	AUX	_	_	8	comp:aux/m	_	AlignBegin=240119|AlignEnd=240175|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 8	-o		AUX	_	_	_	_	_	AlignBegin=240175|AlignEnd=240229|GE=[Q]|Gloss=Q|nWord=5|RX=[VERB]
-9	,		PUNCT	_	_	_	_	_	AlignBegin=240229|AlignEnd=240449|nWord=6|wordform=,.
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=240229|AlignEnd=240449|nWord=6|wordform=,.
 
 # sent_id = PE17_64-64
 # speaker_id = @SP17
@@ -1344,5 +1344,5 @@
 5	kʉ-		AUX	_	_	6	mod/m	_	AlignBegin=242024|AlignEnd=242339|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]
 6	cho'	cho'	VERB	_	_	_	_	_	AlignBegin=242339|AlignEnd=242654|GE=stand|Gloss=stand|nWord=2|RX=[V]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=242654|AlignEnd=242969|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-8	.		PUNCT	_	_	_	_	_	AlignBegin=242969|AlignEnd=244229|Gloss=.|nWord=3
+8	.		PUNCT	_	_	7	punct	_	AlignBegin=242969|AlignEnd=244229|Gloss=.|nWord=3
 

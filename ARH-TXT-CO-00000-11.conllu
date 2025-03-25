@@ -141,7 +141,7 @@
 19	kwa	kwa	CCONJ	_	_	21	cc	_	AlignBegin=26664|AlignEnd=26998|GE=or|Gloss=or|nWord=19|RX=[COORDCONN]
 20	bema	bema	PRON	_	_	21	mod:discourse	_	AlignBegin=26998|AlignEnd=27332|GE=which|Gloss=which|nWord=20|RX=[INTERROG]
 21	neki	neki	PART	_	_	17	comp:coord	_	AlignBegin=27332|AlignEnd=27666|GE=[CNTR]|Gloss=CNTR|nWord=21|RX=[PRT]
-22	e-		AUX	_	_	23	comp:aux/m	_	AlignBegin=27666|AlignEnd=27750|GE=[E]|Gloss=E|nWord=22|RX=[INFLECTS_ANY_CATEGORY]
+22	e-		AUX	_	_	23	mod/m	_	AlignBegin=27666|AlignEnd=27750|GE=[E]|Gloss=E|nWord=22|RX=[INFLECTS_ANY_CATEGORY]
 23	kʉ	kʉ	VERB	_	_	24	comp:aux/m	_	AlignBegin=27750|AlignEnd=27834|GE=put|Gloss=put|nWord=22|RX=[VT]
 24	-kum		AUX	_	_	25	comp:aux/m	_	AlignBegin=27834|AlignEnd=27918|GE=[ANTIC]|Gloss=ANTIC|nWord=22|RX=[V:ANY]
 25	-u'		AUX	_	_	26	comp:aux	_	AlignBegin=27918|AlignEnd=28000|GE=[NEG]|Gloss=NEG|nWord=22|RX=[VERB]
@@ -256,7 +256,7 @@
 16	,		PUNCT	_	_	10	punct	_	AlignBegin=51591|AlignEnd=52074|nWord=8
 17	achʉna	achʉna	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	19	comp	_	AgentShift=Yes|AlignBegin=52074|AlignEnd=52195|GE=adult|Gloss=adult|nWord=9|RX=[N]|ShiftType=Full|Top=Yes
 18	=ɉina		PART	_	_	17	mod	_	AlignBegin=52195|AlignEnd=52316|GE=many[animated]|Gloss==many[animated]|nWord=9|RX=[PRT]
-19	=se'		ADP	_	_	21	subj	_	AlignBegin=52316|AlignEnd=52437|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]
+19	=se'	=se'	ADP	_	Case=Erg	21	subj	_	AlignBegin=52316|AlignEnd=52437|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]
 20	=ri		PART	_	_	19	mod	_	AlignBegin=52437|AlignEnd=52557|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 21	ɉwa's	ɉwa's	VERB	_	_	22	comp:aux/m	_	AlignBegin=52557|AlignEnd=52799|ArgOrder=SV|GE=get.to.know|Gloss=get.to.know|nWord=10|RX=[V]|Transitivity=trans
 22	-ʉkwey		AUX	_	_	23	comp:aux	_	AlignBegin=52799|AlignEnd=53040|GE=[ABLE]|Gloss=ABLE|nWord=10|RX=[VERB]
@@ -330,7 +330,7 @@
 # morphemic_text = du a- naka neki a -u' n -eyka ni a- ya nʉn =di .
 # text_en = we say that very few come [to the christening] [lit. we say that we good don't come]
 # text_phrase-gls-es = dicen que muy pocos vienen
-1	du	du	ADJ	_	Case=Abs	3	subj	_	AlignBegin=63500|AlignEnd=63936|GE=good|Gloss=good|nWord=1|RX=[ADJ]
+1	du	du	ADJ	_	Case=Abs	3	comp:pred	_	AlignBegin=63500|AlignEnd=63936|GE=good|Gloss=good|nWord=1|RX=[ADJ]
 2	a-		PRON	_	_	3	subj/m	_	AlignBegin=63936|AlignEnd=64154|GE=[1PL].[S]|Gloss=1PL.S|nWord=2|RX=[V:ANY]
 3	naka	naka	VERB	_	_	11	comp:obj	_	AlignBegin=64154|AlignEnd=64372|GE=come|Gloss=come|nWord=2|RX=[V]
 4	neki	neki	PART	_	_	3	mod:discourse	_	AlignBegin=64372|AlignEnd=64808|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]
@@ -338,7 +338,7 @@
 6	-u'		AUX	_	_	7	comp:aux	_	AlignBegin=65026|AlignEnd=65244|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]
 7	n	n	AUX	_	_	8	comp:aux/m	_	AlignBegin=65244|AlignEnd=65462|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 8	-eyka		AUX	_	_	9	comp:aux	_	AlignBegin=65462|AlignEnd=65680|GE=[EYKA]|Gloss=EYKA|nWord=5|RX=[V:ANY]
-9	ni	ni	AUX	_	_	_	_	_	AlignBegin=65680|AlignEnd=66116|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]
+9	ni	ni	AUX	_	_	11	comp:obj	_	AlignBegin=65680|AlignEnd=66116|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]
 10	a-		PRON	_	_	11	subj/m	_	AlignBegin=66116|AlignEnd=66334|GE=[1PL].[S]|Gloss=1PL.S|nWord=7|RX=[V:ANY]
 11	ya	ya	VERB	_	_	12	comp:aux	_	AlignBegin=66334|AlignEnd=66552|GE=say|Gloss=say|nWord=7|RX=[VI]
 12	nʉn	nʉn	AUX	_	_	0	root	_	AlignBegin=66552|AlignEnd=66770|GE=cop|Gloss=cop|nWord=8|RX=[COP]
@@ -393,8 +393,8 @@
 # morphemic_text = achʉna =se' kwa mamʉ =se' neki awan -ʉkwey nig -a ni awga nʉn =di .
 # text_en = They say that the elderly or the spiritual leaders can know [easily]
 # text_phrase-gls-es = ya sean los adultos o los mamos pueden conocer con facilidad, dicen eso
-1	achʉna	achʉna	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	2	comp	_	AgentShift=Yes|AlignBegin=73380|AlignEnd=73552|GE=adult|Gloss=adult|nWord=1|RX=[N]|ShiftType=Partial|Top=No
-2	=se'		ADP	_	_	7	subj	_	AlignBegin=73552|AlignEnd=73723|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
+1	achʉna	achʉna	NOUN	_	_	2	comp	_	AgentShift=Yes|AlignBegin=73380|AlignEnd=73552|GE=adult|Gloss=adult|nWord=1|RX=[N]|ShiftType=Partial|Top=No
+2	=se'	=se'	ADP	_	Case=Erg	7	subj	_	AlignBegin=73552|AlignEnd=73723|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
 3	kwa	kwa	CCONJ	_	_	1	cc	_	AlignBegin=73723|AlignEnd=74066|GE=or|Gloss=or|nWord=2|RX=[COORDCONN]
 4	mamʉ	mamʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	5	comp	_	AgentShift=Yes|AlignBegin=74066|AlignEnd=74238|GE=spiritual.leader|Gloss=spiritual.leader|nWord=3|RX=[N]|ShiftType=FullTop=No
 5	=se'		ADP	_	_	1	comp:coord	_	AlignBegin=74238|AlignEnd=74409|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
