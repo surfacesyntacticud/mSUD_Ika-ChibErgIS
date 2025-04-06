@@ -199,10 +199,10 @@
 # text_en = According to what the spiritual leader says,
 # text_phrase-gls-es = De acuerdo a lo que dice el mamo/según el mamo
 1	mamʉ	mamʉ	NOUN	_	_	2	comp	_	AlignBegin=31962|AlignEnd=32205|GE=spiritual.leader|Gloss=spiritual.leader|nWord=1|RX=[N]
-2	=se'	=se'	ADP	_	Case=Erg	5	subj	_	AlignBegin=32205|AlignEnd=32448|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
+2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=yes|AlignBegin=32205|AlignEnd=32448|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=full|Topic=no
 3	za'ka	za'ka	NOUN	_	_	4	comp:pred	_	AlignBegin=32448|AlignEnd=32934|GE=name|Gloss=name|nWord=2|RX=[N]
-4	na	na	AUX	_	_	5	comp:obj	_	AlignBegin=32934|AlignEnd=33420|GE=cop|Gloss=cop|nWord=3|RX=[COP]
-5	cho'sʉ	cho'sʉ	VERB	_	_	6	comp:aux/m	_	AlignBegin=33420|AlignEnd=33542|GE=put.down[upright]|Gloss=put.down[upright]|nWord=4|RX=[V]
+4	na	na	AUX	_	Animacy=Inan|Case=Abs|Definite=Ind	5	comp:obj	_	AlignBegin=32934|AlignEnd=33420|GE=cop|Gloss=cop|nWord=3|RX=[COP]|Topic=no
+5	cho'sʉ	cho'sʉ	VERB	_	_	6	comp:aux/m	_	AlignBegin=33420|AlignEnd=33542|ArgumentOrder=SOV|GE=put.down[upright]|Gloss=put.down[upright]|nWord=4|RX=[V]|Transitivity=transitive
 6	-y		AUX	_	_	7	comp	_	AlignBegin=33542|AlignEnd=33664|GE=[NONEGO]|Gloss=NONEGO|nWord=4|RX=[V:ANY]
 7	=a'ba'		ADP	_	_	0	root	_	AlignBegin=33664|AlignEnd=33786|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=33786|AlignEnd=33906|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
@@ -747,22 +747,22 @@
 # text = ʉndi iwari ( ss ) ( ah ) niwise'gwi achwʉngwa nari zʉn .
 # text_en = So, now the we are going to take care
 # text_phrase-gls-es = y ahora la responsabilidad es nuestra
-1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=132540|AlignEnd=132855|GE=so|Gloss=so|nWord=1|RX=[ADV]
-2	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=132855|AlignEnd=133013|GE=now|Gloss=now|nWord=2|RX=[ADV]
+1	ʉndi	ʉndi	ADV	_	_	2	discourse	_	AlignBegin=132540|AlignEnd=132855|GE=so|Gloss=so|nWord=1|RX=[ADV]
+2	iwa	iwa	ADV	_	_	13	mod	_	AlignBegin=132855|AlignEnd=133013|GE=now|Gloss=now|nWord=2|RX=[ADV]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=133013|AlignEnd=133170|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=133170|AlignEnd=133485|nWord=3
-5	ss	ss	X	_	_	_	_	_	AlignBegin=133485|AlignEnd=133800|nWord=4
+5	ss	ss	X	_	_	10	discourse	_	AlignBegin=133485|AlignEnd=133800|nWord=4
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=133800|AlignEnd=134115|nWord=5
 7	(		PUNCT	_	_	8	punct	_	AlignBegin=134115|AlignEnd=134430|nWord=6
-8	ah	ah	INTJ	_	_	_	_	_	AlignBegin=134430|AlignEnd=134745|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
+8	ah	ah	INTJ	_	_	10	discourse	_	AlignBegin=134430|AlignEnd=134745|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
 9	)		PUNCT	_	_	8	punct	_	AlignBegin=134745|AlignEnd=135060|nWord=8
 10	niwi	niwi	PRON	_	_	11	comp	_	AlignBegin=135060|AlignEnd=135165|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=9|RX=[PRO]
-11	=se'	=se'	ADP	_	Case=Erg	13	subj	_	AlignBegin=135165|AlignEnd=135270|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]
+11	=se'	=se'	ADP	_	_	13	subj	_	AlignBegin=135165|AlignEnd=135270|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]
 12	=gwi		ADV	_	_	11	mod	_	AlignBegin=135270|AlignEnd=135375|GE=also|Gloss==also|nWord=9|RX=[ADV]
 13	achwʉ	achwʉ	VERB	_	_	14	comp:aux/m	_	AlignBegin=135375|AlignEnd=135533|GE=take.care|Gloss=take.care|nWord=10|RX=[V]
 14	-ngwa		AUX	_	_	15	comp:aux	_	AlignBegin=135533|AlignEnd=135690|GE=[FUT]|Gloss=FUT|nWord=10|RX=[VERB]
 15	nan	nan	AUX	_	_	16	comp:aux/m	_	AlignBegin=135690|AlignEnd=135848|GE=[AUX]|Gloss=AUX|nWord=11|RX=[AUX]
-16	-i		PART	_	_	_	_	_	AlignBegin=135848|AlignEnd=136005|GE=while|Gloss=and|nWord=11|RX=[VERB]
+16	-i		PART	_	_	0	root	_	AlignBegin=135848|AlignEnd=136005|GE=while|Gloss=and|nWord=11|RX=[VERB]
 17	zʉn	zʉn	PART	_	_	16	mod:emph	_	AlignBegin=136005|AlignEnd=136320|GE=[COP]|Gloss=COP|nWord=12|RX=[COP]
 18	.		PUNCT	_	_	17	punct	_	AlignBegin=136320|AlignEnd=136640|Gloss=.|nWord=13
 

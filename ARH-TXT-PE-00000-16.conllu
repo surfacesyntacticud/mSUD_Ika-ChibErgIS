@@ -412,7 +412,7 @@
 9	rigis	rigis	VERB	_	_	10	comp:aux/m	_	AlignBegin=108057|AlignEnd=108323|GE=take|Gloss=take|nWord=6|RX=[V]
 10	-a		AUX	_	_	11	comp:aux	_	AlignBegin=108323|AlignEnd=108590|GE=[PFV]|Gloss=PFV|nWord=6|RX=[V:ANY]
 11	n	n	AUX	_	_	12	comp:aux/m	_	AlignBegin=108590|AlignEnd=108769|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
-12	-ajʉ		AUX	_	_	_	_	_	AlignBegin=108769|AlignEnd=108948|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=7|RX=[V:ANY]
+12	-ajʉ		AUX	_	_	0	root	_	AlignBegin=108769|AlignEnd=108948|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=7|RX=[V:ANY]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=108948|AlignEnd=109126|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
 
 # sent_id = PE16_22-22
@@ -662,17 +662,17 @@
 3	eym	eym	ADV	_	_	4	comp	_	AlignBegin=156887|AlignEnd=157121|GE=there|Gloss=there|nWord=3|RX=[ADV]
 4	=a'ba'		ADP	_	_	6	mod:lmod	_	AlignBegin=157121|AlignEnd=157356|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
 5	k-		AUX	_	_	6	mod/m	_	AlignBegin=157356|AlignEnd=157590|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]
-6	anisi	anisi	VERB	_	_	_	_	_	AlignBegin=157590|AlignEnd=157825|GE=have.put|Gloss=have.put|nWord=4|RX=[V]
+6	anisi	anisi	VERB	_	_	7	comp:aux	_	AlignBegin=157590|AlignEnd=157825|GE=have.put|Gloss=have.put|nWord=4|RX=[V]
 7	zwey	zwey	VERB	_	_	8	comp:aux/m	_	AlignBegin=157825|AlignEnd=158059|GE=go|Gloss=go|nWord=5|RX=[VI]
 8	-n		AUX	_	_	9	comp:aux	_	AlignBegin=158059|AlignEnd=158294|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]
 9	nu'	nu'	AUX	_	_	10	comp:aux/m	_	AlignBegin=158294|AlignEnd=158450|GE=aux|Gloss=aux|nWord=6|RX=[COP]
-10	-na		AUX	_	_	_	_	_	AlignBegin=158450|AlignEnd=158606|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]
+10	-na		AUX	_	_	13	conj:appos	_	AlignBegin=158450|AlignEnd=158606|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]
 11	=ri		PART	_	_	10	mod	_	AlignBegin=158606|AlignEnd=158763|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 12	,		PUNCT	_	_	11	punct	_	AlignBegin=158763|AlignEnd=159232|nWord=7
 13	yow	yow	PRON	_	Case=Abs	15	subj	_	AlignBegin=159232|AlignEnd=159701|GE=all|Gloss=all|nWord=8|RX=[QUANT]
 14	k-		AUX	_	_	15	mod/m	_	AlignBegin=159701|AlignEnd=159857|GE=[APPL1]|Gloss=APPL1|nWord=9|RX=[V>V]
 15	a'pʉgen	a'pʉgen	VERB	_	_	16	comp:aux/m	_	AlignBegin=159857|AlignEnd=160013|GE=fall|Gloss=fall|nWord=9|RX=[V]
-16	-a		AUX	_	_	_	_	_	AlignBegin=160013|AlignEnd=160170|GE=[PFV]|Gloss=PFV|nWord=9|RX=[V:ANY]
+16	-a		AUX	_	_	0	root	_	AlignBegin=160013|AlignEnd=160170|GE=[PFV]|Gloss=PFV|nWord=9|RX=[V:ANY]
 
 # sent_id = PE16_36-36
 # speaker_id = @SP16
@@ -877,7 +877,7 @@
 16	=ri		PART	_	_	15	mod	_	AlignBegin=207797|AlignEnd=208036|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
 17	yamay	yamay	ADV	_	_	19	mod:lmod	_	AlignBegin=208036|AlignEnd=208753|GE=next.to|Gloss=next.to|nWord=9|RX=[ADV]
 18	k-		AUX	_	_	19	mod/m	_	AlignBegin=208753|AlignEnd=208991|GE=[APPL1]|Gloss=APPL1|nWord=10|RX=[V>V]
-19	a'mʉres	a'mʉres	VERB	_	_	20	comp:aux/m	_	AlignBegin=208991|AlignEnd=209229|GE=take.away|Gloss=take.away|nWord=10|RX=[VT]
+19	a'mʉres	a'mʉres	VERB	_	_	20	comp:aux/m	_	AlignBegin=208991|AlignEnd=209229|ArgumentOrder=SOV|GE=take.away|Gloss=take.away|nWord=10|RX=[VT]|Transitivity=transitive
 20	-a		AUX	_	_	0	root	_	AlignBegin=209229|AlignEnd=209468|GE=[PFV]|Gloss=PFV|nWord=10|RX=[V:ANY]
 
 # sent_id = PE16_46-46
@@ -939,7 +939,7 @@
 6	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	9	subj	_	AgentShift=yes|AlignBegin=222230|AlignEnd=222465|GE=[ERG]|Gloss==ERG|nWord=5|RX=[POST]|ShiftType=partial|Topic=no
 7	win-		PRON	_	_	8	subj/m	_	AlignBegin=222465|AlignEnd=222582|GE=[3PL].[S]|Gloss=3PL.S|nWord=6|RX=[VERB]
 8	i-		AUX	_	_	9	mod/m	_	AlignBegin=222582|AlignEnd=222699|GE=[APPL2]|Gloss=APPL2|nWord=6|RX=[V>V]
-9	gunamʉs	gunamʉs	VERB	_	_	10	comp:aux/m	_	AlignBegin=222699|AlignEnd=222816|GE=help|Gloss=help|nWord=6|RX=[V]
+9	gunamʉs	gunamʉs	VERB	_	_	10	comp:aux/m	_	AlignBegin=222699|AlignEnd=222816|ArgumentOrder=SV|GE=help|Gloss=help|nWord=6|RX=[V]|Transitivity=transitive
 10	-a		AUX	_	_	11	comp:aux	_	AlignBegin=222816|AlignEnd=222934|GE=[PFV]|Gloss=PFV|nWord=6|RX=[V:ANY]
 11	nan	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=222934|AlignEnd=223168|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 12	-i		PART	_	_	0	root	_	AlignBegin=223168|AlignEnd=223403|GE=while|Gloss=and|nWord=7|RX=[VERB]

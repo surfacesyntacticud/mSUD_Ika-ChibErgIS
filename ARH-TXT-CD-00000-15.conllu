@@ -23,16 +23,16 @@
 # text = kʉtʉkʉnʉn ikʉ kinki , eymi bigagwi , ka' chwi ,.
 # text_en = first, Ika people, how many things, take care of the earth,
 # text_phrase-gls-es = primeramente los arhuacos, cuantas cosas [tienen bajo su responsabilidad], cuidar la tierra
-1	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=3325|AlignEnd=3773|GE=first|Gloss=first|nWord=1|RX=[ADV]
-2	ikʉ	ikʉ	PROPN	_	Case=Erg	5	conj:appos	_	AlignBegin=3773|AlignEnd=4221|GE=[Ika]|Gloss=Ika|nWord=2|RX=[NPROP]
-3	kinki	kinki	PART	_	_	_	_	_	AlignBegin=4221|AlignEnd=4669|GE=always|Gloss=always|nWord=3|RX=[PRT]
+1	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	2	mod	_	AlignBegin=3325|AlignEnd=3773|GE=first|Gloss=first|nWord=1|RX=[ADV]
+2	ikʉ	ikʉ	PROPN	_	_	5	conj:appos	_	AlignBegin=3773|AlignEnd=4221|GE=[Ika]|Gloss=Ika|nWord=2|RX=[NPROP]
+3	kinki	kinki	PART	_	_	2	mod	_	AlignBegin=4221|AlignEnd=4669|GE=always|Gloss=always|nWord=3|RX=[PRT]
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=4669|AlignEnd=5117|nWord=4
-5	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=5117|AlignEnd=5565|GE=there|Gloss=there|nWord=5|RX=[ADV]
-6	biga	biga	ADV	_	_	_	_	_	AlignBegin=5565|AlignEnd=5789|GE=how.many|Gloss=how.many|nWord=6|RX=[INTERROG]
+5	eymi	eymi	ADV	_	_	6	mod	_	AlignBegin=5117|AlignEnd=5565|GE=there|Gloss=there|nWord=5|RX=[ADV]
+6	biga	biga	ADV	_	_	9	conj:dicto	_	AlignBegin=5565|AlignEnd=5789|GE=how.many|Gloss=how.many|nWord=6|RX=[INTERROG]
 7	=gwi		ADV	_	_	6	mod	_	AlignBegin=5789|AlignEnd=6013|GE=also|Gloss==also|nWord=6|RX=[ADV]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=6013|AlignEnd=6461|nWord=7
 9	ka'a	ka'a	NOUN	_	_	10	comp:obj	_	AlignBegin=6461|AlignEnd=6909|GE=earth|Gloss=earth|nWord=8|RX=[N]
-10	chwi	chwi	VERB	_	_	_	_	_	AlignBegin=6909|AlignEnd=7357|GE=take.care|Gloss=take.care|nWord=9|RX=[V]
+10	chwi	chwi	VERB	_	_	0	root	_	AlignBegin=6909|AlignEnd=7357|GE=take.care|Gloss=take.care|nWord=9|RX=[V]
 11	,.		PUNCT	_	_	10	punct	_	AlignBegin=7357|AlignEnd=7806|nWord=10
 
 # sent_id = CD15_03-03
@@ -53,11 +53,11 @@
 8	=sin		ADP	_	_	11	comp:obl	_	AlignBegin=11458|AlignEnd=11614|GE=with|Gloss==with|nWord=6|RX=[POST]
 9	ʉn-		AUX	_	_	10	mod/m	_	AlignBegin=11614|AlignEnd=11770|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 10	kʉ-		AUX	_	_	11	mod/m	_	AlignBegin=11770|AlignEnd=11926|GE=[APPL1]|Gloss=APPL1|nWord=7|RX=[V>V]
-11	rigʉnsi	rigʉnsi	VERB	_	_	_	_	_	AlignBegin=11926|AlignEnd=12082|GE=be.in.harmony|Gloss=be.in.harmony|nWord=7|RX=[V]
+11	rigʉnsi	rigʉnsi	VERB	_	_	12	comp:aux	_	AlignBegin=11926|AlignEnd=12082|GE=be.in.harmony|Gloss=be.in.harmony|nWord=7|RX=[V]
 12	zwey	zwey	VERB	_	_	13	comp:aux/m	_	AlignBegin=12082|AlignEnd=12316|GE=go|Gloss=go|nWord=8|RX=[VI]
 13	-ngwa		AUX	_	_	14	comp:aux	_	AlignBegin=12316|AlignEnd=12550|GE=[FUT]|Gloss=FUT|nWord=8|RX=[VERB]
 14	n	n	AUX	_	_	15	comp:aux/m	_	AlignBegin=12550|AlignEnd=12706|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
-15	-eyka		AUX	_	_	_	_	_	AlignBegin=12706|AlignEnd=12862|GE=[EYKA]|Gloss=EYKA|nWord=9|RX=[V:ANY]
+15	-eyka		AUX	_	_	0	root	_	AlignBegin=12706|AlignEnd=12862|GE=[EYKA]|Gloss=EYKA|nWord=9|RX=[V:ANY]
 16	=ri		PART	_	_	15	mod	_	AlignBegin=12862|AlignEnd=13018|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 17	.		PUNCT	_	_	16	punct	_	AlignBegin=13018|AlignEnd=13488|nWord=10
 
@@ -398,7 +398,7 @@
 11	=gwi		ADV	_	_	10	mod	_	AlignBegin=79841|AlignEnd=80019|GE=also|Gloss==also|nWord=6|RX=[ADV]
 12	ga'	ga'	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	14	comp:obj	_	AlignBegin=80019|AlignEnd=80375|GE=word|Gloss=word|nWord=7|RX=[N]|Topic=no
 13	ʉn-		AUX	_	_	14	mod/m	_	AlignBegin=80375|AlignEnd=80494|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]
-14	gawi	gawi	VERB	_	_	_	_	_	AlignBegin=80494|AlignEnd=80613|GE=make|Gloss=make|nWord=8|RX=[V]
+14	gawi	gawi	VERB	_	_	_	_	_	AlignBegin=80494|AlignEnd=80613|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=8|RX=[V]|Transitivity=transitive
 15	=ri		PART	_	_	14	mod	_	AlignBegin=80613|AlignEnd=80731|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
 16	zwey	zwey	VERB	_	_	17	comp:aux/m	_	AlignBegin=80731|AlignEnd=80909|GE=go|Gloss=go|nWord=9|RX=[VI]
 17	-n		AUX	_	_	18	comp:aux	_	AlignBegin=80909|AlignEnd=81087|GE=[IPFV]|Gloss=IPFV|nWord=9|RX=[VERB]

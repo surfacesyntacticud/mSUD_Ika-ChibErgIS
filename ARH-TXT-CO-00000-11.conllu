@@ -254,11 +254,11 @@
 14	ayey	ayey	ADJ	_	_	10	mod	_	AlignBegin=51108|AlignEnd=51350|GE=similar|Gloss=similar|nWord=7|RX=[ADJ]
 15	=gwi		ADV	_	_	14	mod	_	AlignBegin=51350|AlignEnd=51591|GE=also|Gloss==also|nWord=7|RX=[ADV]
 16	,		PUNCT	_	_	10	punct	_	AlignBegin=51591|AlignEnd=52074|nWord=8
-17	achʉna	achʉna	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	19	comp	_	AgentShift=Yes|AlignBegin=52074|AlignEnd=52195|GE=adult|Gloss=adult|nWord=9|RX=[N]|ShiftType=Full|Top=Yes
+17	achʉna	achʉna	NOUN	_	_	19	comp	_	AlignBegin=52074|AlignEnd=52195|GE=adult|Gloss=adult|nWord=9|RX=[N]
 18	=ɉina		PART	_	_	17	mod	_	AlignBegin=52195|AlignEnd=52316|GE=many[animated]|Gloss==many[animated]|nWord=9|RX=[PRT]
-19	=se'	=se'	ADP	_	Case=Erg	21	subj	_	AlignBegin=52316|AlignEnd=52437|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]
+19	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	21	subj	_	AgentShift=yes|AlignBegin=52316|AlignEnd=52437|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]|ShiftType=full|Topic=yes
 20	=ri		PART	_	_	19	mod	_	AlignBegin=52437|AlignEnd=52557|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
-21	ɉwa's	ɉwa's	VERB	_	_	22	comp:aux/m	_	AlignBegin=52557|AlignEnd=52799|ArgOrder=SV|GE=get.to.know|Gloss=get.to.know|nWord=10|RX=[V]|Transitivity=trans
+21	ɉwa's	ɉwa's	VERB	_	_	22	comp:aux/m	_	AlignBegin=52557|AlignEnd=52799|ArgOrder=SV|ArgumentOrder=SV|GE=get.to.know|Gloss=get.to.know|nWord=10|RX=[V]|Transitivity=transitive
 22	-ʉkwey		AUX	_	_	23	comp:aux	_	AlignBegin=52799|AlignEnd=53040|GE=[ABLE]|Gloss=ABLE|nWord=10|RX=[VERB]
 23	nig	nig	AUX	_	_	24	comp:aux/m	_	AlignBegin=53040|AlignEnd=53282|GE=do|Gloss=do|nWord=11|RX=[AUX]
 24	-a		AUX	_	_	25	comp:aux	_	AlignBegin=53282|AlignEnd=53523|GE=[NONEGO]|Gloss=NONEGO|nWord=11|RX=[V:ANY]
@@ -393,13 +393,13 @@
 # morphemic_text = achʉna =se' kwa mamʉ =se' neki awan -ʉkwey nig -a ni awga nʉn =di .
 # text_en = They say that the elderly or the spiritual leaders can know [easily]
 # text_phrase-gls-es = ya sean los adultos o los mamos pueden conocer con facilidad, dicen eso
-1	achʉna	achʉna	NOUN	_	_	2	comp	_	AgentShift=Yes|AlignBegin=73380|AlignEnd=73552|GE=adult|Gloss=adult|nWord=1|RX=[N]|ShiftType=Partial|Top=No
-2	=se'	=se'	ADP	_	Case=Erg	7	subj	_	AlignBegin=73552|AlignEnd=73723|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
+1	achʉna	achʉna	NOUN	_	_	2	comp	_	AlignBegin=73380|AlignEnd=73552|GE=adult|Gloss=adult|nWord=1|RX=[N]
+2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=yes|AlignBegin=73552|AlignEnd=73723|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=partial|Topic=no
 3	kwa	kwa	CCONJ	_	_	1	cc	_	AlignBegin=73723|AlignEnd=74066|GE=or|Gloss=or|nWord=2|RX=[COORDCONN]
-4	mamʉ	mamʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	5	comp	_	AgentShift=Yes|AlignBegin=74066|AlignEnd=74238|GE=spiritual.leader|Gloss=spiritual.leader|nWord=3|RX=[N]|ShiftType=FullTop=No
+4	mamʉ	mamʉ	NOUN	_	_	5	comp	_	AlignBegin=74066|AlignEnd=74238|GE=spiritual.leader|Gloss=spiritual.leader|nWord=3|RX=[N]
 5	=se'		ADP	_	_	1	comp:coord	_	AlignBegin=74238|AlignEnd=74409|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
-6	neki	neki	PART	_	_	13	mod:discourse	_	AlignBegin=74409|AlignEnd=74752|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
-7	awan	awan	VERB	_	_	8	comp:aux/m	_	AlignBegin=74752|AlignEnd=74924|ArgOrder=SV|GE=feel|Gloss=feel|nWord=5|RX=[V]|Transitivity=trans
+6	neki	neki	PART	_	_	7	discourse	_	AlignBegin=74409|AlignEnd=74752|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
+7	awan	awan	VERB	_	_	8	comp:aux/m	_	AlignBegin=74752|AlignEnd=74924|ArgOrder=SV|ArgumentOrder=SV|GE=feel|Gloss=feel|nWord=5|RX=[V]|Transitivity=transitive
 8	-ʉkwey		AUX	_	_	9	comp:aux	_	AlignBegin=74924|AlignEnd=75095|GE=[ABLE]|Gloss=ABLE|nWord=5|RX=[VERB]
 9	nig	nig	AUX	_	_	10	comp:aux/m	_	AlignBegin=75095|AlignEnd=75267|GE=do|Gloss=do|nWord=6|RX=[AUX]
 10	-a		AUX	_	_	11	comp:aux	_	AlignBegin=75267|AlignEnd=75438|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]

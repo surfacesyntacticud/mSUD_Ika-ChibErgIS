@@ -728,7 +728,7 @@
 3	-a		AUX	_	_	4	comp:aux	_	AlignBegin=138826|AlignEnd=138918|GE=[PFV]|Gloss=PFV|nWord=1|RX=[V:ANY]
 4	u	u	AUX	_	_	5	comp:aux/m	_	AlignBegin=138918|AlignEnd=138986|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 5	-y		AUX	_	_	6	comp:aux/m	_	AlignBegin=138986|AlignEnd=139054|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
-6	-e'		AUX	_	_	_	_	_	AlignBegin=139054|AlignEnd=139122|GE=then|Gloss=then|nWord=2|RX=[VERB]
+6	-e'		AUX	_	_	0	root	_	AlignBegin=139054|AlignEnd=139122|GE=then|Gloss=then|nWord=2|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=139122|AlignEnd=139192|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=139192|AlignEnd=139466|nWord=3
 
@@ -758,15 +758,15 @@
 16	,		PUNCT	_	_	15	punct	_	AlignBegin=143458|AlignEnd=143955|nWord=9
 
 # sent_id = PE15_37-37
+# text = máykʉnʉ kʉnzʉwari anʉnka'kawa , máykʉnʉ nase'
 # speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-15.WAV/WAV/ARH-TXT-PE-00000-15.WAV
 # sent_timecode = 143955, 148244
 # morphemic_text = máykʉnʉ kʉnzʉwa =ri anʉn- k- a'kawa , máykʉnʉ na =se'
-# text = máykʉnʉ kʉnzʉwari anʉnka'kawa , máykʉnʉ nase'
-# text_en = And the three gave him fruit, the three
+# text_en = He gave him three fruits, to the three.
 # text_phrase-gls-es = Y los tres le dieron fruta, los tres
 # text_phrase-gls-tl = anünkakawa
-1	máykʉnʉ	máykʉnʉ	NUM	_	_	10	conj:dicto	_	AlignBegin=143955|AlignEnd=144670|GE=three|Gloss=three|nWord=1|RX=[NUM]
+1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	mod:num	_	AlignBegin=143955|AlignEnd=144670|GE=three|Gloss=three|nWord=1|RX=[NUM]
 2	kʉnzʉwa	kʉnzʉwa	NOUN	_	_	6	comp:obj	_	AlignBegin=144670|AlignEnd=145028|GE=fruit|Gloss=fruit|nWord=2|RX=[N]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=145028|AlignEnd=145385|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 4	anʉn-		AUX	_	_	5	mod/m	_	AlignBegin=145385|AlignEnd=145623|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
@@ -775,7 +775,7 @@
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=146100|AlignEnd=146815|nWord=4
 8	máykʉnʉ	máykʉnʉ	NUM	_	_	9	comp:pred	_	AlignBegin=146815|AlignEnd=147530|GE=three|Gloss=three|nWord=5|RX=[NUM]
 9	na	na	AUX	_	_	10	comp	_	AlignBegin=147530|AlignEnd=147887|GE=cop|Gloss=cop|nWord=6|RX=[COP]
-10	=se'	=se'	ADP	_	Case=Erg	6	subj	_	AlignBegin=147887|AlignEnd=148244|GE=[ERG]|Gloss==ERG|nWord=6|RX=[POST]
+10	=se'	=se'	ADP	_	Case=Dat	6	comp:obl	_	AlignBegin=147887|AlignEnd=148244|GE=[DAT]|Gloss==DAT|nWord=6|RX=[POST]
 
 # sent_id = PE15_38-38
 # speaker_id = @SP15
@@ -789,7 +789,7 @@
 2	aw	aw	AUX	_	_	3	comp:aux/m	_	AlignBegin=148733|AlignEnd=148977|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-i		PART	_	_	4	comp:aux	_	AlignBegin=148977|AlignEnd=149222|GE=while|Gloss=and|nWord=2|RX=[VERB]
 4	nʉ	nʉ	AUX	_	_	5	comp:aux/m	_	AlignBegin=149222|AlignEnd=149385|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
-5	-ngwa		AUX	_	_	_	_	_	AlignBegin=149385|AlignEnd=149548|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
+5	-ngwa		AUX	_	_	0	root	_	AlignBegin=149385|AlignEnd=149548|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=149548|AlignEnd=149711|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 
 # sent_id = PE15_39-39

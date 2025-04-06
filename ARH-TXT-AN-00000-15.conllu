@@ -6,7 +6,7 @@
 # morphemic_text = ka' =ri ( buns ) bunsi chari nʉn -kwa nis -e' =ri .
 # text_en = The earth, when the dawn dawned [for the first time],
 # text_phrase-gls-es = La tierra, cuando iba amaneciendo [por primero vez cuando amaneció]
-1	ka'	ka'	NOUN	_	_	7	conj:dicto	_	AlignBegin=4890|AlignEnd=5378|GE=earth|Gloss=earth|nWord=1|RX=[N]
+1	ka'	ka'	NOUN	_	_	7	conj:appos	_	AlignBegin=4890|AlignEnd=5378|GE=earth|Gloss=earth|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=5378|AlignEnd=5866|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	(		PUNCT	_	_	4	punct	_	AlignBegin=5866|AlignEnd=6842|nWord=2
 4	buns	buns	X	_	_	6	conj:dicto	_	AlignBegin=6842|AlignEnd=7818|nWord=3
@@ -21,36 +21,36 @@
 13	.		PUNCT	_	_	12	punct	_	AlignBegin=12698|AlignEnd=13678|Gloss=.|nWord=9
 
 # sent_id = AN15_02-02
+# text = diosuse' zʉ'ʉn , diosuse' Serankwa , cheychi Serankwase' zʉn agwaku' nʉnno , kwʉ nari zoye'ri .
 # speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-15.WAV/WAV/ARH-TXT-AN-00000-15.WAV
 # sent_timecode = 13678, 21499
 # morphemic_text = diosu =se' zʉ'ʉn , diosu =se' Serankwa , cheychi Serankwa =se' zʉn a- gwak -u' nʉn -no , kwʉ nan -i zoy -e' =ri .
-# text = diosuse' zʉ'ʉn , diosuse' Serankwa , cheychi Serankwase' zʉn agwaku' nʉnno , kwʉ nari zoye'ri .
-# text_en = We can only say only God, God Serankwa, Father Serankwa, when he lived there,
+# text_en = We can only say only to God, God Serankwa, Father Serankwa, when he lived there,
 # text_phrase-gls-es = Podemos decir solamente solamente Dios, Dios Serankwa, papá Serankwa, cuando permanecía allí
 1	diosu	diosu	NOUN	_	_	2	comp	_	AlignBegin=13678|AlignEnd=13922|GE=[SPA_God]|Gloss=SPA_God|nWord=1|RX=[N]
-2	=se'		ADP	_	_	6	conj:appos	_	AlignBegin=13922|AlignEnd=14167|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
+2	=se'	=se'	ADP	_	_	6	conj:appos	_	AlignBegin=13922|AlignEnd=14167|GE=[DAT]|Gloss==DAT|nWord=1|RX=[POST]
 3	zʉ'ʉn	zʉ'ʉn	PART	_	_	2	mod:emph	_	AlignBegin=14167|AlignEnd=14656|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=14656|AlignEnd=15145|nWord=3
 5	diosu	diosu	NOUN	_	_	6	comp	_	AlignBegin=15145|AlignEnd=15389|GE=[SPA_God]|Gloss=SPA_God|nWord=4|RX=[N]
-6	=se'		ADP	_	_	9	conj:appos	_	AlignBegin=15389|AlignEnd=15634|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
+6	=se'	=se'	ADP	_	_	9	conj:appos	_	AlignBegin=15389|AlignEnd=15634|GE=[DAT]|Gloss==DAT|nWord=4|RX=[POST]
 7	Serankwa	Serankwa	PROPN	_	_	5	flat	_	AlignBegin=15634|AlignEnd=16123|GE=[Serankwa]|Gloss=Serankwa|nWord=5|RX=[NPROP]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=16123|AlignEnd=16612|nWord=6
 9	cheychi	cheychi	NOUN	_	_	11	comp	_	AlignBegin=16612|AlignEnd=17101|GE=father[daughter]|Gloss=father[daughter]|nWord=7|RX=[N]
 10	Serankwa	Serankwa	PROPN	_	_	9	flat	_	AlignBegin=17101|AlignEnd=17345|GE=[Serankwa]|Gloss=Serankwa|nWord=8|RX=[NPROP]
-11	=se'	=se'	ADP	_	Case=Erg	14	subj	_	AlignBegin=17345|AlignEnd=17590|GE=[ERG]|Gloss==ERG|nWord=8|RX=[POST]
+11	=se'	=se'	ADP	_	Case=Dat	14	comp:obl	_	AlignBegin=17345|AlignEnd=17590|GE=[DAT]|Gloss==DAT|nWord=8|RX=[POST]
 12	zʉn	zʉn	PART	_	_	11	mod:emph	_	AlignBegin=17590|AlignEnd=18079|GE=[COP]|Gloss=COP|nWord=9|RX=[COP]
 13	a-		PRON	_	_	14	subj/m	_	AlignBegin=18079|AlignEnd=18242|GE=[1PL].[S]|Gloss=1PL.S|nWord=10|RX=[V:ANY]
 14	gwak	gwak	VERB	_	_	15	comp:aux/m	_	AlignBegin=18242|AlignEnd=18405|GE=inform|Gloss=inform|nWord=10|RX=[V]
 15	-u'		AUX	_	_	16	comp:aux	_	AlignBegin=18405|AlignEnd=18568|GE=[NEG]|Gloss=NEG|nWord=10|RX=[VERB]
 16	nʉn	nʉn	AUX	_	_	17	comp:aux/m	_	AlignBegin=18568|AlignEnd=18812|GE=cop|Gloss=cop|nWord=11|RX=[COP]
-17	-no		AUX	_	_	_	_	_	AlignBegin=18812|AlignEnd=19057|GE=[Q]|Gloss=Q|nWord=11|RX=[VERB]
+17	-no		AUX	_	_	0	root	_	AlignBegin=18812|AlignEnd=19057|GE=[Q]|Gloss=Q|nWord=11|RX=[VERB]
 18	,		PUNCT	_	_	17	punct	_	AlignBegin=19057|AlignEnd=19546|nWord=12
 19	kwʉ	kwʉ	VERB	_	_	20	comp:aux	_	AlignBegin=19546|AlignEnd=20035|GE=live|Gloss=live|nWord=13|RX=[V]
 20	nan	nan	AUX	_	_	21	comp:aux/m	_	AlignBegin=20035|AlignEnd=20279|GE=[AUX]|Gloss=AUX|nWord=14|RX=[AUX]
-21	-i		PART	_	_	_	_	_	AlignBegin=20279|AlignEnd=20524|GE=while|Gloss=and|nWord=14|RX=[VERB]
+21	-i		PART	_	_	22	mod	_	AlignBegin=20279|AlignEnd=20524|GE=while|Gloss=and|nWord=14|RX=[VERB]
 22	zoy	zoy	VERB	_	_	23	comp:aux/m	_	AlignBegin=20524|AlignEnd=20687|GE=go|Gloss=go|nWord=15|RX=[V]
-23	-e'		AUX	_	_	_	_	_	AlignBegin=20687|AlignEnd=20850|GE=then|Gloss=then|nWord=15|RX=[VERB]
+23	-e'		AUX	_	_	17	comp:obj	_	AlignBegin=20687|AlignEnd=20850|GE=then|Gloss=then|nWord=15|RX=[VERB]
 24	=ri		PART	_	_	23	mod	_	AlignBegin=20850|AlignEnd=21013|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
 25	.		PUNCT	_	_	24	punct	_	AlignBegin=21013|AlignEnd=21499|Gloss=.|nWord=16
 
@@ -136,11 +136,11 @@
 7	eh	eh	INTJ	_	_	9	discourse	_	AlignBegin=38083|AlignEnd=38637|GE=[HES]|Gloss=HES|nWord=6|RX=[INTERJ]
 8	)		PUNCT	_	_	7	punct	_	AlignBegin=38637|AlignEnd=39191|nWord=7
 9	pinna	pinna	PRON	_	_	10	comp:obj	_	AlignBegin=39191|AlignEnd=39745|GE=all|Gloss=all|nWord=8|RX=[QUANT]
-10	kʉna	kʉna	VERB	_	_	_	_	_	AlignBegin=39745|AlignEnd=40022|GE=have|Gloss=have|nWord=9|RX=[VT]
+10	kʉna	kʉna	VERB	_	_	12	comp:obj	_	AlignBegin=39745|AlignEnd=40022|GE=have|Gloss=have|nWord=9|RX=[VT]
 11	=ri		PART	_	_	10	mod	_	AlignBegin=40022|AlignEnd=40299|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 12	warunh	warunh	VERB	_	_	13	comp:aux	_	AlignBegin=40299|AlignEnd=40853|GE=think|Gloss=think|nWord=10|RX=[V]
 13	nus	nus	AUX	_	_	14	comp:aux/m	_	AlignBegin=40853|AlignEnd=41130|GE=aux|Gloss=aux|nWord=11|RX=[COP]
-14	-i		PART	_	_	_	_	_	AlignBegin=41130|AlignEnd=41407|GE=while|Gloss=and|nWord=11|RX=[VERB]
+14	-i		PART	_	_	0	root	_	AlignBegin=41130|AlignEnd=41407|GE=while|Gloss=and|nWord=11|RX=[VERB]
 15	.		PUNCT	_	_	14	punct	_	AlignBegin=41407|AlignEnd=41966|Gloss=.|nWord=12
 
 # sent_id = AN15_08-08
@@ -153,11 +153,11 @@
 # text_phrase-gls-es = creando todo el papá Serankwa
 1	cheychi	cheychi	NOUN	_	_	3	comp	_	AlignBegin=42745|AlignEnd=43086|GE=father[daughter]|Gloss=father[daughter]|nWord=1|RX=[N]
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=43086|AlignEnd=43256|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
-3	=se'	=se'	ADP	_	Case=Erg	7	subj	_	AlignBegin=43256|AlignEnd=43427|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]
+3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=no|AlignBegin=43256|AlignEnd=43427|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|Topic=no
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=43427|AlignEnd=43768|nWord=3
 5	wa	wa	X	_	_	7	conj:dicto	_	AlignBegin=43768|AlignEnd=44109|nWord=4
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=44109|AlignEnd=44450|nWord=5
-7	a'chw	a'chw	VERB	_	_	8	comp:aux/m	_	AlignBegin=44450|AlignEnd=44620|GE=take.care|Gloss=take.care|nWord=6|RX=[V]
+7	a'chw	a'chw	VERB	_	_	8	comp:aux/m	_	AlignBegin=44450|AlignEnd=44620|ArgumentOrder=SV|GE=take.care|Gloss=take.care|nWord=6|RX=[V]|Transitivity=transitive
 8	-ey		PART	_	_	0	root	_	AlignBegin=44620|AlignEnd=44791|GE=while|Gloss=and|nWord=6|RX=[VERB]
 9	,		PUNCT	_	_	8	punct	_	AlignBegin=44791|AlignEnd=45135|nWord=7|wordform=,.
 
@@ -324,12 +324,12 @@
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=71552|AlignEnd=72126|nWord=3
 
 # sent_id = AN15_18-18
+# text = inʉri ingeygwi kʉɉu nʉnno a'zari .
 # speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-15.WAV/WAV/ARH-TXT-AN-00000-15.WAV
 # sent_timecode = 72126, 75471
 # morphemic_text = inʉ =ri ingeygwi kʉ- ɉu nʉn -no a'zari .
-# text = inʉri ingeygwi kʉɉu nʉnno a'zari .
-# text_en = He thought "What else does one need?" | küju
+# text_en = He thought "What else does one need?"
 # text_phrase-gls-es = Pensó que otra cosa le faltará
 1	inʉ	inʉ	PRON	_	_	5	comp:obj	_	AlignBegin=72126|AlignEnd=72405|GE=what|Gloss=what|nWord=1|RX=[INTERROG]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=72405|AlignEnd=72684|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
@@ -337,8 +337,8 @@
 4	kʉ-		AUX	_	_	5	mod/m	_	AlignBegin=73242|AlignEnd=73521|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]
 5	ɉu	ɉu	VERB	_	_	6	comp:aux	_	AlignBegin=73521|AlignEnd=73800|GE=like|Gloss=like|nWord=3|RX=[V]
 6	nʉn	nʉn	AUX	_	_	7	comp:aux/m	_	AlignBegin=73800|AlignEnd=74079|GE=cop|Gloss=cop|nWord=4|RX=[COP]
-7	-no		AUX	_	_	_	_	_	AlignBegin=74079|AlignEnd=74358|GE=[Q]|Gloss=Q|nWord=4|RX=[VERB]
-8	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=74358|AlignEnd=74916|GE=feel|Gloss=feel|nWord=5|RX=[V]
+7	-no		AUX	_	_	8	root	_	AlignBegin=74079|AlignEnd=74358|GE=[Q]|Gloss=Q|nWord=4|RX=[VERB]
+8	a'zari	a'zari	VERB	_	_	0	root	_	AlignBegin=74358|AlignEnd=74916|GE=feel|Gloss=feel|nWord=5|RX=[V]
 9	.		PUNCT	_	_	8	punct	_	AlignBegin=74916|AlignEnd=75471|Gloss=.|nWord=6
 
 # sent_id = AN15_19-19
@@ -356,12 +356,12 @@
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=78170|AlignEnd=78743|nWord=2
 5	cheychi	cheychi	NOUN	_	_	7	comp	_	AlignBegin=78743|AlignEnd=79316|GE=father[daughter]|Gloss=father[daughter]|nWord=3|RX=[N]
 6	Serankwa	Serankwa	PROPN	_	_	5	flat	_	AlignBegin=79316|AlignEnd=79507|GE=[Serankwa]|Gloss=Serankwa|nWord=4|RX=[NPROP]
-7	=se'	=se'	ADP	_	Case=Erg	9	subj	_	AlignBegin=79507|AlignEnd=79698|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
+7	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	9	subj	_	AgentShift=no|AlignBegin=79507|AlignEnd=79698|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|Topic=yes
 8	=ri		PART	_	_	7	mod	_	AlignBegin=79698|AlignEnd=79889|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	warunh	warunh	VERB	_	_	10	comp:aux/m	_	AlignBegin=79889|AlignEnd=80175|GE=analise|Gloss=analise|nWord=5|RX=[V]
-10	-ey		PART	_	_	_	_	_	AlignBegin=80175|AlignEnd=80462|GE=while|Gloss=and|nWord=5|RX=[VERB]
+9	warunh	warunh	VERB	_	_	10	comp:aux/m	_	AlignBegin=79889|AlignEnd=80175|ArgumentOrder=SV|GE=analise|Gloss=analise|nWord=5|RX=[V]|Transitivity=transitive
+10	-ey		PART	_	_	11	mod	_	AlignBegin=80175|AlignEnd=80462|GE=while|Gloss=and|nWord=5|RX=[VERB]
 11	zori	zori	VERB	_	_	12	comp:aux/m	_	AlignBegin=80462|AlignEnd=80653|GE=go|Gloss=go|nWord=6|RX=[V]
-12	-e'		AUX	_	_	_	_	_	AlignBegin=80653|AlignEnd=80844|GE=then|Gloss=then|nWord=6|RX=[VERB]
+12	-e'		AUX	_	_	0	root	_	AlignBegin=80653|AlignEnd=80844|GE=then|Gloss=then|nWord=6|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=80844|AlignEnd=81035|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 14	,		PUNCT	_	_	13	punct	_	AlignBegin=81035|AlignEnd=81611|nWord=7|wordform=,.
 
@@ -555,12 +555,12 @@
 7	.		PUNCT	_	_	6	punct	_	AlignBegin=113193|AlignEnd=113761|Gloss=.|nWord=5
 
 # sent_id = AN15_29-29
+# text = eymakin ɉuna kʉɉunu' nʉnno .
 # speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-15.WAV/WAV/ARH-TXT-AN-00000-15.WAV
 # sent_timecode = 117030, 120492
 # morphemic_text = eyma =kin ɉuna kʉ- ɉun -u' nʉn -no .
-# text = eymakin ɉuna kʉɉunu' nʉnno .
-# text_en = We need all that, don't we?
+# text_en = One needs all that, doesn't one?
 # text_phrase-gls-es = Necesitamos todo eso
 1	eyma	eyma	PRON	_	_	2	comp	_	AlignBegin=117030|AlignEnd=117376|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	=kin		ADP	_	_	5	mod	_	AlignBegin=117376|AlignEnd=117722|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]
@@ -573,12 +573,12 @@
 9	.		PUNCT	_	_	8	punct	_	AlignBegin=119798|AlignEnd=120492|Gloss=.|nWord=5
 
 # sent_id = AN15_30-30
+# text = kwimʉkʉnʉsin manʉnka' ikʉ nʉnkurwase'ri eyma du ʉnkʉchuy .
 # speaker_id = @SP15
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-15.WAV/WAV/ARH-TXT-AN-00000-15.WAV
 # sent_timecode = 120492, 125840
 # morphemic_text = kwimʉkʉnʉ =sin manʉnka' ikʉ nʉn -kurwa =se' =ri eyma du ʉn- kʉ- chu -y .
-# text = kwimʉkʉnʉsin manʉnka' ikʉ nʉnkurwase'ri eyma du ʉnkʉchuy .
-# text_en = We as Ika people have to take care of the mountains.
+# text_en = We who are Ika people have to take care well of the mountains.
 # text_phrase-gls-es = Nosotros como arhuacos tenemos que convivir/cuidar las montanias/las rocas
 1	kwimʉkʉnʉ	kwimʉkʉnʉ	NOUN	_	_	2	comp	_	AlignBegin=120492|AlignEnd=120826|GE=mountain|Gloss=mountain|nWord=1|RX=[N]
 2	=sin		ADP	_	_	13	mod	_	AlignBegin=120826|AlignEnd=121160|GE=with|Gloss==with|nWord=1|RX=[POST]
@@ -586,14 +586,14 @@
 4	ikʉ	ikʉ	PROPN	_	_	5	comp:pred	_	AlignBegin=121828|AlignEnd=122496|GE=[Ika]|Gloss=Ika|nWord=3|RX=[NPROP]
 5	nʉn	nʉn	AUX	_	_	6	comp:aux/m	_	AlignBegin=122496|AlignEnd=122663|GE=cop|Gloss=cop|nWord=4|RX=[COP]
 6	-kurwa		AUX	_	_	7	comp	_	AlignBegin=122663|AlignEnd=122830|GE=[1PL].[S].[INCL]|Gloss=1PL.S.INCL|nWord=4|RX=[V:ANY]
-7	=se'	=se'	ADP	_	Case=Erg	13	subj	_	AlignBegin=122830|AlignEnd=122997|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
+7	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	13	subj	_	AgentShift=no|AlignBegin=122830|AlignEnd=122997|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|Topic=yes
 8	=ri		PART	_	_	7	mod	_	AlignBegin=122997|AlignEnd=123164|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-9	eyma	eyma	PRON	_	_	13	comp:obj	_	AlignBegin=123164|AlignEnd=123832|GE=this|Gloss=this|nWord=5|RX=[DEM]
-10	du	du	ADJ	_	_	_	_	_	AlignBegin=123832|AlignEnd=124500|GE=good|Gloss=good|nWord=6|RX=[ADJ]
+9	eyma	eyma	PRON	_	Animacy=Inan|Case=Abs|Definite=Def	13	comp:obj	_	AlignBegin=123164|AlignEnd=123832|GE=this|Gloss=this|nWord=5|RX=[DEM]|Topic=no
+10	du	du	ADJ	_	_	13	comp:pred	_	AlignBegin=123832|AlignEnd=124500|GE=good|Gloss=good|nWord=6|RX=[ADJ]
 11	ʉn-		AUX	_	_	12	mod/m	_	AlignBegin=124500|AlignEnd=124667|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 12	kʉ-		AUX	_	_	13	mod/m	_	AlignBegin=124667|AlignEnd=124834|GE=[APPL1]|Gloss=APPL1|nWord=7|RX=[V>V]
-13	chu	chu	VERB	_	_	14	comp:aux/m	_	AlignBegin=124834|AlignEnd=125001|GE=take.care|Gloss=tale.care|nWord=7|RX=[V]
-14	-y		PART	_	_	_	_	_	AlignBegin=125001|AlignEnd=125168|GE=while|Gloss=and|nWord=7|RX=[VERB]
+13	chu	chu	VERB	_	_	14	comp:aux	_	AlignBegin=124834|AlignEnd=125001|ArgumentOrder=SOV|GE=take.care|Gloss=tale.care|nWord=7|RX=[V]|Transitivity=transitive
+14	-y		PART	_	_	0	root	_	AlignBegin=125001|AlignEnd=125168|GE=while|Gloss=and|nWord=7|RX=[VERB]
 15	.		PUNCT	_	_	14	punct	_	AlignBegin=125168|AlignEnd=125840|Gloss=.|nWord=8
 
 # sent_id = AN15_31-31
@@ -767,14 +767,14 @@
 # text = waseykumey emʉnka ikʉ nʉnkʉrwase'ri .
 # text_en = We Ika people say [all] this.
 # text_phrase-gls-es = decimos todo esto nosotros los arhuacos
-1	wasey	wasey	VERB	_	_	2	comp:aux/m	_	AlignBegin=162420|AlignEnd=162653|GE=speak|Gloss=speak|nWord=1|RX=[V]
+1	wasey	wasey	VERB	_	_	2	comp:aux/m	_	AlignBegin=162420|AlignEnd=162653|ArgumentOrder=VS|GE=speak|Gloss=speak|nWord=1|RX=[V]|Transitivity=transitive
 2	-kume		AUX	_	_	3	comp:aux/m	_	AlignBegin=162653|AlignEnd=162886|GE=[ANTIC]|Gloss=ANTIC|nWord=1|RX=[V:ANY]
-3	-y		PART	_	_	_	_	_	AlignBegin=162886|AlignEnd=163120|GE=while|Gloss=and|nWord=1|RX=[VERB]
-4	emʉnka	emʉnka	ADV	_	_	_	_	_	AlignBegin=163120|AlignEnd=163820|GE=there|Gloss=there|nWord=2|RX=[ADV]
+3	-y		PART	_	_	0	root	_	AlignBegin=162886|AlignEnd=163120|GE=while|Gloss=and|nWord=1|RX=[VERB]
+4	emʉnka	emʉnka	ADV	_	_	6	mod	_	AlignBegin=163120|AlignEnd=163820|GE=there|Gloss=there|nWord=2|RX=[ADV]
 5	ikʉ	ikʉ	PROPN	_	_	6	comp:pred	_	AlignBegin=163820|AlignEnd=164520|GE=[Ika]|Gloss=Ika|nWord=3|RX=[NPROP]
 6	nʉn	nʉn	AUX	_	_	7	comp:aux/m	_	AlignBegin=164520|AlignEnd=164695|GE=cop|Gloss=cop|nWord=4|RX=[COP]
 7	-kʉrwa		AUX	_	_	8	comp	_	AlignBegin=164695|AlignEnd=164870|GE=[1PL].[S].[INCL]|Gloss=1PL.S.INCL|nWord=4|RX=[V:ANY]
-8	=se'	=se'	ADP	_	Case=Erg	1	subj	_	AlignBegin=164870|AlignEnd=165045|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
+8	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	1	subj	_	AgentShift=no|AlignBegin=164870|AlignEnd=165045|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|Topic=yes
 9	=ri		PART	_	_	8	mod	_	AlignBegin=165045|AlignEnd=165220|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 10	.		PUNCT	_	_	9	punct	_	AlignBegin=165220|AlignEnd=165920|Gloss=.|nWord=5
 

@@ -118,15 +118,15 @@
 # text = kakʉ Serankwa zʉ'ʉn ( ih ) ikʉri gowna nʉnno awanʉkwi aya nʉndi .
 # text_en = We say that it was [presumably] Father Serankwa who created the Ika people, right?
 # text_phrase-gls-es = Hasta donde dicen parece ser fue el Padre Serankwa que creó a los arhuacos.
-1	kakʉ	kakʉ	NOUN	_	Case=Erg	9	subj	_	AlignBegin=25179|AlignEnd=25537|GE=father|Gloss=father|nWord=1|RX=[N]
+1	kakʉ	kakʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	9	subj	_	AgentShift=no|AlignBegin=25179|AlignEnd=25537|GE=father|Gloss=father|nWord=1|RX=[N]|Topic=no
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=25537|AlignEnd=25895|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
 3	zʉ'ʉn	zʉ'ʉn	AUX	_	_	2	mod:emph	_	AlignBegin=25895|AlignEnd=26253|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=26253|AlignEnd=26611|nWord=4
 5	ih	ih	INTJ	_	_	7	mod	_	AlignBegin=26611|AlignEnd=26969|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=26969|AlignEnd=27327|nWord=6
-7	ikʉ	ikʉ	PROPN	_	_	9	comp:obj	_	AlignBegin=27327|AlignEnd=27506|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]
+7	ikʉ	ikʉ	PROPN	_	Animacy=Anim|Case=Abs|Definite=Def	9	comp:obj	_	AlignBegin=27327|AlignEnd=27506|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]|Topic=yes
 8	=ri		PART	_	_	7	mod	_	AlignBegin=27506|AlignEnd=27685|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
-9	gow	gow	VERB	_	_	10	comp:aux/m	_	AlignBegin=27685|AlignEnd=27864|GE=build|Gloss=build|nWord=8|RX=[V]
+9	gow	gow	VERB	_	_	10	comp:aux/m	_	AlignBegin=27685|AlignEnd=27864|ArgumentOrder=SOV|GE=build|Gloss=build|nWord=8|RX=[V]|Transitivity=transitive
 10	-na		AUX	_	_	11	comp:aux	_	AlignBegin=27864|AlignEnd=28043|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]
 11	nʉn	nʉn	AUX	_	_	12	comp:aux/m	_	AlignBegin=28043|AlignEnd=28222|GE=cop|Gloss=cop|nWord=9|RX=[COP]
 12	-no		AUX	_	_	13	comp:aux	_	AlignBegin=28222|AlignEnd=28401|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]
@@ -457,13 +457,13 @@
 # text_en = Thats' why, that's why the older brother [said by a woman], or the older brothers [said by a man], the elders, would do anything to guide their little brother. [lit. [...] the elders, little brother, they can make while making anything]
 # text_phrase-gls-es = Por eso, (por eso), hermanos [de mujeres] o hermanos [de hombres] el que es mayor, a sus hermanitos, cualquier cosa (inüki neki) se hace de esta forma
 1	uw	uw	AUX	_	_	2	comp:aux/m	_	AlignBegin=78494|AlignEnd=78689|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
-2	-a'me'		AUX	_	_	_	_	_	AlignBegin=78689|AlignEnd=78884|GE=[CAUSE]|Gloss=CAUSE|nWord=1|RX=[VERB]
-3	gu-		AUX	_	_	_	_	_	AlignBegin=78884|AlignEnd=79274|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]
+2	-a'me'		AUX	_	_	25	discourse	_	AlignBegin=78689|AlignEnd=78884|GE=[CAUSE]|Gloss=CAUSE|nWord=1|RX=[VERB]
+3	gu-		AUX	_	_	2	unk	_	AlignBegin=78884|AlignEnd=79274|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=79274|AlignEnd=79664|nWord=3
-5	ey	ey	PART	_	_	_	_	_	AlignBegin=79664|AlignEnd=80054|GE=so|Gloss=so|nWord=4|RX=[PRT]
-6	ʉndi	ʉndi	ADV	_	_	5	mod	_	AlignBegin=80054|AlignEnd=80444|GE=so|Gloss=so|nWord=5|RX=[ADV]
+5	ey	ey	PART	_	_	6	mod	_	AlignBegin=79664|AlignEnd=80054|GE=so|Gloss=so|nWord=4|RX=[PRT]
+6	ʉndi	ʉndi	ADV	_	_	8	discourse	_	AlignBegin=80054|AlignEnd=80444|GE=so|Gloss=so|nWord=5|RX=[ADV]
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=80444|AlignEnd=80834|nWord=6
-8	kawʉ	kawʉ	NOUN	_	Case=Erg	25	subj	_	AlignBegin=80834|AlignEnd=81224|GE=older.brother[woman]|Gloss=older.brother[woman]|nWord=7|RX=[N]
+8	kawʉ	kawʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	25	subj	_	AgentShift=yes|AlignBegin=80834|AlignEnd=81224|GE=older.brother[woman]|Gloss=older.brother[woman]|nWord=7|RX=[N]|ShiftType=full|Topic=no
 9	,		PUNCT	_	_	8	punct	_	AlignBegin=81224|AlignEnd=81614|nWord=8
 10	kwa	kwa	CCONJ	_	_	11	cc	_	AlignBegin=81614|AlignEnd=82004|GE=or|Gloss=or|nWord=9|RX=[COORDCONN]
 11	gwia	gwia	NOUN	_	_	8	conj:coord	_	AlignBegin=82004|AlignEnd=82394|GE=older.brother[man]|Gloss=older.brother[man]|nWord=10|RX=[N]
@@ -476,15 +476,15 @@
 18	ɉuga	ɉuga	NOUN	_	_	25	conj:dicto	_	AlignBegin=83694|AlignEnd=83824|GE=little.brother|Gloss=little.brother|nWord=14|RX=[N]
 19	=ɉina		PART	_	_	18	mod	_	AlignBegin=83824|AlignEnd=83954|GE=many[animated]|Gloss==many[animated]|nWord=14|RX=[PRT]
 20	,		PUNCT	_	_	19	punct	_	AlignBegin=83954|AlignEnd=84344|nWord=15
-21	inʉ	inʉ	PRON	_	_	25	comp:obj	_	AlignBegin=84344|AlignEnd=84539|GE=what|Gloss=what|nWord=16|RX=[INTERROG]
+21	inʉ	inʉ	PRON	_	Animacy=Inan|Case=Abs|Definite=Ind	25	comp:obj	_	AlignBegin=84344|AlignEnd=84539|GE=what|Gloss=what|nWord=16|RX=[INTERROG]|Topic=no
 22	=ki		PART	_	_	21	mod	_	AlignBegin=84539|AlignEnd=84734|GE=[CNTR]|Gloss==CNTR|nWord=16|RX=[PRT]
 23	neki	neki	PART	_	_	22	mod:emph	_	AlignBegin=84734|AlignEnd=85124|GE=[CNTR]|Gloss=CNTR|nWord=17|RX=[PRT]
-24	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=85124|AlignEnd=85514|GE=there|Gloss=there|nWord=18|RX=[ADV]
-25	aw	aw	VERB	_	_	26	comp:aux/m	_	AlignBegin=85514|AlignEnd=85709|GE=make|Gloss=make|nWord=19|RX=[VT]
+24	eymi	eymi	ADV	_	_	25	mod	_	AlignBegin=85124|AlignEnd=85514|GE=there|Gloss=there|nWord=18|RX=[ADV]
+25	aw	aw	VERB	_	_	26	comp:aux/m	_	AlignBegin=85514|AlignEnd=85709|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=19|RX=[VT]|Transitivity=transitive
 26	-i		PART	_	_	27	comp:coord	_	AlignBegin=85709|AlignEnd=85904|GE=while|Gloss=and|nWord=19|RX=[VERB]
 27	aw	aw	VERB	_	_	28	comp:aux/m	_	AlignBegin=85904|AlignEnd=86099|GE=make|Gloss=make|nWord=20|RX=[VT]
 28	-kwa		AUX	_	_	29	comp:aux	_	AlignBegin=86099|AlignEnd=86294|GE=[ABLE]|Gloss=ABLE|nWord=20|RX=[VERB]
-29	ni	ni	AUX	_	_	_	_	_	AlignBegin=86294|AlignEnd=86689|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]
+29	ni	ni	AUX	_	_	0	root	_	AlignBegin=86294|AlignEnd=86689|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]
 
 # sent_id = AN11_23-23
 # speaker_id = @SP11
@@ -517,8 +517,8 @@
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=90591|AlignEnd=90953|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=90953|AlignEnd=91315|nWord=3
 4	uw	uw	AUX	_	_	5	comp:aux/m	_	AlignBegin=91315|AlignEnd=91496|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
-5	-a'me'		AUX	_	_	_	_	_	AlignBegin=91496|AlignEnd=91677|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
-6	gu-		AUX	_	_	_	_	_	AlignBegin=91677|AlignEnd=92039|GE=[GUN]|Gloss=GUN|nWord=5|RX=[V:ANY]
+5	-a'me'		AUX	_	_	24	discourse	_	AlignBegin=91496|AlignEnd=91677|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
+6	gu-		AUX	_	_	5	unk	_	AlignBegin=91677|AlignEnd=92039|GE=[GUN]|Gloss=GUN|nWord=5|RX=[V:ANY]
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=92039|AlignEnd=92401|nWord=6
 8	(		PUNCT	_	_	9	punct	_	AlignBegin=92401|AlignEnd=92763|nWord=7
 9	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=92763|AlignEnd=93125|GE=[HES]|Gloss=HES|nWord=8|RX=[INTERJ]
@@ -534,10 +534,10 @@
 19	=ʉkin		ADP	_	_	20	comp:pred	_	AlignBegin=95478|AlignEnd=95659|GE=[LIM]|Gloss==LIM|nWord=15|RX=[POST]
 20	n	n	AUX	_	_	21	comp:aux/m	_	AlignBegin=95659|AlignEnd=95840|GE=aux|Gloss=aux|nWord=16|RX=[AUX]
 21	-eyka		AUX	_	_	22	comp:aux	_	AlignBegin=95840|AlignEnd=96021|GE=[EYKA]|Gloss=EYKA|nWord=16|RX=[V:ANY]
-22	ni	ni	AUX	_	_	_	_	_	AlignBegin=96021|AlignEnd=96383|GE=[DECL]|Gloss=DECL|nWord=17|RX=[AUX]
+22	ni	ni	AUX	_	_	24	root	_	AlignBegin=96021|AlignEnd=96383|GE=[DECL]|Gloss=DECL|nWord=17|RX=[AUX]
 23	a-		PRON	_	_	24	subj/m	_	AlignBegin=96383|AlignEnd=96564|GE=[1PL].[S]|Gloss=1PL.S|nWord=18|RX=[V:ANY]
 24	ya	ya	VERB	_	_	25	comp:aux	_	AlignBegin=96564|AlignEnd=96745|GE=say|Gloss=say|nWord=18|RX=[VI]
-25	nʉn	nʉn	AUX	_	_	_	_	_	AlignBegin=96745|AlignEnd=96929|GE=cop|Gloss=cop|nWord=19|RX=[COP]
+25	nʉn	nʉn	AUX	_	_	0	root	_	AlignBegin=96745|AlignEnd=96929|GE=cop|Gloss=cop|nWord=19|RX=[COP]
 26	=di		PART	_	_	25	mod	_	AlignBegin=96929|AlignEnd=97114|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]
 
 # sent_id = AN11_25-25
@@ -548,16 +548,16 @@
 # text = umʉ'n a'zʉnari azaku akakʉ igunamʉsʉya
 # text_en = The older [brothers] help their mother and father.
 # text_phrase-gls-es = el mayor [= los hermanos mayores] le ayuda a la mamá, al papá
-1	umʉ'n	umʉ'n	ADV	_	Animacy=Anim|Case=Erg	9	subj	_	AlignBegin=97114|AlignEnd=97398|GE=more|Gloss=more|nWord=1|RX=[ADV]
+1	umʉ'n	umʉ'n	ADV	_	Animacy=Anim|Case=Erg|Definite=Def	9	subj	_	AgentShift=no|AlignBegin=97114|AlignEnd=97398|GE=more|Gloss=more|nWord=1|RX=[ADV]|Topic=yes
 2	a'zʉna	a'zʉna	VERB	_	_	1	flat	_	AlignBegin=97398|AlignEnd=97682|GE=think|Gloss=think|nWord=1|RX=[V]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=97682|AlignEnd=97965|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	a-		PRON	_	_	5	udep:poss/m	_	AlignBegin=97965|AlignEnd=98391|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=2|RX=[POSS]
-5	zaku	zaku	NOUN	_	_	9	comp:obj	_	AlignBegin=98391|AlignEnd=98816|GE=mother|Gloss=mother|nWord=2|RX=[N]
+5	zaku	zaku	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def	9	comp:obj	_	AlignBegin=98391|AlignEnd=98816|GE=mother|Gloss=mother|nWord=2|RX=[N]|Topic=no
 6	a-		PRON	_	_	7	udep:poss/m	_	AlignBegin=98816|AlignEnd=99242|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=3|RX=[POSS]
 7	kakʉ	kakʉ	NOUN	_	_	5	conj:coord	_	AlignBegin=99242|AlignEnd=99667|GE=father|Gloss=father|nWord=3|RX=[N]
 8	i-		AUX	_	_	9	mod/m	_	AlignBegin=99667|AlignEnd=99950|GE=[APPL2]|Gloss=APPL2|nWord=4|RX=[V>V]
-9	gunamʉsʉ	gunamʉsʉ	VERB	_	_	10	comp:aux/m	_	AlignBegin=99950|AlignEnd=100233|GE=help|Gloss=help|nWord=4|RX=[V]
-10	-ya		AUX	_	_	_	_	_	AlignBegin=100233|AlignEnd=100517|GE=[NONEGO]|Gloss=NONEGO|nWord=4|RX=[V:ANY]
+9	gunamʉsʉ	gunamʉsʉ	VERB	_	_	10	comp:aux/m	_	AlignBegin=99950|AlignEnd=100233|ArgumentOrder=SOV|GE=help|Gloss=help|nWord=4|RX=[V]|Transitivity=transitive
+10	-ya		AUX	_	_	0	root	_	AlignBegin=100233|AlignEnd=100517|GE=[NONEGO]|Gloss=NONEGO|nWord=4|RX=[V:ANY]
 
 # sent_id = AN11_26-26
 # speaker_id = @SP11

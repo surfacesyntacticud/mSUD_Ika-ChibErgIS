@@ -403,7 +403,7 @@
 3	an-		AUX	_	_	4	mod/m	_	AlignBegin=81200|AlignEnd=81600|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	anisi	anisi	VERB	_	_	5	comp:aux	_	AlignBegin=81600|AlignEnd=82000|GE=have.put|Gloss=have.put|nWord=3|RX=[V]
 5	n	n	AUX	_	_	6	comp:aux/m	_	AlignBegin=82000|AlignEnd=82267|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
-6	-e'		AUX	_	_	_	_	_	AlignBegin=82267|AlignEnd=82534|GE=then|Gloss=then|nWord=4|RX=[VERB]
+6	-e'		AUX	_	_	0	root	_	AlignBegin=82267|AlignEnd=82534|GE=then|Gloss=then|nWord=4|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=82534|AlignEnd=82800|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=82800|AlignEnd=83600|nWord=5|wordform=,.
 
@@ -749,23 +749,23 @@
 3	.		PUNCT	_	_	2	punct	_	AlignBegin=146266|AlignEnd=147600|Gloss=.|nWord=3
 
 # sent_id = CD14_36-36
+# text = a'mia manʉnka' mowga minhyu nusi zoye'ri ,.
 # speaker_id = @SP14
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-14.WAV/WAV/ARH-TXT-CD-00000-14.WAV
 # sent_timecode = 147600, 151600
 # morphemic_text = a'mia manʉnka' mowga mi- nh- yu nus -i zoy -e' =ri ,.
-# text = a'mia manʉnka' mowga minhyu nusi zoye'ri ,.
-# text_en = We women wear two [layers]
+# text_en = We women wear two layers. [lit. We women introduce two to you.]
 # text_phrase-gls-es = Nosotras, las mujeres, utilizamos dos capas
-1	a'mia	a'mia	NOUN	_	Case=Erg	6	subj	_	AlignBegin=147600|AlignEnd=148171|GE=woman|Gloss=woman|nWord=1|RX=[N]
+1	a'mia	a'mia	NOUN	_	Case=Nom	6	subj	_	AlignBegin=147600|AlignEnd=148171|GE=woman|Gloss=woman|nWord=1|RX=[N]
 2	manʉnka'	manʉnka'	PRON	_	_	1	mod	_	AlignBegin=148171|AlignEnd=148742|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=2|RX=[PRO]
-3	mowga	mowga	NUM	_	_	6	comp:obj	_	AlignBegin=148742|AlignEnd=149313|GE=two|Gloss=two|nWord=3|RX=[NUM]
+3	mowga	mowga	NUM	_	Animacy=Anim|Case=Abs|Definite=Def	6	comp:obj	_	AlignBegin=148742|AlignEnd=149313|GE=two|Gloss=two|nWord=3|RX=[NUM]|Topic=no
 4	mi-		PRON	_	_	5	comp:obj/m	_	AlignBegin=149313|AlignEnd=149503|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]
 5	nh-		AUX	_	_	6	mod/m	_	AlignBegin=149503|AlignEnd=149693|GE=[APPL2]|Gloss=APPL2|nWord=4|RX=[V>V]
-6	yu	yu	VERB	_	_	7	comp:aux	_	AlignBegin=149693|AlignEnd=149884|GE=introduce|Gloss=introduce|nWord=4|RX=[V]
+6	yu	yu	VERB	_	_	7	comp:aux	_	AlignBegin=149693|AlignEnd=149884|ArgumentOrder=SOV|GE=introduce|Gloss=introduce|nWord=4|RX=[V]|Transitivity=ditransitive
 7	nus	nus	AUX	_	_	8	comp:aux/m	_	AlignBegin=149884|AlignEnd=150170|GE=aux|Gloss=aux|nWord=5|RX=[COP]
-8	-i		PART	_	_	_	_	_	AlignBegin=150170|AlignEnd=150455|GE=while|Gloss=and|nWord=5|RX=[VERB]
+8	-i		PART	_	_	9	comp:aux	_	AlignBegin=150170|AlignEnd=150455|GE=while|Gloss=and|nWord=5|RX=[VERB]
 9	zoy	zoy	VERB	_	_	10	comp:aux/m	_	AlignBegin=150455|AlignEnd=150645|GE=go|Gloss=go|nWord=6|RX=[V]
-10	-e'		AUX	_	_	_	_	_	AlignBegin=150645|AlignEnd=150835|GE=then|Gloss=then|nWord=6|RX=[VERB]
+10	-e'		AUX	_	_	0	root	_	AlignBegin=150645|AlignEnd=150835|GE=then|Gloss=then|nWord=6|RX=[VERB]
 11	=ri		PART	_	_	10	mod	_	AlignBegin=150835|AlignEnd=151026|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 12	,		PUNCT	_	_	11	punct	_	AlignBegin=151026|AlignEnd=151600|nWord=7|wordform=,.
 
@@ -871,7 +871,7 @@
 # text_en = using the cap
 # text_phrase-gls-es = utilizando el gorro
 1	goru	goru	NOUN	_	_	2	comp:obj	_	AlignBegin=175600|AlignEnd=176600|GE=cap|Gloss=cap|nWord=1|RX=[N]
-2	anisi	anisi	VERB	_	_	_	_	_	AlignBegin=176600|AlignEnd=177100|GE=have.put|Gloss=have.put|nWord=2|RX=[V]
+2	anisi	anisi	VERB	_	_	0	root	_	AlignBegin=176600|AlignEnd=177100|GE=have.put|Gloss=have.put|nWord=2|RX=[V]
 3	=gwi		ADV	_	_	2	mod	_	AlignBegin=177100|AlignEnd=177600|GE=also|Gloss==also|nWord=2|RX=[ADV]
 4	neki	neki	PART	_	_	3	mod:emph	_	AlignBegin=177600|AlignEnd=178600|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=178600|AlignEnd=179600|nWord=4|wordform=,.

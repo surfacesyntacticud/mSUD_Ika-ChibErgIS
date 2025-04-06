@@ -375,12 +375,12 @@
 # text_en = Serwankwa did so
 # text_phrase-gls-es = Serwankwa lo hizo así
 1	Serankwa	Serankwa	PROPN	_	_	2	comp	_	AlignBegin=79691|AlignEnd=79883|GE=[Serankwa]|Gloss=Serankwa|nWord=1|RX=[NPROP]
-2	=se'	=se'	ADP	_	Case=Erg	6	subj	_	AlignBegin=79883|AlignEnd=80075|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]
+2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=yes|AlignBegin=79883|AlignEnd=80075|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=full|Topic=yes
 3	=ri		PART	_	_	2	mod	_	AlignBegin=80075|AlignEnd=80268|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	eymi	eymi	PRON	_	_	6	comp:obj	_	AlignBegin=80268|AlignEnd=80845|GE=that|Gloss=that|nWord=2|RX=[DET]
+4	eymi	eymi	PRON	_	Animacy=Inan|Case=Abs|Definite=Def	6	comp:obj	_	AlignBegin=80268|AlignEnd=80845|GE=that|Gloss=that|nWord=2|RX=[DET]|Topic=no
 5	an-		AUX	_	_	6	mod/m	_	AlignBegin=80845|AlignEnd=81037|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
-6	aw	aw	VERB	_	_	7	comp:aux/m	_	AlignBegin=81037|AlignEnd=81229|GE=make|Gloss=make|nWord=3|RX=[VT]
-7	-i		PART	_	_	_	_	_	AlignBegin=81229|AlignEnd=81422|GE=while|Gloss=and|nWord=3|RX=[VERB]
+6	aw	aw	VERB	_	_	7	comp:aux/m	_	AlignBegin=81037|AlignEnd=81229|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=3|RX=[VT]|Transitivity=transitive
+7	-i		PART	_	_	0	root	_	AlignBegin=81229|AlignEnd=81422|GE=while|Gloss=and|nWord=3|RX=[VERB]
 8	.		PUNCT	_	_	7	punct	_	AlignBegin=81422|AlignEnd=81999|Gloss=.|nWord=4
 
 # sent_id = AN21_18-18
@@ -602,10 +602,10 @@
 # text_phrase-gls-es = El león iba a cuidar esta tierra
 1	gwiaɉina	gwiaɉina	NOUN	_	_	3	conj:appos	_	AlignBegin=125280|AlignEnd=125724|GE=mountain lion|Gloss=mountain lion|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=125724|AlignEnd=126169|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	eyma	eyma	PRON	_	Case=Erg	6	subj	_	AlignBegin=126169|AlignEnd=126613|GE=this|Gloss=this|nWord=2|RX=[DEM]
+3	eyma	eyma	PRON	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=yes|AlignBegin=126169|AlignEnd=126613|GE=this|Gloss=this|nWord=2|RX=[DEM]|ShiftType=full|Topic=yes
 4	=ri		PART	_	_	3	mod	_	AlignBegin=126613|AlignEnd=127058|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-5	ka'agʉmmʉ	ka'agʉmmʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=127058|AlignEnd=127947|GE=earth|Gloss=earth|nWord=3|RX=[N]
-6	chu	chu	VERB	_	_	7	comp:aux/m	_	AlignBegin=127947|AlignEnd=128243|GE=guard|Gloss=guard|nWord=4|RX=[V]
+5	ka'agʉmmʉ	ka'agʉmmʉ	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def	6	comp:obj	_	AlignBegin=127058|AlignEnd=127947|GE=earth|Gloss=earth|nWord=3|RX=[N]|Topic=yes
+6	chu	chu	VERB	_	_	7	comp:aux/m	_	AlignBegin=127947|AlignEnd=128243|ArgumentOrder=SOV|GE=guard|Gloss=guard|nWord=4|RX=[V]|Transitivity=transitive
 7	-ngwa		AUX	_	_	0	root	_	AlignBegin=128243|AlignEnd=128539|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=128539|AlignEnd=128836|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 9	.		PUNCT	_	_	8	punct	_	AlignBegin=128836|AlignEnd=129724|Gloss=.|nWord=5
@@ -648,7 +648,7 @@
 5	=te		PART	_	_	3	mod	_	AlignBegin=139339|AlignEnd=139585|GE=[PL].[ADJ]|Gloss==PL.ADJ|nWord=3|RX=[ADJ]
 6	gunʉ	gunʉ	NOUN	_	_	7	comp:pred	_	AlignBegin=139585|AlignEnd=140077|GE=hand|Gloss=hand|nWord=4|RX=[N]
 7	nan	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=140077|AlignEnd=140241|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
-8	-e'		AUX	_	_	_	_	_	AlignBegin=140241|AlignEnd=140405|GE=then|Gloss=then|nWord=5|RX=[VERB]
+8	-e'		AUX	_	_	0	root	_	AlignBegin=140241|AlignEnd=140405|GE=then|Gloss=then|nWord=5|RX=[VERB]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=140405|AlignEnd=140569|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 10	.		PUNCT	_	_	9	punct	_	AlignBegin=140569|AlignEnd=141064|Gloss=.|nWord=6
 
@@ -660,12 +660,12 @@
 # text = deyru , ingʉ kawa nʉnna .
 # text_en = and skinny, and he was small
 # text_phrase-gls-es = y flaco, y era chiquito
-1	deyru	deyru	ADJ	_	_	_	_	_	AlignBegin=141251|AlignEnd=141721|GE=thin|Gloss=thin|nWord=1|RX=[ADJ]
+1	deyru	deyru	ADJ	_	_	4	conj:appos	_	AlignBegin=141251|AlignEnd=141721|GE=thin|Gloss=thin|nWord=1|RX=[ADJ]
 2	,		PUNCT	_	_	1	punct	_	AlignBegin=141721|AlignEnd=142191|nWord=2
 3	ingʉ	ingʉ	ADJ	_	_	4	comp:pred@attr	_	AlignBegin=142191|AlignEnd=142661|GE=small|Gloss=small|nWord=3|RX=[ADJ]
 4	kawa	kawa	AUX	_	_	5	comp:aux	_	AlignBegin=142661|AlignEnd=143131|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
 5	nʉn	nʉn	AUX	_	_	6	comp:aux/m	_	AlignBegin=143131|AlignEnd=143366|GE=cop|Gloss=cop|nWord=5|RX=[COP]
-6	-na		AUX	_	_	_	_	_	AlignBegin=143366|AlignEnd=143601|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
+6	-na		AUX	_	_	0	root	_	AlignBegin=143366|AlignEnd=143601|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
 7	.		PUNCT	_	_	6	punct	_	AlignBegin=143601|AlignEnd=144071|Gloss=.|nWord=6
 
 # sent_id = AN21_31-31
@@ -678,15 +678,15 @@
 # text_phrase-gls-es = Entonces, cuando vio la mano del león,
 1	u	u	AUX	_	_	2	comp:aux/m	_	AlignBegin=144170|AlignEnd=144289|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=144289|AlignEnd=144408|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
-3	-e'		AUX	_	_	_	_	_	AlignBegin=144408|AlignEnd=144527|GE=then|Gloss=then|nWord=1|RX=[VERB]
+3	-e'		AUX	_	_	8	discourse	_	AlignBegin=144408|AlignEnd=144527|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=144527|AlignEnd=144647|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-5	gwiaɉina	gwiaɉina	NOUN	_	Case=Erg	8	subj	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]
+5	gwiaɉina	gwiaɉina	NOUN	_	_	8	comp:obj	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=144885|AlignEnd=145124|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-7	gunʉ	gunʉ	NOUN	_	_	8	comp:obj	_	AlignBegin=145124|AlignEnd=145601|GE=hand|Gloss=hand|nWord=3|RX=[N]
+7	gunʉ	gunʉ	NOUN	_	_	5	mod	_	AlignBegin=145124|AlignEnd=145601|GE=hand|Gloss=hand|nWord=3|RX=[N]
 8	chwa	chwa	VERB	_	_	9	comp:aux	_	AlignBegin=145601|AlignEnd=146078|GE=see|Gloss=see|nWord=4|RX=[VT]
 9	u	u	AUX	_	_	10	comp:aux/m	_	AlignBegin=146078|AlignEnd=146197|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 10	-y		AUX	_	_	11	comp:aux/m	_	AlignBegin=146197|AlignEnd=146316|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]
-11	-e'		AUX	_	_	_	_	_	AlignBegin=146316|AlignEnd=146435|GE=then|Gloss=then|nWord=5|RX=[VERB]
+11	-e'		AUX	_	_	0	root	_	AlignBegin=146316|AlignEnd=146435|GE=then|Gloss=then|nWord=5|RX=[VERB]
 12	=ri		PART	_	_	11	mod	_	AlignBegin=146435|AlignEnd=146555|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 13	.		PUNCT	_	_	12	punct	_	AlignBegin=146555|AlignEnd=147033|Gloss=.|nWord=6
 
@@ -855,19 +855,19 @@
 # text_en = The mountain lion did damage so that he would live himself.
 # text_phrase-gls-es = El león hizo danyo para que viva el mismo
 1	a	a	PRON	_	Case=Abs	4	subj	_	AlignBegin=162316|AlignEnd=162567|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]
-2	kingwi	kingwi	ADJ	_	_	_	_	_	AlignBegin=162567|AlignEnd=162818|GE=same|Gloss=same|nWord=2|RX=[ADJ]
+2	kingwi	kingwi	ADJ	_	_	1	mod	_	AlignBegin=162567|AlignEnd=162818|GE=same|Gloss=same|nWord=2|RX=[ADJ]
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=162818|AlignEnd=162902|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	kwʉ	kwʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=162902|AlignEnd=162986|GE=live|Gloss=live|nWord=3|RX=[V]
-5	-ngwa		AUX	_	_	_	_	_	AlignBegin=162986|AlignEnd=163069|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
-6	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=163069|AlignEnd=163320|GE=so|Gloss=so|nWord=4|RX=[ADV]
-7	gwiaɉina	gwiaɉina	NOUN	_	Case=Erg	14	subj	_	AlignBegin=163320|AlignEnd=163446|GE=mountain lion|Gloss=mountain lion|nWord=5|RX=[N]
+5	-ngwa		AUX	_	_	14	comp:purpose	_	AlignBegin=162986|AlignEnd=163069|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
+6	ʉndi	ʉndi	ADV	_	_	14	discourse	_	AlignBegin=163069|AlignEnd=163320|GE=so|Gloss=so|nWord=4|RX=[ADV]
+7	gwiaɉina	gwiaɉina	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	14	subj	_	AgentShift=no|AlignBegin=163320|AlignEnd=163446|GE=mountain lion|Gloss=mountain lion|nWord=5|RX=[N]|Topic=yes
 8	=ri		PART	_	_	7	mod	_	AlignBegin=163446|AlignEnd=163571|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 9	(		PUNCT	_	_	10	punct	_	AlignBegin=163571|AlignEnd=163822|nWord=6
 10	uh	uh	INTJ	_	_	_	_	_	AlignBegin=163822|AlignEnd=164073|GE=[HES]|Gloss=HES|nWord=7|RX=[INTERJ]
 11	)		PUNCT	_	_	10	punct	_	AlignBegin=164073|AlignEnd=164324|nWord=8
-12	wa'mʉ	wa'mʉ	NOUN	_	_	14	comp:obj	_	AlignBegin=164324|AlignEnd=164575|GE=damage|Gloss=damage|nWord=9|RX=[N]
+12	wa'mʉ	wa'mʉ	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def	14	comp:obj	_	AlignBegin=164324|AlignEnd=164575|GE=damage|Gloss=damage|nWord=9|RX=[N]|Topic=no
 13	ʉn-		AUX	_	_	14	mod/m	_	AlignBegin=164575|AlignEnd=164701|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
-14	sa	sa	VERB	_	_	_	_	_	AlignBegin=164701|AlignEnd=164826|GE=put.down|Gloss=put.down|nWord=10|RX=[V]
+14	sa	sa	VERB	_	_	0	root	_	AlignBegin=164701|AlignEnd=164826|ArgumentOrder=SOV|GE=put.down|Gloss=put.down|nWord=10|RX=[V]|Transitivity=transitive
 15	.		PUNCT	_	_	14	punct	_	AlignBegin=164826|AlignEnd=165074|Gloss=.|nWord=11
 
 # sent_id = AN21_41-41

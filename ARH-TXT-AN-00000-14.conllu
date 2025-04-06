@@ -139,22 +139,22 @@
 # text = iwa Serankwari " eyma bema ingumʉn atiri aniga anikukwi nariza nʉnno ?".
 # text_en = And Serwankwa: "Which of the women could produce harvest?"?
 # text_phrase-gls-es = Y Serankwa "Cuál de de las mujer podría producir cosecha?"
-1	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=23360|AlignEnd=23987|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]
+1	iwa	iwa	CCONJ	_	_	2	cc	_	AlignBegin=23360|AlignEnd=23987|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]
 2	Serankwa	Serankwa	PROPN	_	_	16	discourse	_	AlignBegin=23987|AlignEnd=24301|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=24301|AlignEnd=24614|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-4	"		PUNCT	_	_	3	punct	_	AlignBegin=24614|AlignEnd=25241|nWord=3
+4	"		PUNCT	_	_	5	punct	_	AlignBegin=24614|AlignEnd=25241|nWord=3
 5	eyma	eyma	DET	_	_	6	det	_	AlignBegin=25241|AlignEnd=25868|GE=this|Gloss=this|nWord=4|RX=[DEM]
 6	bema	bema	DET	_	_	8	det	_	AlignBegin=25868|AlignEnd=26495|GE=which|Gloss=which|nWord=5|RX=[INTERROG]
 7	ingumʉn	ingumʉn	ADV	_	_	6	mod	_	AlignBegin=26495|AlignEnd=27122|GE=more|Gloss=more|nWord=6|RX=[ADV]
-8	ati	ati	NOUN	_	Case=Erg	11	subj	_	AlignBegin=27122|AlignEnd=27436|GE=female|Gloss=female|nWord=7|RX=[N]
+8	ati	ati	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	11	subj	_	AgentShift=no|AlignBegin=27122|AlignEnd=27436|GE=female|Gloss=female|nWord=7|RX=[N]|Topic=yes
 9	=ri		PART	_	_	8	mod	_	AlignBegin=27436|AlignEnd=27749|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
-10	aniga	aniga	NOUN	_	_	11	comp:obj	_	AlignBegin=27749|AlignEnd=28376|GE=harvest|Gloss=harvest|nWord=8|RX=[V]
-11	anik	anik	VERB	_	_	12	comp:aux/m	_	AlignBegin=28376|AlignEnd=28690|GE=produce|Gloss=produce|nWord=9|RX=[VT]
+10	aniga	aniga	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	11	comp:obj	_	AlignBegin=27749|AlignEnd=28376|GE=harvest|Gloss=harvest|nWord=8|RX=[V]|Topic=no
+11	anik	anik	VERB	_	_	12	comp:aux/m	_	AlignBegin=28376|AlignEnd=28690|ArgumentOrder=SOV|GE=produce|Gloss=produce|nWord=9|RX=[VT]|Transitivity=transitive
 12	-ukwi		AUX	_	_	13	comp:aux	_	AlignBegin=28690|AlignEnd=29003|GE=[ABLE]|Gloss=ABLE|nWord=9|RX=[VERB]
 13	nar	nar	AUX	_	_	14	comp:aux/m	_	AlignBegin=29003|AlignEnd=29317|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]
 14	-iza		AUX	_	_	15	comp:aux	_	AlignBegin=29317|AlignEnd=29630|GE=[RESULT]|Gloss=RESULT|nWord=10|RX=[VERB]
 15	nʉn	nʉn	AUX	_	_	16	comp:aux/m	_	AlignBegin=29630|AlignEnd=29944|GE=cop|Gloss=cop|nWord=11|RX=[COP]
-16	-no		AUX	_	_	_	_	_	AlignBegin=29944|AlignEnd=30257|GE=[Q]|Gloss=Q|nWord=11|RX=[VERB]
+16	-no		AUX	_	_	0	root	_	AlignBegin=29944|AlignEnd=30257|GE=[Q]|Gloss=Q|nWord=11|RX=[VERB]
 17	?".		PUNCT	_	_	16	punct	_	AlignBegin=30257|AlignEnd=30883|nWord=12
 
 # sent_id = AN14_08-08
@@ -337,13 +337,13 @@
 2	,		PUNCT	_	_	1	punct	_	AlignBegin=62529|AlignEnd=62918|nWord=2
 3	kakʉ	kakʉ	NOUN	_	_	5	comp	_	AlignBegin=62918|AlignEnd=63307|GE=father|Gloss=father|nWord=3|RX=[N]
 4	Serankwa	Serankwa	PROPN	_	_	3	flat	_	AlignBegin=63307|AlignEnd=63501|GE=[Serankwa]|Gloss=Serankwa|nWord=4|RX=[NPROP]
-5	=se'	=se'	ADP	_	Case=Erg	7	subj	_	AlignBegin=63501|AlignEnd=63696|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]
+5	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=yes|AlignBegin=63501|AlignEnd=63696|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|ShiftType=partial|Topic=no
 6	an-		AUX	_	_	7	mod/m	_	AlignBegin=63696|AlignEnd=63890|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
-7	a'gusi	a'gusi	VERB	_	_	_	_	_	AlignBegin=63890|AlignEnd=64085|GE=take.out|Gloss=take.out|nWord=5|RX=[VT]
+7	a'gusi	a'gusi	VERB	_	_	9	mod	_	AlignBegin=63890|AlignEnd=64085|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=5|RX=[VT]|Transitivity=transitive
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=64085|AlignEnd=64279|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
 9	zoya	zoya	VERB	_	_	10	comp:aux	_	AlignBegin=64279|AlignEnd=64474|GE=go|Gloss=go|nWord=6|RX=[VI]
 10	nan	nan	AUX	_	_	11	comp:aux/m	_	AlignBegin=64474|AlignEnd=64668|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
-11	-i		PART	_	_	_	_	_	AlignBegin=64668|AlignEnd=64863|GE=while|Gloss=and|nWord=7|RX=[VERB]
+11	-i		PART	_	_	0	root	_	AlignBegin=64668|AlignEnd=64863|GE=while|Gloss=and|nWord=7|RX=[VERB]
 12	,		PUNCT	_	_	11	punct	_	AlignBegin=64863|AlignEnd=65252|nWord=8|wordform=,.
 
 # sent_id = AN14_16-16
@@ -449,20 +449,20 @@
 # text_phrase-gls-es = El papá Serankwa lo formó/hizo para que sea productivo,
 1	kakʉ	kakʉ	NOUN	_	_	3	comp	_	AlignBegin=80989|AlignEnd=81476|GE=father|Gloss=father|nWord=1|RX=[N]
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=81476|AlignEnd=81720|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
-3	=se'	=se'	ADP	_	Case=Erg	13	subj	_	AlignBegin=81720|AlignEnd=81963|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]
+3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	13	subj	_	AgentShift=yes|AlignBegin=81720|AlignEnd=81963|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|ShiftType=partial|Topic=no
 4	ʉn-		AUX	_	_	5	mod/m	_	AlignBegin=81963|AlignEnd=82085|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 5	de'-		AUX	_	_	6	mod/m	_	AlignBegin=82085|AlignEnd=82207|GE=[REFL]|Gloss=REFL|nWord=3|RX=[VERB]
 6	nis	nis	VERB	_	_	7	comp:aux/m	_	AlignBegin=82207|AlignEnd=82329|GE=produce|Gloss=produce|nWord=3|RX=[VT]
-7	-i		PART	_	_	_	_	_	AlignBegin=82329|AlignEnd=82450|GE=while|Gloss=and|nWord=3|RX=[VERB]
+7	-i		PART	_	_	9	mod	_	AlignBegin=82329|AlignEnd=82450|GE=while|Gloss=and|nWord=3|RX=[VERB]
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=82450|AlignEnd=82612|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
 9	zwey	zwey	VERB	_	_	10	comp:aux/m	_	AlignBegin=82612|AlignEnd=82774|GE=go|Gloss=go|nWord=4|RX=[VI]
-10	-ngwa		AUX	_	_	_	_	_	AlignBegin=82774|AlignEnd=82937|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]
+10	-ngwa		AUX	_	_	13	mod:purpose	_	AlignBegin=82774|AlignEnd=82937|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]
 11	ʉn-		AUX	_	_	12	mod/m	_	AlignBegin=82937|AlignEnd=83059|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
 12	de'-		AUX	_	_	13	mod/m	_	AlignBegin=83059|AlignEnd=83181|GE=[REFL]|Gloss=REFL|nWord=5|RX=[VERB]
-13	gaw	gaw	VERB	_	_	14	comp:aux/m	_	AlignBegin=83181|AlignEnd=83303|GE=make|Gloss=make|nWord=5|RX=[V]
-14	-i		PART	_	_	_	_	_	AlignBegin=83303|AlignEnd=83424|GE=while|Gloss=and|nWord=5|RX=[VERB]
+13	gaw	gaw	VERB	_	_	14	comp:aux/m	_	AlignBegin=83181|AlignEnd=83303|ArgumentOrder=SV|GE=make|Gloss=make|nWord=5|RX=[V]|Transitivity=transitive
+14	-i		PART	_	_	16	mod	_	AlignBegin=83303|AlignEnd=83424|GE=while|Gloss=and|nWord=5|RX=[VERB]
 15	ʉn-		AUX	_	_	16	mod/m	_	AlignBegin=83424|AlignEnd=83668|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
-16	zoya	zoya	VERB	_	_	_	_	_	AlignBegin=83668|AlignEnd=83911|GE=go|Gloss=go|nWord=6|RX=[VI]
+16	zoya	zoya	VERB	_	_	0	root	_	AlignBegin=83668|AlignEnd=83911|GE=go|Gloss=go|nWord=6|RX=[VI]
 17	,		PUNCT	_	_	16	punct	_	AlignBegin=83911|AlignEnd=84400|nWord=7|wordform=,.
 
 # sent_id = AN14_21-21
@@ -516,12 +516,12 @@
 # text_en = Because of this, the one who gave birth to him [lit. took him out], the woman they most wanted to reproduce[,] was the black soil.
 # text_phrase-gls-es = Por eso, este que lo parió, la mujer que más quieren que se reproduzca era la tierra negra.
 # text_phrase-gls-tl = a'gukün
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=89330|AlignEnd=89826|GE=so|Gloss=so|nWord=1|RX=[PRT]
+1	ey	ey	PART	_	_	2	mod	_	AlignBegin=89330|AlignEnd=89826|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	uw	uw	AUX	_	_	3	comp:aux/m	_	AlignBegin=89826|AlignEnd=90074|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
-3	-a'me		AUX	_	_	_	_	_	AlignBegin=90074|AlignEnd=90322|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
+3	-a'me		AUX	_	_	31	discourse	_	AlignBegin=90074|AlignEnd=90322|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
 4	eyma	eyma	PRON	_	_	5	comp	_	AlignBegin=90322|AlignEnd=90570|GE=this|Gloss=this|nWord=3|RX=[DEM]
-5	=se'	=se'	ADP	_	Case=Erg	6	subj	_	AlignBegin=90570|AlignEnd=90818|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
-6	a'gu	a'gu	VERB	_	_	7	comp:aux/m	_	AlignBegin=90818|AlignEnd=91066|GE=take.out|Gloss=take.out|nWord=4|RX=[VT]
+5	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=yes|AlignBegin=90570|AlignEnd=90818|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]|ShiftType=partial|Topic=no
+6	a'gu	a'gu	VERB	_	_	7	comp:aux/m	_	AlignBegin=90818|AlignEnd=91066|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=4|RX=[VT]|Transitivity=transitive
 7	-na		AUX	_	_	8	comp:aux	_	AlignBegin=91066|AlignEnd=91314|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
 8	nan	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=91314|AlignEnd=91562|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
 9	-i		PART	_	_	31	subj	_	AlignBegin=91562|AlignEnd=91810|GE=while|Gloss=and|nWord=5|RX=[VERB]
@@ -531,7 +531,7 @@
 13	)		PUNCT	_	_	12	punct	_	AlignBegin=93298|AlignEnd=93794|nWord=9
 14	ema	ema	DET	_	_	15	det	_	AlignBegin=93794|AlignEnd=94290|GE=this|Gloss=this|nWord=10|RX=[DEM]
 15	ati	ati	ADJ	_	Case=Abs	19	subj	_	AlignBegin=94290|AlignEnd=94786|GE=fruitful|Gloss=fruitful|nWord=11|RX=[ADJ]
-16	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=94786|AlignEnd=95282|GE=more|Gloss=more|nWord=12|RX=[ADV]
+16	ingumʉn	ingumʉn	ADV	_	_	19	mod	_	AlignBegin=94786|AlignEnd=95282|GE=more|Gloss=more|nWord=12|RX=[ADV]
 17	ʉn-		AUX	_	_	18	mod/m	_	AlignBegin=95282|AlignEnd=95406|GE=[MID]|Gloss=MID|nWord=13|RX=[V>V]
 18	dere'-		AUX	_	_	19	mod/m	_	AlignBegin=95406|AlignEnd=95530|GE=[REFL]|Gloss=REFL|nWord=13|RX=[VERB]
 19	nis	nis	VERB	_	_	20	comp:aux/m	_	AlignBegin=95530|AlignEnd=95654|GE=produce|Gloss=produce|nWord=13|RX=[VT]
@@ -548,7 +548,7 @@
 30	twiskʉnʉ	twiskʉnʉ	ADJ	_	_	29	mod	_	AlignBegin=98754|AlignEnd=99250|GE=black|Gloss=black|nWord=20|RX=[ADJ]
 31	nʉn	nʉn	AUX	_	_	32	comp:aux/m	_	AlignBegin=99250|AlignEnd=99498|GE=cop|Gloss=cop|nWord=21|RX=[COP]
 32	-na		AUX	_	_	33	comp:aux	_	AlignBegin=99498|AlignEnd=99746|GE=[RMTPST]|Gloss=RMTPST|nWord=21|RX=[VERB]
-33	ni	ni	AUX	_	_	_	_	_	AlignBegin=99746|AlignEnd=100242|GE=[DECL]|Gloss=DECL|nWord=22|RX=[AUX]
+33	ni	ni	AUX	_	_	0	root	_	AlignBegin=99746|AlignEnd=100242|GE=[DECL]|Gloss=DECL|nWord=22|RX=[AUX]
 34	.		PUNCT	_	_	33	punct	_	AlignBegin=100242|AlignEnd=100732|Gloss=.|nWord=23
 
 # sent_id = AN14_25-25
@@ -633,10 +633,10 @@
 # text_en = Because they were thinking this,
 # text_phrase-gls-es = como venían pensando esto,
 1	i-		AUX	_	_	2	mod/m	_	AlignBegin=111626|AlignEnd=111792|GE=[APPL2]|Gloss=APPL2|nWord=1|RX=[V>V]
-2	'zari	'zari	VERB	_	_	_	_	_	AlignBegin=111792|AlignEnd=111957|GE=think|Gloss=think|nWord=1|RX=[V]
+2	'zari	'zari	VERB	_	_	3	mod	_	AlignBegin=111792|AlignEnd=111957|GE=think|Gloss=think|nWord=1|RX=[V]
 3	zoya	zoya	VERB	_	_	4	comp:aux	_	AlignBegin=111957|AlignEnd=112288|GE=go|Gloss=go|nWord=2|RX=[V]
 4	n	n	AUX	_	_	5	comp:aux/m	_	AlignBegin=112288|AlignEnd=112454|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
-5	-a'me'		AUX	_	_	_	_	_	AlignBegin=112454|AlignEnd=112619|GE=[CAUSE]|Gloss=CAUSE|nWord=3|RX=[VERB]
+5	-a'me'		AUX	_	_	0	root	_	AlignBegin=112454|AlignEnd=112619|GE=[CAUSE]|Gloss=CAUSE|nWord=3|RX=[VERB]
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=112619|AlignEnd=112950|nWord=4|wordform=,.
 
 # sent_id = AN14_29-29
@@ -649,20 +649,20 @@
 # text_phrase-gls-es = el kakü Serankwa, como venía planificando, por eso que existen toda clase de tierra
 1	kakʉ	kakʉ	NOUN	_	_	3	comp	_	AlignBegin=113126|AlignEnd=113508|GE=father|Gloss=father|nWord=1|RX=[N]
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=113508|AlignEnd=113699|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]
-3	=se'	=se'	ADP	_	Case=Erg	5	subj	_	AlignBegin=113699|AlignEnd=113890|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]
+3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=yes|AlignBegin=113699|AlignEnd=113890|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|ShiftType=partial|Topic=no
 4	zʉ'ʉn	zʉ'ʉn	AUX	_	_	3	mod:emph	_	AlignBegin=113890|AlignEnd=114272|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
-5	a'chwi	a'chwi	VERB	_	_	_	_	_	AlignBegin=114272|AlignEnd=114654|GE=consider|Gloss=consider|nWord=4|RX=[V]
+5	a'chwi	a'chwi	VERB	_	_	6	mod	_	AlignBegin=114272|AlignEnd=114654|ArgumentOrder=SV|GE=consider|Gloss=consider|nWord=4|RX=[V]|Transitivity=transitive
 6	zoya	zoya	VERB	_	_	7	comp:aux/m	_	AlignBegin=114654|AlignEnd=114845|GE=go|Gloss=go|nWord=5|RX=[V]
 7	-na		AUX	_	_	8	comp:aux	_	AlignBegin=114845|AlignEnd=115036|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
 8	n	n	AUX	_	_	9	comp:aux/m	_	AlignBegin=115036|AlignEnd=115227|GE=aux|Gloss=aux|nWord=6|RX=[AUX]
-9	-a'me'		AUX	_	_	_	_	_	AlignBegin=115227|AlignEnd=115418|GE=[CAUSE]|Gloss=CAUSE|nWord=6|RX=[VERB]
+9	-a'me'		AUX	_	_	14	comp:obj	_	AlignBegin=115227|AlignEnd=115418|GE=[CAUSE]|Gloss=CAUSE|nWord=6|RX=[VERB]
 10	,		PUNCT	_	_	9	punct	_	AlignBegin=115418|AlignEnd=115800|nWord=7
 11	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	13	mod	_	AlignBegin=115800|AlignEnd=116182|GE=soil|Gloss=soil|nWord=8|RX=[N]
 12	pinna	pinna	DET	_	_	13	det	_	AlignBegin=116182|AlignEnd=116564|GE=all|Gloss=all|nWord=9|RX=[QUANT]
 13	ɉuna	ɉuna	NOUN	_	Case=Abs	14	subj	_	AlignBegin=116564|AlignEnd=116946|GE=type|Gloss=type|nWord=10|RX=[N]
 14	kwʉ	kwʉ	VERB	_	_	15	comp:aux/m	_	AlignBegin=116946|AlignEnd=117137|GE=exist|Gloss=exist|nWord=11|RX=[V]
 15	-ya		AUX	_	_	16	comp:aux	_	AlignBegin=117137|AlignEnd=117328|GE=[NONEGO]|Gloss=NONEGO|nWord=11|RX=[V:ANY]
-16	ni	ni	AUX	_	_	_	_	_	AlignBegin=117328|AlignEnd=117710|GE=[DECL]|Gloss=DECL|nWord=12|RX=[AUX]
+16	ni	ni	AUX	_	_	0	root	_	AlignBegin=117328|AlignEnd=117710|GE=[DECL]|Gloss=DECL|nWord=12|RX=[AUX]
 17	.		PUNCT	_	_	16	punct	_	AlignBegin=117710|AlignEnd=118098|Gloss=.|nWord=13
 
 # sent_id = AN14_30-30
@@ -696,35 +696,35 @@
 4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=120136|AlignEnd=120477|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]
 5	),		PUNCT	_	_	4	punct	_	AlignBegin=120477|AlignEnd=120818|nWord=5
 6	bunsi	bunsi	ADJ	_	_	7	comp:pred@attr	_	AlignBegin=120818|AlignEnd=121159|GE=white|Gloss=white|nWord=6|RX=[ADJ]
-7	kawa	kawa	VERB	_	_	_	_	_	AlignBegin=121159|AlignEnd=121500|GE=seem|Gloss=seem|nWord=7|RX=[V]
+7	kawa	kawa	VERB	_	Animacy=Inan|Case=Erg|Definite=Def	30	subj	_	AgentShift=no|AlignBegin=121159|AlignEnd=121500|GE=seem|Gloss=seem|nWord=7|RX=[V]|Topic=yes
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=121500|AlignEnd=121841|nWord=8
 9	chʉmmi	chʉmmi	ADJ	_	_	10	comp:pred@attr	_	AlignBegin=121841|AlignEnd=122182|GE=yellow|Gloss=yellow|nWord=9|RX=[ADJ]
-10	kawa	kawa	VERB	_	_	_	_	_	AlignBegin=122182|AlignEnd=122523|GE=seem|Gloss=seem|nWord=10|RX=[V]
+10	kawa	kawa	VERB	_	_	7	conj:coord	_	AlignBegin=122182|AlignEnd=122523|GE=seem|Gloss=seem|nWord=10|RX=[V]
 11	,		PUNCT	_	_	10	punct	_	AlignBegin=122523|AlignEnd=122864|nWord=11
 12	twi	twi	ADJ	_	_	13	comp:pred@attr	_	AlignBegin=122864|AlignEnd=123205|GE=black|Gloss=black|nWord=12|RX=[ADJ]
-13	kawa	kawa	VERB	_	_	_	_	_	AlignBegin=123205|AlignEnd=123546|GE=seem|Gloss=seem|nWord=13|RX=[V]
+13	kawa	kawa	VERB	_	_	10	conj:coord	_	AlignBegin=123205|AlignEnd=123546|GE=seem|Gloss=seem|nWord=13|RX=[V]
 14	,		PUNCT	_	_	13	punct	_	AlignBegin=123546|AlignEnd=123887|nWord=14
 15	pinna	pinna	DET	_	_	16	det	_	AlignBegin=123887|AlignEnd=124228|GE=all|Gloss=all|nWord=15|RX=[QUANT]
 16	ɉuna	ɉuna	NOUN	_	Case=Abs	18	subj	_	AlignBegin=124228|AlignEnd=124569|GE=type|Gloss=type|nWord=16|RX=[N]
 17	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	16	mod	_	AlignBegin=124569|AlignEnd=124910|GE=soil|Gloss=soil|nWord=17|RX=[N]
 18	kwe	kwe	VERB	_	_	19	comp:aux/m	_	AlignBegin=124910|AlignEnd=125080|GE=exist|Gloss=exist|nWord=18|RX=[V]
-19	-y	-y	PART	_	Case=Erg	30	subj	_	AlignBegin=125080|AlignEnd=125251|GE=while|Gloss=and|nWord=18|RX=[VERB]
-20	zoya	zoya	VERB	_	_	_	_	_	AlignBegin=125251|AlignEnd=125421|GE=go|Gloss=go|nWord=19|RX=[V]
+19	-y	-y	PART	_	_	20	mod	_	AlignBegin=125080|AlignEnd=125251|GE=while|Gloss=and|nWord=18|RX=[VERB]
+20	zoya	zoya	VERB	_	_	13	conj:coord	_	AlignBegin=125251|AlignEnd=125421|GE=go|Gloss=go|nWord=19|RX=[V]
 21	=ri		PART	_	_	20	mod	_	AlignBegin=125421|AlignEnd=125592|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]
 22	,		PUNCT	_	_	21	punct	_	AlignBegin=125592|AlignEnd=125933|nWord=20
 23	ʉy	ʉy	PRON	_	_	24	comp	_	AlignBegin=125933|AlignEnd=126047|GE=this|Gloss=this|nWord=21|RX=[PRO]
-24	=a'ba'		ADP	_	_	30	comp:obj	_	AlignBegin=126047|AlignEnd=126161|GE=[LOC]|Gloss==LOC|nWord=21|RX=[POST]
+24	=a'ba'	=a'ba'	ADP	_	Animacy=Inan|Case=Abs|Definite=Def	30	comp:obj	_	AlignBegin=126047|AlignEnd=126161|GE=[LOC]|Gloss==LOC|nWord=21|RX=[POST]|Topic=no
 25	=ri		PART	_	_	24	mod	_	AlignBegin=126161|AlignEnd=126274|GE=[TOP]|Gloss==TOP|nWord=21|RX=[PRT]
 26	a	a	PRON	_	_	27	comp	_	AlignBegin=126274|AlignEnd=126444|GE=[3SG]|Gloss=3SG|nWord=22|RX=[PRO]
 27	=kin		ADP	_	_	24	mod	_	AlignBegin=126444|AlignEnd=126615|GE=[LIM]|Gloss==LIM|nWord=22|RX=[POST]
-28	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=126615|AlignEnd=126956|GE=all|Gloss=all|nWord=23|RX=[ADV]
+28	gunti	gunti	ADV	_	_	30	mod	_	AlignBegin=126615|AlignEnd=126956|GE=all|Gloss=all|nWord=23|RX=[ADV]
 29	neki	neki	PART	_	_	28	mod:emph	_	AlignBegin=126956|AlignEnd=127297|GE=[CNTR]|Gloss=CNTR|nWord=24|RX=[PRT]
-30	anik	anik	VERB	_	_	31	comp:aux/m	_	AlignBegin=127297|AlignEnd=127467|GE=produce|Gloss=produce|nWord=25|RX=[VT]
+30	anik	anik	VERB	_	_	31	comp:aux/m	_	AlignBegin=127297|AlignEnd=127467|ArgumentOrder=SOV|GE=produce|Gloss=produce|nWord=25|RX=[VT]|Transitivity=transitive
 31	-u'		AUX	_	_	32	comp:aux	_	AlignBegin=127467|AlignEnd=127638|GE=[NEG]|Gloss=NEG|nWord=25|RX=[VERB]
 32	nan	nan	AUX	_	_	33	comp:aux/m	_	AlignBegin=127638|AlignEnd=127808|GE=[AUX]|Gloss=AUX|nWord=26|RX=[AUX]
-33	-i		PART	_	_	_	_	_	AlignBegin=127808|AlignEnd=127979|GE=while|Gloss=and|nWord=26|RX=[VERB]
+33	-i		PART	_	_	34	mod	_	AlignBegin=127808|AlignEnd=127979|GE=while|Gloss=and|nWord=26|RX=[VERB]
 34	zoya	zoya	VERB	_	_	35	comp:aux	_	AlignBegin=127979|AlignEnd=128320|GE=go|Gloss=go|nWord=27|RX=[V]
-35	ni	ni	AUX	_	_	_	_	_	AlignBegin=128320|AlignEnd=128661|GE=[DECL]|Gloss=DECL|nWord=28|RX=[AUX]
+35	ni	ni	AUX	_	_	0	root	_	AlignBegin=128320|AlignEnd=128661|GE=[DECL]|Gloss=DECL|nWord=28|RX=[AUX]
 36	.		PUNCT	_	_	35	punct	_	AlignBegin=128661|AlignEnd=128990|Gloss=.|nWord=29
 
 # sent_id = AN14_32-32

@@ -424,7 +424,7 @@
 # text = " eyma gʉmʉsinʉ a'mia , azi kawi ikao " a'zari
 # text_en = He thought ‘This girl, how is this?’ . |
 # text_phrase-gls-es = pensó "esta ninia, cómo es esto?" [se quedó viendo de sorpresa]
-1	"		PUNCT	_	_	_	_	_	AlignBegin=71880|AlignEnd=72105|nWord=1
+1	"		PUNCT	_	_	2	punct	_	AlignBegin=71880|AlignEnd=72105|nWord=1
 2	eyma	eyma	DET	_	_	3	det	_	AlignBegin=72105|AlignEnd=72330|GE=this|Gloss=this|nWord=2|RX=[DEM]
 3	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	10	mod	_	AlignBegin=72330|AlignEnd=72555|GE=child|Gloss=child|nWord=3|RX=[N]
 4	a'mia	a'mia	NOUN	_	_	3	mod	_	AlignBegin=72555|AlignEnd=72780|GE=woman|Gloss=woman|nWord=4|RX=[N]
@@ -434,9 +434,9 @@
 8	-i		PART	_	_	10	comp:obl	_	AlignBegin=73342|AlignEnd=73455|GE=while|Gloss=and|nWord=7|RX=[VERB]
 9	i-		AUX	_	_	10	comp:aux	_	AlignBegin=73455|AlignEnd=73530|GE=[APPL2]|Gloss=APPL2|nWord=8|RX=[V>V]
 10	ka	ka	AUX	_	_	11	comp:aux/m	_	AlignBegin=73530|AlignEnd=73605|GE=seem|Gloss=seem|nWord=8|RX=[AUX]
-11	-o		AUX	_	_	_	_	_	AlignBegin=73605|AlignEnd=73680|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
+11	-o		AUX	_	_	13	comp:obj	_	AlignBegin=73605|AlignEnd=73680|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]
 12	"		PUNCT	_	_	11	punct	_	AlignBegin=73680|AlignEnd=73905|nWord=9
-13	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=73905|AlignEnd=74134|GE=feel|Gloss=feel|nWord=10|RX=[V]
+13	a'zari	a'zari	VERB	_	_	0	root	_	AlignBegin=73905|AlignEnd=74134|GE=feel|Gloss=feel|nWord=10|RX=[V]
 
 # sent_id = PE20_22-22
 # speaker_id = @SP20
@@ -461,11 +461,11 @@
 # text = sikla ingʉ ichamay anuzoya nari ,
 # text_en = The bicycle that took him sideways
 # text_phrase-gls-es = La bicicleta que lo llevó por un lado
-1	sikla	sikla	NOUN	_	Case=Erg	5	subj	_	AlignBegin=75932|AlignEnd=76341|GE=bicycle|Gloss=bicycle|nWord=1|RX=[N]
+1	sikla	sikla	NOUN	_	Case=Abs	5	subj	_	AlignBegin=75932|AlignEnd=76341|GE=bicycle|Gloss=bicycle|nWord=1|RX=[N]
 2	ingʉ	ingʉ	ADJ	_	_	3	mod	_	AlignBegin=76341|AlignEnd=76750|GE=few|Gloss=few|nWord=2|RX=[ADJ]
 3	ichamay	ichamay	NOUN	_	_	5	comp:obl	_	AlignBegin=76750|AlignEnd=77159|GE=side|Gloss=side|nWord=3|RX=[N]
 4	an-		AUX	_	_	5	mod/m	_	AlignBegin=77159|AlignEnd=77295|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
-5	uzoy	uzoy	VERB	_	_	6	comp:aux/m	_	AlignBegin=77295|AlignEnd=77431|GE=take|Gloss=take|nWord=4|RX=[VT]
+5	uzoy	uzoy	VERB	_	_	6	comp:aux/m	_	AlignBegin=77295|AlignEnd=77431|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=4|RX=[VT]|Transitivity=transitive
 6	-a		AUX	_	_	7	comp:aux	_	AlignBegin=77431|AlignEnd=77568|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]
 7	nan	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=77568|AlignEnd=77772|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
 8	-i		PART	_	_	0	root	_	AlignBegin=77772|AlignEnd=77977|GE=while|Gloss=and|nWord=5|RX=[VERB]

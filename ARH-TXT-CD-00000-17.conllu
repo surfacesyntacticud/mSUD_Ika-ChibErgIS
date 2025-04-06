@@ -456,17 +456,17 @@
 # text_en = They think "How did we live?" |
 # text_phrase-gls-es = se preguntan como vivimos antes,
 1	win-		PRON	_	_	2	subj/m	_	AlignBegin=98361|AlignEnd=98592|GE=[3PL].[S]|Gloss=3PL.S|nWord=1|RX=[VERB]
-2	a'zana	a'zana	VERB	_	_	_	_	_	AlignBegin=98592|AlignEnd=98823|GE=think|Gloss=think|nWord=1|RX=[V]
-3	=ɉina		PART	_	_	_	_	_	AlignBegin=98823|AlignEnd=99054|GE=many[animated]|Gloss==many[animated]|nWord=1|RX=[PRT]
-4	"		PUNCT	_	_	3	punct	_	AlignBegin=99054|AlignEnd=99747|nWord=2
-5	azi	azi	ADV	_	_	_	_	_	AlignBegin=99747|AlignEnd=100440|GE=how|Gloss=how|nWord=3|RX=[INTERROG]
+2	a'zana	a'zana	VERB	_	_	0	root	_	AlignBegin=98592|AlignEnd=98823|GE=think|Gloss=think|nWord=1|RX=[V]
+3	=ɉina		PART	_	_	2	mod	_	AlignBegin=98823|AlignEnd=99054|GE=many[animated]|Gloss==many[animated]|nWord=1|RX=[PRT]
+4	"		PUNCT	_	_	5	punct	_	AlignBegin=99054|AlignEnd=99747|nWord=2
+5	azi	azi	ADV	_	_	6	comp:pred	_	AlignBegin=99747|AlignEnd=100440|GE=how|Gloss=how|nWord=3|RX=[INTERROG]
 6	kaw	kaw	AUX	_	_	7	comp:aux/m	_	AlignBegin=100440|AlignEnd=100671|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
-7	-i		PART	_	_	_	_	_	AlignBegin=100671|AlignEnd=100902|GE=while|Gloss=and|nWord=4|RX=[VERB]
+7	-i		PART	_	_	10	mod	_	AlignBegin=100671|AlignEnd=100902|GE=while|Gloss=and|nWord=4|RX=[VERB]
 8	=ri		PART	_	_	7	mod	_	AlignBegin=100902|AlignEnd=101133|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 9	a-		PRON	_	_	10	subj/m	_	AlignBegin=101133|AlignEnd=101479|GE=[1PL].[S]|Gloss=1PL.S|nWord=5|RX=[V:ANY]
 10	kwa	kwa	VERB	_	_	11	comp:aux	_	AlignBegin=101479|AlignEnd=101826|GE=live|Gloss=live|nWord=5|RX=[V]
 11	nʉn	nʉn	AUX	_	_	12	comp:aux/m	_	AlignBegin=101826|AlignEnd=102172|GE=cop|Gloss=cop|nWord=6|RX=[COP]
-12	-no		AUX	_	_	_	_	_	AlignBegin=102172|AlignEnd=102519|GE=[Q]|Gloss=Q|nWord=6|RX=[VERB]
+12	-no		AUX	_	_	2	comp:obj	_	AlignBegin=102172|AlignEnd=102519|GE=[Q]|Gloss=Q|nWord=6|RX=[VERB]
 13	?"		PUNCT	_	_	12	punct	_	AlignBegin=102519|AlignEnd=103212|nWord=7
 
 # sent_id = CD17_18-18
@@ -485,14 +485,14 @@
 6	=ɉina		PART	_	_	5	mod	_	AlignBegin=104589|AlignEnd=104727|GE=many[animated]|Gloss==many[animated]|nWord=4|RX=[PRT]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=104727|AlignEnd=104864|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=104864|AlignEnd=105277|nWord=5
-9	azi	azi	ADV	_	_	_	_	_	AlignBegin=105277|AlignEnd=105690|GE=how|Gloss=how|nWord=6|RX=[INTERROG]
+9	azi	azi	ADV	_	_	10	comp:pred	_	AlignBegin=105277|AlignEnd=105690|GE=how|Gloss=how|nWord=6|RX=[INTERROG]
 10	kaw	kaw	AUX	_	_	11	comp:aux/m	_	AlignBegin=105690|AlignEnd=105896|GE=seem|Gloss=seem|nWord=7|RX=[AUX]
-11	-i		PART	_	_	_	_	_	AlignBegin=105896|AlignEnd=106103|GE=while|Gloss=and|nWord=7|RX=[VERB]
+11	-i		PART	_	_	13	mod	_	AlignBegin=105896|AlignEnd=106103|GE=while|Gloss=and|nWord=7|RX=[VERB]
 12	win-		PRON	_	_	13	subj/m	_	AlignBegin=106103|AlignEnd=106241|GE=[3PL].[S]|Gloss=3PL.S|nWord=8|RX=[VERB]
 13	kwa	kwa	VERB	_	_	14	comp:aux/m	_	AlignBegin=106241|AlignEnd=106379|GE=live|Gloss=live|nWord=8|RX=[V]
 14	-na		AUX	_	_	15	comp:aux	_	AlignBegin=106379|AlignEnd=106516|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]
 15	nʉn	nʉn	AUX	_	_	16	comp:aux/m	_	AlignBegin=106516|AlignEnd=106722|GE=cop|Gloss=cop|nWord=9|RX=[COP]
-16	-no		AUX	_	_	_	_	_	AlignBegin=106722|AlignEnd=106929|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]
+16	-no		AUX	_	_	0	root	_	AlignBegin=106722|AlignEnd=106929|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]
 17	?"		PUNCT	_	_	16	punct	_	AlignBegin=106929|AlignEnd=107340|nWord=10
 
 # sent_id = CD17_19-19
@@ -726,7 +726,7 @@
 1	aw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=151831|AlignEnd=152221|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-i		PART	_	_	12	cc	_	AlignBegin=152221|AlignEnd=152611|GE=while|Gloss=and|nWord=1|RX=[VERB]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=152611|AlignEnd=153000|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-4	a'mia	a'mia	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	12	comp:obl	_	AgentShift=no|AlignBegin=153000|AlignEnd=153390|GE=woman|Gloss=woman|nWord=2|RX=[N]|Topic=yes
+4	a'mia	a'mia	NOUN	_	_	12	comp:obl	_	AlignBegin=153000|AlignEnd=153390|GE=woman|Gloss=woman|nWord=2|RX=[N]
 5	=ɉina		PART	_	_	4	mod	_	AlignBegin=153390|AlignEnd=153780|GE=many[animated]|Gloss==many[animated]|nWord=2|RX=[PRT]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=153780|AlignEnd=154169|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 7	niwi-		PRON	_	_	8	udep:poss/m	_	AlignBegin=154169|AlignEnd=154753|GE=[1PL].[POSS]|Gloss=1PL.POSS|nWord=3|RX=[NOUN]
@@ -953,7 +953,7 @@
 2	neki	neki	PART	_	_	1	mod:emph	_	AlignBegin=190209|AlignEnd=190769|GE=[CNTR]|Gloss=CNTR|nWord=2|RX=[PRT]
 3	winʉ-		PRON	_	_	4	subj/m	_	AlignBegin=190769|AlignEnd=190956|GE=[3PL].[S]|Gloss=3PL.S|nWord=3|RX=[VERB]
 4	k-		AUX	_	_	5	mod/m	_	AlignBegin=190956|AlignEnd=191143|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]
-5	anisi	anisi	VERB	_	_	_	_	_	AlignBegin=191143|AlignEnd=191329|GE=have.put|Gloss=have.put|nWord=3|RX=[V]
+5	anisi	anisi	VERB	_	_	0	root	_	AlignBegin=191143|AlignEnd=191329|GE=have.put|Gloss=have.put|nWord=3|RX=[V]
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=191329|AlignEnd=191888|nWord=4
 
 # sent_id = CD17_39-39
