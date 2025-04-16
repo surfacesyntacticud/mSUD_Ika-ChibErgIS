@@ -1270,7 +1270,7 @@
 # text_phrase-gls-es = lo cocinamos meneando/revolviendo y luego echamos el cebollín
 # text_phrase-gls-tl = jon
 1	a'min	a'min	VERB	_	_	_	_	_	AlignBegin=191597|AlignEnd=192052|GE=stir|Gloss=stir|nWord=1|RX=[V]
-2	a'min	a'min	VERB	_	_	1	mod:redup	_	AlignBegin=192052|AlignEnd=192507|GE=stir|Gloss=stir|nWord=2|RX=[V]
+2	a'min	a'min	VERB	_	_	1	compound:redup	_	AlignBegin=192052|AlignEnd=192507|GE=stir|Gloss=stir|nWord=2|RX=[V]
 3	ɉo	ɉo	VERB	_	_	4	comp:aux	_	AlignBegin=192507|AlignEnd=192962|GE=cook|Gloss=cook|nWord=3|RX=[V]
 4	n	nan	AUX	_	_	5	comp:aux/m	_	AlignBegin=192962|AlignEnd=193114|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-aɉʉ		AUX	_	_	_	_	_	AlignBegin=193114|AlignEnd=193266|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=4|RX=[V:ANY]
@@ -1354,8 +1354,8 @@
 2	-i		PART	_	_	1	cc	_	AlignBegin=204506|AlignEnd=204668|GE=while|Gloss=and|nWord=1|RX=[VERB]
 3	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=204668|AlignEnd=204992|GE=all|Gloss=all|nWord=2|RX=[ADV]
 4	a'min	a'min	VERB	_	_	_	_	_	AlignBegin=204992|AlignEnd=205316|GE=stir|Gloss=stir|nWord=3|RX=[V]
-5	a'min	a'min	VERB	_	_	4	mod:redup	_	AlignBegin=205316|AlignEnd=205640|GE=stir|Gloss=stir|nWord=4|RX=[V]
-6	a'min	a'min	VERB	_	_	5	mod:redup	_	AlignBegin=205640|AlignEnd=205964|GE=stir|Gloss=stir|nWord=5|RX=[V]
+5	a'min	a'min	VERB	_	_	4	compound:redup	_	AlignBegin=205316|AlignEnd=205640|GE=stir|Gloss=stir|nWord=4|RX=[V]
+6	a'min	a'min	VERB	_	_	5	compound:redup	_	AlignBegin=205640|AlignEnd=205964|GE=stir|Gloss=stir|nWord=5|RX=[V]
 7	zʉn	zan	AUX	_	_	_	_	_	AlignBegin=205964|AlignEnd=206287|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 
 # sent_id = CO20_63-63
@@ -1498,13 +1498,13 @@
 # text_en = We serve the best food [parts] one by one
 # text_phrase-gls-es = Servimos uno por uno las mejores comidas [las mejores partes de la sopa]
 1	ingweti	ingweti	PRON	_	_	14	comp:obl	_	AlignBegin=225155|AlignEnd=225498|GE=each|Gloss=each|nWord=1|RX=[PRO]
-2	ingweti	ingweti	PRON	_	_	1	mod:redup	_	AlignBegin=225498|AlignEnd=225841|GE=each|Gloss=each|nWord=2|RX=[PRO]
+2	ingweti	ingweti	PRON	_	_	1	compound:redup	_	AlignBegin=225498|AlignEnd=225841|GE=each|Gloss=each|nWord=2|RX=[PRO]
 3	ingʉ	ingʉ	ADJ	_	_	7	mod	_	AlignBegin=225841|AlignEnd=226184|GE=few|Gloss=few|nWord=3|RX=[ADJ]
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=226184|AlignEnd=226527|nWord=4
 5	mhm	mhm	INTJ	_	_	7	discourse	_	AlignBegin=226527|AlignEnd=226870|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=226870|AlignEnd=227213|nWord=6
 7	du	du	ADJ	_	_	10	comp:pred	_	AlignBegin=227213|AlignEnd=227556|GE=good|Gloss=good|nWord=7|RX=[ADJ]
-8	du	du	ADJ	_	_	7	mod:redup	_	AlignBegin=227556|AlignEnd=227728|GE=good|Gloss=good|nWord=8|RX=[ADJ]
+8	du	du	ADJ	_	_	7	compound:redup	_	AlignBegin=227556|AlignEnd=227728|GE=good|Gloss=good|nWord=8|RX=[ADJ]
 9	=te	=te	PART	_	_	8	mod	_	AlignBegin=227728|AlignEnd=227899|GE=[PL].[ADJ]|Gloss=PL.ADJ|nWord=8|RX=[ADJECTIVE]
 10	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=227899|AlignEnd=228071|GE=seem|Gloss=seem|nWord=9|RX=[AUX]
 11	-i		PART	_	_	10	cc	_	AlignBegin=228071|AlignEnd=228242|GE=while|Gloss=and|nWord=9|RX=[VERB]
@@ -1590,7 +1590,7 @@
 3	chʉwi	chʉwi	ADJ	_	_	4	comp:pred@pred	_	AlignBegin=240039|AlignEnd=240471|GE=plenty|Gloss=plenty|nWord=3|RX=[ADJ]
 4	na	nan	AUX	_	_	8	mod	_	AlignBegin=240471|AlignEnd=240903|GE=cop|Gloss=cop|nWord=4|RX=[COP]
 5	chʉwi	chʉwi	ADJ	_	_	6	comp:pred@pred	_	AlignBegin=240903|AlignEnd=241335|GE=plenty|Gloss=plenty|nWord=5|RX=[ADJ]
-6	na	nan	AUX	_	_	4	mod:redup	_	AlignBegin=241335|AlignEnd=241767|GE=cop|Gloss=cop|nWord=6|RX=[COP]
+6	na	nan	AUX	_	_	4	compound:redup	_	AlignBegin=241335|AlignEnd=241767|GE=cop|Gloss=cop|nWord=6|RX=[COP]
 7	ʉn-		AUX	_	_	8	mod/m	_	AlignBegin=241767|AlignEnd=241983|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 8	ka'si	ka'si	VERB	_	_	0	root	_	AlignBegin=241983|AlignEnd=242199|GE=put|Gloss=put|nWord=7|RX=[V]
 9	azʉria	azʉria	NOUN	_	_	8	comp:obj	_	AlignBegin=242199|AlignEnd=242632|GE=soup|Gloss=soup|nWord=8|RX=[N]

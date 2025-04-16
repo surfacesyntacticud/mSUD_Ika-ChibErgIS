@@ -647,8 +647,8 @@
 # text = " beki , kʉn atinsana neki ( areri ) nare'ri a'disi niga ".
 # text_en = "For example, one [could] suck on trees that are blooming" |
 # text_phrase-gls-es = Por ejemplo, si chupan los árboles que florecen
-1	"		PUNCT	_	_	_	_	_	AlignBegin=84632|AlignEnd=84876|nWord=1
-2	be	be	PRON	_	_	18	mod:discourse	_	AlignBegin=84876|AlignEnd=84998|GE=where|Gloss=where|nWord=2|RX=[INTERROG]
+1	"		PUNCT	_	_	2	punct	_	AlignBegin=84632|AlignEnd=84876|nWord=1
+2	be	be	PRON	_	_	17	discourse	_	AlignBegin=84876|AlignEnd=84998|GE=where|Gloss=where|nWord=2|RX=[INTERROG]
 3	=ki		PART	_	_	2	mod	_	AlignBegin=84998|AlignEnd=85120|GE=[CNTR]|Gloss==CNTR|nWord=2|RX=[PRT]
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=85120|AlignEnd=85364|nWord=3
 5	kʉn	kʉn	NOUN	_	_	6	comp:obj	_	AlignBegin=85364|AlignEnd=85608|GE=tree|Gloss=tree|nWord=4|RX=[N]
@@ -664,7 +664,7 @@
 15	a'dis	a'dis	VERB	_	_	16	comp:aux/m	_	AlignBegin=87072|AlignEnd=87194|GE=suck|Gloss=suck|nWord=11|RX=[V]
 16	-i		PART	_	_	_	_	_	AlignBegin=87194|AlignEnd=87316|GE=while|Gloss=and|nWord=11|RX=[VERB]
 17	nig	nik	AUX	_	_	18	comp:aux/m	_	AlignBegin=87316|AlignEnd=87438|GE=do|Gloss=do|nWord=12|RX=[AUX]
-18	-a		AUX	_	_	_	_	_	AlignBegin=87438|AlignEnd=87560|GE=[NONEGO]|Gloss=NONEGO|nWord=12|RX=[V:ANY]
+18	-a		AUX	_	_	0	root	_	AlignBegin=87438|AlignEnd=87560|GE=[NONEGO]|Gloss=NONEGO|nWord=12|RX=[V:ANY]
 19	".		PUNCT	_	_	18	punct	_	AlignBegin=87560|AlignEnd=87799|nWord=13
 
 # sent_id = AN19_035-035
@@ -1410,7 +1410,7 @@
 13	i-		AUX	_	_	14	mod/m	_	AlignBegin=192122|AlignEnd=192388|GE=[APPL2]|Gloss=APPL2|nWord=6|RX=[V>V]
 14	tisa	tisa	VERB	_	_	_	_	_	AlignBegin=192388|AlignEnd=192653|ArgumentOrder=SOV|GE=spend|Gloss=spend|nWord=6|RX=[V]|Transitivity=transitive
 15	i-		AUX	_	_	16	mod/m	_	AlignBegin=192653|AlignEnd=192919|GE=[APPL2]|Gloss=APPL2|nWord=7|RX=[V>V]
-16	tisa	tisa	VERB	_	_	14	mod:redup	_	AlignBegin=192919|AlignEnd=193184|GE=spend|Gloss=spend|nWord=7|RX=[V]
+16	tisa	tisa	VERB	_	_	14	compound:redup	_	AlignBegin=192919|AlignEnd=193184|GE=spend|Gloss=spend|nWord=7|RX=[V]
 17	,		PUNCT	_	_	16	punct	_	AlignBegin=193184|AlignEnd=193715|nWord=8
 18	zʉn	zan	PART	_	_	_	_	_	AlignBegin=193715|AlignEnd=194246|GE=[COP]|Gloss=COP|nWord=9|RX=[COP]
 19	ʉn-		AUX	_	_	20	mod/m	_	AlignBegin=194246|AlignEnd=194423|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
@@ -1797,7 +1797,7 @@
 1	"		PUNCT	_	_	2	punct	_	AlignBegin=245059|AlignEnd=245320|nWord=1
 2	a	a	PRON	_	_	3	comp	_	AlignBegin=245320|AlignEnd=245450|GE=[3SG]|Gloss=3SG|nWord=2|RX=[PRO]
 3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=yes|AlignBegin=245450|AlignEnd=245581|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|ShiftType=partial|Topic=no
-4	zʉn	zan	AUX	_	_	3	mod:emph	_	AlignBegin=245581|AlignEnd=245842|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
+4	zʉn	zan	PART	_	_	3	mod:emph	_	AlignBegin=245581|AlignEnd=245842|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
 5	a'chunha	a'chunha	VERB	_	_	6	comp:aux	_	AlignBegin=245842|AlignEnd=246103|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=4|RX=[V]|Transitivity=transitive
 6	u	aw	AUX	_	_	7	comp:aux/m	_	AlignBegin=246103|AlignEnd=246233|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 7	-na		AUX	_	_	0	root	_	AlignBegin=246233|AlignEnd=246364|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]
@@ -2027,10 +2027,10 @@
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=282323|AlignEnd=282789|nWord=5
 9	aɉwa	aɉwa	DET	_	_	0	root	_	AlignBegin=282789|AlignEnd=283022|GE=another|Gloss=another|nWord=6|RX=[DET]
 10	=kʉchʉ		PART	_	_	9	mod	_	AlignBegin=283022|AlignEnd=283255|GE=[EMPH]|Gloss==EMPH|nWord=6|RX=[PRT]
-11	zʉ'ʉn	zan	AUX	_	_	10	mod:emph	_	AlignBegin=283255|AlignEnd=283721|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]
+11	zʉ'ʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=283255|AlignEnd=283721|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]
 12	,		PUNCT	_	_	11	punct	_	AlignBegin=283721|AlignEnd=284187|nWord=8
 13	ánu'gwe	ánu'gwe	NOUN	_	_	9	conj:appos	_	AlignBegin=284187|AlignEnd=284653|GE=spirit|Gloss=spirit|nWord=9|RX=[N]
-14	zʉ'ʉn	zan	AUX	_	_	13	mod:emph	_	AlignBegin=284653|AlignEnd=285119|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]
+14	zʉ'ʉn	zan	PART	_	_	13	mod:emph	_	AlignBegin=284653|AlignEnd=285119|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]
 15	.		PUNCT	_	_	14	punct	_	AlignBegin=285119|AlignEnd=285582|Gloss=.|nWord=11
 
 # sent_id = AN19_098-098
@@ -2246,7 +2246,7 @@
 2	ʉn-		AUX	_	_	3	mod/m	_	AlignBegin=312630|AlignEnd=312728|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]
 3	kʉ-		AUX	_	_	4	mod/m	_	AlignBegin=312728|AlignEnd=312826|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]
 4	yu	yu	VERB	_	_	_	_	_	AlignBegin=312826|AlignEnd=312924|GE=introduce|Gloss=introduce|nWord=2|RX=[V]
-5	yu	yu	VERB	_	_	4	mod:redup	_	AlignBegin=312924|AlignEnd=313218|GE=introduce|Gloss=introduce|nWord=3|RX=[V]
+5	yu	yu	VERB	_	_	4	compound:redup	_	AlignBegin=312924|AlignEnd=313218|GE=introduce|Gloss=introduce|nWord=3|RX=[V]
 6	zʉ'ʉn	zan	AUX	_	_	_	_	_	AlignBegin=313218|AlignEnd=313512|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
 7	ga	ga	VERB	_	_	8	comp:aux/m	_	AlignBegin=313512|AlignEnd=313586|GE=eat|Gloss=eat|nWord=5|RX=[VT]
 8	-y		AUX	_	_	9	comp:aux/m	_	AlignBegin=313586|AlignEnd=313660|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]
@@ -2542,7 +2542,7 @@
 5	emi	emi	ADV	_	_	_	_	_	AlignBegin=359426|AlignEnd=359789|GE=here|Gloss=here|nWord=3|RX=[ADV]
 6	ka'a	ka'a	NOUN	_	_	7	comp	_	AlignBegin=359789|AlignEnd=360152|GE=earth|Gloss=earth|nWord=4|RX=[N]
 7	tina	tina	ADP	_	_	9	mod:lmod	_	AlignBegin=360152|AlignEnd=360515|GE=above|Gloss=above|nWord=5|RX=[ADV]
-8	zʉn	zan	AUX	_	_	7	mod:emph	_	AlignBegin=360515|AlignEnd=360878|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
+8	zʉn	zan	PART	_	_	7	mod:emph	_	AlignBegin=360515|AlignEnd=360878|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 9	nik	nik	AUX	_	_	10	comp:aux/m	_	AlignBegin=360878|AlignEnd=361060|GE=do|Gloss=do|nWord=7|RX=[AUX]
 10	-a		AUX	_	_	11	comp:aux	_	AlignBegin=361060|AlignEnd=361241|GE=[NONEGO]|Gloss=NONEGO|nWord=7|RX=[V:ANY]
 11	ung	ung	AUX	_	_	12	comp:aux/m	_	AlignBegin=361241|AlignEnd=361423|GE=[AUX]|Gloss=AUX|nWord=8|RX=[AUX]
@@ -2701,7 +2701,7 @@
 6	nug	nik	AUX	_	_	7	comp:aux/m	_	AlignBegin=391460|AlignEnd=391613|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 7	-a		AUX	_	_	8	comp:aux	_	AlignBegin=391613|AlignEnd=391765|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]
 8	kawa	kaw	AUX	_	_	0	root	_	AlignBegin=391765|AlignEnd=392223|GE=seem|Gloss=seem|nWord=5|RX=[AUX]
-9	zʉn	zan	AUX	_	_	8	mod:discourse	_	AlignBegin=392223|AlignEnd=392681|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
+9	zʉn	zan	PART	_	_	8	mod:emph	_	AlignBegin=392223|AlignEnd=392681|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 10	.		PUNCT	_	_	9	punct	_	AlignBegin=392681|AlignEnd=393140|Gloss=.|nWord=7
 
 # sent_id = AN19_129-129

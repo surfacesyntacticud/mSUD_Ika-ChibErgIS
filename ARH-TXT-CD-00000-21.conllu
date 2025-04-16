@@ -344,7 +344,7 @@
 8	ah	ah	INTJ	_	_	_	_	_	AlignBegin=64444|AlignEnd=64740|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]
 9	)		PUNCT	_	_	8	punct	_	AlignBegin=64740|AlignEnd=65036|nWord=6
 10	re'minsi	re'minsi	VERB	_	_	0	root	_	AlignBegin=65036|AlignEnd=65332|GE=mix|Gloss=mix|nWord=7|RX=[V]
-11	zʉ'ʉn	zan	AUX	_	_	10	mod:emph	_	AlignBegin=65332|AlignEnd=65630|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]
+11	zʉ'ʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=65332|AlignEnd=65630|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]
 
 # sent_id = CD21_17-17
 # speaker_id = @SP21
@@ -619,7 +619,7 @@
 7	=ri		PART	_	_	6	mod	_	AlignBegin=108970|AlignEnd=109133|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 8	sínkʉnʉ	sínkʉnʉ	NOUN	_	_	11	subj	_	AlignBegin=109133|AlignEnd=109624|GE=handle|Gloss=handle|nWord=4|RX=[N]
 9	wʉgʉ	wʉgʉ	ADJ	_	_	11	comp:pred	_	AlignBegin=109624|AlignEnd=110115|GE=wide|Gloss=wide|nWord=5|RX=[ADJ]
-10	zʉn	zan	AUX	_	_	9	mod:emph	_	AlignBegin=110115|AlignEnd=110606|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
+10	zʉn	zan	PART	_	_	9	mod:emph	_	AlignBegin=110115|AlignEnd=110606|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 11	nan	nan	AUX	_	_	_	_	_	AlignBegin=110606|AlignEnd=110852|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 12	-i		PART	_	_	11	cc	_	AlignBegin=110852|AlignEnd=111097|GE=while|Gloss=and|nWord=7|RX=[VERB]
 13	gaw	gaw	VERB	_	_	14	comp:aux/m	_	AlignBegin=111097|AlignEnd=111343|GE=make|Gloss=make|nWord=8|RX=[V]
@@ -647,7 +647,7 @@
 11	=ʉkin		ADP	_	_	13	comp:obl	_	AlignBegin=114662|AlignEnd=114896|GE=[LIM]|Gloss==LIM|nWord=4|RX=[POST]
 12	i-		AUX	_	_	13	mod/m	_	AlignBegin=114896|AlignEnd=115248|GE=[APPL2]|Gloss=APPL2|nWord=5|RX=[V>V]
 13	yu	yu	VERB	_	_	15	comp:aux	_	AlignBegin=115248|AlignEnd=115600|ArgumentOrder=SOV|GE=introduce|Gloss=introduce|nWord=5|RX=[V]|Transitivity=transitive
-14	yu	yu	VERB	_	_	13	mod:redup	_	AlignBegin=115600|AlignEnd=116304|GE=introduce|Gloss=introduce|nWord=6|RX=[V]
+14	yu	yu	VERB	_	_	13	compound:redup	_	AlignBegin=115600|AlignEnd=116304|GE=introduce|Gloss=introduce|nWord=6|RX=[V]
 15	nan	nan	AUX	_	_	_	_	_	AlignBegin=116304|AlignEnd=116655|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 16	-i		PART	_	_	15	cc	_	AlignBegin=116655|AlignEnd=117006|GE=while|Gloss=and|nWord=7|RX=[VERB]
 
@@ -661,7 +661,7 @@
 # text_phrase-gls-es = Les queda muy suelta y la ropa es larga
 1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=117006|AlignEnd=117487|GE=there|Gloss=there|nWord=1|RX=[ADV]
 2	tuntu'	tuntu'	ADJ	_	_	_	_	_	AlignBegin=117487|AlignEnd=117968|GE=loose [clothes]|Gloss=loose [clothes]|nWord=2|RX=[ADJ]
-3	tuntu'	tuntu'	ADJ	_	_	2	mod:redup	_	AlignBegin=117968|AlignEnd=118449|GE=loose [clothes]|Gloss=loose [clothes]|nWord=3|RX=[ADJ]
+3	tuntu'	tuntu'	ADJ	_	_	2	compound:redup	_	AlignBegin=117968|AlignEnd=118449|GE=loose [clothes]|Gloss=loose [clothes]|nWord=3|RX=[ADJ]
 4	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=118449|AlignEnd=118689|GE=seem|Gloss=seem|nWord=4|RX=[AUX]
 5	-i		PART	_	_	4	cc	_	AlignBegin=118689|AlignEnd=118930|GE=while|Gloss=and|nWord=4|RX=[VERB]
 6	aw	aw	AUX	_	_	_	_	_	AlignBegin=118930|AlignEnd=119090|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
@@ -703,7 +703,7 @@
 6	=kin		ADP	_	_	8	comp:obl	_	AlignBegin=124588|AlignEnd=124886|GE=[LIM]|Gloss==LIM|nWord=3|RX=[POST]
 7	winʉ-		PRON	_	_	8	comp:obj/m	_	AlignBegin=124886|AlignEnd=125332|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=4|RX=[VERB]
 8	icho'	icho'	VERB	_	_	10	comp:aux	_	AlignBegin=125332|AlignEnd=125778|GE=go.up|Gloss=go.up|nWord=4|RX=[V]
-9	cho'	cho'	VERB	_	_	8	mod:redup	_	AlignBegin=125778|AlignEnd=126670|GE=stand|Gloss=stand|nWord=5|RX=[V]
+9	cho'	cho'	VERB	_	_	8	compound:redup	_	AlignBegin=125778|AlignEnd=126670|GE=stand|Gloss=stand|nWord=5|RX=[V]
 10	nan	nan	AUX	_	_	11	comp:aux/m	_	AlignBegin=126670|AlignEnd=126967|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
 11	-e'		AUX	_	_	0	root	_	AlignBegin=126967|AlignEnd=127264|GE=then|Gloss=then|nWord=6|RX=[VERB]
 12	=ri		PART	_	_	11	mod	_	AlignBegin=127264|AlignEnd=127560|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
@@ -857,7 +857,7 @@
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=145700|AlignEnd=146336|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	uw	aw	AUX	_	_	3	comp:aux/m	_	AlignBegin=146336|AlignEnd=146654|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 3	-a'me'		AUX	_	_	_	_	_	AlignBegin=146654|AlignEnd=146972|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
-4	zʉn	zan	AUX	_	_	3	mod:emph	_	AlignBegin=146972|AlignEnd=147608|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
+4	zʉn	zan	PART	_	_	3	mod:emph	_	AlignBegin=146972|AlignEnd=147608|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]
 5	ikʉ	ikʉ	NOUN	_	_	2	comp:pred	_	AlignBegin=147608|AlignEnd=148244|GE=person|Gloss=person|nWord=4|RX=[N]
 6	kogwi	kogwi	PROPN	_	_	5	flat	_	AlignBegin=148244|AlignEnd=148880|GE=[Kogi].[people]|Gloss=Kogi.people|nWord=5|RX=[NPROP]
 7	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=148880|AlignEnd=149516|GE=and|Gloss=and|nWord=6|RX=[COORDCONN]
@@ -949,7 +949,7 @@
 18	kʉ-		AUX	_	_	19	mod/m	_	AlignBegin=160472|AlignEnd=160620|GE=[APPL1]|Gloss=APPL1|nWord=13|RX=[V>V]
 19	nusi	nusi	VERB	_	_	_	_	_	AlignBegin=160620|AlignEnd=160768|GE=stand|Gloss=stand|nWord=13|RX=[V]
 20	kʉ-		AUX	_	_	21	mod/m	_	AlignBegin=160768|AlignEnd=160916|GE=[APPL1]|Gloss=APPL1|nWord=14|RX=[V>V]
-21	nusi	nusi	VERB	_	_	19	mod:redup	_	AlignBegin=160916|AlignEnd=161064|GE=stand|Gloss=stand|nWord=14|RX=[V]
+21	nusi	nusi	VERB	_	_	19	compound:redup	_	AlignBegin=160916|AlignEnd=161064|GE=stand|Gloss=stand|nWord=14|RX=[V]
 22	y	y	VERB	_	_	23	comp:aux/m	_	AlignBegin=161064|AlignEnd=161163|GE=say|Gloss=say|nWord=15|RX=[VI]
 23	-e'		AUX	_	_	_	_	_	AlignBegin=161163|AlignEnd=161262|GE=then|Gloss=then|nWord=15|RX=[VERB]
 24	=ri		PART	_	_	23	mod	_	AlignBegin=161262|AlignEnd=161360|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]
