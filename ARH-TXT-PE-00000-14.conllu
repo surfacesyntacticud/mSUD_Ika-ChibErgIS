@@ -198,7 +198,7 @@
 18	-i		PART	_	_	17	cc	_	AlignBegin=29386|AlignEnd=29511|GE=while|Gloss=and|nWord=10|RX=[VERB]
 19	=ri		PART	_	_	18	mod	_	AlignBegin=29511|AlignEnd=29636|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]
 20	ʉn-		AUX	_	_	21	mod/m	_	AlignBegin=29636|AlignEnd=29824|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
-21	zoya	zoya	VERB	_	_	16	comp:coord	_	AlignBegin=29824|AlignEnd=30011|GE=go|Gloss=go|nWord=11|RX=[VI]
+21	zoya	zoya	VERB	_	_	16	conj:coord	_	AlignBegin=29824|AlignEnd=30011|GE=go|Gloss=go|nWord=11|RX=[VI]
 22	u	aw	AUX	_	_	23	comp:aux/m	_	AlignBegin=30011|AlignEnd=30199|GE=aux|Gloss=aux|nWord=12|RX=[AUX]
 23	-na		AUX	_	_	0	root	_	AlignBegin=30199|AlignEnd=30386|GE=[RMTPST]|Gloss=RMTPST|nWord=12|RX=[VERB]
 24	.		PUNCT	_	_	23	punct	_	AlignBegin=30386|AlignEnd=30757|Gloss=.|nWord=13
@@ -253,7 +253,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-14.WAV/WAV/ARH-TXT-PE-00000-14.WAV
 # sent_timecode = 38916, 39796
 # morphemic_text = ( mhm ) inʉ =se' keywʉ goru ki- wesʉ -y -in ka -u' na ,
-# text = ( mhm ) inʉse' keywʉ goru kiwesʉyin kau' na ,
+# text = ( mhm ) inʉ =se' keywʉ goru ki- wesʉ -y -in ka -u' na ,
 # text_en = he didn't know who knocked his hat off | no supo quién le tumbó la gorra
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=38916|AlignEnd=39004|nWord=1
 2	mhm	mhm	INTJ	_	_	4	discourse	_	AlignBegin=39004|AlignEnd=39092|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
@@ -264,7 +264,7 @@
 7	goru	goru	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def	9	comp:obj	_	AlignBegin=39356|AlignEnd=39444|GE=cap|Gloss=cap|nWord=6|RX=[N]|Topic=no
 8	ki-		AUX	_	_	9	mod/m	_	AlignBegin=39444|AlignEnd=39466|GE=[APPL3]|Gloss=APPL3|nWord=7|RX=[VERB]
 9	wesʉ	wesʉ	VERB	_	_	10	comp:aux/m	_	AlignBegin=39466|AlignEnd=39488|ArgumentOrder=SOV|GE=throw|Gloss=throw|nWord=7|RX=[V]|Transitivity=transitive
-10	-y		PART	_	_	11	comp:aux/m	_	AlignBegin=39488|AlignEnd=39510|GE=while|Gloss=and|nWord=7|RX=[VERB]
+10	-y	-y	AUX	_	_	11	comp:aux/m	_	AlignBegin=39488|AlignEnd=39510|GE=NONEGO|Gloss=NONEGO|nWord=7|RX=[VERB]
 11	-in		AUX	_	_	12	comp:aux	_	AlignBegin=39510|AlignEnd=39532|GE=[DECL]|Gloss=DECL|nWord=7|RX=[V:ANY]
 12	ka	kaw	AUX	_	_	13	comp:aux/m	_	AlignBegin=39532|AlignEnd=39576|GE=seem|Gloss=seem|nWord=8|RX=[AUX]
 13	-u'		AUX	_	_	14	comp:aux	_	AlignBegin=39576|AlignEnd=39620|GE=[NEG]|Gloss=NEG|nWord=8|RX=[VERB]

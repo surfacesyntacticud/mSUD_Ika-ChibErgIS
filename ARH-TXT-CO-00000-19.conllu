@@ -291,7 +291,7 @@
 # text_en = one dries plantains, plantain variety, a plantain variety, one dries all [kinds of] plantains
 # text_phrase-gls-es = secando los guineos, como el plátano, manzano [variedad del guineo], secando toda clase de guineo
 1	giñia	giñia	NOUN	_	_	2	comp:obj	_	AlignBegin=61240|AlignEnd=61622|GE=plantain|Gloss=plantain|nWord=1|RX=[N]
-2	dusi	dusi	VERB	_	_	10	comp:coord	_	AlignBegin=61622|AlignEnd=62004|GE=make.dry|Gloss=make.dry|nWord=2|RX=[V]
+2	dusi	dusi	VERB	_	_	10	conj:coord	_	AlignBegin=61622|AlignEnd=62004|GE=make.dry|Gloss=make.dry|nWord=2|RX=[V]
 3	,		PUNCT	_	_	2	punct	_	AlignBegin=62004|AlignEnd=62386|nWord=3
 4	pʉrʉntanʉ	pʉrʉntanʉ	NOUN	_	_	10	comp:obj	_	AlignBegin=62386|AlignEnd=62768|GE=plaintain|Gloss=plaintain|nWord=4|RX=[N]
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=62768|AlignEnd=63150|nWord=5
@@ -472,22 +472,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-19.WAV/WAV/ARH-TXT-CO-00000-19.WAV
 # sent_timecode = 90610, 92970
 # morphemic_text = teteru =ri i- cho'sʉ -y -e' =ri , kʉkʉ kʉ- rigw -ey nis -i
-# text = teteruri icho'sʉye'ri , kʉkʉ kʉrigwey nisi
+# text = teteru =ri i- cho'sʉ -y -e' =ri , kʉkʉ kʉ- rigw -ey nis -i
 # text_en = When one gives the feeding bottle, his teeth get damaged. |
 # text_phrase-gls-es = Cuando le ponemos el tetero, se le pica el diente [se le danyan los dientes]
 1	teteru	teteru	NOUN	_	_	4	comp:obj	_	AlignBegin=90610|AlignEnd=90806|GE=[SPA_feeding_bottle]|Gloss=SPA_feeding_bottle|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=90806|AlignEnd=91003|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	i-		AUX	_	_	4	mod/m	_	AlignBegin=91003|AlignEnd=91082|GE=[APPL2]|Gloss=APPL2|nWord=2|RX=[V>V]
 4	cho'sʉ	cho'sʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=91082|AlignEnd=91161|GE=put.down[upright]|Gloss=put.down[upright]|nWord=2|RX=[V]
-5	-y		PART	_	_	6	comp:aux/m	_	AlignBegin=91161|AlignEnd=91240|GE=while|Gloss=and|nWord=2|RX=[VERB]
-6	-e'		AUX	_	_	_	_	_	AlignBegin=91240|AlignEnd=91319|GE=then|Gloss=then|nWord=2|RX=[VERB]
+5	-y	-y	AUX	_	_	6	comp:aux/m	_	AlignBegin=91161|AlignEnd=91240|GE=NONEGO|Gloss=NONEGO|nWord=2|RX=[VERB]
+6	-e'		AUX	_	_	13	parataxis	_	AlignBegin=91240|AlignEnd=91319|GE=then|Gloss=then|nWord=2|RX=[VERB]
 7	=ri		PART	_	_	6	mod	_	AlignBegin=91319|AlignEnd=91396|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=91396|AlignEnd=91789|nWord=3
 9	kʉkʉ	kʉkʉ	NOUN	_	_	11	comp:obj	_	AlignBegin=91789|AlignEnd=92182|GE=tooth|Gloss=tooth|nWord=4|RX=[N]
 10	kʉ-		AUX	_	_	11	mod/m	_	AlignBegin=92182|AlignEnd=92313|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
-11	rigw	rigw	VERB	_	_	12	comp:aux/m	_	AlignBegin=92313|AlignEnd=92444|GE=be_eaten_by_animals|Gloss=be_eaten_by_animals|nWord=5|RX=[V]
-12	-ey		PART	_	_	_	_	_	AlignBegin=92444|AlignEnd=92575|GE=while|Gloss=and|nWord=5|RX=[VERB]
-13	nis	nik	AUX	_	_	_	_	_	AlignBegin=92575|AlignEnd=92773|GE=do|Gloss=do|nWord=6|RX=[AUX]
+11	rigw	rigw	VERB	_	_	13	conj:coord	_	AlignBegin=92313|AlignEnd=92444|GE=be_eaten_by_animals|Gloss=be_eaten_by_animals|nWord=5|RX=[V]
+12	-ey		PART	_	_	11	cc	_	AlignBegin=92444|AlignEnd=92575|GE=while|Gloss=and|nWord=5|RX=[VERB]
+13	nis	nik	AUX	_	_	0	root	_	AlignBegin=92575|AlignEnd=92773|GE=do|Gloss=do|nWord=6|RX=[AUX]
 14	-i		PART	_	_	13	cc	_	AlignBegin=92773|AlignEnd=92970|GE=while|Gloss=and|nWord=6|RX=[VERB]
 
 # sent_id = CO19_024-024
@@ -510,17 +510,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-19.WAV/WAV/ARH-TXT-CO-00000-19.WAV
 # sent_timecode = 94980, 98000
 # morphemic_text = a- ya nʉn =di yagʉ a'disʉ -y -a'me' chupu
-# text = aya nʉndi yagʉ a'disʉya'me' chupu
+# text = a- ya nʉn =di yagʉ a'disʉ -y -a'me' chupu
 # text_en = we say so, well, because they suck on dummies
 # text_phrase-gls-es = así es que dicen también porque chupan chupo
 1	a-		PRON	_	_	2	subj/m	_	AlignBegin=94980|AlignEnd=95282|GE=[1PL].[S]|Gloss=1PL.S|nWord=1|RX=[V:ANY]
 2	ya	ya	VERB	_	_	3	comp:aux	_	AlignBegin=95282|AlignEnd=95584|GE=say|Gloss=say|nWord=1|RX=[VI]
-3	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=95584|AlignEnd=95886|GE=cop|Gloss=cop|nWord=2|RX=[COP]
+3	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=95584|AlignEnd=95886|GE=cop|Gloss=cop|nWord=2|RX=[COP]
 4	=di		PART	_	_	3	mod	_	AlignBegin=95886|AlignEnd=96188|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 5	yagʉ	yagʉ	INTJ	_	_	6	discourse	_	AlignBegin=96188|AlignEnd=96792|GE=well|Gloss=well|nWord=3|RX=[INTERJ]
 6	a'disʉ	a'disʉ	VERB	_	_	7	comp:aux/m	_	AlignBegin=96792|AlignEnd=96993|GE=suck|Gloss=suck|nWord=4|RX=[V]
-7	-y		PART	_	_	8	comp:aux/m	_	AlignBegin=96993|AlignEnd=97194|GE=while|Gloss=and|nWord=4|RX=[VERB]
-8	-a'me'		AUX	_	_	_	_	_	AlignBegin=97194|AlignEnd=97396|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
+7	-y	-y	AUX	_	_	8	comp:aux/m	_	AlignBegin=96993|AlignEnd=97194|GE=NONEGO|Gloss=NONEGO|nWord=4|RX=[VERB]
+8	-a'me'		AUX	_	_	3	parataxis	_	AlignBegin=97194|AlignEnd=97396|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
 9	chupu	chupu	NOUN	_	_	6	comp:obj	_	AlignBegin=97396|AlignEnd=98000|GE=[SPA_dummy/pacifier]|Gloss=SPA_dummy/pacifier|nWord=5|RX=[N]
 
 # sent_id = CO19_026-026
@@ -809,7 +809,7 @@
 9	zʉn	zan	PART	_	_	_	_	_	AlignBegin=146470|AlignEnd=146936|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 10	ey	ey	PART	_	_	_	_	_	AlignBegin=146936|AlignEnd=147402|GE=so|Gloss=so|nWord=7|RX=[PRT]
 11	zʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=147402|AlignEnd=147868|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]
-12	i	i	VERB	_	_	13	comp:coord	_	AlignBegin=147868|AlignEnd=148334|GE=say|Gloss=say|nWord=9|RX=[V]
+12	i	i	VERB	_	_	13	conj:coord	_	AlignBegin=147868|AlignEnd=148334|GE=say|Gloss=say|nWord=9|RX=[V]
 13	ana-		AUX	_	_	14	mod/m	_	AlignBegin=148334|AlignEnd=148489|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
 14	zwey	zwey	VERB	_	_	15	comp:aux/m	_	AlignBegin=148489|AlignEnd=148644|GE=go|Gloss=go|nWord=10|RX=[VI]
 15	-n		AUX	_	_	16	comp:aux	_	AlignBegin=148644|AlignEnd=148800|GE=[IPFV]|Gloss=IPFV|nWord=10|RX=[VERB]

@@ -72,9 +72,9 @@
 7	-i		PART	_	_	_	_	_	AlignBegin=11859|AlignEnd=12141|GE=while|Gloss=and|nWord=5|RX=[VERB]
 8	ʉn-		AUX	_	_	9	mod/m	_	AlignBegin=12141|AlignEnd=12329|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]
 9	kʉ-		AUX	_	_	10	mod/m	_	AlignBegin=12329|AlignEnd=12517|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]
-10	zarosi	zarosi	VERB	_	_	7	comp:coord	_	AlignBegin=12517|AlignEnd=12705|GE=cook|Gloss=cook|nWord=6|RX=[V]
+10	zarosi	zarosi	VERB	_	_	7	conj:coord	_	AlignBegin=12517|AlignEnd=12705|GE=cook|Gloss=cook|nWord=6|RX=[V]
 11	a-		PRON	_	_	12	subj/m	_	AlignBegin=12705|AlignEnd=12893|GE=[1PL].[S]|Gloss=1PL.S|nWord=7|RX=[V:ANY]
-12	zoya	zoya	VERB	_	_	10	comp:coord	_	AlignBegin=12893|AlignEnd=13081|GE=go|Gloss=go|nWord=7|RX=[V]
+12	zoya	zoya	VERB	_	_	10	conj:coord	_	AlignBegin=12893|AlignEnd=13081|GE=go|Gloss=go|nWord=7|RX=[V]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=13081|AlignEnd=13269|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]
 14	i	i	VERB	_	_	15	comp:aux/m	_	AlignBegin=13269|AlignEnd=13551|GE=say|Gloss=say|nWord=8|RX=[V]
 15	-wa		AUX	_	_	16	comp:aux	_	AlignBegin=13551|AlignEnd=13833|GE=[INT]|Gloss=INT|nWord=8|RX=[VERB]
@@ -135,7 +135,7 @@
 16	-a		AUX	_	_	18	comp:aux	_	AlignBegin=22626|AlignEnd=22760|GE=[PFV]|Gloss=PFV|nWord=8|RX=[V:ANY]
 17	=ki		PART	_	_	16	mod	_	AlignBegin=22760|AlignEnd=22894|GE=[CNTR]|Gloss==CNTR|nWord=8|RX=[POST]
 18	nuk	nuk	AUX	_	_	19	comp:aux/m	_	AlignBegin=22894|AlignEnd=23028|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
-19	-wa		AUX	_	_	7	comp:coord	_	AlignBegin=23028|AlignEnd=23162|GE=[EGO]|Gloss=EGO|nWord=9|RX=[VERB]
+19	-wa		AUX	_	_	7	conj:coord	_	AlignBegin=23028|AlignEnd=23162|GE=[EGO]|Gloss=EGO|nWord=9|RX=[VERB]
 20	=ri		PART	_	_	19	mod	_	AlignBegin=23162|AlignEnd=23296|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 21	,		PUNCT	_	_	20	punct	_	AlignBegin=23296|AlignEnd=23698|nWord=10
 22	yagʉ	yagʉ	INTJ	_	_	_	_	_	AlignBegin=23698|AlignEnd=24100|GE=well|Gloss=well|nWord=11|RX=[INTERJ]
@@ -818,11 +818,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-12.WAV/WAV/ARH-TXT-CO-00000-12.WAV
 # sent_timecode = 137141, 141808
 # morphemic_text = un -aɉʉ =ri yow chwe nik -a aw =kin ɉokwʉ -y -e' =ri
-# text = unaɉʉri yow chwe nika awkin ɉokwʉye'ri
+# text = un -aɉʉ =ri yow chwe nik -a aw =kin ɉokwʉ -y -e' =ri
 # text_en = Afterwards, we cook it until it is soft
 # text_phrase-gls-es = Y luego cuando lo cocinamos hasta deshacerse,
 1	un	un	AUX	_	_	2	comp:aux/m	_	AlignBegin=137141|AlignEnd=137400|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
-2	-aɉʉ		AUX	_	_	_	_	_	AlignBegin=137400|AlignEnd=137659|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=1|RX=[V:ANY]
+2	-aɉʉ		AUX	_	_	10	mod	_	AlignBegin=137400|AlignEnd=137659|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=1|RX=[V:ANY]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=137659|AlignEnd=137919|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	yow	yow	PRON	_	_	10	comp:obj	_	AlignBegin=137919|AlignEnd=138697|GE=all|Gloss=all|nWord=2|RX=[QUANT]
 5	chwe	chwe	ADJ	_	_	6	comp:pred	_	AlignBegin=138697|AlignEnd=139475|GE=soft[food]|Gloss=soft[food]|nWord=3|RX=[ADJ]
@@ -831,8 +831,8 @@
 8	aw	aw	AUX	_	_	9	comp	_	AlignBegin=140253|AlignEnd=140642|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 9	=kin		ADP	_	_	10	mod	_	AlignBegin=140642|AlignEnd=141031|GE=[LIM]|Gloss==LIM|nWord=5|RX=[POST]
 10	ɉokwʉ	ɉokwʉ	VERB	_	_	11	comp:aux/m	_	AlignBegin=141031|AlignEnd=141225|GE=cook|Gloss=cook|nWord=6|RX=[V]
-11	-y		PART	_	_	12	comp:aux/m	_	AlignBegin=141225|AlignEnd=141419|GE=while|Gloss=and|nWord=6|RX=[VERB]
-12	-e'		AUX	_	_	_	_	_	AlignBegin=141419|AlignEnd=141613|GE=then|Gloss=then|nWord=6|RX=[VERB]
+11	-y	-y	AUX	_	_	12	comp:aux/m	_	AlignBegin=141225|AlignEnd=141419|GE=NONEGO|Gloss=NONEGO|nWord=6|RX=[VERB]
+12	-e'		AUX	_	_	0	root	_	AlignBegin=141419|AlignEnd=141613|GE=then|Gloss=then|nWord=6|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=141613|AlignEnd=141808|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 
 # sent_id = CO12_37-37

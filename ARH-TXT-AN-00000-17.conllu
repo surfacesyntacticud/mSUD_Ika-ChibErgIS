@@ -270,7 +270,7 @@
 # text_phrase-gls-es = y todo era oscuro
 # text_phrase-gls-tl = repitition of zʉn
 1	twi	twi	ADJ	_	_	5	comp:pred@attr	_	AlignBegin=60420|AlignEnd=60674|GE=black|Gloss=black|nWord=1|RX=[ADJ]
-2	zʉn	zan	AUX	_	_	4	conj:dicto	_	AlignBegin=60674|AlignEnd=60928|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
+2	zʉn	zan	PART	_	_	4	conj:dicto	_	AlignBegin=60674|AlignEnd=60928|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 3	,		PUNCT	_	_	2	punct	_	AlignBegin=60928|AlignEnd=61182|nWord=3
 4	zʉn	zan	PART	_	_	1	mod:emph	_	AlignBegin=61182|AlignEnd=61436|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
 5	zʉn	zan	AUX	_	_	6	comp:aux/m	_	AlignBegin=61436|AlignEnd=61563|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]
@@ -328,7 +328,7 @@
 2	pari	pari	ADP	_	_	3	mod:lmod	_	AlignBegin=69174|AlignEnd=69468|GE=from|Gloss=from|nWord=2|RX=[POST]
 3	na	nan	VERB	_	_	4	comp:aux/m	_	AlignBegin=69468|AlignEnd=69615|GE=come|Gloss=come|nWord=3|RX=[V]
 4	-na		AUX	_	_	5	comp:aux	_	AlignBegin=69615|AlignEnd=69762|GE=[RMTPST]|Gloss=RMTPST|nWord=3|RX=[VERB]
-5	ni	nan	AUX	_	_	8	comp:obj	_	AlignBegin=69762|AlignEnd=70056|GE=[DECL]|Gloss=DECL|nWord=4|RX=[AUX]
+5	ni	nan	AUX	_	_	8	udep	_	AlignBegin=69762|AlignEnd=70056|GE=[DECL]|Gloss=DECL|nWord=4|RX=[AUX]
 6	keywʉ	keywʉ	PART	_	_	5	discourse	_	AlignBegin=70056|AlignEnd=70350|GE=soon|Gloss=soon|nWord=5|RX=[PRT]
 7	me-		PRON	_	_	8	comp:obj/m	_	AlignBegin=70350|AlignEnd=70448|GE=[2SG].[O]|Gloss=2SG.O|nWord=6|RX=[PRONOUN]
 8	zan	zan	VERB	_	_	9	comp:aux/m	_	AlignBegin=70448|AlignEnd=70546|GE=know|Gloss=know|nWord=6|RX=[V]
@@ -712,7 +712,7 @@
 8	gow	gow	VERB	_	_	9	comp:aux/m	_	AlignBegin=147997|AlignEnd=148328|GE=build|Gloss=build|nWord=7|RX=[V]
 9	-na		AUX	_	_	10	comp:obj	_	AlignBegin=148328|AlignEnd=148659|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
 10	awga	awga	VERB	_	_	11	comp:aux	_	AlignBegin=148659|AlignEnd=149321|GE=say|Gloss=say|nWord=8|RX=[V]
-11	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=149321|AlignEnd=149652|GE=cop|Gloss=cop|nWord=9|RX=[COP]
+11	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=149321|AlignEnd=149652|GE=cop|Gloss=cop|nWord=9|RX=[COP]
 12	=di		PART	_	_	11	mod	_	AlignBegin=149652|AlignEnd=149983|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 13	.		PUNCT	_	_	12	punct	_	AlignBegin=149983|AlignEnd=150650|Gloss=.|nWord=10
 
@@ -846,11 +846,11 @@
 1	inʉ	inʉ	PRON	_	_	4	comp:obl	_	AlignBegin=185464|AlignEnd=185736|GE=what|Gloss=what|nWord=1|RX=[INTERROG]
 2	=ki		PART	_	_	1	mod	_	AlignBegin=185736|AlignEnd=186007|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]
 3	winʉ-		PRON	_	_	4	subj/m	_	AlignBegin=186007|AlignEnd=186279|GE=[3PL].[S]|Gloss=3PL.S|nWord=2|RX=[VERB]
-4	a'zʉna	a'zʉna	VERB	_	_	13	conj:appos	_	AlignBegin=186279|AlignEnd=186550|GE=feel|Gloss=feel|nWord=2|RX=[V]
+4	a'zʉna	a'zʉna	VERB	_	_	14	parataxis	_	AlignBegin=186279|AlignEnd=186550|GE=feel|Gloss=feel|nWord=2|RX=[V]
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=186550|AlignEnd=187093|nWord=3
 6	inʉ	inʉ	PRON	_	_	8	udep:poss	_	AlignBegin=187093|AlignEnd=187365|GE=what|Gloss=what|nWord=4|RX=[INTERROG]
 7	=ki		PART	_	_	6	mod	_	AlignBegin=187365|AlignEnd=187636|GE=[CNTR]|Gloss==CNTR|nWord=4|RX=[PRT]
-8	zʉ-	zʉ-	PART	_	_	12	conj:appos	_	AlignBegin=187636|AlignEnd=187908|GE=[POSS]|Gloss=POSS|nWord=5|RX=[N:ANY]
+8	zʉ-	zʉ-	PART	_	_	12	mod	_	AlignBegin=187636|AlignEnd=187908|GE=[POSS]|Gloss=POSS|nWord=5|RX=[N:ANY]
 9	paw	paw	NOUN	_	_	8	comp	_	AlignBegin=187908|AlignEnd=188179|GE=owner|Gloss=owner|nWord=5|RX=[N]
 10	,		PUNCT	_	_	9	punct	_	AlignBegin=188179|AlignEnd=188722|nWord=6
 11	a	a	PRON	_	_	12	comp	_	AlignBegin=188722|AlignEnd=188994|GE=[3SG]|Gloss=3SG|nWord=7|RX=[PRO]
@@ -1094,27 +1094,27 @@
 5	.		PUNCT	_	_	4	punct	_	AlignBegin=243966|AlignEnd=244600|Gloss=.|nWord=3
 
 # sent_id = AN17_50-50
+# text = eyma me- z- a'sisʉ -y -a'me' na -' nʉn -no mi- ke- y -kume -y =ri ,
 # speaker_id = @SP17
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-17.WAV/WAV/ARH-TXT-AN-00000-17.WAV
 # sent_timecode = 244600, 247750
 # morphemic_text = eyma me- z- a'sisʉ -y -a'me' na -' nʉn -no mi- ke- y -kume -y =ri ,.
-# text = eyma meza'sisʉya'me' na' nʉnno mikeykumeyri ,.
 # text_en = they tell you, this is why they are asking you this, don't they?
 # text_phrase-gls-es = te dicen, te están pidiendo esto [que cumplas las convenciones espirituales por su propio bien], cierto?
 1	eyma	eyma	PRON	_	_	4	comp:obj	_	AlignBegin=244600|AlignEnd=245125|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	me-		PRON	_	_	3	comp:obj/m	_	AlignBegin=245125|AlignEnd=245230|GE=[2SG].[O]|Gloss=2SG.O|nWord=2|RX=[PRONOUN]
 3	z-		AUX	_	_	4	mod/m	_	AlignBegin=245230|AlignEnd=245335|GE=[ZA]|Gloss=ZA|nWord=2|RX=[V:ANY]
 4	a'sisʉ	a'sisʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=245335|AlignEnd=245440|GE=ask|Gloss=ask|nWord=2|RX=[V]
-5	-y		PART	_	_	6	comp:aux/m	_	AlignBegin=245440|AlignEnd=245545|GE=while|Gloss=and|nWord=2|RX=[VERB]
+5	-y	-y	AUX	_	_	6	comp:aux/m	_	AlignBegin=245440|AlignEnd=245545|GE=NONEGO|Gloss=NONEGO|nWord=2|RX=[VERB]
 6	-a'me'		AUX	_	_	7	comp:aux	_	AlignBegin=245545|AlignEnd=245650|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
 7	na	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=245650|AlignEnd=245912|GE=cop|Gloss=cop|nWord=3|RX=[COP]
 8	-'		AUX	_	_	9	comp:aux	_	AlignBegin=245912|AlignEnd=246175|GE=[NEG]|Gloss=NEG|nWord=3|RX=[VERB]
 9	nʉn	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=246175|AlignEnd=246437|GE=cop|Gloss=cop|nWord=4|RX=[COP]
-10	-no		AUX	_	_	_	_	_	AlignBegin=246437|AlignEnd=246700|GE=[Q]|Gloss=Q|nWord=4|RX=[VERB]
+10	-no		AUX	_	_	13	comp:obj	_	AlignBegin=246437|AlignEnd=246700|GE=[Q]|Gloss=Q|nWord=4|RX=[VERB]
 11	mi-		PRON	_	_	12	comp:obj/m	_	AlignBegin=246700|AlignEnd=246788|GE=[2SG].[O]|Gloss=2SG.O|nWord=5|RX=[PRONOUN]
 12	ke-		AUX	_	_	13	mod/m	_	AlignBegin=246788|AlignEnd=246876|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
 13	y	y	VERB	_	_	14	comp:aux/m	_	AlignBegin=246876|AlignEnd=246964|GE=say|Gloss=say|nWord=5|RX=[VI]
-14	-kume		AUX	_	_	_	_	_	AlignBegin=246964|AlignEnd=247052|GE=[ANTIC]|Gloss=ANTIC|nWord=5|RX=[V:ANY]
+14	-kume		AUX	_	_	0	root	_	AlignBegin=246964|AlignEnd=247052|GE=[ANTIC]|Gloss=ANTIC|nWord=5|RX=[V:ANY]
 15	-y		PART	_	_	14	cc	_	AlignBegin=247052|AlignEnd=247140|GE=while|Gloss=and|nWord=5|RX=[VERB]
 16	=ri		PART	_	_	15	mod	_	AlignBegin=247140|AlignEnd=247225|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 17	,		PUNCT	_	_	16	punct	_	AlignBegin=247225|AlignEnd=247750|nWord=6|wordform=,.

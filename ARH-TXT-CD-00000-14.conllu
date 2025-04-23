@@ -170,18 +170,18 @@
 # text_phrase-gls-tl = ünzoya: literalmente: irse; también se refiere a lo que se hace/practica diariamente
 1	ʉn-		AUX	_	_	2	mod/m	_	AlignBegin=35600|AlignEnd=35748|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]
 2	zoy	zoy	VERB	_	_	3	comp	_	AlignBegin=35748|AlignEnd=35896|GE=go|Gloss=go|nWord=1|RX=[V]
-3	=a'ba'		ADP	_	_	5	conj:appos	_	AlignBegin=35896|AlignEnd=36044|GE=[NOM]|Gloss==NOM|nWord=1|RX=[POST]
+3	=a'ba'		ADP	_	_	5	mod	_	AlignBegin=35896|AlignEnd=36044|GE=[NOM]|Gloss==NOM|nWord=1|RX=[POST]
 4	zʉ'ʉn	zan	PART	_	_	3	mod:emph	_	AlignBegin=36044|AlignEnd=36488|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 5	eyma	eyma	PRON	_	_	9	comp:obl	_	AlignBegin=36488|AlignEnd=36710|GE=this|Gloss=this|nWord=3|RX=[DEM]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=36710|AlignEnd=36932|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 7	diwʉn	diwʉn	ADJ	_	_	9	comp:pred	_	AlignBegin=36932|AlignEnd=37376|GE=different|Gloss=different|nWord=4|RX=[ADJ]
 8	anʉ-		AUX	_	_	9	comp:aux	_	AlignBegin=37376|AlignEnd=37524|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]
-9	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=37524|AlignEnd=37672|GE=seem|Gloss=seem|nWord=5|RX=[AUX]
+9	kaw	kaw	AUX	_	_	13	conj:coord	_	AlignBegin=37524|AlignEnd=37672|GE=seem|Gloss=seem|nWord=5|RX=[AUX]
 10	-i		PART	_	_	9	cc	_	AlignBegin=37672|AlignEnd=37820|GE=while|Gloss=and|nWord=5|RX=[VERB]
 11	zʉ'ʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=37820|AlignEnd=38264|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 12	ʉn-		AUX	_	_	13	mod/m	_	AlignBegin=38264|AlignEnd=38486|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
 13	zoya	zoya	VERB	_	_	14	comp:aux	_	AlignBegin=38486|AlignEnd=38708|GE=go|Gloss=go|nWord=7|RX=[VI]
-14	ni	nan	AUX	_	_	_	_	_	AlignBegin=38708|AlignEnd=39152|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
+14	ni	nan	AUX	_	_	0	root	_	AlignBegin=38708|AlignEnd=39152|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
 15	.		PUNCT	_	_	14	punct	_	AlignBegin=39152|AlignEnd=39600|Gloss=.|nWord=9
 
 # sent_id = CD14_09-09
@@ -226,14 +226,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-14.WAV/WAV/ARH-TXT-CD-00000-14.WAV
 # sent_timecode = 43600, 47600
 # morphemic_text = ʉn- kʉ- cho'sʉ -y -e' =ki .
-# text = ʉnkʉcho'sʉye'ki .
+# text = ʉn- kʉ- cho'sʉ -y -e' =ki .
 # text_en = they dress,
 # text_phrase-gls-es = se visten
 1	ʉn-		AUX	_	_	2	mod/m	_	AlignBegin=43600|AlignEnd=43933|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]
 2	kʉ-		AUX	_	_	3	mod/m	_	AlignBegin=43933|AlignEnd=44266|GE=[APPL1]|Gloss=APPL1|nWord=1|RX=[V>V]
 3	cho'sʉ	cho'sʉ	VERB	_	_	4	comp:aux/m	_	AlignBegin=44266|AlignEnd=44599|GE=put.down[upright]|Gloss=put.down[upright]|nWord=1|RX=[V]
-4	-y		PART	_	_	5	comp:aux/m	_	AlignBegin=44599|AlignEnd=44932|GE=while|Gloss=and|nWord=1|RX=[VERB]
-5	-e'		AUX	_	_	_	_	_	AlignBegin=44932|AlignEnd=45265|GE=then|Gloss=then|nWord=1|RX=[VERB]
+4	-y	-y	AUX	_	_	5	comp:aux/m	_	AlignBegin=44599|AlignEnd=44932|GE=NONEGO|Gloss=NONEGO|nWord=1|RX=[VERB]
+5	-e'		AUX	_	_	0	root	_	AlignBegin=44932|AlignEnd=45265|GE=then|Gloss=then|nWord=1|RX=[VERB]
 6	=ki		PART	_	_	5	mod	_	AlignBegin=45265|AlignEnd=45600|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]
 7	.		PUNCT	_	_	6	punct	_	AlignBegin=45600|AlignEnd=47600|Gloss=.|nWord=2
 

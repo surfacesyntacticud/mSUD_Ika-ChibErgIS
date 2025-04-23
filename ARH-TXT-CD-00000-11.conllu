@@ -134,8 +134,8 @@
 # text_en = a woman and, an Ika woman, and the other Wiwa [woman], an Ika woman, one can compare them |
 # text_phrase-gls-es = una mujer y, una mujer Ika, y la otra Wiwa [mujer], una mujer Ika, uno puede compararlas
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=28702|AlignEnd=29407|GE=one|Gloss=one|nWord=1|RX=[NUM]
-2	gwati	gwati	NOUN	_	_	16	conj:appos	_	AlignBegin=29407|AlignEnd=30112|GE=woman|Gloss=woman|nWord=2|RX=[N]
-3	aw	aw	AUX	_	_	_	_	_	AlignBegin=30112|AlignEnd=30347|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
+2	gwati	gwati	NOUN	_	_	16	conj:dicto	_	AlignBegin=29407|AlignEnd=30112|GE=woman|Gloss=woman|nWord=2|RX=[N]
+3	aw	aw	AUX	_	_	7	cc	_	AlignBegin=30112|AlignEnd=30347|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
 4	-i		PART	_	_	3	cc	_	AlignBegin=30347|AlignEnd=30582|GE=while|Gloss=and|nWord=3|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=30582|AlignEnd=30817|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=30817|AlignEnd=31522|nWord=4
@@ -143,7 +143,7 @@
 8	ikʉ	ikʉ	PROPN	_	_	7	mod	_	AlignBegin=32227|AlignEnd=32932|GE=[Ika]|Gloss=Ika|nWord=6|RX=[NPROP]
 9	,		PUNCT	_	_	8	punct	_	AlignBegin=32932|AlignEnd=33637|nWord=7
 10	ey	ey	PART	_	_	11	mod	_	AlignBegin=33637|AlignEnd=34342|GE=so|Gloss=so|nWord=8|RX=[PRT]
-11	aw	aw	AUX	_	_	_	_	_	AlignBegin=34342|AlignEnd=34577|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
+11	aw	aw	AUX	_	_	14	cc	_	AlignBegin=34342|AlignEnd=34577|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
 12	-i		PART	_	_	11	cc	_	AlignBegin=34577|AlignEnd=34812|GE=while|Gloss=and|nWord=9|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=34812|AlignEnd=35047|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 14	ingeygwi	ingeygwi	ADJ	_	_	16	mod	_	AlignBegin=35047|AlignEnd=35399|GE=other|Gloss=other|nWord=10|RX=[ADJ]
@@ -158,7 +158,7 @@
 23	kʉ-		AUX	_	_	24	mod/m	_	AlignBegin=40158|AlignEnd=40334|GE=[APPL1]|Gloss=APPL1|nWord=17|RX=[V>V]
 24	gwa	gwa	VERB	_	_	25	comp:aux/m	_	AlignBegin=40334|AlignEnd=40510|GE=compare|Gloss=compare|nWord=17|RX=[V]
 25	-kwa		AUX	_	_	26	comp:aux	_	AlignBegin=40510|AlignEnd=40687|GE=[OBL]|Gloss=OBL|nWord=17|RX=[VERB]
-26	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=40687|AlignEnd=41039|GE=cop|Gloss=cop|nWord=18|RX=[COP]
+26	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=40687|AlignEnd=41039|GE=cop|Gloss=cop|nWord=18|RX=[COP]
 27	=di		PART	_	_	26	mod	_	AlignBegin=41039|AlignEnd=41392|GE=[TOP]|Gloss==TOP|nWord=18|RX=[PRT]
 28	.		PUNCT	_	_	27	punct	_	AlignBegin=41392|AlignEnd=42091|Gloss=.|nWord=19
 
@@ -637,15 +637,15 @@
 # text = in'gweti in'gweti , eri , azi yʉko ?
 # text_en = One by one, eh, how do I say
 # text_phrase-gls-es = Cada uno, eh, como digo
-1	in'gweti	in'gweti	PRON	_	_	7	conj:appos	_	AlignBegin=155230|AlignEnd=155508|GE=each|Gloss=each|nWord=1|RX=[PRO]
+1	in'gweti	in'gweti	PRON	_	_	7	parataxis	_	AlignBegin=155230|AlignEnd=155508|GE=each|Gloss=each|nWord=1|RX=[PRO]
 2	in'gweti	in'gweti	PRON	_	_	1	compound:redup	_	AlignBegin=155508|AlignEnd=155786|GE=each|Gloss=each|nWord=2|RX=[PRO]
 3	,		PUNCT	_	_	2	punct	_	AlignBegin=155786|AlignEnd=156064|nWord=3
-4	eri	eri	INTJ	_	_	_	_	_	AlignBegin=156064|AlignEnd=156342|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]
+4	eri	eri	INTJ	_	_	7	discourse	_	AlignBegin=156064|AlignEnd=156342|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=156342|AlignEnd=156620|nWord=5
-6	azi	azi	ADV	_	_	_	_	_	AlignBegin=156620|AlignEnd=156898|GE=how|Gloss=how|nWord=6|RX=[INTERROG]
+6	azi	azi	ADV	_	_	7	mod	_	AlignBegin=156620|AlignEnd=156898|GE=how|Gloss=how|nWord=6|RX=[INTERROG]
 7	yʉ	yʉ	VERB	_	_	8	comp:aux/m	_	AlignBegin=156898|AlignEnd=156991|GE=say|Gloss=say|nWord=7|RX=[VI]
 8	-k		AUX	_	_	9	comp:aux/m	_	AlignBegin=156991|AlignEnd=157084|GE=[DIST]|Gloss=DIST|nWord=7|RX=[V:ANY]
-9	-o		AUX	_	_	_	_	_	AlignBegin=157084|AlignEnd=157176|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]
+9	-o		AUX	_	_	0	root	_	AlignBegin=157084|AlignEnd=157176|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]
 10	?		PUNCT	_	_	9	punct	_	AlignBegin=157176|AlignEnd=157450|GE=[?]|Gloss=?|nWord=8
 
 # sent_id = CD11_28-28
@@ -664,7 +664,7 @@
 5	-i		PART	_	_	4	cc	_	AlignBegin=158140|AlignEnd=158278|GE=while|Gloss=and|nWord=3|RX=[VERB]
 6	kwasa	kwasa	VERB	_	_	7	comp:aux/m	_	AlignBegin=158278|AlignEnd=158416|GE=create|Gloss=create|nWord=4|RX=[V]
 7	-na		AUX	_	_	8	comp:aux	_	AlignBegin=158416|AlignEnd=158554|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
-8	ni	nan	AUX	_	_	11	comp:obj	_	AlignBegin=158554|AlignEnd=158830|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]
+8	ni	nan	AUX	_	_	11	udep	_	AlignBegin=158554|AlignEnd=158830|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]
 9	zʉ'ʉn	zan	PART	_	_	8	mod:emph	_	AlignBegin=158830|AlignEnd=158968|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 10	=gwi		ADV	_	_	9	mod	_	AlignBegin=158968|AlignEnd=159106|GE=also|Gloss==also|nWord=6|RX=[ADV]
 11	awga	awga	VERB	_	_	12	comp:aux	_	AlignBegin=159106|AlignEnd=159382|GE=say|Gloss=say|nWord=7|RX=[V]

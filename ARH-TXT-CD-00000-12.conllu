@@ -458,9 +458,9 @@
 # text_phrase-gls-es = a partir del 73, el gobierno no-indígena primero lo reconoció [lit. dijo] desde ese momento un poco.
 # text_phrase-gls-tl = from [the year] '73 onwards, the non-indigenous government first recognised [lit. said] a little bit. |
 # text_en = from [the year] '73 onwards, the non-indigenous government, it was first from this moment on, recognised [lit. said] it a little bit.
-1	en	en	ADP	_	_	2	comp	_	AlignBegin=84689|AlignEnd=85092|GE=[SPA_in]|Gloss=SPA_in|nWord=1|RX=[PREP]
-2	el	el	DET	_	_	3	det	_	AlignBegin=85092|AlignEnd=85495|GE=[SPA_the]|Gloss=SPA_the|nWord=2|RX=[DEF]
-3	setentaytre	setentaytre	NUM	_	_	4	comp	_	AlignBegin=85495|AlignEnd=85697|GE=[SPA_seventythree]|Gloss=SPA_seventythree|nWord=3|RX=[NUM]
+1	en	en	X	_	_	4	comp	_	AlignBegin=84689|AlignEnd=85092|GE=[SPA_in]|Gloss=SPA_in|nWord=1|RX=[PREP]
+2	el	el	X	_	_	1	compound	_	AlignBegin=85092|AlignEnd=85495|GE=[SPA_the]|Gloss=SPA_the|nWord=2|RX=[DEF]
+3	setentaytre	setentaytre	NUM	_	_	2	compound	_	AlignBegin=85495|AlignEnd=85697|GE=[SPA_seventythree]|Gloss=SPA_seventythree|nWord=3|RX=[NUM]
 4	=se'		ADP	_	_	5	comp	_	AlignBegin=85697|AlignEnd=85898|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
 5	pari	pari	ADP	_	_	27	comp:obl	_	AlignBegin=85898|AlignEnd=86301|GE=from|Gloss=from|nWord=4|RX=[POST]
 6	ingʉ	ingʉ	ADJ	_	_	7	mod	_	AlignBegin=86301|AlignEnd=86704|GE=few|Gloss=few|nWord=5|RX=[ADJ]
@@ -885,7 +885,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-12.WAV/WAV/ARH-TXT-CD-00000-12.WAV
 # sent_timecode = 154522, 158270
 # morphemic_text = ( eh ) regwardu =ri chwʉ -y -e' =ri , ingʉ azurin =ta' kʉ zagichʉ -y -e' =ki .
-# text = ( eh ) regwarduri chwʉye'ri , ingʉ azurinta kʉzagichʉye'ki .
+# text = ( eh ) regwardu =ri chwʉ -y -e' =ri , ingʉ azurin =ta' kʉ zagichʉ -y -e' =ki .
 # text_en = When one looks at the reserve, it is located [lit. passes] higher up [than the black line]. | Si vemos el resguardo, pasa un poco más arriba (de la linea)
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=154522|AlignEnd=154897|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=154897|AlignEnd=155272|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]
@@ -902,7 +902,7 @@
 13	=ta'		ADP	_	_	15	mod:lmod	_	AlignBegin=157335|AlignEnd=157522|GE=[LOC]|Gloss==LOC|nWord=8|RX=[POST]
 14	kʉ	kʉ	ADJ	_	_	_	_	_	AlignBegin=157522|AlignEnd=157597|GE=cold|Gloss=cold|nWord=9|RX=[ADJ]
 15	zagichʉ	zagichʉ	VERB	_	_	16	comp:aux/m	_	AlignBegin=157597|AlignEnd=157672|GE=pass|Gloss=pass|nWord=9|RX=[V]
-16	-y		PART	_	_	17	comp:aux/m	_	AlignBegin=157672|AlignEnd=157747|GE=while|Gloss=and|nWord=9|RX=[VERB]
+16	-y	-y	AUX	_	_	17	comp:aux/m	_	AlignBegin=157672|AlignEnd=157747|GE=NONEGO|Gloss=NONEGO|nWord=9|RX=[VERB]
 17	-e'		AUX	_	_	_	_	_	AlignBegin=157747|AlignEnd=157822|GE=then|Gloss=then|nWord=9|RX=[VERB]
 18	=ki		PART	_	_	17	mod	_	AlignBegin=157822|AlignEnd=157897|GE=[CNTR]|Gloss==CNTR|nWord=9|RX=[PRT]
 19	.		PUNCT	_	_	18	punct	_	AlignBegin=157897|AlignEnd=158270|Gloss=.|nWord=10
@@ -1359,12 +1359,12 @@
 # morphemic_text = umʉn kʉnʉna =se' =ri tre ektarea nan =ʉkin .
 # text = umʉn kʉnʉnase'ri tre ektarea nanʉkin .
 # text_en = Those who have more have up to 3 hectares of land. | los que tienen más tienen hasta 3 hectarea de tierra
-1	umʉn	umʉn	ADV	_	_	3	comp:obj	_	AlignBegin=218761|AlignEnd=219161|GE=more|Gloss=more|nWord=1|RX=[ADV]
+1	umʉn	umʉn	ADV	_	_	2	comp:obj	_	AlignBegin=218761|AlignEnd=219161|GE=more|Gloss=more|nWord=1|RX=[ADV]
 2	kʉnʉna	kʉnʉna	VERB	_	_	3	comp	_	AlignBegin=219161|AlignEnd=219294|GE=have|Gloss=have|nWord=2|RX=[VT]
 3	=se'		ADP	_	_	7	subj	_	AlignBegin=219294|AlignEnd=219427|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=219427|AlignEnd=219561|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 5	tre	tre	NUM	_	_	6	mod:num	_	AlignBegin=219561|AlignEnd=219961|GE=[SPA_three]|Gloss=SPA_three|nWord=3|RX=[NUM]
-6	ektarea	ektarea	NOUN	_	_	7	comp:obj	_	AlignBegin=219961|AlignEnd=220361|GE=[SPA_hectare]|Gloss=SPA_hectare|nWord=4|RX=[N]
+6	ektarea	ektarea	NOUN	_	_	7	comp:pred	_	AlignBegin=219961|AlignEnd=220361|GE=[SPA_hectare]|Gloss=SPA_hectare|nWord=4|RX=[N]
 7	nan	nan	AUX	_	_	8	comp	_	AlignBegin=220361|AlignEnd=220561|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
 8	=ʉkin		ADP	_	_	0	root	_	AlignBegin=220561|AlignEnd=220761|GE=[LIM]|Gloss==LIM|nWord=5|RX=[POST]
 9	.		PUNCT	_	_	8	punct	_	AlignBegin=220761|AlignEnd=221159|Gloss=.|nWord=6
@@ -2002,12 +2002,12 @@
 # text = awe'ri rinhaɉʉyekʉ neki , manʉnka ikʉri diwʉn kinkiri niwikawi .
 # text_en = In the way of dressing ourselves, we Ika people are different | hasta en la forma de vestir nosotros somos diferente, siempre somos diferente (iküri diwun ...kawi)
 1	aw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=321490|AlignEnd=321656|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
-2	-e'		AUX	_	_	_	_	_	AlignBegin=321656|AlignEnd=321822|GE=then|Gloss=then|nWord=1|RX=[VERB]
+2	-e'		AUX	_	_	5	discourse	_	AlignBegin=321656|AlignEnd=321822|GE=then|Gloss=then|nWord=1|RX=[VERB]
 3	=ri		PART	_	_	2	mod	_	AlignBegin=321822|AlignEnd=321988|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	rinh-		AUX	_	_	5	mod/m	_	AlignBegin=321988|AlignEnd=322112|GE=[REFL]|Gloss=REFL|nWord=2|RX=[V>V]
 5	aɉʉ	aɉʉ	VERB	_	_	6	comp:aux/m	_	AlignBegin=322112|AlignEnd=322236|GE=dress|Gloss=dress|nWord=2|RX=[V]
 6	-y		AUX	_	_	7	comp	_	AlignBegin=322236|AlignEnd=322360|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]
-7	=ekʉ		ADP	_	_	17	conj:appos	_	AlignBegin=322360|AlignEnd=322486|GE=[NOM]|Gloss==NOM|nWord=2|RX=[N]
+7	=ekʉ		ADP	_	_	17	mod	_	AlignBegin=322360|AlignEnd=322486|GE=[NOM]|Gloss==NOM|nWord=2|RX=[N]
 8	neki	neki	PART	_	_	7	mod:emph	_	AlignBegin=322486|AlignEnd=322984|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]
 9	,		PUNCT	_	_	8	punct	_	AlignBegin=322984|AlignEnd=323482|nWord=4
 10	manʉnka'	manʉnka'	PRON	_	_	17	comp:obl	_	AlignBegin=323482|AlignEnd=323980|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=5|RX=[PRO]
@@ -2017,7 +2017,7 @@
 14	kinki	kinki	PART	_	_	_	_	_	AlignBegin=324976|AlignEnd=325225|GE=always|Gloss=always|nWord=8|RX=[PRT]
 15	=ri		PART	_	_	14	mod	_	AlignBegin=325225|AlignEnd=325474|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
 16	niwi-		PRON	_	_	17	comp:obj/m	_	AlignBegin=325474|AlignEnd=325640|GE=[1PL].[O]|Gloss=1PL.O|nWord=9|RX=[V:ANY]
-17	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=325640|AlignEnd=325806|GE=seem|Gloss=seem|nWord=9|RX=[AUX]
+17	kaw	kaw	AUX	_	_	0	root	_	AlignBegin=325640|AlignEnd=325806|GE=seem|Gloss=seem|nWord=9|RX=[AUX]
 18	-i		PART	_	_	17	cc	_	AlignBegin=325806|AlignEnd=325972|GE=while|Gloss=and|nWord=9|RX=[VERB]
 19	.		PUNCT	_	_	18	punct	_	AlignBegin=325972|AlignEnd=326470|Gloss=.|nWord=10
 
@@ -2178,7 +2178,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-12.WAV/WAV/ARH-TXT-CD-00000-12.WAV
 # sent_timecode = 351319, 354082
 # morphemic_text = eyma =ri ɉe ɉunʉ -ya =gwi ni =gwi a- ya gu- nanʉn =di .
-# text = eymari ɉe ɉunʉyagwi nigwi aya gunʉndi .
+# text = eyma =ri ɉe ɉunʉ -ya =gwi ni =gwi a- ya gu- nan -ʉn =di .
 # text_en = we say that these are the waters that flow down.
 # text_phrase-gls-es = [representan] el agua que corre hacia abajo, dicen eso
 1	eyma	eyma	PRON	_	_	7	subj	_	AlignBegin=351319|AlignEnd=351517|GE=this|Gloss=this|nWord=1|RX=[DEM]
@@ -2187,14 +2187,15 @@
 4	ɉunʉ	ɉunʉ	VERB	_	_	5	comp:aux/m	_	AlignBegin=352109|AlignEnd=352241|GE=flow.down|Gloss=flow.down|nWord=3|RX=[V]
 5	-ya		AUX	_	_	7	comp:pred	_	AlignBegin=352241|AlignEnd=352373|GE=[NONEGO]|Gloss=NONEGO|nWord=3|RX=[V:ANY]
 6	=gwi		ADV	_	_	5	mod	_	AlignBegin=352373|AlignEnd=352504|GE=also|Gloss==also|nWord=3|RX=[ADV]
-7	ni	nan	AUX	_	_	10	comp:obj	_	AlignBegin=352504|AlignEnd=352702|GE=[DECL]|Gloss=DECL|nWord=4|RX=[AUX]
+7	ni	nan	AUX	_	_	10	udep	_	AlignBegin=352504|AlignEnd=352702|GE=[DECL]|Gloss=DECL|nWord=4|RX=[AUX]
 8	=gwi		ADV	_	_	7	mod	_	AlignBegin=352702|AlignEnd=352899|GE=also|Gloss==also|nWord=4|RX=[ADV]
 9	a-		PRON	_	_	10	subj/m	_	AlignBegin=352899|AlignEnd=353097|GE=[1PL].[S]|Gloss=1PL.S|nWord=5|RX=[V:ANY]
-10	ya	ya	VERB	_	_	_	_	_	AlignBegin=353097|AlignEnd=353294|GE=say|Gloss=say|nWord=5|RX=[VI]
-11	gu-		AUX	_	_	12	comp:aux	_	AlignBegin=353294|AlignEnd=353426|GE=[GU]|Gloss=GU|nWord=6|RX=[V:ANY]
-12	nanʉn	nanʉn	AUX	_	_	_	_	_	AlignBegin=353426|AlignEnd=353558|GE=cop|Gloss=cop|nWord=6|RX=[COP]
-13	=di		PART	_	_	12	mod	_	AlignBegin=353558|AlignEnd=353689|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
-14	.		PUNCT	_	_	13	punct	_	AlignBegin=353689|AlignEnd=354082|Gloss=.|nWord=7
+10	ya	ya	VERB	_	_	12	comp:aux	_	AlignBegin=353097|AlignEnd=353294|GE=say|Gloss=say|nWord=5|RX=[VI]
+11	gu-		AUX	_	_	12	mod/m	_	AlignBegin=353294|AlignEnd=353426|GE=[GU]|Gloss=GU|nWord=6|RX=[V:ANY]
+12	nan	nan	AUX	_	_	13	comp:aux/m	_	AlignBegin=353426|AlignEnd=353558|GE=cop|Gloss=cop|nWord=6|RX=[COP]
+13	-ʉn	-ʉn	AUX	_	_	0	root	_	AlignBegin=353426|AlignEnd=353558|GE=IPFV|Gloss=IPFV|nWord=6|RX=[COP]
+14	=di		PART	_	_	13	mod	_	AlignBegin=353558|AlignEnd=353689|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
+15	.		PUNCT	_	_	14	punct	_	AlignBegin=353689|AlignEnd=354082|Gloss=.|nWord=7
 
 # sent_id = CD12_092-092
 # speaker_id = @SP12
@@ -3372,7 +3373,7 @@
 13	=ri		PART	_	_	12	mod	_	AlignBegin=527926|AlignEnd=528141|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 14	ey	ey	PART	_	_	15	discourse	_	AlignBegin=528141|AlignEnd=528571|GE=so|Gloss=so|nWord=7|RX=[PRT]
 15	wasʉ	wasʉ	VERB	_	_	16	comp:aux/m	_	AlignBegin=528571|AlignEnd=528786|GE=speak|Gloss=speak|nWord=8|RX=[V]
-16	-ya		AUX	_	_	11	comp:coord	_	AlignBegin=528786|AlignEnd=529001|GE=[NONEGO]|Gloss=NONEGO|nWord=8|RX=[V:ANY]
+16	-ya		AUX	_	_	11	conj:coord	_	AlignBegin=528786|AlignEnd=529001|GE=[NONEGO]|Gloss=NONEGO|nWord=8|RX=[V:ANY]
 17	ni	nan	PART	_	_	0	root	_	AlignBegin=529001|AlignEnd=529431|GE=certainty|Gloss=certainty|nWord=9|RX=[PRT]
 18	.		PUNCT	_	_	17	punct	_	AlignBegin=529431|AlignEnd=529859|Gloss=.|nWord=10
 

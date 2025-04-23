@@ -161,8 +161,8 @@
 13	ni	nan	AUX	_	_	_	_	_	AlignBegin=34018|AlignEnd=34250|GE=[DECL]|Gloss=DECL|nWord=10|RX=[AUX]
 14	=gwi		ADV	_	_	13	mod	_	AlignBegin=34250|AlignEnd=34483|GE=also|Gloss==also|nWord=10|RX=[ADV]
 15	a-		PRON	_	_	16	subj/m	_	AlignBegin=34483|AlignEnd=34638|GE=[1PL].[S]|Gloss=1PL.S|nWord=11|RX=[V:ANY]
-16	gwas	gwas	VERB	_	_	17	comp:aux/m	_	AlignBegin=34638|AlignEnd=34793|GE=inform|Gloss=inform|nWord=11|RX=[V]
-17	-i		PART	_	_	_	_	_	AlignBegin=34793|AlignEnd=34948|GE=while|Gloss=and|nWord=11|RX=[VERB]
+16	gwas	gwas	VERB	_	_	_	_	_	AlignBegin=34638|AlignEnd=34793|GE=inform|Gloss=inform|nWord=11|RX=[V]
+17	-i		PART	_	_	16	cc	_	AlignBegin=34793|AlignEnd=34948|GE=while|Gloss=and|nWord=11|RX=[VERB]
 
 # sent_id = AN11_08-08
 # speaker_id = @SP11
@@ -425,7 +425,7 @@
 7	zizi	zizi	NOUN	_	_	9	comp:obj	_	AlignBegin=73421|AlignEnd=73907|GE=baby|Gloss=baby|nWord=6|RX=[N]
 8	awʉ'ʉ	awʉ'ʉ	ADJ	_	_	7	mod	_	AlignBegin=73907|AlignEnd=74393|GE=young|Gloss=young|nWord=7|RX=[ADJ]
 9	a'zʉna	a'zʉna	VERB	_	_	10	comp:aux	_	AlignBegin=74393|AlignEnd=74879|GE=feel|Gloss=feel|nWord=8|RX=[V]
-10	ni	nan	AUX	_	_	11	comp:obj	_	AlignBegin=74879|AlignEnd=75365|GE=[DECL]|Gloss=DECL|nWord=9|RX=[AUX]
+10	ni	nan	AUX	_	_	11	udep	_	AlignBegin=74879|AlignEnd=75365|GE=[DECL]|Gloss=DECL|nWord=9|RX=[AUX]
 11	awga	awga	VERB	_	_	12	comp:aux	_	AlignBegin=75365|AlignEnd=75851|GE=say|Gloss=say|nWord=10|RX=[V]
 12	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=75851|AlignEnd=76092|GE=cop|Gloss=cop|nWord=11|RX=[COP]
 13	=di		PART	_	_	12	mod	_	AlignBegin=76092|AlignEnd=76333|GE=[TOP]|Gloss==TOP|nWord=11|RX=[PRT]
@@ -480,8 +480,8 @@
 22	=ki		PART	_	_	21	mod	_	AlignBegin=84539|AlignEnd=84734|GE=[CNTR]|Gloss==CNTR|nWord=16|RX=[PRT]
 23	neki	neki	PART	_	_	22	mod:emph	_	AlignBegin=84734|AlignEnd=85124|GE=[CNTR]|Gloss=CNTR|nWord=17|RX=[PRT]
 24	eymi	eymi	ADV	_	_	25	mod	_	AlignBegin=85124|AlignEnd=85514|GE=there|Gloss=there|nWord=18|RX=[ADV]
-25	aw	aw	VERB	_	_	26	comp:aux/m	_	AlignBegin=85514|AlignEnd=85709|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=19|RX=[VT]|Transitivity=transitive
-26	-i		PART	_	_	_	_	_	AlignBegin=85709|AlignEnd=85904|GE=while|Gloss=and|nWord=19|RX=[VERB]
+25	aw	aw	VERB	_	_	27	conj:coord	_	AlignBegin=85514|AlignEnd=85709|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=19|RX=[VT]|Transitivity=transitive
+26	-i		PART	_	_	25	cc	_	AlignBegin=85709|AlignEnd=85904|GE=while|Gloss=and|nWord=19|RX=[VERB]
 27	aw	aw	VERB	_	_	28	comp:aux/m	_	AlignBegin=85904|AlignEnd=86099|GE=make|Gloss=make|nWord=20|RX=[VT]
 28	-kwa		AUX	_	_	29	comp:aux	_	AlignBegin=86099|AlignEnd=86294|GE=[ABLE]|Gloss=ABLE|nWord=20|RX=[VERB]
 29	ni	nan	AUX	_	_	0	root	_	AlignBegin=86294|AlignEnd=86689|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]
@@ -510,7 +510,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 90229, 97114
 # morphemic_text = ( eh ) uw -a'me' gu- , ( eh ) kwa gwia =ri kwa kawʉ =ri cheychi nan =ʉkin n -eyka ni a- ya nʉn =di
-# text = ( eh ) uwa'me' gun , ( eh ) kwa gwiari kwa kawʉri cheychi nanʉkin neyka ni aya nʉndi
+# text = ( eh ) uw -a'me' gu , ( eh ) kwa gwia =ri kwa kawʉ =ri cheychi nan =ʉkin n -eyka ni a- ya nʉn =di
 # text_en = That's why we say that the older brother [said by a man] or the older brother [said by a woman] are [the same as] a father.
 # text_phrase-gls-es = Por eso, el hermano [hombre] o el hermano [mujer] es lo mismo que ser un padre, dicen eso.
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=90229|AlignEnd=90591|nWord=1
@@ -518,7 +518,7 @@
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=90953|AlignEnd=91315|nWord=3
 4	uw	aw	AUX	_	_	5	comp:aux/m	_	AlignBegin=91315|AlignEnd=91496|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 5	-a'me'		AUX	_	_	24	discourse	_	AlignBegin=91496|AlignEnd=91677|GE=[CAUSE]|Gloss=CAUSE|nWord=4|RX=[VERB]
-6	gu-		AUX	_	_	5	unk	_	AlignBegin=91677|AlignEnd=92039|GE=[GUN]|Gloss=GUN|nWord=5|RX=[V:ANY]
+6	gu	gun	PART	_	_	5	unk	_	AlignBegin=91677|AlignEnd=92039|GE=[GUN]|Gloss=GUN|nWord=5|RX=[V:ANY]
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=92039|AlignEnd=92401|nWord=6
 8	(		PUNCT	_	_	9	punct	_	AlignBegin=92401|AlignEnd=92763|nWord=7
 9	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=92763|AlignEnd=93125|GE=[HES]|Gloss=HES|nWord=8|RX=[INTERJ]
@@ -534,7 +534,7 @@
 19	=ʉkin		ADP	_	_	20	comp:pred	_	AlignBegin=95478|AlignEnd=95659|GE=[LIM]|Gloss==LIM|nWord=15|RX=[POST]
 20	n	nan	AUX	_	_	21	comp:aux/m	_	AlignBegin=95659|AlignEnd=95840|GE=aux|Gloss=aux|nWord=16|RX=[AUX]
 21	-eyka		AUX	_	_	22	comp:aux	_	AlignBegin=95840|AlignEnd=96021|GE=[EYKA]|Gloss=EYKA|nWord=16|RX=[V:ANY]
-22	ni	nan	AUX	_	_	24	comp:obj	_	AlignBegin=96021|AlignEnd=96383|GE=[DECL]|Gloss=DECL|nWord=17|RX=[AUX]
+22	ni	nan	AUX	_	_	24	udep	_	AlignBegin=96021|AlignEnd=96383|GE=[DECL]|Gloss=DECL|nWord=17|RX=[AUX]
 23	a-		PRON	_	_	24	subj/m	_	AlignBegin=96383|AlignEnd=96564|GE=[1PL].[S]|Gloss=1PL.S|nWord=18|RX=[V:ANY]
 24	ya	ya	VERB	_	_	25	comp:aux	_	AlignBegin=96564|AlignEnd=96745|GE=say|Gloss=say|nWord=18|RX=[VI]
 25	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=96745|AlignEnd=96929|GE=cop|Gloss=cop|nWord=19|RX=[COP]
@@ -675,7 +675,7 @@
 4	chunsi	chunsi	VERB	_	_	5	comp:pred	_	AlignBegin=115849|AlignEnd=116308|GE=dress|Gloss=dress|nWord=3|RX=[V]
 5	kwakuma	kwakuma	VERB	_	_	6	comp:aux/m	_	AlignBegin=116308|AlignEnd=116538|GE=be.born|Gloss=be.born|nWord=4|RX=[V]
 6	-na		AUX	_	_	7	comp:aux	_	AlignBegin=116538|AlignEnd=116767|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]
-7	ni	nan	AUX	_	_	8	comp:obj	_	AlignBegin=116767|AlignEnd=117226|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]
+7	ni	nan	AUX	_	_	8	udep	_	AlignBegin=116767|AlignEnd=117226|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]
 8	awga	awga	VERB	_	_	9	comp:aux	_	AlignBegin=117226|AlignEnd=117685|GE=say|Gloss=say|nWord=6|RX=[V]
 9	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=117685|AlignEnd=117913|GE=cop|Gloss=cop|nWord=7|RX=[COP]
 10	=di		PART	_	_	9	mod	_	AlignBegin=117913|AlignEnd=118142|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]

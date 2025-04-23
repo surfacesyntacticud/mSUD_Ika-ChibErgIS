@@ -428,7 +428,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 106680, 117316
 # morphemic_text = ayey awga n -a'me' , eyma ɉwʉrí nik a unig -e' =ri , nʉgu ʉn- k- isa , ʉn- k- is -e' ,.
-# text = ayey awga n -a'me' , eyma ɉwʉrí nik -a unig -e' =ri , nʉgu ʉn- k- isa , ʉn- k- is -e' ,
+# text = ayey awga n -a'me' , eyma ɉwʉrí nik -a u- nig -e' =ri , nʉgu ʉn- k- isa , ʉn- k- is -e' ,
 # text_en = Because that's what they say, when it's soft, add salt, add
 # text_phrase-gls-es = Porque así lo dicen, cuando ya este suave, le echamos [un poco de] sal
 1	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=106680|AlignEnd=107440|GE=similar|Gloss=similar|nWord=1|RX=[ADJ]
@@ -439,21 +439,22 @@
 6	eyma	eyma	PRON	_	_	8	subj	_	AlignBegin=109720|AlignEnd=110480|GE=this|Gloss=this|nWord=5|RX=[DEM]
 7	ɉwʉrí	ɉwʉrí	ADJ	_	_	8	comp:pred	_	AlignBegin=110480|AlignEnd=111240|GE=soft|Gloss=soft|nWord=6|RX=[ADJ]
 8	nik	nik	AUX	_	_	9	comp:aux/m	_	AlignBegin=111240|AlignEnd=111620|GE=do|Gloss=do|nWord=7|RX=[AUX]
-9	-a	-y	AUX	_	_	10	comp:aux	_	AlignBegin=111620|AlignEnd=112000|Gloss=NONEGO|nWord=7
-10	unig	unig	AUX	_	_	11	comp:aux/m	_	AlignBegin=112000|AlignEnd=112253|GE=do|Gloss=do|nWord=8|RX=[V]
-11	-e'		AUX	_	_	_	_	_	AlignBegin=112253|AlignEnd=112506|GE=then|Gloss=then|nWord=8|RX=[VERB]
-12	=ri		PART	_	_	11	mod	_	AlignBegin=112506|AlignEnd=112760|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
-13	,		PUNCT	_	_	12	punct	_	AlignBegin=112760|AlignEnd=113520|nWord=9
-14	nʉgu	nʉgu	NOUN	_	_	17	comp:obj	_	AlignBegin=113520|AlignEnd=114280|GE=salt|Gloss=salt|nWord=10|RX=[N]
-15	ʉn-		AUX	_	_	16	mod/m	_	AlignBegin=114280|AlignEnd=114533|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
-16	k-		AUX	_	_	17	mod/m	_	AlignBegin=114533|AlignEnd=114786|GE=[APPL1]|Gloss=APPL1|nWord=11|RX=[V>V]
-17	isa	isa	VERB	_	_	_	_	_	AlignBegin=114786|AlignEnd=115040|GE=put|Gloss=put|nWord=11|RX=[V]
-18	,		PUNCT	_	_	17	punct	_	AlignBegin=115040|AlignEnd=115800|nWord=12
-19	ʉn-		AUX	_	_	20	mod/m	_	AlignBegin=115800|AlignEnd=115990|GE=[MID]|Gloss=MID|nWord=13|RX=[V>V]
-20	k-		AUX	_	_	21	mod/m	_	AlignBegin=115990|AlignEnd=116180|GE=[APPL1]|Gloss=APPL1|nWord=13|RX=[V>V]
-21	is	is	VERB	_	_	22	comp:aux/m	_	AlignBegin=116180|AlignEnd=116370|GE=put|Gloss=put|nWord=13|RX=[V]
-22	-e'		AUX	_	_	_	_	_	AlignBegin=116370|AlignEnd=116560|GE=then|Gloss=then|nWord=13|RX=[VERB]
-23	,		PUNCT	_	_	22	punct	_	AlignBegin=116560|AlignEnd=117316|nWord=14|wordform=,.
+9	-a	-y	AUX	_	_	11	comp:aux	_	AlignBegin=111620|AlignEnd=112000|Gloss=NONEGO|nWord=7
+10	u-	u-	AUX	_	_	11	mod/m	_	AlignBegin=112000|AlignEnd=112253|GE=do|Gloss=do|nWord=8|RX=[V]
+11	nig	nik	AUX	_	_	12	comp:aux/m	_	AlignBegin=112000|AlignEnd=112253|GE=do|Gloss=do|nWord=8|RX=[V]
+12	-e'		AUX	_	_	_	_	_	AlignBegin=112253|AlignEnd=112506|GE=then|Gloss=then|nWord=8|RX=[VERB]
+13	=ri		PART	_	_	12	mod	_	AlignBegin=112506|AlignEnd=112760|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]
+14	,		PUNCT	_	_	13	punct	_	AlignBegin=112760|AlignEnd=113520|nWord=9
+15	nʉgu	nʉgu	NOUN	_	_	18	comp:obj	_	AlignBegin=113520|AlignEnd=114280|GE=salt|Gloss=salt|nWord=10|RX=[N]
+16	ʉn-		AUX	_	_	17	mod/m	_	AlignBegin=114280|AlignEnd=114533|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
+17	k-		AUX	_	_	18	mod/m	_	AlignBegin=114533|AlignEnd=114786|GE=[APPL1]|Gloss=APPL1|nWord=11|RX=[V>V]
+18	isa	isa	VERB	_	_	_	_	_	AlignBegin=114786|AlignEnd=115040|GE=put|Gloss=put|nWord=11|RX=[V]
+19	,		PUNCT	_	_	18	punct	_	AlignBegin=115040|AlignEnd=115800|nWord=12
+20	ʉn-		AUX	_	_	21	mod/m	_	AlignBegin=115800|AlignEnd=115990|GE=[MID]|Gloss=MID|nWord=13|RX=[V>V]
+21	k-		AUX	_	_	22	mod/m	_	AlignBegin=115990|AlignEnd=116180|GE=[APPL1]|Gloss=APPL1|nWord=13|RX=[V>V]
+22	is	is	VERB	_	_	23	comp:aux/m	_	AlignBegin=116180|AlignEnd=116370|GE=put|Gloss=put|nWord=13|RX=[V]
+23	-e'		AUX	_	_	_	_	_	AlignBegin=116370|AlignEnd=116560|GE=then|Gloss=then|nWord=13|RX=[VERB]
+24	,		PUNCT	_	_	23	punct	_	AlignBegin=116560|AlignEnd=117316|nWord=14|wordform=,.
 
 # sent_id = CO18_19-19
 # speaker_id = @SP18
@@ -544,7 +545,7 @@
 # text_phrase-gls-tl = riga nikün > hacer trabajo tradiconal
 1	eyma	eyma	PRON	_	_	3	conj:dicto	_	AlignBegin=130723|AlignEnd=130839|GE=this|Gloss=this|nWord=1|RX=[DEM]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=130839|AlignEnd=130955|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
-3	in	in	NOUN	_	_	9	conj:appos	_	AlignBegin=130955|AlignEnd=131032|GE=maize|Gloss=maize|nWord=2|RX=[N]
+3	in	in	NOUN	_	_	9	dislocated	_	AlignBegin=130955|AlignEnd=131032|GE=maize|Gloss=maize|nWord=2|RX=[N]
 4	ɉokwʉ	ɉokwʉ	VERB	_	_	3	flat	_	AlignBegin=131032|AlignEnd=131109|GE=cook|Gloss=cook|nWord=2|RX=[V]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=131109|AlignEnd=131187|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 6	kwa	kwa	INTJ	_	_	7	discourse	_	AlignBegin=131187|AlignEnd=131419|GE=[HES]|Gloss=HES|nWord=3|RX=[INTERJ]
@@ -575,7 +576,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 136595, 138957
 # morphemic_text = marʉneykʉ nan -i neki nikwa ung -e' ,.
-# text = marʉneykʉ nari neki nikwa unge' ,.
+# text = marʉneykʉ nan -i neki nikw -a ung -e' ,
 # text_en = when we are fasting,
 # text_phrase-gls-es = cuando estamos en ayuna,
 # text_phrase-gls-tl = Pablo marʉneykʉ ni
@@ -583,10 +584,11 @@
 2	nan	nan	AUX	_	_	_	_	_	AlignBegin=136989|AlignEnd=137186|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
 3	-i		PART	_	_	2	cc	_	AlignBegin=137186|AlignEnd=137383|GE=while|Gloss=and|nWord=2|RX=[VERB]
 4	neki	neki	PART	_	_	3	mod:emph	_	AlignBegin=137383|AlignEnd=137777|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]
-5	nikwa	nikwa	AUX	_	_	6	comp:aux	_	AlignBegin=137777|AlignEnd=138171|GE=be.in|Gloss=be.in|nWord=4|RX=[AUX]
-6	ung	ung	AUX	_	_	7	comp:aux/m	_	AlignBegin=138171|AlignEnd=138368|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
-7	-e'		AUX	_	_	_	_	_	AlignBegin=138368|AlignEnd=138565|GE=then|Gloss=then|nWord=5|RX=[VERB]
-8	,		PUNCT	_	_	7	punct	_	AlignBegin=138565|AlignEnd=138957|nWord=6|wordform=,.
+5	nikw	nik	AUX	_	_	6	comp:aux/m	_	AlignBegin=137777|AlignEnd=138171|GE=be.in|Gloss=be.in|nWord=4|RX=[AUX]
+6	-a	-a	AUX	_	_	7	comp:aux	_	AlignBegin=137777|AlignEnd=138171|GE=PFV|Gloss=PFV|nWord=4|RX=[AUX]
+7	ung	ung	AUX	_	_	8	comp:aux/m	_	AlignBegin=138171|AlignEnd=138368|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]
+8	-e'		AUX	_	_	_	_	_	AlignBegin=138368|AlignEnd=138565|GE=then|Gloss=then|nWord=5|RX=[VERB]
+9	,		PUNCT	_	_	8	punct	_	AlignBegin=138565|AlignEnd=138957|nWord=6|wordform=,.
 
 # sent_id = CO18_26-26
 # speaker_id = @SP18

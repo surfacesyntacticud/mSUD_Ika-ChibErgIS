@@ -6,11 +6,11 @@
 # text = andi eymi anuwe'ri , ikʉse'ri ,
 # text_en = as it is, the Ika people,
 # text_phrase-gls-es = como es así, los arhuacos
-1	andi	andi	ADV	_	_	_	_	_	AlignBegin=2900|AlignEnd=3250|GE=so|Gloss=so|nWord=1|RX=[ADV]
-2	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=3250|AlignEnd=3600|GE=there|Gloss=there|nWord=2|RX=[ADV]
+1	andi	andi	ADV	_	_	4	discourse	_	AlignBegin=2900|AlignEnd=3250|GE=so|Gloss=so|nWord=1|RX=[ADV]
+2	eymi	eymi	ADV	_	_	4	mod	_	AlignBegin=3250|AlignEnd=3600|GE=there|Gloss=there|nWord=2|RX=[ADV]
 3	an-		AUX	_	_	4	comp:aux	_	AlignBegin=3600|AlignEnd=3688|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
 4	uw	aw	AUX	_	_	5	comp:aux/m	_	AlignBegin=3688|AlignEnd=3776|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
-5	-e'		AUX	_	_	_	_	_	AlignBegin=3776|AlignEnd=3864|GE=then|Gloss=then|nWord=3|RX=[VERB]
+5	-e'		AUX	_	_	0	root	_	AlignBegin=3776|AlignEnd=3864|GE=then|Gloss=then|nWord=3|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=3864|AlignEnd=3950|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=3950|AlignEnd=4300|nWord=4
 8	ikʉ	ikʉ	PROPN	_	_	9	comp	_	AlignBegin=4300|AlignEnd=4417|GE=[Ika]|Gloss=Ika|nWord=5|RX=[NPROP]
@@ -187,7 +187,7 @@
 2	-a'me'		AUX	_	_	23	discourse	_	AlignBegin=31944|AlignEnd=32185|GE=[CAUSE]|Gloss=CAUSE|nWord=1|RX=[VERB]
 3	zʉn	zan	PART	_	_	2	mod:emph	_	AlignBegin=32185|AlignEnd=32667|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]
 4	ikʉ	ikʉ	PROPN	_	_	5	comp	_	AlignBegin=32667|AlignEnd=32828|GE=[Ika]|Gloss=Ika|nWord=3|RX=[NPROP]
-5	=se'	=se'	ADP	_	_	23	conj:appos	_	AlignBegin=32828|AlignEnd=32989|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
+5	=se'	=se'	ADP	_	_	23	conj:dicto	_	AlignBegin=32828|AlignEnd=32989|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=32989|AlignEnd=33149|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 7	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	8	comp	_	AlignBegin=33149|AlignEnd=33390|GE=earth|Gloss=earth|nWord=4|RX=[N]
 8	=sin		ADP	_	_	23	comp:obl	_	AlignBegin=33390|AlignEnd=33631|GE=with|Gloss==with|nWord=4|RX=[POST]
@@ -198,16 +198,16 @@
 13	murundwa	murundwa	NOUN	_	_	14	comp	_	AlignBegin=35077|AlignEnd=35318|GE=sacred.tree|Gloss=sacred.tree|nWord=8|RX=[N]
 14	=sin		ADP	_	_	11	conj:coord	_	AlignBegin=35318|AlignEnd=35559|GE=with|Gloss==with|nWord=8|RX=[POST]
 15	,		PUNCT	_	_	14	punct	_	AlignBegin=35559|AlignEnd=36041|nWord=9
-16	zar	zan	AUX	_	_	_	_	_	AlignBegin=36041|AlignEnd=36282|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]
+16	zar	zan	AUX	_	_	18	discourse	_	AlignBegin=36041|AlignEnd=36282|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]
 17	-i		PART	_	_	16	cc	_	AlignBegin=36282|AlignEnd=36523|GE=while|Gloss=and|nWord=10|RX=[VERB]
 18	uw	aw	AUX	_	_	19	comp:aux/m	_	AlignBegin=36523|AlignEnd=36684|GE=aux|Gloss=aux|nWord=11|RX=[AUX]
 19	-eyka		AUX	_	_	20	comp	_	AlignBegin=36684|AlignEnd=36845|GE=[EYKA]|Gloss=EYKA|nWord=11|RX=[V:ANY]
 20	=sin		ADP	_	_	14	conj:coord	_	AlignBegin=36845|AlignEnd=37005|GE=with|Gloss==with|nWord=11|RX=[POST]
 21	ʉn-		AUX	_	_	22	mod/m	_	AlignBegin=37005|AlignEnd=37166|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]
 22	kʉ-		AUX	_	_	23	mod/m	_	AlignBegin=37166|AlignEnd=37327|GE=[APPL1]|Gloss=APPL1|nWord=12|RX=[V>V]
-23	rigʉnsi	rigʉnsi	VERB	_	_	_	_	_	AlignBegin=37327|AlignEnd=37487|GE=be.in.harmony|Gloss=be.in.harmony|nWord=12|RX=[V]
+23	rigʉnsi	rigʉnsi	VERB	_	_	24	conj:coord	_	AlignBegin=37327|AlignEnd=37487|GE=be.in.harmony|Gloss=be.in.harmony|nWord=12|RX=[V]
 24	ku	ku	VERB	_	_	25	comp:aux/m	_	AlignBegin=37487|AlignEnd=37728|GE=live|Gloss=live|nWord=13|RX=[V]
-25	-kwa		AUX	_	_	_	_	_	AlignBegin=37728|AlignEnd=37969|GE=[OBL]|Gloss=OBL|nWord=13|RX=[VERB]
+25	-kwa		AUX	_	_	0	root	_	AlignBegin=37728|AlignEnd=37969|GE=[OBL]|Gloss=OBL|nWord=13|RX=[VERB]
 26	.		PUNCT	_	_	25	punct	_	AlignBegin=37969|AlignEnd=38449|Gloss=.|nWord=14
 
 # sent_id = AN16-2_10-10
@@ -225,8 +225,8 @@
 4	kʉna	kʉna	VERB	_	_	_	_	_	AlignBegin=38993|AlignEnd=39129|GE=have|Gloss=have|nWord=2|RX=[VT]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=39129|AlignEnd=39265|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 6	ku	ku	VERB	_	_	7	comp:aux/m	_	AlignBegin=39265|AlignEnd=39469|GE=live|Gloss=live|nWord=3|RX=[V]
-7	-kwa		AUX	_	_	8	comp:coord	_	AlignBegin=39469|AlignEnd=39673|GE=[OBL]|Gloss=OBL|nWord=3|RX=[VERB]
-8	rigʉnsi	rigʉnsi	VERB	_	_	9	comp:coord	_	AlignBegin=39673|AlignEnd=40081|GE=be.in.harmony|Gloss=be.in.harmony|nWord=4|RX=[V]
+7	-kwa		AUX	_	_	8	conj:coord	_	AlignBegin=39469|AlignEnd=39673|GE=[OBL]|Gloss=OBL|nWord=3|RX=[VERB]
+8	rigʉnsi	rigʉnsi	VERB	_	_	9	conj:coord	_	AlignBegin=39673|AlignEnd=40081|GE=be.in.harmony|Gloss=be.in.harmony|nWord=4|RX=[V]
 9	zwey	zwey	VERB	_	_	10	comp:aux/m	_	AlignBegin=40081|AlignEnd=40285|GE=go|Gloss=go|nWord=5|RX=[VI]
 10	-kwa		AUX	_	_	_	_	_	AlignBegin=40285|AlignEnd=40489|GE=[OBL]|Gloss=OBL|nWord=5|RX=[VERB]
 11	zʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=40489|AlignEnd=40897|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]

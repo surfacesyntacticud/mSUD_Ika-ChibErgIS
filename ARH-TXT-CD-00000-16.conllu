@@ -13,7 +13,7 @@
 5	ikʉ	ikʉ	NOUN	_	Case=Abs	8	subj	_	AlignBegin=7226|AlignEnd=8000|GE=indigenous.person|Gloss=indigenous.person|nWord=5|RX=[N]
 6	emi	emi	ADV	_	_	_	_	_	AlignBegin=8000|AlignEnd=8774|GE=here|Gloss=here|nWord=6|RX=[ADV]
 7	a-		PRON	_	_	8	subj/m	_	AlignBegin=8774|AlignEnd=9161|GE=[1PL].[S]|Gloss=1PL.S|nWord=7|RX=[V:ANY]
-8	kwi	kwi	VERB	_	_	10	comp:coord	_	AlignBegin=9161|AlignEnd=9548|GE=live|Gloss=live|nWord=7|RX=[V]
+8	kwi	kwi	VERB	_	_	10	conj:coord	_	AlignBegin=9161|AlignEnd=9548|GE=live|Gloss=live|nWord=7|RX=[V]
 9	a-		PRON	_	_	10	subj/m	_	AlignBegin=9548|AlignEnd=9742|GE=[1PL].[S]|Gloss=1PL.S|nWord=8|RX=[V:ANY]
 10	zoya	zoya	VERB	_	_	11	comp	_	AlignBegin=9742|AlignEnd=9936|GE=go|Gloss=go|nWord=8|RX=[V]
 11	=sin		ADP	_	_	21	comp:obl	_	AlignBegin=9936|AlignEnd=10130|GE=with|Gloss==with|nWord=8|RX=[POST]
@@ -523,21 +523,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-16.WAV/WAV/ARH-TXT-CD-00000-16.WAV
 # sent_timecode = 109383, 111847
 # morphemic_text = ingʉ dinhey nan -i me- kʉnan -ukwa wasa -y -kwa nʉ -ndi =ri ,
-# text = ingʉ dinhey nari mikʉnanukwa wasaykwa nʉndiri ,
+# text = ingʉ dinhey nan -i me- kʉnan -ukwa wasa -y -kwa nʉ -ndi =ri ,
 # text_en = if we talk about what we have a bit similar,
 # text_phrase-gls-es = Si hablamos de lo que tenemos un poco similar
 1	ingʉ	ingʉ	ADJ	_	_	2	mod	_	AlignBegin=109383|AlignEnd=109735|GE=few|Gloss=few|nWord=1|RX=[ADJ]
 2	dinhey	dinhey	ADJ	_	_	3	comp:pred@attr	_	AlignBegin=109735|AlignEnd=110087|GE=similar|Gloss=similar|nWord=2|RX=[ADJ]
-3	nan	nan	AUX	_	_	_	_	_	AlignBegin=110087|AlignEnd=110263|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
+3	nan	nan	AUX	_	_	6	comp:pred	_	AlignBegin=110087|AlignEnd=110263|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
 4	-i		PART	_	_	3	cc	_	AlignBegin=110263|AlignEnd=110439|GE=while|Gloss=and|nWord=3|RX=[VERB]
 5	me-		PRON	_	_	6	comp:obj/m	_	AlignBegin=110439|AlignEnd=110556|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]
 6	kʉnan	kʉnan	VERB	_	_	7	comp:aux/m	_	AlignBegin=110556|AlignEnd=110673|GE=have|Gloss=have|nWord=4|RX=[VT]
-7	-ukwa		AUX	_	_	_	_	_	AlignBegin=110673|AlignEnd=110791|GE=[ABLE]|Gloss=ABLE|nWord=4|RX=[VERB]
+7	-ukwa		AUX	_	_	8	comp:obj	_	AlignBegin=110673|AlignEnd=110791|GE=[ABLE]|Gloss=ABLE|nWord=4|RX=[VERB]
 8	wasa	wasa	VERB	_	_	9	comp:aux/m	_	AlignBegin=110791|AlignEnd=110908|GE=speak|Gloss=speak|nWord=5|RX=[V]
-9	-y		PART	_	_	10	comp:aux/m	_	AlignBegin=110908|AlignEnd=111025|GE=while|Gloss=and|nWord=5|RX=[VERB]
+9	-y	-y	AUX	_	_	10	comp:aux/m	_	AlignBegin=110908|AlignEnd=111025|GE=NONEGO|Gloss=NONEGO|nWord=5|RX=[VERB]
 10	-kwa		AUX	_	_	11	comp:aux	_	AlignBegin=111025|AlignEnd=111143|GE=[ABLE]|Gloss=ABLE|nWord=5|RX=[VERB]
 11	nʉ	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=111143|AlignEnd=111260|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]
-12	-ndi		AUX	_	_	_	_	_	AlignBegin=111260|AlignEnd=111377|GE=[COND]|Gloss=COND|nWord=6|RX=[V:ANY]
+12	-ndi		AUX	_	_	0	root	_	AlignBegin=111260|AlignEnd=111377|GE=[COND]|Gloss=COND|nWord=6|RX=[V:ANY]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=111377|AlignEnd=111495|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 14	,		PUNCT	_	_	13	punct	_	AlignBegin=111495|AlignEnd=111847|nWord=7
 
@@ -1905,7 +1905,7 @@
 12	abiti	abiti	ADJ	_	_	10	udep:poss	_	AlignBegin=355071|AlignEnd=355358|GE=new|Gloss=new|nWord=6|RX=[ADJ]
 13	win-		PRON	_	_	14	subj/m	_	AlignBegin=355358|AlignEnd=355454|GE=[3PL].[S]|Gloss=3PL.S|nWord=7|RX=[VERB]
 14	ʉn-		AUX	_	_	15	mod/m	_	AlignBegin=355454|AlignEnd=355550|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]
-15	gow	gow	VERB	_	_	7	comp:coord	_	AlignBegin=355550|AlignEnd=355645|GE=build|Gloss=build|nWord=7|RX=[V]
+15	gow	gow	VERB	_	_	7	conj:coord	_	AlignBegin=355550|AlignEnd=355645|GE=build|Gloss=build|nWord=7|RX=[V]
 16	aw	aw	VERB	_	_	17	comp:aux/m	_	AlignBegin=355645|AlignEnd=355789|GE=make|Gloss=make|nWord=8|RX=[VT]
 17	-ay		PART	_	_	_	_	_	AlignBegin=355789|AlignEnd=355932|GE=while|Gloss=and|nWord=8|RX=[VERB]
 18	zʉn	zan	PART	_	_	17	mod:emph	_	AlignBegin=355932|AlignEnd=356219|GE=[COP]|Gloss=COP|nWord=9|RX=[COP]
@@ -2039,7 +2039,7 @@
 2	zʉ	zʉ	VERB	_	_	3	comp:aux/m	_	AlignBegin=371709|AlignEnd=371825|GE=eat|Gloss=eat|nWord=1|RX=[VI]
 3	-ya		AUX	_	_	4	comp:aux	_	AlignBegin=371825|AlignEnd=371941|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
 4	na'	nan	AUX	_	_	5	comp:aux	_	AlignBegin=371941|AlignEnd=372289|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]
-5	ni	nan	AUX	_	_	7	comp:obj	_	AlignBegin=372289|AlignEnd=372637|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]
+5	ni	nan	AUX	_	_	7	udep	_	AlignBegin=372289|AlignEnd=372637|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]
 6	n-		PRON	_	_	7	comp:obj/m	_	AlignBegin=372637|AlignEnd=372811|GE=[1SG].[O]|Gloss=1SG.O|nWord=4|RX=[V:ANY]
 7	a'zʉ	a'zʉ	VERB	_	_	8	comp:aux	_	AlignBegin=372811|AlignEnd=372985|GE=think|Gloss=think|nWord=4|RX=[V]
 8	ni	nan	AUX	_	_	0	root	_	AlignBegin=372985|AlignEnd=373333|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]
@@ -2136,7 +2136,7 @@
 1	yow	yow	PRON	_	_	3	comp:pred	_	AlignBegin=386059|AlignEnd=386644|GE=all|Gloss=all|nWord=1|RX=[QUANT]
 2	keywʉ	keywʉ	PART	_	_	1	discourse	_	AlignBegin=386644|AlignEnd=387229|GE=soon|Gloss=soon|nWord=2|RX=[PRT]
 3	na	nan	AUX	_	_	4	comp:aux/m	_	AlignBegin=387229|AlignEnd=387521|GE=cop|Gloss=cop|nWord=3|RX=[COP]
-4	-'		AUX	_	_	_	_	_	AlignBegin=387521|AlignEnd=387814|GE=[NEG]|Gloss=NEG|nWord=3|RX=[VERB]
+4	-'		AUX	_	_	0	root	_	AlignBegin=387521|AlignEnd=387814|GE=[NEG]|Gloss=NEG|nWord=3|RX=[VERB]
 5	neki	neki	PART	_	_	4	mod:emph	_	AlignBegin=387814|AlignEnd=388399|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=388399|AlignEnd=388984|nWord=5
 7	iɉuna	iɉuna	NOUN	_	_	3	conj:appos	_	AlignBegin=388984|AlignEnd=389570|GE=type|Gloss=type|nWord=6|RX=[N]

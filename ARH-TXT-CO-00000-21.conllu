@@ -129,7 +129,7 @@
 16	niwi	niwi	PRON	_	_	17	comp	_	AlignBegin=36454|AlignEnd=36664|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=9|RX=[PRO]
 17	=zey		ADP	_	_	18	comp:pred	_	AlignBegin=36664|AlignEnd=36873|GE=[GEN]|Gloss==GEN|nWord=9|RX=[POST]
 18	n	nan	AUX	_	_	19	comp:aux/m	_	AlignBegin=36873|AlignEnd=37083|GE=aux|Gloss=aux|nWord=10|RX=[AUX]
-19	-a'me'		AUX	_	_	14	comp:coord	_	AlignBegin=37083|AlignEnd=37292|GE=[CAUSE]|Gloss=CAUSE|nWord=10|RX=[VERB]
+19	-a'me'		AUX	_	_	14	conj:coord	_	AlignBegin=37083|AlignEnd=37292|GE=[CAUSE]|Gloss=CAUSE|nWord=10|RX=[VERB]
 20	,		PUNCT	_	_	19	punct	_	AlignBegin=37292|AlignEnd=37711|nWord=11
 21	(		PUNCT	_	_	22	punct	_	AlignBegin=37711|AlignEnd=38130|nWord=12
 22	eh	eh	INTJ	_	_	24	discourse	_	AlignBegin=38130|AlignEnd=38549|GE=[HES]|Gloss=HES|nWord=13|RX=[INTERJ]
@@ -393,13 +393,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-21.WAV/WAV/ARH-TXT-CO-00000-21.WAV
 # sent_timecode = 100844, 104088
 # morphemic_text = i'mʉnʉ gʉ -y -e' =ri ʉnke aney na -kuma -y me- 'zan -ukwa
-# text = i'mʉnʉ gʉye'ri ʉnke aney nakumay me'zanukwa
+# text = i'mʉnʉ gʉ -y -e' =ri ʉnke aney na -kuma -y me- 'zan -ukwa
 # text_en = when we try it from time to time it is tasty
 # text_phrase-gls-es = cuando probamos de vez en cuando es rico
 # text_phrase-gls-tl = nakuemy mezanukwa > el sabor, lo que siente uno en la boca
 1	i'mʉnʉ	i'mʉnʉ	ADV	_	_	_	_	_	AlignBegin=100844|AlignEnd=101385|GE=sometimes|Gloss=sometimes|nWord=1|RX=[ADV]
 2	gʉ	gʉ	VERB	_	_	3	comp:aux/m	_	AlignBegin=101385|AlignEnd=101520|GE=eat|Gloss=eat|nWord=2|RX=[VT]
-3	-y		PART	_	_	4	comp:aux/m	_	AlignBegin=101520|AlignEnd=101655|GE=while|Gloss=and|nWord=2|RX=[VERB]
+3	-y	-y	AUX	_	_	4	comp:aux/m	_	AlignBegin=101520|AlignEnd=101655|GE=NONEGO|Gloss=NONEGO|nWord=2|RX=[VERB]
 4	-e'		AUX	_	_	_	_	_	AlignBegin=101655|AlignEnd=101790|GE=then|Gloss=then|nWord=2|RX=[VERB]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=101790|AlignEnd=101926|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 6	ʉnke	ʉnke	ADV	_	_	_	_	_	AlignBegin=101926|AlignEnd=102467|GE=over.there|Gloss=over.there|nWord=3|RX=[ADV]
@@ -437,17 +437,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-21.WAV/WAV/ARH-TXT-CO-00000-21.WAV
 # sent_timecode = 106000, 108503
 # morphemic_text = anéy a'zʉn -e' =ri e'mʉnʉ gʉ -y -e' =ri
-# text = anéy a'zʉne'ri e'mʉnʉ gʉye'ri
+# text = anéy a'zʉn -e' =ri e'mʉnʉ gʉ -y -e' =ri
 # text_en = it's delicious when we eat [salt] from time to time
 # text_phrase-gls-es = es muy delicioso cuando comemos de vez en cuando
-1	anéy	anéy	ADJ	_	_	_	_	_	AlignBegin=106000|AlignEnd=106626|GE=tasty|Gloss=tasty|nWord=1|RX=[ADJ]
+1	anéy	anéy	ADJ	_	_	2	comp:pred	_	AlignBegin=106000|AlignEnd=106626|GE=tasty|Gloss=tasty|nWord=1|RX=[ADJ]
 2	a'zʉn	a'zʉn	VERB	_	_	3	comp:aux/m	_	AlignBegin=106626|AlignEnd=106835|GE=feel|Gloss=feel|nWord=2|RX=[V]
-3	-e'		AUX	_	_	_	_	_	AlignBegin=106835|AlignEnd=107044|GE=then|Gloss=then|nWord=2|RX=[VERB]
+3	-e'		AUX	_	_	6	parataxis	_	AlignBegin=106835|AlignEnd=107044|GE=then|Gloss=then|nWord=2|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=107044|AlignEnd=107252|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
-5	e'mʉnʉ	e'mʉnʉ	ADV	_	_	_	_	_	AlignBegin=107252|AlignEnd=107878|GE=sometimes|Gloss=sometimes|nWord=3|RX=[ADV]
+5	e'mʉnʉ	e'mʉnʉ	ADV	_	_	6	mod	_	AlignBegin=107252|AlignEnd=107878|GE=sometimes|Gloss=sometimes|nWord=3|RX=[ADV]
 6	gʉ	gʉ	VERB	_	_	7	comp:aux/m	_	AlignBegin=107878|AlignEnd=108034|GE=eat|Gloss=eat|nWord=4|RX=[VT]
-7	-y		PART	_	_	8	comp:aux/m	_	AlignBegin=108034|AlignEnd=108190|GE=while|Gloss=and|nWord=4|RX=[VERB]
-8	-e'		AUX	_	_	_	_	_	AlignBegin=108190|AlignEnd=108346|GE=then|Gloss=then|nWord=4|RX=[VERB]
+7	-y	-y	AUX	_	_	8	comp:aux/m	_	AlignBegin=108034|AlignEnd=108190|GE=NONEGO|Gloss=NONEGO|nWord=4|RX=[VERB]
+8	-e'		AUX	_	_	0	root	_	AlignBegin=108190|AlignEnd=108346|GE=then|Gloss=then|nWord=4|RX=[VERB]
 9	=ri		PART	_	_	8	mod	_	AlignBegin=108346|AlignEnd=108503|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 
 # sent_id = CO21_20-20
@@ -467,7 +467,7 @@
 6	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=109627|AlignEnd=109908|GE=more|Gloss=more|nWord=5|RX=[ADV]
 7	anéy	anéy	ADJ	_	_	_	_	_	AlignBegin=109908|AlignEnd=110189|GE=tasty|Gloss=tasty|nWord=6|RX=[ADJ]
 8	a'za	a'za	VERB	_	_	9	comp:aux	_	AlignBegin=110189|AlignEnd=110470|GE=feel|Gloss=feel|nWord=7|RX=[V]
-9	ni	nan	AUX	_	_	10	comp:obj	_	AlignBegin=110470|AlignEnd=110751|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
+9	ni	nan	AUX	_	_	10	udep	_	AlignBegin=110470|AlignEnd=110751|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
 10	y	y	VERB	_	_	11	comp:aux/m	_	AlignBegin=110751|AlignEnd=110891|GE=say|Gloss=say|nWord=9|RX=[VI]
 11	-ʉkwey		AUX	_	_	12	comp:obj	_	AlignBegin=110891|AlignEnd=111032|GE=[ABLE]|Gloss=ABLE|nWord=9|RX=[VERB]
 12	a'zʉna	a'zʉna	VERB	_	_	13	comp:aux	_	AlignBegin=111032|AlignEnd=111313|GE=feel|Gloss=feel|nWord=10|RX=[V]

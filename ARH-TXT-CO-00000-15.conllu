@@ -25,13 +25,13 @@
 # text_phrase-gls-es = Secamos el guineo y luego
 # text_phrase-gls-tl = the text in [ ] are comments from another Ika speaker present during the recording
 1	[		PUNCT	_	_	2	punct	_	AlignBegin=5070|AlignEnd=5595|GE=[[]|Gloss=[|nWord=1
-2	XXX		PUNCT	_	_	16	unk	_	AlignBegin=5595|AlignEnd=6120|nWord=2
+2	XXX		PUNCT	_	_	4	unk	_	AlignBegin=5595|AlignEnd=6120|nWord=2
 3	]		PUNCT	_	_	2	punct	_	AlignBegin=6120|AlignEnd=6645|GE=[]]|Gloss=]|nWord=3
-4	giñia	giñia	NOUN	_	_	16	comp:obj	_	AlignBegin=6645|AlignEnd=7170|GE=plantain|Gloss=plantain|nWord=4|RX=[N]
+4	giñia	giñia	NOUN	_	_	8	conj:dicto	_	AlignBegin=6645|AlignEnd=7170|GE=plantain|Gloss=plantain|nWord=4|RX=[N]
 5	(		PUNCT	_	_	6	punct	_	AlignBegin=7170|AlignEnd=7695|nWord=5
 6	kʉn	kʉn	NOUN	_	_	8	conj:dicto	_	AlignBegin=7695|AlignEnd=8220|GE=tree|Gloss=tree|nWord=6|RX=[N]
 7	)		PUNCT	_	_	6	punct	_	AlignBegin=8220|AlignEnd=8745|nWord=7
-8	giñia	giñia	NOUN	_	_	4	conj:dicto	_	AlignBegin=8745|AlignEnd=9270|GE=plantain|Gloss=plantain|nWord=8|RX=[N]
+8	giñia	giñia	NOUN	_	_	16	comp:obj	_	AlignBegin=8745|AlignEnd=9270|GE=plantain|Gloss=plantain|nWord=8|RX=[N]
 9	[		PUNCT	_	_	10	punct	_	AlignBegin=9270|AlignEnd=9795|GE=[[]|Gloss=[|nWord=9
 10	ʉn-		AUX	_	_	11	mod/m	_	AlignBegin=9795|AlignEnd=9970|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
 11	kʉ-		AUX	_	_	12	mod/m	_	AlignBegin=9970|AlignEnd=10145|GE=[APPL1]|Gloss=APPL1|nWord=10|RX=[V>V]
@@ -341,7 +341,7 @@
 # text = arbonʉri a'nʉ gwirkʉnʉn zanʉse'
 # text_en = the firestone, stone from the mountains
 # text_phrase-gls-es = arbonü, piedra de la nevada
-1	arbonʉ	arbonʉ	NOUN	_	_	7	conj:appos	_	AlignBegin=65555|AlignEnd=65969|GE=fire.stone|Gloss=fire.stone|nWord=1|RX=[N]
+1	arbonʉ	arbonʉ	NOUN	_	_	7	dislocated	_	AlignBegin=65555|AlignEnd=65969|GE=fire.stone|Gloss=fire.stone|nWord=1|RX=[N]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=65969|AlignEnd=66383|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	a'nʉ	a'nʉ	NOUN	_	_	6	subj	_	AlignBegin=66383|AlignEnd=67211|GE=stone|Gloss=stone|nWord=2|RX=[N]
 4	gwirkʉnʉ	gwirkʉnʉ	NOUN	_	_	5	comp	_	AlignBegin=67211|AlignEnd=67625|GE=mountain|Gloss=mountain|nWord=3|RX=[N]
@@ -649,23 +649,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-15.WAV/WAV/ARH-TXT-CO-00000-15.WAV
 # sent_timecode = 119466, 122999
 # morphemic_text = ʉw -e' =ki yow ʉn- kuri unig -e' =ri , kʉnkuku giñia tʉrʉrʉ =sin
-# text = ʉwe'ki yow ʉnkuri unige'ri , kʉnkuku giñia tʉrʉrʉsin
+# text = ʉw -e' =ki yow ʉn- kuri u- nig -e' =ri , kʉnkuku giñia tʉrʉrʉ =sin
 # text_en = But when all is about to cook, pigeon pea with dried plantain
 # text_phrase-gls-es = Pero cuando ya esté a punto de cocinar [antes de que todo esté listo], guandul con jorojoro
 1	ʉw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=119466|AlignEnd=119613|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
-2	-e'		AUX	_	_	6	cc	_	AlignBegin=119613|AlignEnd=119760|GE=then|Gloss=then|nWord=1|RX=[VERB]
+2	-e'		AUX	_	_	6	discourse	_	AlignBegin=119613|AlignEnd=119760|GE=then|Gloss=then|nWord=1|RX=[VERB]
 3	=ki		PART	_	_	2	mod	_	AlignBegin=119760|AlignEnd=119908|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]
 4	yow	yow	PRON	_	_	6	comp:obj	_	AlignBegin=119908|AlignEnd=120350|GE=all|Gloss=all|nWord=2|RX=[QUANT]
 5	ʉn-		AUX	_	_	6	mod/m	_	AlignBegin=120350|AlignEnd=120571|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]
-6	kuri	kuri	VERB	_	_	7	comp:aux	_	AlignBegin=120571|AlignEnd=120792|GE=cook|Gloss=cook|nWord=3|RX=[V]
-7	unig	unig	AUX	_	_	8	comp:aux/m	_	AlignBegin=120792|AlignEnd=120939|GE=do|Gloss=do|nWord=4|RX=[V]
-8	-e'		AUX	_	_	0	root	_	AlignBegin=120939|AlignEnd=121086|GE=then|Gloss=then|nWord=4|RX=[VERB]
-9	=ri		PART	_	_	8	mod	_	AlignBegin=121086|AlignEnd=121234|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
-10	,		PUNCT	_	_	9	punct	_	AlignBegin=121234|AlignEnd=121676|nWord=5
-11	kʉnkuku	kʉnkuku	NOUN	_	_	4	conj:appos	_	AlignBegin=121676|AlignEnd=122118|GE=pigeon.pea|Gloss=pigeon.pea|nWord=6|RX=[N]
-12	giñia	giñia	NOUN	_	_	14	comp	_	AlignBegin=122118|AlignEnd=122560|GE=plantain|Gloss=plantain|nWord=7|RX=[N]
-13	tʉrʉrʉ	tʉrʉrʉ	ADJ	_	_	12	mod	_	AlignBegin=122560|AlignEnd=122780|GE=dried|Gloss=dried|nWord=8|RX=[ADJ]
-14	=sin		ADP	_	_	11	comp:obl	_	AlignBegin=122780|AlignEnd=122999|GE=with|Gloss==with|nWord=8|RX=[POST]
+6	kuri	kuri	VERB	_	_	8	comp:aux	_	AlignBegin=120571|AlignEnd=120792|GE=cook|Gloss=cook|nWord=3|RX=[V]
+7	u-	u-	AUX	_	_	8	mod/m	_	AlignBegin=120792|AlignEnd=120939|GE=U|Gloss=U|nWord=4|RX=[V]
+8	nig	nik	AUX	_	_	9	comp:aux/m	_	AlignBegin=120792|AlignEnd=120939|GE=do|Gloss=do|nWord=4|RX=[V]
+9	-e'		AUX	_	_	0	root	_	AlignBegin=120939|AlignEnd=121086|GE=then|Gloss=then|nWord=4|RX=[VERB]
+10	=ri		PART	_	_	9	mod	_	AlignBegin=121086|AlignEnd=121234|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=121234|AlignEnd=121676|nWord=5
+12	kʉnkuku	kʉnkuku	NOUN	_	_	4	conj:appos	_	AlignBegin=121676|AlignEnd=122118|GE=pigeon.pea|Gloss=pigeon.pea|nWord=6|RX=[N]
+13	giñia	giñia	NOUN	_	_	15	comp	_	AlignBegin=122118|AlignEnd=122560|GE=plantain|Gloss=plantain|nWord=7|RX=[N]
+14	tʉrʉrʉ	tʉrʉrʉ	ADJ	_	_	13	mod	_	AlignBegin=122560|AlignEnd=122780|GE=dried|Gloss=dried|nWord=8|RX=[ADJ]
+15	=sin		ADP	_	_	12	comp:obl	_	AlignBegin=122780|AlignEnd=122999|GE=with|Gloss==with|nWord=8|RX=[POST]
 
 # sent_id = CO15_38-38
 # speaker_id = @SP15

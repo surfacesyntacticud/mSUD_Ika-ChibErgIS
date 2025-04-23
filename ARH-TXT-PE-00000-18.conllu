@@ -654,13 +654,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 131502, 133313
 # morphemic_text = a'nʉ nikwa nan -i
-# text = a'nʉ nikwa nari
+# text = a'nʉ nikw -a nan -i
 # text_en = there was a stone,
 # text_phrase-gls-es = como había una piedra
 1	a'nʉ	a'nʉ	NOUN	_	_	2	comp:pred	_	AlignBegin=131502|AlignEnd=132106|GE=stone|Gloss=stone|nWord=1|RX=[N]
-2	nikwa	nikwa	AUX	_	_	3	comp:aux	_	AlignBegin=132106|AlignEnd=132710|GE=be.in|Gloss=be.in|nWord=2|RX=[AUX]
-3	nan	nan	AUX	_	_	_	_	_	AlignBegin=132710|AlignEnd=133012|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
-4	-i		PART	_	_	3	cc	_	AlignBegin=133012|AlignEnd=133313|GE=while|Gloss=and|nWord=3|RX=[VERB]
+2	nikw	nik	AUX	_	_	3	comp:aux/m	_	AlignBegin=132106|AlignEnd=132710|GE=be.in|Gloss=be.in|nWord=2|RX=[AUX]
+3	-a	-a	AUX	_	_	4	comp:aux	_	AlignBegin=132106|AlignEnd=132710|GE=be.in|Gloss=be.in|nWord=2|RX=[AUX]
+4	nan	nan	AUX	_	_	0	root	_	AlignBegin=132710|AlignEnd=133012|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
+5	-i		PART	_	_	4	cc	_	AlignBegin=133012|AlignEnd=133313|GE=while|Gloss=and|nWord=3|RX=[VERB]
 
 # sent_id = PE18_34-34
 # speaker_id = @SP18
@@ -828,7 +829,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 161432, 167730
 # morphemic_text = yamʉn =ka sombrenu pa' n -eyka , ingeygwi , gʉmʉsinʉ máykʉnʉ win- na =se' chu -y -e' =ri
-# text = yamʉnka sombrenu pa' neyka , ingeygwi , gʉmʉsinʉ máykʉnʉ winnase' chuye'ri
+# text = yamʉn =ka sombrenu pa' n -eyka , ingeygwi , gʉmʉsinʉ máykʉnʉ win- na =se' chu -y -e' =ri
 # text_en = further on, the three children saw the hat, other, lying on the ground.
 # text_phrase-gls-es = más adelante los tres ninios encontraron el sombrero que estaba en el suelo
 1	yamʉn	yamʉn	ADV	_	_	2	comp	_	AlignBegin=161432|AlignEnd=161718|GE=there|Gloss=there|nWord=1|RX=[ADV]
@@ -846,7 +847,7 @@
 13	na	nan	AUX	_	_	14	comp	_	AlignBegin=166780|AlignEnd=166971|GE=cop|Gloss=cop|nWord=10|RX=[COP]
 14	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	15	subj	_	AgentShift=no|AlignBegin=166971|AlignEnd=167162|GE=[ERG]|Gloss==ERG|nWord=10|RX=[POST]|Topic=no
 15	chu	chu	VERB	_	_	16	comp:aux/m	_	AlignBegin=167162|AlignEnd=167304|ArgumentOrder=OSV|GE=see|Gloss=see|nWord=11|RX=[VT]|Transitivity=transitive
-16	-y		PART	_	_	17	comp:aux/m	_	AlignBegin=167304|AlignEnd=167446|GE=while|Gloss=and|nWord=11|RX=[VERB]
+16	-y	-y	AUX	_	_	17	comp:aux/m	_	AlignBegin=167304|AlignEnd=167446|GE=NONEGO|Gloss=NONEGO|nWord=11|RX=[VERB]
 17	-e'		AUX	_	_	0	root	_	AlignBegin=167446|AlignEnd=167588|GE=then|Gloss=then|nWord=11|RX=[VERB]
 18	=ri		PART	_	_	17	mod	_	AlignBegin=167588|AlignEnd=167730|GE=[TOP]|Gloss==TOP|nWord=11|RX=[PRT]
 
@@ -968,7 +969,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 191298, 197610
 # morphemic_text = u -w -e' =ri ( mhm ) pera zʉ- paw =ri pera ʉn- tasi anʉ- kʉchana -y -e' =ri ,
-# text = uwe'ri ( mhm ) pera zʉpawri pera ʉntasi anʉkʉchanaye'ri ,
+# text = u -w -e' =ri ( mhm ) pera zʉ- paw =ri pera ʉn- tasi anʉ- kʉchana -y -e' =ri ,
 # text_en = So the owner of the pears came down [from the pear tree] after picking pears,
 # text_phrase-gls-es = Entonces el duenyo de la pera se bajó [del árbol de la pera] después de recoger pera
 1	u	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=191298|AlignEnd=191456|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
@@ -987,7 +988,7 @@
 14	tasi	tasi	VERB	_	_	_	_	_	AlignBegin=196031|AlignEnd=196346|GE=take|Gloss=take|nWord=8|RX=[V]
 15	anʉ-		AUX	_	_	16	mod/m	_	AlignBegin=196346|AlignEnd=196472|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]
 16	kʉchana	kʉchana	VERB	_	_	17	comp:aux/m	_	AlignBegin=196472|AlignEnd=196598|GE=go.down|Gloss=go.down|nWord=9|RX=[V]
-17	-y		PART	_	_	18	comp:aux/m	_	AlignBegin=196598|AlignEnd=196724|GE=while|Gloss=and|nWord=9|RX=[VERB]
+17	-y	-y	AUX	_	_	18	comp:aux/m	_	AlignBegin=196598|AlignEnd=196724|GE=NONEGO|Gloss=NONEGO|nWord=9|RX=[VERB]
 18	-e'		AUX	_	_	_	_	_	AlignBegin=196724|AlignEnd=196850|GE=then|Gloss=then|nWord=9|RX=[VERB]
 19	=ri		PART	_	_	18	mod	_	AlignBegin=196850|AlignEnd=196977|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]
 20	,		PUNCT	_	_	19	punct	_	AlignBegin=196977|AlignEnd=197610|nWord=10
