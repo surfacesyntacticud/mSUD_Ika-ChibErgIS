@@ -206,19 +206,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 41833, 45371
 # morphemic_text = una =ri , gʉmʉsinʉ ingiti kʉna =ri zwey -n =pʉna
-# text = unari , gʉmʉsinʉ ingiti kʉnari zweynpʉna
+# text = una =ri , gʉmʉsinʉ ingiti kʉnari zwey -n pʉna
 # text_en = So, he started to have children little by little
 # text_phrase-gls-es = entonces empezó poquito a poquito a los hijos
-1	una	una	PART	_	_	_	_	_	AlignBegin=41833|AlignEnd=42128|GE=so|Gloss=so|nWord=1|RX=[PRT]
+1	una	una	PART	_	_	6	discourse	_	AlignBegin=41833|AlignEnd=42128|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	=ri		PART	_	_	1	mod	_	AlignBegin=42128|AlignEnd=42423|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 3	,		PUNCT	_	_	2	punct	_	AlignBegin=42423|AlignEnd=43013|nWord=2
 4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=43013|AlignEnd=43603|GE=child|Gloss=child|nWord=3|RX=[N]
-5	ingiti	ingiti	ADV	_	_	_	_	_	AlignBegin=43603|AlignEnd=44193|GE=little|Gloss=little|nWord=4|RX=[ADV]
-6	kʉna	kʉna	VERB	_	_	_	_	_	AlignBegin=44193|AlignEnd=44488|GE=have|Gloss=have|nWord=5|RX=[VT]
-7	=ri		PART	_	_	6	mod	_	AlignBegin=44488|AlignEnd=44783|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
-8	zwey	zwey	VERB	_	_	9	comp:aux/m	_	AlignBegin=44783|AlignEnd=44979|GE=go|Gloss=go|nWord=6|RX=[VI]
-9	-n		AUX	_	_	10	comp:aux	_	AlignBegin=44979|AlignEnd=45175|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
-10	pʉna	pana	AUX	_	_	_	_	_	AlignBegin=45175|AlignEnd=45371|GE=[INCH]|Gloss=INCH|nWord=6|RX=[POST]|wordform==pʉna
+5	ingiti	ingiti	ADV	_	_	6	mod	_	AlignBegin=43603|AlignEnd=44193|GE=little|Gloss=little|nWord=4|RX=[ADV]
+6	kʉnari	kʉnari	VERB	_	_	7	comp:aux	_	Gloss=have
+7	zwey	zoy	AUX	_	_	8	comp:aux/m	_	AlignBegin=44783|AlignEnd=44979|GE=go|Gloss=go|nWord=6|RX=[VI]
+8	-n		AUX	_	_	9	comp:aux	_	AlignBegin=44979|AlignEnd=45175|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
+9	pʉna	pana	AUX	_	_	0	root	_	AlignBegin=45175|AlignEnd=45371|GE=[INCH]|Gloss=INCH|nWord=6|RX=[POST]|wordform==pʉna
 
 # sent_id = AN11_11-11
 # speaker_id = @SP11
@@ -278,7 +277,7 @@
 11	kʉsa	kʉsa	VERB	_	_	12	comp:aux	_	AlignBegin=52937|AlignEnd=53397|GE=put|Gloss=put|nWord=8|RX=[VT]
 12	aw	aw	AUX	_	_	_	_	_	AlignBegin=53397|AlignEnd=53627|GE=aux|Gloss=aux|nWord=9|RX=[AUX]
 13	-i		PART	_	_	12	cc	_	AlignBegin=53627|AlignEnd=53857|GE=while|Gloss=and|nWord=9|RX=[VERB]
-14	zoya	zoya	VERB	_	_	15	comp:aux/m	_	AlignBegin=53857|AlignEnd=54089|GE=go|Gloss=go|nWord=10|RX=[V]
+14	zoya	zoy	VERB	_	_	15	comp:aux/m	_	AlignBegin=53857|AlignEnd=54089|GE=go|Gloss=go|nWord=10|RX=[V]
 15	-na		AUX	_	_	_	_	_	AlignBegin=54089|AlignEnd=54320|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]
 
 # sent_id = AN11_14-14
@@ -389,7 +388,7 @@
 16	ʉn-		AUX	_	_	17	mod/m	_	AlignBegin=68799|AlignEnd=69011|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]
 17	chusi	chusi	VERB	_	_	_	_	_	AlignBegin=69011|AlignEnd=69223|GE=leave|Gloss=leave|nWord=11|RX=[V]
 18	ʉn-		AUX	_	_	19	mod/m	_	AlignBegin=69223|AlignEnd=69435|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]
-19	zoya	zoya	VERB	_	_	20	comp:aux	_	AlignBegin=69435|AlignEnd=69647|GE=go|Gloss=go|nWord=12|RX=[VI]
+19	zoya	zoy	VERB	_	_	20	comp:aux	_	AlignBegin=69435|AlignEnd=69647|GE=go|Gloss=go|nWord=12|RX=[VI]
 20	n	nan	AUX	_	_	21	comp:aux/m	_	AlignBegin=69647|AlignEnd=69857|GE=aux|Gloss=aux|nWord=13|RX=[AUX]
 21	-a'me'		AUX	_	_	_	_	_	AlignBegin=69857|AlignEnd=70067|GE=[CAUSE]|Gloss=CAUSE|nWord=13|RX=[VERB]
 
@@ -480,9 +479,9 @@
 22	=ki		PART	_	_	21	mod	_	AlignBegin=84539|AlignEnd=84734|GE=[CNTR]|Gloss==CNTR|nWord=16|RX=[PRT]
 23	neki	neki	PART	_	_	22	mod:emph	_	AlignBegin=84734|AlignEnd=85124|GE=[CNTR]|Gloss=CNTR|nWord=17|RX=[PRT]
 24	eymi	eymi	ADV	_	_	25	mod	_	AlignBegin=85124|AlignEnd=85514|GE=there|Gloss=there|nWord=18|RX=[ADV]
-25	aw	aw	VERB	_	_	27	conj:coord	_	AlignBegin=85514|AlignEnd=85709|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=19|RX=[VT]|Transitivity=transitive
+25	aw	aw	VERB	_	_	27	comp:aux	_	AlignBegin=85514|AlignEnd=85709|ArgumentOrder=SOV|GE=make|Gloss=make|nWord=19|RX=[VT]|Transitivity=transitive
 26	-i		PART	_	_	25	cc	_	AlignBegin=85709|AlignEnd=85904|GE=while|Gloss=and|nWord=19|RX=[VERB]
-27	aw	aw	VERB	_	_	28	comp:aux/m	_	AlignBegin=85904|AlignEnd=86099|GE=make|Gloss=make|nWord=20|RX=[VT]
+27	aw	aw	AUX	_	_	28	comp:aux/m	_	AlignBegin=85904|AlignEnd=86099|GE=make|Gloss=make|nWord=20|RX=[VT]
 28	-kwa		AUX	_	_	29	comp:aux	_	AlignBegin=86099|AlignEnd=86294|GE=[ABLE]|Gloss=ABLE|nWord=20|RX=[VERB]
 29	ni	nan	AUX	_	_	0	root	_	AlignBegin=86294|AlignEnd=86689|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]
 
@@ -641,9 +640,9 @@
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=110306|AlignEnd=110695|nWord=3
 4	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=110695|AlignEnd=111084|GE=territory|Gloss=territory|nWord=4|RX=[N]
 5	neki	neki	PART	_	_	4	mod:emph	_	AlignBegin=111084|AlignEnd=111473|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
-6	ikwi	ikwi	VERB	_	_	_	_	_	AlignBegin=111473|AlignEnd=111862|GE=defend|Gloss=defend|nWord=6|RX=[V]
-7	zwi	zwi	VERB	_	_	8	comp:aux/m	_	AlignBegin=111862|AlignEnd=112056|GE=go|Gloss=go|nWord=7|RX=[VI]
-8	-ngwa		AUX	_	_	_	_	_	AlignBegin=112056|AlignEnd=112250|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
+6	ikwi	ikwi	VERB	_	_	7	comp:aux	_	AlignBegin=111473|AlignEnd=111862|GE=defend|Gloss=defend|nWord=6|RX=[V]
+7	zwi	zoy	AUX	_	_	8	comp:aux/m	_	AlignBegin=111862|AlignEnd=112056|GE=go|Gloss=go|nWord=7|RX=[VI]
+8	-ngwa		AUX	_	_	0	root	_	AlignBegin=112056|AlignEnd=112250|GE=[FUT]|Gloss=FUT|nWord=7|RX=[VERB]
 
 # sent_id = AN11_30-30
 # speaker_id = @SP11
@@ -653,13 +652,13 @@
 # text = kwa ikʉ neki ikwi neki zwingwa
 # text_en = or they will defend [their] people
 # text_phrase-gls-es = o defendiendo su gente/pueblo
-1	kwa	kwa	CCONJ	_	_	_	_	_	AlignBegin=112250|AlignEnd=112697|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]
+1	kwa	kwa	CCONJ	_	_	4	cc	_	AlignBegin=112250|AlignEnd=112697|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]
 2	ikʉ	ikʉ	NOUN	_	_	4	comp:obj	_	AlignBegin=112697|AlignEnd=113144|GE=people|Gloss=people|nWord=2|RX=[N]
 3	neki	neki	PART	_	_	2	mod:emph	_	AlignBegin=113144|AlignEnd=113591|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]
-4	ikwi	ikwi	VERB	_	_	_	_	_	AlignBegin=113591|AlignEnd=114038|GE=defend|Gloss=defend|nWord=4|RX=[V]
+4	ikwi	ikwi	VERB	_	_	6	comp:aux	_	AlignBegin=113591|AlignEnd=114038|GE=defend|Gloss=defend|nWord=4|RX=[V]
 5	neki	neki	PART	_	_	4	mod:emph	_	AlignBegin=114038|AlignEnd=114485|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
-6	zwi	zwi	VERB	_	_	7	comp:aux/m	_	AlignBegin=114485|AlignEnd=114708|GE=go|Gloss=go|nWord=6|RX=[VI]
-7	-ngwa		AUX	_	_	_	_	_	AlignBegin=114708|AlignEnd=114931|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]
+6	zwi	zoy	AUX	_	_	7	comp:aux/m	_	AlignBegin=114485|AlignEnd=114708|GE=go|Gloss=go|nWord=6|RX=[VI]
+7	-ngwa		AUX	_	_	0	root	_	AlignBegin=114708|AlignEnd=114931|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]
 
 # sent_id = AN11_31-31
 # speaker_id = @SP11

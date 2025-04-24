@@ -205,9 +205,9 @@
 20	=sin		ADP	_	_	14	conj:coord	_	AlignBegin=36845|AlignEnd=37005|GE=with|Gloss==with|nWord=11|RX=[POST]
 21	ʉn-		AUX	_	_	22	mod/m	_	AlignBegin=37005|AlignEnd=37166|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]
 22	kʉ-		AUX	_	_	23	mod/m	_	AlignBegin=37166|AlignEnd=37327|GE=[APPL1]|Gloss=APPL1|nWord=12|RX=[V>V]
-23	rigʉnsi	rigʉnsi	VERB	_	_	24	conj:coord	_	AlignBegin=37327|AlignEnd=37487|GE=be.in.harmony|Gloss=be.in.harmony|nWord=12|RX=[V]
+23	rigʉnsi	rigʉnsi	VERB	_	_	0	root	_	AlignBegin=37327|AlignEnd=37487|GE=be.in.harmony|Gloss=be.in.harmony|nWord=12|RX=[V]
 24	ku	ku	VERB	_	_	25	comp:aux/m	_	AlignBegin=37487|AlignEnd=37728|GE=live|Gloss=live|nWord=13|RX=[V]
-25	-kwa		AUX	_	_	0	root	_	AlignBegin=37728|AlignEnd=37969|GE=[OBL]|Gloss=OBL|nWord=13|RX=[VERB]
+25	-kwa		AUX	_	_	23	conj:coord	_	AlignBegin=37728|AlignEnd=37969|GE=[OBL]|Gloss=OBL|nWord=13|RX=[VERB]
 26	.		PUNCT	_	_	25	punct	_	AlignBegin=37969|AlignEnd=38449|Gloss=.|nWord=14
 
 # sent_id = AN16-2_10-10
@@ -225,9 +225,9 @@
 4	kʉna	kʉna	VERB	_	_	_	_	_	AlignBegin=38993|AlignEnd=39129|GE=have|Gloss=have|nWord=2|RX=[VT]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=39129|AlignEnd=39265|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]
 6	ku	ku	VERB	_	_	7	comp:aux/m	_	AlignBegin=39265|AlignEnd=39469|GE=live|Gloss=live|nWord=3|RX=[V]
-7	-kwa		AUX	_	_	8	conj:coord	_	AlignBegin=39469|AlignEnd=39673|GE=[OBL]|Gloss=OBL|nWord=3|RX=[VERB]
-8	rigʉnsi	rigʉnsi	VERB	_	_	9	conj:coord	_	AlignBegin=39673|AlignEnd=40081|GE=be.in.harmony|Gloss=be.in.harmony|nWord=4|RX=[V]
-9	zwey	zwey	VERB	_	_	10	comp:aux/m	_	AlignBegin=40081|AlignEnd=40285|GE=go|Gloss=go|nWord=5|RX=[VI]
+7	-kwa		AUX	_	_	_	_	_	AlignBegin=39469|AlignEnd=39673|GE=[OBL]|Gloss=OBL|nWord=3|RX=[VERB]
+8	rigʉnsi	rigʉnsi	VERB	_	_	9	comp:aux	_	AlignBegin=39673|AlignEnd=40081|GE=be.in.harmony|Gloss=be.in.harmony|nWord=4|RX=[V]
+9	zwey	zoy	AUX	_	_	10	comp:aux/m	_	AlignBegin=40081|AlignEnd=40285|GE=go|Gloss=go|nWord=5|RX=[VI]
 10	-kwa		AUX	_	_	_	_	_	AlignBegin=40285|AlignEnd=40489|GE=[OBL]|Gloss=OBL|nWord=5|RX=[VERB]
 11	zʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=40489|AlignEnd=40897|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 12	.		PUNCT	_	_	11	punct	_	AlignBegin=40897|AlignEnd=41305|Gloss=.|nWord=7
@@ -304,7 +304,7 @@
 4	chʉká	chʉká	ADJ	_	_	5	comp:pred	_	AlignBegin=52511|AlignEnd=52989|GE=alive|Gloss=alive|nWord=2|RX=[ADJ]
 5	a'zʉna	a'zʉna	VERB	_	_	6	comp:aux	_	AlignBegin=52989|AlignEnd=53467|GE=feel|Gloss=feel|nWord=3|RX=[V]
 6	nana	nana	AUX	_	_	7	comp:aux/m	_	AlignBegin=53467|AlignEnd=53706|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
-7	-y	-y	PART	_	Animacy=Inan|Case=Abs|Definite=Def	8	comp:obj	_	AlignBegin=53706|AlignEnd=53945|GE=?|Gloss=?|nWord=4|RX=[VERB]|Topic=no
+7	-y	-y	AUX	_	Animacy=Inan|Case=Abs|Definite=Def	8	comp:obj	_	AlignBegin=53706|AlignEnd=53945|GE=?|Gloss=?|nWord=4|RX=[VERB]|Topic=no
 8	gwasi	gwasi	VERB	_	_	0	root	_	AlignBegin=53945|AlignEnd=54423|ArgumentOrder=SOV|GE=inform|Gloss=inform|nWord=5|RX=[V]|Transitivity=transitive
 9	.		PUNCT	_	_	8	punct	_	AlignBegin=54423|AlignEnd=54898|Gloss=.|nWord=6
 
@@ -460,7 +460,7 @@
 3	=ri		PART	_	_	2	mod	_	AlignBegin=73620|AlignEnd=73760|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 4	wasa	wasa	VERB	_	_	5	comp:aux/m	_	AlignBegin=73760|AlignEnd=73970|ArgumentOrder=SV|GE=speak|Gloss=speak|nWord=2|RX=[V]|Transitivity=transitive
 5	-y		PART	_	_	_	_	_	AlignBegin=73970|AlignEnd=74180|GE=while|Gloss=and|nWord=2|RX=[VERB]
-6	zoya	zoya	VERB	_	_	7	comp:aux	_	AlignBegin=74180|AlignEnd=74600|GE=go|Gloss=go|nWord=3|RX=[V]
+6	zoya	zoy	VERB	_	_	7	comp:aux	_	AlignBegin=74180|AlignEnd=74600|GE=go|Gloss=go|nWord=3|RX=[V]
 7	zʉn	zan	AUX	_	_	8	comp:aux	_	AlignBegin=74600|AlignEnd=75020|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]
 8	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=75020|AlignEnd=75230|GE=cop|Gloss=cop|nWord=5|RX=[COP]
 9	=di		PART	_	_	8	mod	_	AlignBegin=75230|AlignEnd=75440|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]

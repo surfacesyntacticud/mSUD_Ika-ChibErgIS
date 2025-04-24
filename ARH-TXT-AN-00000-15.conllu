@@ -101,7 +101,7 @@
 # text_phrase-gls-es = cuando vamos con él
 1	a	a	PRON	_	_	2	comp	_	AlignBegin=30118|AlignEnd=30436|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]
 2	=sin		ADP	_	_	3	comp:obl	_	AlignBegin=30436|AlignEnd=30754|GE=with|Gloss==with|nWord=1|RX=[POST]
-3	zori	zori	VERB	_	_	4	comp:aux	_	AlignBegin=30754|AlignEnd=31390|GE=go|Gloss=go|nWord=2|RX=[V]
+3	zori	zoy	VERB	_	_	4	comp:aux	_	AlignBegin=30754|AlignEnd=31390|GE=go|Gloss=go|nWord=2|RX=[V]
 4	nʉ	nan	AUX	_	_	5	comp:aux/m	_	AlignBegin=31390|AlignEnd=31602|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]
 5	-ngwa		AUX	_	_	0	root	_	AlignBegin=31602|AlignEnd=31814|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=31814|AlignEnd=32026|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
@@ -197,10 +197,10 @@
 # text_phrase-gls-es = para que siga naciendo todo
 1	inʉ	inʉ	PRON	_	Case=Abs	3	subj	_	AlignBegin=48275|AlignEnd=48463|GE=what|Gloss=what|nWord=1|RX=[INTERROG]
 2	=ki		PART	_	_	1	mod	_	AlignBegin=48463|AlignEnd=48652|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]
-3	bori	bori	VERB	_	_	_	_	_	AlignBegin=48652|AlignEnd=49029|GE=born|Gloss=born|nWord=2|RX=[V]
-4	zwey	zwey	VERB	_	_	5	comp:aux/m	_	AlignBegin=49029|AlignEnd=49217|GE=go|Gloss=go|nWord=3|RX=[VI]
+3	bori	bori	VERB	_	_	4	comp:aux	_	AlignBegin=48652|AlignEnd=49029|GE=born|Gloss=born|nWord=2|RX=[V]
+4	zwey	zwey	AUX	_	_	5	comp:aux/m	_	AlignBegin=49029|AlignEnd=49217|GE=go|Gloss=go|nWord=3|RX=[VI]|UPOS=AUX
 5	-ngwa		AUX	_	_	6	comp:aux	_	AlignBegin=49217|AlignEnd=49406|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]
-6	nan	nan	AUX	_	_	_	_	_	AlignBegin=49406|AlignEnd=49594|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
+6	nan	nan	AUX	_	_	0	root	_	AlignBegin=49406|AlignEnd=49594|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]
 7	-i		PART	_	_	6	cc	_	AlignBegin=49594|AlignEnd=49783|GE=while|Gloss=and|nWord=4|RX=[VERB]
 8	.		PUNCT	_	_	7	punct	_	AlignBegin=49783|AlignEnd=50160|Gloss=.|nWord=5
 
@@ -213,9 +213,9 @@
 # text_en = Therefore, the red earth, the black [earth], the yellow [earth] is spliced into seven [parts].
 # text_phrase-gls-es = Por eso, la tierra roja, la [tierra] negra, la [tierra] amarilla se va empalmando en siete [partes]
 # text_phrase-gls-tl = empalmar
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=50160|AlignEnd=50497|GE=so|Gloss=so|nWord=1|RX=[PRT]
+1	ey	ey	PART	_	_	2	mod	_	AlignBegin=50160|AlignEnd=50497|GE=so|Gloss=so|nWord=1|RX=[PRT]
 2	ʉw	aw	AUX	_	_	3	comp:aux/m	_	AlignBegin=50497|AlignEnd=50665|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
-3	-a'me'		AUX	_	_	_	_	_	AlignBegin=50665|AlignEnd=50834|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
+3	-a'me'		AUX	_	_	16	mod	_	AlignBegin=50665|AlignEnd=50834|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]
 4	ka'a	ka'a	NOUN	_	_	6	comp:obl	_	AlignBegin=50834|AlignEnd=51171|GE=earth|Gloss=earth|nWord=3|RX=[N]
 5	zi'	zi'	ADJ	_	_	6	comp:pred@attr	_	AlignBegin=51171|AlignEnd=51508|GE=red|Gloss=red|nWord=4|RX=[ADJ]
 6	kawa	kaw	AUX	_	_	16	comp:obj	_	AlignBegin=51508|AlignEnd=51845|GE=seem|Gloss=seem|nWord=5|RX=[AUX]
@@ -228,12 +228,12 @@
 13	koga	koga	NUM	_	_	16	comp:obl	_	AlignBegin=53867|AlignEnd=54035|GE=seven|Gloss=seven|nWord=12|RX=[NUM]
 14	=gwi		ADV	_	_	13	mod	_	AlignBegin=54035|AlignEnd=54204|GE=also|Gloss==also|nWord=12|RX=[ADV]
 15	ʉm-		AUX	_	_	16	mod/m	_	AlignBegin=54204|AlignEnd=54372|GE=[MID]|Gloss=MID|nWord=13|RX=[V>V]
-16	pʉnsi	pʉnsi	VERB	_	_	_	_	_	AlignBegin=54372|AlignEnd=54541|GE=lie.down[flat things]|Gloss=lie.down[flat things]|nWord=13|RX=[V]
-17	zwey	zwey	VERB	_	_	18	comp:aux/m	_	AlignBegin=54541|AlignEnd=54709|GE=go|Gloss=go|nWord=14|RX=[VI]
+16	pʉnsi	pʉnsi	VERB	_	_	17	comp:aux	_	AlignBegin=54372|AlignEnd=54541|GE=lie.down[flat things]|Gloss=lie.down[flat things]|nWord=13|RX=[V]
+17	zwey	zwey	AUX	_	_	18	comp:aux/m	_	AlignBegin=54541|AlignEnd=54709|GE=go|Gloss=go|nWord=14|RX=[VI]|UPOS=AUX
 18	-n		AUX	_	_	19	comp:aux	_	AlignBegin=54709|AlignEnd=54878|GE=[IPFV]|Gloss=IPFV|nWord=14|RX=[VERB]
 19	nug	nik	AUX	_	_	20	comp:aux/m	_	AlignBegin=54878|AlignEnd=55046|GE=aux|Gloss=aux|nWord=15|RX=[AUX]
 20	-a		AUX	_	_	21	comp:aux	_	AlignBegin=55046|AlignEnd=55215|GE=[NONEGO]|Gloss=NONEGO|nWord=15|RX=[V:ANY]
-21	ni	nan	AUX	_	_	_	_	_	AlignBegin=55215|AlignEnd=55552|GE=[DECL]|Gloss=DECL|nWord=16|RX=[AUX]
+21	ni	nan	PART	_	_	0	root	_	AlignBegin=55215|AlignEnd=55552|GE=[DECL]|Gloss=DECL|nWord=16|RX=[AUX]
 22	.		PUNCT	_	_	21	punct	_	AlignBegin=55552|AlignEnd=55896|Gloss=.|nWord=17
 
 # sent_id = AN15_13-13
@@ -249,7 +249,7 @@
 3	wasey	wasey	VERB	_	_	4	comp:aux/m	_	AlignBegin=56607|AlignEnd=56844|GE=speak|Gloss=speak|nWord=2|RX=[V]
 4	-kume		AUX	_	_	_	_	_	AlignBegin=56844|AlignEnd=57081|GE=[ANTIC]|Gloss=ANTIC|nWord=2|RX=[V:ANY]
 5	-y		PART	_	_	4	cc	_	AlignBegin=57081|AlignEnd=57318|GE=while|Gloss=and|nWord=2|RX=[VERB]
-6	zwey	zwey	VERB	_	_	7	comp:aux/m	_	AlignBegin=57318|AlignEnd=57674|GE=go|Gloss=go|nWord=3|RX=[VI]
+6	zwey	zoy	VERB	_	_	7	comp:aux/m	_	AlignBegin=57318|AlignEnd=57674|GE=go|Gloss=go|nWord=3|RX=[VI]
 7	-n		AUX	_	_	8	comp:aux	_	AlignBegin=57674|AlignEnd=58029|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]
 8	nug	nik	AUX	_	_	9	comp:aux/m	_	AlignBegin=58029|AlignEnd=58385|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 9	-a		AUX	_	_	10	comp:aux	_	AlignBegin=58385|AlignEnd=58740|GE=[NONEGO]|Gloss=NONEGO|nWord=4|RX=[V:ANY]
@@ -267,14 +267,14 @@
 # text_phrase-gls-es = Cuando ya todo amaneció
 1	u	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=60160|AlignEnd=60337|GE=aux|Gloss=aux|nWord=1|RX=[AUX]
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=60337|AlignEnd=60514|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]
-3	-e'		AUX	_	_	_	_	_	AlignBegin=60514|AlignEnd=60691|GE=then|Gloss=then|nWord=1|RX=[VERB]
+3	-e'		AUX	_	_	6	discourse	_	AlignBegin=60514|AlignEnd=60691|GE=then|Gloss=then|nWord=1|RX=[VERB]
 4	=ri		PART	_	_	3	mod	_	AlignBegin=60691|AlignEnd=60867|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]
 5	bunsi	bunsi	NOUN	_	Case=Abs	6	subj	_	AlignBegin=60867|AlignEnd=61574|GE=dawn|Gloss=dawn|nWord=2|RX=[N]
-6	chari	chari	VERB	_	_	_	_	_	AlignBegin=61574|AlignEnd=62281|GE=dawn|Gloss=dawn|nWord=3|RX=[V]
-7	zoya	zoya	VERB	_	_	8	comp:aux	_	AlignBegin=62281|AlignEnd=62988|GE=go|Gloss=go|nWord=4|RX=[V]
+6	chari	chari	VERB	_	_	7	comp:aux	_	AlignBegin=61574|AlignEnd=62281|GE=dawn|Gloss=dawn|nWord=3|RX=[V]
+7	zoya	zoya	AUX	_	_	8	comp:aux	_	AlignBegin=62281|AlignEnd=62988|GE=go|Gloss=go|nWord=4|RX=[V]|UPOS=AUX
 8	u	aw	AUX	_	_	9	comp:aux/m	_	AlignBegin=62988|AlignEnd=63165|GE=aux|Gloss=aux|nWord=5|RX=[AUX]
 9	-y		AUX	_	_	10	comp:aux/m	_	AlignBegin=63165|AlignEnd=63342|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]
-10	-e'		AUX	_	_	_	_	_	AlignBegin=63342|AlignEnd=63519|GE=then|Gloss=then|nWord=5|RX=[VERB]
+10	-e'		AUX	_	_	0	root	_	AlignBegin=63342|AlignEnd=63519|GE=then|Gloss=then|nWord=5|RX=[VERB]
 11	=ri		PART	_	_	10	mod	_	AlignBegin=63519|AlignEnd=63695|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]
 12	.		PUNCT	_	_	11	punct	_	AlignBegin=63695|AlignEnd=64402|Gloss=.|nWord=6
 
@@ -360,7 +360,7 @@
 8	=ri		PART	_	_	7	mod	_	AlignBegin=79698|AlignEnd=79889|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 9	warunh	warunh	VERB	_	_	10	comp:aux/m	_	AlignBegin=79889|AlignEnd=80175|ArgumentOrder=SV|GE=analise|Gloss=analise|nWord=5|RX=[V]|Transitivity=transitive
 10	-ey		PART	_	_	_	_	_	AlignBegin=80175|AlignEnd=80462|GE=while|Gloss=and|nWord=5|RX=[VERB]
-11	zori	zori	VERB	_	_	12	comp:aux/m	_	AlignBegin=80462|AlignEnd=80653|GE=go|Gloss=go|nWord=6|RX=[V]
+11	zori	zoy	VERB	_	_	12	comp:aux/m	_	AlignBegin=80462|AlignEnd=80653|GE=go|Gloss=go|nWord=6|RX=[V]
 12	-e'		AUX	_	_	0	root	_	AlignBegin=80653|AlignEnd=80844|GE=then|Gloss=then|nWord=6|RX=[VERB]
 13	=ri		PART	_	_	12	mod	_	AlignBegin=80844|AlignEnd=81035|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]
 14	,		PUNCT	_	_	13	punct	_	AlignBegin=81035|AlignEnd=81611|nWord=7|wordform=,.
@@ -412,7 +412,7 @@
 9	kwʉ	kwʉ	VERB	_	_	10	comp:aux	_	AlignBegin=88380|AlignEnd=88563|GE=live|Gloss=live|nWord=6|RX=[V]
 10	nan	nan	AUX	_	_	_	_	_	AlignBegin=88563|AlignEnd=88745|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]
 11	-i		PART	_	_	10	cc	_	AlignBegin=88745|AlignEnd=88928|GE=while|Gloss=and|nWord=7|RX=[VERB]
-12	zwey	zwey	VERB	_	_	13	comp:aux/m	_	AlignBegin=88928|AlignEnd=89110|GE=go|Gloss=go|nWord=8|RX=[VI]
+12	zwey	zoy	VERB	_	_	13	comp:aux/m	_	AlignBegin=88928|AlignEnd=89110|GE=go|Gloss=go|nWord=8|RX=[VI]
 13	-kwa		AUX	_	_	_	_	_	AlignBegin=89110|AlignEnd=89293|GE=[OBL]|Gloss=OBL|nWord=8|RX=[VERB]
 14	.		PUNCT	_	_	13	punct	_	AlignBegin=89293|AlignEnd=89656|Gloss=.|nWord=9
 
@@ -443,8 +443,8 @@
 2	ka-		AUX	_	_	3	mod/m	_	AlignBegin=92091|AlignEnd=92272|GE=[APPL1]|Gloss=APPL1|nWord=1|RX=[V>V]
 3	chʉ	chʉ	VERB	_	_	_	_	_	AlignBegin=92272|AlignEnd=92452|GE=see|Gloss=see|nWord=1|RX=[VT]
 4	kinki	kinki	PART	_	_	5	mod	_	AlignBegin=92452|AlignEnd=92994|GE=always|Gloss=always|nWord=2|RX=[PRT]
-5	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=92994|AlignEnd=93536|GE=feel|Gloss=feel|nWord=3|RX=[V]
-6	zoya	zoya	VERB	_	_	7	comp:aux	_	AlignBegin=93536|AlignEnd=94078|GE=go|Gloss=go|nWord=4|RX=[V]
+5	a'zari	a'zari	VERB	_	_	6	comp:aux	_	AlignBegin=92994|AlignEnd=93536|GE=feel|Gloss=feel|nWord=3|RX=[V]
+6	zoya	zoya	AUX	_	_	7	comp:aux	_	AlignBegin=93536|AlignEnd=94078|GE=go|Gloss=go|nWord=4|RX=[V]|UPOS=AUX
 7	nʉn	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=94078|AlignEnd=94349|GE=cop|Gloss=cop|nWord=5|RX=[COP]
 8	-no		AUX	_	_	_	_	_	AlignBegin=94349|AlignEnd=94620|GE=[Q]|Gloss=Q|nWord=5|RX=[VERB]
 9	a'zar	a'zar	VERB	_	_	10	comp:aux/m	_	AlignBegin=94620|AlignEnd=94801|GE=think|Gloss=think|nWord=6|RX=[V]
@@ -476,7 +476,7 @@
 14	kwʉ	kwʉ	VERB	_	_	15	comp:aux	_	AlignBegin=99964|AlignEnd=100167|GE=live|Gloss=live|nWord=11|RX=[V]
 15	nan	nan	AUX	_	_	_	_	_	AlignBegin=100167|AlignEnd=100370|GE=[AUX]|Gloss=AUX|nWord=12|RX=[AUX]
 16	-i		PART	_	_	15	cc	_	AlignBegin=100370|AlignEnd=100573|GE=while|Gloss=and|nWord=12|RX=[VERB]
-17	zwey	zwey	VERB	_	_	18	comp:aux/m	_	AlignBegin=100573|AlignEnd=100776|GE=go|Gloss=go|nWord=13|RX=[VI]
+17	zwey	zoy	VERB	_	_	18	comp:aux/m	_	AlignBegin=100573|AlignEnd=100776|GE=go|Gloss=go|nWord=13|RX=[VI]
 18	-kwa		AUX	_	_	_	_	_	AlignBegin=100776|AlignEnd=100979|GE=[OBL]|Gloss=OBL|nWord=13|RX=[VERB]
 19	(		PUNCT	_	_	20	punct	_	AlignBegin=100979|AlignEnd=101385|nWord=14
 20	=sin		ADP	_	_	22	conj:dicto	_	AlignBegin=101385|AlignEnd=101791|GE=with|Gloss==with|nWord=15|RX=[POST]
@@ -546,11 +546,11 @@
 # text = eymi bunsi chari zorie'ri .
 # text_en = When dawn broke [for the first time],
 # text_phrase-gls-es = Cuando fue amaneciendo [la primero del mundo]
-1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=110925|AlignEnd=111492|GE=there|Gloss=there|nWord=1|RX=[ADV]
+1	eymi	eymi	ADV	_	_	3	mod	_	AlignBegin=110925|AlignEnd=111492|GE=there|Gloss=there|nWord=1|RX=[ADV]
 2	bunsi	bunsi	NOUN	_	Case=Abs	3	subj	_	AlignBegin=111492|AlignEnd=112059|GE=dawn|Gloss=dawn|nWord=2|RX=[N]
-3	chari	chari	VERB	_	_	_	_	_	AlignBegin=112059|AlignEnd=112626|GE=dawn|Gloss=dawn|nWord=3|RX=[V]
-4	zori	zori	VERB	_	_	5	comp:aux/m	_	AlignBegin=112626|AlignEnd=112815|GE=go|Gloss=go|nWord=4|RX=[V]
-5	-e'		AUX	_	_	_	_	_	AlignBegin=112815|AlignEnd=113004|GE=then|Gloss=then|nWord=4|RX=[VERB]
+3	chari	chari	VERB	_	_	4	comp:aux	_	AlignBegin=112059|AlignEnd=112626|GE=dawn|Gloss=dawn|nWord=3|RX=[V]
+4	zori	zori	AUX	_	_	5	comp:aux/m	_	AlignBegin=112626|AlignEnd=112815|GE=go|Gloss=go|nWord=4|RX=[V]|UPOS=AUX
+5	-e'		AUX	_	_	0	root	_	AlignBegin=112815|AlignEnd=113004|GE=then|Gloss=then|nWord=4|RX=[VERB]
 6	=ri		PART	_	_	5	mod	_	AlignBegin=113004|AlignEnd=113193|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]
 7	.		PUNCT	_	_	6	punct	_	AlignBegin=113193|AlignEnd=113761|Gloss=.|nWord=5
 
@@ -617,7 +617,7 @@
 11	,		PUNCT	_	_	10	punct	_	AlignBegin=128682|AlignEnd=129088|nWord=8
 12	emi	emi	ADV	_	_	13	comp	_	AlignBegin=129088|AlignEnd=129291|GE=here|Gloss=here|nWord=9|RX=[ADV]
 13	=ta		ADP	_	_	14	mod:lmod	_	AlignBegin=129291|AlignEnd=129494|GE=[LOC]|Gloss==LOC|nWord=9|RX=[POST]
-14	zwey	zwey	VERB	_	_	15	comp:aux/m	_	AlignBegin=129494|AlignEnd=129697|GE=go|Gloss=go|nWord=10|RX=[VI]
+14	zwey	zoy	VERB	_	_	15	comp:aux/m	_	AlignBegin=129494|AlignEnd=129697|GE=go|Gloss=go|nWord=10|RX=[VI]
 15	-kwa		AUX	_	_	16	comp:aux	_	AlignBegin=129697|AlignEnd=129900|GE=[OBL]|Gloss=OBL|nWord=10|RX=[VERB]
 16	ni	nan	AUX	_	_	_	_	_	AlignBegin=129900|AlignEnd=130306|GE=[DECL]|Gloss=DECL|nWord=11|RX=[AUX]
 17	,		PUNCT	_	_	16	punct	_	AlignBegin=130306|AlignEnd=130712|nWord=12
@@ -656,7 +656,7 @@
 # text_en = The way it is already going, making payment to the sun,
 # text_phrase-gls-es = La forma como ya yendo hacerle pagamento al sol
 1	emi	emi	ADV	_	_	_	_	_	AlignBegin=140540|AlignEnd=141045|GE=here|Gloss=here|nWord=1|RX=[ADV]
-2	zwey	zwey	VERB	_	_	3	comp:aux/m	_	AlignBegin=141045|AlignEnd=141297|GE=go|Gloss=go|nWord=2|RX=[VI]
+2	zwey	zoy	VERB	_	_	3	comp:aux/m	_	AlignBegin=141045|AlignEnd=141297|GE=go|Gloss=go|nWord=2|RX=[VI]
 3	-n		AUX	_	_	4	comp:aux	_	AlignBegin=141297|AlignEnd=141550|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]
 4	nuk	nuk	AUX	_	_	5	comp:aux/m	_	AlignBegin=141550|AlignEnd=141718|GE=aux|Gloss=aux|nWord=3|RX=[AUX]
 5	-ʉkwe		AUX	_	_	6	comp	_	AlignBegin=141718|AlignEnd=141886|GE=[ABLE]|Gloss=ABLE|nWord=3|RX=[VERB]
@@ -725,8 +725,8 @@
 4	ʉya	ʉya	PRON	_	_	7	comp:obj	_	AlignBegin=152234|AlignEnd=152448|GE=this|Gloss=this|nWord=3|RX=[PRO]
 5	=ri		PART	_	_	4	mod	_	AlignBegin=152448|AlignEnd=152661|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
 6	i-		AUX	_	_	7	mod/m	_	AlignBegin=152661|AlignEnd=152875|GE=[APPL2]|Gloss=APPL2|nWord=4|RX=[V>V]
-7	zasari	zasari	VERB	_	_	_	_	_	AlignBegin=152875|AlignEnd=153088|GE=pay|Gloss=pay|nWord=4|RX=[V]
-8	zwey	zwey	VERB	_	_	9	comp:aux/m	_	AlignBegin=153088|AlignEnd=153302|GE=go|Gloss=go|nWord=5|RX=[VI]
+7	zasari	zasari	VERB	_	_	8	comp:aux	_	AlignBegin=152875|AlignEnd=153088|GE=pay|Gloss=pay|nWord=4|RX=[V]
+8	zwey	zoy	AUX	_	_	9	comp:aux/m	_	AlignBegin=153088|AlignEnd=153302|GE=go|Gloss=go|nWord=5|RX=[VI]
 9	-ngwasi		AUX	_	_	_	_	_	AlignBegin=153302|AlignEnd=153515|GE=[PURPOSE]|Gloss=PURPOSE|nWord=5|RX=[VERB]
 10	.		PUNCT	_	_	9	punct	_	AlignBegin=153515|AlignEnd=153940|Gloss=.|nWord=6
 
@@ -786,7 +786,7 @@
 # text = zweykwa ni .
 # text_en = the way it should be followed/complied with
 # text_phrase-gls-es = la forma como se debe seguir/cumplir
-1	zwey	zwey	VERB	_	_	2	comp:aux/m	_	AlignBegin=165920|AlignEnd=166286|GE=go|Gloss=go|nWord=1|RX=[VI]
+1	zwey	zoy	VERB	_	_	2	comp:aux/m	_	AlignBegin=165920|AlignEnd=166286|GE=go|Gloss=go|nWord=1|RX=[VI]
 2	-kwa		AUX	_	_	3	comp:aux	_	AlignBegin=166286|AlignEnd=166653|GE=[OBL]|Gloss=OBL|nWord=1|RX=[VERB]
 3	ni	nan	AUX	_	_	_	_	_	AlignBegin=166653|AlignEnd=167386|GE=[DECL]|Gloss=DECL|nWord=2|RX=[AUX]
 4	.		PUNCT	_	_	3	punct	_	AlignBegin=167386|AlignEnd=168120|Gloss=.|nWord=3

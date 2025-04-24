@@ -14,7 +14,7 @@
 6	gey	gey	VERB	_	_	_	_	_	AlignBegin=1912|AlignEnd=2436|ArgumentOrder=VS|GE=eat|Gloss=eat|nWord=4|RX=[VT]|Transitivity=transitive
 7	ikʉ	ikʉ	PROPN	_	_	8	comp	_	AlignBegin=2436|AlignEnd=2698|GE=[Ika]|Gloss=Ika|nWord=5|RX=[NPROP]
 8	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=no|AlignBegin=2698|AlignEnd=2960|GE=[ERG]|Gloss==ERG|nWord=5|RX=[POST]|Topic=no
-9	zwey	zwey	VERB	_	_	10	comp:aux/m	_	AlignBegin=2960|AlignEnd=3222|GE=go|Gloss=go|nWord=6|RX=[VI]
+9	zwey	zoy	VERB	_	_	10	comp:aux/m	_	AlignBegin=2960|AlignEnd=3222|GE=go|Gloss=go|nWord=6|RX=[VI]
 10	-n		AUX	_	_	11	comp:aux	_	AlignBegin=3222|AlignEnd=3484|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]
 11	nu'	nu'	AUX	_	_	12	comp:aux/m	_	AlignBegin=3484|AlignEnd=3659|GE=aux|Gloss=aux|nWord=7|RX=[COP]
 12	-na		AUX	_	_	18	subj	_	AlignBegin=3659|AlignEnd=3834|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
@@ -291,7 +291,7 @@
 # text_en = one dries plantains, plantain variety, a plantain variety, one dries all [kinds of] plantains
 # text_phrase-gls-es = secando los guineos, como el plátano, manzano [variedad del guineo], secando toda clase de guineo
 1	giñia	giñia	NOUN	_	_	2	comp:obj	_	AlignBegin=61240|AlignEnd=61622|GE=plantain|Gloss=plantain|nWord=1|RX=[N]
-2	dusi	dusi	VERB	_	_	10	conj:coord	_	AlignBegin=61622|AlignEnd=62004|GE=make.dry|Gloss=make.dry|nWord=2|RX=[V]
+2	dusi	dusi	VERB	_	_	10	parataxis	_	AlignBegin=61622|AlignEnd=62004|GE=make.dry|Gloss=make.dry|nWord=2|RX=[V]
 3	,		PUNCT	_	_	2	punct	_	AlignBegin=62004|AlignEnd=62386|nWord=3
 4	pʉrʉntanʉ	pʉrʉntanʉ	NOUN	_	_	10	comp:obj	_	AlignBegin=62386|AlignEnd=62768|GE=plaintain|Gloss=plaintain|nWord=4|RX=[N]
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=62768|AlignEnd=63150|nWord=5
@@ -299,7 +299,7 @@
 7	,		PUNCT	_	_	6	punct	_	AlignBegin=63532|AlignEnd=63914|nWord=7
 8	pinna	pinna	DET	_	_	9	det	_	AlignBegin=63914|AlignEnd=64296|GE=all|Gloss=all|nWord=8|RX=[QUANT]
 9	giñia	giñia	NOUN	_	_	6	conj:coord	_	AlignBegin=64296|AlignEnd=64678|GE=plantain|Gloss=plantain|nWord=9|RX=[N]
-10	dusi	dusi	VERB	_	_	_	_	_	AlignBegin=64678|AlignEnd=65060|GE=make.dry|Gloss=make.dry|nWord=10|RX=[V]
+10	dusi	dusi	VERB	_	_	0	root	_	AlignBegin=64678|AlignEnd=65060|GE=make.dry|Gloss=make.dry|nWord=10|RX=[V]
 
 # sent_id = CO19_015-015
 # speaker_id = @SP19
@@ -485,7 +485,7 @@
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=91396|AlignEnd=91789|nWord=3
 9	kʉkʉ	kʉkʉ	NOUN	_	_	11	comp:obj	_	AlignBegin=91789|AlignEnd=92182|GE=tooth|Gloss=tooth|nWord=4|RX=[N]
 10	kʉ-		AUX	_	_	11	mod/m	_	AlignBegin=92182|AlignEnd=92313|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]
-11	rigw	rigw	VERB	_	_	13	conj:coord	_	AlignBegin=92313|AlignEnd=92444|GE=be_eaten_by_animals|Gloss=be_eaten_by_animals|nWord=5|RX=[V]
+11	rigw	rigw	VERB	_	_	13	comp:aux	_	AlignBegin=92313|AlignEnd=92444|GE=be_eaten_by_animals|Gloss=be_eaten_by_animals|nWord=5|RX=[V]
 12	-ey		PART	_	_	11	cc	_	AlignBegin=92444|AlignEnd=92575|GE=while|Gloss=and|nWord=5|RX=[VERB]
 13	nis	nik	AUX	_	_	0	root	_	AlignBegin=92575|AlignEnd=92773|GE=do|Gloss=do|nWord=6|RX=[AUX]
 14	-i		PART	_	_	13	cc	_	AlignBegin=92773|AlignEnd=92970|GE=while|Gloss=and|nWord=6|RX=[VERB]
@@ -703,7 +703,7 @@
 31	-i		PART	_	_	30	cc	_	AlignBegin=130590|AlignEnd=130775|GE=while|Gloss=and|nWord=15|RX=[VERB]
 32	zʉn	zan	PART	_	_	31	mod:emph	_	AlignBegin=130775|AlignEnd=131144|GE=[COP]|Gloss=COP|nWord=16|RX=[COP]
 33	,		PUNCT	_	_	32	punct	_	AlignBegin=131144|AlignEnd=131513|nWord=17
-34	zoya	zoya	VERB	_	_	35	comp:aux	_	AlignBegin=131513|AlignEnd=131882|GE=go|Gloss=go|nWord=18|RX=[V]
+34	zoya	zoy	VERB	_	_	35	comp:aux	_	AlignBegin=131513|AlignEnd=131882|GE=go|Gloss=go|nWord=18|RX=[V]
 35	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=131882|AlignEnd=132071|GE=cop|Gloss=cop|nWord=19|RX=[COP]
 36	=di		PART	_	_	35	mod	_	AlignBegin=132071|AlignEnd=132260|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]
 
@@ -809,13 +809,13 @@
 9	zʉn	zan	PART	_	_	_	_	_	AlignBegin=146470|AlignEnd=146936|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]
 10	ey	ey	PART	_	_	_	_	_	AlignBegin=146936|AlignEnd=147402|GE=so|Gloss=so|nWord=7|RX=[PRT]
 11	zʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=147402|AlignEnd=147868|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]
-12	i	i	VERB	_	_	13	conj:coord	_	AlignBegin=147868|AlignEnd=148334|GE=say|Gloss=say|nWord=9|RX=[V]
+12	i	i	VERB	_	_	14	comp:aux	_	AlignBegin=147868|AlignEnd=148334|GE=say|Gloss=say|nWord=9|RX=[V]
 13	ana-		AUX	_	_	14	mod/m	_	AlignBegin=148334|AlignEnd=148489|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]
-14	zwey	zwey	VERB	_	_	15	comp:aux/m	_	AlignBegin=148489|AlignEnd=148644|GE=go|Gloss=go|nWord=10|RX=[VI]
+14	zwey	zoy	AUX	_	_	15	comp:aux/m	_	AlignBegin=148489|AlignEnd=148644|GE=go|Gloss=go|nWord=10|RX=[VI]
 15	-n		AUX	_	_	16	comp:aux	_	AlignBegin=148644|AlignEnd=148800|GE=[IPFV]|Gloss=IPFV|nWord=10|RX=[VERB]
 16	nug	nik	AUX	_	_	17	comp:aux/m	_	AlignBegin=148800|AlignEnd=149033|GE=aux|Gloss=aux|nWord=11|RX=[AUX]
 17	-a		AUX	_	_	18	comp:aux	_	AlignBegin=149033|AlignEnd=149266|GE=[NONEGO]|Gloss=NONEGO|nWord=11|RX=[V:ANY]
-18	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=149266|AlignEnd=149502|GE=cop|Gloss=cop|nWord=12|RX=[COP]
+18	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=149266|AlignEnd=149502|GE=cop|Gloss=cop|nWord=12|RX=[COP]
 19	=di		PART	_	_	18	mod	_	AlignBegin=149502|AlignEnd=149738|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]
 
 # sent_id = CO19_038-038
@@ -1192,7 +1192,7 @@
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=214130|AlignEnd=214457|nWord=5
 7	gey	gey	VERB	_	_	_	_	_	AlignBegin=214457|AlignEnd=214784|GE=eat|Gloss=eat|nWord=6|RX=[VT]
 8	a-		PRON	_	_	9	subj/m	_	AlignBegin=214784|AlignEnd=214893|GE=[1PL].[S]|Gloss=1PL.S|nWord=7|RX=[V:ANY]
-9	zoya	zoya	VERB	_	_	10	comp:aux/m	_	AlignBegin=214893|AlignEnd=215002|GE=go|Gloss=go|nWord=7|RX=[V]
+9	zoya	zoy	VERB	_	_	10	comp:aux/m	_	AlignBegin=214893|AlignEnd=215002|GE=go|Gloss=go|nWord=7|RX=[V]
 10	-na		AUX	_	_	11	comp:aux	_	AlignBegin=215002|AlignEnd=215111|GE=[RMTPST]|Gloss=RMTPST|nWord=7|RX=[VERB]
 11	ni	nan	AUX	_	_	_	_	_	AlignBegin=215111|AlignEnd=215440|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]
 
@@ -1670,7 +1670,7 @@
 # text_en = It is going [like this].
 # text_phrase-gls-es = Así es que estamos yendo [en sentido de la viviencia]
 1	ʉn-		AUX	_	_	2	mod/m	_	AlignBegin=279970|AlignEnd=280166|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]
-2	zwey	zwey	VERB	_	_	3	comp:aux/m	_	AlignBegin=280166|AlignEnd=280362|GE=go|Gloss=go|nWord=1|RX=[VI]
+2	zwey	zoy	VERB	_	_	3	comp:aux/m	_	AlignBegin=280166|AlignEnd=280362|GE=go|Gloss=go|nWord=1|RX=[VI]
 3	-n		AUX	_	_	4	comp:aux	_	AlignBegin=280362|AlignEnd=280558|GE=[IPFV]|Gloss=IPFV|nWord=1|RX=[VERB]
 4	nuk	nuk	AUX	_	_	5	comp:aux/m	_	AlignBegin=280558|AlignEnd=280852|GE=aux|Gloss=aux|nWord=2|RX=[AUX]
 5	-ukwa		AUX	_	_	6	comp:aux	_	AlignBegin=280852|AlignEnd=281146|GE=[ABLE]|Gloss=ABLE|nWord=2|RX=[VERB]
@@ -2031,7 +2031,7 @@
 6	kinki	kinki	PART	_	_	7	mod	_	AlignBegin=331255|AlignEnd=331696|GE=always|Gloss=always|nWord=4|RX=[PRT]
 7	owm	owm	VERB	_	_	8	comp:aux/m	_	AlignBegin=331696|AlignEnd=331916|GE=bath.oneself|Gloss=bath.oneself|nWord=5|RX=[V]
 8	-ey		PART	_	_	_	_	_	AlignBegin=331916|AlignEnd=332137|GE=while|Gloss=and|nWord=5|RX=[VERB]
-9	zwey	zwey	VERB	_	_	10	comp:aux/m	_	AlignBegin=332137|AlignEnd=332357|GE=go|Gloss=go|nWord=6|RX=[VI]
+9	zwey	zoy	VERB	_	_	10	comp:aux/m	_	AlignBegin=332137|AlignEnd=332357|GE=go|Gloss=go|nWord=6|RX=[VI]
 10	-kwa		AUX	_	_	_	_	_	AlignBegin=332357|AlignEnd=332578|GE=[OBL]|Gloss=OBL|nWord=6|RX=[VERB]
 11	,		PUNCT	_	_	10	punct	_	AlignBegin=332578|AlignEnd=333021|nWord=7
 
@@ -2049,7 +2049,7 @@
 4	=se'		ADP	_	_	5	mod:lmod	_	AlignBegin=333796|AlignEnd=333951|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]
 5	owm	owm	VERB	_	_	6	comp:aux/m	_	AlignBegin=333951|AlignEnd=334106|GE=bath.oneself|Gloss=bath.oneself|nWord=4|RX=[V]
 6	-ey		PART	_	_	_	_	_	AlignBegin=334106|AlignEnd=334261|GE=while|Gloss=and|nWord=4|RX=[VERB]
-7	zwey	zwey	VERB	_	_	8	comp:aux/m	_	AlignBegin=334261|AlignEnd=334416|GE=go|Gloss=go|nWord=5|RX=[VI]
+7	zwey	zoy	VERB	_	_	8	comp:aux/m	_	AlignBegin=334261|AlignEnd=334416|GE=go|Gloss=go|nWord=5|RX=[VI]
 8	-ndi		AUX	_	_	_	_	_	AlignBegin=334416|AlignEnd=334571|GE=[COND]|Gloss=COND|nWord=5|RX=[V:ANY]
 9	,		PUNCT	_	_	8	punct	_	AlignBegin=334571|AlignEnd=334878|nWord=6
 
@@ -2154,7 +2154,7 @@
 6	nug	nik	AUX	_	_	7	comp:aux/m	_	AlignBegin=345658|AlignEnd=345762|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 7	-in		AUX	_	_	_	_	_	AlignBegin=345762|AlignEnd=345865|GE=[DECL]|Gloss=DECL|nWord=4|RX=[V:ANY]
 8	a-		PRON	_	_	9	udep:poss/m	_	AlignBegin=345865|AlignEnd=345969|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=5|RX=[POSS]
-9	mi'n	mi'n	VERB	_	_	10	comp:aux/m	_	AlignBegin=345969|AlignEnd=346073|GE=go|Gloss=go|nWord=5|RX=[V]
+9	mi'n	zoy	VERB	_	_	10	comp:aux/m	_	AlignBegin=345969|AlignEnd=346073|GE=go|Gloss=go|nWord=5|RX=[V]
 10	-u'		AUX	_	_	11	comp:aux	_	AlignBegin=346073|AlignEnd=346176|GE=[NEG]|Gloss=NEG|nWord=5|RX=[VERB]
 11	nʉn	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=346176|AlignEnd=346332|GE=cop|Gloss=cop|nWord=6|RX=[COP]
 12	-kwa		AUX	_	_	13	comp:aux	_	AlignBegin=346332|AlignEnd=346487|GE=[OBL]|Gloss=OBL|nWord=6|RX=[VERB]
@@ -2218,7 +2218,7 @@
 # text_phrase-gls-es = cuando las mujeres caminan [en medio del cultivo de la ahuyama]
 1	a'mia	a'mia	NOUN	_	Case=Abs	3	subj	_	AlignBegin=352099|AlignEnd=352449|GE=woman|Gloss=woman|nWord=1|RX=[N]
 2	a-		PRON	_	_	3	subj/m	_	AlignBegin=352449|AlignEnd=352624|GE=[1PL].[S]|Gloss=1PL.S|nWord=2|RX=[V:ANY]
-3	mi'na	mi'na	VERB	_	_	5	comp:aux	_	AlignBegin=352624|AlignEnd=352799|GE=go|Gloss=go|nWord=2|RX=[V]
+3	mi'na	zoy	VERB	_	_	5	comp:aux	_	AlignBegin=352624|AlignEnd=352799|GE=go|Gloss=go|nWord=2|RX=[V]
 4	eymi	eymi	ADV	_	_	3	mod:lmod	_	AlignBegin=352799|AlignEnd=353149|GE=there|Gloss=there|nWord=3|RX=[ADV]
 5	u	aw	AUX	_	_	6	comp:aux/m	_	AlignBegin=353149|AlignEnd=353237|GE=aux|Gloss=aux|nWord=4|RX=[AUX]
 6	-w		AUX	_	_	7	comp:aux/m	_	AlignBegin=353237|AlignEnd=353325|GE=[EGO]|Gloss=EGO|nWord=4|RX=[VERB]
@@ -2293,7 +2293,7 @@
 # text_phrase-gls-es = así es que hace, entonces esto es verdad
 1	nis	nik	AUX	_	_	_	_	_	AlignBegin=362612|AlignEnd=362778|GE=do|Gloss=do|nWord=1|RX=[AUX]
 2	-i		PART	_	_	1	cc	_	AlignBegin=362778|AlignEnd=362944|GE=while|Gloss=and|nWord=1|RX=[VERB]
-3	zoya	zoya	VERB	_	_	_	_	_	AlignBegin=362944|AlignEnd=363276|GE=go|Gloss=go|nWord=2|RX=[V]
+3	zoya	zoy	VERB	_	_	_	_	_	AlignBegin=362944|AlignEnd=363276|GE=go|Gloss=go|nWord=2|RX=[V]
 4	gu-		AUX	_	_	5	comp:aux	_	AlignBegin=363276|AlignEnd=363387|GE=[GU]|Gloss=GU|nWord=3|RX=[V:ANY]
 5	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=363387|AlignEnd=363498|GE=cop|Gloss=cop|nWord=3|RX=[COP]
 6	=di		PART	_	_	5	mod	_	AlignBegin=363498|AlignEnd=363608|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]
@@ -2448,7 +2448,7 @@
 5	zarik	zarik	VERB	_	_	6	comp:aux/m	_	AlignBegin=383945|AlignEnd=384078|GE=sow|Gloss=sow|nWord=3|RX=[V]
 6	-ʉndi		AUX	_	_	_	_	_	AlignBegin=384078|AlignEnd=384212|GE=[COND]|Gloss=COND|nWord=3|RX=[V:ANY]
 7	ʉn-		AUX	_	_	8	mod/m	_	AlignBegin=384212|AlignEnd=384345|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]
-8	zwey	zwey	VERB	_	_	9	comp:aux/m	_	AlignBegin=384345|AlignEnd=384478|GE=go|Gloss=go|nWord=4|RX=[VI]
+8	zwey	zoy	VERB	_	_	9	comp:aux/m	_	AlignBegin=384345|AlignEnd=384478|GE=go|Gloss=go|nWord=4|RX=[VI]
 9	-'		AUX	_	_	_	_	_	AlignBegin=384478|AlignEnd=384612|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]
 10	neki	neki	PART	_	_	9	mod:emph	_	AlignBegin=384612|AlignEnd=385012|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]
 
