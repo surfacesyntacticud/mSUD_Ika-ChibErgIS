@@ -17,7 +17,7 @@
 10	-i		PART	_	_	_	_	_	AlignBegin=6520|AlignEnd=6801|GE=while|Gloss=and|nWord=7|RX=[VERB]|TokenType=InflAff
 11	gayu	gayu	NOUN	_	Case=Abs	15	subj	_	AlignBegin=6801|AlignEnd=7364|GE=rooster|Gloss=rooster|nWord=8|RX=[N]|TokenType=Root
 12	(		PUNCT	_	_	13	punct	_	AlignBegin=7364|AlignEnd=7927|nWord=9
-13	kana	kana	X	_	_	15	conj:dicto	_	AlignBegin=7927|AlignEnd=8490|GE=crow|Gloss=crow|nWord=10|RX=[VI]|TokenType=Root
+13	kana	kana	X	_	_	15	discourse	_	AlignBegin=7927|AlignEnd=8490|GE=crow|Gloss=crow|nWord=10|RX=[VI]|TokenType=Root
 14	)		PUNCT	_	_	13	punct	_	AlignBegin=8490|AlignEnd=9053|nWord=11
 15	kan	kan	VERB	_	_	16	comp:aux/m	_	AlignBegin=9053|AlignEnd=9335|GE=crow|Gloss=crow|nWord=12|RX=[VI]|TokenType=Root
 16	-aki	-aki	AUX	_	_	_	_	_	AlignBegin=9335|AlignEnd=9616|GE=anteriority|Gloss=anteriority|nWord=12|RX=[V:ANY]|TokenType=Root
@@ -406,12 +406,12 @@
 # morphemic_text = du pera cheynʉn ga n -ajʉ =ri .
 # text = du pera cheynʉn ga najʉri .
 # text_en = He carefully placed it next to the pears. | La puso con mucho cuidado al lado de las peras.
-1	du	du	ADJ	_	_	_	_	_	AlignBegin=78240|AlignEnd=78571|GE=good|Gloss=good|nWord=1|RX=[ADJ]|TokenType=Root
-2	pera	pera	NOUN	_	_	3	comp	_	AlignBegin=78571|AlignEnd=78902|GE=pear|Gloss=pear|nWord=2|RX=[N]|TokenType=Root
-3	cheynʉn	cheynʉn	ADP	_	_	4	mod:lmod	_	AlignBegin=78902|AlignEnd=79233|GE=on.the.side.of|Gloss=on.the.side.of|nWord=3|RX=[POST]|TokenType=Root
+1	du	du	ADJ	_	_	4	comp:pred	_	AlignBegin=78240|AlignEnd=78571|GE=good|Gloss=good|nWord=1|RX=[ADJ]|TokenType=Root
+2	pera	pera	NOUN	_	_	4	mod:lmod	_	AlignBegin=78571|AlignEnd=78902|GE=pear|Gloss=pear|nWord=2|RX=[N]|TokenType=Root
+3	cheynʉn	cheynʉn	NOUN	_	_	2	compound	_	AlignBegin=78902|AlignEnd=79233|GE=on.the.side.of|Gloss=on.the.side.of|nWord=3|RX=[POST]|TokenType=Root
 4	ga	ga	VERB	_	_	5	comp:aux	_	AlignBegin=79233|AlignEnd=79564|GE=put|Gloss=put|nWord=4|RX=[V]|TokenType=Root
 5	n	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=79564|AlignEnd=79674|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
-6	-ajʉ		AUX	_	_	_	_	_	AlignBegin=79674|AlignEnd=79784|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=5|RX=[V:ANY]|TokenType=InflAff
+6	-ajʉ		AUX	_	_	0	root	_	AlignBegin=79674|AlignEnd=79784|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=5|RX=[V:ANY]|TokenType=InflAff
 7	=ri		PART	_	_	6	mod	_	AlignBegin=79784|AlignEnd=79895|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 8	.		PUNCT	_	_	7	punct	_	AlignBegin=79895|AlignEnd=80227|Gloss=.|nWord=6
 
@@ -1119,23 +1119,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-12 (1).WAV/WAV/ARH-TXT-PE-00000-12 (1).WAV
 # sent_timecode = 213920, 221753
 # morphemic_text = eyma ikʉ =ri , eyma máykʉnʉ ikʉ =ri a- cheynʉn -ke' =ta' kʉ- zag -wi zʉ'ʉn u -na .
-# text = eyma ikʉ =ri , eyma máykʉnʉ ikʉ =ri a- cheynʉn =ke' =ta' kʉ- zag -wi zʉ'ʉn u -na .
+# text = eyma ikʉ =ri , eyma máykʉnʉ ikʉ =ri a- cheynʉn =ke' =ta' kʉ- zag =wi zʉ'ʉn u -na .
 # text_en = that persons, that three people passed by his side. | estas personas, esas tres personas pasaron por el lado.
 1	eyma	eyma	DET	_	_	2	det	_	AlignBegin=213920|AlignEnd=214632|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
-2	ikʉ	ikʉ	NOUN	_	_	7	conj:dicto	_	AlignBegin=214632|AlignEnd=214988|GE=person|Gloss=person|nWord=2|RX=[N]|TokenType=Root
+2	ikʉ	ikʉ	NOUN	_	Case=Abs	14	subj	_	AlignBegin=214632|AlignEnd=214988|GE=person|Gloss=person|nWord=2|RX=[N]|TokenType=Root
 3	=ri		PART	_	_	2	mod	_	AlignBegin=214988|AlignEnd=215344|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	,		PUNCT	_	_	3	punct	_	AlignBegin=215344|AlignEnd=216056|nWord=3
 5	eyma	eyma	DET	_	_	7	det	_	AlignBegin=216056|AlignEnd=216768|GE=this|Gloss=this|nWord=4|RX=[DEM]|TokenType=Root
 6	máykʉnʉ	máykʉnʉ	NUM	_	_	7	mod:num	_	AlignBegin=216768|AlignEnd=217480|GE=three|Gloss=three|nWord=5|RX=[NUM]|TokenType=Root
-7	ikʉ	ikʉ	NOUN	_	Case=Abs	14	subj	_	AlignBegin=217480|AlignEnd=217836|GE=person|Gloss=person|nWord=6|RX=[N]|TokenType=Root
+7	ikʉ	ikʉ	NOUN	_	Case=Abs	2	conj:dicto	_	AlignBegin=217480|AlignEnd=217836|GE=person|Gloss=person|nWord=6|RX=[N]|TokenType=Root
 8	=ri		PART	_	_	7	mod	_	AlignBegin=217836|AlignEnd=218192|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 9	a-		PRON	_	_	10	udep:poss/m	_	AlignBegin=218192|AlignEnd=218370|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=7|RX=[POSS]|TokenType=InflAff
-10	cheynʉn	cheynʉn	ADP	_	_	11	comp	_	AlignBegin=218370|AlignEnd=218548|GE=on.the.side.of|Gloss=on.the.side.of|nWord=7|RX=[POST]|TokenType=Root
+10	cheynʉn	cheynʉn	NOUN	_	_	11	comp	_	AlignBegin=218370|AlignEnd=218548|GE=on.the.side.of|Gloss=on.the.side.of|nWord=7|RX=[POST]|TokenType=Root
 11	=ke'	ekʉ	ADP	_	_	12	mod	_	AlignBegin=218548|AlignEnd=218726|GE=[LOC]|Gloss=LOC|nWord=7|RX=[N]|TokenType=Clit
 12	=ta'	=ta'	ADP	_	_	14	comp:obl	_	AlignBegin=218726|AlignEnd=218904|GE=PER|Gloss=PER|nWord=7|RX=[POST]|TokenType=Clit
 13	kʉ-		AUX	_	_	14	mod/m	_	AlignBegin=218904|AlignEnd=219141|GE=[APPL1]|Gloss=APPL1|nWord=8|RX=[V>V]|TokenType=DerAff
 14	zag	zag	VERB	_	_	17	comp:aux	_	AlignBegin=219141|AlignEnd=219378|GE=pass.by|Gloss=pass.by|nWord=8|RX=[V]|TokenType=Root
-15	-wi		ADV	_	_	14	mod	_	AlignBegin=219378|AlignEnd=219616|GE=also|Gloss=also|nWord=8|RX=[ADV]|TokenType=InflAff
+15	=wi	=gwi	ADV	_	_	14	mod	_	AlignBegin=219378|AlignEnd=219616|GE=also|Gloss=also|nWord=8|RX=[ADV]|TokenType=InflAff
 16	zʉ'ʉn	zan	PART	_	_	15	mod:emph	_	AlignBegin=219616|AlignEnd=220328|GE=[COP]|Gloss=COP|nWord=9|RX=[COP]|TokenType=Root
 17	u	aw	AUX	_	_	18	comp:aux/m	_	AlignBegin=220328|AlignEnd=220684|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
 18	-na		AUX	_	_	0	root	_	AlignBegin=220684|AlignEnd=221040|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]|TokenType=InflAff

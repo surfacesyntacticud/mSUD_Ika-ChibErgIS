@@ -9,7 +9,7 @@
 1	ka'	ka'	NOUN	_	_	7	conj:dicto	_	AlignBegin=4890|AlignEnd=5378|GE=earth|Gloss=earth|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=5378|AlignEnd=5866|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	(	_	PUNCT	_	_	4	punct	_	AlignBegin=5866|AlignEnd=6842|nWord=2
-4	buns	buns	X	_	_	6	conj:dicto	_	AlignBegin=6842|AlignEnd=7818|nWord=3|TokenType=Root
+4	buns	buns	X	_	_	6	discourse	_	AlignBegin=6842|AlignEnd=7818|nWord=3|TokenType=Root
 5	)	_	PUNCT	_	_	4	punct	_	AlignBegin=7818|AlignEnd=8794|nWord=4
 6	bunsi	bunsi	NOUN	_	Case=Abs	7	subj	_	AlignBegin=8794|AlignEnd=9770|GE=dawn|Gloss=dawn|nWord=5|RX=[N]|TokenType=Root
 7	chari	chari	VERB	_	_	8	comp:aux	_	AlignBegin=9770|AlignEnd=10746|GE=dawn|Gloss=dawn|nWord=6|RX=[V]|TokenType=Root
@@ -155,7 +155,7 @@
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=43086|AlignEnd=43256|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]|TokenType=Root
 3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=no|AlignBegin=43256|AlignEnd=43427|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|TokenType=Clit|Topic=no
 4	(	_	PUNCT	_	_	5	punct	_	AlignBegin=43427|AlignEnd=43768|nWord=3
-5	wa	wa	X	_	_	7	conj:dicto	_	AlignBegin=43768|AlignEnd=44109|nWord=4|TokenType=Root
+5	wa	wa	X	_	_	7	discourse	_	AlignBegin=43768|AlignEnd=44109|nWord=4|TokenType=Root
 6	)	_	PUNCT	_	_	5	punct	_	AlignBegin=44109|AlignEnd=44450|nWord=5
 7	a'chw	a'chw	VERB	_	_	8	comp:aux/m	_	AlignBegin=44450|AlignEnd=44620|ArgumentOrder=SV|GE=take.care|Gloss=take.care|nWord=6|RX=[V]|TokenType=Root|Transitivity=transitive
 8	-ey	_	PART	_	_	_	_	_	AlignBegin=44620|AlignEnd=44791|GE=while|Gloss=and|nWord=6|RX=[VERB]|TokenType=InflAff
@@ -493,12 +493,12 @@
 # text_en = that's how he made us
 # text_phrase-gls-es = asi nos hizo
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=103014|AlignEnd=103189|nWord=1
-2	go	go	X	_	_	5	conj:dicto	_	AlignBegin=103189|AlignEnd=103364|nWord=2|TokenType=Root
+2	go	go	X	_	_	5	discourse	_	AlignBegin=103189|AlignEnd=103364|nWord=2|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=103364|AlignEnd=103539|nWord=3
 4	niwi	niwi	PRON	_	_	5	comp:obj	_	AlignBegin=103539|AlignEnd=103714|GE=[1PL].[EXCL]|Gloss=1PL.EXCL|nWord=4|RX=[PRO]|TokenType=Root
 5	gow	gow	VERB	_	_	6	comp:aux/m	_	AlignBegin=103714|AlignEnd=103802|GE=build|Gloss=build|nWord=5|RX=[V]|TokenType=Root
 6	-na	_	AUX	_	_	7	comp:aux	_	AlignBegin=103802|AlignEnd=103889|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
-7	ni	nan	AUX	_	_	_	_	_	AlignBegin=103889|AlignEnd=104064|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]|TokenType=Root
+7	ni	nan	AUX	_	_	0	root	_	AlignBegin=103889|AlignEnd=104064|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]|TokenType=Root
 8	.	_	PUNCT	_	_	7	punct	_	AlignBegin=104064|AlignEnd=104238|Gloss=.|nWord=7
 
 # sent_id = AN15_26-26

@@ -20,7 +20,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-15.WAV/WAV/ARH-TXT-CO-00000-15.WAV
 # sent_timecode = 5070, 12940
 # morphemic_text = [ XXX ] giñia ( kʉn ) giñia [ ʉn- kʉ- dusa ] ʉn- kʉ- dusa keywʉ un -aɉʉ nʉ -ngwa =ri
-# text = [ XXX ] giñia ( kʉn ) giñia [ ʉnkʉdusa ] ʉnkʉdusa keywʉ unaɉʉ nʉngwari
+# text = [ XXX ] giñia ( kʉn ) giñia [ ʉn- kʉ- dusa ] ʉn- kʉ- dusa keywʉ un -aɉʉ nʉ -ngwa =ri
 # text_en = We dry the plantain, and then
 # text_phrase-gls-es = Secamos el guineo y luego
 # text_phrase-gls-tl = the text in [ ] are comments from another Ika speaker present during the recording
@@ -31,7 +31,7 @@
 5	(		PUNCT	_	_	6	punct	_	AlignBegin=7170|AlignEnd=7695|nWord=5
 6	kʉn	kʉn	NOUN	_	_	8	conj:dicto	_	AlignBegin=7695|AlignEnd=8220|GE=tree|Gloss=tree|nWord=6|RX=[N]|TokenType=Root
 7	)		PUNCT	_	_	6	punct	_	AlignBegin=8220|AlignEnd=8745|nWord=7
-8	giñia	giñia	NOUN	_	_	16	comp:obj	_	AlignBegin=8745|AlignEnd=9270|GE=plantain|Gloss=plantain|nWord=8|RX=[N]|TokenType=Root
+8	giñia	giñia	NOUN	_	Case=Abs	16	comp:obj	_	AlignBegin=8745|AlignEnd=9270|GE=plantain|Gloss=plantain|nWord=8|RX=[N]|TokenType=Root
 9	[		PUNCT	_	_	10	punct	_	AlignBegin=9270|AlignEnd=9795|GE=[[]|Gloss=[|nWord=9
 10	ʉn-		AUX	_	_	11	mod/m	_	AlignBegin=9795|AlignEnd=9970|GE=[MID]|Gloss=MID|nWord=10|RX=[V>V]|TokenType=DerAff
 11	kʉ-		AUX	_	_	12	mod/m	_	AlignBegin=9970|AlignEnd=10145|GE=[APPL1]|Gloss=APPL1|nWord=10|RX=[V>V]|TokenType=DerAff
@@ -56,7 +56,7 @@
 # text_en = first of all, one adds the pigeon peas [where it is going to be cooked].
 # text_phrase-gls-es = primero que todo le echamos el guandul [donde se va cocinar]
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=13820|AlignEnd=14278|nWord=1
-2	na	nan	X	_	_	4	conj:dicto	_	AlignBegin=14278|AlignEnd=14736|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
+2	na	nan	X	_	_	4	discourse	_	AlignBegin=14278|AlignEnd=14736|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=14736|AlignEnd=15194|nWord=3
 4	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	6	conj:dicto	_	AlignBegin=15194|AlignEnd=15652|GE=first|Gloss=first|nWord=4|RX=[ADV]|TokenType=Root
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=15652|AlignEnd=16110|nWord=5
@@ -267,7 +267,7 @@
 1	yów	yów	PRON	_	Case=Abs	6	subj	_	AlignBegin=51897|AlignEnd=52127|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
 2	=kʉchʉ		PART	_	_	1	mod	_	AlignBegin=52127|AlignEnd=52358|GE=[EMPH]|Gloss==EMPH|nWord=1|RX=[PRT]|TokenType=Clit
 3	(		PUNCT	_	_	4	punct	_	AlignBegin=52358|AlignEnd=52819|nWord=2
-4	du	du	X	_	_	6	conj:dicto	_	AlignBegin=52819|AlignEnd=53280|GE=good|Gloss=good|nWord=3|RX=[ADJ]|TokenType=Root
+4	du	du	X	_	_	6	discourse	_	AlignBegin=52819|AlignEnd=53280|GE=good|Gloss=good|nWord=3|RX=[ADJ]|TokenType=Root
 5	)		PUNCT	_	_	4	punct	_	AlignBegin=53280|AlignEnd=53741|nWord=4
 6	dun	dun	VERB	_	_	7	comp:aux/m	_	AlignBegin=53741|AlignEnd=53971|GE=dry|Gloss=dry|nWord=5|RX=[V]|TokenType=Root
 7	-akí		AUX	_	_	8	comp:aux	_	AlignBegin=53971|AlignEnd=54202|GE=[ANTERIORITY]|Gloss=ANTERIORITY|nWord=5|RX=[V:ANY]|TokenType=InflAff
@@ -405,7 +405,7 @@
 # text_en = after we light the fire,
 # text_phrase-gls-es = después de que prendemos el fogón
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=76355|AlignEnd=76666|nWord=1
-2	na	nan	X	_	_	4	conj:dicto	_	AlignBegin=76666|AlignEnd=76977|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
+2	na	nan	X	_	_	4	discourse	_	AlignBegin=76666|AlignEnd=76977|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=76977|AlignEnd=77288|nWord=3
 4	gey	gey	NOUN	_	_	5	comp:obj	_	AlignBegin=77288|AlignEnd=77599|GE=fire|Gloss=fire|nWord=4|RX=[N]|TokenType=Root
 5	wí	wí	VERB	_	_	7	comp:aux	_	AlignBegin=77599|AlignEnd=77910|GE=make|Gloss=make|nWord=5|RX=[VT]|TokenType=Root
@@ -474,7 +474,7 @@
 7	ingʉ	ingʉ	ADJ	_	_	8	mod	_	AlignBegin=91715|AlignEnd=92127|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
 8	sirú	sirú	ADJ	_	_	12	comp:pred	_	AlignBegin=92127|AlignEnd=92539|GE=soft|Gloss=soft|nWord=7|RX=[ADJ]|TokenType=Root
 9	(		PUNCT	_	_	10	punct	_	AlignBegin=92539|AlignEnd=92951|nWord=8
-10	a'zʉnʉn	a'zʉnʉn	X	_	_	12	conj:dicto	_	AlignBegin=92951|AlignEnd=93363|nWord=9|TokenType=Root
+10	a'zʉnʉn	a'zʉnʉn	X	_	_	12	discourse	_	AlignBegin=92951|AlignEnd=93363|nWord=9|TokenType=Root
 11	)		PUNCT	_	_	10	punct	_	AlignBegin=93363|AlignEnd=93775|nWord=10
 12	a'zʉn	a'zʉn	VERB	_	_	14	comp:aux	_	AlignBegin=93775|AlignEnd=93981|GE=feel|Gloss=feel|nWord=11|RX=[V]|TokenType=Root
 13	=ki		PART	_	_	12	mod	_	AlignBegin=93981|AlignEnd=94187|GE=[CNTR]|Gloss==CNTR|nWord=11|RX=[PRT]|TokenType=Clit

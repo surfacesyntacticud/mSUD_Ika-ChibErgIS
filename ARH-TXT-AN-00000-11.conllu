@@ -147,21 +147,21 @@
 # text_en = and we say that they were going to stay [lit. exist] here
 # text_phrase-gls-es = Y dijeron que iban a permanecer (vivir) por aquí
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=29833|AlignEnd=30298|nWord=1
-2	eh	eh	INTJ	_	_	_	_	_	AlignBegin=30298|AlignEnd=30763|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
+2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=30298|AlignEnd=30763|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=30763|AlignEnd=31228|nWord=3
-4	aw	aw	AUX	_	_	_	_	_	AlignBegin=31228|AlignEnd=31383|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
+4	aw	aw	AUX	_	_	16	cc	_	AlignBegin=31228|AlignEnd=31383|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 5	-i	_	PART	_	_	4	cc	_	AlignBegin=31383|AlignEnd=31538|GE=while|Gloss=and|nWord=4|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=31538|AlignEnd=31693|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
-7	emʉnke'	emʉnke'	ADV	_	_	_	_	_	AlignBegin=31693|AlignEnd=32158|GE=here|Gloss=here|nWord=5|RX=[ADV]|TokenType=Root
+7	emʉnke'	emʉnke'	ADV	_	_	11	mod:lmod	_	AlignBegin=31693|AlignEnd=32158|GE=here|Gloss=here|nWord=5|RX=[ADV]|TokenType=Root
 8	(	_	PUNCT	_	_	9	punct	_	AlignBegin=32158|AlignEnd=32623|nWord=6
-9	ke	ke	X	_	_	11	conj:dicto	_	AlignBegin=32623|AlignEnd=33088|nWord=7|TokenType=Root
+9	ke	ke	X	_	_	11	discourse	_	AlignBegin=32623|AlignEnd=33088|nWord=7|TokenType=Root
 10	)	_	PUNCT	_	_	9	punct	_	AlignBegin=33088|AlignEnd=33553|nWord=8
 11	ku	ku	VERB	_	_	12	comp:aux/m	_	AlignBegin=33553|AlignEnd=33785|GE=exist|Gloss=exist|nWord=9|RX=[V]|TokenType=Root
 12	-ngwa	_	AUX	_	_	13	comp:aux	_	AlignBegin=33785|AlignEnd=34018|GE=[FUT]|Gloss=FUT|nWord=9|RX=[VERB]|TokenType=InflAff
-13	ni	nan	AUX	_	_	_	_	_	AlignBegin=34018|AlignEnd=34250|GE=[DECL]|Gloss=DECL|nWord=10|RX=[AUX]|TokenType=Root
+13	ni	nan	AUX	_	_	16	udep	_	AlignBegin=34018|AlignEnd=34250|GE=[DECL]|Gloss=DECL|nWord=10|RX=[AUX]|TokenType=Root
 14	=gwi	_	ADV	_	_	13	mod	_	AlignBegin=34250|AlignEnd=34483|GE=also|Gloss==also|nWord=10|RX=[ADV]|TokenType=Clit
 15	a-	_	PRON	_	_	16	subj/m	_	AlignBegin=34483|AlignEnd=34638|GE=[1PL].[S]|Gloss=1PL.S|nWord=11|RX=[V:ANY]|TokenType=InflAff
-16	gwas	gwas	VERB	_	_	_	_	_	AlignBegin=34638|AlignEnd=34793|GE=inform|Gloss=inform|nWord=11|RX=[V]|TokenType=Root
+16	gwas	gwas	VERB	_	_	0	root	_	AlignBegin=34638|AlignEnd=34793|GE=inform|Gloss=inform|nWord=11|RX=[V]|TokenType=Root
 17	-i	_	PART	_	_	16	cc	_	AlignBegin=34793|AlignEnd=34948|GE=while|Gloss=and|nWord=11|RX=[VERB]|TokenType=InflAff
 
 # sent_id = AN11_08-08
@@ -271,7 +271,7 @@
 5	ɉwa	ɉwa	NOUN	_	_	6	comp:obj	_	AlignBegin=50177|AlignEnd=50637|GE=blood|Gloss=blood|nWord=2|RX=[N]|TokenType=Root
 6	kʉsa	kʉsa	VERB	_	_	_	_	_	AlignBegin=50637|AlignEnd=51097|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root
 7	(	_	PUNCT	_	_	8	punct	_	AlignBegin=51097|AlignEnd=51557|nWord=4
-8	mow	mow	X	_	_	10	conj:dicto	_	AlignBegin=51557|AlignEnd=52017|nWord=5|TokenType=Root
+8	mow	mow	X	_	_	10	discourse	_	AlignBegin=51557|AlignEnd=52017|nWord=5|TokenType=Root
 9	)	_	PUNCT	_	_	8	punct	_	AlignBegin=52017|AlignEnd=52477|nWord=6
 10	ɉwa	ɉwa	NOUN	_	_	11	comp:obj	_	AlignBegin=52477|AlignEnd=52937|GE=blood|Gloss=blood|nWord=7|RX=[N]|TokenType=Root
 11	kʉsa	kʉsa	VERB	_	_	12	comp:aux	_	AlignBegin=52937|AlignEnd=53397|GE=put|Gloss=put|nWord=8|RX=[VT]|TokenType=Root
@@ -586,11 +586,11 @@
 # text = ey uwa'me' , eymiri , eymi kawi kwakumana ni zʉn awga nʉndi
 # text_en = That's why they say, this, this is [how] one was born.
 # text_phrase-gls-es = Por eso, este, fue así el comienzo/el origen [lit. como nació], dicen eso
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=103413|AlignEnd=103647|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
+1	ey	ey	PART	_	_	2	mod	_	AlignBegin=103413|AlignEnd=103647|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	uw	aw	AUX	_	_	3	comp:aux/m	_	AlignBegin=103647|AlignEnd=103764|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
-3	-a'me'	_	AUX	_	_	_	_	_	AlignBegin=103764|AlignEnd=103881|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]|TokenType=InflAff
+3	-a'me'	_	AUX	_	_	15	mod	_	AlignBegin=103764|AlignEnd=103881|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]|TokenType=InflAff
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=103881|AlignEnd=104115|nWord=3
-5	eymi	eymi	PRON	_	_	8	conj:dicto	_	AlignBegin=104115|AlignEnd=104232|GE=that|Gloss=that|nWord=4|RX=[DET]|TokenType=Root
+5	eymi	eymi	PRON	_	_	9	dislocated	_	AlignBegin=104115|AlignEnd=104232|GE=that|Gloss=that|nWord=4|RX=[DET]|TokenType=Root
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=104232|AlignEnd=104349|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=104349|AlignEnd=104583|nWord=5
 8	eymi	eymi	PRON	_	_	9	comp:pred	_	AlignBegin=104583|AlignEnd=104817|GE=that|Gloss=that|nWord=6|RX=[DET]|TokenType=Root
