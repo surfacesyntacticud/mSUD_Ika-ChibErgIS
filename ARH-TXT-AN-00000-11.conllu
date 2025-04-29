@@ -136,7 +136,7 @@
 16	ya	ya	VERB	_	_	17	comp:aux	_	AlignBegin=28938|AlignEnd=29117|GE=say|Gloss=say|nWord=11|RX=[VI]|TokenType=Root
 17	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=29117|AlignEnd=29296|GE=cop|Gloss=cop|nWord=12|RX=[COP]|TokenType=Root
 18	=di	_	PART	_	_	17	mod	_	AlignBegin=29296|AlignEnd=29475|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]|TokenType=Clit
-19	.	_	PUNCT	_	_	17	punct	_	AlignBegin=29475|AlignEnd=29833|Gloss=.|nWord=13
+19	.	_	PUNCT	_	_	_	_	_	AlignBegin=29475|AlignEnd=29833|Gloss=.|nWord=13
 
 # sent_id = AN11_07-07
 # speaker_id = @SP11
@@ -211,7 +211,7 @@
 # text_phrase-gls-es = entonces empezó poquito a poquito a los hijos
 1	una	una	PART	_	_	6	discourse	_	AlignBegin=41833|AlignEnd=42128|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=42128|AlignEnd=42423|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=42423|AlignEnd=43013|nWord=2
+3	,	_	PUNCT	_	_	_	_	_	AlignBegin=42423|AlignEnd=43013|nWord=2
 4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=43013|AlignEnd=43603|GE=child|Gloss=child|nWord=3|RX=[N]|TokenType=Root
 5	ingiti	ingiti	ADV	_	_	6	mod	_	AlignBegin=43603|AlignEnd=44193|GE=little|Gloss=little|nWord=4|RX=[ADV]|TokenType=Root
 6	kʉnari	kʉnari	VERB	_	_	7	comp:aux	_	Gloss=have|TokenType=Root
@@ -457,7 +457,7 @@
 # text_phrase-gls-es = Por eso, (por eso), hermanos [de mujeres] o hermanos [de hombres] el que es mayor, a sus hermanitos, cualquier cosa (inüki neki) se hace de esta forma
 1	uw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=78494|AlignEnd=78689|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
 2	-a'me'	_	AUX	_	_	25	discourse	_	AlignBegin=78689|AlignEnd=78884|GE=[CAUSE]|Gloss=CAUSE|nWord=1|RX=[VERB]|TokenType=InflAff
-3	gu	gun	AUX	_	_	2	unk	_	AlignBegin=78884|AlignEnd=79274|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]|TokenType=InflAff
+3	gu	gun	PART	_	_	2	unk	_	AlignBegin=78884|AlignEnd=79274|GE=[GUN]|Gloss=GUN|nWord=2|RX=[V:ANY]|TokenType=InflAff
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=79274|AlignEnd=79664|nWord=3
 5	ey	ey	PART	_	_	6	mod	_	AlignBegin=79664|AlignEnd=80054|GE=so|Gloss=so|nWord=4|RX=[PRT]|TokenType=Root
 6	ʉndi	ʉndi	ADV	_	_	8	discourse	_	AlignBegin=80054|AlignEnd=80444|GE=so|Gloss=so|nWord=5|RX=[ADV]|TokenType=Root
@@ -563,15 +563,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 100517, 103413
 # morphemic_text = eymi kaw -i inʉ =ki aw -kwa nʉn =di y -eyka
-# text = eymi kawi inʉki awkwa nʉndi yeyka
+# text = eymi kaw -i inʉ =ki aw -kwa nʉn =di y -eyka
 # text_en = He says that one must do things this way.
 # text_phrase-gls-es = el que dice que vamos a hacer esta cosa de esta manera
 1	eymi	eymi	PRON	_	_	3	comp:pred	_	AlignBegin=100517|AlignEnd=101000|GE=that|Gloss=that|nWord=1|RX=[DET]|TokenType=Root
 2	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=101000|AlignEnd=101242|GE=seem|Gloss=seem|nWord=2|RX=[AUX]|TokenType=Root
 3	-i	_	PART	_	_	2	cc	_	AlignBegin=101242|AlignEnd=101483|GE=while|Gloss=and|nWord=2|RX=[VERB]|TokenType=InflAff
-4	inʉ	inʉ	PRON	_	_	6	comp:obj	_	AlignBegin=101483|AlignEnd=101725|GE=what|Gloss=what|nWord=3|RX=[INTERROG]|TokenType=Root
+4	inʉ	inʉ	PRON	_	Case=Abs	6	comp:obj	_	AlignBegin=101483|AlignEnd=101725|GE=what|Gloss=what|nWord=3|RX=[INTERROG]|TokenType=Root
 5	=ki	_	PART	_	_	4	mod	_	AlignBegin=101725|AlignEnd=101966|GE=[CNTR]|Gloss==CNTR|nWord=3|RX=[PRT]|TokenType=Clit
-6	aw	aw	AUX	_	_	7	comp:aux/m	_	AlignBegin=101966|AlignEnd=102208|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
+6	aw	aw	VERB	_	_	7	comp:aux/m	_	AlignBegin=101966|AlignEnd=102208|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 7	-kwa	_	AUX	_	_	8	comp:aux	_	AlignBegin=102208|AlignEnd=102449|GE=[OBL]|Gloss=OBL|nWord=4|RX=[VERB]|TokenType=InflAff
 8	nʉn	nan	AUX	_	_	10	comp:obj	_	AlignBegin=102449|AlignEnd=102691|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
 9	=di	_	PART	_	_	8	mod	_	AlignBegin=102691|AlignEnd=102932|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
@@ -649,11 +649,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 112250, 114931
 # morphemic_text = kwa ikʉ neki ikwi neki zwi -ngwa
-# text = kwa ikʉ neki ikwi neki zwingwa
+# text = kwa ikʉ neki ikwi neki zwi -ngwa
 # text_en = or they will defend [their] people
 # text_phrase-gls-es = o defendiendo su gente/pueblo
 1	kwa	kwa	CCONJ	_	_	4	cc	_	AlignBegin=112250|AlignEnd=112697|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
-2	ikʉ	ikʉ	NOUN	_	_	4	comp:obj	_	AlignBegin=112697|AlignEnd=113144|GE=people|Gloss=people|nWord=2|RX=[N]|TokenType=Root
+2	ikʉ	ikʉ	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=112697|AlignEnd=113144|GE=people|Gloss=people|nWord=2|RX=[N]|TokenType=Root
 3	neki	neki	PART	_	_	2	mod:emph	_	AlignBegin=113144|AlignEnd=113591|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]|TokenType=Root
 4	ikwi	ikwi	VERB	_	_	6	comp:aux	_	AlignBegin=113591|AlignEnd=114038|GE=defend|Gloss=defend|nWord=4|RX=[V]|TokenType=Root
 5	neki	neki	PART	_	_	4	mod:emph	_	AlignBegin=114038|AlignEnd=114485|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]|TokenType=Root
