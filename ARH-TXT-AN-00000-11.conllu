@@ -122,7 +122,7 @@
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=25537|AlignEnd=25895|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]|TokenType=Root
 3	zʉ'ʉn	zan	PART	_	_	2	mod:emph	_	AlignBegin=25895|AlignEnd=26253|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
 4	(	_	PUNCT	_	_	5	punct	_	AlignBegin=26253|AlignEnd=26611|nWord=4
-5	ih	ih	INTJ	_	_	7	mod	_	AlignBegin=26611|AlignEnd=26969|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
+5	ih	ih	X	_	_	7	discourse	_	AlignBegin=26611|AlignEnd=26969|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
 6	)	_	PUNCT	_	_	5	punct	_	AlignBegin=26969|AlignEnd=27327|nWord=6
 7	ikʉ	ikʉ	PROPN	_	Animacy=Anim|Case=Abs|Definite=Def	9	comp:obj	_	AlignBegin=27327|AlignEnd=27506|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]|TokenType=Root|Topic=yes
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=27506|AlignEnd=27685|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
@@ -143,13 +143,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 29833, 34948
 # morphemic_text = ( eh ) aw -i =ri emʉnke' ( ke ) ku -ngwa ni =gwi a- gwas -i
-# text = ( eh ) awiri emʉnke' ( ke ) kungwa nigwi agwasi
+# text = ( eh ) aw -i =ri emʉnke' ( ke ) ku -ngwa ni =gwi a- gwas -i
 # text_en = and we say that they were going to stay [lit. exist] here
 # text_phrase-gls-es = Y dijeron que iban a permanecer (vivir) por aquí
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=29833|AlignEnd=30298|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=30298|AlignEnd=30763|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=30763|AlignEnd=31228|nWord=3
-4	aw	aw	AUX	_	_	16	cc	_	AlignBegin=31228|AlignEnd=31383|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
+4	aw	aw	AUX	_	DerPos=PART	16	cc	_	AlignBegin=31228|AlignEnd=31383|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 5	-i	_	PART	_	_	4	cc	_	AlignBegin=31383|AlignEnd=31538|GE=while|Gloss=and|nWord=4|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=31538|AlignEnd=31693|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 7	emʉnke'	emʉnke'	ADV	_	_	11	mod:lmod	_	AlignBegin=31693|AlignEnd=32158|GE=here|Gloss=here|nWord=5|RX=[ADV]|TokenType=Root
@@ -325,7 +325,7 @@
 10	kankwamʉ	kankwamʉ	PROPN	_	_	7	conj:coord	_	AlignBegin=60398|AlignEnd=60802|GE=[Kankuamo].[people]|Gloss=Kankuamo.people|nWord=9|RX=[NPROP]|TokenType=Root
 11	i-	_	AUX	_	_	12	mod/m	_	AlignBegin=60802|AlignEnd=61004|GE=[APPL2]|Gloss=APPL2|nWord=10|RX=[V>V]|TokenType=DerAff
 12	'chʉnha	'chʉnha	VERB	_	_	13	comp:aux	_	AlignBegin=61004|AlignEnd=61206|GE=arrive|Gloss=arrive|nWord=10|RX=[V]|TokenType=Root
-13	a	a	AUX	_	_	14	comp:aux/m	_	AlignBegin=61206|AlignEnd=61408|GE=aux|Gloss=aux|nWord=11|RX=[AUX]|TokenType=Root
+13	a	aw	AUX	_	_	14	comp:aux/m	_	AlignBegin=61206|AlignEnd=61408|GE=aux|Gloss=aux|nWord=11|RX=[AUX]|TokenType=Root
 14	-u'	_	AUX	_	_	15	comp:aux	_	AlignBegin=61408|AlignEnd=61610|GE=[NEG]|Gloss=NEG|nWord=11|RX=[VERB]|TokenType=InflAff
 15	nʉn	nan	AUX	_	_	16	comp:aux/m	_	AlignBegin=61610|AlignEnd=61810|GE=cop|Gloss=cop|nWord=12|RX=[COP]|TokenType=Root
 16	-no	_	AUX	_	_	0	root	_	AlignBegin=61810|AlignEnd=62010|GE=[Q]|Gloss=Q|nWord=12|RX=[VERB]|TokenType=InflAff

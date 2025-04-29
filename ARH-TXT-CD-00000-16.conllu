@@ -186,14 +186,15 @@
 # text_phrase-gls-es = índigenas, aunque de todas formas son indígenas
 1	ikʉ	ikʉ	NOUN	_	_	7	conj:dicto	_	AlignBegin=41972|AlignEnd=42507|GE=indigenous.person|Gloss=indigenous.person|nWord=1|RX=[N]|TokenType=Root
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=42507|AlignEnd=43042|nWord=2
-3	nan	nan	AUX	_	_	_	_	_	AlignBegin=43042|AlignEnd=43310|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
+3	nan	nan	AUX	_	_	5	comp:aux	_	AlignBegin=43042|AlignEnd=43310|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
 4	-i	_	PART	_	_	3	cc	_	AlignBegin=43310|AlignEnd=43577|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 5	nʉ	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=43577|AlignEnd=43845|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]|TokenType=Root
 6	-ngwa	_	AUX	_	_	_	_	_	AlignBegin=43845|AlignEnd=44112|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]|TokenType=InflAff
 7	ikʉ	ikʉ	NOUN	_	_	9	comp:pred	_	AlignBegin=44112|AlignEnd=44647|GE=indigenous.person|Gloss=indigenous.person|nWord=5|RX=[N]|TokenType=Root
 8	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=44647|AlignEnd=45182|GE=so|Gloss=so|nWord=6|RX=[ADV]|TokenType=Root
-9	nanʉn	nanʉn	AUX	_	_	_	_	_	AlignBegin=45182|AlignEnd=45450|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
-10	=ki	_	PART	_	_	9	mod	_	AlignBegin=45450|AlignEnd=45718|GE=[CNTR]|Gloss==CNTR|nWord=7|RX=[POST]|TokenType=Clit
+9	nan	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=45182|AlignEnd=45450|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
+10	-ʉn	-ʉn	AUX	_	_	_	_	_	Gloss=IPFV|TokenType=InflAff
+11	=ki	_	PART	_	_	9	mod	_	AlignBegin=45450|AlignEnd=45718|GE=[CNTR]|Gloss==CNTR|nWord=7|RX=[POST]|TokenType=Clit
 
 # sent_id = CD16_010-010
 # speaker_id = @SP16
@@ -389,16 +390,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-16.WAV/WAV/ARH-TXT-CD-00000-16.WAV
 # sent_timecode = 84450, 85920
 # morphemic_text = iɉuna =ri ga'kʉnamʉ gun- nanʉn -o ,
-# text = iɉunari ga'kʉnamʉ gunnanʉno ,
+# text = iɉuna =ri ga'kʉnamʉ gun- na nan -o ,
 # text_en = one things is the language, right?
 # text_phrase-gls-es = una cosa es el idioma, verdad?
 1	iɉuna	iɉuna	NOUN	_	_	5	subj	_	AlignBegin=84450|AlignEnd=84634|GE=type|Gloss=type|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=84634|AlignEnd=84818|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ga'kʉnamʉ	ga'kʉnamʉ	NOUN	_	_	5	comp:pred	_	AlignBegin=84818|AlignEnd=85186|GE=language|Gloss=language|nWord=2|RX=[N]|TokenType=Root
-4	gun-	_	AUX	_	_	5	comp:aux	_	AlignBegin=85186|AlignEnd=85309|GE=[GU]|Gloss=GU|nWord=3|RX=[V:ANY]|TokenType=InflAff
-5	nanʉn	nanʉn	AUX	_	_	6	comp:aux/m	_	AlignBegin=85309|AlignEnd=85432|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
-6	-o	_	AUX	_	_	0	root	_	AlignBegin=85432|AlignEnd=85554|GE=[Q]|Gloss=Q|nWord=3|RX=[VERB]|TokenType=InflAff
-7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=85554|AlignEnd=85920|nWord=4
+4	gun-	_	AUX	_	_	5	mod/m	_	AlignBegin=85186|AlignEnd=85309|GE=[GU]|Gloss=GU|nWord=3|RX=[V:ANY]|TokenType=InflAff
+5	na	nan	AUX	_	_	6	comp:aux	_	AlignBegin=85309|AlignEnd=85432|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
+6	nan	nan	AUX	_	_	7	comp:aux/m	_	AlignBegin=85309|AlignEnd=85432|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
+7	-o	_	AUX	_	_	0	root	_	AlignBegin=85432|AlignEnd=85554|GE=[Q]|Gloss=Q|nWord=3|RX=[VERB]|TokenType=InflAff
+8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=85554|AlignEnd=85920|nWord=4
 
 # sent_id = CD16_019-019
 # speaker_id = @SP16

@@ -983,11 +983,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-15.WAV/WAV/ARH-TXT-PE-00000-15.WAV
 # sent_timecode = 177477, 181150
 # morphemic_text = " bemay =ri ( ey =gwi ) mi- kawa anʉ- kacho' nanʉn -no " a'zari =ri .
-# text = " bemayri ( eygwi ) mikawa anʉkacho' nʉnno " a'zariri .
+# text = " bemay =ri ( ey =gwi ) mi- kawa anʉ- kacho' na nʉn -no " a'zari =ri .
 # text_en = He was wondering "Where were they going to get another one like it?"
 # text_phrase-gls-es = estaba pensando donde iban a conseguir otro igual
 # text_phrase-gls-tl = mikawa
-1	"		PUNCT	_	_	_	_	_	AlignBegin=177477|AlignEnd=177811|nWord=1
+1	"		PUNCT	_	_	2	punct	_	AlignBegin=177477|AlignEnd=177811|nWord=1
 2	bemay	bemay	PRON	_	_	9	comp:obl	_	AlignBegin=177811|AlignEnd=177978|GE=where|Gloss=where|nWord=2|RX=[INTERROG]|TokenType=Root
 3	=ri		PART	_	_	2	mod	_	AlignBegin=177978|AlignEnd=178145|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=178145|AlignEnd=178479|nWord=3
@@ -998,12 +998,13 @@
 9	kawa	kaw	VERB	_	_	_	_	_	AlignBegin=179314|AlignEnd=179481|GE=seem|Gloss=seem|nWord=6|RX=[V]|TokenType=Root
 10	anʉ-		AUX	_	_	11	mod/m	_	AlignBegin=179481|AlignEnd=179648|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]|TokenType=DerAff
 11	kacho'	kacho'	VERB	_	_	12	comp:aux	_	AlignBegin=179648|AlignEnd=179815|GE=put.upright|Gloss=put.upright|nWord=7|RX=[V]|TokenType=Root
-12	nanʉn	nanʉn	AUX	_	_	13	comp:aux/m	_	AlignBegin=179815|AlignEnd=179982|GE=cop|Gloss=cop|nWord=8|RX=[COP]|TokenType=Root
-13	-no		AUX	_	_	_	_	_	AlignBegin=179982|AlignEnd=180149|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]|TokenType=InflAff
-14	"		PUNCT	_	_	13	punct	_	AlignBegin=180149|AlignEnd=180483|nWord=9
-15	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=180483|AlignEnd=180650|GE=think|Gloss=think|nWord=10|RX=[V]|TokenType=Root
-16	=ri		PART	_	_	15	mod	_	AlignBegin=180650|AlignEnd=180817|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
-17	.		PUNCT	_	_	16	punct	_	AlignBegin=180817|AlignEnd=181150|Gloss=.|nWord=11
+12	na	nan	AUX	_	_	13	comp:aux	_	AlignBegin=179815|AlignEnd=179982|GE=cop|Gloss=cop|nWord=8|RX=[COP]|TokenType=Root
+13	nʉn	nan	AUX	_	_	14	comp:aux/m	_	Gloss=IPFV|TokenType=Root
+14	-no		AUX	_	_	16	comp:obj	_	AlignBegin=179982|AlignEnd=180149|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]|TokenType=InflAff
+15	"		PUNCT	_	_	14	punct	_	AlignBegin=180149|AlignEnd=180483|nWord=9
+16	a'zari	a'zari	VERB	_	_	0	root	_	AlignBegin=180483|AlignEnd=180650|GE=think|Gloss=think|nWord=10|RX=[V]|TokenType=Root
+17	=ri		PART	_	_	16	mod	_	AlignBegin=180650|AlignEnd=180817|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
+18	.		PUNCT	_	_	17	punct	_	AlignBegin=180817|AlignEnd=181150|Gloss=.|nWord=11
 
 # sent_id = PE15_48-48
 # speaker_id = @SP15

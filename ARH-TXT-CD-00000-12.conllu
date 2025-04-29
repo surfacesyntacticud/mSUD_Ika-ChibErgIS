@@ -144,7 +144,7 @@
 1	misak	misak	PROPN	_	Case=Abs	8	subj	_	AlignBegin=26800|AlignEnd=26977|GE=[Misak (people)]|Gloss=Misak (people)|nWord=1|RX=[NPROP]|TokenType=Root
 2	=ɉina		PART	_	_	1	mod	_	AlignBegin=26977|AlignEnd=27154|GE=many[animated]|Gloss==many[animated]|nWord=1|RX=[PRT]|TokenType=Clit
 3	=ri		PART	_	_	2	mod	_	AlignBegin=27154|AlignEnd=27331|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	eymay	eymay	ADV	_	_	_	_	_	AlignBegin=27331|AlignEnd=27597|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
+4	eymay	eymay	ADV	_	_	8	mod:lmod	_	AlignBegin=27331|AlignEnd=27597|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
 5	=gwi		ADV	_	_	4	mod	_	AlignBegin=27597|AlignEnd=27862|GE=also|Gloss==also|nWord=2|RX=[ADV]|TokenType=Clit
 6	zʉ'ʉn	zan	PART	_	_	5	mod:emph	_	AlignBegin=27862|AlignEnd=28393|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
 7	win-		PRON	_	_	8	subj/m	_	AlignBegin=28393|AlignEnd=28570|GE=[3PL].[S]|Gloss=3PL.S|nWord=4|RX=[VERB]|TokenType=InflAff
@@ -154,9 +154,10 @@
 11	-ʉn		AUX	_	_	12	comp:aux	_	AlignBegin=29190|AlignEnd=29455|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
 12	nug	nik	AUX	_	_	13	comp:aux/m	_	AlignBegin=29455|AlignEnd=29721|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
 13	-a		AUX	_	_	14	comp:aux	_	AlignBegin=29721|AlignEnd=29986|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]|TokenType=InflAff
-14	nanʉn	nanʉn	AUX	_	_	_	_	_	AlignBegin=29986|AlignEnd=30252|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
-15	=di		PART	_	_	14	mod	_	AlignBegin=30252|AlignEnd=30517|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
-16	.		PUNCT	_	_	15	punct	_	AlignBegin=30517|AlignEnd=31050|Gloss=.|nWord=8
+14	nan	nan	AUX	_	_	15	comp:aux/m	_	AlignBegin=29986|AlignEnd=30252|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
+15	-ʉn	-ʉn	AUX	_	_	0	root	_	Gloss=IPFV|TokenType=InflAff
+16	=di		PART	_	_	14	mod	_	AlignBegin=30252|AlignEnd=30517|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
+17	.		PUNCT	_	_	16	punct	_	AlignBegin=30517|AlignEnd=31050|Gloss=.|nWord=8
 
 # sent_id = CD12_008-008
 # speaker_id = @SP12
@@ -344,7 +345,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-12.WAV/WAV/ARH-TXT-CD-00000-12.WAV
 # sent_timecode = 66477, 73470
 # morphemic_text = eri , mʉná arunh -ey zʉn a'za nanʉn -no , a- gʉmʉsinʉ kwʉ -ngwa =gwi , a- chuka kwʉ -ngwa =gwi , a- miru kwʉ -ngwa =gwi n -e' =ri .
-# text = eri , mʉná arunhey zʉn a'za nʉnno , agʉmʉsinʉ kwʉngwagwi , achuka kwʉngwagwi , amiru kwʉngwagwi ne'ri .
+# text = eri , mʉná arunh -ey zʉn a'za na nʉn -no , a- gʉmʉsinʉ kwʉ -ngwa =gwi , a- chuka kwʉ -ngwa =gwi , a- miru kwʉ -ngwa =gwi n -e' =ri .
 # text_en = One thinks in the long term [lit. one thinks while analysing a while], right?, about the children who also will live, the grandchildren who also will live, the great-grandchildren who also will live.
 # text_phrase-gls-es = Pensamos a largo plazo, en los hijos que van a vivir, los nietos que van a vivir, los bisnietos que van a vivir
 1	eri	eri	INTJ	_	_	_	_	_	AlignBegin=66477|AlignEnd=66865|GE=[HES]|Gloss=HES|nWord=1|RX=[INTERJ]|TokenType=Root
@@ -354,30 +355,31 @@
 5	-ey		PART	_	_	_	_	_	AlignBegin=67835|AlignEnd=68029|GE=while|Gloss=and|nWord=4|RX=[VERB]|TokenType=InflAff
 6	zʉn	zan	PART	_	_	5	mod:emph	_	AlignBegin=68029|AlignEnd=68417|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
 7	a'za	a'za	VERB	_	_	8	comp:aux	_	AlignBegin=68417|AlignEnd=68805|GE=think|Gloss=think|nWord=6|RX=[V]|TokenType=Root
-8	nanʉn	nanʉn	AUX	_	_	9	comp:aux/m	_	AlignBegin=68805|AlignEnd=68999|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
-9	-no		AUX	_	_	_	_	_	AlignBegin=68999|AlignEnd=69193|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]|TokenType=InflAff
-10	,		PUNCT	_	_	9	punct	_	AlignBegin=69193|AlignEnd=69581|nWord=8
-11	a-		PRON	_	_	12	udep:poss/m	_	AlignBegin=69581|AlignEnd=69775|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=9|RX=[POSS]|TokenType=InflAff
-12	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	13	subj	_	AlignBegin=69775|AlignEnd=69969|GE=child|Gloss=child|nWord=9|RX=[N]|TokenType=Root
-13	kwʉ	kwʉ	VERB	_	_	14	comp:aux/m	_	AlignBegin=69969|AlignEnd=70098|GE=live|Gloss=live|nWord=10|RX=[V]|TokenType=Root
-14	-ngwa		AUX	_	_	_	_	_	AlignBegin=70098|AlignEnd=70227|GE=[FUT]|Gloss=FUT|nWord=10|RX=[VERB]|TokenType=InflAff
-15	=gwi		ADV	_	_	14	mod	_	AlignBegin=70227|AlignEnd=70357|GE=also|Gloss==also|nWord=10|RX=[ADV]|TokenType=Clit
-16	,		PUNCT	_	_	15	punct	_	AlignBegin=70357|AlignEnd=70745|nWord=11
-17	a-		PRON	_	_	18	udep:poss/m	_	AlignBegin=70745|AlignEnd=70939|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=12|RX=[POSS]|TokenType=InflAff
-18	chuka	chuka	NOUN	_	Case=Abs	19	subj	_	AlignBegin=70939|AlignEnd=71133|GE=grandchild|Gloss=grandchild|nWord=12|RX=[N]|TokenType=Root
-19	kwʉ	kwʉ	VERB	_	_	20	comp:aux/m	_	AlignBegin=71133|AlignEnd=71262|GE=live|Gloss=live|nWord=13|RX=[V]|TokenType=Root
-20	-ngwa		AUX	_	_	_	_	_	AlignBegin=71262|AlignEnd=71391|GE=[FUT]|Gloss=FUT|nWord=13|RX=[VERB]|TokenType=InflAff
-21	=gwi		ADV	_	_	20	mod	_	AlignBegin=71391|AlignEnd=71521|GE=also|Gloss==also|nWord=13|RX=[ADV]|TokenType=Clit
-22	,		PUNCT	_	_	21	punct	_	AlignBegin=71521|AlignEnd=71909|nWord=14
-23	a-		PRON	_	_	24	udep:poss/m	_	AlignBegin=71909|AlignEnd=72103|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=15|RX=[POSS]|TokenType=InflAff
-24	miru	miru	NOUN	_	Case=Abs	25	subj	_	AlignBegin=72103|AlignEnd=72297|GE=greatgrandchild|Gloss=greatgrandchild|nWord=15|RX=[N]|TokenType=Root
-25	kwʉ	kwʉ	VERB	_	_	26	comp:aux/m	_	AlignBegin=72297|AlignEnd=72426|GE=live|Gloss=live|nWord=16|RX=[V]|TokenType=Root
-26	-ngwa		AUX	_	_	_	_	_	AlignBegin=72426|AlignEnd=72555|GE=[FUT]|Gloss=FUT|nWord=16|RX=[VERB]|TokenType=InflAff
-27	=gwi		ADV	_	_	26	mod	_	AlignBegin=72555|AlignEnd=72685|GE=also|Gloss==also|nWord=16|RX=[ADV]|TokenType=Clit
-28	n	nan	AUX	_	_	29	comp:aux/m	_	AlignBegin=72685|AlignEnd=72814|GE=aux|Gloss=aux|nWord=17|RX=[AUX]|TokenType=Root
-29	-e'		AUX	_	_	_	_	_	AlignBegin=72814|AlignEnd=72943|GE=then|Gloss=then|nWord=17|RX=[VERB]|TokenType=InflAff
-30	=ri		PART	_	_	29	mod	_	AlignBegin=72943|AlignEnd=73073|GE=[TOP]|Gloss==TOP|nWord=17|RX=[PRT]|TokenType=Clit
-31	.		PUNCT	_	_	30	punct	_	AlignBegin=73073|AlignEnd=73470|Gloss=.|nWord=18
+8	na	nan	AUX	_	_	9	comp:aux	_	AlignBegin=68805|AlignEnd=68999|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
+9	nʉn	nan	AUX	_	_	10	comp:aux/m	_	Gloss=COP|TokenType=Root
+10	-no		AUX	_	_	_	_	_	AlignBegin=68999|AlignEnd=69193|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]|TokenType=InflAff
+11	,		PUNCT	_	_	10	punct	_	AlignBegin=69193|AlignEnd=69581|nWord=8
+12	a-		PRON	_	_	13	udep:poss/m	_	AlignBegin=69581|AlignEnd=69775|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=9|RX=[POSS]|TokenType=InflAff
+13	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	14	subj	_	AlignBegin=69775|AlignEnd=69969|GE=child|Gloss=child|nWord=9|RX=[N]|TokenType=Root
+14	kwʉ	kwʉ	VERB	_	_	15	comp:aux/m	_	AlignBegin=69969|AlignEnd=70098|GE=live|Gloss=live|nWord=10|RX=[V]|TokenType=Root
+15	-ngwa		AUX	_	_	_	_	_	AlignBegin=70098|AlignEnd=70227|GE=[FUT]|Gloss=FUT|nWord=10|RX=[VERB]|TokenType=InflAff
+16	=gwi		ADV	_	_	15	mod	_	AlignBegin=70227|AlignEnd=70357|GE=also|Gloss==also|nWord=10|RX=[ADV]|TokenType=Clit
+17	,		PUNCT	_	_	16	punct	_	AlignBegin=70357|AlignEnd=70745|nWord=11
+18	a-		PRON	_	_	19	udep:poss/m	_	AlignBegin=70745|AlignEnd=70939|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=12|RX=[POSS]|TokenType=InflAff
+19	chuka	chuka	NOUN	_	Case=Abs	20	subj	_	AlignBegin=70939|AlignEnd=71133|GE=grandchild|Gloss=grandchild|nWord=12|RX=[N]|TokenType=Root
+20	kwʉ	kwʉ	VERB	_	_	21	comp:aux/m	_	AlignBegin=71133|AlignEnd=71262|GE=live|Gloss=live|nWord=13|RX=[V]|TokenType=Root
+21	-ngwa		AUX	_	_	_	_	_	AlignBegin=71262|AlignEnd=71391|GE=[FUT]|Gloss=FUT|nWord=13|RX=[VERB]|TokenType=InflAff
+22	=gwi		ADV	_	_	21	mod	_	AlignBegin=71391|AlignEnd=71521|GE=also|Gloss==also|nWord=13|RX=[ADV]|TokenType=Clit
+23	,		PUNCT	_	_	22	punct	_	AlignBegin=71521|AlignEnd=71909|nWord=14
+24	a-		PRON	_	_	25	udep:poss/m	_	AlignBegin=71909|AlignEnd=72103|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=15|RX=[POSS]|TokenType=InflAff
+25	miru	miru	NOUN	_	Case=Abs	26	subj	_	AlignBegin=72103|AlignEnd=72297|GE=greatgrandchild|Gloss=greatgrandchild|nWord=15|RX=[N]|TokenType=Root
+26	kwʉ	kwʉ	VERB	_	_	27	comp:aux/m	_	AlignBegin=72297|AlignEnd=72426|GE=live|Gloss=live|nWord=16|RX=[V]|TokenType=Root
+27	-ngwa		AUX	_	_	_	_	_	AlignBegin=72426|AlignEnd=72555|GE=[FUT]|Gloss=FUT|nWord=16|RX=[VERB]|TokenType=InflAff
+28	=gwi		ADV	_	_	27	mod	_	AlignBegin=72555|AlignEnd=72685|GE=also|Gloss==also|nWord=16|RX=[ADV]|TokenType=Clit
+29	n	nan	AUX	_	_	30	comp:aux/m	_	AlignBegin=72685|AlignEnd=72814|GE=aux|Gloss=aux|nWord=17|RX=[AUX]|TokenType=Root
+30	-e'		AUX	_	_	_	_	_	AlignBegin=72814|AlignEnd=72943|GE=then|Gloss=then|nWord=17|RX=[VERB]|TokenType=InflAff
+31	=ri		PART	_	_	30	mod	_	AlignBegin=72943|AlignEnd=73073|GE=[TOP]|Gloss==TOP|nWord=17|RX=[PRT]|TokenType=Clit
+32	.		PUNCT	_	_	31	punct	_	AlignBegin=73073|AlignEnd=73470|Gloss=.|nWord=18
 
 # sent_id = CD12_015-015
 # text = ka'a zʉn eri linea negrasikʉta pari emayri a'ɉa gunti nʉ nʉn .
@@ -602,9 +604,10 @@
 5	zʉn	zan	PART	_	_	4	mod:emph	_	AlignBegin=109606|AlignEnd=109915|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
 6	n	nan	AUX	_	_	7	comp:aux/m	_	AlignBegin=109915|AlignEnd=110069|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 7	-eyka		AUX	_	_	8	comp:pred	_	AlignBegin=110069|AlignEnd=110224|GE=[EYKA]|Gloss=EYKA|nWord=4|RX=[V:ANY]|TokenType=InflAff
-8	nanʉn	nanʉn	AUX	_	_	0	root	_	AlignBegin=110224|AlignEnd=110378|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
-9	=di		PART	_	_	8	mod	_	AlignBegin=110378|AlignEnd=110533|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
-10	.		PUNCT	_	_	9	punct	_	AlignBegin=110533|AlignEnd=110840|Gloss=.|nWord=6
+8	nan	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=110224|AlignEnd=110378|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
+9	-ʉn	-ʉn	AUX	_	_	0	root	_	Gloss=IPFV|TokenType=InflAff
+10	=di		PART	_	_	8	mod	_	AlignBegin=110378|AlignEnd=110533|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
+11	.		PUNCT	_	_	10	punct	_	AlignBegin=110533|AlignEnd=110840|Gloss=.|nWord=6
 
 # sent_id = CD12_024-024
 # text = ( eh ) ʉya bʉkʉnankeri , eri , ikʉ na' neyka , diwʉn neyka , kwasʉ kwasʉ nʉngwi uye'ki .
@@ -722,10 +725,10 @@
 # text_phrase-gls-tl = Although we didn't have money before |
 1	u	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=123454|AlignEnd=123542|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=123542|AlignEnd=123630|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]|TokenType=InflAff
-3	-e'		AUX	_	_	_	_	_	AlignBegin=123630|AlignEnd=123718|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
+3	-e'		AUX	_	_	10	discourse	_	AlignBegin=123630|AlignEnd=123718|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 4	=ri		PART	_	_	3	mod	_	AlignBegin=123718|AlignEnd=123805|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 5	,		PUNCT	_	_	4	punct	_	AlignBegin=123805|AlignEnd=124156|nWord=2
-6	sanusi	sanusi	ADV	_	_	_	_	_	AlignBegin=124156|AlignEnd=124332|GE=before|Gloss=before|nWord=3|RX=[ADV]|TokenType=Root
+6	sanusi	sanusi	ADV	_	_	10	mod	_	AlignBegin=124156|AlignEnd=124332|GE=before|Gloss=before|nWord=3|RX=[ADV]|TokenType=Root
 7	=ri		PART	_	_	6	mod	_	AlignBegin=124332|AlignEnd=124507|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 8	ɉwi	ɉwi	NOUN	_	_	10	comp:obj	_	AlignBegin=124507|AlignEnd=124858|GE=money|Gloss=money|nWord=4|RX=[N]|TokenType=Root
 9	niwi-		PRON	_	_	10	comp:obj/m	_	AlignBegin=124858|AlignEnd=124975|GE=[1PL].[O]|Gloss=1PL.O|nWord=5|RX=[V:ANY]|TokenType=InflAff
@@ -827,15 +830,16 @@
 2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=yes|AlignBegin=143543|AlignEnd=143676|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=yes
 3	=ri		PART	_	_	2	mod	_	AlignBegin=143676|AlignEnd=143809|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	ka'a	ka'a	NOUN	_	Animacy=Inan|Case=Abs|Definite=Spec	5	comp:obj	_	AlignBegin=143809|AlignEnd=144208|GE=land|Gloss=land|nWord=2|RX=[N]|TokenType=Root|Topic=no
-5	sari	sari	VERB	_	_	_	_	_	AlignBegin=144208|AlignEnd=144607|ArgumentOrder=SOV|GE=buy|Gloss=buy|nWord=3|RX=[V]|TokenType=Root|Transitivity=transitive
+5	sari	sari	VERB	_	_	7	comp:aux	_	AlignBegin=144208|AlignEnd=144607|ArgumentOrder=SOV|GE=buy|Gloss=buy|nWord=3|RX=[V]|TokenType=Root|Transitivity=transitive
 6	zʉ'ʉn	zan	PART	_	_	5	mod:emph	_	AlignBegin=144607|AlignEnd=145006|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
-7	zwey	zoy	VERB	_	_	8	comp:aux/m	_	AlignBegin=145006|AlignEnd=145139|GE=go|Gloss=go|nWord=5|RX=[VI]|TokenType=Root
+7	zwey	zoy	AUX	_	_	8	comp:aux/m	_	AlignBegin=145006|AlignEnd=145139|GE=go|Gloss=go|nWord=5|RX=[VI]|TokenType=Root
 8	-n		AUX	_	_	9	comp:aux	_	AlignBegin=145139|AlignEnd=145272|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
 9	pana	pana	AUX	_	_	11	comp:aux	_	AlignBegin=145272|AlignEnd=145405|GE=[INCH]|Gloss=INCH|nWord=5|RX=[PRT]|TokenType=Root|wordform==pana
 10	gu-		AUX	_	_	11	mod/m	_	AlignBegin=145405|AlignEnd=145538|GE=[GU]|Gloss=GU|nWord=6|RX=[V:ANY]|TokenType=InflAff
-11	nanʉn	nanʉn	AUX	_	_	0	root	_	AlignBegin=145538|AlignEnd=145671|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
-12	=di		PART	_	_	11	mod	_	AlignBegin=145671|AlignEnd=145804|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
-13	.		PUNCT	_	_	12	punct	_	AlignBegin=145804|AlignEnd=146200|Gloss=.|nWord=7
+11	nan	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=145538|AlignEnd=145671|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
+12	-ʉn	-ʉn	AUX	_	_	0	root	_	Gloss=IPFV|TokenType=InflAff
+13	=di		PART	_	_	11	mod	_	AlignBegin=145671|AlignEnd=145804|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=145804|AlignEnd=146200|Gloss=.|nWord=7
 
 # sent_id = CD12_032-032
 # speaker_id = @SP12
@@ -1258,7 +1262,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-12.WAV/WAV/ARH-TXT-CD-00000-12.WAV
 # sent_timecode = 204659, 208613
 # morphemic_text = ikʉnha' =se' =ri awʉn neki win- zan -u' nanʉn u -na ni .
-# text = ikʉnha'se'ri awʉn neki winzanu' nʉn una ni .
+# text = ikʉnha' =se' =ri awʉn neki win- zan -u' nan -ʉn u -na ni .
 # text_en = they did not care about it. [lit. They did not think big about it] | aun ellos no se perocuparon de comprara la tierra,
 1	ikʉnha'	ikʉnha'	PRON	_	_	2	comp	_	AlignBegin=204659|AlignEnd=204824|GE=[3PL]|Gloss=3PL|nWord=1|RX=[PRO]|TokenType=Root
 2	=se'		ADP	_	_	7	subj	_	AlignBegin=204824|AlignEnd=204989|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|TokenType=Clit
@@ -1268,11 +1272,12 @@
 6	win-		PRON	_	_	7	subj/m	_	AlignBegin=206141|AlignEnd=206306|GE=[3PL].[S]|Gloss=3PL.S|nWord=4|RX=[VERB]|TokenType=InflAff
 7	zan	zan	VERB	_	_	8	comp:aux/m	_	AlignBegin=206306|AlignEnd=206471|GE=think|Gloss=think|nWord=4|RX=[V]|TokenType=Root
 8	-u'		AUX	_	_	9	comp:aux	_	AlignBegin=206471|AlignEnd=206635|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]|TokenType=InflAff
-9	nanʉn	nanʉn	AUX	_	_	10	comp:aux	_	AlignBegin=206635|AlignEnd=207129|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
-10	u	aw	AUX	_	_	11	comp:aux/m	_	AlignBegin=207129|AlignEnd=207376|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
-11	-na		AUX	_	_	12	comp:aux	_	AlignBegin=207376|AlignEnd=207623|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
-12	ni	nan	AUX	_	_	0	root	_	AlignBegin=207623|AlignEnd=208117|GE=[DECL]|Gloss=DECL|nWord=7|RX=[AUX]|TokenType=Root
-13	.		PUNCT	_	_	12	punct	_	AlignBegin=208117|AlignEnd=208613|Gloss=.|nWord=8
+9	nan	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=206635|AlignEnd=207129|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
+10	-ʉn	-ʉn	AUX	_	_	11	comp:aux	_	AlignBegin=206635|AlignEnd=207129|GE=IPFV|Gloss=IPFV|nWord=5|RX=[COP]|TokenType=InflAff
+11	u	aw	AUX	_	_	12	comp:aux/m	_	AlignBegin=207129|AlignEnd=207376|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
+12	-na		AUX	_	_	13	comp:aux	_	AlignBegin=207376|AlignEnd=207623|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
+13	ni	nan	AUX	_	_	0	root	_	AlignBegin=207623|AlignEnd=208117|GE=[DECL]|Gloss=DECL|nWord=7|RX=[AUX]|TokenType=Root
+14	.		PUNCT	_	_	13	punct	_	AlignBegin=208117|AlignEnd=208613|Gloss=.|nWord=8
 
 # sent_id = CD12_052-052
 # speaker_id = @SP12
@@ -1483,7 +1488,7 @@
 14	nʉn	nan	AUX	_	_	9	conj:coord	_	AlignBegin=243109|AlignEnd=243499|GE=cop|Gloss=cop|nWord=10|RX=[COP]|TokenType=Root
 15	,		PUNCT	_	_	14	punct	_	AlignBegin=243499|AlignEnd=243889|nWord=11
 16	aw	aw	AUX	_	_	17	comp:aux/m	_	AlignBegin=243889|AlignEnd=244084|GE=aux|Gloss=aux|nWord=12|RX=[AUX]|TokenType=Root
-17	-ya		AUX	_	_	_	_	_	AlignBegin=244084|AlignEnd=244279|GE=[NONEGO]|Gloss=NONEGO|nWord=12|RX=[V:ANY]|TokenType=InflAff
+17	-ya		AUX	_	_	18	comp:aux	_	AlignBegin=244084|AlignEnd=244279|GE=[NONEGO]|Gloss=NONEGO|nWord=12|RX=[V:ANY]|TokenType=InflAff
 18	ni	nan	PART	_	_	_	_	_	AlignBegin=244279|AlignEnd=244669|GE=certainty|Gloss=certainty|nWord=13|RX=[PRT]|TokenType=Root
 19	.		PUNCT	_	_	18	punct	_	AlignBegin=244669|AlignEnd=245060|Gloss=.|nWord=14
 
@@ -2151,9 +2156,10 @@
 6	kʉnʉna	kʉnʉna	VERB	_	_	7	comp:aux	_	AlignBegin=346871|AlignEnd=347306|GE=have|Gloss=have|nWord=4|RX=[VT]|TokenType=Root
 7	ni	nan	AUX	_	_	9	comp:pred	_	AlignBegin=347306|AlignEnd=347741|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]|TokenType=Root
 8	gu-		AUX	_	_	9	comp:aux	_	AlignBegin=347741|AlignEnd=347886|GE=[GU]|Gloss=GU|nWord=6|RX=[V:ANY]|TokenType=InflAff
-9	nanʉn	nanʉn	AUX	_	_	0	root	_	AlignBegin=347886|AlignEnd=348031|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
-10	=gwi		ADV	_	_	9	mod	_	AlignBegin=348031|AlignEnd=348176|GE=also|Gloss==also|nWord=6|RX=[ADV]|TokenType=Clit
-11	.		PUNCT	_	_	10	punct	_	AlignBegin=348176|AlignEnd=348608|Gloss=.|nWord=7
+9	nan	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=347886|AlignEnd=348031|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
+10	-ʉn	-ʉn	AUX	_	_	0	root	_	Gloss=IPFV|TokenType=InflAff
+11	=gwi		ADV	_	_	9	mod	_	AlignBegin=348031|AlignEnd=348176|GE=also|Gloss==also|nWord=6|RX=[ADV]|TokenType=Clit
+12	.		PUNCT	_	_	11	punct	_	AlignBegin=348176|AlignEnd=348608|Gloss=.|nWord=7
 
 # sent_id = CD12_090-090
 # speaker_id = @SP12
