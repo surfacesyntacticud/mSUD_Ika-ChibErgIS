@@ -3,14 +3,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 1970, 3750
 # morphemic_text = andi eymi chʉ zʉn nan -i
-# text = andi eymi chʉ zʉn nari
+# text = andi eymi chʉ zʉn nan -i
 # text_en = Well, what one sees here
 # text_phrase-gls-es = Bueno, lo que se ve aquí
-1	andi	andi	ADV	_	_	_	_	_	AlignBegin=1970|AlignEnd=2326|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
-2	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=2326|AlignEnd=2682|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
+# tags = IN PROGRESS
+1	andi	andi	ADV	_	_	5	discourse	_	AlignBegin=1970|AlignEnd=2326|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
+2	eymi	eymi	ADV	_	_	5	mod	_	AlignBegin=2326|AlignEnd=2682|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
 3	chʉ	chʉ	VERB	_	_	4	comp:aux	_	AlignBegin=2682|AlignEnd=3038|GE=see|Gloss=see|nWord=3|RX=[VT]|TokenType=Root
 4	zʉn	zan	AUX	_	_	5	comp:aux	_	AlignBegin=3038|AlignEnd=3394|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
-5	nan	nan	AUX	_	_	_	_	_	AlignBegin=3394|AlignEnd=3572|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
+5	nan	nan	AUX	_	_	0	root	_	AlignBegin=3394|AlignEnd=3572|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
 6	-i	_	PART	_	_	5	cc	_	AlignBegin=3572|AlignEnd=3750|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_02-02
@@ -18,9 +19,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 5450, 17637
 # morphemic_text = i'ngwi achʉna ( mhm ) ( ya ), yagʉ , ʉn- kʉ- tak -ʉn , pera ʉn- kʉ- tak -ʉn nus -i keywʉ
-# text = i'ngwi achʉna ( mhm ) ( ya ), yagʉ , ʉnkʉtakʉn , pera ʉnkʉtakʉn nusi keywʉ
+# text = i'ngwi achʉna ( mhm ) ( ya ), yagʉ , ʉn- kʉ- tak -ʉn , pera ʉn- kʉ- tak -ʉn nus -i keywʉ
 # text_en = an adult, well, is picking pears
 # text_phrase-gls-es = un adulto está recogiendo peras
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=5450|AlignEnd=6212|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	achʉna	achʉna	ADJ	_	Animacy=Anim|Case=Erg|Definite=Spec	19	subj	_	AgentShift=no|AlignBegin=6212|AlignEnd=6974|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]|TokenType=Root|Topic=no
 3	(	_	PUNCT	_	_	4	punct	_	AlignBegin=6974|AlignEnd=7736|nWord=3
@@ -33,15 +35,15 @@
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=12308|AlignEnd=13070|nWord=10
 11	ʉn-	_	AUX	_	_	12	mod/m	_	AlignBegin=13070|AlignEnd=13260|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]|TokenType=DerAff
 12	kʉ-	_	AUX	_	_	13	mod/m	_	AlignBegin=13260|AlignEnd=13450|GE=[APPL1]|Gloss=APPL1|nWord=11|RX=[V>V]|TokenType=DerAff
-13	tak	tak	VERB	_	_	14	comp:aux/m	_	AlignBegin=13450|AlignEnd=13640|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=11|RX=[V]|TokenType=Root|Transitivity=transitive
+13	tak	tak	VERB	_	_	14	comp:aux/m	_	AlignBegin=13450|AlignEnd=13640|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=11|RX=[V]|TokenType=Root|Transitivity=ditransitive
 14	-ʉn	_	AUX	_	_	19	conj:dicto	_	AlignBegin=13640|AlignEnd=13832|GE=[IPFV]|Gloss=IPFV|nWord=11|RX=[VERB]|TokenType=InflAff
 15	,	_	PUNCT	_	_	14	punct	_	AlignBegin=13832|AlignEnd=14594|nWord=12
-16	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	19	comp:obj	_	AlignBegin=14594|AlignEnd=15356|GE=pear|Gloss=pear|nWord=13|RX=[N]|TokenType=Root|Topic=no
+16	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Spec	19	comp:obj	_	AlignBegin=14594|AlignEnd=15356|GE=pear|Gloss=pear|nWord=13|RX=[N]|TokenType=Root|Topic=no
 17	ʉn-	_	AUX	_	_	18	mod/m	_	AlignBegin=15356|AlignEnd=15546|GE=[MID]|Gloss=MID|nWord=14|RX=[V>V]|TokenType=DerAff
 18	kʉ-	_	AUX	_	_	19	mod/m	_	AlignBegin=15546|AlignEnd=15736|GE=[APPL1]|Gloss=APPL1|nWord=14|RX=[V>V]|TokenType=DerAff
-19	tak	tak	VERB	_	_	20	comp:aux/m	_	AlignBegin=15736|AlignEnd=15926|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=14|RX=[V]|TokenType=Root|Transitivity=transitive
+19	tak	tak	VERB	_	_	20	comp:aux/m	_	AlignBegin=15736|AlignEnd=15926|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=14|RX=[V]|TokenType=Root|Transitivity=ditransitive
 20	-ʉn	_	AUX	_	_	21	comp:aux	_	AlignBegin=15926|AlignEnd=16118|GE=[IPFV]|Gloss=IPFV|nWord=14|RX=[VERB]|TokenType=InflAff
-21	nus	nuk	AUX	_	_	_	_	_	AlignBegin=16118|AlignEnd=16499|GE=aux|Gloss=aux|nWord=15|RX=[COP]|TokenType=Root
+21	nus	nuk	AUX	_	_	0	root	_	AlignBegin=16118|AlignEnd=16499|GE=aux|Gloss=aux|nWord=15|RX=[COP]|TokenType=Root
 22	-i	_	PART	_	_	21	cc	_	AlignBegin=16499|AlignEnd=16880|GE=while|Gloss=and|nWord=15|RX=[VERB]|TokenType=InflAff
 23	keywʉ	keywʉ	PART	_	_	22	discourse	_	AlignBegin=16880|AlignEnd=17637|GE=soon|Gloss=soon|nWord=16|RX=[PRT]|TokenType=Root
 
@@ -56,7 +58,7 @@
 1	nug	nik	AUX	_	_	2	comp:aux/m	_	AlignBegin=18330|AlignEnd=18619|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
 2	-e'	_	AUX	_	_	8	discourse	_	AlignBegin=18619|AlignEnd=18908|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=18908|AlignEnd=19196|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	ma'keywa	ma'keywa	NUM	_	_	8	comp:obj	_	AlignBegin=19196|AlignEnd=20062|GE=four|Gloss=four|nWord=2|RX=[NUM]|TokenType=Root
+4	ma'keywa	ma'keywa	NUM	_	Case=Abs	8	comp:obj	_	AlignBegin=19196|AlignEnd=20062|GE=four|Gloss=four|nWord=2|RX=[NUM]|TokenType=Root
 5	asewa	asewa	NUM	_	_	4	mod	_	AlignBegin=20062|AlignEnd=20928|GE=five|Gloss=five|nWord=3|RX=[NUM]|TokenType=Root
 6	ʉn-	_	AUX	_	_	7	mod/m	_	AlignBegin=20928|AlignEnd=21216|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 7	kʉ-	_	AUX	_	_	8	mod/m	_	AlignBegin=21216|AlignEnd=21504|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
@@ -67,16 +69,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 21793, 24258
 # morphemic_text = ( nas ) ʉn- mi'ri nas -i =ri
-# text = ( nas ) ʉnmi'ri nasiri
+# text = ( nas ) ʉn- mi'ri nas -i =ri
 # text_en = and he suddenly turned back
 # text_phrase-gls-es = y se regresó de repente
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=21793|AlignEnd=22286|nWord=1
-2	nas	nas	VERB	_	_	_	_	_	AlignBegin=22286|AlignEnd=22779|GE=come|Gloss=come|nWord=2|RX=[V]|TokenType=Root
+2	nas	nas	VERB	_	_	6	conj:dicto	_	AlignBegin=22286|AlignEnd=22779|GE=come|Gloss=come|nWord=2|RX=[V]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=22779|AlignEnd=23272|nWord=3
 4	ʉn-	_	AUX	_	_	5	mod/m	_	AlignBegin=23272|AlignEnd=23518|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
-5	mi'ri	zoy	VERB	_	_	_	_	_	AlignBegin=23518|AlignEnd=23765|GE=go|Gloss=go|nWord=4|RX=[V]|TokenType=Root
+5	mi'ri	zoy	VERB	_	_	6	compound:svc	_	AlignBegin=23518|AlignEnd=23765|GE=go|Gloss=go|nWord=4|RX=[V]|TokenType=Root
 6	nas	nas	VERB	_	_	7	comp:aux/m	_	AlignBegin=23765|AlignEnd=23929|GE=come|Gloss=come|nWord=5|RX=[V]|TokenType=Root
-7	-i	_	PART	_	_	_	_	_	AlignBegin=23929|AlignEnd=24093|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
+7	-i	_	PART	_	_	0	root	_	AlignBegin=23929|AlignEnd=24093|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=24093|AlignEnd=24258|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_05-05
@@ -84,32 +87,34 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 24258, 27068
 # morphemic_text = yagʉ =se' kʉ'ku =se' ʉn- ka'si
-# text = yagʉse' kʉ'kuse' ʉnka'si
+# text = yagʉ =se' kʉ'ku =se' ʉn- ka'si
 # text_en = and threw them into the, well, into the basket
 # text_phrase-gls-es = y echándole en la canasta
+# tags = IN PROGRESS
 1	yagʉ	yagʉ	INTJ	_	_	2	comp	_	AlignBegin=24258|AlignEnd=24726|GE=well|Gloss=well|nWord=1|RX=[INTERJ]|TokenType=Root
 2	=se'	_	ADP	_	_	3	discourse	_	AlignBegin=24726|AlignEnd=25195|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
 3	kʉ'ku	kʉ'ku	NOUN	_	_	4	comp	_	AlignBegin=25195|AlignEnd=25663|GE=basket|Gloss=basket|nWord=2|RX=[N]|TokenType=Root
 4	=se'	_	ADP	_	_	6	mod:lmod	_	AlignBegin=25663|AlignEnd=26132|GE=[LOC]|Gloss==LOC|nWord=2|RX=[POST]|TokenType=Clit
 5	ʉn-	_	AUX	_	_	6	mod/m	_	AlignBegin=26132|AlignEnd=26600|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
-6	ka'si	ka'si	VERB	_	_	_	_	_	AlignBegin=26600|AlignEnd=27068|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
+6	ka'si	ka'si	VERB	_	_	0	root	_	AlignBegin=26600|AlignEnd=27068|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
 
 # sent_id = PE21_06-06
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 27068, 31350
 # morphemic_text = máykʉnʉ kʉ'ku ki- cho' nan -i ʉn- ka'si =ri
-# text = máykʉnʉ kʉ'ku kicho' nari ʉnka'siri
+# text = máykʉnʉ kʉ'ku ki- cho' nan -i ʉn- ka'si =ri
 # text_en = He had put three baskets, he was putting [the pears in them]
 # text_phrase-gls-es = Tenía puesto tres canastas donde estaba echando
+# tags = IN PROGRESS
 1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	mod:num	_	AlignBegin=27068|AlignEnd=27924|GE=three|Gloss=three|nWord=1|RX=[NUM]|TokenType=Root
-2	kʉ'ku	kʉ'ku	NOUN	_	_	4	comp:obj	_	AlignBegin=27924|AlignEnd=28780|GE=basket|Gloss=basket|nWord=2|RX=[N]|TokenType=Root
+2	kʉ'ku	kʉ'ku	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=27924|AlignEnd=28780|GE=basket|Gloss=basket|nWord=2|RX=[N]|TokenType=Root
 3	ki-	_	AUX	_	_	4	mod/m	_	AlignBegin=28780|AlignEnd=29208|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]|TokenType=DerAff
 4	cho'	cho'	VERB	_	_	5	comp:aux	_	AlignBegin=29208|AlignEnd=29636|GE=stand|Gloss=stand|nWord=3|RX=[V]|TokenType=Root
-5	nan	nan	AUX	_	_	_	_	_	AlignBegin=29636|AlignEnd=30064|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]|TokenType=Root
+5	nan	nan	AUX	_	_	8	conj	_	AlignBegin=29636|AlignEnd=30064|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]|TokenType=Root
 6	-i	_	PART	_	_	5	cc	_	AlignBegin=30064|AlignEnd=30492|GE=while|Gloss=and|nWord=4|RX=[VERB]|TokenType=InflAff
 7	ʉn-	_	AUX	_	_	8	mod/m	_	AlignBegin=30492|AlignEnd=30778|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
-8	ka'si	ka'si	VERB	_	_	_	_	_	AlignBegin=30778|AlignEnd=31064|GE=put|Gloss=put|nWord=5|RX=[V]|TokenType=Root
+8	ka'si	ka'si	VERB	_	_	0	root	_	AlignBegin=30778|AlignEnd=31064|GE=put|Gloss=put|nWord=5|RX=[V]|TokenType=Root
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=31064|AlignEnd=31350|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_07-07
@@ -117,35 +122,37 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 31910, 34172
 # morphemic_text = biukʉnʉ cho' nis -i ʉn- ka'si , n -e' =ri
-# text = biukʉnʉ cho' nisi ʉnka'si , ne'ri
+# text = biukʉnʉ cho' nis -i ʉn- ka'si , n -e' =ri
 # text_en = He put [the pears into the basket] while kneeling, well
 # text_phrase-gls-es = y estaba echando con la rodilla puesta en el suelo [arrodillado], bueno
-1	biukʉnʉ	biukʉnʉ	NOUN	_	_	2	comp:obj	_	AlignBegin=31910|AlignEnd=32287|GE=knee|Gloss=knee|nWord=1|RX=[N]|TokenType=Root
+# tags = IN PROGRESS
+1	biukʉnʉ	biukʉnʉ	NOUN	_	Case=Abs	2	comp:obl	_	AlignBegin=31910|AlignEnd=32287|GE=knee|Gloss=knee|nWord=1|RX=[N]|TokenType=Root
 2	cho'	cho'	VERB	_	_	3	comp:aux	_	AlignBegin=32287|AlignEnd=32664|GE=stand|Gloss=stand|nWord=2|RX=[V]|TokenType=Root
-3	nis	nik	AUX	_	_	_	_	_	AlignBegin=32664|AlignEnd=32852|GE=do|Gloss=do|nWord=3|RX=[AUX]|TokenType=Root
+3	nis	nik	AUX	_	_	6	conj	_	AlignBegin=32664|AlignEnd=32852|GE=do|Gloss=do|nWord=3|RX=[AUX]|TokenType=Root
 4	-i	_	PART	_	_	3	cc	_	AlignBegin=32852|AlignEnd=33041|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 5	ʉn-	_	AUX	_	_	6	mod/m	_	AlignBegin=33041|AlignEnd=33229|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
-6	ka'si	ka'si	VERB	_	_	_	_	_	AlignBegin=33229|AlignEnd=33418|GE=put|Gloss=put|nWord=4|RX=[V]|TokenType=Root
+6	ka'si	ka'si	VERB	_	_	0	root	_	AlignBegin=33229|AlignEnd=33418|GE=put|Gloss=put|nWord=4|RX=[V]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=33418|AlignEnd=33795|nWord=5
 8	n	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=33795|AlignEnd=33921|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
-9	-e'	_	AUX	_	_	_	_	_	AlignBegin=33921|AlignEnd=34047|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
+9	-e'	_	AUX	_	_	6	discourse	_	AlignBegin=33921|AlignEnd=34047|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=34047|AlignEnd=34172|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_08-08
-# text = i'ngwi kiwa'na uwe'ri
+# text = i'ngwi ki- wa' -na u -w -e' =ri
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 34172, 36380
 # morphemic_text = i'ngwi ki- wa' -na u -w -e' =ri
 # text_en = when he dropped one [pear]. [lit. when one fell for him]
 # text_phrase-gls-es = y cuando se le cayó una [pera]
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	Case=Abs	3	subj	_	AlignBegin=34172|AlignEnd=34908|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	ki-	_	AUX	_	_	3	mod/m	_	AlignBegin=34908|AlignEnd=35153|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]|TokenType=DerAff
 3	wa'	wa'	VERB	_	_	4	comp:aux/m	_	AlignBegin=35153|AlignEnd=35398|GE=fall|Gloss=fall|nWord=2|RX=[V]|TokenType=Root
 4	-na	_	AUX	_	_	5	comp:aux	_	AlignBegin=35398|AlignEnd=35644|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
 5	u	aw	AUX	_	_	6	comp:aux/m	_	AlignBegin=35644|AlignEnd=35828|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
 6	-w	_	AUX	_	_	7	comp:aux/m	_	AlignBegin=35828|AlignEnd=36012|GE=[EGO]|Gloss=EGO|nWord=3|RX=[VERB]|TokenType=InflAff
-7	-e'	_	AUX	_	_	_	_	_	AlignBegin=36012|AlignEnd=36196|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
+7	-e'	_	AUX	_	_	0	root	_	AlignBegin=36012|AlignEnd=36196|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=36196|AlignEnd=36380|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_09-09
@@ -153,12 +160,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 37260, 38879
 # morphemic_text = yow ʉn- ka'si =ri
-# text = yow ʉnka'siri
+# text = yow ʉn- ka'si =ri
 # text_en = he threw it all away
 # text_phrase-gls-es = se lo echó todo
-1	yow	yow	PRON	_	_	3	comp:obj	_	AlignBegin=37260|AlignEnd=38070|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
+# tags = IN PROGRESS
+1	yow	yow	PRON	_	Case=Abs	3	comp:obj	_	AlignBegin=37260|AlignEnd=38070|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
 2	ʉn-	_	AUX	_	_	3	mod/m	_	AlignBegin=38070|AlignEnd=38340|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
-3	ka'si	ka'si	VERB	_	_	_	_	_	AlignBegin=38340|AlignEnd=38610|GE=put|Gloss=put|nWord=2|RX=[V]|TokenType=Root
+3	ka'si	ka'si	VERB	_	_	0	root	_	AlignBegin=38340|AlignEnd=38610|GE=put|Gloss=put|nWord=2|RX=[V]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=38610|AlignEnd=38879|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_10-10
@@ -166,57 +174,61 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 38879, 40656
 # morphemic_text = i'ngwi ki- wa'na -na gus -i =ri
-# text = i'ngwi kiwa'nana gusiri
+# text = i'ngwi ki- wa'na -na gus -i =ri
 # text_en = and picked up one he had dropped
 # text_phrase-gls-es = y cogió una que se le había caído
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	Case=Abs	3	subj	_	AlignBegin=38879|AlignEnd=39471|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	ki-	_	AUX	_	_	3	mod/m	_	AlignBegin=39471|AlignEnd=39668|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]|TokenType=DerAff
 3	wa'na	wa'na	VERB	_	_	4	comp:aux/m	_	AlignBegin=39668|AlignEnd=39865|GE=fall|Gloss=fall|nWord=2|RX=[V]|TokenType=Root
-4	-na	_	AUX	_	_	5	comp:obj	_	AlignBegin=39865|AlignEnd=40063|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
+4	-na	_	AUX	_	Case=Abs	5	comp:obj	_	AlignBegin=39865|AlignEnd=40063|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
 5	gus	gus	VERB	_	_	6	comp:aux/m	_	AlignBegin=40063|AlignEnd=40261|GE=take|Gloss=take|nWord=3|RX=[VT]|TokenType=Root
-6	-i	_	PART	_	_	_	_	_	AlignBegin=40261|AlignEnd=40459|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
+6	-i	_	PART	_	_	0	root	_	AlignBegin=40261|AlignEnd=40459|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=40459|AlignEnd=40656|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_11-11
+# text = ga'na mʉkʉ kʉ- ɉa zi' kawa nʉn -na
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 40656, 43970
 # morphemic_text = ga'na mʉkʉ kʉ- ɉa zi' kawa nʉn -na
-# text = ga'na mʉkʉ kʉɉa zi' kawa nʉnna
-# text_en = in his throat he carried a red rag
+# text_en = on his neck he carried a rag, it was red
 # text_phrase-gls-es = y en la garganta cargaba un trapo rojo
+# tags = IN PROGRESS
 1	ga'na	ga'na	NOUN	_	_	4	comp:obl	_	AlignBegin=40656|AlignEnd=41208|GE=neck|Gloss=neck|nWord=1|RX=[N]|TokenType=Root
-2	mʉkʉ	mʉkʉ	NOUN	_	_	4	comp:obj	_	AlignBegin=41208|AlignEnd=41760|GE=cloth|Gloss=cloth|nWord=2|RX=[N]|TokenType=Root
+2	mʉkʉ	mʉkʉ	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=41208|AlignEnd=41760|GE=cloth|Gloss=cloth|nWord=2|RX=[N]|TokenType=Root
 3	kʉ-	_	AUX	_	_	4	mod/m	_	AlignBegin=41760|AlignEnd=42036|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
-4	ɉa	ɉa	VERB	_	_	_	_	_	AlignBegin=42036|AlignEnd=42312|GE=dress|Gloss=dress|nWord=3|RX=[V]|TokenType=Root
+4	ɉa	ɉa	VERB	_	_	0	root	_	AlignBegin=42036|AlignEnd=42312|GE=dress|Gloss=dress|nWord=3|RX=[V]|TokenType=Root
 5	zi'	zi'	ADJ	_	_	6	comp:pred@attr	_	AlignBegin=42312|AlignEnd=42864|GE=red|Gloss=red|nWord=4|RX=[ADJ]|TokenType=Root
 6	kawa	kaw	AUX	_	_	7	comp:aux	_	AlignBegin=42864|AlignEnd=43416|GE=seem|Gloss=seem|nWord=5|RX=[AUX]|TokenType=Root
 7	nʉn	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=43416|AlignEnd=43693|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
-8	-na	_	AUX	_	_	_	_	_	AlignBegin=43693|AlignEnd=43970|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
+8	-na	_	AUX	_	_	4	dislocated@relcl	_	AlignBegin=43693|AlignEnd=43970|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_12-12
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 44340, 47134
 # morphemic_text = ʉn- kʉ- kichiri
-# text = ʉnkʉkichiri
+# text = ʉn- kʉ- kichiri
 # text_en = He removed it
 # text_phrase-gls-es = se lo quitó
+# tags = IN PROGRESS
 1	ʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=44340|AlignEnd=45271|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
 2	kʉ-	_	AUX	_	_	3	mod/m	_	AlignBegin=45271|AlignEnd=46202|GE=[APPL1]|Gloss=APPL1|nWord=1|RX=[V>V]|TokenType=DerAff
-3	kichiri	kichiri	VERB	_	_	_	_	_	AlignBegin=46202|AlignEnd=47134|GE=remove|Gloss=remove|nWord=1|RX=[V]|TokenType=Root
+3	kichiri	kichiri	VERB	_	_	0	root	_	AlignBegin=46202|AlignEnd=47134|GE=remove|Gloss=remove|nWord=1|RX=[V]|TokenType=Root
 
 # sent_id = PE21_13-13
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 47134, 48268
 # morphemic_text = twi ekaw -e' =ri ,
-# text = twi ekawe'ri ,
+# text = twi ekaw -e' =ri ,
 # text_en = as it was dirty, |
 # text_phrase-gls-es = como estaba sucio
-1	twi	twi	ADJ	_	_	_	_	_	AlignBegin=47134|AlignEnd=47512|GE=black|Gloss=black|nWord=1|RX=[ADJ]|TokenType=Root
+# tags = IN PROGRESS
+1	twi	twi	ADJ	_	_	2	comp:pred	_	AlignBegin=47134|AlignEnd=47512|GE=black|Gloss=black|nWord=1|RX=[ADJ]|TokenType=Root
 2	ekaw	ekaw	AUX	_	_	3	comp:aux/m	_	AlignBegin=47512|AlignEnd=47638|GE=seem|Gloss=seem|nWord=2|RX=[AUX]|TokenType=Root
-3	-e'	_	AUX	_	_	_	_	_	AlignBegin=47638|AlignEnd=47764|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+3	-e'	_	AUX	_	_	0	root	_	AlignBegin=47638|AlignEnd=47764|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=47764|AlignEnd=47890|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=47890|AlignEnd=48268|nWord=3
 
@@ -225,15 +237,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 48268, 49671
 # morphemic_text = ʉya =sin ʉn- k- isʉsi aw -i
-# text = ʉyasin ʉnkisʉsi awi
+# text = ʉya =sin ʉn- k- isʉsi aw -i
 # text_en = he started to wipe it with the cloth
 # text_phrase-gls-es = empezó a limpiarla con el trapo
+# tags = IN PROGRESS
 1	ʉya	ʉya	PRON	_	_	2	comp	_	AlignBegin=48268|AlignEnd=48502|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root
 2	=sin	_	ADP	_	_	5	comp:obl	_	AlignBegin=48502|AlignEnd=48736|GE=with|Gloss==with|nWord=1|RX=[POST]|TokenType=Clit
 3	ʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=48736|AlignEnd=48892|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	k-	_	AUX	_	_	5	mod/m	_	AlignBegin=48892|AlignEnd=49048|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]|TokenType=DerAff
 5	isʉsi	isʉsi	VERB	_	_	6	comp:aux	_	AlignBegin=49048|AlignEnd=49204|GE=wipe|Gloss=wipe|nWord=2|RX=[V]|TokenType=Root
-6	aw	aw	AUX	_	_	_	_	_	AlignBegin=49204|AlignEnd=49438|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
+6	aw	aw	AUX	_	_	0	root	_	AlignBegin=49204|AlignEnd=49438|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
 7	-i	_	PART	_	_	6	cc	_	AlignBegin=49438|AlignEnd=49671|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_15-15
@@ -244,6 +257,7 @@
 # text = ʉnka'sa awi nʉngwa , eygwi
 # text_en = and he threw it [the pear] in back [into the basket].
 # text_phrase-gls-es = y se lo echó otra vez [la pera]
+# tags = IN PROGRESS
 1	ʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=49671|AlignEnd=49852|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
 2	ka's	ka's	VERB	_	_	3	comp:aux/m	_	AlignBegin=49852|AlignEnd=50033|GE=put|Gloss=put|nWord=1|RX=[V]|TokenType=Root
 3	-a	_	AUX	_	_	4	comp:aux	_	AlignBegin=50033|AlignEnd=50214|GE=[PFV]|Gloss=PFV|nWord=1|RX=[V:ANY]|TokenType=InflAff
@@ -263,17 +277,18 @@
 # text = eygwi , ga'na kʉchunkwa nari , eygwi anʉkʉɉa nisi
 # text_en = again, what was tied around his throat, he tied it back up again
 # text_phrase-gls-es = lo que estaba amarrado en la garganta, se lo amarró otra vez
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=52388|AlignEnd=52690|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
+# tags = IN PROGRESS
+1	ey	ey	PART	_	_	16	discourse	_	AlignBegin=52388|AlignEnd=52690|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	=gwi	_	ADV	_	_	1	mod	_	AlignBegin=52690|AlignEnd=52993|GE=also|Gloss==also|nWord=1|RX=[ADV]|TokenType=Clit
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=52993|AlignEnd=53598|nWord=2
-4	ga'na	ga'na	NOUN	_	_	6	comp:obj	_	AlignBegin=53598|AlignEnd=54203|GE=neck|Gloss=neck|nWord=3|RX=[N]|TokenType=Root
+4	ga'na	ga'na	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=53598|AlignEnd=54203|GE=neck|Gloss=neck|nWord=3|RX=[N]|TokenType=Root
 5	kʉ-	_	AUX	_	_	6	mod/m	_	AlignBegin=54203|AlignEnd=54405|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
 6	chunkw	chunkw	VERB	_	_	7	comp:aux/m	_	AlignBegin=54405|AlignEnd=54607|GE=dress|Gloss=dress|nWord=4|RX=[V]|TokenType=Root
 7	-a	_	AUX	_	_	8	comp:aux	_	AlignBegin=54607|AlignEnd=54808|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
-8	nan	nan	AUX	_	_	_	_	_	AlignBegin=54808|AlignEnd=55110|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
+8	nan	nan	AUX	_	_	15	subj	_	AlignBegin=54808|AlignEnd=55110|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
 9	-i	_	PART	_	_	8	cc	_	AlignBegin=55110|AlignEnd=55413|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=55413|AlignEnd=56018|nWord=6
-11	ey	ey	PART	_	_	_	_	_	AlignBegin=56018|AlignEnd=56320|GE=so|Gloss=so|nWord=7|RX=[PRT]|TokenType=Root
+11	ey	ey	PART	_	_	16	mod	_	AlignBegin=56018|AlignEnd=56320|GE=so|Gloss=so|nWord=7|RX=[PRT]|TokenType=Root
 12	=gwi	_	ADV	_	_	11	mod	_	AlignBegin=56320|AlignEnd=56623|GE=also|Gloss==also|nWord=7|RX=[ADV]|TokenType=Clit
 13	anʉ-	_	AUX	_	_	14	mod/m	_	AlignBegin=56623|AlignEnd=56825|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]|TokenType=DerAff
 14	kʉ-	_	AUX	_	_	15	mod/m	_	AlignBegin=56825|AlignEnd=57027|GE=[APPL1]|Gloss=APPL1|nWord=8|RX=[V>V]|TokenType=DerAff
@@ -289,6 +304,7 @@
 # text = ( r ) eygwi keywʉ takʉn wa'rekʉ icho'na uwe'ri
 # text_en = and climbed up again to pick.
 # text_phrase-gls-es = y se subió otra vez a recoger [en el árbol]
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=58283|AlignEnd=58688|nWord=1
 2	r	r	X	_	_	4	discourse	_	AlignBegin=58688|AlignEnd=59093|nWord=2|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=59093|AlignEnd=59498|nWord=3
@@ -297,7 +313,7 @@
 6	keywʉ	keywʉ	PART	_	_	5	discourse	_	AlignBegin=59903|AlignEnd=60308|GE=soon|Gloss=soon|nWord=5|RX=[PRT]|TokenType=Root
 7	tak	tak	VERB	_	_	8	comp:aux/m	_	AlignBegin=60308|AlignEnd=60510|GE=take|Gloss=take|nWord=6|RX=[V]|TokenType=Root
 8	-ʉn	_	AUX	_	_	_	_	_	AlignBegin=60510|AlignEnd=60713|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]|TokenType=InflAff
-9	wa'rekʉ	wa'rekʉ	ADV	_	_	_	_	_	AlignBegin=60713|AlignEnd=61118|GE=high|Gloss=high|nWord=7|RX=[ADV]|TokenType=Root
+9	wa'rekʉ	wa'rekʉ	ADV	_	_	10	compound	_	AlignBegin=60713|AlignEnd=61118|GE=high|Gloss=high|nWord=7|RX=[ADV]|TokenType=Root
 10	icho'	icho'	VERB	_	_	11	comp:aux/m	_	AlignBegin=61118|AlignEnd=61320|GE=go.up|Gloss=go.up|nWord=8|RX=[V]|TokenType=Root
 11	-na	_	AUX	_	_	12	comp:aux	_	AlignBegin=61320|AlignEnd=61523|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
 12	u	aw	AUX	_	_	13	comp:aux/m	_	AlignBegin=61523|AlignEnd=61623|GE=aux|Gloss=aux|nWord=9|RX=[AUX]|TokenType=Root
@@ -313,12 +329,13 @@
 # text = i'ngwi achʉna chiwako'ku agisa si kanisi nasiri , agisiri
 # text_en = an adult came pulling with a goat tied up with a ribbon, pulling it
 # text_phrase-gls-es = un adulto venía con un cabro amarrado con un laso
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=62530|AlignEnd=62989|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	achʉna	achʉna	ADJ	_	Animacy=Anim|Case=Erg|Definite=Spec	4	subj	_	AgentShift=yes|AlignBegin=62989|AlignEnd=63448|GE=adult|Gloss=adult|nWord=2|RX=[ADJ]|ShiftType=full|TokenType=Root|Topic=no
 3	chiwako'ku	chiwako'ku	NOUN	_	Animacy=Anim|Case=Abs|Definite=Spec	4	comp:obj	_	AlignBegin=63448|AlignEnd=63907|GE=goat|Gloss=goat|nWord=3|RX=[N]|TokenType=Root|Topic=no
 4	agis	agis	VERB	_	_	5	comp:aux/m	_	AlignBegin=63907|AlignEnd=64137|ArgumentOrder=SOV|GE=pull|Gloss=pull|nWord=4|RX=[V]|TokenType=Root|Transitivity=transitive
 5	-a	_	AUX	_	_	_	_	_	AlignBegin=64137|AlignEnd=64366|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
-6	si	si	NOUN	_	_	8	comp:obj	_	AlignBegin=64366|AlignEnd=64825|GE=ribbon|Gloss=ribbon|nWord=5|RX=[N]|TokenType=Root
+6	si	si	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=64366|AlignEnd=64825|GE=ribbon|Gloss=ribbon|nWord=5|RX=[N]|TokenType=Root
 7	k-	_	AUX	_	_	8	mod/m	_	AlignBegin=64825|AlignEnd=65055|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]|TokenType=DerAff
 8	anisi	anisi	VERB	_	_	_	_	_	AlignBegin=65055|AlignEnd=65284|ArgumentOrder=SOV|GE=have.put|Gloss=have.put|nWord=6|RX=[V]|TokenType=Root|Transitivity=transitive
 9	nas	nas	VERB	_	_	10	comp:aux/m	_	AlignBegin=65284|AlignEnd=65437|GE=come|Gloss=come|nWord=7|RX=[V]|TokenType=Root
@@ -337,6 +354,7 @@
 # text = kʉ'ku ki nuginta' , kʉzagi ( eh ) awi , zoya uwe'ri
 # text_en = where the basket was, he passed through there, and went away
 # text_phrase-gls-es = por donde estaba la canasta, pasó por allí, se fue
+# tags = IN PROGRESS
 1	kʉ'ku	kʉ'ku	NOUN	_	_	3	comp:pred	_	AlignBegin=66690|AlignEnd=67120|GE=basket|Gloss=basket|nWord=1|RX=[N]|TokenType=Root
 2	ki	ki	PART	_	_	1	mod	_	AlignBegin=67120|AlignEnd=67550|GE=[CNTR]|Gloss=CNTR|nWord=2|RX=[PRT]|TokenType=Root
 3	nug	nik	AUX	_	_	4	comp:aux/m	_	AlignBegin=67550|AlignEnd=67693|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
@@ -362,14 +380,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 72470, 75850
 # morphemic_text = ingeygwi gʉmʉsinʉ nak -ʉn nus -i =ri ,
-# text = ingeygwi gʉmʉsinʉ nakʉn nusiri ,
+# text = ingeygwi gʉmʉsinʉ nak -ʉn nus -i =ri ,
 # text_en = another child was coming
 # text_phrase-gls-es = venía otro ninio
+# tags = IN PROGRESS
 1	ingeygwi	ingeygwi	ADJ	_	_	2	mod	_	AlignBegin=72470|AlignEnd=73146|GE=other|Gloss=other|nWord=1|RX=[ADJ]|TokenType=Root
 2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	3	subj	_	AlignBegin=73146|AlignEnd=73822|GE=child|Gloss=child|nWord=2|RX=[N]|TokenType=Root
 3	nak	nak	VERB	_	_	4	comp:aux/m	_	AlignBegin=73822|AlignEnd=74160|GE=come|Gloss=come|nWord=3|RX=[V]|TokenType=Root
 4	-ʉn	_	AUX	_	_	5	comp:aux	_	AlignBegin=74160|AlignEnd=74498|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
-5	nus	nuk	AUX	_	_	_	_	_	AlignBegin=74498|AlignEnd=74723|GE=aux|Gloss=aux|nWord=4|RX=[COP]|TokenType=Root
+5	nus	nuk	AUX	_	_	0	root	_	AlignBegin=74498|AlignEnd=74723|GE=aux|Gloss=aux|nWord=4|RX=[COP]|TokenType=Root
 6	-i	_	PART	_	_	5	cc	_	AlignBegin=74723|AlignEnd=74948|GE=while|Gloss=and|nWord=4|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=74948|AlignEnd=75174|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=75174|AlignEnd=75850|nWord=5
@@ -382,12 +401,13 @@
 # text = yagʉ , siklase' isa nari nakʉn nusiri
 # text_en = well, this one was riding a bicycle.
 # text_phrase-gls-es = este, venía montado en una bisicleta
-1	yagʉ	yagʉ	INTJ	_	_	_	_	_	AlignBegin=75850|AlignEnd=76637|GE=well|Gloss=well|nWord=1|RX=[INTERJ]|TokenType=Root
+# tags = IN PROGRESS
+1	yagʉ	yagʉ	INTJ	_	_	10	discourse	_	AlignBegin=75850|AlignEnd=76637|GE=well|Gloss=well|nWord=1|RX=[INTERJ]|TokenType=Root
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=76637|AlignEnd=77424|nWord=2
 3	sikla	sikla	NOUN	_	_	4	comp	_	AlignBegin=77424|AlignEnd=77818|GE=bicycle|Gloss=bicycle|nWord=3|RX=[N]|TokenType=Root
 4	=se'	_	ADP	_	_	5	mod:lmod	_	AlignBegin=77818|AlignEnd=78211|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
 5	isa	isa	VERB	_	_	6	comp:aux	_	AlignBegin=78211|AlignEnd=78998|GE=put.up.on|Gloss=put.up.on|nWord=4|RX=[V]|TokenType=Root
-6	nan	nan	AUX	_	_	_	_	_	AlignBegin=78998|AlignEnd=79392|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
+6	nan	nan	AUX	_	_	8	compound:svc	_	AlignBegin=78998|AlignEnd=79392|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
 7	-i	_	PART	_	_	6	cc	_	AlignBegin=79392|AlignEnd=79785|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
 8	nak	nak	VERB	_	_	9	comp:aux/m	_	AlignBegin=79785|AlignEnd=80179|GE=come|Gloss=come|nWord=6|RX=[V]|TokenType=Root
 9	-ʉn	_	AUX	_	_	10	comp:aux	_	AlignBegin=80179|AlignEnd=80572|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]|TokenType=InflAff
@@ -400,17 +420,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 81358, 83896
 # morphemic_text = kʉchari =ri i'ngwi guk -a uw -a a'zari =ri
-# text = kʉchariri i'ngwi guka uwa a'zariri
+# text = kʉchari =ri i'ngwi guk -a uw -a a'zari =ri
 # text_en = He got off and thought about grabbing a [pear].
 # text_phrase-gls-es = se bajó y pensó agarrar una [pera]
-1	kʉchari	kʉchari	VERB	_	_	_	_	_	AlignBegin=81358|AlignEnd=81612|GE=go.down|Gloss=go.down|nWord=1|RX=[V]|TokenType=Root
+# tags = IN PROGRESS
+1	kʉchari	kʉchari	VERB	_	_	8	conj	_	AlignBegin=81358|AlignEnd=81612|GE=go.down|Gloss=go.down|nWord=1|RX=[V]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=81612|AlignEnd=81866|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	i'ngwi	i'ngwi	NUM	_	_	4	comp:obj	_	AlignBegin=81866|AlignEnd=82374|GE=one|Gloss=one|nWord=2|RX=[NUM]|TokenType=Root
+3	i'ngwi	i'ngwi	NUM	_	Case=Abs	4	comp:obj	_	AlignBegin=81866|AlignEnd=82374|GE=one|Gloss=one|nWord=2|RX=[NUM]|TokenType=Root
 4	guk	guk	VERB	_	_	5	comp:aux/m	_	AlignBegin=82374|AlignEnd=82628|GE=take|Gloss=take|nWord=3|RX=[V]|TokenType=Root
 5	-a	_	AUX	_	_	6	comp:aux	_	AlignBegin=82628|AlignEnd=82882|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]|TokenType=InflAff
 6	uw	aw	AUX	_	_	7	comp:aux/m	_	AlignBegin=82882|AlignEnd=83136|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
-7	-a	_	AUX	_	_	_	_	_	AlignBegin=83136|AlignEnd=83390|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
-8	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=83390|AlignEnd=83643|GE=think|Gloss=think|nWord=5|RX=[V]|TokenType=Root
+7	-a	_	AUX	_	_	8	comp:obj	_	AlignBegin=83136|AlignEnd=83390|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
+8	a'zari	a'zari	VERB	_	_	0	root	_	AlignBegin=83390|AlignEnd=83643|GE=think|Gloss=think|nWord=5|RX=[V]|TokenType=Root
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=83643|AlignEnd=83896|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_23-23
@@ -418,17 +439,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 83896, 85390
 # morphemic_text = ʉn- k- uzoy -a uw -a azʉna kinki =ri
-# text = ʉnkuzoya uwa azʉna kinkiri
+# text = ʉn- k- uzoy -a uw -a azʉna kinki =ri
 # text_en = He thought of take it with him
 # text_phrase-gls-es = y pensó llevarselo
+# tags = IN PROGRESS
 1	ʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=83896|AlignEnd=83990|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
 2	k-	_	AUX	_	_	3	mod/m	_	AlignBegin=83990|AlignEnd=84084|GE=[APPL1]|Gloss=APPL1|nWord=1|RX=[V>V]|TokenType=DerAff
 3	uzoy	uzoy	VERB	_	_	4	comp:aux/m	_	AlignBegin=84084|AlignEnd=84178|GE=take|Gloss=take|nWord=1|RX=[VT]|TokenType=Root
 4	-a	_	AUX	_	_	5	comp:aux	_	AlignBegin=84178|AlignEnd=84270|GE=[PFV]|Gloss=PFV|nWord=1|RX=[V:ANY]|TokenType=InflAff
 5	uw	aw	AUX	_	_	6	comp:aux/m	_	AlignBegin=84270|AlignEnd=84457|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
-6	-a	_	AUX	_	_	7	comp:aux	_	AlignBegin=84457|AlignEnd=84644|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
-7	azʉna	azʉna	AUX	_	_	_	_	_	AlignBegin=84644|AlignEnd=85018|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
-8	kinki	kinki	PART	_	_	_	_	_	AlignBegin=85018|AlignEnd=85204|GE=always|Gloss=always|nWord=4|RX=[PRT]|TokenType=Root
+6	-a	_	AUX	_	_	7	comp:obj	_	AlignBegin=84457|AlignEnd=84644|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
+7	azʉna	azʉna	VERB	_	_	0	root	_	AlignBegin=84644|AlignEnd=85018|GE=[COP]|Gloss=think|nWord=3|RX=[COP]|TokenType=Root
+8	kinki	kinki	PART	_	_	7	discourse	_	AlignBegin=85018|AlignEnd=85204|GE=always|Gloss=always|nWord=4|RX=[PRT]|TokenType=Root
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=85204|AlignEnd=85390|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_24-24
@@ -439,6 +461,7 @@
 # text = i'ngwi , ikawi , i'ngwi aɉu kʉ'kuse' ko'o ( anʉn ) anʉkicho'siri , siklase' anʉnkicho'siri
 # text_en = one, seem, he put a full basket, put it on his bicycle
 # text_phrase-gls-es = una canasta entera se lo colocó en su bicicleta
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	_	7	conj:dicto	_	AlignBegin=85390|AlignEnd=85869|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=85869|AlignEnd=86348|nWord=2
 3	i-	_	AUX	_	_	4	comp:aux	_	AlignBegin=86348|AlignEnd=86508|GE=[APPL2]|Gloss=APPL2|nWord=3|RX=[V>V]|TokenType=DerAff
@@ -472,14 +495,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 92574, 93750
 # morphemic_text = ʉn- zoya u -w -e' =ri
-# text = ʉnzoya uwe'ri
+# text = ʉn- zoya u -w -e' =ri
 # text_en = and left
 # text_phrase-gls-es = y se fue
+# tags = IN PROGRESS
 1	ʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=92574|AlignEnd=92868|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
 2	zoya	zoy	VERB	_	_	3	comp:aux	_	AlignBegin=92868|AlignEnd=93162|GE=go|Gloss=go|nWord=1|RX=[VI]|TokenType=Root
 3	u	aw	AUX	_	_	4	comp:aux/m	_	AlignBegin=93162|AlignEnd=93309|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
 4	-w	_	AUX	_	_	5	comp:aux/m	_	AlignBegin=93309|AlignEnd=93456|GE=[EGO]|Gloss=EGO|nWord=2|RX=[VERB]|TokenType=InflAff
-5	-e'	_	AUX	_	_	_	_	_	AlignBegin=93456|AlignEnd=93603|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+5	-e'	_	AUX	_	_	0	root	_	AlignBegin=93456|AlignEnd=93603|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=93603|AlignEnd=93750|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_26-26
@@ -487,16 +511,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 94670, 96850
 # morphemic_text = atʉg =ekʉ ʉn- zwey -n nug -e' =ri
-# text = atʉgekʉ ʉnzweyn nuge'ri
+# text = atʉg =ekʉ ʉn- zwey -n nug -e' =ri
 # text_en = When he was further ahead |
 # text_phrase-gls-es = Cuando iba más adelante
+# tags = IN PROGRESS
 1	atʉg	atʉg	ADV	_	_	2	comp	_	AlignBegin=94670|AlignEnd=95034|GE=[LOC].[further]|Gloss=LOC.further|nWord=1|RX=[ADV]|TokenType=Root
 2	=ekʉ	_	ADP	_	_	4	mod:lmod	_	AlignBegin=95034|AlignEnd=95397|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]|TokenType=Clit
 3	ʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=95397|AlignEnd=95639|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	zwey	zoy	VERB	_	_	5	comp:aux/m	_	AlignBegin=95639|AlignEnd=95881|GE=go|Gloss=go|nWord=2|RX=[VI]|TokenType=Root
 5	-n	_	AUX	_	_	6	comp:aux	_	AlignBegin=95881|AlignEnd=96124|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
 6	nug	nik	AUX	_	_	7	comp:aux/m	_	AlignBegin=96124|AlignEnd=96366|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
-7	-e'	_	AUX	_	_	_	_	_	AlignBegin=96366|AlignEnd=96608|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
+7	-e'	_	AUX	_	_	0	root	_	AlignBegin=96366|AlignEnd=96608|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=96608|AlignEnd=96850|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_27-27
@@ -507,6 +532,7 @@
 # text = a'mia akingwi a'zʉna siklase' isa nari keywʉgwi nakʉn nusi ne'ri izagichiri
 # text_en = A woman of the same size who was riding a bicycle was coming and passing by
 # text_phrase-gls-es = Una mujer del mismo tamanyo que venía montada en una bicicleta que iba pasando
+# tags = IN PROGRESS
 1	a'mia	a'mia	NOUN	_	_	4	comp:obl	_	AlignBegin=96850|AlignEnd=97614|GE=woman|Gloss=woman|nWord=1|RX=[N]|TokenType=Root
 2	a-	_	PRON	_	_	3	udep:poss/m	_	AlignBegin=97614|AlignEnd=97996|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=2|RX=[POSS]|TokenType=InflAff
 3	kingwi	kingwi	ADJ	_	_	4	comp:pred	_	AlignBegin=97996|AlignEnd=98378|GE=same|Gloss=same|nWord=2|RX=[ADJ]|TokenType=Root
@@ -534,13 +560,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 105252, 106563
 # morphemic_text = sʉmbrenu apa nʉn -na =ri ,
-# text = sʉmbrenu apa nʉnnari ,
+# text = sʉmbrenu apa nʉn -na =ri ,
 # text_en = He was carrying a hat,
 # text_phrase-gls-es = Cargaba un sombrero,
-1	sʉmbrenu	sʉmbrenu	NOUN	_	_	2	comp:obj	_	AlignBegin=105252|AlignEnd=105580|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
+# tags = IN PROGRESS
+1	sʉmbrenu	sʉmbrenu	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=105252|AlignEnd=105580|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
 2	apa	apa	VERB	_	_	1	mod	_	AlignBegin=105580|AlignEnd=105908|GE=round|Gloss=round|nWord=2|RX=[ADJ]|TokenType=Root
 3	nʉn	nan	AUX	_	_	4	comp:aux/m	_	AlignBegin=105908|AlignEnd=106017|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
-4	-na	_	AUX	_	_	_	_	_	AlignBegin=106017|AlignEnd=106126|GE=[RMTPST]|Gloss=RMTPST|nWord=3|RX=[VERB]|TokenType=InflAff
+4	-na	_	AUX	_	_	0	root	_	AlignBegin=106017|AlignEnd=106126|GE=[RMTPST]|Gloss=RMTPST|nWord=3|RX=[VERB]|TokenType=InflAff
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=106126|AlignEnd=106236|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=106236|AlignEnd=106563|nWord=4
 
@@ -552,6 +579,7 @@
 # text = igusi izagichʉye'ri
 # text_en = She took it from him, when they passed each other
 # text_phrase-gls-es = le quitaron, cuando pasaron
+# tags = IN PROGRESS
 1	i-	_	AUX	_	_	2	mod/m	_	AlignBegin=106563|AlignEnd=106891|GE=[APPL2]|Gloss=APPL2|nWord=1|RX=[V>V]|TokenType=DerAff
 2	gusi	gusi	VERB	_	_	_	_	_	AlignBegin=106891|AlignEnd=107218|GE=take|Gloss=take|nWord=1|RX=[V]|TokenType=Root
 3	i-	_	AUX	_	_	4	mod/m	_	AlignBegin=107218|AlignEnd=107349|GE=[APPL2]|Gloss=APPL2|nWord=2|RX=[V>V]|TokenType=DerAff
@@ -565,19 +593,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 107873, 110436
 # morphemic_text = nʉn- gukʉ -y -in a'zari , wa'k -a uw -a a'zan =ʉkin =di
-# text = nʉngukʉyin a'zari , wa'ka uwa a'zanʉkindi
+# text = nʉn- gukʉ -y -in a'zari , wa'k -a uw -a a'zan =ʉkin =di
 # text_en = He thought "I know it", while he felt it while watching
 # text_phrase-gls-es = cuando supo que le quitaron, mientras miraba,
+# tags = IN PROGRESS
 1	nʉn-	_	PRON	_	_	2	comp:obj/m	_	AlignBegin=107873|AlignEnd=107980|GE=[1SG].[O]|Gloss=1SG.O|nWord=1|RX=[V:ANY]|TokenType=InflAff
 2	gukʉ	gukʉ	VERB	_	_	3	comp:aux/m	_	AlignBegin=107980|AlignEnd=108087|GE=know|Gloss=know|nWord=1|RX=[VT]|TokenType=Root
 3	-y	_	AUX	_	_	4	comp:aux/m	_	AlignBegin=108087|AlignEnd=108194|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]|TokenType=InflAff
-4	-in	_	AUX	_	_	_	_	_	AlignBegin=108194|AlignEnd=108300|GE=[DECL]|Gloss=DECL|nWord=1|RX=[V:ANY]|TokenType=InflAff
-5	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=108300|AlignEnd=108727|GE=think|Gloss=think|nWord=2|RX=[V]|TokenType=Root
+4	-in	_	AUX	_	_	5	comp:obj	_	AlignBegin=108194|AlignEnd=108300|GE=[DECL]|Gloss=DECL|nWord=1|RX=[V:ANY]|TokenType=InflAff
+5	a'zari	a'zari	VERB	_	_	0	root	_	AlignBegin=108300|AlignEnd=108727|GE=think|Gloss=think|nWord=2|RX=[V]|TokenType=Root
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=108727|AlignEnd=109154|nWord=3
 7	wa'k	wa'k	VERB	_	_	8	comp:aux/m	_	AlignBegin=109154|AlignEnd=109368|GE=look|Gloss=look|nWord=4|RX=[VI]|TokenType=Root
 8	-a	_	AUX	_	_	9	comp:aux	_	AlignBegin=109368|AlignEnd=109581|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
 9	uw	aw	AUX	_	_	10	comp:aux/m	_	AlignBegin=109581|AlignEnd=109795|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
-10	-a	_	AUX	_	_	_	_	_	AlignBegin=109795|AlignEnd=110008|GE=[PFV]|Gloss=PFV|nWord=5|RX=[V:ANY]|TokenType=InflAff
+10	-a	_	AUX	_	_	11	mod	_	AlignBegin=109795|AlignEnd=110008|GE=[PFV]|Gloss=PFV|nWord=5|RX=[V:ANY]|TokenType=InflAff
 11	a'zan	a'zan	VERB	_	_	12	comp	_	AlignBegin=110008|AlignEnd=110151|GE=feel|Gloss=feel|nWord=6|RX=[V]|TokenType=Root
 12	=ʉkin	_	ADP	_	_	5	parataxis	_	AlignBegin=110151|AlignEnd=110294|GE=[LIM]|Gloss==LIM|nWord=6|RX=[POST]|TokenType=Clit
 13	=di	_	PART	_	_	12	mod	_	AlignBegin=110294|AlignEnd=110436|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
@@ -587,14 +616,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 110436, 111781
 # morphemic_text = a'nʉ =se' an- a'chu' -na
-# text = a'nʉse' ana'chu'na
+# text = a'nʉ =se' an- a'chu' -na
 # text_en = He crashed against a stone
 # text_phrase-gls-es = se choco con la piedra
+# tags = IN PROGRESS
 1	a'nʉ	a'nʉ	NOUN	_	_	2	comp	_	AlignBegin=110436|AlignEnd=110772|GE=stone|Gloss=stone|nWord=1|RX=[N]|TokenType=Root
 2	=se'	_	ADP	_	_	4	mod:lmod	_	AlignBegin=110772|AlignEnd=111108|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
 3	an-	_	AUX	_	_	4	mod/m	_	AlignBegin=111108|AlignEnd=111332|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	a'chu'	a'chu'	VERB	_	_	5	comp:aux/m	_	AlignBegin=111332|AlignEnd=111556|GE=crash|Gloss=crash|nWord=2|RX=[V]|TokenType=Root
-5	-na	_	AUX	_	_	_	_	_	AlignBegin=111556|AlignEnd=111781|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
+5	-na	_	AUX	_	_	0	root	_	AlignBegin=111556|AlignEnd=111781|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_32-32
 # speaker_id = @SP21
@@ -604,6 +634,7 @@
 # text = ey , kawi ( wa ), anagupʉginna
 # text_en = so, well, he fell
 # text_phrase-gls-es = y se cayó
+# tags = IN PROGRESS
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=111781|AlignEnd=112049|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=112049|AlignEnd=112317|nWord=2
 3	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=112317|AlignEnd=112451|GE=seem|Gloss=seem|nWord=3|RX=[AUX]|TokenType=Root
@@ -620,14 +651,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 113655, 115827
 # morphemic_text = yow anʉ- ki- zu'n -a , pera =ri
-# text = yow anʉkizu'na , perari
+# text = yow anʉ- ki- zu'n -a , pera =ri
 # text_en = all got spilled, the pears
 # text_phrase-gls-es = se le derramó toda, la pera
+# tags = IN PROGRESS
 1	yow	yow	PRON	_	Case=Abs	4	subj	_	AlignBegin=113655|AlignEnd=114198|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
 2	anʉ-	_	AUX	_	_	3	mod/m	_	AlignBegin=114198|AlignEnd=114334|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 3	ki-	_	AUX	_	_	4	mod/m	_	AlignBegin=114334|AlignEnd=114470|GE=[APPL3]|Gloss=APPL3|nWord=2|RX=[VERB]|TokenType=DerAff
 4	zu'n	zu'n	VERB	_	_	5	comp:aux/m	_	AlignBegin=114470|AlignEnd=114606|GE=spill|Gloss=spill|nWord=2|RX=[V]|TokenType=Root
-5	-a	_	AUX	_	_	_	_	_	AlignBegin=114606|AlignEnd=114741|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
+5	-a	_	AUX	_	_	0	root	_	AlignBegin=114606|AlignEnd=114741|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=114741|AlignEnd=115284|nWord=3
 7	pera	pera	NOUN	_	_	4	dislocated	_	AlignBegin=115284|AlignEnd=115556|GE=pear|Gloss=pear|nWord=4|RX=[N]|TokenType=Root
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=115556|AlignEnd=115827|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
@@ -637,13 +669,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 115827, 116988
 # morphemic_text = kʉnʉ an- a'mucha nan -i
-# text = kʉnʉ ana'mucha nari
+# text = kʉnʉ an- a'mucha nan -i
 # text_en = and he hurt his lower leg
 # text_phrase-gls-es = y le lastimó la canilla
-1	kʉnʉ	kʉnʉ	NOUN	_	_	3	comp:obj	_	AlignBegin=115827|AlignEnd=116214|GE=lower leg|Gloss=lower leg|nWord=1|RX=[N]|TokenType=Root
+# tags = IN PROGRESS
+1	kʉnʉ	kʉnʉ	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=115827|AlignEnd=116214|GE=lower leg|Gloss=lower leg|nWord=1|RX=[N]|TokenType=Root
 2	an-	_	AUX	_	_	3	mod/m	_	AlignBegin=116214|AlignEnd=116408|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 3	a'mucha	a'mucha	VERB	_	_	4	comp:aux	_	AlignBegin=116408|AlignEnd=116601|GE=hurt|Gloss=hurt|nWord=2|RX=[V]|TokenType=Root
-4	nan	nan	AUX	_	_	_	_	_	AlignBegin=116601|AlignEnd=116795|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
+4	nan	nan	AUX	_	_	0	root	_	AlignBegin=116601|AlignEnd=116795|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
 5	-i	_	PART	_	_	4	cc	_	AlignBegin=116795|AlignEnd=116988|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_35-35
@@ -651,36 +684,38 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 116988, 119839
 # morphemic_text = anʉmʉses -i =ri , kʉnʉ kʉrsonʉ rinh- arusa -na
-# text = anʉmʉsesiri , kʉnʉ kʉrsonʉ rinharusana
+# text = anʉmʉses -i =ri , kʉnʉ kʉrsonʉ rinh- arusa -na
 # text_en = He got up, lifted up his clothes on the lower leg
 # text_phrase-gls-es = Se levantó, se alzó la ropa en la canilla
+# tags = IN PROGRESS
 1	anʉmʉses	anʉmʉses	VERB	_	_	2	comp:aux/m	_	AlignBegin=116988|AlignEnd=117178|GE=get.up|Gloss=get.up|nWord=1|RX=[V]|TokenType=Root
-2	-i	_	PART	_	_	_	_	_	AlignBegin=117178|AlignEnd=117368|GE=while|Gloss=and|nWord=1|RX=[VERB]|TokenType=InflAff
+2	-i	_	PART	_	_	9	conj	_	AlignBegin=117178|AlignEnd=117368|GE=while|Gloss=and|nWord=1|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=117368|AlignEnd=117558|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=117558|AlignEnd=118128|nWord=2
 5	kʉnʉ	kʉnʉ	NOUN	_	_	8	comp:obl	_	AlignBegin=118128|AlignEnd=118698|GE=lower leg|Gloss=lower leg|nWord=3|RX=[N]|TokenType=Root
-6	kʉrsonʉ	kʉrsonʉ	NOUN	_	_	8	comp:obj	_	AlignBegin=118698|AlignEnd=119268|GE=[SPA_pants]|Gloss=SPA_pants|nWord=4|RX=[N]|TokenType=Root
+6	kʉrsonʉ	kʉrsonʉ	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=118698|AlignEnd=119268|GE=[SPA_pants]|Gloss=SPA_pants|nWord=4|RX=[N]|TokenType=Root
 7	rinh-	_	AUX	_	_	8	mod/m	_	AlignBegin=119268|AlignEnd=119458|GE=[REFL]|Gloss=REFL|nWord=5|RX=[V>V]|TokenType=DerAff
 8	arusa	arusa	VERB	_	_	9	comp:aux/m	_	AlignBegin=119458|AlignEnd=119648|GE=pick up|Gloss=pick up|nWord=5|RX=[V]|TokenType=Root
-9	-na	_	AUX	_	_	_	_	_	AlignBegin=119648|AlignEnd=119839|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
+9	-na	_	AUX	_	_	0	root	_	AlignBegin=119648|AlignEnd=119839|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_36-36
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 119839, 123172
 # morphemic_text = ʉn- sʉsʉ , media ingʉ ʉn- yuns -a nis -i
-# text = ʉnsʉsʉ , media ingʉ ʉnyunsa nisi
+# text = ʉn- sʉsʉ , media ingʉ ʉn- yuns -a nis -i
 # text_en = He cleaned himself lowering the sock a little
 # text_phrase-gls-es = se limpió [del sucio, mugre] bajándose un poco la media
+# tags = IN PROGRESS
 1	ʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=119839|AlignEnd=120117|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
-2	sʉsʉ	sʉsʉ	VERB	_	_	_	_	_	AlignBegin=120117|AlignEnd=120395|GE=wipe|Gloss=wipe|nWord=1|RX=[V]|TokenType=Root
+2	sʉsʉ	sʉsʉ	VERB	_	_	9	conj	_	AlignBegin=120117|AlignEnd=120395|GE=wipe|Gloss=wipe|nWord=1|RX=[V]|TokenType=Root
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=120395|AlignEnd=120951|nWord=2
-4	media	media	NOUN	_	_	7	comp:obj	_	AlignBegin=120951|AlignEnd=121507|GE=sock|Gloss=sock|nWord=3|RX=[N]|TokenType=Root
-5	ingʉ	ingʉ	ADJ	_	_	_	_	_	AlignBegin=121507|AlignEnd=122063|GE=few|Gloss=few|nWord=4|RX=[ADJ]|TokenType=Root
+4	media	media	NOUN	_	Case=Abs	7	comp:obj	_	AlignBegin=120951|AlignEnd=121507|GE=sock|Gloss=sock|nWord=3|RX=[N]|TokenType=Root
+5	ingʉ	ingʉ	ADJ	_	_	7	mod	_	AlignBegin=121507|AlignEnd=122063|GE=few|Gloss=few|nWord=4|RX=[ADJ]|TokenType=Root
 6	ʉn-	_	AUX	_	_	7	mod/m	_	AlignBegin=122063|AlignEnd=122248|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
 7	yuns	yuns	VERB	_	_	8	comp:aux/m	_	AlignBegin=122248|AlignEnd=122433|GE=decrease|Gloss=decrease|nWord=5|RX=[V]|TokenType=Root
 8	-a	_	AUX	_	_	9	comp:aux	_	AlignBegin=122433|AlignEnd=122619|GE=[PFV]|Gloss=PFV|nWord=5|RX=[V:ANY]|TokenType=InflAff
-9	nis	nik	AUX	_	_	_	_	_	AlignBegin=122619|AlignEnd=122895|GE=do|Gloss=do|nWord=6|RX=[AUX]|TokenType=Root
+9	nis	nik	AUX	_	_	0	root	_	AlignBegin=122619|AlignEnd=122895|GE=do|Gloss=do|nWord=6|RX=[AUX]|TokenType=Root
 10	-i	_	PART	_	_	9	cc	_	AlignBegin=122895|AlignEnd=123172|GE=while|Gloss=and|nWord=6|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_37-37
@@ -691,6 +726,7 @@
 # text = nisi nige'ri
 # text_en = while he was doing this,
 # text_phrase-gls-es = mientras hacia esto
+# tags = IN PROGRESS
 1	nis	nik	AUX	_	_	_	_	_	AlignBegin=123172|AlignEnd=123747|GE=do|Gloss=do|nWord=1|RX=[AUX]|TokenType=Root
 2	-i	_	PART	_	_	1	cc	_	AlignBegin=123747|AlignEnd=124322|GE=while|Gloss=and|nWord=1|RX=[VERB]|TokenType=InflAff
 3	nig	nik	AUX	_	_	4	comp:aux/m	_	AlignBegin=124322|AlignEnd=124705|GE=do|Gloss=do|nWord=2|RX=[AUX]|TokenType=Root
@@ -705,15 +741,16 @@
 # text = máykʉnʉ gʉmʉsinʉ gunti atʉgekʉ wincho' nʉnnari
 # text_en = there were three children standing nearby.
 # text_phrase-gls-es = había tres ninios que estaban por allí cerca
+# tags = IN PROGRESS
 1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	mod:num	_	AlignBegin=125471|AlignEnd=126128|GE=three|Gloss=three|nWord=1|RX=[NUM]|TokenType=Root
 2	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	7	subj	_	AlignBegin=126128|AlignEnd=126785|GE=child|Gloss=child|nWord=2|RX=[N]|TokenType=Root
-3	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=126785|AlignEnd=127442|GE=all|Gloss=all|nWord=3|RX=[ADV]|TokenType=Root
+3	gunti	gunti	ADV	_	_	7	mod	_	AlignBegin=126785|AlignEnd=127442|GE=all|Gloss=all|nWord=3|RX=[ADV]|TokenType=Root
 4	atʉg	atʉg	ADV	_	_	5	comp	_	AlignBegin=127442|AlignEnd=127770|GE=[LOC].[further]|Gloss=LOC.further|nWord=4|RX=[ADV]|TokenType=Root
 5	=ekʉ	_	ADP	_	_	7	mod:lmod	_	AlignBegin=127770|AlignEnd=128099|GE=[LOC]|Gloss==LOC|nWord=4|RX=[N]|TokenType=Clit
 6	win-	_	PRON	_	_	7	subj/m	_	AlignBegin=128099|AlignEnd=128427|GE=[3PL].[S]|Gloss=3PL.S|nWord=5|RX=[VERB]|TokenType=InflAff
 7	cho'	cho'	VERB	_	_	8	comp:aux	_	AlignBegin=128427|AlignEnd=128756|GE=stand|Gloss=stand|nWord=5|RX=[V]|TokenType=Root
 8	nʉn	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=128756|AlignEnd=128975|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
-9	-na	_	AUX	_	_	_	_	_	AlignBegin=128975|AlignEnd=129194|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
+9	-na	_	AUX	_	_	0	root	_	AlignBegin=128975|AlignEnd=129194|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=129194|AlignEnd=129413|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_39-39
@@ -721,14 +758,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 129413, 130264
 # morphemic_text = ʉya =se' chwu -y -e' =ri
-# text = ʉyase' chwuye'ri
+# text = ʉya =se' chwu -y -e' =ri
 # text_en = When they saw him,
 # text_phrase-gls-es = cuando ellos [lit. estos] lo vieron
 1	ʉya	ʉya	PRON	_	_	2	comp	_	AlignBegin=129413|AlignEnd=129626|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root
 2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	3	subj	_	AgentShift=no|AlignBegin=129626|AlignEnd=129839|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|TokenType=Clit|Topic=no
-3	chwu	chwu	VERB	_	_	4	comp:aux/m	_	AlignBegin=129839|AlignEnd=129945|ArgumentOrder=SV|GE=see|Gloss=see|nWord=2|RX=[VT]|TokenType=Root|Transitivity=transitive
+3	chwu	chwu	VERB	_	Animacy=Anim|Definite=Def	4	comp:aux/m	_	AlignBegin=129839|AlignEnd=129945|ArgumentOrder=SV|GE=see|Gloss=see|nWord=2|RX=[VT]|TokenType=Root|Transitivity=transitive
 4	-y	_	AUX	_	_	5	comp:aux/m	_	AlignBegin=129945|AlignEnd=130051|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
-5	-e'	_	AUX	_	_	_	_	_	AlignBegin=130051|AlignEnd=130157|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+5	-e'	_	AUX	_	_	0	root	_	AlignBegin=130051|AlignEnd=130157|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=130157|AlignEnd=130264|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_40-40
@@ -736,31 +773,33 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 130264, 132793
 # morphemic_text = ʉya nasi nʉ -ngwa =ri , i- gunamʉsa
-# text = ʉya nasi nʉngwari , igunamʉsa
+# text = ʉya nasi nʉ -ngwa =ri , i- gunamʉsa
 # text_en = they came, they helped him
 # text_phrase-gls-es = vinieron estos, le ayudaron
+# tags = IN PROGRESS
 1	ʉya	ʉya	PRON	_	Case=Abs	2	subj	_	AlignBegin=130264|AlignEnd=130770|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root
 2	nasi	nasi	VERB	_	_	3	comp:aux	_	AlignBegin=130770|AlignEnd=131276|GE=come|Gloss=come|nWord=2|RX=[V]|TokenType=Root
 3	nʉ	nan	AUX	_	_	4	comp:aux/m	_	AlignBegin=131276|AlignEnd=131445|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
-4	-ngwa	_	AUX	_	_	_	_	_	AlignBegin=131445|AlignEnd=131614|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]|TokenType=InflAff
+4	-ngwa	_	AUX	_	_	8	conj:coord	_	AlignBegin=131445|AlignEnd=131614|GE=[FUT]|Gloss=FUT|nWord=3|RX=[VERB]|TokenType=InflAff
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=131614|AlignEnd=131782|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=131782|AlignEnd=132288|nWord=4
 7	i-	_	AUX	_	_	8	mod/m	_	AlignBegin=132288|AlignEnd=132540|GE=[APPL2]|Gloss=APPL2|nWord=5|RX=[V>V]|TokenType=DerAff
-8	gunamʉsa	gunamʉsa	VERB	_	_	_	_	_	AlignBegin=132540|AlignEnd=132793|GE=help|Gloss=help|nWord=5|RX=[V]|TokenType=Root
+8	gunamʉsa	gunamʉsa	VERB	_	_	0	root	_	AlignBegin=132540|AlignEnd=132793|GE=help|Gloss=help|nWord=5|RX=[V]|TokenType=Root
 
 # sent_id = PE21_41-41
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 132793, 136298
 # morphemic_text = yow ka's -a ( mhm )
-# text = yow ka'sa ( mhm )
+# text = yow ka's -a ( mhm )
 # text_en = they put all [the pear back into the basket]
 # text_phrase-gls-es = echaron todos [la pera que estaba en el suelo en la canasta]
-1	yow	yow	PRON	_	_	2	comp:obj	_	AlignBegin=132793|AlignEnd=133494|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
+# tags = IN PROGRESS
+1	yow	yow	PRON	_	Case=Abs	2	comp:obj	_	AlignBegin=132793|AlignEnd=133494|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
 2	ka's	ka's	VERB	_	_	3	comp:aux/m	_	AlignBegin=133494|AlignEnd=133844|GE=put|Gloss=put|nWord=2|RX=[V]|TokenType=Root
-3	-a	_	AUX	_	_	_	_	_	AlignBegin=133844|AlignEnd=134195|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
+3	-a	_	AUX	_	_	0	root	_	AlignBegin=133844|AlignEnd=134195|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
 4	(	_	PUNCT	_	_	5	punct	_	AlignBegin=134195|AlignEnd=134896|nWord=3
-5	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=134896|AlignEnd=135597|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]|TokenType=Root
+5	mhm	mhm	INTJ	_	_	2	mod:discourse	_	AlignBegin=134896|AlignEnd=135597|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]|TokenType=Root
 6	)	_	PUNCT	_	_	5	punct	_	AlignBegin=135597|AlignEnd=136298|nWord=5
 
 # sent_id = PE21_42-42
@@ -771,9 +810,10 @@
 # text = eygwi siklari , ʉ'muse' uwe'ri , anʉkicho awi nʉngwari
 # text_en = the bicycle, they, pick up, stood it back up again.
 # text_phrase-gls-es = y otra vez le alzaron la bicicleta
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=136298|AlignEnd=136518|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
+# tags = IN PROGRESS
+1	ey	ey	PART	_	_	10	mod:discourse	_	AlignBegin=136298|AlignEnd=136518|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	=gwi	_	ADV	_	_	1	mod	_	AlignBegin=136518|AlignEnd=136737|GE=also|Gloss==also|nWord=1|RX=[ADV]|TokenType=Clit
-3	sikla	sikla	NOUN	_	_	6	comp:obj	_	AlignBegin=136737|AlignEnd=136957|GE=bicycle|Gloss=bicycle|nWord=2|RX=[N]|TokenType=Root
+3	sikla	sikla	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=136737|AlignEnd=136957|GE=bicycle|Gloss=bicycle|nWord=2|RX=[N]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=136957|AlignEnd=137176|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=137176|AlignEnd=137615|nWord=3
 6	ʉ'mus	ʉ'mus	VERB	_	_	7	comp:aux/m	_	AlignBegin=137615|AlignEnd=137835|GE=pick up|Gloss=pick up|nWord=4|RX=[V]|TokenType=Root
@@ -787,7 +827,7 @@
 14	k-	_	AUX	_	_	15	mod/m	_	AlignBegin=139078|AlignEnd=139224|GE=[APPL1]|Gloss=APPL1|nWord=7|RX=[V>V]|TokenType=DerAff
 15	icho	icho	VERB	_	_	16	comp:aux	_	AlignBegin=139224|AlignEnd=139371|GE=go.up|Gloss=go.up|nWord=7|RX=[V]|TokenType=Root
 16	aw	aw	AUX	_	_	18	comp:aux	_	AlignBegin=139371|AlignEnd=139591|GE=aux|Gloss=aux|nWord=8|RX=[AUX]|TokenType=Root
-17	-i	_	PART	_	_	_	_	_	AlignBegin=139591|AlignEnd=139810|GE=while|Gloss=and|nWord=8|RX=[VERB]|TokenType=InflAff
+17	-i	_	PART	_	_	16	cc	_	AlignBegin=139591|AlignEnd=139810|GE=while|Gloss=and|nWord=8|RX=[VERB]|TokenType=InflAff
 18	nʉ	nan	AUX	_	_	19	comp:aux/m	_	AlignBegin=139810|AlignEnd=139957|GE=[AUX]|Gloss=AUX|nWord=9|RX=[AUX]|TokenType=Root
 19	-ngwa	_	AUX	_	_	_	_	_	AlignBegin=139957|AlignEnd=140104|GE=[FUT]|Gloss=FUT|nWord=9|RX=[VERB]|TokenType=InflAff
 20	=ri	_	PART	_	_	19	mod	_	AlignBegin=140104|AlignEnd=140250|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
@@ -797,12 +837,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 141050, 144500
 # morphemic_text = u -w -e' =ri , eyma sikla =sin ʉn- zwey -n nu' -na =ri ey =gwi zoya u -w -e' =ri
-# text = uwe'ri , eyma siklasin ʉnzweyn nu'nari eygwi zoya uwe'ri
+# text = u -w -e' =ri , eyma sikla =sin ʉn- zwey -n nu' -na =ri ey =gwi zoya u -w -e' =ri
 # text_en = then, the one who was riding the bicycle went away again.
 # text_phrase-gls-es = entonces él que estaba yendo en la bicicleta se fue otra vez
+# tags = IN PROGRESS
 1	u	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=141050|AlignEnd=141146|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
 2	-w	_	AUX	_	_	3	comp:aux/m	_	AlignBegin=141146|AlignEnd=141242|GE=[EGO]|Gloss=EGO|nWord=1|RX=[VERB]|TokenType=InflAff
-3	-e'	_	AUX	_	_	_	_	_	AlignBegin=141242|AlignEnd=141338|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
+3	-e'	_	AUX	_	_	20	discourse	_	AlignBegin=141242|AlignEnd=141338|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=141338|AlignEnd=141433|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=141433|AlignEnd=141816|nWord=2
 6	eyma	eyma	PRON	_	Case=Abs	10	subj	_	AlignBegin=141816|AlignEnd=142199|GE=this|Gloss=this|nWord=3|RX=[DEM]|TokenType=Root
@@ -814,12 +855,12 @@
 12	nu'	nu'	AUX	_	_	13	comp:aux/m	_	AlignBegin=142965|AlignEnd=143093|GE=aux|Gloss=aux|nWord=6|RX=[COP]|TokenType=Root
 13	-na	-na	AUX	_	Case=Abs	17	subj	_	AlignBegin=143093|AlignEnd=143221|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
 14	=ri	_	PART	_	_	13	mod	_	AlignBegin=143221|AlignEnd=143348|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
-15	ey	ey	PART	_	_	_	_	_	AlignBegin=143348|AlignEnd=143540|GE=so|Gloss=so|nWord=7|RX=[PRT]|TokenType=Root
+15	ey	ey	PART	_	_	17	mod	_	AlignBegin=143348|AlignEnd=143540|GE=so|Gloss=so|nWord=7|RX=[PRT]|TokenType=Root
 16	=gwi	_	ADV	_	_	15	mod	_	AlignBegin=143540|AlignEnd=143731|GE=also|Gloss==also|nWord=7|RX=[ADV]|TokenType=Clit
 17	zoya	zoy	VERB	_	_	18	comp:aux	_	AlignBegin=143731|AlignEnd=144114|GE=go|Gloss=go|nWord=8|RX=[V]|TokenType=Root
 18	u	aw	AUX	_	_	19	comp:aux/m	_	AlignBegin=144114|AlignEnd=144210|GE=aux|Gloss=aux|nWord=9|RX=[AUX]|TokenType=Root
 19	-w	_	AUX	_	_	20	comp:aux/m	_	AlignBegin=144210|AlignEnd=144306|GE=[EGO]|Gloss=EGO|nWord=9|RX=[VERB]|TokenType=InflAff
-20	-e'	_	AUX	_	_	_	_	_	AlignBegin=144306|AlignEnd=144402|GE=then|Gloss=then|nWord=9|RX=[VERB]|TokenType=InflAff
+20	-e'	_	AUX	_	_	0	root	_	AlignBegin=144306|AlignEnd=144402|GE=then|Gloss=then|nWord=9|RX=[VERB]|TokenType=InflAff
 21	=ri	_	PART	_	_	20	mod	_	AlignBegin=144402|AlignEnd=144500|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_44-44
@@ -830,6 +871,7 @@
 # text = máykʉnʉ winneykari zweyn nunay kingwi ʉnwinzoya unari
 # text_en = and the three went where they were going
 # text_phrase-gls-es = y los tres se fueron donde estaban yendo
+# tags = IN PROGRESS
 1	máykʉnʉ	máykʉnʉ	NUM	_	_	3	comp:pred	_	AlignBegin=145330|AlignEnd=145889|GE=three|Gloss=three|nWord=1|RX=[NUM]|TokenType=Root
 2	win-	_	PRON	_	_	3	subj/m	_	AlignBegin=145889|AlignEnd=146029|GE=[3PL].[S]|Gloss=3PL.S|nWord=2|RX=[VERB]|TokenType=InflAff
 3	n	nan	AUX	_	_	4	comp:aux/m	_	AlignBegin=146029|AlignEnd=146169|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
@@ -853,13 +895,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 150120, 151149
 # morphemic_text = atʉgw =ekʉ zoy -e' =ri
-# text = atʉgwekʉ zoye'ri
+# text = atʉgw =ekʉ zoy -e' =ri
 # text_en = when they were further ahead
 # text_phrase-gls-es = cuando iban más adelante
+# tags = IN PROGRESS
 1	atʉgw	atʉgw	ADV	_	_	2	comp	_	AlignBegin=150120|AlignEnd=150377|GE=[LOC].[further]|Gloss=LOC.further|nWord=1|RX=[ADV]|TokenType=Root
 2	=ekʉ	_	ADP	_	_	3	mod:lmod	_	AlignBegin=150377|AlignEnd=150634|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]|TokenType=Clit
 3	zoy	zoy	VERB	_	_	4	comp:aux/m	_	AlignBegin=150634|AlignEnd=150806|GE=go|Gloss=go|nWord=2|RX=[V]|TokenType=Root
-4	-e'	_	AUX	_	_	_	_	_	AlignBegin=150806|AlignEnd=150978|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+4	-e'	_	AUX	_	_	0	root	_	AlignBegin=150806|AlignEnd=150978|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=150978|AlignEnd=151149|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_46-46
@@ -867,31 +910,33 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 151149, 153655
 # morphemic_text = sʉmbrenu i- agu' -na ʉm- pa n -e' nʉ -ngwa
-# text = sʉmbrenu iagu'na ʉmpa ne' nʉngwa
+# text = sʉmbrenu i- agu' -na ʉm- pa n -e' nʉ -ngwa
 # text_en = they found the hat lying [on the floor] that had been taken from him
 # text_phrase-gls-es = encontraron el sombrero que le habían quitado
-1	sʉmbrenu	sʉmbrenu	NOUN	_	_	3	comp:obj	_	AlignBegin=151149|AlignEnd=151650|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
+# tags = IN PROGRESS
+1	sʉmbrenu	sʉmbrenu	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=151149|AlignEnd=151650|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
 2	i-	_	AUX	_	_	3	mod/m	_	AlignBegin=151650|AlignEnd=151817|GE=[APPL2]|Gloss=APPL2|nWord=2|RX=[V>V]|TokenType=DerAff
 3	agu'	agu'	VERB	_	_	4	comp:aux/m	_	AlignBegin=151817|AlignEnd=151984|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root
-4	-na	_	AUX	_	_	_	_	_	AlignBegin=151984|AlignEnd=152151|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
+4	-na	_	AUX	_	_	6	comp:obj	_	AlignBegin=151984|AlignEnd=152151|GE=[RMTPST]|Gloss=RMTPST|nWord=2|RX=[VERB]|TokenType=InflAff
 5	ʉm-	_	AUX	_	_	6	mod/m	_	AlignBegin=152151|AlignEnd=152401|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 6	pa	pa	VERB	_	_	7	comp:aux	_	AlignBegin=152401|AlignEnd=152652|GE=put[plane]|Gloss=put[plane]|nWord=3|RX=[V]|TokenType=Root
 7	n	nan	AUX	_	_	8	comp:aux/m	_	AlignBegin=152652|AlignEnd=152902|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 8	-e'	_	AUX	_	_	9	comp:aux	_	AlignBegin=152902|AlignEnd=153153|GE=then|Gloss=then|nWord=4|RX=[VERB]|TokenType=InflAff
 9	nʉ	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=153153|AlignEnd=153404|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
-10	-ngwa	_	AUX	_	_	_	_	_	AlignBegin=153404|AlignEnd=153655|GE=[FUT]|Gloss=FUT|nWord=5|RX=[VERB]|TokenType=InflAff
+10	-ngwa	_	AUX	_	_	0	root	_	AlignBegin=153404|AlignEnd=153655|GE=[FUT]|Gloss=FUT|nWord=5|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_47-47
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 153655, 156068
 # morphemic_text = anʉn- mi'ri ey =gwi ,
-# text = anʉnmi'ri eygwi ,
+# text = anʉn- mi'ri ey =gwi ,
 # text_en = They went back
 # text_phrase-gls-es = se regresaron
+# tags = IN PROGRESS
 1	anʉn-	_	AUX	_	_	2	mod/m	_	AlignBegin=153655|AlignEnd=154057|GE=[MID]|Gloss=MID|nWord=1|RX=[V>V]|TokenType=DerAff
-2	mi'ri	zoy	VERB	_	_	_	_	_	AlignBegin=154057|AlignEnd=154459|GE=go|Gloss=go|nWord=1|RX=[V]|TokenType=Root
-3	ey	ey	PART	_	_	_	_	_	AlignBegin=154459|AlignEnd=154861|GE=so|Gloss=so|nWord=2|RX=[PRT]|TokenType=Root
+2	mi'ri	zoy	VERB	_	_	0	root	_	AlignBegin=154057|AlignEnd=154459|GE=go|Gloss=go|nWord=1|RX=[V]|TokenType=Root
+3	ey	ey	PART	_	_	2	mod	_	AlignBegin=154459|AlignEnd=154861|GE=so|Gloss=so|nWord=2|RX=[PRT]|TokenType=Root
 4	=gwi	_	ADV	_	_	3	mod	_	AlignBegin=154861|AlignEnd=155263|GE=also|Gloss==also|nWord=2|RX=[ADV]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=155263|AlignEnd=156068|nWord=3
 
@@ -913,15 +958,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 157149, 158252
 # morphemic_text = a'wes -ʉn =binʉ u -y -e' =ri
-# text = a'wesʉnbinʉ uye'ri
+# text = a'wes -ʉn binʉ u -y -e' =ri
 # text_en = and handed it over to him.
 # text_phrase-gls-es = y se lo entregaron
+# tags = IN PROGRESS
 1	a'wes	a'wes	VERB	_	_	2	comp:aux/m	_	AlignBegin=157149|AlignEnd=157333|GE=give|Gloss=give|nWord=1|RX=[VD]|TokenType=Root
 2	-ʉn	_	AUX	_	_	3	comp:aux	_	AlignBegin=157333|AlignEnd=157517|GE=[IPFV]|Gloss=IPFV|nWord=1|RX=[VERB]|TokenType=InflAff
-3	binʉ	bina	AUX	_	_	_	_	_	AlignBegin=157517|AlignEnd=157701|GE=[MOTION]|Gloss=INCH|nWord=1|RX=[PRT]|TokenType=Root|wordform==binʉ
+3	binʉ	bina	AUX	_	_	_	_	_	AlignBegin=157517|AlignEnd=157701|GE=[MOTION]|Gloss=MOTION|nWord=1|RX=[PRT]|TokenType=Root|wordform==binʉ
 4	u	aw	AUX	_	_	5	comp:aux/m	_	AlignBegin=157701|AlignEnd=157839|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
 5	-y	_	AUX	_	_	6	comp:aux/m	_	AlignBegin=157839|AlignEnd=157977|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
-6	-e'	_	AUX	_	_	_	_	_	AlignBegin=157977|AlignEnd=158115|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+6	-e'	_	AUX	_	_	0	root	_	AlignBegin=157977|AlignEnd=158115|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=158115|AlignEnd=158252|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_50-50
@@ -929,19 +975,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 158252, 161287
 # morphemic_text = máykʉnʉ pera ey =gwi an- a'we uw -e' nʉ -ngwa =ri
-# text = máykʉnʉ pera eygwi ana'we uwe' nʉngwari
+# text = máykʉnʉ pera ey =gwi an- a'we uw -e' nʉ -ngwa =ri
 # text_en = and he gave them three pears again
 # text_phrase-gls-es = y le entregó otra vez tres peras
+# tags = IN PROGRESS
 1	máykʉnʉ	máykʉnʉ	NUM	_	_	2	mod:num	_	AlignBegin=158252|AlignEnd=158758|GE=three|Gloss=three|nWord=1|RX=[NUM]|TokenType=Root
-2	pera	pera	NOUN	_	_	6	comp:obj	_	AlignBegin=158758|AlignEnd=159264|GE=pear|Gloss=pear|nWord=2|RX=[N]|TokenType=Root
-3	ey	ey	PART	_	_	_	_	_	AlignBegin=159264|AlignEnd=159517|GE=so|Gloss=so|nWord=3|RX=[PRT]|TokenType=Root
+2	pera	pera	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=158758|AlignEnd=159264|GE=pear|Gloss=pear|nWord=2|RX=[N]|TokenType=Root
+3	ey	ey	PART	_	_	6	mod	_	AlignBegin=159264|AlignEnd=159517|GE=so|Gloss=so|nWord=3|RX=[PRT]|TokenType=Root
 4	=gwi	_	ADV	_	_	3	mod	_	AlignBegin=159517|AlignEnd=159770|GE=also|Gloss==also|nWord=3|RX=[ADV]|TokenType=Clit
 5	an-	_	AUX	_	_	6	mod/m	_	AlignBegin=159770|AlignEnd=160023|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 6	a'we	a'we	VERB	_	_	7	comp:aux	_	AlignBegin=160023|AlignEnd=160276|GE=give|Gloss=give|nWord=4|RX=[VD]|TokenType=Root
 7	uw	aw	AUX	_	_	8	comp:aux/m	_	AlignBegin=160276|AlignEnd=160529|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
 8	-e'	_	AUX	_	_	9	comp:aux	_	AlignBegin=160529|AlignEnd=160782|GE=then|Gloss=then|nWord=5|RX=[VERB]|TokenType=InflAff
 9	nʉ	nan	AUX	_	_	10	comp:aux/m	_	AlignBegin=160782|AlignEnd=160950|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]|TokenType=Root
-10	-ngwa	_	AUX	_	_	_	_	_	AlignBegin=160950|AlignEnd=161118|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]|TokenType=InflAff
+10	-ngwa	_	AUX	_	_	0	root	_	AlignBegin=160950|AlignEnd=161118|GE=[FUT]|Gloss=FUT|nWord=6|RX=[VERB]|TokenType=InflAff
 11	=ri	_	PART	_	_	10	mod	_	AlignBegin=161118|AlignEnd=161287|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_51-51
@@ -949,15 +996,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 161287, 162528
 # morphemic_text = ey =gwi anʉn- mi'ri nas -i =ri
-# text = eygwi anʉnmi'ri nasiri
+# text = ey =gwi anʉn- mi'ri nas -i =ri
 # text_en = and then he returned
 # text_phrase-gls-es = se regresó
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=161287|AlignEnd=161494|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
+# tags = IN PROGRESS
+1	ey	ey	PART	_	_	6	mod	_	AlignBegin=161287|AlignEnd=161494|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	=gwi	_	ADV	_	_	1	mod	_	AlignBegin=161494|AlignEnd=161701|GE=also|Gloss==also|nWord=1|RX=[ADV]|TokenType=Clit
 3	anʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=161701|AlignEnd=161908|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
-4	mi'ri	zoy	VERB	_	_	_	_	_	AlignBegin=161908|AlignEnd=162115|GE=go|Gloss=go|nWord=2|RX=[V]|TokenType=Root
+4	mi'ri	zoy	VERB	_	_	5	compound:svc	_	AlignBegin=161908|AlignEnd=162115|GE=go|Gloss=go|nWord=2|RX=[V]|TokenType=Root
 5	nas	nas	VERB	_	_	6	comp:aux/m	_	AlignBegin=162115|AlignEnd=162253|GE=come|Gloss=come|nWord=3|RX=[V]|TokenType=Root
-6	-i	_	PART	_	_	_	_	_	AlignBegin=162253|AlignEnd=162391|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
+6	-i	_	PART	_	_	0	root	_	AlignBegin=162253|AlignEnd=162391|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=162391|AlignEnd=162528|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_52-52
@@ -975,7 +1023,7 @@
 4	=se'	_	ADP	_	_	7	comp:obl	_	AlignBegin=163827|AlignEnd=164086|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]|TokenType=Clit
 5	re'-	_	AUX	_	_	6	mod/m	_	AlignBegin=164086|AlignEnd=164346|GE=[RE']|Gloss=RE'|nWord=3|RX=[VERB]|TokenType=InflAff
 6	ri-	_	PRON	_	_	7	subj/m	_	AlignBegin=164346|AlignEnd=164606|GE=[3PL].[S]|Gloss=3PL.S|nWord=3|RX=[V:ANY]|TokenType=InflAff
-7	wi'we	wi'we	VERB	_	_	9	comp:obj	_	AlignBegin=164606|AlignEnd=164865|GE=give|Gloss=give|nWord=3|RX=[VD]|TokenType=Root
+7	wi'we	wi'we	VERB	_	Case=Abs	9	comp:obj	_	AlignBegin=164606|AlignEnd=164865|GE=give|Gloss=give|nWord=3|RX=[VD]|TokenType=Root
 8	win-	_	PRON	_	_	9	subj/m	_	AlignBegin=164865|AlignEnd=165254|GE=[3PL].[S]|Gloss=3PL.S|nWord=4|RX=[VERB]|TokenType=InflAff
 9	gey	gey	VERB	_	_	0	root	_	AlignBegin=165254|AlignEnd=165643|GE=eat|Gloss=eat|nWord=4|RX=[VT]|TokenType=Root
 
@@ -984,20 +1032,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 165643, 168910
 # morphemic_text = ( mhm ) pera ania- zagan =ekʉ kʉ- zagichʉ -y -e' =ri
-# text = ( mhm ) pera aniazaganekʉ kʉzagichʉye'ri
+# text = ( mhm ) pera ania- zagan =ekʉ kʉ- zagichʉ -y -e' =ri
 # text_en = as they were passing by where the pear was stolen
 # text_phrase-gls-es = cuando estaba pasando por donde robaron la pera
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=165643|AlignEnd=166187|nWord=1
 2	mhm	mhm	INTJ	_	_	4	discourse	_	AlignBegin=166187|AlignEnd=166731|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=166731|AlignEnd=167275|nWord=3
-4	pera	pera	NOUN	_	_	6	comp:obj	_	AlignBegin=167275|AlignEnd=167819|GE=pear|Gloss=pear|nWord=4|RX=[N]|TokenType=Root
+4	pera	pera	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=167275|AlignEnd=167819|GE=pear|Gloss=pear|nWord=4|RX=[N]|TokenType=Root
 5	ania-	_	AUX	_	_	6	mod/m	_	AlignBegin=167819|AlignEnd=168000|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
 6	zagan	zagan	VERB	_	_	7	comp	_	AlignBegin=168000|AlignEnd=168181|GE=steel|Gloss=steel|nWord=5|RX=[V]|TokenType=Root
 7	=ekʉ	_	ADP	_	_	9	mod:lmod	_	AlignBegin=168181|AlignEnd=168363|GE=[LOC]|Gloss==LOC|nWord=5|RX=[N]|TokenType=Clit
 8	kʉ-	_	AUX	_	_	9	mod/m	_	AlignBegin=168363|AlignEnd=168472|GE=[APPL1]|Gloss=APPL1|nWord=6|RX=[V>V]|TokenType=DerAff
 9	zagichʉ	zagichʉ	VERB	_	_	10	comp:aux/m	_	AlignBegin=168472|AlignEnd=168581|GE=pass|Gloss=pass|nWord=6|RX=[V]|TokenType=Root
 10	-y	_	AUX	_	_	11	comp:aux/m	_	AlignBegin=168581|AlignEnd=168690|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]|TokenType=InflAff
-11	-e'	_	AUX	_	_	_	_	_	AlignBegin=168690|AlignEnd=168799|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
+11	-e'	_	AUX	_	_	0	root	_	AlignBegin=168690|AlignEnd=168799|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
 12	=ri	_	PART	_	_	11	mod	_	AlignBegin=168799|AlignEnd=168910|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_54-54
@@ -1005,14 +1054,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 169321, 175114
 # morphemic_text = ( eh ) keywʉ , ( ach ) achʉna =ri ey =gwi pera anʉn- kʉ- tak -ʉn nu' -na
-# text = ( eh ) keywʉ , ( ach ) achʉnari eygwi pera anʉnkʉtakʉn nu'na
+# text = ( eh ) keywʉ , ( ach ) achʉna =ri ey =gwi pera anʉn- kʉ- tak -ʉn nu' -na
 # text_en = the adult was still picking pear.
 # text_phrase-gls-es = Y el senyor seguía recogiendo la pera
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=169321|AlignEnd=169767|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=169767|AlignEnd=170213|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=170213|AlignEnd=170659|nWord=3
 4	keywʉ	keywʉ	PART	_	_	16	discourse	_	AlignBegin=170659|AlignEnd=171105|GE=soon|Gloss=soon|nWord=4|RX=[PRT]|TokenType=Root
-5	,	_	PUNCT	_	_	_	_	_	AlignBegin=171105|AlignEnd=171551|nWord=5
+5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=171105|AlignEnd=171551|nWord=5
 6	(	_	PUNCT	_	_	7	punct	_	AlignBegin=171551|AlignEnd=171997|nWord=6
 7	ach	ach	X	_	_	9	discourse	_	AlignBegin=171997|AlignEnd=172443|nWord=7|TokenType=Root
 8	)	_	PUNCT	_	_	7	punct	_	AlignBegin=172443|AlignEnd=172889|nWord=8
@@ -1020,7 +1070,7 @@
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=173112|AlignEnd=173335|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
 11	ey	ey	PART	_	_	16	mod	_	AlignBegin=173335|AlignEnd=173558|GE=so|Gloss=so|nWord=10|RX=[PRT]|TokenType=Root
 12	=gwi	_	ADV	_	_	11	mod	_	AlignBegin=173558|AlignEnd=173781|GE=also|Gloss==also|nWord=10|RX=[ADV]|TokenType=Clit
-13	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	16	comp:obj	_	AlignBegin=173781|AlignEnd=174227|GE=pear|Gloss=pear|nWord=11|RX=[N]|TokenType=Root|Topic=no
+13	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Spec	16	comp:obj	_	AlignBegin=173781|AlignEnd=174227|GE=pear|Gloss=pear|nWord=11|RX=[N]|TokenType=Root|Topic=no
 14	anʉn-	_	AUX	_	_	15	mod/m	_	AlignBegin=174227|AlignEnd=174339|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]|TokenType=DerAff
 15	kʉ-	_	AUX	_	_	16	mod/m	_	AlignBegin=174339|AlignEnd=174451|GE=[APPL1]|Gloss=APPL1|nWord=12|RX=[V>V]|TokenType=DerAff
 16	tak	tak	VERB	_	_	17	comp:aux/m	_	AlignBegin=174451|AlignEnd=174563|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=12|RX=[V]|TokenType=Root|Transitivity=transitive
@@ -1033,19 +1083,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 175114, 176827
 # morphemic_text = ( anʉkʉchan ) anʉn- mi'ri kʉchari ʉn- wa'kʉ -y -e' =ri
-# text = ( anʉkʉchan ) anʉnmi'ri kʉchari ʉnwa'kʉye'ri
+# text = ( anʉkʉchan ) anʉn- mi'ri kʉchari ʉn- wa'kʉ -y -e' =ri
 # text_en = he turned back down and looked
 # text_phrase-gls-es = se regresó bajándose y miró
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=175114|AlignEnd=175400|nWord=1
 2	anʉkʉchan	anʉkʉchan	X	_	_	4	discourse	_	AlignBegin=175400|AlignEnd=175686|nWord=2|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=175686|AlignEnd=175972|nWord=3
 4	anʉn-	_	AUX	_	_	5	mod/m	_	AlignBegin=175972|AlignEnd=176115|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
-5	mi'ri	zoy	VERB	_	_	_	_	_	AlignBegin=176115|AlignEnd=176258|GE=go|Gloss=go|nWord=4|RX=[V]|TokenType=Root
-6	kʉchari	kʉchari	VERB	_	_	_	_	_	AlignBegin=176258|AlignEnd=176544|GE=go.down|Gloss=go.down|nWord=5|RX=[V]|TokenType=Root
+5	mi'ri	zoy	VERB	_	_	6	compound:svc	_	AlignBegin=176115|AlignEnd=176258|GE=go|Gloss=go|nWord=4|RX=[V]|TokenType=Root
+6	kʉchari	kʉchari	VERB	_	_	8	compound:svc	_	AlignBegin=176258|AlignEnd=176544|GE=go.down|Gloss=go.down|nWord=5|RX=[V]|TokenType=Root
 7	ʉn-	_	AUX	_	_	8	mod/m	_	AlignBegin=176544|AlignEnd=176601|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]|TokenType=DerAff
 8	wa'kʉ	wa'kʉ	VERB	_	_	9	comp:aux/m	_	AlignBegin=176601|AlignEnd=176658|GE=look|Gloss=look|nWord=6|RX=[VI]|TokenType=Root
 9	-y	_	AUX	_	_	10	comp:aux/m	_	AlignBegin=176658|AlignEnd=176715|GE=[NONEGO]|Gloss=NONEGO|nWord=6|RX=[V:ANY]|TokenType=InflAff
-10	-e'	_	AUX	_	_	_	_	_	AlignBegin=176715|AlignEnd=176772|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
+10	-e'	_	AUX	_	_	0	root	_	AlignBegin=176715|AlignEnd=176772|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
 11	=ri	_	PART	_	_	10	mod	_	AlignBegin=176772|AlignEnd=176827|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_56-56
@@ -1053,11 +1104,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 176827, 181011
 # morphemic_text = i'ngwi kʉku ko' anʉ- kʉ- chu -' zan -u' n -e' =ri
-# text = i'ngwi kʉku ko'o anʉkʉchu' zanu' ne'ri
+# text = i'ngwi kʉku ko' anʉ- kʉ- chu -' zan -u' n -e' =ri
 # text_en = and did not find one of the full baskets.
 # text_phrase-gls-es = y no encontró una canasta llena [de fruta]
+# tags = IN PROGRESS
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=176827|AlignEnd=177524|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
-2	kʉku	kʉku	NOUN	_	_	6	comp:obj	_	AlignBegin=177524|AlignEnd=178221|GE=basket|Gloss=basket|nWord=2|RX=[N]|TokenType=Root
+2	kʉku	kʉku	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=177524|AlignEnd=178221|GE=basket|Gloss=basket|nWord=2|RX=[N]|TokenType=Root
 3	ko'	ko'	ADJ	_	_	2	mod	_	AlignBegin=178221|AlignEnd=178918|GE=full|Gloss=full|nWord=3|RX=[ADJ]|TokenType=Root
 4	anʉ-	_	AUX	_	_	5	mod/m	_	AlignBegin=178918|AlignEnd=179092|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 5	kʉ-	_	AUX	_	_	6	mod/m	_	AlignBegin=179092|AlignEnd=179266|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
@@ -1066,7 +1118,7 @@
 8	zan	zan	AUX	_	_	9	comp:aux/m	_	AlignBegin=179615|AlignEnd=179963|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
 9	-u'	_	AUX	_	_	10	comp:aux	_	AlignBegin=179963|AlignEnd=180312|GE=[NEG]|Gloss=NEG|nWord=5|RX=[VERB]|TokenType=InflAff
 10	n	nan	AUX	_	_	11	comp:aux/m	_	AlignBegin=180312|AlignEnd=180545|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
-11	-e'	_	AUX	_	_	_	_	_	AlignBegin=180545|AlignEnd=180778|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
+11	-e'	_	AUX	_	_	0	root	_	AlignBegin=180545|AlignEnd=180778|GE=then|Gloss=then|nWord=6|RX=[VERB]|TokenType=InflAff
 12	=ri	_	PART	_	_	11	mod	_	AlignBegin=180778|AlignEnd=181011|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_57-57
@@ -1074,13 +1126,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 181011, 185120
 # morphemic_text = ( sh ) " inʉ =ri nʉn awa -o " a'zʉna nis -i keywʉ n -e' =ri
-# text = ( sh ) " inʉri nʉn awao " a'zʉna nisi keywʉ ne'ri
+# text = ( sh ) " inʉ =ri nʉn awa -o " a'zʉna nis -i keywʉ n -e' =ri
 # text_en = And he thought, ‘Who would do all these things to me?’
 # text_phrase-gls-es = Y él pensó " Quién me haría todas estas cosas?"
+# tags = IN PROGRESS
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=181011|AlignEnd=181353|nWord=1
-2	sh	sh	X	_	_	_	_	_	AlignBegin=181353|AlignEnd=181695|nWord=2|TokenType=Root
+2	sh	sh	X	_	_	5	conj:dicto	_	AlignBegin=181353|AlignEnd=181695|nWord=2|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=181695|AlignEnd=182037|nWord=3
-4	"	_	PUNCT	_	_	_	_	_	AlignBegin=182037|AlignEnd=182379|nWord=4
+4	"	_	PUNCT	_	_	5	punct	_	AlignBegin=182037|AlignEnd=182379|nWord=4
 5	inʉ	inʉ	PRON	_	_	8	subj	_	AlignBegin=182379|AlignEnd=182550|GE=what|Gloss=what|nWord=5|RX=[INTERROG]|TokenType=Root
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=182550|AlignEnd=182721|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 7	nʉn	nan	PRON	_	_	8	comp:obl	_	AlignBegin=182721|AlignEnd=183063|GE=[1SG]|Gloss=1SG|nWord=6|RX=[PRO]|TokenType=Root
@@ -1088,11 +1141,11 @@
 9	-o	_	AUX	_	_	11	comp:obj	_	AlignBegin=183234|AlignEnd=183405|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]|TokenType=InflAff
 10	"	_	PUNCT	_	_	9	punct	_	AlignBegin=183405|AlignEnd=183747|nWord=8
 11	a'zʉna	a'zʉna	VERB	_	_	12	comp:aux	_	AlignBegin=183747|AlignEnd=184089|GE=think|Gloss=think|nWord=9|RX=[V]|TokenType=Root
-12	nis	nik	AUX	_	_	_	_	_	AlignBegin=184089|AlignEnd=184260|GE=do|Gloss=do|nWord=10|RX=[AUX]|TokenType=Root
+12	nis	nik	AUX	_	_	16	comp:aux	_	AlignBegin=184089|AlignEnd=184260|GE=do|Gloss=do|nWord=10|RX=[AUX]|TokenType=Root
 13	-i	_	PART	_	_	12	cc	_	AlignBegin=184260|AlignEnd=184431|GE=while|Gloss=and|nWord=10|RX=[VERB]|TokenType=InflAff
 14	keywʉ	keywʉ	PART	_	_	13	discourse	_	AlignBegin=184431|AlignEnd=184773|GE=soon|Gloss=soon|nWord=11|RX=[PRT]|TokenType=Root
 15	n	nan	AUX	_	_	16	comp:aux/m	_	AlignBegin=184773|AlignEnd=184889|GE=aux|Gloss=aux|nWord=12|RX=[AUX]|TokenType=Root
-16	-e'	_	AUX	_	_	_	_	_	AlignBegin=184889|AlignEnd=185005|GE=then|Gloss=then|nWord=12|RX=[VERB]|TokenType=InflAff
+16	-e'	_	AUX	_	_	0	root	_	AlignBegin=184889|AlignEnd=185005|GE=then|Gloss=then|nWord=12|RX=[VERB]|TokenType=InflAff
 17	=ri	_	PART	_	_	16	mod	_	AlignBegin=185005|AlignEnd=185120|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_58-58
@@ -1100,9 +1153,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 187590, 192510
 # morphemic_text = gʉmʉsinʉ ʉn- winʉ- kʉ- zagich -ʉn nug -e' =ri , gey , ʉya gey =gwi ani- zagi u -w -e' =ri
-# text = gʉmʉsinʉ ʉnwinʉkʉzagichʉn nuge'ri , gey , ʉya geygwi anizagi uwe'ri
+# text = gʉmʉsinʉ ʉn- winʉ- kʉ- zagich -ʉn nug -e' =ri , gey , ʉya gey =gwi ani- zagi u -w -e' =ri
 # text_en = the children who passed eating, passed by eating this
 # text_phrase-gls-es = los ninios que pasaron pasaron comiendo esto
+# tags = IN PROGRESS
 1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	5	subj	_	AlignBegin=187590|AlignEnd=188082|GE=child|Gloss=child|nWord=1|RX=[N]|TokenType=Root
 2	ʉn-	_	AUX	_	_	3	mod/m	_	AlignBegin=188082|AlignEnd=188180|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 3	winʉ-	_	PRON	_	_	4	subj/m	_	AlignBegin=188180|AlignEnd=188278|GE=[3PL].[S]|Gloss=3PL.S|nWord=2|RX=[VERB]|TokenType=InflAff
@@ -1110,19 +1164,19 @@
 5	zagich	zagich	VERB	_	_	6	comp:aux/m	_	AlignBegin=188376|AlignEnd=188474|GE=cross|Gloss=cross|nWord=2|RX=[V]|TokenType=Root
 6	-ʉn	_	AUX	_	_	7	comp:aux	_	AlignBegin=188474|AlignEnd=188574|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
 7	nug	nik	AUX	_	_	8	comp:aux/m	_	AlignBegin=188574|AlignEnd=188738|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
-8	-e'	_	AUX	_	_	_	_	_	AlignBegin=188738|AlignEnd=188902|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
+8	-e'	_	AUX	_	_	17	subj	_	AlignBegin=188738|AlignEnd=188902|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=188902|AlignEnd=189066|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=189066|AlignEnd=189558|nWord=4
 11	gey	gey	VERB	_	_	14	conj:dicto	_	AlignBegin=189558|AlignEnd=190050|GE=eat|Gloss=eat|nWord=5|RX=[VT]|TokenType=Root
 12	,	_	PUNCT	_	_	11	punct	_	AlignBegin=190050|AlignEnd=190542|nWord=6
-13	ʉya	ʉya	PRON	_	_	14	comp:obj	_	AlignBegin=190542|AlignEnd=191034|GE=this|Gloss=this|nWord=7|RX=[PRO]|TokenType=Root
-14	gey	gey	VERB	_	_	_	_	_	AlignBegin=191034|AlignEnd=191280|GE=eat|Gloss=eat|nWord=8|RX=[VT]|TokenType=Root
+13	ʉya	ʉya	PRON	_	Case=Abs	14	comp:obj	_	AlignBegin=190542|AlignEnd=191034|GE=this|Gloss=this|nWord=7|RX=[PRO]|TokenType=Root
+14	gey	gey	VERB	_	_	17	compound:svc	_	AlignBegin=191034|AlignEnd=191280|GE=eat|Gloss=eat|nWord=8|RX=[VT]|TokenType=Root
 15	=gwi	_	ADV	_	_	14	mod	_	AlignBegin=191280|AlignEnd=191526|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
 16	ani-	_	AUX	_	_	17	mod/m	_	AlignBegin=191526|AlignEnd=191772|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]|TokenType=DerAff
 17	zagi	zagi	VERB	_	_	18	comp:aux	_	AlignBegin=191772|AlignEnd=192018|GE=cross|Gloss=cross|nWord=9|RX=[V]|TokenType=Root
 18	u	aw	AUX	_	_	19	comp:aux/m	_	AlignBegin=192018|AlignEnd=192141|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
 19	-w	_	AUX	_	_	20	comp:aux/m	_	AlignBegin=192141|AlignEnd=192264|GE=[EGO]|Gloss=EGO|nWord=10|RX=[VERB]|TokenType=InflAff
-20	-e'	_	AUX	_	_	_	_	_	AlignBegin=192264|AlignEnd=192387|GE=then|Gloss=then|nWord=10|RX=[VERB]|TokenType=InflAff
+20	-e'	_	AUX	_	_	0	root	_	AlignBegin=192264|AlignEnd=192387|GE=then|Gloss=then|nWord=10|RX=[VERB]|TokenType=InflAff
 21	=ri	_	PART	_	_	20	mod	_	AlignBegin=192387|AlignEnd=192510|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_59-59
@@ -1130,34 +1184,36 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 193160, 194827
 # morphemic_text = " azi nʉ- wʉn -no " a'zʉna nis -i =ri
-# text = " azi nʉwʉnno " a'zʉna nisiri
+# text = " azi nʉ- wʉn -no " a'zʉna nis -i =ri
 # text_en = He was left wondering ‘What happened to me?’
 # text_phrase-gls-es = Se quedó pensando "Qué me habrá pasado?"
-1	"	_	PUNCT	_	_	_	_	_	AlignBegin=193160|AlignEnd=193438|nWord=1
-2	azi	azi	ADV	_	_	_	_	_	AlignBegin=193438|AlignEnd=193716|GE=how|Gloss=how|nWord=2|RX=[INTERROG]|TokenType=Root
+# tags = IN PROGRESS
+1	"	_	PUNCT	_	_	2	punct	_	AlignBegin=193160|AlignEnd=193438|nWord=1
+2	azi	azi	ADV	_	_	4	mod	_	AlignBegin=193438|AlignEnd=193716|GE=how|Gloss=how|nWord=2|RX=[INTERROG]|TokenType=Root
 3	nʉ-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=193716|AlignEnd=193809|GE=[1SG].[O]|Gloss=1SG.O|nWord=3|RX=[V:ANY]|TokenType=InflAff
-4	wʉn	wʉn	VERB	_	_	5	comp:aux/m	_	AlignBegin=193809|AlignEnd=193902|GE=happen|Gloss=happen|nWord=3|RX=[V]|TokenType=Root
-5	-no	_	AUX	_	_	_	_	_	AlignBegin=193902|AlignEnd=193994|GE=[Q]|Gloss=Q|nWord=3|RX=[VERB]|TokenType=InflAff
+4	wʉn	wʉn	VERB	_	_	5	comp:aux	_	AlignBegin=193809|AlignEnd=193902|GE=happen|Gloss=happen|nWord=3|RX=[V]|TokenType=Root
+5	-no	_	AUX	_	_	7	comp:obj	_	AlignBegin=193902|AlignEnd=193994|GE=[Q]|Gloss=Q|nWord=3|RX=[VERB]|TokenType=InflAff
 6	"	_	PUNCT	_	_	5	punct	_	AlignBegin=193994|AlignEnd=194272|nWord=4
 7	a'zʉna	a'zʉna	VERB	_	_	8	comp:aux	_	AlignBegin=194272|AlignEnd=194550|GE=think|Gloss=think|nWord=5|RX=[V]|TokenType=Root
-8	nis	nik	AUX	_	_	_	_	_	AlignBegin=194550|AlignEnd=194642|GE=do|Gloss=do|nWord=6|RX=[AUX]|TokenType=Root
+8	nis	nik	AUX	_	_	0	root	_	AlignBegin=194550|AlignEnd=194642|GE=do|Gloss=do|nWord=6|RX=[AUX]|TokenType=Root
 9	-i	_	PART	_	_	8	cc	_	AlignBegin=194642|AlignEnd=194734|GE=while|Gloss=and|nWord=6|RX=[VERB]|TokenType=InflAff
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=194734|AlignEnd=194827|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_60-60
-# text = i'ngwi aroma kicho' ne'ri
+# text = i'ngwi aroma ki- cho' n -e' =ri
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 194827, 197298
 # morphemic_text = i'ngwi aroma ki- cho' n -e' =ri
 # text_en = He had an empty one [lit. one empty stood there for him]
 # text_phrase-gls-es = ya tenía una vacía
-1	i'ngwi	i'ngwi	NUM	_	Case=Abs	4	subj	_	AlignBegin=194827|AlignEnd=195445|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
-2	aroma	aroma	ADJ	_	_	1	mod	_	AlignBegin=195445|AlignEnd=196063|GE=empty|Gloss=empty|nWord=2|RX=[ADJ]|TokenType=Root
+# tags = IN PROGRESS
+1	i'ngwi	i'ngwi	NUM	_	Case=Abs	2	mod:num	_	AlignBegin=194827|AlignEnd=195445|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
+2	aroma	aroma	ADJ	_	_	4	subj	_	AlignBegin=195445|AlignEnd=196063|GE=empty|Gloss=empty|nWord=2|RX=[ADJ]|TokenType=Root
 3	ki-	_	AUX	_	_	4	mod/m	_	AlignBegin=196063|AlignEnd=196372|GE=[APPL3]|Gloss=APPL3|nWord=3|RX=[VERB]|TokenType=DerAff
 4	cho'	cho'	VERB	_	_	5	comp:aux	_	AlignBegin=196372|AlignEnd=196681|GE=stand|Gloss=stand|nWord=3|RX=[V]|TokenType=Root
 5	n	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=196681|AlignEnd=196887|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
-6	-e'	_	AUX	_	_	_	_	_	AlignBegin=196887|AlignEnd=197093|GE=then|Gloss=then|nWord=4|RX=[VERB]|TokenType=InflAff
+6	-e'	_	AUX	_	_	0	root	_	AlignBegin=196887|AlignEnd=197093|GE=then|Gloss=then|nWord=4|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=197093|AlignEnd=197298|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE21_61-61
@@ -1168,26 +1224,28 @@
 # text = zoya anno a'zari ey chwʉn
 # text_en = He was watching thinking ‘Did it go?’
 # text_phrase-gls-es = estaba viendo que se fue
+# tags = IN PROGRESS
 1	zoya	zoy	VERB	_	_	2	comp:aux	_	AlignBegin=197298|AlignEnd=197735|GE=go|Gloss=go|nWord=1|RX=[V]|TokenType=Root
 2	an	an	AUX	_	_	3	comp:aux/m	_	AlignBegin=197735|AlignEnd=197953|GE=[AUX]|Gloss=AUX|nWord=2|RX=[AUX]|TokenType=Root
-3	-no	_	AUX	_	_	_	_	_	AlignBegin=197953|AlignEnd=198172|GE=[Q]|Gloss=Q|nWord=2|RX=[VERB]|TokenType=InflAff
-4	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=198172|AlignEnd=198609|GE=feel|Gloss=feel|nWord=3|RX=[V]|TokenType=Root
-5	ey	ey	PART	_	_	_	_	_	AlignBegin=198609|AlignEnd=199046|GE=so|Gloss=so|nWord=4|RX=[PRT]|TokenType=Root
+3	-no	_	AUX	_	_	4	comp:obj	_	AlignBegin=197953|AlignEnd=198172|GE=[Q]|Gloss=Q|nWord=2|RX=[VERB]|TokenType=InflAff
+4	a'zari	a'zari	VERB	_	_	6	compound:svc	_	AlignBegin=198172|AlignEnd=198609|GE=feel|Gloss=feel|nWord=3|RX=[V]|TokenType=Root
+5	ey	ey	PART	_	_	6	discourse	_	AlignBegin=198609|AlignEnd=199046|GE=so|Gloss=so|nWord=4|RX=[PRT]|TokenType=Root
 6	chwʉ	chwʉ	VERB	_	_	7	comp:aux/m	_	AlignBegin=199046|AlignEnd=199264|GE=see|Gloss=see|nWord=5|RX=[VT]|TokenType=Root
-7	-n	_	AUX	_	_	_	_	_	AlignBegin=199264|AlignEnd=199482|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
+7	-n	_	AUX	_	_	0	root	_	AlignBegin=199264|AlignEnd=199482|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE21_62-62
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-21.WAV/WAV/ARH-TXT-PE-00000-21.WAV
 # sent_timecode = 199482, 202240
 # morphemic_text = nuk -u' nʉ- nh- a -o
-# text = nuku' nʉnhao
+# text = nuk -u' nʉ- nh- a -o
 # text_en = That was it, wasn't it?
 # text_phrase-gls-es = eso fue / así fue
+# tags = IN PROGRESS
 1	nuk	nuk	AUX	_	_	2	comp:aux/m	_	AlignBegin=199482|AlignEnd=200172|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
-2	-u'	_	AUX	_	_	_	_	_	AlignBegin=200172|AlignEnd=200861|GE=[NEG]|Gloss=NEG|nWord=1|RX=[VERB]|TokenType=InflAff
+2	-u'	_	AUX	_	_	6	discourse	_	AlignBegin=200172|AlignEnd=200861|GE=[NEG]|Gloss=NEG|nWord=1|RX=[VERB]|TokenType=InflAff
 3	nʉ-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=200861|AlignEnd=201206|GE=[1SG].[O]|Gloss=1SG.O|nWord=2|RX=[V:ANY]|TokenType=InflAff
 4	nh-	_	AUX	_	_	5	comp:aux	_	AlignBegin=201206|AlignEnd=201551|GE=[APPL2]|Gloss=APPL2|nWord=2|RX=[V>V]|TokenType=DerAff
 5	a	aw	AUX	_	_	6	comp:aux/m	_	AlignBegin=201551|AlignEnd=201896|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
-6	-o	_	AUX	_	_	_	_	_	AlignBegin=201896|AlignEnd=202240|GE=[Q]|Gloss=Q|nWord=2|RX=[VERB]|TokenType=InflAff
+6	-o	_	AUX	_	_	0	root	_	AlignBegin=201896|AlignEnd=202240|GE=[Q]|Gloss=Q|nWord=2|RX=[VERB]|TokenType=InflAff
 

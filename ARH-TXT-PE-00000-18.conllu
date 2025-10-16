@@ -32,7 +32,7 @@
 # text_phrase-gls-es = Hay un hombre que tiene un sombrero
 1	i'ngwi	i'ngwi	NUM	_	_	2	mod:num	_	AlignBegin=6690|AlignEnd=7243|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	teti	teti	NOUN	_	_	5	comp:obl	_	AlignBegin=7243|AlignEnd=7796|GE=man|Gloss=man|nWord=2|RX=[N]|TokenType=Root
-3	sombrenu	sombrenu	NOUN	_	_	4	comp:obj	_	AlignBegin=7796|AlignEnd=8349|GE=hat|Gloss=hat|nWord=3|RX=[N]|TokenType=Root
+3	sombrenu	sombrenu	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=7796|AlignEnd=8349|GE=hat|Gloss=hat|nWord=3|RX=[N]|TokenType=Root
 4	pa	pa	VERB	_	_	_	_	_	AlignBegin=8349|AlignEnd=8902|GE=put[plane]|Gloss=put[plane]|nWord=4|RX=[V]|TokenType=Root
 5	kaw	kaw	AUX	_	_	6	comp:aux/m	_	AlignBegin=8902|AlignEnd=9178|GE=seem|Gloss=seem|nWord=5|RX=[AUX]|TokenType=Root
 6	-in	_	AUX	_	_	_	_	_	AlignBegin=9178|AlignEnd=9455|GE=[DECL]|Gloss=DECL|nWord=5|RX=[V:ANY]|TokenType=InflAff
@@ -56,7 +56,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 12470, 16220
 # morphemic_text = ʉya =ri ey inʉ ʉn- kʉ- tak -ʉn ,
-# text = ʉyari ey inʉ ʉnkʉtakʉn ,
+# text = ʉya =ri ey inʉ ʉn- kʉ- tak -ʉn ,
 # text_en = he is looking for something
 # text_phrase-gls-es = él está buscando algo
 1	ʉya	ʉya	PRON	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=no|AlignBegin=12470|AlignEnd=12845|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root|Topic=yes
@@ -65,7 +65,7 @@
 4	inʉ	inʉ	PRON	_	Animacy=Inan|Case=Abs|Definite=Ind	7	comp:obj	_	AlignBegin=13970|AlignEnd=14720|GE=what|Gloss=what|nWord=3|RX=[INTERROG]|TokenType=Root|Topic=no
 5	ʉn-	_	AUX	_	_	6	mod/m	_	AlignBegin=14720|AlignEnd=14908|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 6	kʉ-	_	AUX	_	_	7	mod/m	_	AlignBegin=14908|AlignEnd=15096|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
-7	tak	tak	VERB	_	_	8	comp:aux/m	_	AlignBegin=15096|AlignEnd=15284|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=4|RX=[V]|TokenType=Root|Transitivity=transitive
+7	tak	tak	VERB	_	_	8	comp:aux/m	_	AlignBegin=15096|AlignEnd=15284|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=4|RX=[V]|TokenType=Root|Transitivity=ditransitive
 8	-ʉn	_	AUX	_	_	0	root	_	AlignBegin=15284|AlignEnd=15470|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]|TokenType=InflAff
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=15470|AlignEnd=16220|nWord=5
 
@@ -74,15 +74,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 16220, 18560
 # morphemic_text = pera ʉn- kʉ- tak -ʉn nus -i
-# text = pera ʉnkʉtakʉn nusi
+# text = pera ʉn- kʉ- tak -ʉn nus -i
 # text_en = he is looking for the pears
 # text_phrase-gls-es = buscando las peras
-1	pera	pera	NOUN	_	_	4	comp:obj	_	AlignBegin=16220|AlignEnd=17000|GE=pear|Gloss=pear|nWord=1|RX=[N]|TokenType=Root
+1	pera	pera	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=16220|AlignEnd=17000|GE=pear|Gloss=pear|nWord=1|RX=[N]|TokenType=Root
 2	ʉn-	_	AUX	_	_	3	mod/m	_	AlignBegin=17000|AlignEnd=17195|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 3	kʉ-	_	AUX	_	_	4	mod/m	_	AlignBegin=17195|AlignEnd=17390|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]|TokenType=DerAff
-4	tak	tak	VERB	_	_	5	comp:aux/m	_	AlignBegin=17390|AlignEnd=17585|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root
+4	tak	tak	VERB	_	_	5	comp:aux/m	_	AlignBegin=17390|AlignEnd=17585|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root|Transitivity=ditransitive
 5	-ʉn	_	AUX	_	_	6	comp:aux	_	AlignBegin=17585|AlignEnd=17780|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
-6	nus	nuk	AUX	_	_	_	_	_	AlignBegin=17780|AlignEnd=18170|GE=aux|Gloss=aux|nWord=3|RX=[COP]|TokenType=Root
+6	nus	nuk	AUX	_	_	0	root	_	AlignBegin=17780|AlignEnd=18170|GE=aux|Gloss=aux|nWord=3|RX=[COP]|TokenType=Root
 7	-i	_	PART	_	_	6	cc	_	AlignBegin=18170|AlignEnd=18560|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE18_06-06
@@ -94,7 +94,7 @@
 # text_en = He had the clothes there [on him].
 # text_phrase-gls-es = Tenía la ropa allí [en el mismo]
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=18560|AlignEnd=19316|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
-2	mʉkʉ	mʉkʉ	NOUN	_	_	4	comp:obj	_	AlignBegin=19316|AlignEnd=20072|GE=cloth|Gloss=cloth|nWord=2|RX=[N]|TokenType=Root
+2	mʉkʉ	mʉkʉ	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=19316|AlignEnd=20072|GE=cloth|Gloss=cloth|nWord=2|RX=[N]|TokenType=Root
 3	ka-	_	AUX	_	_	4	mod/m	_	AlignBegin=20072|AlignEnd=20324|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
 4	nus	nuk	VERB	_	_	5	comp:aux/m	_	AlignBegin=20324|AlignEnd=20576|GE=stand|Gloss=stand|nWord=3|RX=[V]|TokenType=Root
 5	-i	_	PART	_	_	_	_	_	AlignBegin=20576|AlignEnd=20828|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
@@ -107,7 +107,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 22530, 28810
 # morphemic_text = ey re'- kʉs -ʉkwey =gwi kaw -i ( ʉn- kʉ- ta ) ʉn- kʉ- tak -ʉn nus -i
-# text = ey re'kʉsʉkweygwi kawi ( ʉnkʉta ) ʉnkʉtakʉn nusi
+# text = ey re'- kʉs -ʉkwey =gwi kaw -i ( ʉn- kʉ- ta ) ʉn- kʉ- tak -ʉn nus -i
 # text_en = where [fruit] can be put that he was looking for.
 # text_phrase-gls-es = donde se pueda echar [la fruta] que estaba buscando.
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=22530|AlignEnd=23315|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
@@ -120,11 +120,11 @@
 8	(	_	PUNCT	_	_	9	punct	_	AlignBegin=24885|AlignEnd=25670|nWord=4
 9	ʉn-	_	AUX	_	_	10	mod/m	_	AlignBegin=25670|AlignEnd=25932|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
 10	kʉ-	_	AUX	_	_	11	mod/m	_	AlignBegin=25932|AlignEnd=26194|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]|TokenType=DerAff
-11	ta	ta	VERB	_	_	_	_	_	AlignBegin=26194|AlignEnd=26455|GE=take|Gloss=take|nWord=5|RX=[V]|TokenType=Root
+11	ta	ta	VERB	_	_	15	discourse	_	AlignBegin=26194|AlignEnd=26455|GE=take|Gloss=take|nWord=5|RX=[V]|TokenType=Root
 12	)	_	PUNCT	_	_	11	punct	_	AlignBegin=26455|AlignEnd=27240|nWord=6
 13	ʉn-	_	AUX	_	_	14	mod/m	_	AlignBegin=27240|AlignEnd=27436|GE=[MID]|Gloss=MID|nWord=7|RX=[V>V]|TokenType=DerAff
 14	kʉ-	_	AUX	_	_	15	mod/m	_	AlignBegin=27436|AlignEnd=27632|GE=[APPL1]|Gloss=APPL1|nWord=7|RX=[V>V]|TokenType=DerAff
-15	tak	tak	VERB	_	_	16	comp:aux/m	_	AlignBegin=27632|AlignEnd=27828|GE=take|Gloss=take|nWord=7|RX=[V]|TokenType=Root
+15	tak	tak	VERB	_	_	16	comp:aux/m	_	AlignBegin=27632|AlignEnd=27828|GE=take|Gloss=take|nWord=7|RX=[V]|TokenType=Root|Transitivity=ditransitive
 16	-ʉn	_	AUX	_	_	17	comp:aux	_	AlignBegin=27828|AlignEnd=28025|GE=[IPFV]|Gloss=IPFV|nWord=7|RX=[VERB]|TokenType=InflAff
 17	nus	nuk	AUX	_	_	_	_	_	AlignBegin=28025|AlignEnd=28417|GE=aux|Gloss=aux|nWord=8|RX=[COP]|TokenType=Root
 18	-i	_	PART	_	_	17	cc	_	AlignBegin=28417|AlignEnd=28810|GE=while|Gloss=and|nWord=8|RX=[VERB]|TokenType=InflAff
@@ -189,7 +189,7 @@
 4	ka'ku	ka'ku	NOUN	_	_	7	conj:dicto	_	AlignBegin=36808|AlignEnd=37410|GE=basket|Gloss=basket|nWord=3|RX=[N]|TokenType=Root
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=37410|AlignEnd=38012|nWord=4
 6	mowga	mowga	NUM	_	_	7	mod:num	_	AlignBegin=38012|AlignEnd=38614|GE=two|Gloss=two|nWord=5|RX=[NUM]|TokenType=Root
-7	ka'ku	ka'ku	NOUN	_	_	11	comp:obj	_	AlignBegin=38614|AlignEnd=38915|GE=basket|Gloss=basket|nWord=6|RX=[N]|TokenType=Root
+7	ka'ku	ka'ku	NOUN	_	Case=Abs	11	comp:obj	_	AlignBegin=38614|AlignEnd=38915|GE=basket|Gloss=basket|nWord=6|RX=[N]|TokenType=Root
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=38915|AlignEnd=39216|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 9	ko'	ko'	ADJ	_	_	11	comp:pred	_	AlignBegin=39216|AlignEnd=39818|GE=full|Gloss=full|nWord=7|RX=[ADJ]|TokenType=Root
 10	ka-	_	AUX	_	_	11	comp:aux	_	AlignBegin=39818|AlignEnd=40019|GE=[APPL1]|Gloss=APPL1|nWord=8|RX=[V>V]|TokenType=DerAff
@@ -221,14 +221,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 44054, 47143
 # morphemic_text = ey =gwi ʉn- kʉ- tak -ʉn , karera ey kʉ- nusi n -e' =ri
-# text = eygwi ʉnkʉtakʉn , karera ey kʉnusi ne'ri
+# text = ey =gwi ʉn- kʉ- tak -ʉn , karera ey kʉ- nusi n -e' =ri
 # text_en = He looked [for pears] again, as the ladder is set up
 # text_phrase-gls-es = recoge otra vez, como la escalera está puesta
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=44054|AlignEnd=44274|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	=gwi	_	ADV	_	_	1	mod	_	AlignBegin=44274|AlignEnd=44495|GE=also|Gloss==also|nWord=1|RX=[ADV]|TokenType=Clit
 3	ʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=44495|AlignEnd=44605|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	kʉ-	_	AUX	_	_	5	mod/m	_	AlignBegin=44605|AlignEnd=44715|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]|TokenType=DerAff
-5	tak	tak	VERB	_	_	6	comp:aux/m	_	AlignBegin=44715|AlignEnd=44825|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root
+5	tak	tak	VERB	_	_	6	comp:aux/m	_	AlignBegin=44715|AlignEnd=44825|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root|Transitivity=ditransitive
 6	-ʉn	_	AUX	_	_	_	_	_	AlignBegin=44825|AlignEnd=44936|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=44936|AlignEnd=45377|nWord=3
 8	karera	karera	NOUN	_	_	11	comp:pred	_	AlignBegin=45377|AlignEnd=45818|GE=ladder|Gloss=ladder|nWord=4|RX=[N]|TokenType=Root
@@ -244,7 +244,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 47148, 49570
 # morphemic_text = yʉnke =ta' ichor -i ey =gwi ʉn- kʉ- tak -ʉn nug -e' =ri
-# text = yʉnketa' ichori eygwi ʉnkʉtakʉn nuge'ri
+# text = yʉnke =ta' ichor -i ey =gwi ʉn- kʉ- tak -ʉn nug -e' =ri
 # text_en = He was picking up going up over there [on the ladder].
 # text_phrase-gls-es = estaba recogiendo montándose por allí [la escalera]
 1	yʉnke	yʉnke	ADV	_	_	2	comp	_	AlignBegin=47148|AlignEnd=47390|GE=over there|Gloss=over there|nWord=1|RX=[ADV]|TokenType=Root
@@ -255,7 +255,7 @@
 6	=gwi	_	ADV	_	_	5	mod	_	AlignBegin=48358|AlignEnd=48600|GE=also|Gloss==also|nWord=3|RX=[ADV]|TokenType=Clit
 7	ʉn-	_	AUX	_	_	8	mod/m	_	AlignBegin=48600|AlignEnd=48721|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 8	kʉ-	_	AUX	_	_	9	mod/m	_	AlignBegin=48721|AlignEnd=48842|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
-9	tak	tak	VERB	_	_	10	comp:aux/m	_	AlignBegin=48842|AlignEnd=48963|GE=take|Gloss=take|nWord=4|RX=[V]|TokenType=Root
+9	tak	tak	VERB	_	_	10	comp:aux/m	_	AlignBegin=48842|AlignEnd=48963|GE=take|Gloss=take|nWord=4|RX=[V]|TokenType=Root|Transitivity=ditransitive
 10	-ʉn	_	AUX	_	_	11	comp:aux	_	AlignBegin=48963|AlignEnd=49084|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]|TokenType=InflAff
 11	nug	nik	AUX	_	_	12	comp:aux/m	_	AlignBegin=49084|AlignEnd=49246|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
 12	-e'	_	AUX	_	_	_	_	_	AlignBegin=49246|AlignEnd=49408|GE=then|Gloss=then|nWord=5|RX=[VERB]|TokenType=InflAff
@@ -275,7 +275,7 @@
 4	=gwi	_	ADV	_	_	3	mod	_	AlignBegin=52944|AlignEnd=53537|GE=also|Gloss==also|nWord=3|RX=[ADV]|TokenType=Clit
 5	kawa	kaw	AUX	_	Animacy=Anim|Case=Erg|Definite=Def	8	subj	_	AgentShift=yes|AlignBegin=53537|AlignEnd=54131|GE=seem|Gloss=seem|nWord=4|RX=[AUX]|ShiftType=full|TokenType=Root|Topic=yes
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=54131|AlignEnd=54724|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
-7	chiwako'ku	chiwako'ku	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	8	comp:obj	_	AlignBegin=54724|AlignEnd=55911|GE=goat|Gloss=goat|nWord=5|RX=[N]|TokenType=Root|Topic=no
+7	chiwako'ku	chiwako'ku	NOUN	_	Animacy=Anim|Case=Abs|Definite=Spec	8	comp:obj	_	AlignBegin=54724|AlignEnd=55911|GE=goat|Gloss=goat|nWord=5|RX=[N]|TokenType=Root|Topic=no
 8	agisi	agis	VERB	_	_	_	_	_	AlignBegin=55911|AlignEnd=57098|ArgumentOrder=SOV|GE=tie.up|Gloss=tie.up|nWord=6|RX=[V]|TokenType=Root|Transitivity=transitive
 9	ʉyan	ʉyan	ADV	_	_	10	comp	_	AlignBegin=57098|AlignEnd=57395|GE=over.there|Gloss=over.there|nWord=7|RX=[ADV]|TokenType=Root
 10	=ke	_	ADP	_	_	11	comp	_	AlignBegin=57395|AlignEnd=57692|GE=[LOC]|Gloss==LOC|nWord=7|RX=[N]|TokenType=Clit
@@ -293,7 +293,7 @@
 # text_en = As it was a public road, he passed by that way
 # text_phrase-gls-es = como era un camino público pasó por allí
 # text_phrase-gls-tl = ingunü gaka
-1	ingwunʉ	ingwunʉ	NOUN	_	_	2	comp:obj	_	AlignBegin=59482|AlignEnd=59954|GE=way|Gloss=way|nWord=1|RX=[N]|TokenType=Root
+1	ingwunʉ	ingwunʉ	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=59482|AlignEnd=59954|GE=way|Gloss=way|nWord=1|RX=[N]|TokenType=Root
 2	gaka	gaka	VERB	_	_	_	_	_	AlignBegin=59954|AlignEnd=60426|GE=put|Gloss=put|nWord=2|RX=[V]|TokenType=Root
 3	gun-	_	AUX	_	_	4	mod/m	_	AlignBegin=60426|AlignEnd=60544|GE=[GU]|Gloss=GU|nWord=3|RX=[V:ANY]|TokenType=InflAff
 4	zʉn	zan	VERB	_	_	5	comp:aux/m	_	AlignBegin=60544|AlignEnd=60662|GE=think|Gloss=think|nWord=3|RX=[V]|TokenType=Root
@@ -344,7 +344,7 @@
 8	i'ngwi	i'ngwi	NUM	_	_	9	mod:num	_	AlignBegin=70717|AlignEnd=71341|GE=one|Gloss=one|nWord=5|RX=[NUM]|TokenType=Root
 9	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	13	comp:obl	_	AlignBegin=71341|AlignEnd=71965|GE=child|Gloss=child|nWord=6|RX=[N]|TokenType=Root
 10	sombrenu	sombrenu	NOUN	_	Case=Abs	11	subj	_	AlignBegin=71965|AlignEnd=72589|GE=hat|Gloss=hat|nWord=7|RX=[N]|TokenType=Root
-11	a'pa	a'pa	VERB	_	_	13	comp:obj	_	AlignBegin=72589|AlignEnd=72901|GE=exist|Gloss=exist|nWord=8|RX=[V]|TokenType=Root
+11	a'pa	a'pa	VERB	_	Case=Abs	13	comp:obj	_	AlignBegin=72589|AlignEnd=72901|GE=exist|Gloss=exist|nWord=8|RX=[V]|TokenType=Root
 12	=gwi	_	ADV	_	_	11	mod	_	AlignBegin=72901|AlignEnd=73213|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
 13	kaw	kaw	AUX	_	_	_	_	_	AlignBegin=73213|AlignEnd=73525|GE=seem|Gloss=seem|nWord=9|RX=[AUX]|TokenType=Root
 14	-i	_	PART	_	_	13	cc	_	AlignBegin=73525|AlignEnd=73837|GE=while|Gloss=and|nWord=9|RX=[VERB]|TokenType=InflAff
@@ -384,7 +384,7 @@
 # text = i'ngwi ingʉ a'guka zʉn uwa a'zanay ni naɉʉ
 # text_en = He wanted to grab a bit of one [of these baskets].
 # text_phrase-gls-es = se le notaba que quería agarrar un poco de una [de estas canastas]
-1	i'ngwi	i'ngwi	NUM	_	_	3	comp:obj	_	AlignBegin=82844|AlignEnd=83395|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
+1	i'ngwi	i'ngwi	NUM	_	Case=Abs	3	comp:obj	_	AlignBegin=82844|AlignEnd=83395|GE=one|Gloss=one|nWord=1|RX=[NUM]|TokenType=Root
 2	ingʉ	ingʉ	ADJ	_	_	_	_	_	AlignBegin=83395|AlignEnd=83946|GE=few|Gloss=few|nWord=2|RX=[ADJ]|TokenType=Root
 3	a'guk	a'guk	VERB	_	_	4	comp:aux/m	_	AlignBegin=83946|AlignEnd=84222|GE=take.out|Gloss=take.out|nWord=3|RX=[VT]|TokenType=Root
 4	-a	_	AUX	_	_	5	comp:aux	_	AlignBegin=84222|AlignEnd=84497|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]|TokenType=InflAff
@@ -398,18 +398,18 @@
 12	-aɉʉ	_	AUX	_	_	_	_	_	AlignBegin=86978|AlignEnd=87255|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=8|RX=[V:ANY]|TokenType=InflAff
 
 # sent_id = PE18_21-21
-# text = eyma zʉpawri pera takʉn nuga wa'rekʉ inuga chwʉye'ri
+# text = eyma zʉ- paw =ri pera tak -ʉn nug -a wa'rekʉ i- nug -a chwʉ -y -e' =ri
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 88299, 93280
 # morphemic_text = eyma zʉ- paw =ri pera tak -ʉn nug -a wa'rekʉ i- nug -a chwʉ -y -e' =ri
-# text_en = He saw that the owner of the pear was up [in the tree] picking pears.
+# text_en = He saw that the owner [of the pear] was up [in the tree] picking pears.
 # text_phrase-gls-es = vio que el duenio de la pera estaba arriba
 1	eyma	eyma	DET	_	_	3	det	_	AlignBegin=88299|AlignEnd=88922|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	zʉ-	zʉ-	PART	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=yes|AlignBegin=88922|AlignEnd=89130|GE=[POSS]|Gloss=POSS|nWord=2|RX=[N:ANY]|ShiftType=partial|TokenType=InflAff|Topic=yes
 3	paw	paw	NOUN	_	_	2	comp	_	AlignBegin=89130|AlignEnd=89338|GE=owner|Gloss=owner|nWord=2|RX=[N]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=89338|AlignEnd=89545|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-5	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	2	udep:poss	_	AlignBegin=89545|AlignEnd=90168|GE=pear|Gloss=pear|nWord=3|RX=[N]|TokenType=Root|Topic=no
+5	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Spec	6	comp:obj	_	AlignBegin=89545|AlignEnd=90168|GE=pear|Gloss=pear|nWord=3|RX=[N]|TokenType=Root|Topic=no
 6	tak	tak	VERB	_	_	7	comp:aux/m	_	AlignBegin=90168|AlignEnd=90480|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=4|RX=[V]|TokenType=Root|Transitivity=transitive
 7	-ʉn	_	AUX	_	_	8	comp:aux	_	AlignBegin=90480|AlignEnd=90791|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]|TokenType=InflAff
 8	nug	nik	AUX	_	_	9	comp:aux/m	_	AlignBegin=90791|AlignEnd=91103|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
@@ -417,7 +417,7 @@
 10	wa'rekʉ	wa'rekʉ	ADV	_	_	12	comp:pred	_	AlignBegin=91414|AlignEnd=92037|GE=high|Gloss=high|nWord=6|RX=[ADV]|TokenType=Root
 11	i-	_	AUX	_	_	12	comp:aux	_	AlignBegin=92037|AlignEnd=92245|GE=[APPL2]|Gloss=APPL2|nWord=7|RX=[V>V]|TokenType=DerAff
 12	nug	nik	AUX	_	_	13	comp:aux/m	_	AlignBegin=92245|AlignEnd=92453|GE=aux|Gloss=aux|nWord=7|RX=[AUX]|TokenType=Root
-13	-a	_	AUX	_	_	14	comp:obj	_	AlignBegin=92453|AlignEnd=92660|GE=[PFV]|Gloss=PFV|nWord=7|RX=[V:ANY]|TokenType=InflAff
+13	-a	_	AUX	_	Case=Abs	14	comp:obj	_	AlignBegin=92453|AlignEnd=92660|GE=[PFV]|Gloss=PFV|nWord=7|RX=[V:ANY]|TokenType=InflAff
 14	chwʉ	chwʉ	VERB	_	_	15	comp:aux/m	_	AlignBegin=92660|AlignEnd=92815|GE=see|Gloss=see|nWord=8|RX=[VT]|TokenType=Root
 15	-y	_	AUX	_	_	16	comp:aux/m	_	AlignBegin=92815|AlignEnd=92970|GE=[NONEGO]|Gloss=NONEGO|nWord=8|RX=[V:ANY]|TokenType=InflAff
 16	-e'	_	AUX	_	_	0	root	_	AlignBegin=92970|AlignEnd=93125|GE=then|Gloss=then|nWord=8|RX=[VERB]|TokenType=InflAff
@@ -452,7 +452,7 @@
 1	aɉumeka	aɉumeka	NOUN	_	_	15	discourse	_	AlignBegin=95898|AlignEnd=96239|GE=instant thought|Gloss=instant thought|nWord=1|RX=[N]|TokenType=Root
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=96239|AlignEnd=96580|nWord=2
 3	"	_	PUNCT	_	_	_	_	_	AlignBegin=96580|AlignEnd=96921|nWord=3
-4	yow	yow	PRON	_	_	7	comp:obj	_	AlignBegin=96921|AlignEnd=97262|GE=all|Gloss=all|nWord=4|RX=[QUANT]|TokenType=Root
+4	yow	yow	PRON	_	Case=Abs	7	comp:obj	_	AlignBegin=96921|AlignEnd=97262|GE=all|Gloss=all|nWord=4|RX=[QUANT]|TokenType=Root
 5	ʉn-	_	AUX	_	_	6	mod/m	_	AlignBegin=97262|AlignEnd=97376|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
 6	k-	_	AUX	_	_	7	mod/m	_	AlignBegin=97376|AlignEnd=97490|GE=[APPL1]|Gloss=APPL1|nWord=5|RX=[V>V]|TokenType=DerAff
 7	ʉzoya	ʉzoya	VERB	_	_	8	comp:aux	_	AlignBegin=97490|AlignEnd=97603|GE=take|Gloss=take|nWord=5|RX=[VT]|TokenType=Root
@@ -536,7 +536,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 110915, 115343
 # morphemic_text = ʉw -e' =ri yagʉ =se' =ri a'paw =se' =ri chu -' =kʉchʉ ni
-# text = ʉwe'ri yagʉse'ri a'pawse'ri chu'kʉchʉ ni
+# text = ʉw -e' =ri yagʉ =se' =ri a'paw =se' =ri chu -' =kʉchʉ ni
 # text_en = But the, well, owner did not see it
 # text_phrase-gls-es = Pero el duenio no lo vio
 1	ʉw	aw	AUX	_	DerPos=PART	2	comp:aux/m	_	AlignBegin=110915|AlignEnd=111210|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
@@ -548,7 +548,7 @@
 7	a'paw	a'paw	NOUN	_	_	8	comp	_	AlignBegin=112687|AlignEnd=112982|GE=owner|Gloss=owner|nWord=3|RX=[N]|TokenType=Root
 8	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	10	subj	_	AgentShift=yes|AlignBegin=112982|AlignEnd=113277|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=yes
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=113277|AlignEnd=113573|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
-10	chu	chu	VERB	_	_	11	comp:aux/m	_	AlignBegin=113573|AlignEnd=113868|ArgumentOrder=SV|GE=see|Gloss=see|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
+10	chu	chu	VERB	_	Animacy=Inan|Definite=Spec	11	comp:aux/m	_	AlignBegin=113573|AlignEnd=113868|ArgumentOrder=SV|GE=see|Gloss=see|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
 11	-'	_	AUX	_	_	13	comp:aux	_	AlignBegin=113868|AlignEnd=114163|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]|TokenType=InflAff
 12	=kʉchʉ	_	PART	_	_	11	mod	_	AlignBegin=114163|AlignEnd=114459|GE=[EMPH]|Gloss==EMPH|nWord=4|RX=[PRT]|TokenType=Clit
 13	ni	nan	AUX	_	_	0	root	_	AlignBegin=114459|AlignEnd=115343|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]|TokenType=Root
@@ -593,12 +593,12 @@
 13	=ri	_	PART	_	_	12	mod	_	AlignBegin=121360|AlignEnd=121560|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE18_30-30
+# text = ʉyase'ri sumbrero a'chiwisi izagichay nisiri
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 121740, 127190
 # morphemic_text = ʉya =se' =ri sumbrero a'chiwis -i i- zagich -ay nis -i =ri
-# text = ʉyase'ri sumbrero a'chiwisi izagichay nisiri
-# text_en = she passed by taking his hat off. |
+# text_en = she took his hat off passing by
 # text_phrase-gls-es = ella pasó como quitándole el sombrero.
 1	ʉya	ʉya	PRON	_	_	2	comp	_	AlignBegin=121740|AlignEnd=122103|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root
 2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=no|AlignBegin=122103|AlignEnd=122466|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|TokenType=Clit|Topic=yes
@@ -673,7 +673,7 @@
 # text_phrase-gls-es = se chocó con la bicicleta
 1	ʉy	ʉy	PRON	_	_	2	comp	_	AlignBegin=133313|AlignEnd=133594|GE=this|Gloss=this|nWord=1|RX=[PRO]|TokenType=Root
 2	=a'ba'	_	ADP	_	_	5	mod:lmod	_	AlignBegin=133594|AlignEnd=133875|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
-3	sikla	sikla	NOUN	_	_	5	comp:obj	_	AlignBegin=133875|AlignEnd=134437|GE=bicycle|Gloss=bicycle|nWord=2|RX=[N]|TokenType=Root
+3	sikla	sikla	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=133875|AlignEnd=134437|GE=bicycle|Gloss=bicycle|nWord=2|RX=[N]|TokenType=Root
 4	k-	_	AUX	_	_	5	mod/m	_	AlignBegin=134437|AlignEnd=134625|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
 5	a'chugin	a'chugin	VERB	_	_	6	comp:aux/m	_	AlignBegin=134625|AlignEnd=134813|GE=crash|Gloss=crash|nWord=3|RX=[V]|TokenType=Root
 6	-na	_	AUX	_	_	_	_	_	AlignBegin=134813|AlignEnd=135000|GE=[RMTPST]|Gloss=RMTPST|nWord=3|RX=[VERB]|TokenType=InflAff
@@ -780,7 +780,7 @@
 # morphemic_text = yow i- gunamʉsa
 # text_en = They helped him in every way [lit. all]
 # text_phrase-gls-es = le ayudaron en todo
-1	yow	yow	PRON	_	_	3	comp:obj	_	AlignBegin=152280|AlignEnd=153015|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
+1	yow	yow	PRON	_	Case=Abs	3	comp:obj	_	AlignBegin=152280|AlignEnd=153015|GE=all|Gloss=all|nWord=1|RX=[QUANT]|TokenType=Root
 2	i-	_	AUX	_	_	3	mod/m	_	AlignBegin=153015|AlignEnd=153383|GE=[APPL2]|Gloss=APPL2|nWord=2|RX=[V>V]|TokenType=DerAff
 3	gunamʉsa	gunamʉsa	VERB	_	_	_	_	_	AlignBegin=153383|AlignEnd=153750|GE=help|Gloss=help|nWord=2|RX=[V]|TokenType=Root
 
@@ -794,7 +794,7 @@
 # text_phrase-gls-es = le echaron todo en la canasta
 1	ka'ku	ka'ku	NOUN	_	_	2	comp	_	AlignBegin=153750|AlignEnd=154091|GE=basket|Gloss=basket|nWord=1|RX=[N]|TokenType=Root
 2	=se'	_	ADP	_	_	4	mod:lmod	_	AlignBegin=154091|AlignEnd=154432|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
-3	yow	yow	PRON	_	_	4	comp:obj	_	AlignBegin=154432|AlignEnd=155114|GE=all|Gloss=all|nWord=2|RX=[QUANT]|TokenType=Root
+3	yow	yow	PRON	_	Case=Abs	4	comp:obj	_	AlignBegin=154432|AlignEnd=155114|GE=all|Gloss=all|nWord=2|RX=[QUANT]|TokenType=Root
 4	ka's	ka's	VERB	_	_	5	comp:aux/m	_	AlignBegin=155114|AlignEnd=155455|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
 5	-a	_	AUX	_	_	6	comp:aux	_	AlignBegin=155455|AlignEnd=155796|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]|TokenType=InflAff
 6	un	un	AUX	_	_	7	comp:aux/m	_	AlignBegin=155796|AlignEnd=156024|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
@@ -834,7 +834,7 @@
 # text_phrase-gls-es = más adelante los tres ninios encontraron el sombrero que estaba en el suelo
 1	yamʉn	yamʉn	ADV	_	_	2	comp	_	AlignBegin=161432|AlignEnd=161718|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
 2	=ka	_	ADP	_	_	15	mod:lmod	_	AlignBegin=161718|AlignEnd=162005|GE=[LOC]|Gloss==LOC|nWord=1|RX=[N]|TokenType=Clit
-3	sombrenu	sombrenu	NOUN	_	_	4	comp:obj	_	AlignBegin=162005|AlignEnd=162578|GE=hat|Gloss=hat|nWord=2|RX=[N]|TokenType=Root
+3	sombrenu	sombrenu	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=162005|AlignEnd=162578|GE=hat|Gloss=hat|nWord=2|RX=[N]|TokenType=Root
 4	pa'	pa'	VERB	_	_	5	comp:aux	_	AlignBegin=162578|AlignEnd=163151|GE=put[plane]|Gloss=put[plane]|nWord=3|RX=[V]|TokenType=Root
 5	n	nan	AUX	_	_	6	comp:aux/m	_	AlignBegin=163151|AlignEnd=163437|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 6	-eyka	-eyka	AUX	_	Animacy=Inan|Case=Abs|Definite=Def	15	comp:obj	_	AlignBegin=163437|AlignEnd=163724|GE=[EYKA]|Gloss=EYKA|nWord=4|RX=[V:ANY]|TokenType=InflAff|Topic=no
@@ -856,13 +856,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 169032, 173040
 # morphemic_text = ingeygwi =se' =ri guk -a aw -i =ri ey =gwi kʉ- zoya ʉw -in sʉmbrenu
-# text = ingeygwise'ri guka awiri eygwi kʉzoya ʉwin sʉmbrenu
+# text = ingeygwi =se' =ri guk -a aw -i =ri ey =gwi kʉ- zoya ʉw -in sʉmbrenu
 # text_en = One of them picked it up and took it back to him, the hat
 # text_phrase-gls-es = uno de ellos lo recogió y se lo llevó de regreso [lit. nuevamente] el sombrero
 1	ingeygwi	ingeygwi	ADJ	_	_	2	comp	_	AlignBegin=169032|AlignEnd=169223|GE=other|Gloss=other|nWord=1|RX=[ADJ]|TokenType=Root
 2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	4	subj	_	AgentShift=yes|AlignBegin=169223|AlignEnd=169414|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=yes
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=169414|AlignEnd=169605|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	guk	guk	VERB	_	_	5	comp:aux/m	_	AlignBegin=169605|AlignEnd=169891|ArgumentOrder=SV|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root|Transitivity=transitive
+4	guk	guk	VERB	_	Animacy=Inan|Definite=Spec	5	comp:aux/m	_	AlignBegin=169605|AlignEnd=169891|ArgumentOrder=SV|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root|Transitivity=transitive
 5	-a	_	AUX	_	_	_	_	_	AlignBegin=169891|AlignEnd=170178|GE=[PFV]|Gloss=PFV|nWord=2|RX=[V:ANY]|TokenType=InflAff
 6	aw	aw	AUX	_	_	_	_	_	AlignBegin=170178|AlignEnd=170369|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
 7	-i	_	PART	_	_	6	cc	_	AlignBegin=170369|AlignEnd=170560|GE=while|Gloss=and|nWord=3|RX=[VERB]|TokenType=InflAff
@@ -873,7 +873,7 @@
 12	zoya	zoy	VERB	_	_	13	comp:aux	_	AlignBegin=171610|AlignEnd=171897|GE=take|Gloss=take|nWord=5|RX=[VT]|TokenType=Root
 13	ʉw	aw	AUX	_	_	14	comp:aux/m	_	AlignBegin=171897|AlignEnd=172183|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
 14	-in	_	AUX	_	_	_	_	_	AlignBegin=172183|AlignEnd=172470|GE=[DECL]|Gloss=DECL|nWord=6|RX=[V:ANY]|TokenType=InflAff
-15	sʉmbrenu	sʉmbrenu	NOUN	_	_	12	comp:obj	_	AlignBegin=172470|AlignEnd=173040|GE=hat|Gloss=hat|nWord=7|RX=[N]|TokenType=Root
+15	sʉmbrenu	sʉmbrenu	NOUN	_	Case=Abs	12	comp:obj	_	AlignBegin=172470|AlignEnd=173040|GE=hat|Gloss=hat|nWord=7|RX=[N]|TokenType=Root
 
 # sent_id = PE18_45-45
 # speaker_id = @SP18
@@ -903,7 +903,7 @@
 # text = sʉmbrenu a'wekumʉye'ri
 # text_en = when the hat was handed to him
 # text_phrase-gls-es = cuando le entregaron el sombrero
-1	sʉmbrenu	sʉmbrenu	NOUN	_	_	2	comp:obj	_	AlignBegin=179255|AlignEnd=180213|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
+1	sʉmbrenu	sʉmbrenu	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=179255|AlignEnd=180213|GE=hat|Gloss=hat|nWord=1|RX=[N]|TokenType=Root
 2	a'we	a'we	VERB	_	_	3	comp:aux/m	_	AlignBegin=180213|AlignEnd=180404|GE=give|Gloss=give|nWord=2|RX=[VD]|TokenType=Root
 3	-kumʉ	_	AUX	_	_	4	comp:aux/m	_	AlignBegin=180404|AlignEnd=180595|GE=[ANTIC]|Gloss=ANTIC|nWord=2|RX=[V:ANY]|TokenType=InflAff
 4	-y	_	AUX	_	_	5	comp:aux/m	_	AlignBegin=180595|AlignEnd=180786|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
@@ -918,7 +918,7 @@
 # text = pera máykʉnʉ wina'we
 # text_en = He gives them three pears
 # text_phrase-gls-es = le dieron tres peras,
-1	pera	pera	NOUN	_	_	4	comp:obj	_	AlignBegin=181170|AlignEnd=181673|GE=pear|Gloss=pear|nWord=1|RX=[N]|TokenType=Root
+1	pera	pera	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=181170|AlignEnd=181673|GE=pear|Gloss=pear|nWord=1|RX=[N]|TokenType=Root
 2	máykʉnʉ	máykʉnʉ	NUM	_	_	1	mod:num	_	AlignBegin=181673|AlignEnd=182176|GE=three|Gloss=three|nWord=2|RX=[NUM]|TokenType=Root
 3	win-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=182176|AlignEnd=182428|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=3|RX=[VERB]|TokenType=InflAff
 4	a'we	a'we	VERB	_	_	_	_	_	AlignBegin=182428|AlignEnd=182680|GE=give|Gloss=give|nWord=3|RX=[VD]|TokenType=Root
@@ -943,7 +943,7 @@
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=185940|AlignEnd=186592|nWord=6
 11	aɉunkʉnʉ	aɉunkʉnʉ	NOUN	_	_	12	comp	_	AlignBegin=186592|AlignEnd=186918|GE=friend|Gloss=friend|nWord=7|RX=[N]|TokenType=Root
 12	=se'	_	ADP	_	_	15	comp:obl	_	AlignBegin=186918|AlignEnd=187244|GE=[DAT]|Gloss==DAT|nWord=7|RX=[POST]|TokenType=Clit
-13	ingweti	ingweti	PRON	_	_	15	comp:obj	_	AlignBegin=187244|AlignEnd=187896|GE=each|Gloss=each|nWord=8|RX=[PRO]|TokenType=Root
+13	ingweti	ingweti	PRON	_	Case=Abs	15	comp:obj	_	AlignBegin=187244|AlignEnd=187896|GE=each|Gloss=each|nWord=8|RX=[PRO]|TokenType=Root
 14	win-	_	PRON	_	_	15	comp:obj/m	_	AlignBegin=187896|AlignEnd=188222|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=9|RX=[VERB]|TokenType=InflAff
 15	a'we	a'we	VERB	_	_	16	comp:aux	_	AlignBegin=188222|AlignEnd=188548|GE=give|Gloss=give|nWord=9|RX=[VD]|TokenType=Root
 16	un	un	AUX	_	_	17	comp:aux/m	_	AlignBegin=188548|AlignEnd=188765|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
@@ -983,7 +983,7 @@
 9	zʉ-	_	PART	_	_	_	_	_	AlignBegin=194453|AlignEnd=194663|GE=[POSS]|Gloss=POSS|nWord=6|RX=[N:ANY]|TokenType=InflAff
 10	paw	paw	NOUN	_	_	9	comp	_	AlignBegin=194663|AlignEnd=194873|GE=owner|Gloss=owner|nWord=6|RX=[N]|TokenType=Root
 11	=ri	_	PART	_	_	10	mod	_	AlignBegin=194873|AlignEnd=195084|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
-12	pera	pera	NOUN	_	_	14	comp:obj	_	AlignBegin=195084|AlignEnd=195715|GE=pear|Gloss=pear|nWord=7|RX=[N]|TokenType=Root
+12	pera	pera	NOUN	_	Case=Abs	14	comp:obj	_	AlignBegin=195084|AlignEnd=195715|GE=pear|Gloss=pear|nWord=7|RX=[N]|TokenType=Root
 13	ʉn-	_	AUX	_	_	14	mod/m	_	AlignBegin=195715|AlignEnd=196031|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]|TokenType=DerAff
 14	tasi	tasi	VERB	_	_	_	_	_	AlignBegin=196031|AlignEnd=196346|GE=take|Gloss=take|nWord=8|RX=[V]|TokenType=Root
 15	anʉ-	_	AUX	_	_	16	mod/m	_	AlignBegin=196346|AlignEnd=196472|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]|TokenType=DerAff
@@ -1038,7 +1038,7 @@
 # text = ingeygwiri ʉnchu' zanu' ni a'zari
 # text_en = He knew that one could not see the other, that it wasn't there
 # text_phrase-gls-es = y supo que no estaba el otro
-1	ingeygwi	ingeygwi	ADJ	_	_	4	comp:obj	_	AlignBegin=202862|AlignEnd=203018|GE=other|Gloss=other|nWord=1|RX=[ADJ]|TokenType=Root
+1	ingeygwi	ingeygwi	ADJ	_	Case=Abs	4	comp:obj	_	AlignBegin=202862|AlignEnd=203018|GE=other|Gloss=other|nWord=1|RX=[ADJ]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=203018|AlignEnd=203174|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=203174|AlignEnd=203278|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	chu	chu	VERB	_	_	5	comp:aux/m	_	AlignBegin=203278|AlignEnd=203382|GE=see|Gloss=see|nWord=2|RX=[VT]|TokenType=Root

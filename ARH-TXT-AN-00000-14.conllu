@@ -299,7 +299,7 @@
 3	-i	_	PART	_	_	_	_	_	AlignBegin=56668|AlignEnd=56882|GE=while|Gloss=and|nWord=1|RX=[VERB]|TokenType=InflAff
 4	a-	_	PRON	_	_	5	subj/m	_	AlignBegin=56882|AlignEnd=57203|GE=[1PL].[S]|Gloss=1PL.S|nWord=2|RX=[V:ANY]|TokenType=InflAff
 5	zori	zoy	VERB	_	_	_	_	_	AlignBegin=57203|AlignEnd=57524|GE=go|Gloss=go|nWord=2|RX=[V]|TokenType=Root
-6	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	2	comp:obj	_	AlignBegin=57524|AlignEnd=58166|GE=earth|Gloss=earth|nWord=3|RX=[N]|TokenType=Root
+6	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=57524|AlignEnd=58166|GE=earth|Gloss=earth|nWord=3|RX=[N]|TokenType=Root
 7	.	_	PUNCT	_	_	6	punct	_	AlignBegin=58166|AlignEnd=58810|Gloss=.|nWord=4
 
 # sent_id = AN14_14-14
@@ -329,7 +329,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-14.WAV/WAV/ARH-TXT-AN-00000-14.WAV
 # sent_timecode = 62140, 65252
 # morphemic_text = ema , kakʉ Serankwa =se' an- a'gusi ʉn- zoya nan -i ,.
-# text = ema , kakʉ Serankwase' ana'gusi ʉnzoya nari ,.
+# text = ema , kakʉ Serankwa =se' an- a'gusi ʉn- zoya nan -i ,
 # text_en = This, father Serankwa was replacing,
 # text_phrase-gls-es = Este, el papa Serankwa que fue reemplazando,
 1	ema	ema	PRON	_	_	3	discourse	_	AlignBegin=62140|AlignEnd=62529|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
@@ -338,7 +338,7 @@
 4	Serankwa	Serankwa	PROPN	_	_	3	flat	_	AlignBegin=63307|AlignEnd=63501|GE=[Serankwa]|Gloss=Serankwa|nWord=4|RX=[NPROP]|TokenType=Root
 5	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	7	subj	_	AgentShift=yes|AlignBegin=63501|AlignEnd=63696|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=no
 6	an-	_	AUX	_	_	7	mod/m	_	AlignBegin=63696|AlignEnd=63890|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
-7	a'gusi	a'gusi	VERB	_	_	9	mod	_	AlignBegin=63890|AlignEnd=64085|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=5|RX=[VT]|TokenType=Root|Transitivity=transitive
+7	a'gusi	a'gusi	VERB	_	Animacy=Inan|Definite=Spec	9	mod	_	AlignBegin=63890|AlignEnd=64085|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=5|RX=[VT]|TokenType=Root|Transitivity=transitive
 8	ʉn-	_	AUX	_	_	9	mod/m	_	AlignBegin=64085|AlignEnd=64279|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]|TokenType=DerAff
 9	zoya	zoy	VERB	_	_	10	comp:aux	_	AlignBegin=64279|AlignEnd=64474|GE=go|Gloss=go|nWord=6|RX=[VI]|TokenType=Root
 10	nan	nan	AUX	_	_	_	_	_	AlignBegin=64474|AlignEnd=64668|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]|TokenType=Root
@@ -353,7 +353,7 @@
 # text = gaysinʉri in'gwiri , ingumʉn , ingumʉn kinki du kawa neykari , du anukuma ( anu ) awi , kisa ukumana zʉ'ʉn ,.
 # text_en = One of the girls, the one who was the most, most prettiest, they kept her [lit. make good], they had hidden her,
 # text_phrase-gls-es = Una de las muchachas, la que era más guapa, la guardaron, la habían escondido,
-1	gaysinʉ	gaysinʉ	NOUN	_	_	18	comp:obj	_	AlignBegin=65478|AlignEnd=65704|GE=young.woman|Gloss=young.woman|nWord=1|RX=[N]|TokenType=Root
+1	gaysinʉ	gaysinʉ	NOUN	_	Case=Abs	18	comp:obj	_	AlignBegin=65478|AlignEnd=65704|GE=young.woman|Gloss=young.woman|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=65704|AlignEnd=65931|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	in'gwi	in'gwi	NUM	_	_	11	comp:obl	_	AlignBegin=65931|AlignEnd=66157|GE=one|Gloss=one|nWord=2|RX=[NUM]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=66157|AlignEnd=66384|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
@@ -396,7 +396,7 @@
 # text_phrase-gls-es = así (ella) vivía
 1	kwa	kwa	VERB	_	_	2	comp:aux/m	_	AlignBegin=75440|AlignEnd=75550|GE=exist|Gloss=exist|nWord=1|RX=[V]|TokenType=Root
 2	-na	_	AUX	_	_	3	comp:aux	_	AlignBegin=75550|AlignEnd=75660|GE=[RMTPST]|Gloss=RMTPST|nWord=1|RX=[VERB]|TokenType=InflAff
-3	ni	nan	AUX	_	_	_	_	_	AlignBegin=75660|AlignEnd=75880|GE=[DECL]|Gloss=DECL|nWord=2|RX=[AUX]|TokenType=Root
+3	ni	nan	AUX	_	_	0	root	_	AlignBegin=75660|AlignEnd=75880|GE=[DECL]|Gloss=DECL|nWord=2|RX=[AUX]|TokenType=Root
 4	.	_	PUNCT	_	_	3	punct	_	AlignBegin=75880|AlignEnd=76100|Gloss=.|nWord=3
 
 # sent_id = AN14_18-18
@@ -431,7 +431,7 @@
 5	(	_	PUNCT	_	_	6	punct	_	AlignBegin=78736|AlignEnd=79058|nWord=4
 6	eymas	eymas	X	_	_	8	discourse	_	AlignBegin=79058|AlignEnd=79380|nWord=5|TokenType=Root
 7	)	_	PUNCT	_	_	6	punct	_	AlignBegin=79380|AlignEnd=79702|nWord=6
-8	eyma	eyma	PRON	_	_	12	comp:obj	_	AlignBegin=79702|AlignEnd=80024|GE=this|Gloss=this|nWord=7|RX=[DEM]|TokenType=Root
+8	eyma	eyma	PRON	_	Case=Abs	12	comp:obj	_	AlignBegin=79702|AlignEnd=80024|GE=this|Gloss=this|nWord=7|RX=[DEM]|TokenType=Root
 9	ey	ey	PART	_	_	_	_	_	AlignBegin=80024|AlignEnd=80185|GE=so|Gloss=so|nWord=8|RX=[PRT]|TokenType=Root
 10	=gwi	_	ADV	_	_	9	mod	_	AlignBegin=80185|AlignEnd=80346|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
 11	ʉn-	_	AUX	_	_	12	mod/m	_	AlignBegin=80346|AlignEnd=80507|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]|TokenType=DerAff
@@ -443,7 +443,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-14.WAV/WAV/ARH-TXT-AN-00000-14.WAV
 # sent_timecode = 80989, 84400
 # morphemic_text = kakʉ Serankwa =se' ʉn- de'- nis -i ʉn- zwey -ngwa ʉn- de'- gaw -i ʉn- zoya ,.
-# text = kakʉ Serankwase' ʉnde'nisi ʉnzweyngwa ʉnde'gawi ʉnzoya ,.
+# text = kakʉ Serankwa =se' ʉn- de'- nis -i ʉn- zwey -ngwa ʉn- de'- gaw -i ʉn- zoya ,
 # text_en = father Serankwa made her to reproduce,
 # text_phrase-gls-es = El papá Serankwa lo formó/hizo para que sea productivo,
 1	kakʉ	kakʉ	NOUN	_	_	3	comp	_	AlignBegin=80989|AlignEnd=81476|GE=father|Gloss=father|nWord=1|RX=[N]|TokenType=Root
@@ -458,7 +458,7 @@
 10	-ngwa	_	AUX	_	_	13	mod:purp	_	AlignBegin=82774|AlignEnd=82937|GE=[FUT]|Gloss=FUT|nWord=4|RX=[VERB]|TokenType=InflAff
 11	ʉn-	_	AUX	_	_	12	mod/m	_	AlignBegin=82937|AlignEnd=83059|GE=[MID]|Gloss=MID|nWord=5|RX=[V>V]|TokenType=DerAff
 12	de'-	_	AUX	_	_	13	mod/m	_	AlignBegin=83059|AlignEnd=83181|GE=[REFL]|Gloss=REFL|nWord=5|RX=[VERB]|TokenType=DerAff
-13	gaw	gaw	VERB	_	_	14	comp:aux/m	_	AlignBegin=83181|AlignEnd=83303|ArgumentOrder=SV|GE=make|Gloss=make|nWord=5|RX=[V]|TokenType=Root|Transitivity=transitive
+13	gaw	gaw	VERB	_	Animacy=Anim|Definite=Spec	14	comp:aux/m	_	AlignBegin=83181|AlignEnd=83303|ArgumentOrder=SV|GE=make|Gloss=make|nWord=5|RX=[V]|TokenType=Root|Transitivity=transitive
 14	-i	_	PART	_	_	_	_	_	AlignBegin=83303|AlignEnd=83424|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
 15	ʉn-	_	AUX	_	_	16	mod/m	_	AlignBegin=83424|AlignEnd=83668|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]|TokenType=DerAff
 16	zoya	zoy	VERB	_	_	0	root	_	AlignBegin=83668|AlignEnd=83911|GE=go|Gloss=go|nWord=6|RX=[VI]|TokenType=Root
@@ -511,7 +511,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-14.WAV/WAV/ARH-TXT-AN-00000-14.WAV
 # sent_timecode = 89330, 100732
 # morphemic_text = ey uw -a'me eyma =se' a'gu -na nan -i , ( awari ) ema ati ingumʉn ʉn- dere'- nis -i zori z -eyka i- 'zʉn nan -i , ka'gʉmʉ twiskʉnʉ nʉn -na ni .
-# text = ey uwa'me eymase' a'guna nari , ( awari ) ema ati ingumʉn ʉndere'nisi zori zeyka i'zʉn nari , ka'gʉmmʉ twiskʉnʉ nʉnna ni .
+# text = ey uw -a'me eyma =se' a'gu -na nan -i , ( awari ) ema ati ingumʉn ʉn- dere'- nis -i zori z -eyka i- 'zʉn nan -i , ka'gʉmʉ twiskʉnʉ nʉn -na ni .
 # text_en = Because of this, the one who gave birth to him [lit. took him out], the woman they most wanted to reproduce[,] was the black soil.
 # text_phrase-gls-es = Por eso, este que lo parió, la mujer que más quieren que se reproduzca era la tierra negra.
 # text_phrase-gls-tl = a'gukün
@@ -520,7 +520,7 @@
 3	-a'me	_	AUX	_	_	31	discourse	_	AlignBegin=90074|AlignEnd=90322|GE=[CAUSE]|Gloss=CAUSE|nWord=2|RX=[VERB]|TokenType=InflAff
 4	eyma	eyma	PRON	_	_	5	comp	_	AlignBegin=90322|AlignEnd=90570|GE=this|Gloss=this|nWord=3|RX=[DEM]|TokenType=Root
 5	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=yes|AlignBegin=90570|AlignEnd=90818|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=no
-6	a'gu	a'gu	VERB	_	_	7	comp:aux/m	_	AlignBegin=90818|AlignEnd=91066|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
+6	a'gu	a'gu	VERB	_	Animacy=Anim|Definite=Spec	7	comp:aux/m	_	AlignBegin=90818|AlignEnd=91066|ArgumentOrder=SV|GE=take.out|Gloss=take.out|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
 7	-na	_	AUX	_	_	8	comp:aux	_	AlignBegin=91066|AlignEnd=91314|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]|TokenType=InflAff
 8	nan	nan	AUX	_	_	_	_	_	AlignBegin=91314|AlignEnd=91562|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
 9	-i	_	PART	_	_	8	cc	_	AlignBegin=91562|AlignEnd=91810|GE=while|Gloss=and|nWord=5|RX=[VERB]|TokenType=InflAff
@@ -643,18 +643,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-14.WAV/WAV/ARH-TXT-AN-00000-14.WAV
 # sent_timecode = 113126, 118098
 # morphemic_text = kakʉ Serankwa =se' zʉ'ʉn a'chwi zoya -na n -a'me' , ka'gʉmʉ pinna ɉuna kwʉ -ya ni .
-# text = kakʉ Serankwase' zʉ'ʉn a'chwi zoyana na'me' , ka'gʉmmʉ pinna ɉuna kwʉya ni .
+# text = kakʉ Serankwa =se' zʉ'ʉn a'chwi zoya -na n -a'me' , ka'gʉmʉ pinna ɉuna kwʉ -ya ni .
 # text_en = Father Serankwa planned, so that there are all kinds of land.
 # text_phrase-gls-es = el kakü Serankwa, como venía planificando, por eso que existen toda clase de tierra
 1	kakʉ	kakʉ	NOUN	_	_	3	comp	_	AlignBegin=113126|AlignEnd=113508|GE=father|Gloss=father|nWord=1|RX=[N]|TokenType=Root
 2	Serankwa	Serankwa	PROPN	_	_	1	flat	_	AlignBegin=113508|AlignEnd=113699|GE=[Serankwa]|Gloss=Serankwa|nWord=2|RX=[NPROP]|TokenType=Root
 3	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	5	subj	_	AgentShift=yes|AlignBegin=113699|AlignEnd=113890|GE=[ERG]|Gloss==ERG|nWord=2|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=no
 4	zʉ'ʉn	zan	PART	_	_	3	mod:emph	_	AlignBegin=113890|AlignEnd=114272|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
-5	a'chwi	a'chwi	VERB	_	_	6	comp:aux	_	AlignBegin=114272|AlignEnd=114654|ArgumentOrder=SV|GE=consider|Gloss=consider|nWord=4|RX=[V]|TokenType=Root|Transitivity=transitive
+5	a'chwi	a'chwi	VERB	_	Animacy=Inan|Definite=Spec	6	comp:aux	_	AlignBegin=114272|AlignEnd=114654|ArgumentOrder=SV|GE=consider|Gloss=consider|nWord=4|RX=[V]|TokenType=Root|Transitivity=transitive
 6	zoya	zoy	AUX	_	_	7	comp:aux/m	_	AlignBegin=114654|AlignEnd=114845|GE=go|Gloss=go|nWord=5|RX=[V]|TokenType=Root
 7	-na	_	AUX	_	_	8	comp:aux	_	AlignBegin=114845|AlignEnd=115036|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
 8	n	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=115036|AlignEnd=115227|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
-9	-a'me'	_	AUX	_	_	14	comp:obj	_	AlignBegin=115227|AlignEnd=115418|GE=[CAUSE]|Gloss=CAUSE|nWord=6|RX=[VERB]|TokenType=InflAff
+9	-a'me'	_	AUX	_	Case=Abs	14	comp:obj	_	AlignBegin=115227|AlignEnd=115418|GE=[CAUSE]|Gloss=CAUSE|nWord=6|RX=[VERB]|TokenType=InflAff
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=115418|AlignEnd=115800|nWord=7
 11	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	13	mod	_	AlignBegin=115800|AlignEnd=116182|GE=soil|Gloss=soil|nWord=8|RX=[N]|TokenType=Root
 12	pinna	pinna	DET	_	_	13	det	_	AlignBegin=116182|AlignEnd=116564|GE=all|Gloss=all|nWord=9|RX=[QUANT]|TokenType=Root
@@ -805,7 +805,7 @@
 1	ema	ema	DET	_	_	2	det	_	AlignBegin=137080|AlignEnd=137513|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	ka'gʉmʉ	ka'gʉmʉ	NOUN	_	_	7	comp:obl	_	AlignBegin=137513|AlignEnd=137729|GE=territory|Gloss=territory|nWord=2|RX=[N]|TokenType=Root
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=137729|AlignEnd=137946|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-4	ati	ati	NOUN	_	_	7	comp:obj	_	AlignBegin=137946|AlignEnd=138379|GE=female|Gloss=female|nWord=3|RX=[N]|TokenType=Root
+4	ati	ati	NOUN	_	Case=Abs	7	comp:obj	_	AlignBegin=137946|AlignEnd=138379|GE=female|Gloss=female|nWord=3|RX=[N]|TokenType=Root
 5	anʉ-	_	AUX	_	_	6	mod/m	_	AlignBegin=138379|AlignEnd=138466|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 6	ke-	_	AUX	_	_	7	mod/m	_	AlignBegin=138466|AlignEnd=138553|GE=[APPL1]|Gloss=APPL1|nWord=4|RX=[V>V]|TokenType=DerAff
 7	y	y	VERB	_	_	8	comp:aux/m	_	AlignBegin=138553|AlignEnd=138640|GE=say|Gloss=say|nWord=4|RX=[VI]|TokenType=Root
@@ -855,7 +855,7 @@
 # text = eymari ʉnchukumey ʉnzoya na'me' , kwimʉkʉnʉ nari zʉ'ʉn .
 # text_en = this was left, that's why they are rocks
 # text_phrase-gls-es = esto  fue dejado, por eso son rocas
-1	eyma	eyma	PRON	_	_	4	comp:obj	_	AlignBegin=145809|AlignEnd=145971|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
+1	eyma	eyma	PRON	_	Case=Abs	4	comp:obj	_	AlignBegin=145809|AlignEnd=145971|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=145971|AlignEnd=146132|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=146132|AlignEnd=146213|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	chu	chu	VERB	_	_	5	comp:aux/m	_	AlignBegin=146213|AlignEnd=146294|GE=leave|Gloss=leave|nWord=2|RX=[V]|TokenType=Root
@@ -901,7 +901,7 @@
 # text_en = Over there where they say Father Serankwa, this [rock, stone, place called Serankwa] lives over there.
 # text_phrase-gls-es = por allá donde dicen Serankwa, este [roca, piedra, lugar que se llama Serankwa] vive por allá.
 1	emay	emay	ADV	_	_	_	_	_	AlignBegin=152283|AlignEnd=152739|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
-2	kakʉ	kakʉ	NOUN	_	_	5	comp:obj	_	AlignBegin=152739|AlignEnd=153195|GE=father|Gloss=father|nWord=2|RX=[N]|TokenType=Root
+2	kakʉ	kakʉ	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=152739|AlignEnd=153195|GE=father|Gloss=father|nWord=2|RX=[N]|TokenType=Root
 3	Serankwa	Serankwa	PROPN	_	_	2	flat	_	AlignBegin=153195|AlignEnd=153651|GE=[Serankwa]|Gloss=Serankwa|nWord=3|RX=[NPROP]|TokenType=Root
 4	ana-	_	AUX	_	_	5	mod/m	_	AlignBegin=153651|AlignEnd=153803|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 5	ya	ya	VERB	_	_	6	comp	_	AlignBegin=153803|AlignEnd=153955|GE=say|Gloss=say|nWord=4|RX=[VI]|TokenType=Root

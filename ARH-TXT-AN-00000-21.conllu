@@ -160,14 +160,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-21.WAV/WAV/ARH-TXT-AN-00000-21.WAV
 # sent_timecode = 42133, 47224
 # morphemic_text = ( mhm ) eyma ka'a pʉnk -u' nʉn -k -w -e' a- guga gu- nʉn =di .
-# text = ( mhm ) eyma ka'a pʉnku' nʉnkwe' aguga gunʉndi .
+# text = ( mhm ) eyma ka'a pʉnk -u' nʉn -k -w -e' a- guga gu- nʉn =di .
 # text_en = We say that, when the earth was not lying down,
 # text_phrase-gls-es = Cuando la tierra no estaba acostada, asi nos dicen
 1	(		PUNCT	_	_	2	punct	_	AlignBegin=42133|AlignEnd=42642|nWord=1
 2	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=42642|AlignEnd=43151|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)		PUNCT	_	_	2	punct	_	AlignBegin=43151|AlignEnd=43660|nWord=3
 4	eyma	eyma	DET	_	_	5	det	_	AlignBegin=43660|AlignEnd=44169|GE=this|Gloss=this|nWord=4|RX=[DEM]|TokenType=Root
-5	ka'a	ka'a	NOUN	_	_	6	subj	_	AlignBegin=44169|AlignEnd=44678|GE=earth|Gloss=earth|nWord=5|RX=[N]|TokenType=Root
+5	ka'a	ka'a	NOUN	_	Case=Abs	6	subj	_	AlignBegin=44169|AlignEnd=44678|GE=earth|Gloss=earth|nWord=5|RX=[N]|TokenType=Root
 6	pʉnk	pʉnk	VERB	_	Case=Abs	7	comp:aux/m	_	AlignBegin=44678|AlignEnd=44932|GE=lie.down[flat things]|Gloss=lie.down[flat things]|nWord=6|RX=[V]|TokenType=Root
 7	-u'		AUX	_	_	8	comp:aux	_	AlignBegin=44932|AlignEnd=45187|GE=[NEG]|Gloss=NEG|nWord=6|RX=[VERB]|TokenType=InflAff
 8	nʉn	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=45187|AlignEnd=45314|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
@@ -336,7 +336,7 @@
 # text_en = And then turn it into land
 # text_phrase-gls-es = Y entonces convertirlo en tierra
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=75082|AlignEnd=75378|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
-2	ka'a	ka'a	NOUN	_	_	5	comp:obj	_	AlignBegin=75378|AlignEnd=75674|GE=land|Gloss=land|nWord=2|RX=[N]|TokenType=Root
+2	ka'a	ka'a	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=75378|AlignEnd=75674|GE=land|Gloss=land|nWord=2|RX=[N]|TokenType=Root
 3	ʉn-		AUX	_	_	4	mod/m	_	AlignBegin=75674|AlignEnd=75773|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 4	de'-		AUX	_	_	5	mod/m	_	AlignBegin=75773|AlignEnd=75872|GE=[REFL]|Gloss=REFL|nWord=3|RX=[VERB]|TokenType=DerAff
 5	gow	gow	VERB	_	_	6	comp:aux	_	AlignBegin=75872|AlignEnd=75970|GE=build|Gloss=build|nWord=3|RX=[V]|TokenType=Root
@@ -434,7 +434,7 @@
 # text = ʉndi emi pari keywʉ , emay ikʉri ʉnkwey ,.
 # text_en = Thus from here, people have lived
 # text_phrase-gls-es = Entonces a partir de aquí, han vivido las personas
-1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=90404|AlignEnd=90892|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
+1	ʉndi	ʉndi	ADV	_	_	10	discourse	_	AlignBegin=90404|AlignEnd=90892|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
 2	emi	emi	ADV	_	_	3	comp	_	AlignBegin=90892|AlignEnd=91380|GE=here|Gloss=here|nWord=2|RX=[ADV]|TokenType=Root
 3	pari	pari	ADP	_	_	10	comp:obl	_	AlignBegin=91380|AlignEnd=91868|GE=from|Gloss=from|nWord=3|RX=[POST]|TokenType=Root
 4	keywʉ	keywʉ	PART	_	_	3	discourse	_	AlignBegin=91868|AlignEnd=92356|GE=soon|Gloss=soon|nWord=4|RX=[PRT]|TokenType=Root
@@ -494,7 +494,7 @@
 11	=se'		ADP	_	_	12	comp	_	AlignBegin=108325|AlignEnd=108447|GE=[LOC]|Gloss==LOC|nWord=9|RX=[POST]|TokenType=Clit
 12	=ta		ADP	_	_	14	mod	_	AlignBegin=108447|AlignEnd=108569|GE=[LOC]|Gloss==LOC|nWord=9|RX=[POST]|TokenType=Clit
 13	eygumʉn	eygumʉn	ADV	_	_	14	mod	_	AlignBegin=108569|AlignEnd=108935|GE=more|Gloss=more|nWord=10|RX=[ADV]|TokenType=Root
-14	awga	awga	VERB	_	_	15	comp:obj	_	AlignBegin=108935|AlignEnd=109301|GE=say|Gloss=say|nWord=11|RX=[V]|TokenType=Root
+14	awga	awga	VERB	_	Case=Abs	15	comp:obj	_	AlignBegin=108935|AlignEnd=109301|GE=say|Gloss=say|nWord=11|RX=[V]|TokenType=Root
 15	wasey	wasey	VERB	_	_	16	comp:aux/m	_	AlignBegin=109301|AlignEnd=109423|GE=speak|Gloss=speak|nWord=12|RX=[V]|TokenType=Root
 16	-kuma		AUX	_	_	17	comp:aux/m	_	AlignBegin=109423|AlignEnd=109545|GE=[ANTIC]|Gloss=ANTIC|nWord=12|RX=[V:ANY]|TokenType=InflAff
 17	-ya		AUX	_	_	18	comp:aux	_	AlignBegin=109545|AlignEnd=109667|GE=[NONEGO]|Gloss=NONEGO|nWord=12|RX=[V:ANY]|TokenType=InflAff
@@ -615,7 +615,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-21.WAV/WAV/ARH-TXT-AN-00000-21.WAV
 # sent_timecode = 130880, 137799
 # morphemic_text = yagʉ nʉn -na , kamʉnza , ma'keywa kamʉnza ʉn- cho -kuma -na =ri ,.
-# text = yagʉ nʉnna , kamʉnza , ma'keywa kamʉnza ʉnchokumanari ,.
+# text = yagʉ nʉn -na , kamʉnza , ma'keywa kamʉnza ʉn- cho -kuma nar =ri ,.
 # text_en = It was ehm, the quake, the four quakes that were left
 # text_phrase-gls-es = Era, este, el temblor, los cuatro temblores que dejaron
 1	yagʉ	yagʉ	INTJ	_	_	2	discourse	_	AlignBegin=130880|AlignEnd=131649|GE=well|Gloss=well|nWord=1|RX=[INTERJ]|TokenType=Root
@@ -625,11 +625,11 @@
 5	kamʉnza	kamʉnza	NOUN	_	_	8	conj:dicto	_	AlignBegin=133187|AlignEnd=133956|GE=trembling|Gloss=trembling|nWord=4|RX=[N]|TokenType=Root
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=133956|AlignEnd=134725|nWord=5
 7	ma'keywa	ma'keywa	NUM	_	_	8	mod:num	_	AlignBegin=134725|AlignEnd=135494|GE=four|Gloss=four|nWord=6|RX=[NUM]|TokenType=Root
-8	kamʉnza	kamʉnza	NOUN	_	_	10	comp:obj	_	AlignBegin=135494|AlignEnd=136263|GE=trembling|Gloss=trembling|nWord=7|RX=[N]|TokenType=Root
+8	kamʉnza	kamʉnza	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=135494|AlignEnd=136263|GE=trembling|Gloss=trembling|nWord=7|RX=[N]|TokenType=Root
 9	ʉn-		AUX	_	_	10	mod/m	_	AlignBegin=136263|AlignEnd=136417|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]|TokenType=DerAff
 10	cho	cho	VERB	_	_	11	comp:aux/m	_	AlignBegin=136417|AlignEnd=136571|GE=leave|Gloss=leave|nWord=8|RX=[V]|TokenType=Root
 11	-kuma		AUX	_	_	12	comp:aux/m	_	AlignBegin=136571|AlignEnd=136725|GE=[ANTIC]|Gloss=ANTIC|nWord=8|RX=[V:ANY]|TokenType=InflAff
-12	-na		AUX	_	_	_	_	_	AlignBegin=136725|AlignEnd=136879|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
+12	nar	nan	AUX	_	_	_	_	_	AlignBegin=136725|AlignEnd=136879|GE=[aux]|Gloss=AUX|nWord=8|RX=[VERB]|TokenType=Root
 13	=ri		PART	_	_	12	mod	_	AlignBegin=136879|AlignEnd=137032|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
 14	,.		PUNCT	_	_	13	punct	_	AlignBegin=137032|AlignEnd=137799|nWord=9
 
@@ -680,7 +680,7 @@
 2	-y		AUX	_	_	3	comp:aux/m	_	AlignBegin=144289|AlignEnd=144408|GE=[NONEGO]|Gloss=NONEGO|nWord=1|RX=[V:ANY]|TokenType=InflAff
 3	-e'		AUX	_	_	8	discourse	_	AlignBegin=144408|AlignEnd=144527|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 4	=ri		PART	_	_	3	mod	_	AlignBegin=144527|AlignEnd=144647|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-5	gwiaɉina	gwiaɉina	NOUN	_	_	8	comp:obj	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]|TokenType=Root
+5	gwiaɉina	gwiaɉina	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=144647|AlignEnd=144885|GE=mountain lion|Gloss=mountain lion|nWord=2|RX=[N]|TokenType=Root
 6	=ri		PART	_	_	5	mod	_	AlignBegin=144885|AlignEnd=145124|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 7	gunʉ	gunʉ	NOUN	_	_	5	mod	_	AlignBegin=145124|AlignEnd=145601|GE=hand|Gloss=hand|nWord=3|RX=[N]|TokenType=Root
 8	chwa	chwa	VERB	_	_	9	comp:aux	_	AlignBegin=145601|AlignEnd=146078|GE=see|Gloss=see|nWord=4|RX=[VT]|TokenType=Root
@@ -834,7 +834,7 @@
 # text_phrase-gls-es = Esto hizo que se formaran muchos quebradas
 1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=159591|AlignEnd=159932|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
 2	meynʉ	meynʉ	NOUN	_	_	3	comp	_	AlignBegin=159932|AlignEnd=160102|GE=gorge|Gloss=gorge|nWord=2|RX=[N]|TokenType=Root
-3	-n		ADP	_	_	4	comp:obj	_	AlignBegin=160102|AlignEnd=160273|GE=[MEANS]|Gloss=LOC|nWord=2|RX=[NOUN]|TokenType=InflAff
+3	-n		ADP	_	Case=Abs	4	comp:obj	_	AlignBegin=160102|AlignEnd=160273|GE=[MEANS]|Gloss=LOC|nWord=2|RX=[NOUN]|TokenType=InflAff
 4	a'gakʉ	a'gakʉ	VERB	_	_	_	_	_	AlignBegin=160273|AlignEnd=160614|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
 5	gakʉ	gakʉ	VERB	_	_	6	comp:aux	_	AlignBegin=160614|AlignEnd=160955|GE=put|Gloss=put|nWord=4|RX=[V]|TokenType=Root
 6	zʉn	zan	AUX	_	_	7	comp:aux	_	AlignBegin=160955|AlignEnd=161296|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
@@ -887,7 +887,7 @@
 7	=ri		PART	_	_	6	mod	_	AlignBegin=165744|AlignEnd=165827|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 8	,		PUNCT	_	_	7	punct	_	AlignBegin=165827|AlignEnd=166078|nWord=4
 9	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=166078|AlignEnd=166329|GE=so|Gloss=so|nWord=5|RX=[ADV]|TokenType=Root
-10	meynʉ	meynʉ	NOUN	_	_	11	comp:obj	_	AlignBegin=166329|AlignEnd=166580|GE=gorge|Gloss=gorge|nWord=6|RX=[N]|TokenType=Root
+10	meynʉ	meynʉ	NOUN	_	Case=Abs	11	comp:obj	_	AlignBegin=166329|AlignEnd=166580|GE=gorge|Gloss=gorge|nWord=6|RX=[N]|TokenType=Root
 11	a'gekwu	a'gekwu	VERB	_	_	12	comp:aux/m	_	AlignBegin=166580|AlignEnd=166643|GE=line|Gloss=line|nWord=7|RX=[V]|TokenType=Root
 12	-ya		AUX	_	_	_	_	_	AlignBegin=166643|AlignEnd=166706|GE=[NONEGO]|Gloss=NONEGO|nWord=7|RX=[V:ANY]|TokenType=InflAff
 13	-y		PART	_	_	12	cc	_	AlignBegin=166706|AlignEnd=166769|GE=while|Gloss=and|nWord=7|RX=[VERB]|TokenType=InflAff
@@ -978,7 +978,7 @@
 # text = eyma ka'a na'ba'ri awga na'me' .
 # text_en = That's why as for the earth, they say this.
 # text_phrase-gls-es = En cuanto a la tierra dicen así
-1	eyma	eyma	PRON	_	_	6	comp:obj	_	AlignBegin=178844|AlignEnd=179471|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
+1	eyma	eyma	PRON	_	Case=Abs	6	comp:obj	_	AlignBegin=178844|AlignEnd=179471|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	ka'a	ka'a	NOUN	_	_	3	comp:pred	_	AlignBegin=179471|AlignEnd=180098|GE=land|Gloss=land|nWord=2|RX=[N]|TokenType=Root
 3	n	nan	AUX	_	_	4	comp	_	AlignBegin=180098|AlignEnd=180307|GE=aux|Gloss=aux|nWord=3|RX=[AUX]|TokenType=Root
 4	=a'ba'		ADP	_	_	6	comp:obl	_	AlignBegin=180307|AlignEnd=180516|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
