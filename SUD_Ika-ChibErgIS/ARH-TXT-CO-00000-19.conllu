@@ -1,6 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = CO19_001-001
-# text = ikʉse'ri , kʉtʉkʉnʉn gey ikʉse' zweyn nu'nari , yagʉ , zʉn neyka nʉndi
+# text = ikʉ =se' =ri , kʉtʉkʉnʉn gey ikʉ =se' zwey -n nu' -na =ri , yagʉ , zʉn n -eyka nʉn =di
 # speaker_id = @SP19
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-19.WAV/WAV/ARH-TXT-CO-00000-19.WAV
 # sent_timecode = 340, 7149
@@ -12,7 +12,7 @@
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=690|AlignEnd=864|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	,	_	PUNCT	_	_	_	_	_	AlignBegin=864|AlignEnd=1388|nWord=2
 5	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	6	mod	_	AlignBegin=1388|AlignEnd=1912|GE=first|Gloss=first|nWord=3|RX=[ADV]|TokenType=Root
-6	gey	gey	VERB	_	_	9	comp:aux	_	AlignBegin=1912|AlignEnd=2436|ArgumentOrder=VS|GE=eat|Gloss=eat|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
+6	gey	gey	VERB	_	Animacy=Inan|Definite=Spec	9	comp:aux	_	AlignBegin=1912|AlignEnd=2436|ArgumentOrder=VS|GE=eat|Gloss=eat|nWord=4|RX=[VT]|TokenType=Root|Transitivity=transitive
 7	ikʉ	ikʉ	PROPN	_	_	8	comp	_	AlignBegin=2436|AlignEnd=2698|GE=[Ika]|Gloss=Ika|nWord=5|RX=[NPROP]|TokenType=Root
 8	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	6	subj	_	AgentShift=no|AlignBegin=2698|AlignEnd=2960|GE=[ERG]|Gloss==ERG|nWord=5|RX=[POST]|TokenType=Clit|Topic=no
 9	zweyn	zoy	AUX	_	_	10	comp:aux	_	AlignBegin=2960|AlignEnd=3484|GE=[IPFV]|Gloss=goIPFV|nWord=6|RX=[VERB]|TokenType=InflAff
@@ -35,7 +35,7 @@
 # text_en = They ate what is canna indica, what is malanga stalk, arracacha, these, [or] in jokwü which is cooked with beans.
 # text_phrase-gls-es = están los tenü, wiru, aracacha, comían esto, también cocinaban in jokwü que es maíz cocinado con frijol
 1	tenʉ	tenʉ	PROPN	_	_	2	comp:pred	_	AlignBegin=7149|AlignEnd=7817|GE=[Canna].[indica]|Gloss=Canna.indica|nWord=1|RX=[NPROP]|TokenType=Root
-2	nʉn	nan	AUX	_	_	13	comp:obj	_	AlignBegin=7817|AlignEnd=8151|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
+2	nʉn	nan	AUX	_	Case=Abs	13	comp:obj	_	AlignBegin=7817|AlignEnd=8151|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
 3	=gwi	_	ADV	_	_	2	mod	_	AlignBegin=8151|AlignEnd=8485|GE=also|Gloss==also|nWord=2|RX=[ADV]|TokenType=Clit
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=8485|AlignEnd=9153|nWord=3
 5	wiru	wiru	NOUN	_	_	6	comp:pred	_	AlignBegin=9153|AlignEnd=9821|GE=malanga.stalk|Gloss=malanga.stalk|nWord=4|RX=[N]|TokenType=Root
@@ -49,7 +49,7 @@
 13	gey	gey	VERB	_	_	_	_	_	AlignBegin=13829|AlignEnd=14163|GE=eat|Gloss=eat|nWord=11|RX=[VT]|TokenType=Root
 14	=ri	_	PART	_	_	13	mod	_	AlignBegin=14163|AlignEnd=14497|GE=[TOP]|Gloss==TOP|nWord=11|RX=[PRT]|TokenType=Clit
 15	,	_	PUNCT	_	_	14	punct	_	AlignBegin=14497|AlignEnd=15165|nWord=12
-16	in	in	NOUN	_	_	18	comp:obj	_	AlignBegin=15165|AlignEnd=15499|GE=maize|Gloss=maize|nWord=13|RX=[N]|TokenType=Root
+16	in	in	NOUN	_	Case=Abs	18	comp:obj	_	AlignBegin=15165|AlignEnd=15499|GE=maize|Gloss=maize|nWord=13|RX=[N]|TokenType=Root
 17	ɉokwʉ	ɉokwʉ	VERB	_	_	16	flat	_	AlignBegin=15499|AlignEnd=15833|GE=cook|Gloss=cook|nWord=13|RX=[V]|TokenType=Root
 18	ɉokwa	ɉokwa	VERB	_	_	13	conj:appos	_	AlignBegin=15833|AlignEnd=16167|GE=cook|Gloss=cook|nWord=14|RX=[V]|TokenType=Root
 19	=gwi	_	ADV	_	_	18	mod	_	AlignBegin=16167|AlignEnd=16501|GE=also|Gloss==also|nWord=14|RX=[ADV]|TokenType=Clit
@@ -65,7 +65,7 @@
 # text = in ɉokwʉ ʉnkʉɉokwa
 # text_en = They cooked "in ɉokwʉ" [maize with beans].
 # text_phrase-gls-es = Cocinaban in jokwü
-1	in	in	NOUN	_	_	3	comp:obj	_	AlignBegin=17840|AlignEnd=18300|GE=maize|Gloss=maize|nWord=1|RX=[N]|TokenType=Root
+1	in	in	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=17840|AlignEnd=18300|GE=maize|Gloss=maize|nWord=1|RX=[N]|TokenType=Root
 2	ɉokwʉ	ɉokwʉ	VERB	_	_	1	flat	_	AlignBegin=18300|AlignEnd=18760|GE=cook|Gloss=cook|nWord=1|RX=[V]|TokenType=Root
 3	ʉnkʉɉokwa	ɉokw	VERB	_	_	_	_	_	AlignBegin=18760|AlignEnd=19680|GE=[NONEGO]|Gloss=MIDAPPL1cookNONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
 
@@ -81,7 +81,7 @@
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=20026|AlignEnd=20371|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=20371|AlignEnd=21062|nWord=2
 4	kʉnkʉnʉ	kʉnkʉnʉ	NOUN	_	_	5	comp:pred	_	AlignBegin=21062|AlignEnd=21753|GE=mountain|Gloss=mountain|nWord=3|RX=[N]|TokenType=Root
-5	zanʉ	zan	AUX	_	_	7	comp:obj	_	AlignBegin=21753|AlignEnd=22444|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
+5	zanʉ	zan	AUX	_	Case=Abs	7	comp:obj	_	AlignBegin=21753|AlignEnd=22444|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
 6	neki	neki	PART	_	_	5	mod:emph	_	AlignBegin=22444|AlignEnd=23135|GE=[CNTR]|Gloss=CNTR|nWord=5|RX=[PRT]|TokenType=Root
 7	kʉssa	kʉssa	VERB	_	_	_	_	_	AlignBegin=23135|AlignEnd=23826|GE=put|Gloss=put|nWord=6|RX=[VT]|TokenType=Root
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=23826|AlignEnd=24520|nWord=7
@@ -101,7 +101,7 @@
 5	paloma	paloma	NOUN	_	_	1	conj:coord	_	AlignBegin=27908|AlignEnd=28755|GE=[SPA_pigeon]|Gloss=SPA_pigeon|nWord=5|RX=[N]|TokenType=Root
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=28755|AlignEnd=29602|nWord=6
 7	eymi	eymi	DET	_	_	8	comp:pred	_	AlignBegin=29602|AlignEnd=30449|GE=that|Gloss=that|nWord=7|RX=[DET]|TokenType=Root
-8	na	nan	AUX	_	_	9	comp:obj	_	AlignBegin=30449|AlignEnd=31296|GE=cop|Gloss=cop|nWord=8|RX=[COP]|TokenType=Root
+8	na	nan	AUX	_	Case=Abs	9	comp:obj	_	AlignBegin=30449|AlignEnd=31296|GE=cop|Gloss=cop|nWord=8|RX=[COP]|TokenType=Root
 9	ga	ga	VERB	_	_	10	comp	_	AlignBegin=31296|AlignEnd=31720|GE=put|Gloss=put|nWord=9|RX=[V]|TokenType=Root
 10	=sin	_	ADP	_	_	11	comp:obl	_	AlignBegin=31720|AlignEnd=32143|GE=with|Gloss==with|nWord=9|RX=[POST]|TokenType=Clit
 11	ku'na	ku'na	VERB	_	_	_	_	_	AlignBegin=32143|AlignEnd=32567|GE=cook|Gloss=cook|nWord=10|RX=[V]|TokenType=Root
@@ -139,8 +139,8 @@
 8	g	g	X	_	_	10	discourse	_	AlignBegin=38180|AlignEnd=38365|nWord=7|TokenType=Root
 9	)	_	PUNCT	_	_	8	punct	_	AlignBegin=38365|AlignEnd=38550|nWord=8
 10	umʉn	umʉn	ADV	_	_	_	_	_	AlignBegin=38550|AlignEnd=38735|GE=more|Gloss=more|nWord=9|RX=[ADV]|TokenType=Root
-11	eymi	eymi	PRON	_	_	13	comp:obj	_	AlignBegin=38735|AlignEnd=38920|GE=that|Gloss=that|nWord=10|RX=[DET]|TokenType=Root
-12	awi	aw	AUX	_	_	_	_	_	AlignBegin=38920|AlignEnd=39105|GE=aux|Gloss=auxand|nWord=11|RX=[AUX]|TokenType=Root
+11	eymi	eymi	PRON	_	Case=Abs	13	comp:obj	_	AlignBegin=38735|AlignEnd=38920|GE=that|Gloss=that|nWord=10|RX=[DET]|TokenType=Root
+12	awi	aw	AUX	_	_	_	_	_	AlignBegin=38920|AlignEnd=39105|GE=while|Gloss=auxCONV.SIM|nWord=11|RX=[VERB]|TokenType=InflAff
 13	ku'nana	ku'na	VERB	_	_	14	comp:aux	_	AlignBegin=39105|AlignEnd=39290|GE=[RMTPST]|Gloss=cookRMTPST|nWord=12|RX=[VERB]|TokenType=InflAff
 14	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=39290|AlignEnd=39382|GE=cop|Gloss=cop|nWord=13|RX=[COP]|TokenType=Root
 15	=di	_	PART	_	_	14	mod	_	AlignBegin=39382|AlignEnd=39475|GE=[TOP]|Gloss==TOP|nWord=13|RX=[PRT]|TokenType=Clit
@@ -163,11 +163,11 @@
 4	,	_	PUNCT	_	_	_	_	_	AlignBegin=40778|AlignEnd=41127|nWord=3
 5	uye'	aw	AUX	_	_	11	discourse	_	AlignBegin=41127|AlignEnd=41388|GE=then|Gloss=auxNONEGOthen|nWord=4|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=41388|AlignEnd=41476|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
-7	ikʉ	ikʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Ind	11	subj	_	AgentShift=no|AlignBegin=41476|AlignEnd=41650|GE=people|Gloss=people|nWord=5|RX=[N]|TokenType=Root|Topic=yes
+7	ikʉ	ikʉ	NOUN	_	_	11	comp:obl	_	AlignBegin=41476|AlignEnd=41650|GE=people|Gloss=people|nWord=5|RX=[N]|TokenType=Root|Topic=yes
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=41650|AlignEnd=41825|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 9	awʉ	aw	ADJ	_	_	10	mod	_	AlignBegin=41825|AlignEnd=42174|GE=less|Gloss=less|nWord=6|RX=[ADJ]|TokenType=Root
-10	wicha	wicha	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	11	comp:obj	_	AlignBegin=42174|AlignEnd=42523|GE=sickness|Gloss=sickness|nWord=7|RX=[ADJ]|TokenType=Root|Topic=no
-11	pʉna	pʉna	VERB	_	_	12	comp:aux	_	ArgumentOrder=SOV|Gloss=get.sick|TokenType=Root|Transitivity=transitive
+10	wicha	wicha	NOUN	_	Case=Abs	11	subj	_	AlignBegin=42174|AlignEnd=42523|GE=sickness|Gloss=sickness|nWord=7|RX=[ADJ]|TokenType=Root|Topic=no
+11	pʉna	pʉna	VERB	_	_	12	comp:aux	_	Gloss=extend|TokenType=Root
 12	ni	nan	AUX	_	_	0	root	_	AlignBegin=42872|AlignEnd=43220|GE=[DECL]|Gloss=DECL|nWord=9|RX=[AUX]|TokenType=Root
 
 # sent_id = CO19_009-009
@@ -178,7 +178,7 @@
 # text = in ɉokwʉ gey zʉn nʉnkwe'ri
 # text_en = when they were eating in ɉokwʉ,
 # text_phrase-gls-es = cuando se consumían in jokwü
-1	in	in	NOUN	_	_	3	comp:obj	_	AlignBegin=43220|AlignEnd=43561|GE=maize|Gloss=maize|nWord=1|RX=[N]|TokenType=Root
+1	in	in	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=43220|AlignEnd=43561|GE=maize|Gloss=maize|nWord=1|RX=[N]|TokenType=Root
 2	ɉokwʉ	ɉokwʉ	VERB	_	_	1	flat	_	AlignBegin=43561|AlignEnd=43902|GE=cook|Gloss=cook|nWord=1|RX=[V]|TokenType=Root
 3	gey	gey	VERB	_	_	4	comp:aux	_	AlignBegin=43902|AlignEnd=44584|GE=eat|Gloss=eat|nWord=2|RX=[VT]|TokenType=Root
 4	zʉn	zan	AUX	_	_	5	comp:aux	_	AlignBegin=44584|AlignEnd=45266|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
@@ -209,7 +209,7 @@
 # text = awiri tenʉ kinkiri gʉchʉ mikayunsu nʉnkwa nʉnna ni
 # text_en = And the canna indica maintained you the body.
 # text_phrase-gls-es = el perico nos ayuda a mantener el cuerpo [ nos enflaquece]
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=49015|AlignEnd=49391|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	7	cc	_	AlignBegin=49015|AlignEnd=49391|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=49391|AlignEnd=49578|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	tenʉ	tenʉ	PROPN	_	Animacy=Inan|Case=Erg|Definite=Def	7	subj	_	AgentShift=yes|AlignBegin=49578|AlignEnd=50141|GE=[Canna].[indica]|Gloss=Canna.indica|nWord=2|RX=[NPROP]|ShiftType=full|TokenType=Root|Topic=yes
 4	kinki	kinki	PART	_	_	3	mod	_	AlignBegin=50141|AlignEnd=50423|GE=always|Gloss=always|nWord=3|RX=[PRT]|TokenType=Root
@@ -243,10 +243,10 @@
 # text = awiri giñia dusi gʉmʉsinʉ ʉnkagangwari
 # text_en = and one dried plantains to give to children
 # text_phrase-gls-es = y secando los guineos para darles a los ninyos
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=56826|AlignEnd=57414|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=56826|AlignEnd=57414|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=57414|AlignEnd=57709|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	giñia	giñia	NOUN	_	_	4	comp:obj	_	AlignBegin=57709|AlignEnd=58592|GE=plantain|Gloss=plantain|nWord=2|RX=[N]|TokenType=Root
-4	dusi	dusi	VERB	_	_	6	comp:obj	_	AlignBegin=58592|AlignEnd=59475|GE=make.dry|Gloss=make.dry|nWord=3|RX=[V]|TokenType=Root
+3	giñia	giñia	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=57709|AlignEnd=58592|GE=plantain|Gloss=plantain|nWord=2|RX=[N]|TokenType=Root
+4	dusi	dusi	VERB	_	Case=Abs	6	comp:obj	_	AlignBegin=58592|AlignEnd=59475|GE=make.dry|Gloss=make.dry|nWord=3|RX=[V]|TokenType=Root
 5	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	comp:obl	_	AlignBegin=59475|AlignEnd=60358|GE=child|Gloss=child|nWord=4|RX=[N]|TokenType=Root
 6	ʉnkagangwa	ga	VERB	_	_	_	_	_	AlignBegin=60358|AlignEnd=61062|GE=[FUT]|Gloss=MIDAPPL1putFUT|nWord=5|RX=[VERB]|TokenType=InflAff
 7	=ri	_	PART	_	_	6	mod	_	AlignBegin=61062|AlignEnd=61240|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
@@ -259,10 +259,10 @@
 # text = giñia dusi , pʉrʉntanʉ , mansanʉ , pinna giñia dusi
 # text_en = one dries plantains, plantain variety, a plantain variety, one dries all [kinds of] plantains
 # text_phrase-gls-es = secando los guineos, como el plátano, manzano [variedad del guineo], secando toda clase de guineo
-1	giñia	giñia	NOUN	_	_	2	comp:obj	_	AlignBegin=61240|AlignEnd=61622|GE=plantain|Gloss=plantain|nWord=1|RX=[N]|TokenType=Root
+1	giñia	giñia	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=61240|AlignEnd=61622|GE=plantain|Gloss=plantain|nWord=1|RX=[N]|TokenType=Root
 2	dusi	dusi	VERB	_	_	10	parataxis	_	AlignBegin=61622|AlignEnd=62004|GE=make.dry|Gloss=make.dry|nWord=2|RX=[V]|TokenType=Root
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=62004|AlignEnd=62386|nWord=3
-4	pʉrʉntanʉ	pʉrʉntanʉ	NOUN	_	_	10	comp:obj	_	AlignBegin=62386|AlignEnd=62768|GE=plaintain|Gloss=plaintain|nWord=4|RX=[N]|TokenType=Root
+4	pʉrʉntanʉ	pʉrʉntanʉ	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=62386|AlignEnd=62768|GE=plaintain|Gloss=plaintain|nWord=4|RX=[N]|TokenType=Root
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=62768|AlignEnd=63150|nWord=5
 6	mansanʉ	mansanʉ	NOUN	_	_	4	conj:coord	_	AlignBegin=63150|AlignEnd=63532|GE=plantain.variety|Gloss=plantain.variety|nWord=6|RX=[N]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=63532|AlignEnd=63914|nWord=7
@@ -281,7 +281,7 @@
 1	eymi	eymi	ADV	_	_	2	comp:pred	_	AlignBegin=65060|AlignEnd=65390|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
 2	na	nan	AUX	_	_	_	_	_	AlignBegin=65390|AlignEnd=65720|GE=cop|Gloss=cop|nWord=2|RX=[COP]|TokenType=Root
 3	dusa	dusa	VERB	_	_	4	comp:aux	_	AlignBegin=65720|AlignEnd=66050|GE=make.dry|Gloss=make.dry|nWord=3|RX=[V]|TokenType=Root
-4	nani	nan	AUX	_	_	_	_	_	AlignBegin=66050|AlignEnd=66380|GE=[AUX]|Gloss=AUXand|nWord=4|RX=[AUX]|TokenType=Root
+4	nani	nan	AUX	_	_	_	_	_	AlignBegin=66050|AlignEnd=66380|GE=while|Gloss=AUXCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=66380|AlignEnd=66710|nWord=5
 6	ʉmpey	pey	VERB	_	_	_	_	_	AlignBegin=66710|AlignEnd=67040|GE=grind|Gloss=MIDgrind|nWord=6|RX=[V]|TokenType=Root
 
@@ -293,11 +293,11 @@
 # text = awiri eyma , masamorra kʉɉosi tusin
 # text_en = and this, one cooks the flour with the milk.
 # text_phrase-gls-es = y lo cocinamos la harina con la lecha
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=67040|AlignEnd=67554|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=67040|AlignEnd=67554|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=67554|AlignEnd=67810|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	eyma	eyma	PRON	_	_	5	conj:dicto	_	AlignBegin=67810|AlignEnd=68580|GE=this|Gloss=this|nWord=2|RX=[DEM]|TokenType=Root
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=68580|AlignEnd=69350|nWord=3
-5	masamorra	masamorra	NOUN	_	_	6	comp:obj	_	AlignBegin=69350|AlignEnd=70120|GE=plantain flour with milk|Gloss=plantain flour with milk|nWord=4|RX=[N]|TokenType=Root
+5	masamorra	masamorra	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=69350|AlignEnd=70120|GE=plantain flour with milk|Gloss=plantain flour with milk|nWord=4|RX=[N]|TokenType=Root
 6	kʉɉosi	ɉosi	VERB	_	_	_	_	_	AlignBegin=70120|AlignEnd=70890|GE=cook|Gloss=APPL1cook|nWord=5|RX=[V]|TokenType=Root
 7	tu	tu	NOUN	_	_	8	comp	_	AlignBegin=70890|AlignEnd=71275|GE=milk|Gloss=milk|nWord=6|RX=[N]|TokenType=Root
 8	=sin	_	ADP	_	_	6	comp:obl	_	AlignBegin=71275|AlignEnd=71660|GE=with|Gloss==with|nWord=6|RX=[POST]|TokenType=Clit
@@ -312,7 +312,7 @@
 # text_phrase-gls-es = asi es que hacían crecer los ninyos anteriormente
 1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	3	comp:pred	_	AlignBegin=71760|AlignEnd=72269|GE=child|Gloss=child|nWord=1|RX=[N]|TokenType=Root
 2	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=72269|AlignEnd=72778|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
-3	awi	aw	AUX	_	_	_	_	_	AlignBegin=72778|AlignEnd=73287|GE=aux|Gloss=auxand|nWord=3|RX=[AUX]|TokenType=Root
+3	awi	aw	AUX	_	_	_	_	_	AlignBegin=72778|AlignEnd=73287|GE=while|Gloss=auxCONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
 4	birin	birin	ADV	_	_	_	_	_	AlignBegin=73287|AlignEnd=73541|GE=long time ago|Gloss=long time ago|nWord=4|RX=[ADV]|TokenType=Root
 5	=di	_	PART	_	_	4	mod	_	AlignBegin=73541|AlignEnd=73796|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 6	ineykumana	iney	VERB	_	_	7	comp:aux	_	AlignBegin=73796|AlignEnd=74305|GE=[RMTPST]|Gloss=growANTICRMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
@@ -348,13 +348,13 @@
 # text = awiri gʉmʉsinʉri eymi awi akawiri
 # text_en = and we fed the children this way
 # text_phrase-gls-es = y así alimentaban los ninyos
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=77773|AlignEnd=78329|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=77773|AlignEnd=78329|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=78329|AlignEnd=78606|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	comp:pred	_	AlignBegin=78606|AlignEnd=79022|GE=child|Gloss=child|nWord=2|RX=[N]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=79022|AlignEnd=79439|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=79439|AlignEnd=80272|GE=there|Gloss=there|nWord=3|RX=[ADV]|TokenType=Root
-6	awi	aw	AUX	_	_	_	_	_	AlignBegin=80272|AlignEnd=81105|GE=aux|Gloss=auxand|nWord=4|RX=[AUX]|TokenType=Root
-7	akawi	kaw	AUX	_	_	_	_	_	AlignBegin=81105|AlignEnd=81732|GE=seem|Gloss=1PL.Sseemand|nWord=5|RX=[AUX]|TokenType=Root
+6	awi	aw	AUX	_	_	_	_	_	AlignBegin=80272|AlignEnd=81105|GE=while|Gloss=auxCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
+7	akawi	kaw	AUX	_	_	_	_	_	AlignBegin=81105|AlignEnd=81732|GE=while|Gloss=1PL.SseemCONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=81732|AlignEnd=81940|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO19_020-020
@@ -371,7 +371,7 @@
 4	kia	kia	ADJ	_	_	3	mod	_	AlignBegin=83872|AlignEnd=84194|GE=native|Gloss=native|nWord=4|RX=[ADJ]|TokenType=Root
 5	=se'	_	ADP	_	_	7	mod:lmod	_	AlignBegin=84194|AlignEnd=84516|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]|TokenType=Clit
 6	zʉn	zan	PART	_	_	5	mod:emph	_	AlignBegin=84516|AlignEnd=85160|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
-7	kado'si	do's	VERB	_	_	_	_	_	AlignBegin=85160|AlignEnd=85804|GE=while|Gloss=APPL1make.spilland|nWord=6|RX=[VERB]|TokenType=InflAff
+7	kado'si	do's	VERB	_	_	_	_	_	AlignBegin=85160|AlignEnd=85804|GE=while|Gloss=APPL1make.spillCONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 8	tiru	tiru	NOUN	_	_	9	comp	_	AlignBegin=85804|AlignEnd=86127|GE=spoon|Gloss=spoon|nWord=7|RX=[N]|TokenType=Root
 9	=sin	_	ADP	_	_	7	comp:obl	_	AlignBegin=86127|AlignEnd=86450|GE=with|Gloss==with|nWord=7|RX=[POST]|TokenType=Clit
 
@@ -420,14 +420,14 @@
 # text = teteru =ri i- cho'sʉ -y -e' =ri , kʉkʉ kʉ- rigw -ey nis -i
 # text_en = When one gives the feeding bottle, his teeth get damaged. |
 # text_phrase-gls-es = Cuando le ponemos el tetero, se le pica el diente [se le danyan los dientes]
-1	teteru	teteru	NOUN	_	_	3	comp:obj	_	AlignBegin=90610|AlignEnd=90806|GE=[SPA_feeding_bottle]|Gloss=SPA_feeding_bottle|nWord=1|RX=[N]|TokenType=Root
+1	teteru	teteru	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=90610|AlignEnd=90806|GE=[SPA_feeding_bottle]|Gloss=SPA_feeding_bottle|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=90806|AlignEnd=91003|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	icho'sʉye'	cho'sʉ	VERB	_	_	8	parataxis	_	AlignBegin=91003|AlignEnd=91319|GE=then|Gloss=APPL2put.down[upright]NONEGOthen|nWord=2|RX=[VERB]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=91319|AlignEnd=91396|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=91396|AlignEnd=91789|nWord=3
-6	kʉkʉ	kʉkʉ	NOUN	_	_	7	comp:obj	_	AlignBegin=91789|AlignEnd=92182|GE=tooth|Gloss=tooth|nWord=4|RX=[N]|TokenType=Root
-7	kʉrigwey	rigw	VERB	_	_	8	comp:aux	_	AlignBegin=92182|AlignEnd=92575|GE=be_eaten_by_animals|Gloss=APPL1be_eaten_by_animalsand|nWord=5|RX=[V]|TokenType=Root
-8	nisi	nik	AUX	_	_	0	root	_	AlignBegin=92575|AlignEnd=92970|GE=do|Gloss=doand|nWord=6|RX=[AUX]|TokenType=Root
+6	kʉkʉ	kʉkʉ	NOUN	_	Case=Abs	7	comp:obj	_	AlignBegin=91789|AlignEnd=92182|GE=tooth|Gloss=tooth|nWord=4|RX=[N]|TokenType=Root
+7	kʉrigwey	rigw	VERB	_	_	8	comp:aux	_	AlignBegin=92182|AlignEnd=92575|GE=while|Gloss=APPL1be_eaten_by_animalsCONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
+8	nisi	nik	AUX	_	_	0	root	_	AlignBegin=92575|AlignEnd=92970|GE=while|Gloss=doCONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO19_024-024
 # speaker_id = @SP19
@@ -454,7 +454,7 @@
 3	=di	_	PART	_	_	2	mod	_	AlignBegin=95886|AlignEnd=96188|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	yagʉ	yagʉ	INTJ	_	_	5	discourse	_	AlignBegin=96188|AlignEnd=96792|GE=well|Gloss=well|nWord=3|RX=[INTERJ]|TokenType=Root
 5	a'disʉya'me'	a'disʉ	VERB	_	_	2	parataxis	_	AlignBegin=96792|AlignEnd=97396|GE=[CAUSE]|Gloss=suckNONEGOCAUSE|nWord=4|RX=[VERB]|TokenType=InflAff
-6	chupu	chupu	NOUN	_	_	5	comp:obj	_	AlignBegin=97396|AlignEnd=98000|GE=[SPA_dummy/pacifier]|Gloss=SPA_dummy/pacifier|nWord=5|RX=[N]|TokenType=Root
+6	chupu	chupu	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=97396|AlignEnd=98000|GE=[SPA_dummy/pacifier]|Gloss=SPA_dummy/pacifier|nWord=5|RX=[N]|TokenType=Root
 
 # sent_id = CO19_026-026
 # speaker_id = @SP19
@@ -468,7 +468,7 @@
 2	uwe'	aw	AUX	_	_	_	_	_	AlignBegin=98717|AlignEnd=99044|GE=then|Gloss=auxEGOthen|nWord=2|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=99044|AlignEnd=99154|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	andi	andi	ADV	_	_	_	_	_	AlignBegin=99154|AlignEnd=99591|GE=so|Gloss=so|nWord=3|RX=[ADV]|TokenType=Root
-5	eymi	eymi	PRON	_	_	6	comp:obj	_	AlignBegin=99591|AlignEnd=100028|GE=that|Gloss=that|nWord=4|RX=[DET]|TokenType=Root
+5	eymi	eymi	PRON	_	Case=Abs	6	comp:obj	_	AlignBegin=99591|AlignEnd=100028|GE=that|Gloss=that|nWord=4|RX=[DET]|TokenType=Root
 6	niku'	nik	AUX	_	_	7	comp:aux	_	AlignBegin=100028|AlignEnd=100465|GE=[NEG]|Gloss=doNEG|nWord=5|RX=[VERB]|TokenType=InflAff
 7	nʉngwasi	nan	AUX	_	_	_	_	_	AlignBegin=100465|AlignEnd=100755|GE=[PURPOSE]|Gloss=AUXPURPOSE|nWord=6|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=100755|AlignEnd=100900|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
@@ -500,20 +500,20 @@
 2	kia	kia	ADJ	_	_	1	mod	_	AlignBegin=103939|AlignEnd=104263|GE=native|Gloss=native|nWord=2|RX=[ADJ]|TokenType=Root
 3	=se'	_	ADP	_	_	18	mod:lmod	_	AlignBegin=104263|AlignEnd=104588|GE=[LOC]|Gloss==LOC|nWord=2|RX=[POST]|TokenType=Clit
 4	ey	ey	PART	_	_	_	_	_	AlignBegin=104588|AlignEnd=105237|GE=so|Gloss=so|nWord=3|RX=[PRT]|TokenType=Root
-5	awi	aw	AUX	_	_	_	_	_	AlignBegin=105237|AlignEnd=105669|GE=aux|Gloss=auxand|nWord=4|RX=[AUX]|TokenType=Root
+5	awi	aw	AUX	_	_	_	_	_	AlignBegin=105237|AlignEnd=105669|GE=while|Gloss=auxCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=105669|AlignEnd=105886|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 7	kwa	kwa	INTJ	_	_	8	discourse	_	AlignBegin=105886|AlignEnd=106535|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
 8	inʉ	inʉ	PRON	_	_	10	conj:dicto	_	AlignBegin=106535|AlignEnd=107184|GE=what|Gloss=what|nWord=6|RX=[INTERROG]|TokenType=Root
 9	neki	neki	PART	_	_	8	mod:emph	_	AlignBegin=107184|AlignEnd=107833|GE=[CNTR]|Gloss=CNTR|nWord=7|RX=[PRT]|TokenType=Root
 10	in	in	NOUN	_	_	12	conj:dicto	_	AlignBegin=107833|AlignEnd=108482|GE=maize|Gloss=maize|nWord=8|RX=[N]|TokenType=Root
 11	,	_	PUNCT	_	_	10	punct	_	AlignBegin=108482|AlignEnd=109131|nWord=9
-12	in	in	NOUN	_	_	18	comp:obj	_	AlignBegin=109131|AlignEnd=109780|GE=maize|Gloss=maize|nWord=10|RX=[N]|TokenType=Root
+12	in	in	NOUN	_	Case=Abs	18	comp:obj	_	AlignBegin=109131|AlignEnd=109780|GE=maize|Gloss=maize|nWord=10|RX=[N]|TokenType=Root
 13	ichʉ	ichʉ	NOUN	_	_	12	conj:coord	_	AlignBegin=109780|AlignEnd=110429|GE=bean|Gloss=bean|nWord=11|RX=[N]|TokenType=Root
 14	kʉnkuku	kʉnkuku	NOUN	_	_	13	conj:coord	_	AlignBegin=110429|AlignEnd=111078|GE=pigeon.pea|Gloss=pigeon.pea|nWord=12|RX=[N]|TokenType=Root
 15	eymi	eymi	PRON	_	_	16	comp:pred	_	AlignBegin=111078|AlignEnd=111727|GE=there|Gloss=this|nWord=13|RX=[ADV]|TokenType=Root
 16	na	nan	AUX	_	_	17	comp	_	AlignBegin=111727|AlignEnd=112051|GE=cop|Gloss=cop|nWord=14|RX=[COP]|TokenType=Root
 17	=sin	_	ADP	_	_	14	conj:coord	_	AlignBegin=112051|AlignEnd=112376|GE=with|Gloss==with|nWord=14|RX=[POST]|TokenType=Clit
-18	re'minsi	re'mins	VERB	_	_	_	_	_	AlignBegin=112376|AlignEnd=113025|GE=while|Gloss=mixand|nWord=15|RX=[VERB]|TokenType=InflAff
+18	re'minsi	re'mins	VERB	_	_	_	_	_	AlignBegin=112376|AlignEnd=113025|GE=while|Gloss=mixCONV.SIM|nWord=15|RX=[VERB]|TokenType=InflAff
 19	pey	pey	VERB	_	_	20	comp:aux	_	AlignBegin=113025|AlignEnd=113674|GE=grind|Gloss=grind|nWord=16|RX=[V]|TokenType=Root
 20	unaɉʉ	un	AUX	_	_	_	_	_	AlignBegin=113674|AlignEnd=114104|GE=[IMM].[SUC]|Gloss=auxIMM.SUC|nWord=17|RX=[V:ANY]|TokenType=InflAff
 21	=ri	_	PART	_	_	20	mod	_	AlignBegin=114104|AlignEnd=114320|GE=[TOP]|Gloss==TOP|nWord=17|RX=[PRT]|TokenType=Clit
@@ -527,10 +527,10 @@
 # text_en = one strains it and then one makes the "masamorra"
 # text_phrase-gls-es = lo colamos y es le que hacemos la masamorra
 1	a'nasinha	a'nasinha	VERB	_	_	2	comp:aux	_	AlignBegin=114320|AlignEnd=114731|GE=strain|Gloss=strain|nWord=1|RX=[V]|TokenType=Root
-2	awi	aw	AUX	_	_	_	_	_	AlignBegin=114731|AlignEnd=115142|GE=aux|Gloss=auxand|nWord=2|RX=[AUX]|TokenType=Root
+2	awi	aw	AUX	_	_	_	_	_	AlignBegin=114731|AlignEnd=115142|GE=while|Gloss=auxCONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 3	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=115142|AlignEnd=115553|GE=there|Gloss=there|nWord=3|RX=[ADV]|TokenType=Root
-4	awi	aw	AUX	_	_	_	_	_	AlignBegin=115553|AlignEnd=115964|GE=aux|Gloss=auxand|nWord=4|RX=[AUX]|TokenType=Root
-5	masamorra	masamorra	NOUN	_	_	9	comp:obj	_	AlignBegin=115964|AlignEnd=116375|GE=plantain flour with milk|Gloss=plantain flour with milk|nWord=5|RX=[N]|TokenType=Root
+4	awi	aw	AUX	_	_	_	_	_	AlignBegin=115553|AlignEnd=115964|GE=while|Gloss=auxCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
+5	masamorra	masamorra	NOUN	_	Case=Abs	9	comp:obj	_	AlignBegin=115964|AlignEnd=116375|GE=plantain flour with milk|Gloss=plantain flour with milk|nWord=5|RX=[N]|TokenType=Root
 6	(	_	PUNCT	_	_	7	punct	_	AlignBegin=116375|AlignEnd=116786|nWord=6
 7	ko	ko	X	_	_	9	discourse	_	AlignBegin=116786|AlignEnd=117197|nWord=7|TokenType=Root
 8	)	_	PUNCT	_	_	7	punct	_	AlignBegin=117197|AlignEnd=117608|nWord=8
@@ -567,7 +567,7 @@
 6	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Abs	10	subj	_	AlignBegin=121091|AlignEnd=121648|GE=child|Gloss=child|nWord=4|RX=[N]|TokenType=Root
 7	chinchin	chinchin	ADJ	_	_	9	comp:pred	_	AlignBegin=121648|AlignEnd=121926|GE=hefty|Gloss=hefty|nWord=5|RX=[ADJ]|TokenType=Root
 8	=te	_	PART	_	_	7	mod	_	AlignBegin=121926|AlignEnd=122205|GE=[PL].[ADJ]|Gloss==PL.ADJ|nWord=5|RX=[ADJ]|TokenType=Clit
-9	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=122205|AlignEnd=122762|GE=seem|Gloss=seemand|nWord=6|RX=[AUX]|TokenType=Root
+9	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=122205|AlignEnd=122762|GE=while|Gloss=seemCONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 10	inʉya	inʉya	VERB	_	_	11	comp:aux	_	AlignBegin=122762|AlignEnd=123319|GE=grow|Gloss=grow|nWord=7|RX=[V]|TokenType=Root
 11	nʉnna	nan	AUX	_	_	12	comp:aux	_	AlignBegin=123319|AlignEnd=123876|GE=[RMTPST]|Gloss=copRMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
 12	ni	nan	AUX	_	_	_	_	_	AlignBegin=123876|AlignEnd=124430|GE=[DECL]|Gloss=DECL|nWord=9|RX=[AUX]|TokenType=Root
@@ -587,7 +587,7 @@
 5	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=126347|AlignEnd=126531|GE=now|Gloss=now|nWord=4|RX=[ADV]|TokenType=Root
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=126531|AlignEnd=126716|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 7	bunachʉ	bunachʉ	NOUN	_	_	8	comp	_	AlignBegin=126716|AlignEnd=126900|GE=non-indigenous person|Gloss=non-indigenous person|nWord=5|RX=[N]|TokenType=Root
-8	=zey	_	ADP	_	_	13	comp:obj	_	AlignBegin=126900|AlignEnd=127085|GE=[GEN]|Gloss==GEN|nWord=5|RX=[POST]|TokenType=Clit
+8	=zey	_	ADP	_	Case=Abs	13	comp:obj	_	AlignBegin=126900|AlignEnd=127085|GE=[GEN]|Gloss==GEN|nWord=5|RX=[POST]|TokenType=Clit
 9	zama	zama	NOUN	_	_	8	udep:poss	_	AlignBegin=127085|AlignEnd=127454|GE=food|Gloss=food|nWord=6|RX=[N]|TokenType=Root
 10	zʉ'ʉn	zan	PART	_	_	9	mod:emph	_	AlignBegin=127454|AlignEnd=127823|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]|TokenType=Root
 11	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	12	comp	_	AlignBegin=127823|AlignEnd=128007|GE=child|Gloss=child|nWord=8|RX=[N]|TokenType=Root
@@ -601,7 +601,7 @@
 19	=gwi	_	ADV	_	_	18	mod	_	AlignBegin=129545|AlignEnd=129668|GE=also|Gloss==also|nWord=12|RX=[ADV]|TokenType=Clit
 20	ʉnmikʉtow	tow	VERB	_	_	21	comp:aux	_	AlignBegin=129668|AlignEnd=130037|GE=take|Gloss=MID1PL.OAPPL1take|nWord=13|RX=[VT]|TokenType=Root
 21	nikukwi	nik	AUX	_	_	22	comp:aux	_	AlignBegin=130037|AlignEnd=130406|GE=[ABLE]|Gloss=doABLE|nWord=14|RX=[VERB]|TokenType=InflAff
-22	nisi	nik	AUX	_	_	_	_	_	AlignBegin=130406|AlignEnd=130775|GE=do|Gloss=doand|nWord=15|RX=[AUX]|TokenType=Root
+22	nisi	nik	AUX	_	_	_	_	_	AlignBegin=130406|AlignEnd=130775|GE=while|Gloss=doCONV.SIM|nWord=15|RX=[VERB]|TokenType=InflAff
 23	zʉn	zan	PART	_	_	22	mod:emph	_	AlignBegin=130775|AlignEnd=131144|GE=[COP]|Gloss=COP|nWord=16|RX=[COP]|TokenType=Root
 24	,	_	PUNCT	_	_	23	punct	_	AlignBegin=131144|AlignEnd=131513|nWord=17
 25	zoya	zoy	VERB	_	_	26	comp:aux	_	AlignBegin=131513|AlignEnd=131882|GE=go|Gloss=go|nWord=18|RX=[V]|TokenType=Root
@@ -622,9 +622,9 @@
 4	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=133208|AlignEnd=133682|GE=so|Gloss=so|nWord=3|RX=[ADV]|TokenType=Root
 5	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=133682|AlignEnd=134156|GE=first|Gloss=first|nWord=4|RX=[ADV]|TokenType=Root
 6	zanʉ	zan	AUX	_	_	_	_	_	AlignBegin=134156|AlignEnd=134630|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
-7	zamʉ	zamʉ	NOUN	_	_	9	comp:obj	_	AlignBegin=134630|AlignEnd=134867|GE=food|Gloss=food|nWord=6|RX=[N]|TokenType=Root
+7	zamʉ	zamʉ	NOUN	_	Case=Abs	9	comp:obj	_	AlignBegin=134630|AlignEnd=134867|GE=food|Gloss=food|nWord=6|RX=[N]|TokenType=Root
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=134867|AlignEnd=135104|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
-9	gamʉ	g	VERB	_	_	11	comp:obj	_	AlignBegin=135104|AlignEnd=135578|GE=[INF]|Gloss=eatINF|nWord=7|RX=[VERB]|TokenType=InflAff
+9	gamʉ	g	VERB	_	Case=Abs	11	comp:obj	_	AlignBegin=135104|AlignEnd=135578|GE=[INF]|Gloss=eatINF|nWord=7|RX=[VERB]|TokenType=InflAff
 10	yow	yow	DET	_	_	9	det	_	AlignBegin=135578|AlignEnd=136052|GE=all|Gloss=all|nWord=8|RX=[QUANT]|TokenType=Root
 11	niwetikumʉn	tikum	VERB	_	_	12	comp:aux	_	AlignBegin=136052|AlignEnd=136526|GE=[IPFV]|Gloss=1PL.OforgetIPFV|nWord=9|RX=[VERB]|TokenType=InflAff
 12	nuga'me'	nik	AUX	_	_	_	_	_	AlignBegin=136526|AlignEnd=137000|GE=[CAUSE]|Gloss=auxCAUSE|nWord=10|RX=[VERB]|TokenType=InflAff
@@ -643,7 +643,7 @@
 4	ki	ki	PART	_	_	3	mod	_	AlignBegin=138006|AlignEnd=138289|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]|TokenType=Root
 5	nʉnno	nan	AUX	_	_	_	_	_	AlignBegin=138289|AlignEnd=138572|GE=[Q]|Gloss=copQ|nWord=4|RX=[VERB]|TokenType=InflAff
 6	me'zanukwa	'zan	VERB	_	_	7	comp:aux	_	AlignBegin=138572|AlignEnd=138855|GE=[ABLE]|Gloss=2SG.OthinkABLE|nWord=5|RX=[VERB]|TokenType=InflAff
-7	awi	aw	AUX	_	_	_	_	_	AlignBegin=138855|AlignEnd=139043|GE=aux|Gloss=auxand|nWord=6|RX=[AUX]|TokenType=Root
+7	awi	aw	AUX	_	_	_	_	_	AlignBegin=138855|AlignEnd=139043|GE=while|Gloss=auxCONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=139043|AlignEnd=139138|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=139138|AlignEnd=139418|nWord=7
 
@@ -655,7 +655,7 @@
 # text = tenʉ ki neki ʉnzarikamʉ ʉnmigʉnku' ,
 # text_en = we [lit. you] don't even know how to sow Canna indica,
 # text_phrase-gls-es = ni sabemos sembrar el perico,
-1	tenʉ	tenʉ	PROPN	_	_	4	comp:obj	_	AlignBegin=139418|AlignEnd=139785|GE=[Canna].[indica]|Gloss=Canna.indica|nWord=1|RX=[NPROP]|TokenType=Root
+1	tenʉ	tenʉ	PROPN	_	Case=Abs	4	comp:obj	_	AlignBegin=139418|AlignEnd=139785|GE=[Canna].[indica]|Gloss=Canna.indica|nWord=1|RX=[NPROP]|TokenType=Root
 2	ki	ki	PART	_	_	1	mod	_	AlignBegin=139785|AlignEnd=140152|GE=[CNTR]|Gloss=CNTR|nWord=2|RX=[PRT]|TokenType=Root
 3	neki	neki	PART	_	_	2	mod:emph	_	AlignBegin=140152|AlignEnd=140519|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]|TokenType=Root
 4	ʉnzarikamʉ	zarik	VERB	_	_	_	_	_	AlignBegin=140519|AlignEnd=140886|GE=[OBL]|Gloss=MIDsowOBL|nWord=4|RX=[VERB]|TokenType=InflAff
@@ -684,8 +684,8 @@
 1	azi	azi	ADV	_	_	_	_	_	AlignBegin=144140|AlignEnd=144606|GE=how|Gloss=how|nWord=1|RX=[INTERROG]|TokenType=Root
 2	kawa	kaw	AUX	_	_	_	_	_	AlignBegin=144606|AlignEnd=144839|GE=seem|Gloss=seem|nWord=2|RX=[AUX]|TokenType=Root
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=144839|AlignEnd=145072|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-4	anagwako	gwak	VERB	_	_	10	comp:obj	_	AlignBegin=145072|AlignEnd=145538|GE=[Q]|Gloss=MIDcompareQ|nWord=3|RX=[VERB]|TokenType=InflAff
-5	mi'i	mi'i	NOUN	_	_	4	comp:obj	_	AlignBegin=145538|AlignEnd=146004|GE=sweet.potato|Gloss=sweet.potato|nWord=4|RX=[N]|TokenType=Root
+4	anagwako	gwak	VERB	_	Case=Abs	10	comp:obj	_	AlignBegin=145072|AlignEnd=145538|GE=[Q]|Gloss=MIDcompareQ|nWord=3|RX=[VERB]|TokenType=InflAff
+5	mi'i	mi'i	NOUN	_	Case=Abs	4	comp:obj	_	AlignBegin=145538|AlignEnd=146004|GE=sweet.potato|Gloss=sweet.potato|nWord=4|RX=[N]|TokenType=Root
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=146004|AlignEnd=146470|nWord=5
 7	zʉn	zan	PART	_	_	_	_	_	AlignBegin=146470|AlignEnd=146936|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]|TokenType=Root
 8	ey	ey	PART	_	_	_	_	_	AlignBegin=146936|AlignEnd=147402|GE=so|Gloss=so|nWord=7|RX=[PRT]|TokenType=Root
@@ -697,7 +697,7 @@
 14	=di	_	PART	_	_	13	mod	_	AlignBegin=149502|AlignEnd=149738|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO19_038-038
-# text = uwe'ri ʉndi niwizama ( ih ) gey arumakʉɉinase' tiɉomase' ɉinase' gey winnakʉn nu'na kinkiri
+# text = u -w -e' =ri ʉndi niwi- zama ( ih ) gey arumakʉ =ɉina =se' tiɉoma =se' =ɉina =se' gey win- nak -ʉn nu' -na kinki =ri
 # speaker_id = @SP19
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-19.WAV/WAV/ARH-TXT-CO-00000-19.WAV
 # sent_timecode = 149738, 156491
@@ -707,7 +707,7 @@
 1	uwe'	aw	AUX	_	_	_	_	_	AlignBegin=149738|AlignEnd=150098|GE=then|Gloss=auxEGOthen|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=150098|AlignEnd=150220|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=150220|AlignEnd=150702|GE=so|Gloss=so|nWord=2|RX=[ADV]|TokenType=Root
-4	niwizama	zama	NOUN	_	_	8	comp:obj	_	AlignBegin=150702|AlignEnd=151184|GE=food|Gloss=1PL.Ofood|nWord=3|RX=[N]|TokenType=Root
+4	niwizama	zama	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=150702|AlignEnd=151184|GE=food|Gloss=1PL.Ofood|nWord=3|RX=[N]|TokenType=Root
 5	(	_	PUNCT	_	_	6	punct	_	AlignBegin=151184|AlignEnd=151666|nWord=4
 6	ih	ih	INTJ	_	_	8	discourse	_	AlignBegin=151666|AlignEnd=152148|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
 7	)	_	PUNCT	_	_	6	punct	_	AlignBegin=152148|AlignEnd=152630|nWord=6
@@ -719,7 +719,7 @@
 13	=se'	_	X	_	_	12	discourse	_	AlignBegin=153835|AlignEnd=154076|GE=[ERG]|Gloss==ERG|nWord=9|RX=[POST]|TokenType=Clit
 14	=ɉina	_	PART	_	_	12	mod	_	AlignBegin=154076|AlignEnd=154317|GE=many[animated]|Gloss==many[animated]|nWord=10|RX=[PRT]|TokenType=Clit
 15	=se'	_	ADP	_	_	11	conj:coord	_	AlignBegin=154317|AlignEnd=154558|GE=[ERG]|Gloss==ERG|nWord=10|RX=[POST]|TokenType=Clit
-16	gey	gey	VERB	_	_	_	_	_	AlignBegin=154558|AlignEnd=155040|ArgumentOrder=SV|GE=eat|Gloss=eat|nWord=11|RX=[VT]|TokenType=Root|Transitivity=transitive
+16	gey	gey	VERB	_	Animacy=Inan|Definite=Spec	_	_	_	AlignBegin=154558|AlignEnd=155040|ArgumentOrder=SV|GE=eat|Gloss=eat|nWord=11|RX=[VT]|TokenType=Root|Transitivity=transitive
 17	winnakʉn	nak	VERB	_	_	18	comp:aux	_	AlignBegin=155040|AlignEnd=155522|GE=[IPFV]|Gloss=3PL.ScomeIPFV|nWord=12|RX=[VERB]|TokenType=InflAff
 18	nu'na	nu'	AUX	_	_	_	_	_	AlignBegin=155522|AlignEnd=156004|GE=[RMTPST]|Gloss=auxRMTPST|nWord=13|RX=[VERB]|TokenType=InflAff
 19	kinki	kinki	PART	_	_	_	_	_	AlignBegin=156004|AlignEnd=156248|GE=always|Gloss=always|nWord=14|RX=[PRT]|TokenType=Root
@@ -763,7 +763,7 @@
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=164962|AlignEnd=165120|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 7	jʉntri	jʉntri	ADJ	_	_	9	comp:pred	_	AlignBegin=165120|AlignEnd=165594|GE=straight|Gloss=straight|nWord=6|RX=[ADJ]|TokenType=Root
 8	jʉntri	jʉntri	ADJ	_	_	7	compound:redup	_	AlignBegin=165594|AlignEnd=166068|GE=straight|Gloss=straight|nWord=7|RX=[ADJ]|TokenType=Root
-9	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=166068|AlignEnd=166384|GE=seem|Gloss=seemand|nWord=8|RX=[AUX]|TokenType=Root
+9	kawi	kaw	AUX	_	Case=Abs	_	_	_	AlignBegin=166068|AlignEnd=166384|GE=while|Gloss=seemCONV.SIM|nWord=8|RX=[VERB]|TokenType=InflAff
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=166384|AlignEnd=166542|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
 11	tow	tow	ADJ	_	_	_	_	_	AlignBegin=166542|AlignEnd=167016|GE=plenty|Gloss=plenty|nWord=9|RX=[ADJ]|TokenType=Root
 12	tow	tow	ADJ	_	_	11	compound:redup	_	AlignBegin=167016|AlignEnd=167490|GE=plenty|Gloss=plenty|nWord=10|RX=[ADJ]|TokenType=Root
@@ -779,11 +779,11 @@
 # text = awiri ʉndi eymi kawi iyʉn yʉn unaɉʉri
 # text_en = and then we peel it all
 # text_phrase-gls-es = y luego lo pelamos todo
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=168440|AlignEnd=168754|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=168440|AlignEnd=168754|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=168754|AlignEnd=168910|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=168910|AlignEnd=169380|GE=so|Gloss=so|nWord=2|RX=[ADV]|TokenType=Root
 4	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=169380|AlignEnd=169850|GE=there|Gloss=there|nWord=3|RX=[ADV]|TokenType=Root
-5	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=169850|AlignEnd=170320|GE=seem|Gloss=seemand|nWord=4|RX=[AUX]|TokenType=Root
+5	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=169850|AlignEnd=170320|GE=while|Gloss=seemCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 6	iyʉn	iyʉn	VERB	_	_	_	_	_	AlignBegin=170320|AlignEnd=170790|GE=peel|Gloss=peel|nWord=5|RX=[V]|TokenType=Root
 7	y	y	VERB	_	_	8	comp:aux	_	AlignBegin=170790|AlignEnd=171260|GE=peel|Gloss=peel|nWord=6|RX=[V]|TokenType=Root
 8	unaɉʉ	un	AUX	_	_	_	_	_	AlignBegin=171260|AlignEnd=171574|GE=[IMM].[SUC]|Gloss=auxIMM.SUC|nWord=7|RX=[V:ANY]|TokenType=InflAff
@@ -800,8 +800,8 @@
 1	akunsi	akunsi	ADJ	_	_	_	_	_	AlignBegin=171730|AlignEnd=172460|GE=single-ingredient|Gloss=single-ingredient|nWord=1|RX=[ADJ]|TokenType=Root
 2	kʉgaka	gaka	VERB	_	_	_	_	_	AlignBegin=172460|AlignEnd=173190|GE=put|Gloss=APPL1put|nWord=2|RX=[V]|TokenType=Root
 3	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=173190|AlignEnd=173920|GE=there|Gloss=there|nWord=3|RX=[ADV]|TokenType=Root
-4	awi	aw	AUX	_	_	_	_	_	AlignBegin=173920|AlignEnd=174650|GE=aux|Gloss=auxand|nWord=4|RX=[AUX]|TokenType=Root
-5	nani	nan	AUX	_	_	_	_	_	AlignBegin=174650|AlignEnd=175136|GE=[AUX]|Gloss=AUXand|nWord=5|RX=[AUX]|TokenType=Root
+4	awi	aw	AUX	_	_	_	_	_	AlignBegin=173920|AlignEnd=174650|GE=while|Gloss=auxCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
+5	nani	nan	AUX	_	_	_	_	_	AlignBegin=174650|AlignEnd=175136|GE=while|Gloss=AUXCONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=175136|AlignEnd=175380|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO19_043-043
@@ -833,7 +833,7 @@
 3	tiki	tiki	NOUN	_	_	4	comp	_	AlignBegin=178458|AlignEnd=178569|GE=summer|Gloss=summer|nWord=3|RX=[N]|TokenType=Root
 4	='ba'	_	ADP	_	_	8	mod:lmod	_	AlignBegin=178569|AlignEnd=178680|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=178680|AlignEnd=178792|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
-6	mi'i	mi'i	NOUN	_	_	8	comp:obj	_	AlignBegin=178792|AlignEnd=179126|GE=sweet.potato|Gloss=sweet.potato|nWord=4|RX=[N]|TokenType=Root
+6	mi'i	mi'i	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=178792|AlignEnd=179126|GE=sweet.potato|Gloss=sweet.potato|nWord=4|RX=[N]|TokenType=Root
 7	ingumʉn	ingumʉn	ADV	_	_	_	_	_	AlignBegin=179126|AlignEnd=179460|GE=more|Gloss=more|nWord=5|RX=[ADV]|TokenType=Root
 8	agʉya	gʉ	VERB	_	_	9	comp:aux	_	AlignBegin=179460|AlignEnd=179794|GE=[NONEGO]|Gloss=1PL.SeatNONEGO|nWord=6|RX=[V:ANY]|TokenType=InflAff
 9	nʉnna	nan	AUX	_	_	10	comp:aux	_	AlignBegin=179794|AlignEnd=180128|GE=[RMTPST]|Gloss=copRMTPST|nWord=7|RX=[VERB]|TokenType=InflAff
@@ -848,7 +848,7 @@
 # text = awiri trʉmʉ akia , trʉmʉ chuchusio , trʉmʉ gunti , kusarʉ meysʉ , awiri chinu zʉga , ʉnke awga
 # text_en = and native potato, a potato variety, all kinds of potatoes, variety of venison, and pig's dung [food name], all that is said here
 # text_phrase-gls-es = y también la papa criolla, variedad de papa, toda clase de papa, variedad de venado, y estiercol de cerdo [se refiere a alguna comida], todo lo que se habla
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=180800|AlignEnd=181058|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=180800|AlignEnd=181058|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=181058|AlignEnd=181188|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	trʉmʉ	trʉmʉ	NOUN	_	_	0	root	_	AlignBegin=181188|AlignEnd=181576|GE=potato|Gloss=potato|nWord=2|RX=[N]|TokenType=Root
 4	akia	kia	ADJ	_	_	3	mod	_	AlignBegin=181576|AlignEnd=181964|GE=native|Gloss=3SG.POSSnative|nWord=3|RX=[ADJ]|TokenType=Root
@@ -862,7 +862,7 @@
 12	kusarʉ	kusarʉ	NOUN	_	_	9	conj:coord	_	AlignBegin=184680|AlignEnd=185068|GE=deer|Gloss=deer|nWord=11|RX=[N]|TokenType=Root
 13	meysʉ	meysʉ	NOUN	_	_	12	flat	_	AlignBegin=185068|AlignEnd=185456|GE=deer_variety|Gloss=deer_variety|nWord=12|RX=[N]|TokenType=Root
 14	,	_	PUNCT	_	_	13	punct	_	AlignBegin=185456|AlignEnd=185844|nWord=13
-15	awi	aw	AUX	_	_	_	_	_	AlignBegin=185844|AlignEnd=186102|GE=aux|Gloss=auxand|nWord=14|RX=[AUX]|TokenType=Root
+15	awi	aw	AUX	_	_	_	_	_	AlignBegin=185844|AlignEnd=186102|GE=while|Gloss=auxCONV.SIM|nWord=14|RX=[VERB]|TokenType=InflAff
 16	=ri	_	PART	_	_	15	mod	_	AlignBegin=186102|AlignEnd=186232|GE=[TOP]|Gloss==TOP|nWord=14|RX=[PRT]|TokenType=Clit
 17	chinu	chinu	NOUN	_	_	12	conj:coord	_	AlignBegin=186232|AlignEnd=186620|GE=[SPA_pig]|Gloss=SPA_pig|nWord=15|RX=[N]|TokenType=Root
 18	zʉga	zʉga	NOUN	_	_	17	flat	_	AlignBegin=186620|AlignEnd=187008|GE=dung|Gloss=dung|nWord=16|RX=[N]|TokenType=Root
@@ -881,11 +881,11 @@
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=188594|AlignEnd=189231|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=189231|AlignEnd=189868|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=189868|AlignEnd=190505|nWord=3
-4	nani	nan	AUX	_	_	_	_	_	AlignBegin=190505|AlignEnd=190929|GE=[AUX]|Gloss=AUXand|nWord=4|RX=[AUX]|TokenType=Root
+4	nani	nan	AUX	_	_	_	_	_	AlignBegin=190505|AlignEnd=190929|GE=while|Gloss=AUXCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=190929|AlignEnd=191142|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 6	trʉmʉ	trʉmʉ	NOUN	_	_	4	comp:pred	_	AlignBegin=191142|AlignEnd=191779|GE=potato|Gloss=potato|nWord=5|RX=[N]|TokenType=Root
 7	i'ngwi	i'ngwi	NUM	_	_	8	mod:num	_	AlignBegin=191779|AlignEnd=192416|GE=one|Gloss=one|nWord=6|RX=[NUM]|TokenType=Root
-8	añu	añu	NOUN	_	_	9	comp:obj	_	AlignBegin=192416|AlignEnd=193053|GE=potato_variety|Gloss=potato_variety|nWord=7|RX=[N]|TokenType=Root
+8	añu	añu	NOUN	_	Case=Abs	9	comp:obj	_	AlignBegin=192416|AlignEnd=193053|GE=potato_variety|Gloss=potato_variety|nWord=7|RX=[N]|TokenType=Root
 9	awga	awga	VERB	_	_	0	root	_	AlignBegin=193053|AlignEnd=193371|GE=say|Gloss=say|nWord=8|RX=[V]|TokenType=Root
 10	=gwi	_	ADV	_	_	9	mod	_	AlignBegin=193371|AlignEnd=193690|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
 
@@ -898,7 +898,7 @@
 # text_en = so that [after] one year, one can harvest it
 # text_phrase-gls-es = por lo que [después de] un año se puede cosechar [a partir de un año, ya da la cosecha]
 1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=193690|AlignEnd=193967|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
-2	eyma	eyma	PRON	_	_	7	comp:obj	_	AlignBegin=193967|AlignEnd=194105|GE=this|Gloss=this|nWord=2|RX=[DEM]|TokenType=Root
+2	eyma	eyma	PRON	_	Case=Abs	7	comp:obj	_	AlignBegin=193967|AlignEnd=194105|GE=this|Gloss=this|nWord=2|RX=[DEM]|TokenType=Root
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=194105|AlignEnd=194244|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	kʉggi	kʉggi	NOUN	_	_	5	comp:pred	_	AlignBegin=194244|AlignEnd=194521|GE=year|Gloss=year|nWord=3|RX=[N]|TokenType=Root
 5	zʉne'	zan	AUX	_	_	_	_	_	AlignBegin=194521|AlignEnd=194798|GE=then|Gloss=COPthen|nWord=4|RX=[VERB]|TokenType=InflAff
@@ -914,7 +914,7 @@
 # text = añu awga ni
 # text_en = that's why they call it "añu"
 # text_phrase-gls-es = por eso le dicen añu
-1	añu	añu	NOUN	_	_	2	comp:obj	_	AlignBegin=195630|AlignEnd=195923|GE=potato_variety|Gloss=potato_variety|nWord=1|RX=[N]|TokenType=Root
+1	añu	añu	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=195630|AlignEnd=195923|GE=potato_variety|Gloss=potato_variety|nWord=1|RX=[N]|TokenType=Root
 2	awga	awga	VERB	_	_	3	comp:aux	_	AlignBegin=195923|AlignEnd=196216|GE=say|Gloss=say|nWord=2|RX=[V]|TokenType=Root
 3	ni	nan	AUX	_	_	_	_	_	AlignBegin=196216|AlignEnd=196510|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]|TokenType=Root
 
@@ -926,7 +926,7 @@
 # text = trʉmʉ awga ni
 # text_en = They call it potato.
 # text_phrase-gls-es = Le dicen papa
-1	trʉmʉ	trʉmʉ	NOUN	_	_	2	comp:obj	_	AlignBegin=196510|AlignEnd=196917|GE=potato|Gloss=potato|nWord=1|RX=[N]|TokenType=Root
+1	trʉmʉ	trʉmʉ	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=196510|AlignEnd=196917|GE=potato|Gloss=potato|nWord=1|RX=[N]|TokenType=Root
 2	awga	awga	VERB	_	_	3	comp:aux	_	AlignBegin=196917|AlignEnd=197324|GE=say|Gloss=say|nWord=2|RX=[V]|TokenType=Root
 3	ni	nan	AUX	_	_	_	_	_	AlignBegin=197324|AlignEnd=197730|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]|TokenType=Root
 
@@ -943,14 +943,14 @@
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=198436|AlignEnd=198789|nWord=3
 4	andi	andi	ADV	_	_	5	discourse	_	AlignBegin=198789|AlignEnd=199142|GE=so|Gloss=so|nWord=4|RX=[ADV]|TokenType=Root
 5	eymi	eymi	DET	_	_	6	comp:pred	_	AlignBegin=199142|AlignEnd=199495|GE=that|Gloss=that|nWord=5|RX=[DET]|TokenType=Root
-6	na	nan	AUX	_	_	13	comp:obj	_	AlignBegin=199495|AlignEnd=199848|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
+6	na	nan	AUX	_	Case=Abs	13	comp:obj	_	AlignBegin=199495|AlignEnd=199848|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=199848|AlignEnd=200201|nWord=7
 8	ikʉ	ikʉ	PROPN	_	_	9	comp	_	AlignBegin=200201|AlignEnd=200319|GE=[Ika]|Gloss=Ika|nWord=8|RX=[NPROP]|TokenType=Root
 9	=se'	_	ADP	_	_	13	subj	_	AlignBegin=200319|AlignEnd=200437|GE=[ERG]|Gloss==ERG|nWord=8|RX=[POST]|TokenType=Clit
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=200437|AlignEnd=200554|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
 11	ingumʉn	ingumʉn	ADV	_	_	13	mod	_	AlignBegin=200554|AlignEnd=200907|GE=more|Gloss=more|nWord=9|RX=[ADV]|TokenType=Root
 12	ki	ki	PART	_	_	11	mod	_	AlignBegin=200907|AlignEnd=201260|GE=[CNTR]|Gloss=CNTR|nWord=10|RX=[PRT]|TokenType=Root
-13	nusi	nuk	AUX	_	_	_	_	_	AlignBegin=201260|AlignEnd=201613|GE=aux|Gloss=auxand|nWord=11|RX=[COP]|TokenType=Root
+13	nusi	nuk	AUX	_	_	_	_	_	AlignBegin=201260|AlignEnd=201613|GE=while|Gloss=auxCONV.SIM|nWord=11|RX=[VERB]|TokenType=InflAff
 14	nʉnna	nan	AUX	_	_	15	comp:aux	_	AlignBegin=201613|AlignEnd=201966|GE=[RMTPST]|Gloss=copRMTPST|nWord=12|RX=[VERB]|TokenType=InflAff
 15	ni	nan	AUX	_	_	0	root	_	AlignBegin=201966|AlignEnd=202320|GE=[DECL]|Gloss=DECL|nWord=13|RX=[AUX]|TokenType=Root
 
@@ -962,7 +962,7 @@
 # text = awiri ( ah ) ( ih ) aju kia ney ney nari
 # text_en = and the native garlic, which are very small
 # text_phrase-gls-es = y el ajo criollo que son muy pequenitos
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=202320|AlignEnd=202532|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=202320|AlignEnd=202532|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=202532|AlignEnd=202638|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	(	_	PUNCT	_	_	4	punct	_	AlignBegin=202638|AlignEnd=202956|nWord=2
 4	ah	ah	INTJ	_	_	7	discourse	_	AlignBegin=202956|AlignEnd=203274|GE=[HES]|Gloss=HES|nWord=3|RX=[INTERJ]|TokenType=Root
@@ -972,9 +972,9 @@
 8	)	_	PUNCT	_	_	7	punct	_	AlignBegin=204228|AlignEnd=204546|nWord=7
 9	aju	aju	NOUN	_	_	13	subj	_	AlignBegin=204546|AlignEnd=204864|GE=[SPA_garlic]|Gloss=SPA_garlic|nWord=8|RX=[N]|TokenType=Root
 10	kia	kia	ADJ	_	_	9	mod	_	AlignBegin=204864|AlignEnd=205182|GE=native|Gloss=native|nWord=9|RX=[ADJ]|TokenType=Root
-11	ney	ney	ADJ	_	_	13	comp:pred@pred	_	AlignBegin=205182|AlignEnd=205500|GE=small|Gloss=small|nWord=10|RX=[ADJ]|TokenType=Root
+11	ney	ney	ADJ	_	_	13	comp:pred	_	AlignBegin=205182|AlignEnd=205500|GE=small|Gloss=small|nWord=10|RX=[ADJ]|TokenType=Root
 12	ney	ney	ADJ	_	_	11	compound:redup	_	AlignBegin=205500|AlignEnd=205818|GE=small|Gloss=small|nWord=11|RX=[ADJ]|TokenType=Root
-13	nani	nan	AUX	_	_	_	_	_	AlignBegin=205818|AlignEnd=206130|GE=[AUX]|Gloss=AUXand|nWord=12|RX=[AUX]|TokenType=Root
+13	nani	nan	AUX	_	_	_	_	_	AlignBegin=205818|AlignEnd=206130|GE=while|Gloss=AUXCONV.SIM|nWord=12|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO19_052-052
 # speaker_id = @SP19
@@ -990,12 +990,12 @@
 4	kulandru	kulandru	NOUN	_	_	3	comp:obl	_	AlignBegin=207696|AlignEnd=208218|GE=[SPA_cilantro]|Gloss=SPA_cilantro|nWord=4|RX=[N]|TokenType=Root
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=208218|AlignEnd=208740|nWord=5
 6	eymi	eymi	PRON	_	_	7	comp:pred	_	AlignBegin=208740|AlignEnd=209262|GE=there|Gloss=this|nWord=6|RX=[ADV]|TokenType=Root
-7	na	nan	AUX	_	_	12	comp:obj	_	AlignBegin=209262|AlignEnd=209784|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
+7	na	nan	AUX	_	Case=Abs	12	comp:obj	_	AlignBegin=209262|AlignEnd=209784|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
 8	zamʉ	zamʉ	NOUN	_	_	10	comp	_	AlignBegin=209784|AlignEnd=210306|GE=food|Gloss=food|nWord=8|RX=[N]|TokenType=Root
 9	kia	kia	ADJ	_	_	8	mod	_	AlignBegin=210306|AlignEnd=210480|GE=native|Gloss=native|nWord=9|RX=[ADJ]|TokenType=Root
 10	=se'	_	ADP	_	_	12	mod:lmod	_	AlignBegin=210480|AlignEnd=210654|GE=[LOC]|Gloss==LOC|nWord=9|RX=[POST]|TokenType=Clit
 11	=ri	_	PART	_	_	10	mod	_	AlignBegin=210654|AlignEnd=210828|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
-12	ikumey	i	VERB	_	_	_	_	_	AlignBegin=210828|AlignEnd=211350|GE=[ANTIC]|Gloss=putANTICand|nWord=10|RX=[V:ANY]|TokenType=InflAff
+12	ikumey	i	VERB	_	_	_	_	_	AlignBegin=210828|AlignEnd=211350|GE=while|Gloss=putANTICCONV.SIM|nWord=10|RX=[VERB]|TokenType=InflAff
 13	,	_	PUNCT	_	_	12	punct	_	AlignBegin=211350|AlignEnd=211872|nWord=11
 
 # sent_id = CO19_053-053
@@ -1006,9 +1006,9 @@
 # text = nʉgu isu' nari
 # text_en = one doesn't add salt
 # text_phrase-gls-es = sin echarle sal
-1	nʉgu	nʉgu	NOUN	_	_	2	comp:obj	_	AlignBegin=211872|AlignEnd=212189|GE=salt|Gloss=salt|nWord=1|RX=[N]|TokenType=Root
+1	nʉgu	nʉgu	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=211872|AlignEnd=212189|GE=salt|Gloss=salt|nWord=1|RX=[N]|TokenType=Root
 2	isu'	is	VERB	_	_	3	comp:aux	_	AlignBegin=212189|AlignEnd=212506|GE=[NEG]|Gloss=putNEG|nWord=2|RX=[VERB]|TokenType=InflAff
-3	nani	nan	AUX	_	_	_	_	_	AlignBegin=212506|AlignEnd=212822|GE=[AUX]|Gloss=AUXand|nWord=3|RX=[AUX]|TokenType=Root
+3	nani	nan	AUX	_	_	_	_	_	AlignBegin=212506|AlignEnd=212822|GE=while|Gloss=AUXCONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO19_054-054
 # speaker_id = @SP19
@@ -1019,7 +1019,7 @@
 # text_en = We were eating this.
 # text_phrase-gls-es = fuimos alimentándonos de esto
 1	eymi	eymi	ADV	_	_	2	comp:pred	_	AlignBegin=212822|AlignEnd=213149|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
-2	nari	nar	AUX	_	_	_	_	_	AlignBegin=213149|AlignEnd=213476|GE=[AUX]|Gloss=AUXand|nWord=2|RX=[AUX]|TokenType=Root
+2	nari	nar	AUX	_	_	_	_	_	AlignBegin=213149|AlignEnd=213476|GE=while|Gloss=AUXCONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 3	(	_	PUNCT	_	_	4	punct	_	AlignBegin=213476|AlignEnd=213803|nWord=3
 4	eh	eh	INTJ	_	_	6	discourse	_	AlignBegin=213803|AlignEnd=214130|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]|TokenType=Root
 5	)	_	PUNCT	_	_	4	punct	_	AlignBegin=214130|AlignEnd=214457|nWord=5
@@ -1052,7 +1052,7 @@
 # text = awiri nawʉ , nawʉ ɉwindi , nawʉ agʉya nʉnna na' no
 # text_en = and wild apple, wild apple harvest time, we ate wild apple, didn't we?
 # text_phrase-gls-es = y manzana silvestre, la cosecha de manzana silvestre, se consumían la manzana silvestre
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=218190|AlignEnd=218364|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=218190|AlignEnd=218364|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=218364|AlignEnd=218450|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	nawʉ	nawʉ	NOUN	_	_	5	conj:dicto	_	AlignBegin=218450|AlignEnd=218710|GE=wild_apple|Gloss=wild_apple|nWord=2|RX=[N]|TokenType=Root
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=218710|AlignEnd=218970|nWord=3
@@ -1060,7 +1060,7 @@
 6	ɉwin	ɉwin	NOUN	_	_	5	mod	_	AlignBegin=219230|AlignEnd=219360|GE=harvest time|Gloss=harvest time|nWord=5|RX=[N]|TokenType=Root
 7	=di	_	PART	_	_	6	mod	_	AlignBegin=219360|AlignEnd=219490|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=219490|AlignEnd=219750|nWord=6
-9	nawʉ	nawʉ	NOUN	_	_	10	comp:obj	_	AlignBegin=219750|AlignEnd=220010|GE=wild_apple|Gloss=wild_apple|nWord=7|RX=[N]|TokenType=Root
+9	nawʉ	nawʉ	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=219750|AlignEnd=220010|GE=wild_apple|Gloss=wild_apple|nWord=7|RX=[N]|TokenType=Root
 10	agʉya	gʉ	VERB	_	_	11	comp:aux	_	AlignBegin=220010|AlignEnd=220270|GE=[NONEGO]|Gloss=1PL.SeatNONEGO|nWord=8|RX=[V:ANY]|TokenType=InflAff
 11	nʉnna	nan	AUX	_	_	12	comp:aux	_	AlignBegin=220270|AlignEnd=220530|GE=[RMTPST]|Gloss=copRMTPST|nWord=9|RX=[VERB]|TokenType=InflAff
 12	na'	nan	AUX	_	_	13	comp:aux	_	AlignBegin=220530|AlignEnd=220790|GE=[NEG]|Gloss=copNEG|nWord=10|RX=[VERB]|TokenType=InflAff
@@ -1074,18 +1074,18 @@
 # text = awiri nawʉ tusin , ( aga ) awiri besa awga agʉya nʉnna na' no ,
 # text_en = and wild apple with milk and we ate what they called "besa", didn't we?
 # text_phrase-gls-es = y manzana silvestre con leche y comíamos a lo que de dicen besa
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=221050|AlignEnd=221274|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=221050|AlignEnd=221274|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=221274|AlignEnd=221385|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	nawʉ	nawʉ	NOUN	_	_	14	comp:obj	_	AlignBegin=221385|AlignEnd=221720|GE=wild_apple|Gloss=wild_apple|nWord=2|RX=[N]|TokenType=Root
+3	nawʉ	nawʉ	NOUN	_	Case=Abs	14	comp:obj	_	AlignBegin=221385|AlignEnd=221720|GE=wild_apple|Gloss=wild_apple|nWord=2|RX=[N]|TokenType=Root
 4	tu	tu	NOUN	_	_	5	comp	_	AlignBegin=221720|AlignEnd=221888|GE=milk|Gloss=milk|nWord=3|RX=[N]|TokenType=Root
 5	=sin	_	ADP	_	_	3	comp:obl	_	AlignBegin=221888|AlignEnd=222055|GE=with|Gloss==with|nWord=3|RX=[POST]|TokenType=Clit
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=222055|AlignEnd=222390|nWord=4
 7	(	_	PUNCT	_	_	8	punct	_	AlignBegin=222390|AlignEnd=222725|nWord=5
 8	aga	aga	X	_	_	10	discourse	_	AlignBegin=222725|AlignEnd=223060|nWord=6|TokenType=Root
 9	)	_	PUNCT	_	_	8	punct	_	AlignBegin=223060|AlignEnd=223395|nWord=7
-10	awi	aw	AUX	_	_	_	_	_	AlignBegin=223395|AlignEnd=223619|GE=aux|Gloss=auxand|nWord=8|RX=[AUX]|TokenType=Root
+10	awi	aw	AUX	_	_	_	_	_	AlignBegin=223395|AlignEnd=223619|GE=while|Gloss=auxCONV.SIM|nWord=8|RX=[VERB]|TokenType=InflAff
 11	=ri	_	PART	_	_	10	mod	_	AlignBegin=223619|AlignEnd=223730|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
-12	besa	besa	NOUN	_	_	13	comp:obj	_	AlignBegin=223730|AlignEnd=224065|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=9|RX=[N]|TokenType=Root
+12	besa	besa	NOUN	_	Case=Abs	13	comp:obj	_	AlignBegin=223730|AlignEnd=224065|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=9|RX=[N]|TokenType=Root
 13	awga	awga	VERB	_	_	3	conj:coord	_	AlignBegin=224065|AlignEnd=224400|GE=say|Gloss=say|nWord=10|RX=[V]|TokenType=Root
 14	agʉya	gʉ	VERB	_	_	15	comp:aux	_	AlignBegin=224400|AlignEnd=224735|GE=[NONEGO]|Gloss=1PL.SeatNONEGO|nWord=11|RX=[V:ANY]|TokenType=InflAff
 15	nʉnna	nan	AUX	_	_	16	comp:aux	_	AlignBegin=224735|AlignEnd=225070|GE=[RMTPST]|Gloss=copRMTPST|nWord=12|RX=[VERB]|TokenType=InflAff
@@ -1101,7 +1101,7 @@
 # text = besa =ri geyna =se' ki- pʉ -m pʉ u -w -e' =ri ,
 # text_en = They also chop that plant for the hen.
 # text_phrase-gls-es = y la besa también le picamos a la gallina
-1	besa	besa	NOUN	_	_	5	comp:obj	_	AlignBegin=226450|AlignEnd=226616|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=1|RX=[N]|TokenType=Root
+1	besa	besa	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=226450|AlignEnd=226616|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=226616|AlignEnd=226782|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	geyna	geyna	NOUN	_	_	4	comp	_	AlignBegin=226782|AlignEnd=226948|GE=chicken|Gloss=chicken|nWord=2|RX=[N]|TokenType=Root
 4	=se'	_	ADP	_	_	5	comp:obl	_	AlignBegin=226948|AlignEnd=227114|GE=[LOC]|Gloss==DAT|nWord=2|RX=[POST]|TokenType=Clit
@@ -1151,7 +1151,7 @@
 # text_en = so they ley [a lot of] eggs.
 # text_phrase-gls-es = así ponen mucho huevo
 1	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=232727|AlignEnd=233277|GE=there|Gloss=there|nWord=1|RX=[ADV]|TokenType=Root
-2	wewu	wewu	NOUN	_	_	3	comp:obj	_	AlignBegin=233277|AlignEnd=233827|GE=[SPA_egg]|Gloss=SPA_egg|nWord=2|RX=[N]|TokenType=Root
+2	wewu	wewu	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=233277|AlignEnd=233827|GE=[SPA_egg]|Gloss=SPA_egg|nWord=2|RX=[N]|TokenType=Root
 3	gakʉya	gakʉ	VERB	_	_	_	_	_	AlignBegin=233827|AlignEnd=234377|GE=[NONEGO]|Gloss=putNONEGO|nWord=3|RX=[V:ANY]|TokenType=InflAff
 
 # sent_id = CO19_062-062
@@ -1166,7 +1166,7 @@
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=234725|AlignEnd=234899|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=234899|AlignEnd=235160|GE=now|Gloss=now|nWord=2|RX=[ADV]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=235160|AlignEnd=235421|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-5	besa	besa	NOUN	_	_	7	comp:obj	_	AlignBegin=235421|AlignEnd=235943|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=3|RX=[N]|TokenType=Root
+5	besa	besa	NOUN	_	Case=Abs	7	comp:obj	_	AlignBegin=235421|AlignEnd=235943|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=3|RX=[N]|TokenType=Root
 6	yow	yow	DET	_	_	5	det	_	AlignBegin=235943|AlignEnd=236465|GE=all|Gloss=all|nWord=4|RX=[QUANT]|TokenType=Root
 7	anʉkʉchona	kʉcho	VERB	_	_	_	_	_	AlignBegin=236465|AlignEnd=236985|GE=[RMTPST]|Gloss=MIDfinishRMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
 
@@ -1178,10 +1178,10 @@
 # text = besa ʉnzarikwa annay' nari gunti
 # text_en = As no one has set out to sow the besa-plant,
 # text_phrase-gls-es = Como nadie se ha propuesto a sembrar la besa,
-1	besa	besa	NOUN	_	_	2	comp:obj	_	AlignBegin=236985|AlignEnd=237331|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=1|RX=[N]|TokenType=Root
+1	besa	besa	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=236985|AlignEnd=237331|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=1|RX=[N]|TokenType=Root
 2	ʉnzarikwa	zarik	VERB	_	_	_	_	_	AlignBegin=237331|AlignEnd=237677|GE=[INT]|Gloss=MIDsowINT|nWord=2|RX=[VERB]|TokenType=InflAff
 3	annay'	nay	VERB	_	_	4	comp:aux	_	AlignBegin=237677|AlignEnd=238023|GE=[NEG]|Gloss=MIDwalkNEG|nWord=3|RX=[VERB]|TokenType=InflAff
-4	nani	nan	AUX	_	_	_	_	_	AlignBegin=238023|AlignEnd=238369|GE=[AUX]|Gloss=AUXand|nWord=4|RX=[AUX]|TokenType=Root
+4	nani	nan	AUX	_	_	_	_	_	AlignBegin=238023|AlignEnd=238369|GE=while|Gloss=AUXCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 5	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=238369|AlignEnd=238716|GE=all|Gloss=all|nWord=5|RX=[ADV]|TokenType=Root
 
 # sent_id = CO19_064-064
@@ -1206,7 +1206,7 @@
 1	awe'	aw	AUX	_	_	_	_	_	AlignBegin=239116|AlignEnd=239358|GE=then|Gloss=auxthen|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ki	_	PART	_	_	1	mod	_	AlignBegin=239358|AlignEnd=239479|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]|TokenType=Clit
 3	i'bá	i'bá	NOUN	_	_	5	comp:obl	_	AlignBegin=239479|AlignEnd=239842|GE=part|Gloss=part|nWord=2|RX=[N]|TokenType=Root
-4	besa	besa	NOUN	_	_	5	comp:obj	_	AlignBegin=239842|AlignEnd=240205|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=3|RX=[N]|TokenType=Root
+4	besa	besa	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=239842|AlignEnd=240205|GE=medicinal_plant_from_the_high-altitude_moorland|Gloss=medicinal_plant_from_the_high-altitude_moorland|nWord=3|RX=[N]|TokenType=Root
 5	chu	chu	VERB	_	_	6	comp:aux	_	AlignBegin=240205|AlignEnd=240568|GE=see|Gloss=see|nWord=4|RX=[VT]|TokenType=Root
 6	zʉna	zʉna	AUX	_	_	7	comp:aux	_	AlignBegin=240568|AlignEnd=240931|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
 7	ni	nan	AUX	_	_	_	_	_	AlignBegin=240931|AlignEnd=241294|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]|TokenType=Root
@@ -1219,7 +1219,7 @@
 # text = awiri andi ( ge' ) akʉtʉ nʉnkʉri ( ge' ) yow ʉnchusi ʉnzoyamʉsin
 # text_en = In addition, with leaving everything on the root,
 # text_phrase-gls-es = Además, dejándo todo en la raiz [principal alimento criollo]
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=241294|AlignEnd=241566|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=241294|AlignEnd=241566|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=241566|AlignEnd=241702|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	andi	andi	ADV	_	_	_	_	_	AlignBegin=241702|AlignEnd=242110|GE=so|Gloss=so|nWord=2|RX=[ADV]|TokenType=Root
 4	(	_	PUNCT	_	_	5	punct	_	AlignBegin=242110|AlignEnd=242518|nWord=3
@@ -1232,7 +1232,7 @@
 11	(	_	PUNCT	_	_	12	punct	_	AlignBegin=244150|AlignEnd=244558|nWord=8
 12	ge'	ge'	X	_	_	14	discourse	_	AlignBegin=244558|AlignEnd=244966|nWord=9|TokenType=Root
 13	)	_	PUNCT	_	_	12	punct	_	AlignBegin=244966|AlignEnd=245374|nWord=10
-14	yow	yow	PRON	_	_	15	comp:obj	_	AlignBegin=245374|AlignEnd=245782|GE=all|Gloss=all|nWord=11|RX=[QUANT]|TokenType=Root
+14	yow	yow	PRON	_	Case=Abs	15	comp:obj	_	AlignBegin=245374|AlignEnd=245782|GE=all|Gloss=all|nWord=11|RX=[QUANT]|TokenType=Root
 15	ʉnchusi	chusi	VERB	_	_	_	_	_	AlignBegin=245782|AlignEnd=246190|GE=leave|Gloss=MIDleave|nWord=12|RX=[V]|TokenType=Root
 16	ʉnzoyamʉ	zoy	VERB	_	_	17	comp	_	AlignBegin=246190|AlignEnd=246496|GE=[INF]|Gloss=MIDgoINF|nWord=13|RX=[VERB]|TokenType=InflAff
 17	=sin	_	ADP	_	_	0	root	_	AlignBegin=246496|AlignEnd=246599|GE=with|Gloss==with|nWord=13|RX=[POST]|TokenType=Clit
@@ -1245,14 +1245,14 @@
 # text = kwa zamʉri du ʉnde'kau' nʉnki a'chukwi
 # text_en = or one can consider that food is not so good anymore
 # text_phrase-gls-es = o será por esto que el alimento ya no es tan bueno
-1	kwa	kwa	CCONJ	_	_	_	_	_	AlignBegin=246599|AlignEnd=247034|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
-2	zamʉ	zamʉ	NOUN	_	_	5	comp:obj	_	AlignBegin=247034|AlignEnd=247252|GE=food|Gloss=food|nWord=2|RX=[N]|TokenType=Root
+1	kwa	kwa	CCONJ	_	_	8	cc	_	AlignBegin=246599|AlignEnd=247034|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
+2	zamʉ	zamʉ	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=247034|AlignEnd=247252|GE=food|Gloss=food|nWord=2|RX=[N]|TokenType=Root
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=247252|AlignEnd=247469|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	du	du	ADJ	_	_	_	_	_	AlignBegin=247469|AlignEnd=247904|GE=good|Gloss=good|nWord=3|RX=[ADJ]|TokenType=Root
 5	ʉnde'kau'	kaw	AUX	_	_	6	comp:aux	_	AlignBegin=247904|AlignEnd=248339|GE=[NEG]|Gloss=MIDREFLseemNEG|nWord=4|RX=[VERB]|TokenType=InflAff
 6	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=248339|AlignEnd=248557|GE=cop|Gloss=cop|nWord=5|RX=[COP]|TokenType=Root
 7	=ki	_	PART	_	_	6	mod	_	AlignBegin=248557|AlignEnd=248774|GE=[CNTR]|Gloss==CNTR|nWord=5|RX=[PRT]|TokenType=Clit
-8	a'chukwi	a'chu	VERB	_	_	_	_	_	AlignBegin=248774|AlignEnd=249210|GE=[ABLE]|Gloss=considerABLE|nWord=6|RX=[VERB]|TokenType=InflAff
+8	a'chukwi	a'chu	VERB	_	_	0	root	_	AlignBegin=248774|AlignEnd=249210|GE=[ABLE]|Gloss=considerABLE|nWord=6|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO19_068-068
 # speaker_id = @SP19
@@ -1262,13 +1262,13 @@
 # text = awiri inʉki yagʉ akia neykari tinajase' kinki zʉ'ʉn ɉokukwa
 # text_en = And, everything, well, that is our native [food], one has always have to cook it in the clay pot.
 # text_phrase-gls-es = También, todo lo que es propio, siempre tenemos que cocinarlo en la olla de barro
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=249210|AlignEnd=249518|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=249210|AlignEnd=249518|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=249518|AlignEnd=249673|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	inʉ	inʉ	PRON	_	_	7	comp:pred	_	AlignBegin=249673|AlignEnd=249905|GE=what|Gloss=what|nWord=2|RX=[INTERROG]|TokenType=Root
 4	=ki	_	PART	_	_	3	mod	_	AlignBegin=249905|AlignEnd=250136|GE=[CNTR]|Gloss==CNTR|nWord=2|RX=[PRT]|TokenType=Clit
 5	yagʉ	yagʉ	INTJ	_	_	6	discourse	_	AlignBegin=250136|AlignEnd=250599|GE=well|Gloss=well|nWord=3|RX=[INTERJ]|TokenType=Root
 6	akia	kia	ADJ	_	_	7	subj	_	AlignBegin=250599|AlignEnd=251062|GE=native|Gloss=3SG.POSSnative|nWord=4|RX=[ADJ]|TokenType=Root
-7	neyka	nan	AUX	_	_	13	comp:obj	_	AlignBegin=251062|AlignEnd=251370|GE=[EYKA]|Gloss=auxEYKA|nWord=5|RX=[V:ANY]|TokenType=InflAff
+7	neyka	nan	AUX	_	Case=Abs	13	comp:obj	_	AlignBegin=251062|AlignEnd=251370|GE=[EYKA]|Gloss=auxEYKA|nWord=5|RX=[V:ANY]|TokenType=InflAff
 8	=ri	_	PART	_	_	7	mod	_	AlignBegin=251370|AlignEnd=251525|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 9	tinaja	tinaja	NOUN	_	_	10	comp	_	AlignBegin=251525|AlignEnd=251757|GE=clay.pott|Gloss=clay.pott|nWord=6|RX=[N]|TokenType=Root
 10	=se'	_	ADP	_	_	13	mod:lmod	_	AlignBegin=251757|AlignEnd=251988|GE=[LOC]|Gloss==LOC|nWord=6|RX=[POST]|TokenType=Clit
@@ -1319,7 +1319,7 @@
 1	gwaka	gwak	VERB	_	_	2	comp	_	AlignBegin=258980|AlignEnd=259234|GE=[PFV]|Gloss=killPFV|nWord=1|RX=[V:ANY]|TokenType=InflAff
 2	=kin	_	ADP	_	_	4	comp:obl	_	AlignBegin=259234|AlignEnd=259361|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
 3	=di	_	PART	_	_	2	mod	_	AlignBegin=259361|AlignEnd=259488|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	awi	aw	AUX	_	_	_	_	_	AlignBegin=259488|AlignEnd=259996|GE=aux|Gloss=auxand|nWord=2|RX=[AUX]|TokenType=Root
+4	awi	aw	AUX	_	_	_	_	_	AlignBegin=259488|AlignEnd=259996|GE=while|Gloss=auxCONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 5	poti	poti	NOUN	_	_	6	comp	_	AlignBegin=259996|AlignEnd=260250|GE=pot|Gloss=pot|nWord=3|RX=[N]|TokenType=Root
 6	=se'	_	ADP	_	_	7	mod:lmod	_	AlignBegin=260250|AlignEnd=260504|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
 7	kʉsʉngwa	kʉsʉ	VERB	_	_	8	comp:aux	_	AlignBegin=260504|AlignEnd=261012|GE=[FUT]|Gloss=putFUT|nWord=4|RX=[VERB]|TokenType=InflAff
@@ -1327,7 +1327,7 @@
 9	=ki	_	PART	_	_	8	mod	_	AlignBegin=261266|AlignEnd=261520|GE=[CNTR]|Gloss==CNTR|nWord=5|RX=[PRT]|TokenType=Clit
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=261520|AlignEnd=262028|nWord=6
 11	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=262028|AlignEnd=262536|GE=there|Gloss=there|nWord=7|RX=[ADV]|TokenType=Root
-12	awi	aw	AUX	_	_	_	_	_	AlignBegin=262536|AlignEnd=263044|GE=aux|Gloss=auxand|nWord=8|RX=[AUX]|TokenType=Root
+12	awi	aw	AUX	_	_	_	_	_	AlignBegin=262536|AlignEnd=263044|GE=while|Gloss=auxCONV.SIM|nWord=8|RX=[VERB]|TokenType=InflAff
 13	awkwa	aw	AUX	_	_	14	comp:aux	_	AlignBegin=263044|AlignEnd=263552|GE=[OBL]|Gloss=auxOBL|nWord=9|RX=[VERB]|TokenType=InflAff
 14	ni	nan	AUX	_	_	_	_	_	AlignBegin=263552|AlignEnd=264059|GE=[DECL]|Gloss=DECL|nWord=10|RX=[AUX]|TokenType=Root
 
@@ -1380,9 +1380,9 @@
 # text_phrase-gls-es = también hacemos lo mismo, echando la comida criolla en la olla
 1	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=270670|AlignEnd=270858|GE=similar|Gloss=similar|nWord=1|RX=[ADJ]|TokenType=Root
 2	=gwi	_	ADV	_	_	1	mod	_	AlignBegin=270858|AlignEnd=271046|GE=also|Gloss==also|nWord=1|RX=[ADV]|TokenType=Clit
-3	nisi	nik	AUX	_	_	_	_	_	AlignBegin=271046|AlignEnd=271422|GE=do|Gloss=doand|nWord=2|RX=[AUX]|TokenType=Root
+3	nisi	nik	AUX	_	_	_	_	_	AlignBegin=271046|AlignEnd=271422|GE=while|Gloss=doCONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 4	zʉn	zan	AUX	_	_	_	_	_	AlignBegin=271422|AlignEnd=271798|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
-5	zamʉ	zamʉ	NOUN	_	_	14	comp:obj	_	AlignBegin=271798|AlignEnd=272174|GE=food|Gloss=food|nWord=4|RX=[N]|TokenType=Root
+5	zamʉ	zamʉ	NOUN	_	Case=Abs	14	comp:obj	_	AlignBegin=271798|AlignEnd=272174|GE=food|Gloss=food|nWord=4|RX=[N]|TokenType=Root
 6	(	_	PUNCT	_	_	7	punct	_	AlignBegin=272174|AlignEnd=272550|nWord=5
 7	neki	neki	PART	_	_	5	mod:emph	_	AlignBegin=272550|AlignEnd=272926|GE=[CNTR]|Gloss=CNTR|nWord=6|RX=[PRT]|TokenType=Root
 8	)	_	PUNCT	_	_	7	punct	_	AlignBegin=272926|AlignEnd=273302|nWord=7
@@ -1424,7 +1424,7 @@
 1	ʉnzweyn	zoy	VERB	_	_	2	comp:aux	_	AlignBegin=279970|AlignEnd=280558|GE=[IPFV]|Gloss=MIDgoIPFV|nWord=1|RX=[VERB]|TokenType=InflAff
 2	nukukwa	nuk	AUX	_	_	3	comp:aux	_	AlignBegin=280558|AlignEnd=281146|GE=[ABLE]|Gloss=auxABLE|nWord=2|RX=[VERB]|TokenType=InflAff
 3	zʉn	zan	AUX	_	_	4	comp:aux	_	AlignBegin=281146|AlignEnd=281734|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
-4	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=281734|AlignEnd=282029|GE=cop|Gloss=cop|nWord=4|RX=[COP]|TokenType=Root
+4	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=281734|AlignEnd=282029|GE=cop|Gloss=cop|nWord=4|RX=[COP]|TokenType=Root
 5	=di	_	PART	_	_	4	mod	_	AlignBegin=282029|AlignEnd=282324|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO19_077-077
@@ -1472,7 +1472,7 @@
 35	ey	ey	PART	_	_	_	_	_	AlignBegin=287724|AlignEnd=287836|GE=so|Gloss=so|nWord=25|RX=[PRT]|TokenType=Root
 36	=ki	_	PART	_	_	35	mod	_	AlignBegin=287836|AlignEnd=287949|GE=[CNTR]|Gloss==CNTR|nWord=25|RX=[PRT]|TokenType=Clit
 37	)	_	PUNCT	_	_	36	punct	_	AlignBegin=287949|AlignEnd=288174|nWord=26
-38	a'chway	a'chwa	VERB	_	_	_	_	_	AlignBegin=288174|AlignEnd=288399|GE=while|Gloss=take.careand|nWord=27|RX=[VERB]|TokenType=InflAff
+38	a'chway	a'chwa	VERB	_	_	_	_	_	AlignBegin=288174|AlignEnd=288399|GE=while|Gloss=take.careCONV.SIM|nWord=27|RX=[VERB]|TokenType=InflAff
 39	zʉna	zʉna	AUX	_	_	40	comp:aux	_	AlignBegin=288399|AlignEnd=288624|GE=[COP]|Gloss=COP|nWord=28|RX=[COP]|TokenType=Root
 40	ni	nan	AUX	_	_	_	_	_	AlignBegin=288624|AlignEnd=288849|GE=[DECL]|Gloss=DECL|nWord=29|RX=[AUX]|TokenType=Root
 41	.	_	PUNCT	_	_	40	punct	_	AlignBegin=288849|AlignEnd=289074|Gloss=.|nWord=30
@@ -1507,12 +1507,12 @@
 # text = awiri ingʉri ʉntikumʉn nukay zʉnna gune'ri
 # text_en = and it looks like they are forgetting
 # text_phrase-gls-es = y se ve que también se está acabando
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=290757|AlignEnd=291085|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=290757|AlignEnd=291085|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=291085|AlignEnd=291249|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	ingʉ	ingʉ	ADJ	_	_	_	_	_	AlignBegin=291249|AlignEnd=291495|GE=few|Gloss=few|nWord=2|RX=[ADJ]|TokenType=Root
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=291495|AlignEnd=291741|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	ʉntikumʉn	tikum	VERB	_	_	6	comp:aux	_	AlignBegin=291741|AlignEnd=292233|GE=[IPFV]|Gloss=MIDforgetIPFV|nWord=3|RX=[VERB]|TokenType=InflAff
-6	nukay	nuk	AUX	_	_	_	_	_	AlignBegin=292233|AlignEnd=292725|GE=aux|Gloss=auxand|nWord=4|RX=[AUX]|TokenType=Root
+6	nukay	nuk	AUX	_	_	_	_	_	AlignBegin=292233|AlignEnd=292725|GE=while|Gloss=auxCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 7	zʉnna	zʉnna	AUX	_	_	_	_	_	AlignBegin=292725|AlignEnd=293217|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
 8	gune'	nan	AUX	_	_	_	_	_	AlignBegin=293217|AlignEnd=293583|GE=then|Gloss=GUauxthen|nWord=6|RX=[VERB]|TokenType=InflAff
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=293583|AlignEnd=293707|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
@@ -1532,7 +1532,7 @@
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=295444|AlignEnd=295658|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=295658|AlignEnd=296086|nWord=4
 7	eymi	eymi	PRON	_	_	8	comp:pred	_	AlignBegin=296086|AlignEnd=296514|GE=this|Gloss=this|nWord=5|RX=[PRO]|TokenType=Root
-8	na	nan	AUX	_	_	16	comp:obj	_	AlignBegin=296514|AlignEnd=296942|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
+8	na	nan	AUX	_	Case=Abs	16	comp:obj	_	AlignBegin=296514|AlignEnd=296942|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
 9	iwa	iwa	ADV	_	_	_	_	_	AlignBegin=296942|AlignEnd=297370|GE=now|Gloss=now|nWord=7|RX=[ADV]|TokenType=Root
 10	keywʉ	keywʉ	PART	_	_	9	discourse	_	AlignBegin=297370|AlignEnd=297798|GE=soon|Gloss=soon|nWord=8|RX=[PRT]|TokenType=Root
 11	ey	ey	PART	_	_	_	_	_	AlignBegin=297798|AlignEnd=298012|GE=so|Gloss=so|nWord=9|RX=[PRT]|TokenType=Root
@@ -1551,11 +1551,11 @@
 # text_en = to conserve, that's the way it should be, shouldn't it?, now they are saying it
 # text_phrase-gls-es = para conservar, así debe ser, así están diciendo [traducción más libre: Así se están poniendo de acuerdo]
 # text_phrase-gls-tl = an du na' nünno
-1	chwʉn	chwʉ	VERB	_	_	2	comp:aux	_	AlignBegin=299943|AlignEnd=300277|GE=[IPFV]|Gloss=take.careIPFV|nWord=1|RX=[VERB]|TokenType=InflAff
-2	pana	pana	AUX	_	_	_	_	_	AlignBegin=300277|AlignEnd=300443|GE=[INCH]|Gloss=INCH|nWord=1|RX=[POST]|TokenType=Root|wordform==pana
+1	chwʉn	chwʉ	VERB	_	_	_	_	_	AlignBegin=299943|AlignEnd=300277|GE=[IPFV]|Gloss=take.careIPFV|nWord=1|RX=[VERB]|TokenType=InflAff
+2	pʉn	pana	PART	_	_	1	mod	_	AlignBegin=300277|AlignEnd=300443|GE=[INCH]|Gloss=INCH|nWord=1|RX=[POST]|TokenType=Root|wordform==pana
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=300443|AlignEnd=300943|nWord=2
 4	an	an	AUX	_	_	_	_	_	AlignBegin=300943|AlignEnd=301443|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
-5	du	du	ADJ	_	_	6	comp:pred@pred	_	AlignBegin=301443|AlignEnd=301943|GE=good|Gloss=good|nWord=4|RX=[ADJ]|TokenType=Root
+5	du	du	ADJ	_	_	6	comp:pred	_	AlignBegin=301443|AlignEnd=301943|GE=good|Gloss=good|nWord=4|RX=[ADJ]|TokenType=Root
 6	na'	nan	AUX	_	_	7	comp:aux	_	AlignBegin=301943|AlignEnd=302443|GE=[NEG]|Gloss=copNEG|nWord=5|RX=[VERB]|TokenType=InflAff
 7	nʉnno	nan	AUX	_	_	_	_	_	AlignBegin=302443|AlignEnd=302943|GE=[Q]|Gloss=copQ|nWord=6|RX=[VERB]|TokenType=InflAff
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=302943|AlignEnd=303443|nWord=7
@@ -1580,7 +1580,7 @@
 5	ki	ki	PART	_	_	4	mod	_	AlignBegin=305579|AlignEnd=305958|GE=[CNTR]|Gloss=CNTR|nWord=4|RX=[PRT]|TokenType=Root
 6	awiza	aw	AUX	_	_	7	comp:aux	_	AlignBegin=305958|AlignEnd=306337|GE=[RESULT]|Gloss=auxRESULT|nWord=5|RX=[VERB]|TokenType=InflAff
 7	nʉnno	nan	AUX	_	_	_	_	_	AlignBegin=306337|AlignEnd=306716|GE=[Q]|Gloss=copQ|nWord=6|RX=[VERB]|TokenType=InflAff
-8	a'chwey	a'chw	VERB	_	_	_	_	_	AlignBegin=306716|AlignEnd=307092|GE=while|Gloss=considerand|nWord=7|RX=[VERB]|TokenType=InflAff
+8	a'chwey	a'chw	VERB	_	_	_	_	_	AlignBegin=306716|AlignEnd=307092|GE=while|Gloss=considerCONV.SIM|nWord=7|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO19_083-083
 # speaker_id = @SP19
@@ -1590,9 +1590,9 @@
 # text = uzweynpana awʉndi
 # text_en = One has to start carrying [the agreements have to be fulfilled]
 # text_phrase-gls-es = tenemos que llevar [los acuerdos los ha que cumplir]
-1	uzweyn	uzwey	VERB	_	_	2	comp:aux	_	AlignBegin=307378|AlignEnd=308044|GE=[IPFV]|Gloss=takeIPFV|nWord=1|RX=[VERB]|TokenType=InflAff
-2	pana	pana	AUX	_	_	_	_	_	AlignBegin=308044|AlignEnd=308378|GE=[INCH]|Gloss=INCH|nWord=1|RX=[POST]|TokenType=Root|wordform==pana
-3	awʉn	aw	AUX	_	_	_	_	_	AlignBegin=308378|AlignEnd=309044|GE=[IPFV]|Gloss=auxIPFV|nWord=2|RX=[VERB]|TokenType=InflAff
+1	uzweyn	uzwey	VERB	_	_	3	comp:aux	_	AlignBegin=307378|AlignEnd=308044|GE=[IPFV]|Gloss=takeIPFV|nWord=1|RX=[VERB]|TokenType=InflAff
+2	pʉn	pana	PART	_	_	1	mod	_	AlignBegin=308044|AlignEnd=308378|GE=[INCH]|Gloss=INCH|nWord=1|RX=[POST]|TokenType=Root|wordform==pana
+3	awʉn	aw	AUX	_	_	0	root	_	AlignBegin=308378|AlignEnd=309044|GE=[IPFV]|Gloss=auxIPFV|nWord=2|RX=[VERB]|TokenType=InflAff
 4	=di	_	PART	_	_	3	mod	_	AlignBegin=309044|AlignEnd=309378|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO19_084-084
@@ -1616,7 +1616,7 @@
 # text = awiri , ɉe , iwa ɉe zʉ'gʉmʉ yunʉ yʉndi
 # text_en = and, water, now where the little stream goes down,
 # text_phrase-gls-es = Ahora, donde baja el arroyito
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=310780|AlignEnd=311066|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=310780|AlignEnd=311066|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=311066|AlignEnd=311208|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=311208|AlignEnd=311636|nWord=2
 4	ɉe	ɉe	NOUN	_	_	7	conj:dicto	_	AlignBegin=311636|AlignEnd=312064|GE=water|Gloss=water|nWord=3|RX=[N]|TokenType=Root
@@ -1638,9 +1638,9 @@
 # text_en = we must not collect [wather with] the pot one puts over fire
 # text_phrase-gls-es = la olla que ponemos en el fogón, no hay que recoger [el agua]
 # text_phrase-gls-tl = (culturalmente no se debe recoger agua con ollas de metal, porque se secan los ríos)
-1	poti	poti	NOUN	_	_	3	comp:obj	_	AlignBegin=314629|AlignEnd=315196|GE=pot|Gloss=pot|nWord=1|RX=[N]|TokenType=Root
+1	poti	poti	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=314629|AlignEnd=315196|GE=pot|Gloss=pot|nWord=1|RX=[N]|TokenType=Root
 2	gina	gina	NOUN	_	_	3	comp:obl	_	AlignBegin=315196|AlignEnd=315763|GE=put.over.fire|Gloss=fire_for_cooking|nWord=2|RX=[V]|TokenType=Root
-3	cho'kumʉya	cho'	VERB	_	_	4	comp:obj	_	AlignBegin=315763|AlignEnd=316330|GE=[NONEGO]|Gloss=putANTICNONEGO|nWord=3|RX=[V:ANY]|TokenType=InflAff
+3	cho'kumʉya	cho'	VERB	_	Case=Abs	4	comp:obj	_	AlignBegin=315763|AlignEnd=316330|GE=[NONEGO]|Gloss=putANTICNONEGO|nWord=3|RX=[V:ANY]|TokenType=InflAff
 4	ayusu'	yus	VERB	_	_	5	comp:aux	_	AlignBegin=316330|AlignEnd=316897|GE=[NEG]|Gloss=3SG.POSSintroduceNEG|nWord=4|RX=[VERB]|TokenType=InflAff
 5	nʉnkwa	nan	AUX	_	_	0	root	_	AlignBegin=316897|AlignEnd=317464|GE=[OBL]|Gloss=copOBL|nWord=5|RX=[VERB]|TokenType=InflAff
 
@@ -1653,7 +1653,7 @@
 # text_en = we must not collect [water with] [all] that is a [metal] pot
 # text_phrase-gls-es = todo lo que es olla, no hay recoger [con ella]
 1	poti	poti	NOUN	_	_	2	comp:pred	_	AlignBegin=317464|AlignEnd=317902|GE=pot|Gloss=pot|nWord=1|RX=[N]|TokenType=Root
-2	neyka	nan	AUX	_	_	4	comp:obj	_	AlignBegin=317902|AlignEnd=318194|GE=[EYKA]|Gloss=auxEYKA|nWord=2|RX=[V:ANY]|TokenType=InflAff
+2	neyka	nan	AUX	_	Case=Abs	4	comp:obj	_	AlignBegin=317902|AlignEnd=318194|GE=[EYKA]|Gloss=auxEYKA|nWord=2|RX=[V:ANY]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=318194|AlignEnd=318340|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	ayusu'	yus	VERB	_	_	5	comp:aux	_	AlignBegin=318340|AlignEnd=318778|GE=[NEG]|Gloss=3SG.POSSintroduceNEG|nWord=3|RX=[VERB]|TokenType=InflAff
 5	nʉnkwa	nan	AUX	_	_	_	_	_	AlignBegin=318778|AlignEnd=319217|GE=[OBL]|Gloss=copOBL|nWord=4|RX=[VERB]|TokenType=InflAff
@@ -1669,7 +1669,7 @@
 1	so	so	NOUN	_	_	2	comp	_	AlignBegin=319217|AlignEnd=319393|GE=gourd|Gloss=gourd|nWord=1|RX=[N]|TokenType=Root
 2	=sin	_	ADP	_	_	6	comp:obl	_	AlignBegin=319393|AlignEnd=319568|GE=with|Gloss==with|nWord=1|RX=[POST]|TokenType=Clit
 3	zʉn	zan	PART	_	_	2	mod:emph	_	AlignBegin=319568|AlignEnd=319919|GE=[COP]|Gloss=COP|nWord=2|RX=[COP]|TokenType=Root
-4	ɉe	ɉe	NOUN	_	_	6	comp:obj	_	AlignBegin=319919|AlignEnd=320095|GE=water|Gloss=water|nWord=3|RX=[N]|TokenType=Root
+4	ɉe	ɉe	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=319919|AlignEnd=320095|GE=water|Gloss=water|nWord=3|RX=[N]|TokenType=Root
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=320095|AlignEnd=320270|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	a'gikukwa	a'gik	VERB	_	_	_	_	_	AlignBegin=320270|AlignEnd=320621|GE=[ABLE]|Gloss=holdOBL|nWord=4|RX=[VERB]|TokenType=InflAff
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=320621|AlignEnd=320971|nWord=5
@@ -1698,9 +1698,9 @@
 # text = awiri iwa a'mia wichamʉ me'zʉn ʉnge'ri ɉe zʉ'gʉmʉse' owmu' nʉnkwa
 # text_en = and when you woman has the period, you must not bath in the river
 # text_phrase-gls-es = y las muejeres cuando tenga la menstruación/periodo no se puede baniar en el arroyito
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=324027|AlignEnd=324421|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=324027|AlignEnd=324421|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=324421|AlignEnd=324617|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=324617|AlignEnd=325207|GE=and|Gloss=and|nWord=2|RX=[COORDCONN]|TokenType=Root
+3	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=324617|AlignEnd=325207|GE=and|Gloss=CONV.SIM|nWord=2|RX=[COORDCONN]|TokenType=Root
 4	a'mia	a'mia	NOUN	_	_	6	comp:obl	_	AlignBegin=325207|AlignEnd=325797|GE=woman|Gloss=woman|nWord=3|RX=[N]|TokenType=Root
 5	wichamʉ	wichamʉ	NOUN	_	_	6	comp:obj	_	AlignBegin=325797|AlignEnd=326387|GE=period|Gloss=period|nWord=4|RX=[N]|TokenType=Root
 6	me'zʉn	'zʉn	VERB	_	_	7	comp:aux	_	AlignBegin=326387|AlignEnd=326977|GE=feel|Gloss=2SG.Ofeel|nWord=5|RX=[V]|TokenType=Root
@@ -1722,11 +1722,11 @@
 # text_en = They have to collect [the water] and bath themselves on the shore
 # text_phrase-gls-es = tienen que recoger [el agua] y banyarse en la orilla
 1	a'gika	a'gika	VERB	_	_	2	comp:aux	_	AlignBegin=329932|AlignEnd=330373|GE=hold|Gloss=hold|nWord=1|RX=[V]|TokenType=Root
-2	awi	aw	AUX	_	_	_	_	_	AlignBegin=330373|AlignEnd=330667|GE=aux|Gloss=auxand|nWord=2|RX=[AUX]|TokenType=Root
+2	awi	aw	AUX	_	_	_	_	_	AlignBegin=330373|AlignEnd=330667|GE=while|Gloss=auxCONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=330667|AlignEnd=330814|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 4	okʉnakʉ	okʉnakʉ	NOUN	_	_	6	comp:obl	_	AlignBegin=330814|AlignEnd=331255|GE=riverside|Gloss=riverside|nWord=3|RX=[N]|TokenType=Root
 5	kinki	kinki	PART	_	_	6	mod	_	AlignBegin=331255|AlignEnd=331696|GE=always|Gloss=always|nWord=4|RX=[PRT]|TokenType=Root
-6	owmey	owm	VERB	_	_	_	_	_	AlignBegin=331696|AlignEnd=332137|GE=while|Gloss=bath.oneselfand|nWord=5|RX=[VERB]|TokenType=InflAff
+6	owmey	owm	VERB	_	_	_	_	_	AlignBegin=331696|AlignEnd=332137|GE=while|Gloss=bath.oneselfCONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 7	zweykwa	zoy	VERB	_	_	_	_	_	AlignBegin=332137|AlignEnd=332578|GE=[OBL]|Gloss=goOBL|nWord=6|RX=[VERB]|TokenType=InflAff
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=332578|AlignEnd=333021|nWord=7
 
@@ -1738,11 +1738,11 @@
 # text = iwa eymi ɉese' owmey zweyndi ,
 # text_en = And if they swim in the river,
 # text_phrase-gls-es = y si se banian en el arroyito,
-1	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=333021|AlignEnd=333331|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]|TokenType=Root
+1	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=333021|AlignEnd=333331|GE=and|Gloss=CONV.SIM|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	eymi	eymi	ADV	_	_	_	_	_	AlignBegin=333331|AlignEnd=333641|GE=there|Gloss=there|nWord=2|RX=[ADV]|TokenType=Root
 3	ɉe	ɉe	NOUN	_	_	4	comp	_	AlignBegin=333641|AlignEnd=333796|GE=water|Gloss=water|nWord=3|RX=[N]|TokenType=Root
 4	=se'	_	ADP	_	_	5	mod:lmod	_	AlignBegin=333796|AlignEnd=333951|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
-5	owmey	owm	VERB	_	_	_	_	_	AlignBegin=333951|AlignEnd=334261|GE=while|Gloss=bath.oneselfand|nWord=4|RX=[VERB]|TokenType=InflAff
+5	owmey	owm	VERB	_	_	_	_	_	AlignBegin=333951|AlignEnd=334261|GE=while|Gloss=bath.oneselfCONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 6	zweyndi	zoy	VERB	_	_	_	_	_	AlignBegin=334261|AlignEnd=334571|GE=[COND]|Gloss=goCOND|nWord=5|RX=[V:ANY]|TokenType=InflAff
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=334571|AlignEnd=334878|nWord=6
 
@@ -1754,7 +1754,7 @@
 # text = ɉe dusʉkwa ni .
 # text_en = the water dries up.
 # text_phrase-gls-es = se seca el arroyo
-1	ɉe	ɉe	NOUN	_	_	2	comp:obj	_	AlignBegin=334878|AlignEnd=335224|GE=water|Gloss=water|nWord=1|RX=[N]|TokenType=Root
+1	ɉe	ɉe	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=334878|AlignEnd=335224|GE=water|Gloss=water|nWord=1|RX=[N]|TokenType=Root
 2	dusʉkwa	dus	VERB	_	_	3	comp:aux	_	AlignBegin=335224|AlignEnd=335570|GE=[OBL]|Gloss=make.dryOBL|nWord=2|RX=[VERB]|TokenType=InflAff
 3	ni	nan	AUX	_	_	_	_	_	AlignBegin=335570|AlignEnd=335916|GE=[DECL]|Gloss=DECL|nWord=3|RX=[AUX]|TokenType=Root
 4	.	_	PUNCT	_	_	3	punct	_	AlignBegin=335916|AlignEnd=336264|Gloss=.|nWord=4
@@ -1794,10 +1794,10 @@
 # text = eymari awga gunʉndi .
 # text_en = this is what they say
 # text_phrase-gls-es = esto así dicen
-1	eyma	eyma	PRON	_	_	3	comp:obj	_	AlignBegin=338628|AlignEnd=338910|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
+1	eyma	eyma	PRON	_	Case=Abs	3	comp:obj	_	AlignBegin=338628|AlignEnd=338910|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=338910|AlignEnd=339192|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	awga	awga	VERB	_	_	_	_	_	AlignBegin=339192|AlignEnd=339756|GE=say|Gloss=say|nWord=2|RX=[V]|TokenType=Root
-4	gunʉn	nan	AUX	_	_	_	_	_	AlignBegin=339756|AlignEnd=340132|GE=cop|Gloss=GUcop|nWord=3|RX=[COP]|TokenType=Root
+3	awga	awga	VERB	_	_	4	comp:aux	_	AlignBegin=339192|AlignEnd=339756|GE=say|Gloss=say|nWord=2|RX=[V]|TokenType=Root
+4	gunʉn	nan	AUX	_	_	0	root	_	AlignBegin=339756|AlignEnd=340132|GE=cop|Gloss=GUcop|nWord=3|RX=[COP]|TokenType=Root
 5	=di	_	PART	_	_	4	mod	_	AlignBegin=340132|AlignEnd=340320|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	.	_	PUNCT	_	_	5	punct	_	AlignBegin=340320|AlignEnd=340885|Gloss=.|nWord=4
 
@@ -1813,7 +1813,7 @@
 2	=ki	_	PART	_	_	1	mod	_	AlignBegin=341241|AlignEnd=341419|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]|TokenType=Clit
 3	awe'	aw	AUX	_	_	_	_	_	AlignBegin=341419|AlignEnd=341775|GE=then|Gloss=auxthen|nWord=2|RX=[VERB]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=341775|AlignEnd=341953|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-5	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=341953|AlignEnd=342487|GE=and|Gloss=and|nWord=3|RX=[COORDCONN]|TokenType=Root
+5	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=341953|AlignEnd=342487|GE=and|Gloss=CONV.SIM|nWord=3|RX=[COORDCONN]|TokenType=Root
 6	wichamʉ	wichamʉ	NOUN	_	_	7	comp:obj	_	AlignBegin=342487|AlignEnd=343021|GE=period|Gloss=period|nWord=4|RX=[N]|TokenType=Root
 7	me'zʉn	'zʉn	VERB	_	_	8	comp:aux	_	AlignBegin=343021|AlignEnd=343555|GE=feel|Gloss=2SG.Ofeel|nWord=5|RX=[V]|TokenType=Root
 8	nige'	nik	AUX	_	_	_	_	_	AlignBegin=343555|AlignEnd=343911|GE=then|Gloss=dothen|nWord=6|RX=[VERB]|TokenType=InflAff
@@ -1830,7 +1830,7 @@
 # text_phrase-gls-es = no se puede caminar donde haya comida/las matas criolla
 1	be	be	PRON	_	_	5	comp:obl	_	AlignBegin=344621|AlignEnd=344777|GE=where|Gloss=where|nWord=1|RX=[INTERROG]|TokenType=Root
 2	=ki	_	PART	_	_	1	mod	_	AlignBegin=344777|AlignEnd=344932|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]|TokenType=Clit
-3	zamʉ	zamʉ	NOUN	_	_	5	comp:obj	_	AlignBegin=344932|AlignEnd=345243|GE=food|Gloss=food|nWord=2|RX=[N]|TokenType=Root
+3	zamʉ	zamʉ	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=344932|AlignEnd=345243|GE=food|Gloss=food|nWord=2|RX=[N]|TokenType=Root
 4	kia	kia	ADJ	_	_	3	mod	_	AlignBegin=345243|AlignEnd=345554|GE=native|Gloss=native|nWord=3|RX=[ADJ]|TokenType=Root
 5	anugin	nik	AUX	_	_	_	_	_	AlignBegin=345554|AlignEnd=345865|GE=[DECL]|Gloss=1PL.SauxDECL|nWord=4|RX=[V:ANY]|TokenType=InflAff
 6	ami'nu'	zoy	VERB	_	_	7	comp:aux	_	AlignBegin=345865|AlignEnd=346176|GE=[NEG]|Gloss=3SG.POSSgoNEG|nWord=5|RX=[VERB]|TokenType=InflAff
@@ -1860,7 +1860,7 @@
 # text = zamʉ gwakukwa na'me'
 # text_en = because one can kill food
 # text_phrase-gls-es = porque podemos matar los alimentos
-1	zamʉ	zamʉ	NOUN	_	_	2	comp:obj	_	AlignBegin=348621|AlignEnd=349307|GE=food|Gloss=food|nWord=1|RX=[N]|TokenType=Root
+1	zamʉ	zamʉ	NOUN	_	Case=Abs	2	comp:obj	_	AlignBegin=348621|AlignEnd=349307|GE=food|Gloss=food|nWord=1|RX=[N]|TokenType=Root
 2	gwakukwa	gwak	VERB	_	_	3	comp:aux	_	AlignBegin=349307|AlignEnd=349993|GE=[ABLE]|Gloss=killABLE|nWord=2|RX=[VERB]|TokenType=InflAff
 3	na'me'	nan	AUX	_	_	_	_	_	AlignBegin=349993|AlignEnd=350678|GE=[CAUSE]|Gloss=auxCAUSE|nWord=3|RX=[VERB]|TokenType=InflAff
 
@@ -1874,7 +1874,7 @@
 # text_phrase-gls-es = por donde haya buena/mucha ahuyama
 1	be	be	PRON	_	_	7	comp:obl	_	AlignBegin=350678|AlignEnd=350780|GE=where|Gloss=where|nWord=1|RX=[INTERROG]|TokenType=Root
 2	=ki	_	PART	_	_	1	mod	_	AlignBegin=350780|AlignEnd=350881|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]|TokenType=Clit
-3	a'mʉ	a'mʉ	NOUN	_	_	5	comp:obj	_	AlignBegin=350881|AlignEnd=351084|GE=pumpkin|Gloss=pumpkin|nWord=2|RX=[N]|TokenType=Root
+3	a'mʉ	a'mʉ	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=350881|AlignEnd=351084|GE=pumpkin|Gloss=pumpkin|nWord=2|RX=[N]|TokenType=Root
 4	neki	neki	PART	_	_	3	mod:emph	_	AlignBegin=351084|AlignEnd=351287|GE=[CNTR]|Gloss=CNTR|nWord=3|RX=[PRT]|TokenType=Root
 5	sa'	sa'	VERB	_	_	7	comp:pred	_	AlignBegin=351287|AlignEnd=351490|GE=put.down|Gloss=put.down|nWord=4|RX=[V]|TokenType=Root
 6	sa'	sa'	VERB	_	_	5	compound:redup	_	AlignBegin=351490|AlignEnd=351693|GE=put.down|Gloss=put.down|nWord=5|RX=[V]|TokenType=Root
@@ -1919,11 +1919,11 @@
 # text = iwa eymi me'zari , naranja neki taka ʉnge'ri
 # text_en = when you feel this [period], and we pick orange
 # text_phrase-gls-es = cuando tenemos/sentimos esto [la menstruación], y recogemos la naranja
-1	iwa	iwa	CCONJ	_	_	_	_	_	AlignBegin=355735|AlignEnd=356223|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]|TokenType=Root
+1	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=355735|AlignEnd=356223|GE=and|Gloss=CONV.SIM|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	eymi	eymi	PRON	_	_	3	comp:obj	_	AlignBegin=356223|AlignEnd=356711|GE=that|Gloss=that|nWord=2|RX=[DET]|TokenType=Root
 3	me'zari	'zari	VERB	_	_	_	_	_	AlignBegin=356711|AlignEnd=357199|GE=feel|Gloss=2SG.Ofeel|nWord=3|RX=[V]|TokenType=Root
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=357199|AlignEnd=357687|nWord=4
-5	naranja	naranja	NOUN	_	_	7	comp:obj	_	AlignBegin=357687|AlignEnd=358175|GE=[SPA_orange]|Gloss=SPA_orange|nWord=5|RX=[N]|TokenType=Root
+5	naranja	naranja	NOUN	_	Case=Abs	7	comp:obj	_	AlignBegin=357687|AlignEnd=358175|GE=[SPA_orange]|Gloss=SPA_orange|nWord=5|RX=[N]|TokenType=Root
 6	neki	neki	PART	_	_	5	mod:emph	_	AlignBegin=358175|AlignEnd=358663|GE=[CNTR]|Gloss=CNTR|nWord=6|RX=[PRT]|TokenType=Root
 7	taka	taka	VERB	_	_	8	comp:aux	_	AlignBegin=358663|AlignEnd=359151|GE=take|Gloss=take|nWord=7|RX=[V]|TokenType=Root
 8	ʉnge'	ʉng	AUX	_	_	_	_	_	AlignBegin=359151|AlignEnd=359479|GE=then|Gloss=AUXthen|nWord=8|RX=[VERB]|TokenType=InflAff
@@ -1953,13 +1953,13 @@
 # text = nisi zoya gunʉndi , ʉndi ta awga na'me' na' nʉnno
 # text_en = so it happens, so they say the truth, isn't it?
 # text_phrase-gls-es = así es que hace, entonces esto es verdad
-1	nisi	nik	AUX	_	_	_	_	_	AlignBegin=362612|AlignEnd=362944|GE=do|Gloss=doand|nWord=1|RX=[AUX]|TokenType=Root
+1	nisi	nik	AUX	_	_	_	_	_	AlignBegin=362612|AlignEnd=362944|GE=while|Gloss=doCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	zoya	zoy	VERB	_	_	_	_	_	AlignBegin=362944|AlignEnd=363276|GE=go|Gloss=go|nWord=2|RX=[V]|TokenType=Root
 3	gunʉn	nan	AUX	_	_	_	_	_	AlignBegin=363276|AlignEnd=363498|GE=cop|Gloss=GUcop|nWord=3|RX=[COP]|TokenType=Root
 4	=di	_	PART	_	_	3	mod	_	AlignBegin=363498|AlignEnd=363608|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=363608|AlignEnd=363940|nWord=4
 6	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=363940|AlignEnd=364272|GE=so|Gloss=so|nWord=5|RX=[ADV]|TokenType=Root
-7	ta	ta	NOUN	_	_	8	comp:obj	_	AlignBegin=364272|AlignEnd=364604|GE=truth|Gloss=truth|nWord=6|RX=[N]|TokenType=Root
+7	ta	ta	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=364272|AlignEnd=364604|GE=truth|Gloss=truth|nWord=6|RX=[N]|TokenType=Root
 8	awga	awga	VERB	_	_	9	comp:aux	_	AlignBegin=364604|AlignEnd=364936|GE=say|Gloss=say|nWord=7|RX=[V]|TokenType=Root
 9	na'me'	nan	AUX	_	_	10	comp:aux	_	AlignBegin=364936|AlignEnd=365268|GE=[CAUSE]|Gloss=auxCAUSE|nWord=8|RX=[VERB]|TokenType=InflAff
 10	na'	nan	AUX	_	_	11	comp:aux	_	AlignBegin=365268|AlignEnd=365600|GE=[NEG]|Gloss=copNEG|nWord=9|RX=[VERB]|TokenType=InflAff
@@ -1985,10 +1985,10 @@
 # text = eyma anʉnkuzwey' nanʉnkwa'ba'kiri , nʉnno , a'chwukwey zʉ'ʉn eri
 # text_en = one can consider that when one doesn't fulfill [lit. take/carry] this,
 # text_phrase-gls-es = cuando no cumplimos esto [lit. cuando no llevamos esto], cierto?, pareciera que es esto
-1	eyma	eyma	PRON	_	_	2	comp:obj	_	AlignBegin=368507|AlignEnd=368863|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
+1	eyma	eyma	PRON	_	Case=Abs	2	comp:obj	_	AlignBegin=368507|AlignEnd=368863|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	anʉnkuzwey'	uzwey	VERB	_	_	3	comp:aux	_	AlignBegin=368863|AlignEnd=369219|GE=[NEG]|Gloss=MIDAPPL1takeNEG|nWord=2|RX=[VERB]|TokenType=InflAff
 3	nanʉnkwa	nan	AUX	_	_	4	comp	_	AlignBegin=369219|AlignEnd=369396|GE=[ABLE]|Gloss=AUXIPFVABLE|nWord=3|RX=[VERB]|TokenType=InflAff
-4	='ba'	_	ADP	_	_	10	comp:obj	_	AlignBegin=369396|AlignEnd=369455|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
+4	='ba'	_	ADP	_	Case=Abs	10	comp:obj	_	AlignBegin=369396|AlignEnd=369455|GE=[LOC]|Gloss==LOC|nWord=3|RX=[POST]|TokenType=Clit
 5	=ki	_	PART	_	_	4	mod	_	AlignBegin=369455|AlignEnd=369514|GE=[CNTR]|Gloss==CNTR|nWord=3|RX=[PRT]|TokenType=Clit
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=369514|AlignEnd=369575|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=369575|AlignEnd=369931|nWord=4
@@ -2017,10 +2017,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-19.WAV/WAV/ARH-TXT-CO-00000-19.WAV
 # sent_timecode = 373114, 377308
 # morphemic_text = aw -i =ki =ri kʉ =riwa ey =ki win- kwʉ -n nug -a =se' =ri ey =ki win- uzwey -n nug -a'me' kʉ- chwi =ri
-# text = awikiri kʉriwa eyki winkwʉn nugase'ri eyki winuzweyn nuga'me' kʉchwiri
+# text = aw -i =ki =ri kʉ =riwa ey =ki win- kwʉ -n nug -a =se' =ri ey =ki win- uzwey -n nug -a'me' kʉ- chwi =ri
 # text_en = Those who live in the cold part are still following it, that's how it is taken care of
 # text_phrase-gls-es = todavía los que viven en la parte frío, menos mal que ellos lo cumplen
-1	awi	aw	AUX	_	_	_	_	_	AlignBegin=373114|AlignEnd=373346|GE=aux|Gloss=auxand|nWord=1|RX=[AUX]|TokenType=Root
+1	awi	aw	AUX	_	_	_	_	_	AlignBegin=373114|AlignEnd=373346|GE=while|Gloss=auxCONV.SIM|nWord=1|RX=[VERB]|TokenType=InflAff
 2	=ki	_	PART	_	_	1	mod	_	AlignBegin=373346|AlignEnd=373462|GE=[CNTR]|Gloss==CNTR|nWord=1|RX=[PRT]|TokenType=Clit
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=373462|AlignEnd=373580|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	kʉ	kʉ	ADJ	_	_	5	comp	_	AlignBegin=373580|AlignEnd=373813|GE=cold|Gloss=cold|nWord=2|RX=[ADJ]|TokenType=Root
@@ -2049,7 +2049,7 @@
 1	i'mʉnʉ	i'mʉnʉ	ADV	_	_	2	comp	_	AlignBegin=377308|AlignEnd=377519|GE=sometimes|Gloss=sometimes|nWord=1|RX=[ADV]|TokenType=Root
 2	=kin	_	ADP	_	_	5	comp:obl	_	AlignBegin=377519|AlignEnd=377730|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
 3	=di	_	PART	_	_	2	mod	_	AlignBegin=377730|AlignEnd=377942|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	ga'	ga'	NOUN	_	_	5	comp:obj	_	AlignBegin=377942|AlignEnd=378100|GE=word|Gloss=word|nWord=2|RX=[N]|TokenType=Root
+4	ga'	ga'	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=377942|AlignEnd=378100|GE=word|Gloss=word|nWord=2|RX=[N]|TokenType=Root
 5	ʉngawkwa	gaw	VERB	_	_	6	comp:aux	_	AlignBegin=378100|AlignEnd=378576|GE=[ABLE]|Gloss=MIDmakeABLE|nWord=2|RX=[VERB]|TokenType=InflAff
 6	kawe'	kaw	AUX	_	_	7	comp	_	AlignBegin=378576|AlignEnd=378892|GE=then|Gloss=seemthen|nWord=3|RX=[VERB]|TokenType=InflAff
 7	=kin	_	ADP	_	_	14	comp:obl	_	AlignBegin=378892|AlignEnd=379050|GE=[LIM]|Gloss==LIM|nWord=3|RX=[POST]|TokenType=Clit
@@ -2057,7 +2057,7 @@
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=379210|AlignEnd=379844|nWord=4
 10	ga	ga	VERB	_	_	11	comp:aux	_	AlignBegin=379844|AlignEnd=380478|GE=eat|Gloss=eat|nWord=5|RX=[VT]|TokenType=Root
 11	awkwa	aw	AUX	_	_	12	comp:aux	_	AlignBegin=380478|AlignEnd=381112|GE=[ABLE]|Gloss=auxABLE|nWord=6|RX=[VERB]|TokenType=InflAff
-12	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=381112|AlignEnd=381746|GE=seem|Gloss=seemand|nWord=7|RX=[AUX]|TokenType=Root
+12	kawi	kaw	AUX	_	_	_	_	_	AlignBegin=381112|AlignEnd=381746|GE=while|Gloss=seemCONV.SIM|nWord=7|RX=[VERB]|TokenType=InflAff
 13	me'zanukwa	'zan	VERB	_	_	14	comp:aux	_	AlignBegin=381746|AlignEnd=382380|GE=[ABLE]|Gloss=2SG.OthinkABLE|nWord=8|RX=[VERB]|TokenType=InflAff
 14	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=382380|AlignEnd=382696|GE=cop|Gloss=cop|nWord=9|RX=[COP]|TokenType=Root
 15	=di	_	PART	_	_	14	mod	_	AlignBegin=382696|AlignEnd=383012|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
@@ -2100,7 +2100,7 @@
 # text_en = you realise that one can still eat even "in ɉokwʉ" [maize with beans] | nos damos cuenta que aún podemos comer in jükwü
 1	in	in	NOUN	_	_	3	comp	_	AlignBegin=389499|AlignEnd=389574|GE=maize|Gloss=maize|nWord=1|RX=[N]|TokenType=Root
 2	ɉokwʉ	ɉokwʉ	VERB	_	_	1	flat	_	AlignBegin=389574|AlignEnd=389649|GE=cook|Gloss=cook|nWord=1|RX=[V]|TokenType=Root
-3	=kin	_	ADP	_	_	7	comp:obj	_	AlignBegin=389649|AlignEnd=389724|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
+3	=kin	_	ADP	_	Case=Abs	7	comp:obj	_	AlignBegin=389649|AlignEnd=389724|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
 4	=di	_	PART	_	_	3	mod	_	AlignBegin=389724|AlignEnd=389800|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 5	ey	ey	PART	_	_	_	_	_	AlignBegin=389800|AlignEnd=389950|GE=so|Gloss=so|nWord=2|RX=[PRT]|TokenType=Root
 6	=ki	_	PART	_	_	5	mod	_	AlignBegin=389950|AlignEnd=390101|GE=[CNTR]|Gloss==CNTR|nWord=2|RX=[PRT]|TokenType=Clit
