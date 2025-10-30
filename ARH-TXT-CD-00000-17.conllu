@@ -71,7 +71,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-17.WAV/WAV/ARH-TXT-CD-00000-17.WAV
 # sent_timecode = 16093, 27046
 # morphemic_text = kʉnkwʉ =ri ikʉ =gwi nan -i inʉ yow winʉ- kʉnari niwi- zana , ( ah ) ikʉ , niwi , ikʉ arwako ( na ) zana win- nan -i , nʉn -na ni .
-# text = kʉnkwʉri ikʉgwi nari inʉ yow winʉkʉnari niwizana , ( ah ) ikʉ , niwi , ikʉ arwako ( na ) zana winnari , nʉnna ni .
+# text = kʉnkwʉ =ri ikʉ =gwi nan -i inʉ yow winʉ- kʉnari niwi- zana , ( ah ) ikʉ , niwi , ikʉ arwako ( na ) zana win- nan -i , nʉn -na ni .
 # text_en = The Kankuamo people were also indigenous people who had everything like we do, the Ika people, we, as the indigenous Ika people do, [had]
 # text_phrase-gls-es = Los Kankuamos eran indígenas que tenían todo, igual que los arhuacos, los arhuacos, nosotros
 1	kʉnkwʉ	kʉnkwʉ	PROPN	_	_	5	subj	_	AlignBegin=16093|AlignEnd=16303|GE=[Kankuamo].[people]|Gloss=Kankuamo.people|nWord=1|RX=[NPROP]|TokenType=Root
@@ -85,7 +85,7 @@
 9	winʉ-	_	PRON	_	_	10	comp:obj/m	_	AlignBegin=18198|AlignEnd=18408|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=6|RX=[VERB]|TokenType=InflAff
 10	kʉnari	kʉnari	VERB	_	_	_	_	_	AlignBegin=18408|AlignEnd=18619|GE=have|Gloss=have|nWord=6|RX=[VT]|TokenType=Root
 11	niwi-	_	PRON	_	_	12	comp:obj/m	_	AlignBegin=18619|AlignEnd=18829|GE=[1PL].[O]|Gloss=1PL.O|nWord=7|RX=[V:ANY]|TokenType=InflAff
-12	zana	zana	PART	_	_	_	_	_	AlignBegin=18829|AlignEnd=19040|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]|TokenType=Root
+12	zana	zan	AUX	_	_	_	_	_	AlignBegin=18829|AlignEnd=19040|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]|TokenType=Root
 13	,	_	PUNCT	_	_	12	punct	_	AlignBegin=19040|AlignEnd=19461|nWord=8
 14	(	_	PUNCT	_	_	15	punct	_	AlignBegin=19461|AlignEnd=19882|nWord=9
 15	ah	ah	INTJ	_	_	17	discourse	_	AlignBegin=19882|AlignEnd=20303|GE=[HES]|Gloss=HES|nWord=10|RX=[INTERJ]|TokenType=Root
@@ -99,7 +99,7 @@
 23	(	_	PUNCT	_	_	24	punct	_	AlignBegin=23250|AlignEnd=23671|nWord=18
 24	na	nan	X	_	_	26	discourse	_	AlignBegin=23671|AlignEnd=24092|nWord=19|TokenType=Root
 25	)	_	PUNCT	_	_	24	punct	_	AlignBegin=24092|AlignEnd=24513|nWord=20
-26	zana	zana	AUX	_	_	21	mod	_	AlignBegin=24513|AlignEnd=24934|GE=[COP]|Gloss=COP|nWord=21|RX=[COP]|TokenType=Root
+26	zana	zan	AUX	_	_	21	mod	_	AlignBegin=24513|AlignEnd=24934|GE=[COP]|Gloss=COP|nWord=21|RX=[COP]|TokenType=Root
 27	win-	_	PRON	_	_	28	subj/m	_	AlignBegin=24934|AlignEnd=25074|GE=[3PL].[S]|Gloss=3PL.S|nWord=22|RX=[VERB]|TokenType=InflAff
 28	nan	nan	AUX	_	_	29	comp:pred/m	_	AlignBegin=25074|AlignEnd=25214|GE=[AUX]|Gloss=AUX|nWord=22|RX=[AUX]|TokenType=Root
 29	-i	_	SCONJ	_	_	_	_	_	AlignBegin=25214|AlignEnd=25355|GE=while|Gloss=CONV.SIM|nWord=22|RX=[VERB]|TokenType=InflAff
@@ -429,16 +429,16 @@
 2	-w	_	AUX	_	_	3	comp:aux/m	_	AlignBegin=92246|AlignEnd=92350|GE=[EGO]|Gloss=EGO|nWord=1|RX=[VERB]|TokenType=InflAff
 3	-e'	_	AUX	_	_	_	_	_	AlignBegin=92350|AlignEnd=92454|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=92454|AlignEnd=92557|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-5	birin	birin	ADV	_	_	_	_	_	AlignBegin=92557|AlignEnd=92972|GE=long time ago|Gloss=long time ago|nWord=2|RX=[ADV]|TokenType=Root
-6	zanʉ	zan	AUX	_	_	_	_	_	AlignBegin=92972|AlignEnd=93387|GE=[COP]|Gloss=COP|nWord=3|RX=[COP]|TokenType=Root
-7	birin	birin	ADV	_	_	_	_	_	AlignBegin=93387|AlignEnd=93802|GE=long time ago|Gloss=long time ago|nWord=4|RX=[ADV]|TokenType=Root
-8	zanʉ	zan	AUX	_	_	_	_	_	AlignBegin=93802|AlignEnd=94217|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
-9	minsa'	minsa'	ADV	_	_	_	_	_	AlignBegin=94217|AlignEnd=94425|GE=some.time.ago|Gloss=some.time.ago|nWord=6|RX=[ADV]|TokenType=Root
+5	birin	birin	ADV	_	_	6	comp	_	AlignBegin=92557|AlignEnd=92972|GE=long time ago|Gloss=long time ago|nWord=2|RX=[ADV]|TokenType=Root
+6	zanʉ	zan	ADP	_	_	_	_	_	AlignBegin=92972|AlignEnd=93387|GE=[COP]|Gloss=LOC|nWord=3|RX=[COP]|TokenType=Root
+7	birin	birin	ADV	_	_	8	comp	_	AlignBegin=93387|AlignEnd=93802|GE=long time ago|Gloss=long time ago|nWord=4|RX=[ADV]|TokenType=Root
+8	zanʉ	zan	ADP	_	_	5	compound:redup	_	AlignBegin=93802|AlignEnd=94217|GE=[COP]|Gloss=LOC|nWord=5|RX=[COP]|TokenType=Root
+9	minsa'	minsa'	ADV	_	_	11	comp	_	AlignBegin=94217|AlignEnd=94425|GE=some.time.ago|Gloss=some.time.ago|nWord=6|RX=[ADV]|TokenType=Root
 10	=gwi	_	ADV	_	_	9	mod	_	AlignBegin=94425|AlignEnd=94632|GE=also|Gloss==also|nWord=6|RX=[ADV]|TokenType=Clit
-11	zanʉ	zan	AUX	_	_	_	_	_	AlignBegin=94632|AlignEnd=95047|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]|TokenType=Root
-12	minsa'	minsa'	ADV	_	_	_	_	_	AlignBegin=95047|AlignEnd=95255|GE=some.time.ago|Gloss=some.time.ago|nWord=8|RX=[ADV]|TokenType=Root
+11	zanʉ	zan	ADP	_	_	15	comp:aux	_	AlignBegin=94632|AlignEnd=95047|GE=[COP]|Gloss=LOC|nWord=7|RX=[COP]|TokenType=Root
+12	minsa'	minsa'	ADV	_	_	14	comp	_	AlignBegin=95047|AlignEnd=95255|GE=some.time.ago|Gloss=some.time.ago|nWord=8|RX=[ADV]|TokenType=Root
 13	=gwi	_	ADV	_	_	12	mod	_	AlignBegin=95255|AlignEnd=95462|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
-14	zanʉ	zan	AUX	_	_	15	comp:aux	_	AlignBegin=95462|AlignEnd=95877|GE=[COP]|Gloss=COP|nWord=9|RX=[COP]|TokenType=Root
+14	zanʉ	zan	ADP	_	_	9	compound:redup	_	AlignBegin=95462|AlignEnd=95877|GE=[COP]|Gloss=LOC|nWord=9|RX=[COP]|TokenType=Root
 15	zʉn	zan	AUX	_	_	_	_	_	AlignBegin=95877|AlignEnd=96292|GE=[COP]|Gloss=COP|nWord=10|RX=[COP]|TokenType=Root
 16	kunsamʉ	kunsamʉ	NOUN	_	_	20	comp:obl	_	AlignBegin=96292|AlignEnd=96707|GE=nature's.law|Gloss=nature's.law|nWord=11|RX=[N]|TokenType=Root
 17	neki	neki	PART	_	_	16	mod:emph	_	AlignBegin=96707|AlignEnd=97122|GE=[CNTR]|Gloss=CNTR|nWord=12|RX=[PRT]|TokenType=Root
@@ -663,7 +663,7 @@
 13	,	_	PUNCT	_	_	12	punct	_	AlignBegin=141855|AlignEnd=142348|nWord=5
 14	ingʉ	ingʉ	ADJ	_	_	_	_	_	AlignBegin=142348|AlignEnd=142841|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
 15	kogwi	kogwi	PROPN	_	_	16	comp:pred	_	AlignBegin=142841|AlignEnd=143334|GE=[Kogi].[people]|Gloss=Kogi.people|nWord=7|RX=[NPROP]|TokenType=Root
-16	zana	zana	AUX	_	_	17	comp:aux	_	AlignBegin=143334|AlignEnd=143827|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]|TokenType=Root
+16	zana	zan	AUX	_	_	17	comp:aux	_	AlignBegin=143334|AlignEnd=143827|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]|TokenType=Root
 17	kaw	kaw	AUX	_	_	18	comp:pred/m	_	AlignBegin=143827|AlignEnd=144073|GE=seem|Gloss=seem|nWord=9|RX=[AUX]|TokenType=Root
 18	-i	_	SCONJ	_	_	_	_	_	AlignBegin=144073|AlignEnd=144320|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
 19	(	_	PUNCT	_	_	20	punct	_	AlignBegin=144320|AlignEnd=144813|nWord=10
@@ -1292,8 +1292,8 @@
 5	(	_	PUNCT	_	_	6	punct	_	AlignBegin=259634|AlignEnd=260406|nWord=4
 6	ah	ah	INTJ	_	_	8	discourse	_	AlignBegin=260406|AlignEnd=261178|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
 7	)	_	PUNCT	_	_	6	punct	_	AlignBegin=261178|AlignEnd=261950|nWord=6
-8	bin	bin	ADV	_	_	9	comp:pred	_	AlignBegin=261950|AlignEnd=262722|GE=long time ago|Gloss=long time ago|nWord=7|RX=[ADV]|TokenType=Root
-9	zanʉ	zan	AUX	_	_	15	mod	_	AlignBegin=262722|AlignEnd=263494|GE=[COP]|Gloss=COP|nWord=8|RX=[COP]|TokenType=Root
+8	bin	bin	ADV	_	_	9	comp	_	AlignBegin=261950|AlignEnd=262722|GE=long time ago|Gloss=long time ago|nWord=7|RX=[ADV]|TokenType=Root
+9	zanʉ	zan	ADP	_	_	15	mod:tmod	_	AlignBegin=262722|AlignEnd=263494|GE=[COP]|Gloss=LOC|nWord=8|RX=[COP]|TokenType=Root
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=263494|AlignEnd=264266|nWord=9
 11	ikʉnha'	ikʉnha'	PRON	_	Animacy=Anim|Case=Erg|Definite=Def	15	subj	_	AgentShift=no|AlignBegin=264266|AlignEnd=265038|GE=[3PL]|Gloss=3PL|nWord=10|RX=[PRO]|TokenType=Root|Topic=no
 12	kunsamʉ	kunsamʉ	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	15	comp:obj	_	AlignBegin=265038|AlignEnd=265810|GE=cultural_knowledge|Gloss=cultural_knowledge|nWord=11|RX=[N]|TokenType=Root|Topic=no

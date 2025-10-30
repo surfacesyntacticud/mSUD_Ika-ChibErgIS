@@ -8,12 +8,12 @@
 # text_phrase-gls-es = otra cosa poquito, poquito, el bunachi, un bunachi hombre, un hombre adulto fue a buscar/cosechar peras.
 1	ingeygwi	ingeygwi	ADJ	_	_	2	comp:pred	_	AlignBegin=2550|AlignEnd=3146|GE=other|Gloss=other|nWord=1|RX=[ADJ]|TokenType=Root
 2	n	nan	AUX	_	_	3	comp:aux/m	_	AlignBegin=3146|AlignEnd=3345|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
-3	-eyka	_	AUX	_	_	8	conj:coord	_	AlignBegin=3345|AlignEnd=3544|GE=[EYKA]|Gloss=EYKA|nWord=2|RX=[V:ANY]|TokenType=InflAff
+3	-eyka	_	AUX	_	_	24	discourse	_	AlignBegin=3345|AlignEnd=3544|GE=[EYKA]|Gloss=EYKA|nWord=2|RX=[V:ANY]|TokenType=InflAff
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=3544|AlignEnd=3742|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=3742|AlignEnd=4338|nWord=3
 6	ingʉ	ingʉ	ADJ	_	_	8	conj:dicto	_	AlignBegin=4338|AlignEnd=4934|GE=few|Gloss=few|nWord=4|RX=[ADJ]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=4934|AlignEnd=5530|nWord=5
-8	ingʉ	ingʉ	ADJ	_	_	0	root	_	AlignBegin=5530|AlignEnd=6126|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
+8	ingʉ	ingʉ	ADJ	_	_	10	discourse	_	AlignBegin=5530|AlignEnd=6126|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=6126|AlignEnd=6722|nWord=7
 10	bunachʉ	bunachʉ	NOUN	_	_	13	conj:dicto	_	AlignBegin=6722|AlignEnd=7318|GE=non-indigenous person|Gloss=non-indigenous person|nWord=8|RX=[N]|TokenType=Root
 11	keywʉ	keywʉ	PART	_	_	10	discourse	_	AlignBegin=7318|AlignEnd=7914|GE=soon|Gloss=soon|nWord=9|RX=[PRT]|TokenType=Root
@@ -30,7 +30,7 @@
 22	tak	tak	VERB	_	_	23	comp:aux/m	_	AlignBegin=12980|AlignEnd=13129|GE=take|Gloss=take|nWord=18|RX=[V]|TokenType=Root|Transitivity=ditransitive
 23	-ʉn	_	AUX	_	_	24	mod:purp	_	AlignBegin=13129|AlignEnd=13278|GE=[IPFV]|Gloss=IPFV|nWord=18|RX=[VERB]|TokenType=InflAff
 24	zoya	zoy	VERB	_	_	25	comp:aux/m	_	AlignBegin=13278|AlignEnd=13477|GE=go|Gloss=go|nWord=19|RX=[V]|TokenType=Root
-25	-na	_	AUX	_	_	8	conj:coord	_	AlignBegin=13477|AlignEnd=13676|GE=[RMTPST]|Gloss=RMTPST|nWord=19|RX=[VERB]|TokenType=InflAff
+25	-na	_	AUX	_	_	0	root	_	AlignBegin=13477|AlignEnd=13676|GE=[RMTPST]|Gloss=RMTPST|nWord=19|RX=[VERB]|TokenType=InflAff
 26	=ri	_	PART	_	_	25	mod	_	AlignBegin=13676|AlignEnd=13874|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]|TokenType=Clit
 27	.	_	PUNCT	_	_	26	punct	_	AlignBegin=13874|AlignEnd=14477|Gloss=.|nWord=20
 
@@ -386,7 +386,7 @@
 10	-i	_	SCONJ	_	_	_	_	_	AlignBegin=67798|AlignEnd=68027|GE=while|Gloss=CONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 11	nak	nak	VERB	_	_	12	comp:aux/m	_	AlignBegin=68027|AlignEnd=68255|GE=come|Gloss=come|nWord=7|RX=[V]|TokenType=Root
 12	-ʉn	_	AUX	_	_	13	comp:aux	_	AlignBegin=68255|AlignEnd=68484|GE=[IPFV]|Gloss=IPFV|nWord=7|RX=[VERB]|TokenType=InflAff
-13	nu'	nu'	AUX	_	_	14	comp:aux/m	_	AlignBegin=68484|AlignEnd=68636|GE=aux|Gloss=aux|nWord=8|RX=[COP]|TokenType=Root
+13	nu'	nuk	AUX	_	_	14	comp:aux/m	_	AlignBegin=68484|AlignEnd=68636|GE=aux|Gloss=aux|nWord=8|RX=[COP]|TokenType=Root
 14	-na	_	AUX	_	_	_	_	_	AlignBegin=68636|AlignEnd=68788|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
 15	=ri	_	PART	_	_	14	mod	_	AlignBegin=68788|AlignEnd=68941|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
 
@@ -911,7 +911,7 @@
 10	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=138355|AlignEnd=138669|GE=so|Gloss=so|nWord=8|RX=[ADV]|TokenType=Root
 11	zwey	zoy	VERB	_	_	12	comp:aux/m	_	AlignBegin=138669|AlignEnd=138826|GE=go|Gloss=go|nWord=9|RX=[VI]|TokenType=Root
 12	-n	_	AUX	_	_	13	comp:aux	_	AlignBegin=138826|AlignEnd=138983|GE=[IPFV]|Gloss=IPFV|nWord=9|RX=[VERB]|TokenType=InflAff
-13	nu'	nu'	AUX	_	_	14	comp:aux/m	_	AlignBegin=138983|AlignEnd=139088|GE=aux|Gloss=aux|nWord=10|RX=[COP]|TokenType=Root
+13	nu'	nuk	AUX	_	_	14	comp:aux/m	_	AlignBegin=138983|AlignEnd=139088|GE=aux|Gloss=aux|nWord=10|RX=[COP]|TokenType=Root
 14	-na	_	AUX	_	_	_	_	_	AlignBegin=139088|AlignEnd=139193|GE=[RMTPST]|Gloss=RMTPST|nWord=10|RX=[VERB]|TokenType=InflAff
 15	=ri	_	PART	_	_	14	mod	_	AlignBegin=139193|AlignEnd=139297|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
 16	(	_	PUNCT	_	_	17	punct	_	AlignBegin=139297|AlignEnd=139611|nWord=11
@@ -939,7 +939,7 @@
 3	-i	_	SCONJ	_	_	4	comp:aux	_	AlignBegin=142116|AlignEnd=142325|GE=while|Gloss=CONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 4	zwey	zoy	AUX	_	_	5	comp:aux/m	_	AlignBegin=142325|AlignEnd=142533|GE=go|Gloss=go|nWord=3|RX=[VI]|TokenType=Root
 5	-n	_	AUX	_	_	6	comp:aux	_	AlignBegin=142533|AlignEnd=142742|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
-6	nu'	nu'	AUX	_	_	7	comp:aux/m	_	AlignBegin=142742|AlignEnd=142881|GE=aux|Gloss=aux|nWord=4|RX=[COP]|TokenType=Root
+6	nu'	nuk	AUX	_	_	7	comp:aux/m	_	AlignBegin=142742|AlignEnd=142881|GE=aux|Gloss=aux|nWord=4|RX=[COP]|TokenType=Root
 7	-na	_	AUX	_	_	8	comp	_	AlignBegin=142881|AlignEnd=143020|GE=[RMTPST]|Gloss=RMTPST|nWord=4|RX=[VERB]|TokenType=InflAff
 8	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	15	subj	_	AgentShift=yes|AlignBegin=143020|AlignEnd=143159|GE=[ERG]|Gloss==ERG|nWord=4|RX=[POST]|ShiftType=full|TokenType=Clit|Topic=no
 9	sʉmbrenu	sʉmbrenu	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=143159|AlignEnd=143576|GE=hat|Gloss=hat|nWord=5|RX=[N]|TokenType=Root
@@ -1039,7 +1039,7 @@
 11	nisi	nisi	AUX	_	_	_	_	_	AlignBegin=155599|AlignEnd=155811|GE=do|Gloss=do|nWord=6|RX=[AUX]|TokenType=Root
 12	zwey	zoy	VERB	_	_	13	comp:aux/m	_	AlignBegin=155811|AlignEnd=156023|GE=go|Gloss=go|nWord=7|RX=[VI]|TokenType=Root
 13	-n	_	AUX	_	_	14	comp:aux	_	AlignBegin=156023|AlignEnd=156235|GE=[IPFV]|Gloss=IPFV|nWord=7|RX=[VERB]|TokenType=InflAff
-14	nu'	nu'	AUX	_	_	15	comp:aux/m	_	AlignBegin=156235|AlignEnd=156376|GE=aux|Gloss=aux|nWord=8|RX=[COP]|TokenType=Root
+14	nu'	nuk	AUX	_	_	15	comp:aux/m	_	AlignBegin=156235|AlignEnd=156376|GE=aux|Gloss=aux|nWord=8|RX=[COP]|TokenType=Root
 15	-na	_	AUX	_	_	_	_	_	AlignBegin=156376|AlignEnd=156517|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
 16	=ri	_	PART	_	_	15	mod	_	AlignBegin=156517|AlignEnd=156659|GE=[TOP]|Gloss==TOP|nWord=8|RX=[PRT]|TokenType=Clit
 17	nugwe	nugwe	VERB	_	_	18	comp:aux	_	AlignBegin=156659|AlignEnd=157083|GE=stop|Gloss=stop|nWord=9|RX=[V]|TokenType=Root
