@@ -13,7 +13,7 @@
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=3742|AlignEnd=4338|nWord=3
 6	ingʉ	ingʉ	ADJ	_	_	8	conj:dicto	_	AlignBegin=4338|AlignEnd=4934|GE=few|Gloss=few|nWord=4|RX=[ADJ]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=4934|AlignEnd=5530|nWord=5
-8	ingʉ	ingʉ	ADJ	_	_	24	conj:coord	_	AlignBegin=5530|AlignEnd=6126|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
+8	ingʉ	ingʉ	ADJ	_	_	0	root	_	AlignBegin=5530|AlignEnd=6126|GE=few|Gloss=few|nWord=6|RX=[ADJ]|TokenType=Root
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=6126|AlignEnd=6722|nWord=7
 10	bunachʉ	bunachʉ	NOUN	_	_	13	conj:dicto	_	AlignBegin=6722|AlignEnd=7318|GE=non-indigenous person|Gloss=non-indigenous person|nWord=8|RX=[N]|TokenType=Root
 11	keywʉ	keywʉ	PART	_	_	10	discourse	_	AlignBegin=7318|AlignEnd=7914|GE=soon|Gloss=soon|nWord=9|RX=[PRT]|TokenType=Root
@@ -30,7 +30,7 @@
 22	tak	tak	VERB	_	_	23	comp:aux/m	_	AlignBegin=12980|AlignEnd=13129|GE=take|Gloss=take|nWord=18|RX=[V]|TokenType=Root|Transitivity=ditransitive
 23	-ʉn	_	AUX	_	_	24	mod:purp	_	AlignBegin=13129|AlignEnd=13278|GE=[IPFV]|Gloss=IPFV|nWord=18|RX=[VERB]|TokenType=InflAff
 24	zoya	zoy	VERB	_	_	25	comp:aux/m	_	AlignBegin=13278|AlignEnd=13477|GE=go|Gloss=go|nWord=19|RX=[V]|TokenType=Root
-25	-na	_	AUX	_	_	0	root	_	AlignBegin=13477|AlignEnd=13676|GE=[RMTPST]|Gloss=RMTPST|nWord=19|RX=[VERB]|TokenType=InflAff
+25	-na	_	AUX	_	_	8	conj:coord	_	AlignBegin=13477|AlignEnd=13676|GE=[RMTPST]|Gloss=RMTPST|nWord=19|RX=[VERB]|TokenType=InflAff
 26	=ri	_	PART	_	_	25	mod	_	AlignBegin=13676|AlignEnd=13874|GE=[TOP]|Gloss==TOP|nWord=19|RX=[PRT]|TokenType=Clit
 27	.	_	PUNCT	_	_	26	punct	_	AlignBegin=13874|AlignEnd=14477|Gloss=.|nWord=20
 
@@ -1489,7 +1489,7 @@
 # text_en = It's finished until here.
 # text_phrase-gls-es = Se acabó hasta allí.
 1	a	a	PRON	_	_	2	comp	_	AlignBegin=219948|AlignEnd=220482|GE=[3SG]|Gloss=3SG|nWord=1|RX=[PRO]|TokenType=Root
-2	=kin	_	ADP	_	_	5	mod	_	AlignBegin=220482|AlignEnd=221015|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
+2	=kin	_	ADP	_	_	5	mod:lmod	_	AlignBegin=220482|AlignEnd=221015|GE=[LIM]|Gloss==LIM|nWord=1|RX=[POST]|TokenType=Clit
 3	anʉ-	_	AUX	_	_	4	mod/m	_	AlignBegin=221015|AlignEnd=221282|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 4	kʉ-	_	AUX	_	_	5	mod/m	_	AlignBegin=221282|AlignEnd=221549|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]|TokenType=DerAff
 5	cho'	cho'	VERB	_	_	6	comp:aux/m	_	AlignBegin=221549|AlignEnd=221816|GE=stand|Gloss=stand|nWord=2|RX=[V]|TokenType=Root

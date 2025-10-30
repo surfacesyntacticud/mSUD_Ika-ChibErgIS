@@ -754,22 +754,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-12 (1).WAV/WAV/ARH-TXT-PE-00000-12 (1).WAV
 # sent_timecode = 145593, 151853
 # morphemic_text = iwa mowga na' =se' =ri , iwa mowga na' =se' =ri pera tas -i ,.
-# text = iwa mowga na'se'ri , iwa mowga na'se'ri pera tasi ,.
+# text = iwa mowga na' =se' =ri , iwa mowga na' =se' =ri pera tas -i ,
 # text_en = and two of them, two of them and two of them picked up the pears, | y dos de ellos, y dos de ellos le ayudaron a recoger la pera y
-1	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=145593|AlignEnd=146219|GE=and|Gloss=CONV.SIM|nWord=1|RX=[COORDCONN]|TokenType=Root
+1	iwa	iwa	CCONJ	_	_	3	cc	_	AlignBegin=145593|AlignEnd=146219|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	mowga	mowga	NUM	_	_	3	comp:pred	_	AlignBegin=146219|AlignEnd=146845|GE=two|Gloss=two|nWord=2|RX=[NUM]|TokenType=Root
 3	na'	nan	AUX	_	_	4	comp	_	AlignBegin=146845|AlignEnd=147054|GE=[AUX]|Gloss=AUX|nWord=3|RX=[AUX]|TokenType=Root
 4	=se'		ADP	_	_	8	conj:dicto	_	AlignBegin=147054|AlignEnd=147263|GE=[ERG]|Gloss==ERG|nWord=3|RX=[POST]|TokenType=Clit
 5	=ri		PART	_	_	4	mod	_	AlignBegin=147263|AlignEnd=147471|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 6	,		PUNCT	_	_	5	punct	_	AlignBegin=147471|AlignEnd=148097|nWord=4
-7	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=148097|AlignEnd=148723|GE=and|Gloss=CONV.SIM|nWord=5|RX=[COORDCONN]|TokenType=Root
+7	iwa	iwa	SCONJ	_	_	13	cc	_	AlignBegin=148097|AlignEnd=148723|GE=and|Gloss=and|nWord=5|RX=[COORDCONN]|TokenType=Root
 8	mowga	mowga	NUM	_	_	9	comp:pred	_	AlignBegin=148723|AlignEnd=149349|GE=two|Gloss=two|nWord=6|RX=[NUM]|TokenType=Root
 9	na'	nan	AUX	_	_	10	comp	_	AlignBegin=149349|AlignEnd=149558|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]|TokenType=Root
 10	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Spec	13	subj	_	AgentShift=yes|AlignBegin=149558|AlignEnd=149767|GE=[ERG]|Gloss==ERG|nWord=7|RX=[POST]|ShiftType=full|TokenType=Clit|Topic=yes
 11	=ri		PART	_	_	10	mod	_	AlignBegin=149767|AlignEnd=149975|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
 12	pera	pera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def	13	comp:obj	_	AlignBegin=149975|AlignEnd=150601|GE=pear|Gloss=pear|nWord=8|RX=[N]|TokenType=Root|Topic=no
 13	tas	tas	VERB	_	_	14	comp:pred/m	_	AlignBegin=150601|AlignEnd=150914|ArgumentOrder=SOV|GE=take|Gloss=take|nWord=9|RX=[V]|TokenType=Root|Transitivity=transitive
-14	-i		SCONJ	_	_	_	_	_	AlignBegin=150914|AlignEnd=151227|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
+14	-i		SCONJ	_	_	0	root	_	AlignBegin=150914|AlignEnd=151227|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
 15	,		PUNCT	_	_	14	punct	_	AlignBegin=151227|AlignEnd=151853|nWord=10|wordform=,.
 
 # sent_id = PE12_44-44

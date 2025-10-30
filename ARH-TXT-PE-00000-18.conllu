@@ -331,14 +331,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 68221, 77580
 # morphemic_text = ʉwa =sin =di , ingʉmʉnʉ =ri , i'ngwi gʉmʉsinʉ sombrenu a'pa =gwi kaw -i sikla =sin i- nisi ( na ) nas -i =ri
-# text = ʉwasindi , ingʉmʉnʉri , i'ngwi gʉmʉsinʉ sombrenu a'pagwi kawi siklasin inisi ( na ) nasiri
+# text = ʉwa =sin =di , ingʉmʉnʉ =ri , i'ngwi gʉmʉsinʉ sombrenu a'pa =gwi kaw -i sikla =sin i- nisi ( na ) nas -i =ri
 # text_en = Then, after a while, another boy that had a hat came on a bicycle
 # text_phrase-gls-es = Luego, después de un rato, otro ninyo que tenía un sombrero vino montado en una bicicleta
 1	ʉwa	aw	AUX	_	_	2	comp	_	AlignBegin=68221|AlignEnd=68429|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
-2	=sin	_	ADP	_	_	11	discourse	_	AlignBegin=68429|AlignEnd=68637|GE=with|Gloss==with|nWord=1|RX=[POST]|TokenType=Clit
+2	=sin	_	ADP	_	_	22	discourse	_	AlignBegin=68429|AlignEnd=68637|GE=with|Gloss==with|nWord=1|RX=[POST]|TokenType=Clit
 3	=di	_	PART	_	_	2	mod	_	AlignBegin=68637|AlignEnd=68845|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=68845|AlignEnd=69469|nWord=2
-5	ingʉmʉnʉ	ingʉmʉnʉ	SCONJ	_	_	_	_	_	AlignBegin=69469|AlignEnd=69781|GE=while|Gloss=CONV.SIM|nWord=3|RX=[ADV]|TokenType=Root
+5	ingʉmʉnʉ	ingʉmʉnʉ	NOUN	_	_	22	mod:tmod	_	AlignBegin=69469|AlignEnd=69781|GE=while|Gloss=while|nWord=3|RX=[ADV]|TokenType=Root
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=69781|AlignEnd=70093|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=70093|AlignEnd=70717|nWord=4
 8	i'ngwi	i'ngwi	NUM	_	_	9	mod:num	_	AlignBegin=70717|AlignEnd=71341|GE=one|Gloss=one|nWord=5|RX=[NUM]|TokenType=Root
@@ -347,16 +347,16 @@
 11	a'pa	a'pa	VERB	_	Case=Abs	13	comp:obj	_	AlignBegin=72589|AlignEnd=72901|GE=exist|Gloss=exist|nWord=8|RX=[V]|TokenType=Root
 12	=gwi	_	ADV	_	_	11	mod	_	AlignBegin=72901|AlignEnd=73213|GE=also|Gloss==also|nWord=8|RX=[ADV]|TokenType=Clit
 13	kaw	kaw	AUX	_	_	14	comp:pred/m	_	AlignBegin=73213|AlignEnd=73525|GE=seem|Gloss=seem|nWord=9|RX=[AUX]|TokenType=Root
-14	-i	_	SCONJ	_	_	_	_	_	AlignBegin=73525|AlignEnd=73837|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
+14	-i	_	SCONJ	_	_	22	subj	_	AlignBegin=73525|AlignEnd=73837|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
 15	sikla	sikla	NOUN	_	_	16	comp	_	AlignBegin=73837|AlignEnd=74149|GE=bicycle|Gloss=bicycle|nWord=10|RX=[N]|TokenType=Root
 16	=sin	_	ADP	_	_	18	comp:obl	_	AlignBegin=74149|AlignEnd=74461|GE=with|Gloss==with|nWord=10|RX=[POST]|TokenType=Clit
 17	i-	_	AUX	_	_	18	comp:aux	_	AlignBegin=74461|AlignEnd=74773|GE=[APPL2]|Gloss=APPL2|nWord=11|RX=[V>V]|TokenType=DerAff
-18	nisi	nisi	AUX	_	_	_	_	_	AlignBegin=74773|AlignEnd=75085|GE=do|Gloss=do|nWord=11|RX=[AUX]|TokenType=Root
+18	nisi	nisi	AUX	_	_	22	mod	_	AlignBegin=74773|AlignEnd=75085|GE=do|Gloss=do|nWord=11|RX=[AUX]|TokenType=Root
 19	(	_	PUNCT	_	_	20	punct	_	AlignBegin=75085|AlignEnd=75709|nWord=12
 20	na	nan	X	_	_	22	discourse	_	AlignBegin=75709|AlignEnd=76333|GE=cop|Gloss=cop|nWord=13|RX=[COP]|TokenType=Root
 21	)	_	PUNCT	_	_	20	punct	_	AlignBegin=76333|AlignEnd=76957|nWord=14
 22	nas	nas	VERB	_	_	23	comp:pred/m	_	AlignBegin=76957|AlignEnd=77165|GE=come|Gloss=come|nWord=15|RX=[V]|TokenType=Root
-23	-i	_	SCONJ	_	_	_	_	_	AlignBegin=77165|AlignEnd=77373|GE=while|Gloss=CONV.SIM|nWord=15|RX=[VERB]|TokenType=InflAff
+23	-i	_	SCONJ	_	_	0	root	_	AlignBegin=77165|AlignEnd=77373|GE=while|Gloss=CONV.SIM|nWord=15|RX=[VERB]|TokenType=InflAff
 24	=ri	_	PART	_	_	23	mod	_	AlignBegin=77373|AlignEnd=77580|GE=[TOP]|Gloss==TOP|nWord=15|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE18_19-19
@@ -714,13 +714,13 @@
 # text_en = then, when he was about to get up,
 # text_phrase-gls-es = cuando se iba a levantar
 1	ʉw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=137340|AlignEnd=137700|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
-2	-e'	_	AUX	_	_	_	_	_	AlignBegin=137700|AlignEnd=138060|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
+2	-e'	_	AUX	_	_	5	discourse	_	AlignBegin=137700|AlignEnd=138060|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=138060|AlignEnd=138420|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	,	_	PUNCT	_	_	3	punct	_	AlignBegin=138420|AlignEnd=139500|nWord=2
 5	anʉmʉses	anʉmʉses	VERB	_	_	6	comp:aux/m	_	AlignBegin=139500|AlignEnd=139716|GE=get.up|Gloss=get.up|nWord=3|RX=[V]|TokenType=Root
-6	-ʉn	_	AUX	_	_	7	comp:aux	_	AlignBegin=139716|AlignEnd=139932|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
-7	pʉn	pana	AUX	_	_	8	comp:aux/m	_	AlignBegin=139932|AlignEnd=140148|GE=[INCH]|Gloss=INCH|nWord=3|RX=[POST]|TokenType=Root|wordform==pʉn
-8	-e'	_	AUX	_	_	_	_	_	AlignBegin=140148|AlignEnd=140364|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
+6	-ʉn	_	AUX	_	_	8	comp:aux/m	_	AlignBegin=139716|AlignEnd=139932|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
+7	pʉn	pana	PART	_	_	6	mod	_	AlignBegin=139932|AlignEnd=140148|GE=[INCH]|Gloss=INCH|nWord=3|RX=[POST]|TokenType=Root|wordform==pʉn
+8	-e'	_	AUX	_	_	0	root	_	AlignBegin=140148|AlignEnd=140364|GE=then|Gloss=then|nWord=3|RX=[VERB]|TokenType=InflAff
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=140364|AlignEnd=140580|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE18_38-38

@@ -190,18 +190,18 @@
 # text = ey uye'ri ingweti keywʉ chwʉnpana una .
 # text_en = Then [the mother] started to take care of each one of them.
 # text_phrase-gls-es = Entonces [la madre] empezó a cuidar cada una de ella
-1	ey	ey	PART	_	_	_	_	_	AlignBegin=46145|AlignEnd=46908|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
+1	ey	ey	PART	_	_	2	mod	_	AlignBegin=46145|AlignEnd=46908|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
 2	u	aw	AUX	_	_	3	comp:aux/m	_	AlignBegin=46908|AlignEnd=47099|GE=aux|Gloss=aux|nWord=2|RX=[AUX]|TokenType=Root
 3	-y		AUX	_	_	4	comp:aux/m	_	AlignBegin=47099|AlignEnd=47290|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
-4	-e'		AUX	_	_	_	_	_	AlignBegin=47290|AlignEnd=47481|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
+4	-e'		AUX	_	_	8	discourse	_	AlignBegin=47290|AlignEnd=47481|GE=then|Gloss=then|nWord=2|RX=[VERB]|TokenType=InflAff
 5	=ri		PART	_	_	4	mod	_	AlignBegin=47481|AlignEnd=47671|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 6	ingweti	ingweti	PRON	_	Case=Abs	8	comp:obj	_	AlignBegin=47671|AlignEnd=48434|GE=each|Gloss=each|nWord=3|RX=[PRO]|TokenType=Root
 7	keywʉ	keywʉ	PART	_	_	6	discourse	_	AlignBegin=48434|AlignEnd=49197|GE=soon|Gloss=soon|nWord=4|RX=[PRT]|TokenType=Root
 8	chwʉ	chwʉ	VERB	_	_	9	comp:aux/m	_	AlignBegin=49197|AlignEnd=49451|GE=take.care|Gloss=take.care|nWord=5|RX=[V]|TokenType=Root
-9	-n		AUX	_	_	10	comp:aux	_	AlignBegin=49451|AlignEnd=49705|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
-10	pana	pana	AUX	_	_	_	_	_	AlignBegin=49705|AlignEnd=49960|GE=[INCH]|Gloss=INCH|nWord=5|RX=[POST]|TokenType=Root|wordform==pana
+9	-n		AUX	_	_	11	comp:aux	_	AlignBegin=49451|AlignEnd=49705|GE=[IPFV]|Gloss=IPFV|nWord=5|RX=[VERB]|TokenType=InflAff
+10	pʉn	pana	PART	_	_	9	mod	_	AlignBegin=49705|AlignEnd=49960|GE=[INCH]|Gloss=INCH|nWord=5|RX=[POST]|TokenType=Root|wordform==pana
 11	u	aw	AUX	_	_	12	comp:aux/m	_	AlignBegin=49960|AlignEnd=50342|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
-12	-na		AUX	_	_	_	_	_	AlignBegin=50342|AlignEnd=50723|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
+12	-na		AUX	_	_	0	root	_	AlignBegin=50342|AlignEnd=50723|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
 13	.		PUNCT	_	_	12	punct	_	AlignBegin=50723|AlignEnd=51486|Gloss=.|nWord=7
 
 # sent_id = AN18_11-11
@@ -213,8 +213,8 @@
 # text_en = "Which one could increase [their spirit]?" she thought while starting to take care.
 # text_phrase-gls-es = cual será la que puedan ir aumentando [= cual será una de esas muchachas que tenga el espiritú ir aumentando]
 1	bema	bema	PRON	_	Case=Abs	7	subj	_	AlignBegin=51486|AlignEnd=52027|GE=which|Gloss=which|nWord=1|RX=[INTERROG]|TokenType=Root
-2	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=52027|AlignEnd=52568|GE=more|Gloss=more|nWord=2|RX=[ADV]|TokenType=Root
-3	kinki	kinki	PART	_	_	_	_	_	AlignBegin=52568|AlignEnd=53109|GE=always|Gloss=always|nWord=3|RX=[PRT]|TokenType=Root
+2	umʉ'n	umʉ'n	ADV	_	_	3	mod	_	AlignBegin=52027|AlignEnd=52568|GE=more|Gloss=more|nWord=2|RX=[ADV]|TokenType=Root
+3	kinki	kinki	PART	_	_	7	mod	_	AlignBegin=52568|AlignEnd=53109|GE=always|Gloss=always|nWord=3|RX=[PRT]|TokenType=Root
 4	(		PUNCT	_	_	5	punct	_	AlignBegin=53109|AlignEnd=53650|nWord=4
 5	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=53650|AlignEnd=54191|GE=[HES]|Gloss=HES|nWord=5|RX=[INTERJ]|TokenType=Root
 6	)		PUNCT	_	_	5	punct	_	AlignBegin=54191|AlignEnd=54732|nWord=6
@@ -225,11 +225,11 @@
 11	-a		AUX	_	_	12	comp:aux	_	AlignBegin=56084|AlignEnd=56355|GE=[NONEGO]|Gloss=NONEGO|nWord=9|RX=[V:ANY]|TokenType=InflAff
 12	nʉn	nan	AUX	_	_	13	comp:aux/m	_	AlignBegin=56355|AlignEnd=56625|GE=cop|Gloss=cop|nWord=10|RX=[COP]|TokenType=Root
 13	-no		AUX	_	_	14	comp:obl	_	AlignBegin=56625|AlignEnd=56896|GE=[Q]|Gloss=Q|nWord=10|RX=[VERB]|TokenType=InflAff
-14	a'zari	a'zari	VERB	_	_	_	_	_	AlignBegin=56896|AlignEnd=57437|GE=feel|Gloss=feel|nWord=11|RX=[V]|TokenType=Root
+14	a'zari	a'zari	VERB	_	_	16	mod	_	AlignBegin=56896|AlignEnd=57437|GE=feel|Gloss=feel|nWord=11|RX=[V]|TokenType=Root
 15	keywʉ	keywʉ	PART	_	_	14	discourse	_	AlignBegin=57437|AlignEnd=57978|GE=soon|Gloss=soon|nWord=12|RX=[PRT]|TokenType=Root
 16	chwʉ	chwʉ	VERB	_	_	17	comp:aux/m	_	AlignBegin=57978|AlignEnd=58158|GE=take.care|Gloss=take.care|nWord=13|RX=[V]|TokenType=Root
-17	-n		AUX	_	_	18	comp:aux	_	AlignBegin=58158|AlignEnd=58338|GE=[IPFV]|Gloss=IPFV|nWord=13|RX=[VERB]|TokenType=InflAff
-18	pʉna	pana	AUX	_	_	_	_	_	AlignBegin=58338|AlignEnd=58519|GE=[INCH]|Gloss=INCH|nWord=13|RX=[POST]|TokenType=Root|wordform==pʉna
+17	-n		AUX	_	_	0	root	_	AlignBegin=58158|AlignEnd=58338|GE=[IPFV]|Gloss=IPFV|nWord=13|RX=[VERB]|TokenType=InflAff
+18	pʉn	pana	PART	_	_	17	mod	_	AlignBegin=58338|AlignEnd=58519|GE=[INCH]|Gloss=INCH|nWord=13|RX=[POST]|TokenType=Root|wordform==pʉna
 19	.		PUNCT	_	_	18	punct	_	AlignBegin=58519|AlignEnd=59056|Gloss=.|nWord=14
 
 # sent_id = AN18_12-12
@@ -340,20 +340,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-18.flextext.WAV/WAV/ARH-TXT-AN-00000-18.flextext.WAV
 # sent_timecode = 93102, 98000
 # morphemic_text = Seynekʉn =di umʉ'n gaysinʉ awan -u' kawa nʉn -na awga ni .
-# text = Seynekʉndi umʉ'n gaysinʉ awanu' kawa nʉnna awga ni .
+# text = Seynekʉn =di umʉ'n gaysinʉ awan -u' kawa nʉn -na awga ni .
 # text_en = They say that Seynekʉn was the less prettiest girl [lit. Seynekʉn wasn't more girl] |
 # text_phrase-gls-es = Dicen que Seynekün no era tan atractiva
 1	Seynekʉn	Seynekʉn	PROPN	_	_	5	subj	_	AlignBegin=93102|AlignEnd=93374|GE=[Seynekʉn]|Gloss=Seynekʉn|nWord=1|RX=[NPROP]|TokenType=Root
 2	=di		PART	_	_	1	mod	_	AlignBegin=93374|AlignEnd=93646|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=93646|AlignEnd=94190|GE=more|Gloss=more|nWord=2|RX=[ADV]|TokenType=Root
 4	gaysinʉ	gaysinʉ	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=94190|AlignEnd=94734|GE=young.woman|Gloss=young.woman|nWord=3|RX=[N]|TokenType=Root
-5	awan	awan	AUX	_	_	6	comp:aux/m	_	AlignBegin=94734|AlignEnd=95006|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
+5	awan	awan	VERB	_	_	6	comp:aux/m	_	AlignBegin=94734|AlignEnd=95006|GE=be.unsure|Gloss=be.unsure|nWord=4|TokenType=Root
 6	-u'		AUX	_	_	7	comp:aux	_	AlignBegin=95006|AlignEnd=95278|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]|TokenType=InflAff
 7	kawa	kaw	AUX	_	_	8	comp:aux	_	AlignBegin=95278|AlignEnd=95822|GE=seem|Gloss=seem|nWord=5|RX=[AUX]|TokenType=Root
 8	nʉn	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=95822|AlignEnd=96094|GE=cop|Gloss=cop|nWord=6|RX=[COP]|TokenType=Root
 9	-na		AUX	_	Case=Abs	10	comp:obj	_	AlignBegin=96094|AlignEnd=96366|GE=[RMTPST]|Gloss=RMTPST|nWord=6|RX=[VERB]|TokenType=InflAff
 10	awga	awga	VERB	_	_	11	comp:aux	_	AlignBegin=96366|AlignEnd=96910|GE=say|Gloss=say|nWord=7|RX=[V]|TokenType=Root
-11	ni	nan	AUX	_	_	_	_	_	AlignBegin=96910|AlignEnd=97454|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]|TokenType=Root
+11	ni	nan	AUX	_	_	0	root	_	AlignBegin=96910|AlignEnd=97454|GE=[DECL]|Gloss=DECL|nWord=8|RX=[AUX]|TokenType=Root
 12	.		PUNCT	_	_	11	punct	_	AlignBegin=97454|AlignEnd=98000|Gloss=.|nWord=9
 
 # sent_id = AN18_18-18
@@ -447,8 +447,8 @@
 4	ingweti	ingweti	ADV	_	_	1	mod	_	AlignBegin=115635|AlignEnd=116487|GE=each|Gloss=each|nWord=2|RX=[PRO]|TokenType=Root
 5	keywʉ	keywʉ	PART	_	_	4	discourse	_	AlignBegin=116487|AlignEnd=117339|GE=soon|Gloss=soon|nWord=3|RX=[PRT]|TokenType=Root
 6	chwʉ	chwʉ	VERB	_	_	7	comp:aux/m	_	AlignBegin=117339|AlignEnd=117623|GE=see|Gloss=see|nWord=4|RX=[VT]|TokenType=Root
-7	-n		AUX	_	_	8	comp:aux	_	AlignBegin=117623|AlignEnd=117907|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]|TokenType=InflAff
-8	pana	pana	AUX	_	_	9	comp:aux	_	AlignBegin=117907|AlignEnd=118191|GE=[INCH]|Gloss=INCH|nWord=4|RX=[POST]|TokenType=Root|wordform==pana
+7	-n		AUX	_	_	9	comp:aux	_	AlignBegin=117623|AlignEnd=117907|GE=[IPFV]|Gloss=IPFV|nWord=4|RX=[VERB]|TokenType=InflAff
+8	pʉn	pana	PART	_	_	7	mod	_	AlignBegin=117907|AlignEnd=118191|GE=[INCH]|Gloss=INCH|nWord=4|RX=[POST]|TokenType=Root|wordform==pana
 9	u	aw	AUX	_	_	10	comp:aux/m	_	AlignBegin=118191|AlignEnd=118617|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
 10	-na		AUX	_	_	0	root	_	AlignBegin=118617|AlignEnd=119043|GE=[RMTPST]|Gloss=RMTPST|nWord=5|RX=[VERB]|TokenType=InflAff
 11	.		PUNCT	_	_	10	punct	_	AlignBegin=119043|AlignEnd=119892|Gloss=.|nWord=6

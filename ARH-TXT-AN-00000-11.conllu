@@ -57,7 +57,7 @@
 5	gwʉga	gwʉga	VERB	_	_	6	comp:aux	_	AlignBegin=15402|AlignEnd=16065|ArgumentOrder=SOV|GE=inform|Gloss=inform|nWord=3|RX=[V]|TokenType=Root|Transitivity=transitive
 6	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=16065|AlignEnd=16397|GE=cop|Gloss=cop|nWord=4|RX=[COP]|TokenType=Root
 7	=di	_	PART	_	_	6	mod	_	AlignBegin=16397|AlignEnd=16728|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
-8	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=16728|AlignEnd=17391|GE=and|Gloss=CONV.SIM|nWord=5|RX=[COORDCONN]|TokenType=Root
+8	iwa	iwa	CCONJ	_	_	9	cc	_	AlignBegin=16728|AlignEnd=17391|GE=and|Gloss=and|nWord=5|RX=[COORDCONN]|TokenType=Root
 9	manʉnka'	manʉnka'	PRON	_	_	5	conj:coord	_	AlignBegin=17391|AlignEnd=17723|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=6|RX=[PRO]|TokenType=Root
 10	=ri	_	PART	_	_	9	mod	_	AlignBegin=17723|AlignEnd=18054|GE=[TOP]|Gloss==TOP|nWord=6|RX=[PRT]|TokenType=Clit
 11	ikʉ	ikʉ	PROPN	_	_	9	orphan	_	AlignBegin=18054|AlignEnd=18717|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]|TokenType=Root
@@ -82,7 +82,7 @@
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=20749|AlignEnd=21257|nWord=5
 11	kwakuma	kwakuma	VERB	_	_	12	comp:aux	_	AlignBegin=21257|AlignEnd=21765|GE=be.born|Gloss=be.born|nWord=6|RX=[V]|TokenType=Root
 12	nan	nan	AUX	_	_	13	comp:pred/m	_	AlignBegin=21765|AlignEnd=22019|GE=[AUX]|Gloss=AUX|nWord=7|RX=[AUX]|TokenType=Root
-13	-i	_	SCONJ	_	_	_	_	_	AlignBegin=22019|AlignEnd=22273|GE=while|Gloss=CONV.SIM|nWord=7|RX=[VERB]|TokenType=InflAff
+13	-i	_	SCONJ	_	_	14	comp:aux	_	AlignBegin=22019|AlignEnd=22273|GE=while|Gloss=CONV.SIM|nWord=7|RX=[VERB]|TokenType=InflAff
 14	nʉn	nan	AUX	_	_	15	comp:aux/m	_	AlignBegin=22273|AlignEnd=22527|GE=cop|Gloss=cop|nWord=8|RX=[COP]|TokenType=Root
 15	-no	_	AUX	_	_	_	_	_	AlignBegin=22527|AlignEnd=22782|GE=[Q]|Gloss=Q|nWord=8|RX=[VERB]|TokenType=InflAff
 
@@ -115,7 +115,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 25179, 29833
 # morphemic_text = kakʉ Serankwa zʉ'ʉn ( ih ) ikʉ =ri gow -na nʉn -no awan -ʉkwi a- ya nʉn =di .
-# text = kakʉ Serankwa zʉ'ʉn ( ih ) ikʉri gowna nʉnno awanʉkwi aya nʉndi .
+# text = kakʉ Serankwa zʉ'ʉn ( ih ) ikʉ =ri gow -na nʉn -no awan -ʉkwi a- ya nʉn =di .
 # text_en = We say that it was [presumably] Father Serankwa who created the Ika people, right?
 # text_phrase-gls-es = Hasta donde dicen parece ser fue el Padre Serankwa que creó a los arhuacos.
 1	kakʉ	kakʉ	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def	9	subj	_	AgentShift=no|AlignBegin=25179|AlignEnd=25537|GE=father|Gloss=father|nWord=1|RX=[N]|TokenType=Root|Topic=no
@@ -129,8 +129,8 @@
 9	gow	gow	VERB	_	_	10	comp:aux/m	_	AlignBegin=27685|AlignEnd=27864|ArgumentOrder=SOV|GE=build|Gloss=build|nWord=8|RX=[V]|TokenType=Root|Transitivity=transitive
 10	-na	_	AUX	_	_	11	comp:aux	_	AlignBegin=27864|AlignEnd=28043|GE=[RMTPST]|Gloss=RMTPST|nWord=8|RX=[VERB]|TokenType=InflAff
 11	nʉn	nan	AUX	_	_	12	comp:aux/m	_	AlignBegin=28043|AlignEnd=28222|GE=cop|Gloss=cop|nWord=9|RX=[COP]|TokenType=Root
-12	-no	_	AUX	_	_	13	comp:aux	_	AlignBegin=28222|AlignEnd=28401|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]|TokenType=InflAff
-13	awan	awan	AUX	_	_	14	comp:aux/m	_	AlignBegin=28401|AlignEnd=28580|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
+12	-no	_	AUX	_	_	13	comp:obj	_	AlignBegin=28222|AlignEnd=28401|GE=[Q]|Gloss=Q|nWord=9|RX=[VERB]|TokenType=InflAff
+13	awan	awan	VERB	_	_	14	comp:aux/m	_	AlignBegin=28401|AlignEnd=28580|GE=be.unsure|Gloss=be.unsure|nWord=10|RX=[AUX]|TokenType=Root
 14	-ʉkwi	_	AUX	_	Case=Abs	16	comp:obj	_	AlignBegin=28580|AlignEnd=28759|GE=[ABLE]|Gloss=ABLE|nWord=10|RX=[VERB]|TokenType=InflAff
 15	a-	_	PRON	_	_	16	subj/m	_	AlignBegin=28759|AlignEnd=28938|GE=[1PL].[S]|Gloss=1PL.S|nWord=11|RX=[V:ANY]|TokenType=InflAff
 16	ya	ya	VERB	_	_	17	comp:aux	_	AlignBegin=28938|AlignEnd=29117|GE=say|Gloss=say|nWord=11|RX=[VI]|TokenType=Root
@@ -206,7 +206,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-AN-00000-11.WAV/WAV/ARH-TXT-AN-00000-11.WAV
 # sent_timecode = 41833, 45371
 # morphemic_text = una =ri , gʉmʉsinʉ ingiti kʉna =ri zwey -n =pʉna
-# text = una =ri , gʉmʉsinʉ ingiti kʉnari zwey -n pʉna
+# text = una =ri , gʉmʉsinʉ ingiti kʉnari zwey -n =pʉna
 # text_en = So, he started to have children little by little
 # text_phrase-gls-es = entonces empezó poquito a poquito a los hijos
 1	una	una	PART	_	_	6	discourse	_	AlignBegin=41833|AlignEnd=42128|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
@@ -216,8 +216,8 @@
 5	ingiti	ingiti	ADV	_	_	6	mod	_	AlignBegin=43603|AlignEnd=44193|GE=little|Gloss=little|nWord=4|RX=[ADV]|TokenType=Root
 6	kʉnari	kʉnari	VERB	_	_	7	comp:aux	_	Gloss=have|TokenType=Root
 7	zwey	zoy	AUX	_	_	8	comp:aux/m	_	AlignBegin=44783|AlignEnd=44979|GE=go|Gloss=go|nWord=6|RX=[VI]|TokenType=Root
-8	-n	_	AUX	_	_	9	comp:aux	_	AlignBegin=44979|AlignEnd=45175|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]|TokenType=InflAff
-9	pʉna	pana	AUX	_	_	0	root	_	AlignBegin=45175|AlignEnd=45371|GE=[INCH]|Gloss=INCH|nWord=6|RX=[POST]|TokenType=Root|wordform==pʉna
+8	-n	_	AUX	_	_	0	root	_	AlignBegin=44979|AlignEnd=45175|GE=[IPFV]|Gloss=IPFV|nWord=6|RX=[VERB]|TokenType=InflAff
+9	pʉn	pana	PART	_	_	8	mod	_	AlignBegin=45175|AlignEnd=45371|GE=[INCH]|Gloss=INCH|nWord=6|RX=[POST]|TokenType=Root|wordform==pʉna
 
 # sent_id = AN11_11-11
 # speaker_id = @SP11
@@ -322,7 +322,7 @@
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=59186|AlignEnd=59590|nWord=6
 7	wiwa	wiwa	PROPN	_	_	5	conj:coord	_	AlignBegin=59590|AlignEnd=59994|GE=[Wiwa].[people]|Gloss=Wiwa.people|nWord=7|RX=[NPROP]|TokenType=Root
 8	aw	aw	AUX	_	_	9	comp:pred/m	_	AlignBegin=59994|AlignEnd=60196|GE=aux|Gloss=aux|nWord=8|RX=[AUX]|TokenType=Root
-9	-i	_	SCONJ	_	_	10	cc	_	AlignBegin=60196|AlignEnd=60398|GE=while|Gloss=CONV.SIM|nWord=8|RX=[VERB]|TokenType=InflAff
+9	-i	_	CCONJ	_	_	10	cc	_	AlignBegin=60196|AlignEnd=60398|GE=while|Gloss=CONV.SIM|nWord=8|RX=[VERB]|TokenType=InflAff
 10	kankwamʉ	kankwamʉ	PROPN	_	_	7	conj:coord	_	AlignBegin=60398|AlignEnd=60802|GE=[Kankuamo].[people]|Gloss=Kankuamo.people|nWord=9|RX=[NPROP]|TokenType=Root
 11	i-	_	AUX	_	_	12	mod/m	_	AlignBegin=60802|AlignEnd=61004|GE=[APPL2]|Gloss=APPL2|nWord=10|RX=[V>V]|TokenType=DerAff
 12	'chʉnha	'chʉnha	VERB	_	_	13	comp:aux	_	AlignBegin=61004|AlignEnd=61206|GE=arrive|Gloss=arrive|nWord=10|RX=[V]|TokenType=Root
@@ -360,7 +360,7 @@
 2	,	_	PUNCT	_	_	1	punct	_	AlignBegin=63998|AlignEnd=64138|nWord=2
 3	kwa	kwa	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=64138|AlignEnd=64278|GE=boredom|Gloss=boredom|nWord=3|RX=[N]|TokenType=Root
 4	ana-	_	AUX	_	_	5	mod/m	_	AlignBegin=64278|AlignEnd=64348|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
-5	kusa	kusa	VERB	_	_	_	_	_	AlignBegin=64348|AlignEnd=64418|GE=put|Gloss=put|nWord=4|RX=[VT]|TokenType=Root
+5	kusa	kusa	VERB	_	_	0	root	_	AlignBegin=64348|AlignEnd=64418|GE=put|Gloss=put|nWord=4|RX=[VT]|TokenType=Root
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=64418|AlignEnd=64559|nWord=5
 
 # sent_id = AN11_18-18
@@ -385,13 +385,13 @@
 12	anʉ-	_	AUX	_	_	13	mod/m	_	AlignBegin=67951|AlignEnd=68163|GE=[MID]|Gloss=MID|nWord=9|RX=[V>V]|TokenType=DerAff
 13	kʉsʉ	kʉsʉ	VERB	_	_	14	comp:aux	_	AlignBegin=68163|AlignEnd=68375|GE=put|Gloss=put|nWord=9|RX=[VT]|TokenType=Root
 14	nan	nan	AUX	_	_	15	comp:pred/m	_	AlignBegin=68375|AlignEnd=68587|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]|TokenType=Root
-15	-i	_	SCONJ	_	_	_	_	_	AlignBegin=68587|AlignEnd=68799|GE=while|Gloss=CONV.SIM|nWord=10|RX=[VERB]|TokenType=InflAff
+15	-i	_	SCONJ	_	_	17	mod	_	AlignBegin=68587|AlignEnd=68799|GE=while|Gloss=CONV.SIM|nWord=10|RX=[VERB]|TokenType=InflAff
 16	ʉn-	_	AUX	_	_	17	mod/m	_	AlignBegin=68799|AlignEnd=69011|GE=[MID]|Gloss=MID|nWord=11|RX=[V>V]|TokenType=DerAff
-17	chusi	chusi	VERB	_	_	_	_	_	AlignBegin=69011|AlignEnd=69223|GE=leave|Gloss=leave|nWord=11|RX=[V]|TokenType=Root
+17	chusi	chusi	VERB	_	_	19	comp:aux	_	AlignBegin=69011|AlignEnd=69223|GE=leave|Gloss=leave|nWord=11|RX=[V]|TokenType=Root
 18	ʉn-	_	AUX	_	_	19	mod/m	_	AlignBegin=69223|AlignEnd=69435|GE=[MID]|Gloss=MID|nWord=12|RX=[V>V]|TokenType=DerAff
-19	zoya	zoy	VERB	_	_	20	comp:aux	_	AlignBegin=69435|AlignEnd=69647|GE=go|Gloss=go|nWord=12|RX=[VI]|TokenType=Root
+19	zoya	zoy	AUX	_	_	20	comp:aux	_	AlignBegin=69435|AlignEnd=69647|GE=go|Gloss=go|nWord=12|RX=[VI]|TokenType=Root
 20	n	nan	AUX	_	_	21	comp:aux/m	_	AlignBegin=69647|AlignEnd=69857|GE=aux|Gloss=aux|nWord=13|RX=[AUX]|TokenType=Root
-21	-a'me'	_	AUX	_	_	_	_	_	AlignBegin=69857|AlignEnd=70067|GE=[CAUSE]|Gloss=CAUSE|nWord=13|RX=[VERB]|TokenType=InflAff
+21	-a'me'	_	AUX	_	_	0	root	_	AlignBegin=69857|AlignEnd=70067|GE=[CAUSE]|Gloss=CAUSE|nWord=13|RX=[VERB]|TokenType=InflAff
 
 # sent_id = AN11_19-19
 # speaker_id = @SP11
@@ -704,7 +704,7 @@
 10	kʉnan	kʉnan	VERB	_	_	11	comp:aux/m	_	AlignBegin=120732|AlignEnd=120917|GE=have|Gloss=have|nWord=8|RX=[VT]|TokenType=Root
 11	-u'	_	AUX	_	_	12	comp:aux	_	AlignBegin=120917|AlignEnd=121102|GE=[NEG]|Gloss=NEG|nWord=8|RX=[VERB]|TokenType=InflAff
 12	nan	nan	AUX	_	_	13	comp:pred/m	_	AlignBegin=121102|AlignEnd=121225|GE=[AUX]|Gloss=AUX|nWord=9|RX=[AUX]|TokenType=Root
-13	-i	_	SCONJ	_	_	_	_	_	AlignBegin=121225|AlignEnd=121348|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
+13	-i	_	SCONJ	_	_	0	root	_	AlignBegin=121225|AlignEnd=121348|GE=while|Gloss=CONV.SIM|nWord=9|RX=[VERB]|TokenType=InflAff
 14	=ri	_	PART	_	_	13	mod	_	AlignBegin=121348|AlignEnd=121471|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
 
 # sent_id = AN11_33-33

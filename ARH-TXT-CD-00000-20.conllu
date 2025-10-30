@@ -1193,7 +1193,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-20.WAV/WAV/ARH-TXT-CD-00000-20.WAV
 # sent_timecode = 191690, 199015
 # morphemic_text = ʉndi , ʉw -e' =ri ʉndi , bema ingumʉn diwʉn keywʉ nig -in , keywʉ nʉ -ngwa awan -ʉkwey ka -u' neki =ri ,.
-# text = ʉndi , ʉwe'ri ʉndi , bema ingumʉn diwʉn keywʉ nigin , keywʉ nʉngwa awanʉkwey kau' nekiri ,.
+# text = ʉndi , ʉw -e' =ri ʉndi , bema ingumʉn diwʉn keywʉ nig -in , keywʉ nʉ -ngwa awan -ʉkwey ka -u' neki =ri ,
 # text_en = So, well, which one does things more different, one is not able to see [lit. seem].
 # text_phrase-gls-es = Pues, no podemos diferenciar[,] quien hace las cosas diferentes
 # text_phrase-gls-tl = comments: subject
@@ -1213,8 +1213,8 @@
 14	,	_	PUNCT	_	_	13	punct	_	AlignBegin=196000|AlignEnd=196431|nWord=11
 15	keywʉ	keywʉ	PART	_	_	_	_	_	AlignBegin=196431|AlignEnd=196862|GE=soon|Gloss=soon|nWord=12|RX=[PRT]|TokenType=Root
 16	nʉ	nan	AUX	_	_	17	comp:aux/m	_	AlignBegin=196862|AlignEnd=197078|GE=[AUX]|Gloss=AUX|nWord=13|RX=[AUX]|TokenType=Root
-17	-ngwa	_	AUX	_	_	18	comp:aux	_	AlignBegin=197078|AlignEnd=197293|GE=[FUT]|Gloss=FUT|nWord=13|RX=[VERB]|TokenType=InflAff
-18	awan	awan	AUX	_	_	19	comp:aux/m	_	AlignBegin=197293|AlignEnd=197509|GE=aux|Gloss=aux|nWord=14|RX=[AUX]|TokenType=Root
+17	-ngwa	_	AUX	_	_	18	comp:obj	_	AlignBegin=197078|AlignEnd=197293|GE=[FUT]|Gloss=FUT|nWord=13|RX=[VERB]|TokenType=InflAff
+18	awan	awan	VERB	_	_	19	comp:aux/m	_	AlignBegin=197293|AlignEnd=197509|GE=be.unsure|Gloss=be.unsure|nWord=14|TokenType=Root
 19	-ʉkwey	_	AUX	_	_	_	_	_	AlignBegin=197509|AlignEnd=197724|GE=[ABLE]|Gloss=ABLE|nWord=14|RX=[VERB]|TokenType=InflAff
 20	ka	kaw	VERB	_	_	21	comp:aux/m	_	AlignBegin=197724|AlignEnd=197940|GE=seem|Gloss=seem|nWord=15|RX=[V]|TokenType=Root
 21	-u'	_	AUX	_	_	_	_	_	AlignBegin=197940|AlignEnd=198155|GE=[NEG]|Gloss=NEG|nWord=15|RX=[VERB]|TokenType=InflAff
@@ -1415,7 +1415,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-20.WAV/WAV/ARH-TXT-CD-00000-20.WAV
 # sent_timecode = 224075, 229037
 # morphemic_text = ʉw -e' =ri ikʉnha' =ri ingʉ diwʉn =gwi , iwa ikʉ =ri ingʉ diwʉn =gwi ,.
-# text = ʉwe'ri ikʉnha'ri ingʉ diwʉngwi , iwa ikʉri ingʉ diwʉngwi ,.
+# text = ʉw -e' =ri ikʉnha' =ri ingʉ diwʉn =gwi , iwa ikʉ =ri ingʉ diwʉn =gwi ,
 # text_en = So, they are a little different, and the Ika people are a little different,
 # text_phrase-gls-es = Ellos son un poco diferentes y los arhuacos un poco diferentes,
 1	ʉw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=224075|AlignEnd=224240|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
@@ -1427,7 +1427,7 @@
 7	diwʉn	diwʉn	ADJ	_	_	4	orphan	_	AlignBegin=225563|AlignEnd=225811|GE=different|Gloss=different|nWord=4|RX=[ADJ]|TokenType=Root
 8	=gwi	_	ADV	_	_	7	mod	_	AlignBegin=225811|AlignEnd=226059|GE=also|Gloss==also|nWord=4|RX=[ADV]|TokenType=Clit
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=226059|AlignEnd=226555|nWord=5
-10	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=226555|AlignEnd=227051|GE=and|Gloss=CONV.SIM|nWord=6|RX=[COORDCONN]|TokenType=Root
+10	iwa	iwa	CCONJ	_	_	11	cc	_	AlignBegin=226555|AlignEnd=227051|GE=and|Gloss=and|nWord=6|RX=[COORDCONN]|TokenType=Root
 11	ikʉ	ikʉ	PROPN	_	_	4	conj:coord	_	AlignBegin=227051|AlignEnd=227299|GE=[Ika]|Gloss=Ika|nWord=7|RX=[NPROP]|TokenType=Root
 12	=ri	_	PART	_	_	11	mod	_	AlignBegin=227299|AlignEnd=227547|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
 13	ingʉ	ingʉ	ADJ	_	_	14	mod	_	AlignBegin=227547|AlignEnd=228043|GE=few|Gloss=few|nWord=8|RX=[ADJ]|TokenType=Root
@@ -1864,7 +1864,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CD-00000-20.WAV/WAV/ARH-TXT-CD-00000-20.WAV
 # sent_timecode = 294900, 299830
 # morphemic_text = kwa ki nanʉn -no zʉ'ʉn awan -ʉkwi , zʉ'ʉn nis -i zʉ'ʉn zwey -n nug -a ni .
-# text = kwa ki nʉnno zʉ'ʉn awanʉkwi , zʉ'ʉn nisi zʉ'ʉn zweyn nuga ni .
+# text = kwa ki nan -ʉn -no zʉ'ʉn awan -ʉkwi , zʉ'ʉn nis -i zʉ'ʉn zwey -n nug -a ni .
 # text_en = or think what is different, as [things] go [at the moment]
 # text_phrase-gls-es = o nos hace pensar lo que es diferente, como van por el momento
 # text_phrase-gls-tl = awanükwi
@@ -1873,8 +1873,8 @@
 3	nan	nan	AUX	_	_	4	comp:aux/m	_	AlignBegin=295658|AlignEnd=295848|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
 4	-ʉn	-ʉn	AUX	_	_	_	_	_	Gloss=IPFV|TokenType=InflAff
 5	-no	_	AUX	_	_	6	comp:aux	_	AlignBegin=295848|AlignEnd=296037|GE=[Q]|Gloss=Q|nWord=3|RX=[VERB]|TokenType=InflAff
-6	zʉ'ʉn	zan	AUX	_	_	7	comp:aux	_	AlignBegin=296037|AlignEnd=296416|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
-7	awan	awan	AUX	_	_	8	comp:aux/m	_	AlignBegin=296416|AlignEnd=296606|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
+6	zʉ'ʉn	zan	AUX	_	_	7	comp:obj	_	AlignBegin=296037|AlignEnd=296416|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
+7	awan	awan	VERB	_	_	8	comp:aux/m	_	AlignBegin=296416|AlignEnd=296606|GE=think|Gloss=think|nWord=5|TokenType=Root
 8	-ʉkwi	_	AUX	_	_	_	_	_	AlignBegin=296606|AlignEnd=296795|GE=[ABLE]|Gloss=ABLE|nWord=5|RX=[VERB]|TokenType=InflAff
 9	,	_	PUNCT	_	_	8	punct	_	AlignBegin=296795|AlignEnd=297174|nWord=6
 10	zʉ'ʉn	zan	PART	_	_	11	mod:emph	_	AlignBegin=297174|AlignEnd=297553|GE=[COP]|Gloss=COP|nWord=7|RX=[COP]|TokenType=Root
@@ -1885,6 +1885,6 @@
 15	-n	_	AUX	_	_	16	comp:aux	_	AlignBegin=298501|AlignEnd=298690|GE=[IPFV]|Gloss=IPFV|nWord=10|RX=[VERB]|TokenType=InflAff
 16	nug	nik	AUX	_	_	17	comp:aux/m	_	AlignBegin=298690|AlignEnd=298880|GE=aux|Gloss=aux|nWord=11|RX=[AUX]|TokenType=Root
 17	-a	_	AUX	_	_	18	comp:aux	_	AlignBegin=298880|AlignEnd=299069|GE=[NONEGO]|Gloss=NONEGO|nWord=11|RX=[V:ANY]|TokenType=InflAff
-18	ni	nan	AUX	_	_	_	_	_	AlignBegin=299069|AlignEnd=299448|GE=[DECL]|Gloss=DECL|nWord=12|RX=[AUX]|TokenType=Root
+18	ni	nan	AUX	_	_	0	root	_	AlignBegin=299069|AlignEnd=299448|GE=[DECL]|Gloss=DECL|nWord=12|RX=[AUX]|TokenType=Root
 19	.	_	PUNCT	_	_	18	punct	_	AlignBegin=299448|AlignEnd=299830|Gloss=.|nWord=13
 
