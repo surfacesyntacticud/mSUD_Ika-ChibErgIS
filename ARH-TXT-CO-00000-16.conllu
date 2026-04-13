@@ -177,18 +177,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-16.WAV/WAV/ARH-TXT-CO-00000-16.WAV
 # sent_timecode = 40596, 42630
 # morphemic_text = cheykʉna anʉn- kʉ- za- taka an- nu' nan -i keywʉ zʉ'ʉn
-# text = cheykʉna anʉnkʉzataka annu' nari keywʉ zʉ'ʉn
+# text = cheykʉna anʉn- kʉ- za- taka an- nu' nan -i keywʉ zʉ'ʉn
 # text_en = search for everything on the farm
 # text_phrase-gls-es = buscar todo [los alimentos] en la finca
-1	cheykʉna	cheykʉna	NOUN	_	_	5	comp:obl	_	AlignBegin=40596|AlignEnd=40935|GE=farm|Gloss=farm|nWord=1|RX=[N]|TokenType=Root
+1	cheykʉna	cheykʉna	NOUN	_	Case=Dat	5	comp:obl	_	AlignBegin=40596|AlignEnd=40935|GE=farm|Gloss=farm|nWord=1|RX=[N]|TokenType=Root
 2	anʉn-	_	AUX	_	_	3	mod/m	_	AlignBegin=40935|AlignEnd=41020|GE=[MID]|Gloss=MID|nWord=2|RX=[V>V]|TokenType=DerAff
 3	kʉ-	_	AUX	_	_	4	mod/m	_	AlignBegin=41020|AlignEnd=41105|GE=[APPL1]|Gloss=APPL1|nWord=2|RX=[V>V]|TokenType=DerAff
 4	za-	_	AUX	_	_	5	mod/m	_	AlignBegin=41105|AlignEnd=41190|GE=[ZA]|Gloss=ZA|nWord=2|RX=[V:ANY]|TokenType=InflAff
-5	taka	taka	VERB	_	_	7	comp:aux	_	AlignBegin=41190|AlignEnd=41274|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root
+5	taka	taka	VERB	_	_	7	comp:aux	_	AlignBegin=41190|AlignEnd=41274|GE=take|Gloss=take|nWord=2|RX=[V]|TokenType=Root|Transitivity=ditransitive
 6	an-	_	AUX	_	_	7	comp:aux/m	_	AlignBegin=41274|AlignEnd=41444|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 7	nu'	nuk	AUX	_	_	8	comp:aux	_	AlignBegin=41444|AlignEnd=41613|GE=aux|Gloss=aux|nWord=3|RX=[COP]|TokenType=Root
 8	nan	nan	AUX	_	_	9	comp:pred/m	_	AlignBegin=41613|AlignEnd=41783|GE=[AUX]|Gloss=AUX|nWord=4|RX=[AUX]|TokenType=Root
-9	-i	_	SCONJ	_	_	_	_	_	AlignBegin=41783|AlignEnd=41952|GE=while|Gloss=CONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
+9	-i	_	SCONJ	_	_	0	root	_	AlignBegin=41783|AlignEnd=41952|GE=while|Gloss=CONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 10	keywʉ	keywʉ	PART	_	_	9	discourse	_	AlignBegin=41952|AlignEnd=42291|GE=soon|Gloss=soon|nWord=5|RX=[PRT]|TokenType=Root
 11	zʉ'ʉn	zan	PART	_	_	10	mod:emph	_	AlignBegin=42291|AlignEnd=42630|GE=[COP]|Gloss=COP|nWord=6|RX=[COP]|TokenType=Root
 
@@ -273,21 +273,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-16.WAV/WAV/ARH-TXT-CO-00000-16.WAV
 # sent_timecode = 62650, 68200
 # morphemic_text = iwa sanusi geyna ʉn- gwak -a aw -i ɉe gina cho's -ʉndi
-# text = iwa sanusi geyna ʉngwaka awi ɉe gina cho'sʉndi
+# text = iwa sanusi geyna ʉn- gwak -a aw -i ɉe gina cho's -ʉndi
 # text_en = and if we put the water over fire after having killed the chicken
 # text_phrase-gls-es = y si ponemos el agua después de haber matado la gallina
-1	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=62650|AlignEnd=63344|GE=and|Gloss=CONV.SIM|nWord=1|RX=[COORDCONN]|TokenType=Root
+1	iwa	iwa	CCONJ	_	_	5	cc	_	AlignBegin=62650|AlignEnd=63344|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	sanusi	sanusi	ADV	_	_	5	mod	_	AlignBegin=63344|AlignEnd=64038|GE=first|Gloss=first|nWord=2|RX=[ADV]|TokenType=Root
 3	geyna	geyna	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=64038|AlignEnd=64732|GE=chicken|Gloss=chicken|nWord=3|RX=[N]|TokenType=Root
 4	ʉn-	_	AUX	_	_	5	mod/m	_	AlignBegin=64732|AlignEnd=64963|GE=[MID]|Gloss=MID|nWord=4|RX=[V>V]|TokenType=DerAff
 5	gwak	gwak	VERB	_	_	6	comp:aux/m	_	AlignBegin=64963|AlignEnd=65194|GE=kill|Gloss=kill|nWord=4|RX=[V]|TokenType=Root
 6	-a	_	AUX	_	_	7	comp:aux	_	AlignBegin=65194|AlignEnd=65426|GE=[PFV]|Gloss=PFV|nWord=4|RX=[V:ANY]|TokenType=InflAff
 7	aw	aw	AUX	_	_	8	comp:pred/m	_	AlignBegin=65426|AlignEnd=65773|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
-8	-i	_	SCONJ	_	_	_	_	_	AlignBegin=65773|AlignEnd=66120|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
+8	-i	_	SCONJ	_	_	11	mod	_	AlignBegin=65773|AlignEnd=66120|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 9	ɉe	ɉe	NOUN	_	Case=Abs	11	comp:obj	_	AlignBegin=66120|AlignEnd=66814|GE=water|Gloss=water|nWord=6|RX=[N]|TokenType=Root
-10	gina	gina	NOUN	_	_	11	comp:obl	_	AlignBegin=66814|AlignEnd=67508|GE=put.over.fire|Gloss=fire_for_cooking|nWord=7|RX=[V]|TokenType=Root
+10	gina	gina	NOUN	_	Case=Loc	11	comp:obl	_	AlignBegin=66814|AlignEnd=67508|GE=put.over.fire|Gloss=fire_for_cooking|nWord=7|RX=[V]|TokenType=Root
 11	cho's	cho's	VERB	_	_	12	comp:aux/m	_	AlignBegin=67508|AlignEnd=67854|GE=put.down[upright]|Gloss=put.down[upright]|nWord=8|RX=[V]|TokenType=Root
-12	-ʉndi	_	AUX	_	_	_	_	_	AlignBegin=67854|AlignEnd=68200|GE=[COND]|Gloss=COND|nWord=8|RX=[V:ANY]|TokenType=InflAff
+12	-ʉndi	_	AUX	_	_	0	mod	_	AlignBegin=67854|AlignEnd=68200|GE=[COND]|Gloss=COND|nWord=8|RX=[V:ANY]|TokenType=InflAff
 
 # sent_id = CO16_16-16
 # speaker_id = @SP16
@@ -376,14 +376,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-16.WAV/WAV/ARH-TXT-CO-00000-16.WAV
 # sent_timecode = 87950, 91130
 # morphemic_text = oya gina anʉn- ka- cho' ,
-# text = oya gina anʉnkacho' ,
+# text = oya gina anʉn- ka- cho' ,
 # text_en = we put the pot over fire
 # text_phrase-gls-es = ponemos la olla sobre el fuego
 1	oya	oya	NOUN	_	Case=Abs	5	comp:obj	_	AlignBegin=87950|AlignEnd=88745|GE=[SPA_pot]|Gloss=SPA_pot|nWord=1|RX=[N]|TokenType=Root
-2	gina	gina	NOUN	_	_	5	comp:obl	_	AlignBegin=88745|AlignEnd=89540|GE=put.over.fire|Gloss=fire_for_cooking|nWord=2|RX=[V]|TokenType=Root
+2	gina	gina	NOUN	_	Case=Dat	5	comp:obl	_	AlignBegin=88745|AlignEnd=89540|GE=put.over.fire|Gloss=fire_for_cooking|nWord=2|RX=[V]|TokenType=Root
 3	anʉn-	_	AUX	_	_	4	mod/m	_	AlignBegin=89540|AlignEnd=89805|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 4	ka-	_	AUX	_	_	5	mod/m	_	AlignBegin=89805|AlignEnd=90070|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
-5	cho'	cho'	VERB	_	_	0	root	_	AlignBegin=90070|AlignEnd=90335|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root
+5	cho'	cho'	VERB	_	_	0	root	_	AlignBegin=90070|AlignEnd=90335|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root|Transitivity=ditransitive
 6	,	_	PUNCT	_	_	5	punct	_	AlignBegin=90335|AlignEnd=91130|nWord=4
 
 # sent_id = CO16_21-21
@@ -521,11 +521,11 @@
 13	-o	_	AUX	_	_	0	root	_	AlignBegin=117865|AlignEnd=118230|GE=[Q]|Gloss=Q|nWord=7|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO16_29-29
+# text = ey ʉndi eyma =ri yów geyna an- itʉrʉ na ,
 # speaker_id = @SP16
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-16.WAV/WAV/ARH-TXT-CO-00000-16.WAV
 # sent_timecode = 118230, 120212
 # morphemic_text = ey ʉndi eyma =ri yów geyna an- itʉrʉ na ,
-# text = ey ʉndi eymari yów geyna anitʉrʉ na ,
 # text_en = one has to remove all [the feathers] from the chicken
 # text_phrase-gls-es = tenemos que quitar todas [las plumas] a la gallina
 1	ey	ey	PART	_	_	8	discourse	_	AlignBegin=118230|AlignEnd=118478|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
@@ -533,7 +533,7 @@
 3	eyma	eyma	PRON	_	Animacy=Anim|Case=Erg|Definite=Def	8	subj	_	AgentShift=no|AlignBegin=118726|AlignEnd=118850|GE=this|Gloss=this|nWord=3|RX=[DEM]|TokenType=Root|Topic=yes
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=118850|AlignEnd=118974|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 5	yów	yów	PRON	_	Animacy=Anim|Case=Abs|Definite=Def	8	comp:obj	_	AlignBegin=118974|AlignEnd=119222|GE=all|Gloss=all|nWord=4|RX=[QUANT]|TokenType=Root|Topic=no
-6	geyna	geyna	NOUN	_	_	8	comp:obl	_	AlignBegin=119222|AlignEnd=119470|GE=chicken|Gloss=chicken|nWord=5|RX=[N]|TokenType=Root
+6	geyna	geyna	NOUN	_	Case=Abs	8	comp:obl	_	AlignBegin=119222|AlignEnd=119470|GE=chicken|Gloss=chicken|nWord=5|RX=[N]|TokenType=Root
 7	an-	_	AUX	_	_	8	mod/m	_	AlignBegin=119470|AlignEnd=119594|GE=[MID]|Gloss=MID|nWord=6|RX=[V>V]|TokenType=DerAff
 8	itʉrʉ	itʉrʉ	VERB	_	_	9	comp:aux	_	AlignBegin=119594|AlignEnd=119718|ArgumentOrder=SOV|GE=peel|Gloss=peel|nWord=6|RX=[V]|TokenType=Root|Transitivity=ditransitive
 9	na	nan	AUX	_	_	0	root	_	AlignBegin=119718|AlignEnd=119966|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
@@ -671,7 +671,7 @@
 2	-ʉkwey	_	AUX	_	_	3	comp:aux	_	AlignBegin=135121|AlignEnd=135322|GE=[ABLE]|Gloss=ABLE|nWord=1|RX=[VERB]|TokenType=InflAff
 3	nig	nik	AUX	_	_	4	comp:aux/m	_	AlignBegin=135322|AlignEnd=135523|GE=do|Gloss=do|nWord=2|RX=[AUX]|TokenType=Root
 4	-a	_	AUX	_	_	5	comp:aux	_	AlignBegin=135523|AlignEnd=135724|GE=[NONEGO]|Gloss=NONEGO|nWord=2|RX=[V:ANY]|TokenType=InflAff
-5	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=135724|AlignEnd=135925|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
+5	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=135724|AlignEnd=135925|GE=cop|Gloss=cop|nWord=3|RX=[COP]|TokenType=Root
 6	=di	_	PART	_	_	5	mod	_	AlignBegin=135925|AlignEnd=136126|GE=[TOP]|Gloss==TOP|nWord=3|RX=[PRT]|TokenType=Clit
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=136126|AlignEnd=136526|nWord=4
 
@@ -899,7 +899,7 @@
 4	zamʉ	zamʉ	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=169039|AlignEnd=169409|GE=food|Gloss=food|nWord=2|RX=[N]|TokenType=Root
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=169409|AlignEnd=169778|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 6	mowga	mowga	NUM	_	_	7	mod:num	_	AlignBegin=169778|AlignEnd=170517|GE=two|Gloss=two|nWord=3|RX=[NUM]|TokenType=Root
-7	ora	ora	NOUN	_	_	10	comp:obl	_	AlignBegin=170517|AlignEnd=171256|GE=[SPA_hour]|Gloss=SPA_hour|nWord=4|RX=[N]|TokenType=Root
+7	ora	ora	NOUN	_	_	10	mod:tmod	_	AlignBegin=170517|AlignEnd=171256|GE=[SPA_hour]|Gloss=SPA_hour|nWord=4|RX=[N]|TokenType=Root
 8	kinki	kinki	PART	_	_	10	mod	_	AlignBegin=171256|AlignEnd=171626|GE=always|Gloss=always|nWord=5|RX=[PRT]|TokenType=Root
 9	=ri	_	PART	_	_	8	mod	_	AlignBegin=171626|AlignEnd=171995|GE=[TOP]|Gloss==TOP|nWord=5|RX=[PRT]|TokenType=Clit
 10	ku'na	ku'na	VERB	_	_	11	comp:aux	_	AlignBegin=171995|AlignEnd=172734|GE=cook|Gloss=cook|nWord=6|RX=[V]|TokenType=Root
@@ -1020,7 +1020,7 @@
 1	ikʉ	ikʉ	PROPN	_	_	2	comp	_	AlignBegin=194206|AlignEnd=194438|GE=[Ika]|Gloss=Ika|nWord=1|RX=[NPROP]|TokenType=Root
 2	=se'	=se'	ADP	_	Animacy=Anim|Case=Erg|Definite=Def	11	subj	_	AgentShift=yes|AlignBegin=194438|AlignEnd=194670|GE=[ERG]|Gloss==ERG|nWord=1|RX=[POST]|ShiftType=partial|TokenType=Clit|Topic=yes
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=194670|AlignEnd=194903|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Animacy=Anim|Case=Dat|Definite=Def	11	comp:obl	_	AlignBegin=194903|AlignEnd=195251|GE=child|Gloss=child|nWord=2|RX=[N]|TokenType=Root|Topic=yes
+4	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Animacy=Anim|Case=Dat	11	comp:obl	_	AlignBegin=194903|AlignEnd=195251|GE=child|Gloss=child|nWord=2|RX=[N]|TokenType=Root|Topic=yes
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=195251|AlignEnd=195600|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 6	ingʉ	ingʉ	ADJ	_	_	8	conj:dicto	_	AlignBegin=195600|AlignEnd=196297|GE=few|Gloss=few|nWord=3|RX=[ADJ]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=196297|AlignEnd=196994|nWord=4
@@ -1201,15 +1201,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-16.WAV/WAV/ARH-TXT-CO-00000-16.WAV
 # sent_timecode = 219423, 221353
 # morphemic_text = gʉmʉsinʉ =ri kʉtʉ anʉ- ka- gaka aw -kwa ni ,
-# text = gʉmʉsinʉri kʉtʉ anʉkagaka awkwa ni ,
+# text = gʉmʉsinʉ =ri kʉtʉ anʉ- ka- gaka aw -kwa ni ,
 # text_en = one serves the legs/foot to the children,
 # text_phrase-gls-es = y a los ninyos les servimos las patas,
-1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	_	6	comp:obl	_	AlignBegin=219423|AlignEnd=219584|GE=child|Gloss=child|nWord=1|RX=[N]|TokenType=Root
+1	gʉmʉsinʉ	gʉmʉsinʉ	NOUN	_	Case=Dat	6	comp:obl	_	AlignBegin=219423|AlignEnd=219584|GE=child|Gloss=child|nWord=1|RX=[N]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=219584|AlignEnd=219745|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	kʉtʉ	kʉtʉ	NOUN	_	Case=Abs	6	comp:obj	_	AlignBegin=219745|AlignEnd=220067|GE=foot|Gloss=foot|nWord=2|RX=[N]|TokenType=Root
 4	anʉ-	_	AUX	_	_	5	mod/m	_	AlignBegin=220067|AlignEnd=220174|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 5	ka-	_	AUX	_	_	6	mod/m	_	AlignBegin=220174|AlignEnd=220281|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
-6	gaka	gaka	VERB	_	_	7	comp:aux	_	AlignBegin=220281|AlignEnd=220389|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
+6	gaka	gaka	VERB	_	_	7	comp:aux	_	AlignBegin=220281|AlignEnd=220389|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root|Transitivity=ditransitive
 7	aw	aw	AUX	_	_	8	comp:aux/m	_	AlignBegin=220389|AlignEnd=220550|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
 8	-kwa	_	AUX	_	_	9	comp:aux	_	AlignBegin=220550|AlignEnd=220711|GE=[ABLE]|Gloss=ABLE|nWord=4|RX=[VERB]|TokenType=InflAff
 9	ni	nan	AUX	_	_	0	root	_	AlignBegin=220711|AlignEnd=221033|GE=[DECL]|Gloss=DECL|nWord=5|RX=[AUX]|TokenType=Root

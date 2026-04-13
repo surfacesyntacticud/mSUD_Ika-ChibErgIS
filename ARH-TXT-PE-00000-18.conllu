@@ -173,7 +173,7 @@
 2	=se'	_	ADP	_	_	4	mod:lmod	_	AlignBegin=32729|AlignEnd=33254|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
 3	re'-	_	AUX	_	_	4	mod/m	_	AlignBegin=33254|AlignEnd=33604|GE=[RE']|Gloss=RE'|nWord=2|RX=[VERB]|TokenType=InflAff
 4	kʉs	kʉs	VERB	_	_	5	comp:pred/m	_	AlignBegin=33604|AlignEnd=33954|GE=put|Gloss=put|nWord=2|RX=[VT]|TokenType=Root
-5	-i	_	SCONJ	_	_	_	_	_	AlignBegin=33954|AlignEnd=34304|GE=while|Gloss=CONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
+5	-i	_	SCONJ	_	_	0	root	_	AlignBegin=33954|AlignEnd=34304|GE=while|Gloss=CONV.SIM|nWord=2|RX=[VERB]|TokenType=InflAff
 
 # sent_id = PE18_11-11
 # speaker_id = @SP18
@@ -352,7 +352,7 @@
 16	=sin	_	ADP	_	_	18	comp:obl	_	AlignBegin=74149|AlignEnd=74461|GE=with|Gloss==with|nWord=10|RX=[POST]|TokenType=Clit
 17	i-	_	AUX	_	_	18	comp:aux	_	AlignBegin=74461|AlignEnd=74773|GE=[APPL2]|Gloss=APPL2|nWord=11|RX=[V>V]|TokenType=DerAff
 18	nis	nik	AUX	_	_	19	comp:pred/m	_	AlignBegin=74773|AlignEnd=75085|GE=do|Gloss=do|nWord=11|RX=[AUX]|TokenType=Root
-19	-i	-i	AUX	_	_	23	mod	_	AlignBegin=74773|AlignEnd=75085|GE=CONV.SIM|Gloss=CONV.SIM|nWord=11|RX=[AUX]|TokenType=InflAff
+19	-i	-i	SCONJ	_	_	23	mod	_	AlignBegin=74773|AlignEnd=75085|GE=CONV.SIM|Gloss=CONV.SIM|nWord=11|RX=[AUX]|TokenType=InflAff
 20	(	_	PUNCT	_	_	21	punct	_	AlignBegin=75085|AlignEnd=75709|nWord=12
 21	na	nan	X	_	_	23	discourse	_	AlignBegin=75709|AlignEnd=76333|GE=cop|Gloss=cop|nWord=13|RX=[COP]|TokenType=Root
 22	)	_	PUNCT	_	_	21	punct	_	AlignBegin=76333|AlignEnd=76957|nWord=14
@@ -497,25 +497,25 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 105210, 108020
 # morphemic_text = sikla =se' sakay ʉn- k- icho's -ʉkwey zʉn nan -i , ʉy =a'ba' ʉn- k- icho'
-# text = siklase' sakay ʉnkicho'sʉkwey zʉn nari , ʉya'ba' ʉnkicho'
+# text = sikla =se' sakay ʉn- k- icho's -ʉkwey zʉn nan -i , ʉy =a'ba' ʉn- k- icho'
 # text_en = As it iwas possible to put it at the head of the bicycle, he placed it there.
 # text_phrase-gls-es = Como en la cabeza de la bicicleta, como había donde colocar [hasta zünnari], la colocó allí
 1	sikla	sikla	NOUN	_	_	2	comp	_	AlignBegin=105210|AlignEnd=105386|GE=bicycle|Gloss=bicycle|nWord=1|RX=[N]|TokenType=Root
 2	=se'	_	ADP	_	_	3	mod:lmod	_	AlignBegin=105386|AlignEnd=105561|GE=[LOC]|Gloss==LOC|nWord=1|RX=[POST]|TokenType=Clit
-3	sakay	sakay	NOUN	_	_	6	comp:obl	_	AlignBegin=105561|AlignEnd=105912|GE=head|Gloss=head|nWord=2|RX=[N]|TokenType=Root
+3	sakay	sakay	NOUN	_	Case=Loc	6	comp:obl	_	AlignBegin=105561|AlignEnd=105912|GE=head|Gloss=head|nWord=2|RX=[N]|TokenType=Root
 4	ʉn-	_	AUX	_	_	5	mod/m	_	AlignBegin=105912|AlignEnd=106000|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 5	k-	_	AUX	_	_	6	mod/m	_	AlignBegin=106000|AlignEnd=106088|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
 6	icho's	icho's	VERB	_	_	7	comp:aux/m	_	AlignBegin=106088|AlignEnd=106176|GE=go.up|Gloss=go.up|nWord=3|RX=[V]|TokenType=Root
 7	-ʉkwey	_	AUX	_	_	8	comp:aux	_	AlignBegin=106176|AlignEnd=106263|GE=[ABLE]|Gloss=ABLE|nWord=3|RX=[VERB]|TokenType=InflAff
 8	zʉn	zan	AUX	_	_	9	comp:aux	_	AlignBegin=106263|AlignEnd=106614|GE=[COP]|Gloss=COP|nWord=4|RX=[COP]|TokenType=Root
 9	nan	nan	AUX	_	_	10	comp:pred/m	_	AlignBegin=106614|AlignEnd=106790|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
-10	-i	_	SCONJ	_	_	_	_	_	AlignBegin=106790|AlignEnd=106965|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
+10	-i	_	SCONJ	_	_	16	parataxis	_	AlignBegin=106790|AlignEnd=106965|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 11	,	_	PUNCT	_	_	10	punct	_	AlignBegin=106965|AlignEnd=107316|nWord=6
 12	ʉy	ʉy	PRON	_	_	13	comp	_	AlignBegin=107316|AlignEnd=107492|GE=this|Gloss=this|nWord=7|RX=[PRO]|TokenType=Root
 13	=a'ba'	_	ADP	_	_	16	mod:lmod	_	AlignBegin=107492|AlignEnd=107667|GE=[LOC]|Gloss==LOC|nWord=7|RX=[POST]|TokenType=Clit
 14	ʉn-	_	AUX	_	_	15	mod/m	_	AlignBegin=107667|AlignEnd=107785|GE=[MID]|Gloss=MID|nWord=8|RX=[V>V]|TokenType=DerAff
 15	k-	_	AUX	_	_	16	mod/m	_	AlignBegin=107785|AlignEnd=107903|GE=[APPL1]|Gloss=APPL1|nWord=8|RX=[V>V]|TokenType=DerAff
-16	icho'	icho'	VERB	_	_	_	_	_	AlignBegin=107903|AlignEnd=108020|GE=go.up|Gloss=go.up|nWord=8|RX=[V]|TokenType=Root
+16	icho'	icho'	VERB	_	_	0	root	_	AlignBegin=107903|AlignEnd=108020|GE=go.up|Gloss=go.up|nWord=8|RX=[V]|TokenType=Root
 
 # sent_id = PE18_26-26
 # speaker_id = @SP18
@@ -790,7 +790,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 153750, 156480
 # morphemic_text = ka'ku =se' yow ka's -a un -ajʉ =ri
-# text = ka'kuse' yow ka'sa unajʉri
+# text = ka'ku =se' yow ka's -a u -n -ajʉ =ri
 # text_en = They put everything back into the basket
 # text_phrase-gls-es = le echaron todo en la canasta
 1	ka'ku	ka'ku	NOUN	_	_	2	comp	_	AlignBegin=153750|AlignEnd=154091|GE=basket|Gloss=basket|nWord=1|RX=[N]|TokenType=Root
@@ -798,9 +798,10 @@
 3	yow	yow	PRON	_	Case=Abs	4	comp:obj	_	AlignBegin=154432|AlignEnd=155114|GE=all|Gloss=all|nWord=2|RX=[QUANT]|TokenType=Root
 4	ka's	ka's	VERB	_	_	5	comp:aux/m	_	AlignBegin=155114|AlignEnd=155455|GE=put|Gloss=put|nWord=3|RX=[V]|TokenType=Root
 5	-a	_	AUX	_	_	6	comp:aux	_	AlignBegin=155455|AlignEnd=155796|GE=[PFV]|Gloss=PFV|nWord=3|RX=[V:ANY]|TokenType=InflAff
-6	un	un	AUX	_	_	7	comp:aux/m	_	AlignBegin=155796|AlignEnd=156024|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
-7	-ajʉ	_	AUX	_	_	_	_	_	AlignBegin=156024|AlignEnd=156252|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=4|RX=[V:ANY]|TokenType=InflAff
-8	=ri	_	PART	_	_	7	mod	_	AlignBegin=156252|AlignEnd=156480|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
+6	u	aw	AUX	_	_	7	comp:aux/m	_	AlignBegin=155796|AlignEnd=156024|GE=aux|Gloss=aux|nWord=4|RX=[AUX]|TokenType=Root
+7	-n	-na	AUX	_	_	8	comp:aux/m	_	AlignBegin=155796|AlignEnd=156024|GE=aux|Gloss=RMTPST|nWord=4|RX=[AUX]|TokenType=Root
+8	-ajʉ	_	AUX	_	_	_	_	_	AlignBegin=156024|AlignEnd=156252|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=4|RX=[V:ANY]|TokenType=InflAff
+9	=ri	_	PART	_	_	8	mod	_	AlignBegin=156252|AlignEnd=156480|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE18_42-42
 # speaker_id = @SP18
@@ -925,7 +926,7 @@
 4	a'we	a'we	VERB	_	_	_	_	_	AlignBegin=182428|AlignEnd=182680|GE=give|Gloss=give|nWord=3|RX=[VD]|TokenType=Root
 
 # sent_id = PE18_48-48
-# text = awe'ri ari eygwi aykwaygʉn zori , aɉunkʉnʉse' ingweti wina'we unaɉʉri
+# text = aw -e' =ri a =ri ey =gwi aykwaygʉn zori , aɉunkʉnʉ =se' ingweti win- a'we u -n -aɉʉ =ri
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-PE-00000-18.WAV/WAV/ARH-TXT-PE-00000-18.WAV
 # sent_timecode = 182680, 189200
@@ -933,23 +934,24 @@
 # text_en = Then he turned back, gave each [one a pear] to his friends
 # text_phrase-gls-es = Entonces él se regresó, le entregó a cada uno de sus amigos
 1	aw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=182680|AlignEnd=182897|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
-2	-e'	_	AUX	_	_	_	_	_	AlignBegin=182897|AlignEnd=183114|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
+2	-e'	_	AUX	_	_	9	mod	_	AlignBegin=182897|AlignEnd=183114|GE=then|Gloss=then|nWord=1|RX=[VERB]|TokenType=InflAff
 3	=ri	_	PART	_	_	2	mod	_	AlignBegin=183114|AlignEnd=183332|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 4	a	a	PRON	_	Case=Abs	9	subj	_	AlignBegin=183332|AlignEnd=183658|GE=[3SG]|Gloss=3SG|nWord=2|RX=[PRO]|TokenType=Root
 5	=ri	_	PART	_	_	4	mod	_	AlignBegin=183658|AlignEnd=183984|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
-6	ey	ey	PART	_	_	_	_	_	AlignBegin=183984|AlignEnd=184310|GE=so|Gloss=so|nWord=3|RX=[PRT]|TokenType=Root
+6	ey	ey	PART	_	_	9	mod	_	AlignBegin=183984|AlignEnd=184310|GE=so|Gloss=so|nWord=3|RX=[PRT]|TokenType=Root
 7	=gwi	_	ADV	_	_	6	mod	_	AlignBegin=184310|AlignEnd=184636|GE=also|Gloss==also|nWord=3|RX=[ADV]|TokenType=Clit
-8	aykwaygʉn	aykwaygʉn	NOUN	_	_	9	comp:obl	_	AlignBegin=184636|AlignEnd=185288|GE=origin|Gloss=origin|nWord=4|RX=[N]|TokenType=Root
-9	zori	zoy	VERB	_	_	_	_	_	AlignBegin=185288|AlignEnd=185940|GE=go|Gloss=go|nWord=5|RX=[V]|TokenType=Root
+8	aykwaygʉn	aykwaygʉn	NOUN	_	Case=Loc	9	comp:obl	_	AlignBegin=184636|AlignEnd=185288|GE=origin|Gloss=origin|nWord=4|RX=[N]|TokenType=Root
+9	zori	zoy	VERB	_	_	18	parataxis	_	AlignBegin=185288|AlignEnd=185940|GE=go|Gloss=go|nWord=5|RX=[V]|TokenType=Root
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=185940|AlignEnd=186592|nWord=6
 11	aɉunkʉnʉ	aɉunkʉnʉ	NOUN	_	_	12	comp	_	AlignBegin=186592|AlignEnd=186918|GE=friend|Gloss=friend|nWord=7|RX=[N]|TokenType=Root
-12	=se'	_	ADP	_	_	15	comp:obl	_	AlignBegin=186918|AlignEnd=187244|GE=[DAT]|Gloss==DAT|nWord=7|RX=[POST]|TokenType=Clit
+12	=se'	=se'	ADP	_	Case=Dat	15	comp:obl	_	AlignBegin=186918|AlignEnd=187244|GE=[DAT]|Gloss==DAT|nWord=7|RX=[POST]|TokenType=Clit
 13	ingweti	ingweti	PRON	_	Case=Abs	15	comp:obj	_	AlignBegin=187244|AlignEnd=187896|GE=each|Gloss=each|nWord=8|RX=[PRO]|TokenType=Root
 14	win-	_	PRON	_	_	15	comp:obj/m	_	AlignBegin=187896|AlignEnd=188222|GE=[3PL].[IO]|Gloss=3PL.IO|nWord=9|RX=[VERB]|TokenType=InflAff
-15	a'we	a'we	VERB	_	_	16	comp:aux	_	AlignBegin=188222|AlignEnd=188548|GE=give|Gloss=give|nWord=9|RX=[VD]|TokenType=Root
-16	un	un	AUX	_	_	17	comp:aux/m	_	AlignBegin=188548|AlignEnd=188765|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
-17	-aɉʉ	_	AUX	_	_	_	_	_	AlignBegin=188765|AlignEnd=188982|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=10|RX=[V:ANY]|TokenType=InflAff
-18	=ri	_	PART	_	_	17	mod	_	AlignBegin=188982|AlignEnd=189200|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
+15	a'we	a'we	VERB	_	_	16	comp:aux	_	AlignBegin=188222|AlignEnd=188548|GE=give|Gloss=give|nWord=9|RX=[VD]|TokenType=Root|Transitivity=ditransitive
+16	u	aw	AUX	_	_	17	comp:aux/m	_	AlignBegin=188548|AlignEnd=188765|GE=aux|Gloss=aux|nWord=10|RX=[AUX]|TokenType=Root
+17	-n	-na	AUX	_	_	18	comp:aux/m	_	AlignBegin=188548|AlignEnd=188765|GE=aux|Gloss=RMTPST|nWord=10|RX=[AUX]|TokenType=Root
+18	-aɉʉ	_	AUX	_	_	0	root	_	AlignBegin=188765|AlignEnd=188982|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=10|RX=[V:ANY]|TokenType=InflAff
+19	=ri	_	PART	_	_	18	mod	_	AlignBegin=188982|AlignEnd=189200|GE=[TOP]|Gloss==TOP|nWord=10|RX=[PRT]|TokenType=Clit
 
 # sent_id = PE18_49-49
 # speaker_id = @SP18

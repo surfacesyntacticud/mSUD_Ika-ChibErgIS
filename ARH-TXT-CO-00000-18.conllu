@@ -54,7 +54,7 @@
 # text = kʉtʉkʉnʉndi , inse' pari ipesʉya ni .
 # text_en = first, you start with the maize.
 # text_phrase-gls-es = primeramenta, comienza con el maiz
-1	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	_	_	_	AlignBegin=11640|AlignEnd=11993|GE=first|Gloss=first|nWord=1|RX=[ADV]|TokenType=Root
+1	kʉtʉkʉnʉn	kʉtʉkʉnʉn	ADV	_	_	8	mod	_	AlignBegin=11640|AlignEnd=11993|GE=first|Gloss=first|nWord=1|RX=[ADV]|TokenType=Root
 2	=di	_	PART	_	_	1	mod	_	AlignBegin=11993|AlignEnd=12346|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
 3	,	_	PUNCT	_	_	2	punct	_	AlignBegin=12346|AlignEnd=13052|nWord=2
 4	in	in	NOUN	_	_	5	comp	_	AlignBegin=13052|AlignEnd=13405|GE=maize|Gloss=maize|nWord=3|RX=[N]|TokenType=Root
@@ -63,7 +63,7 @@
 7	i-	_	AUX	_	_	8	mod/m	_	AlignBegin=14464|AlignEnd=14699|GE=[APPL2]|Gloss=APPL2|nWord=5|RX=[V>V]|TokenType=DerAff
 8	pesʉ	pesʉ	VERB	_	_	9	comp:aux/m	_	AlignBegin=14699|AlignEnd=14934|GE=give.birth|Gloss=give.birth|nWord=5|RX=[V]|TokenType=Root
 9	-ya	_	AUX	_	_	10	comp:aux	_	AlignBegin=14934|AlignEnd=15170|GE=[NONEGO]|Gloss=NONEGO|nWord=5|RX=[V:ANY]|TokenType=InflAff
-10	ni	nan	AUX	_	_	_	_	_	AlignBegin=15170|AlignEnd=15876|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]|TokenType=Root
+10	ni	nan	AUX	_	_	0	root	_	AlignBegin=15170|AlignEnd=15876|GE=[DECL]|Gloss=DECL|nWord=6|RX=[AUX]|TokenType=Root
 11	.	_	PUNCT	_	_	10	punct	_	AlignBegin=15876|AlignEnd=16580|Gloss=.|nWord=7
 
 # sent_id = CO18_04-04
@@ -165,16 +165,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 39120, 52578
 # morphemic_text = eyma =ri gina' ʉn- ka- cho' peroru =se' kwa ka'a ɉweru =se' keywʉ a- ɉuga ni .
-# text = eymari gina' ʉnkacho' peroruse' kwa ka'a ɉweruse' keywʉ aɉuga ni .
+# text = eyma =ri gina' ʉn- ka- cho' peroru =se' kwa ka'a ɉweru =se' keywʉ a- ɉuga ni .
 # text_en = We cook it putting this over fire en a cooking pot or in a clay pot.
 # text_phrase-gls-es = Esto lo ponemos en el fogón en una olla o en la olla de barro así se cocina.
 # text_phrase-gls-tl = gina' ünkacho= poner la olla en el fogón
 1	eyma	eyma	PRON	_	Case=Abs	6	comp:obj	_	AlignBegin=39120|AlignEnd=39732|GE=this|Gloss=this|nWord=1|RX=[DEM]|TokenType=Root
 2	=ri	_	PART	_	_	1	mod	_	AlignBegin=39732|AlignEnd=40343|GE=[TOP]|Gloss==TOP|nWord=1|RX=[PRT]|TokenType=Clit
-3	gina'	gina'	NOUN	_	_	6	comp:obl	_	AlignBegin=40343|AlignEnd=41566|GE=put.over.fire|Gloss=fire_for_cooking|nWord=2|RX=[V]|TokenType=Root
+3	gina'	gina'	NOUN	_	Case=Dat	6	comp:obl	_	AlignBegin=40343|AlignEnd=41566|GE=put.over.fire|Gloss=fire_for_cooking|nWord=2|RX=[V]|TokenType=Root
 4	ʉn-	_	AUX	_	_	5	mod/m	_	AlignBegin=41566|AlignEnd=41974|GE=[MID]|Gloss=MID|nWord=3|RX=[V>V]|TokenType=DerAff
 5	ka-	_	AUX	_	_	6	mod/m	_	AlignBegin=41974|AlignEnd=42382|GE=[APPL1]|Gloss=APPL1|nWord=3|RX=[V>V]|TokenType=DerAff
-6	cho'	cho'	VERB	_	_	_	_	_	AlignBegin=42382|AlignEnd=42789|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root
+6	cho'	cho'	VERB	_	_	_	_	_	AlignBegin=42382|AlignEnd=42789|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root|Transitivity=ditransitive
 7	peroru	peroru	NOUN	_	_	8	comp	_	AlignBegin=42789|AlignEnd=43401|GE=[SPA_cooking].[pot]|Gloss=SPA_cooking.pot|nWord=4|RX=[N]|TokenType=Root
 8	=se'	_	ADP	_	_	15	mod:lmod	_	AlignBegin=43401|AlignEnd=44012|GE=[LOC]|Gloss==LOC|nWord=4|RX=[POST]|TokenType=Clit
 9	kwa	kwa	CCONJ	_	_	12	cc	_	AlignBegin=44012|AlignEnd=45235|GE=or|Gloss=or|nWord=5|RX=[COORDCONN]|TokenType=Root
@@ -204,26 +204,26 @@
 7	gey	gey	NOUN	_	Case=Abs	8	comp:obj	_	AlignBegin=53919|AlignEnd=54366|GE=fire|Gloss=fire|nWord=4|RX=[N]|TokenType=Root
 8	awi	awi	VERB	_	_	9	comp:aux	_	AlignBegin=54366|AlignEnd=54813|GE=stoke|Gloss=stoke|nWord=5|RX=[V]|TokenType=Root
 9	nan	nan	AUX	_	_	10	comp:pred/m	_	AlignBegin=54813|AlignEnd=55037|GE=[AUX]|Gloss=AUX|nWord=6|RX=[AUX]|TokenType=Root
-10	-i	_	SCONJ	_	_	_	_	_	AlignBegin=55037|AlignEnd=55260|GE=while|Gloss=CONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
+10	-i	_	SCONJ	_	_	20	parataxis	_	AlignBegin=55037|AlignEnd=55260|GE=while|Gloss=CONV.SIM|nWord=6|RX=[VERB]|TokenType=InflAff
 11	,	_	PUNCT	_	_	10	punct	_	AlignBegin=55260|AlignEnd=55707|nWord=7
 12	gey	gey	NOUN	_	Case=Abs	13	comp:obj	_	AlignBegin=55707|AlignEnd=56154|GE=fire|Gloss=fire|nWord=8|RX=[N]|TokenType=Root
 13	awi	awi	VERB	_	_	14	comp:aux	_	AlignBegin=56154|AlignEnd=56601|GE=stoke|Gloss=stoke|nWord=9|RX=[V]|TokenType=Root
 14	nan	nan	AUX	_	_	15	comp:pred/m	_	AlignBegin=56601|AlignEnd=56825|GE=[AUX]|Gloss=AUX|nWord=10|RX=[AUX]|TokenType=Root
-15	-i	_	SCONJ	_	_	_	_	_	AlignBegin=56825|AlignEnd=57048|GE=while|Gloss=CONV.SIM|nWord=10|RX=[VERB]|TokenType=InflAff
+15	-i	_	SCONJ	_	_	10	compound:redup	_	AlignBegin=56825|AlignEnd=57048|GE=while|Gloss=CONV.SIM|nWord=10|RX=[VERB]|TokenType=InflAff
 16	,	_	PUNCT	_	_	15	punct	_	AlignBegin=57048|AlignEnd=57495|nWord=11
-17	sey'a	sey'a	NOUN	_	_	20	comp:obl	_	AlignBegin=57495|AlignEnd=57942|GE=night|Gloss=night|nWord=12|RX=[N]|TokenType=Root
+17	sey'a	sey'a	NOUN	_	_	20	mod:tmod	_	AlignBegin=57495|AlignEnd=57942|GE=night|Gloss=night|nWord=12|RX=[N]|TokenType=Root
 18	neki	neki	PART	_	_	17	mod:emph	_	AlignBegin=57942|AlignEnd=58389|GE=[CNTR]|Gloss=CNTR|nWord=13|RX=[PRT]|TokenType=Root
 19	gey	gey	NOUN	_	Case=Abs	20	comp:obj	_	AlignBegin=58389|AlignEnd=58836|GE=fire|Gloss=fire|nWord=14|RX=[N]|TokenType=Root
-20	awi	awi	VERB	_	_	_	_	_	AlignBegin=58836|AlignEnd=59283|GE=stoke|Gloss=stoke|nWord=15|RX=[V]|TokenType=Root
+20	awi	awi	VERB	_	_	26	parataxis	_	AlignBegin=58836|AlignEnd=59283|GE=stoke|Gloss=stoke|nWord=15|RX=[V]|TokenType=Root
 21	,	_	PUNCT	_	_	20	punct	_	AlignBegin=59283|AlignEnd=59730|nWord=16
 22	ɉwʉrí	ɉwʉrí	ADJ	_	_	23	comp:pred	_	AlignBegin=59730|AlignEnd=60177|GE=soft|Gloss=soft|nWord=17|RX=[ADJ]|TokenType=Root
 23	nik	nik	AUX	_	_	24	comp	_	AlignBegin=60177|AlignEnd=60401|GE=do|Gloss=do|nWord=18|RX=[AUX]|TokenType=Root
-24	=ʉkin	_	ADP	_	_	26	comp:obl	_	AlignBegin=60401|AlignEnd=60624|GE=[LIM]|Gloss==LIM|nWord=18|RX=[POST]|TokenType=Clit
+24	=ʉkin	_	ADP	_	_	26	mod:tmod	_	AlignBegin=60401|AlignEnd=60624|GE=[LIM]|Gloss==LIM|nWord=18|RX=[POST]|TokenType=Clit
 25	gey	gey	NOUN	_	Case=Abs	26	comp:obj	_	AlignBegin=60624|AlignEnd=61071|GE=fire|Gloss=fire|nWord=19|RX=[N]|TokenType=Root
 26	awi	awi	VERB	_	_	27	comp:aux/m	_	AlignBegin=61071|AlignEnd=61220|GE=stoke|Gloss=stoke|nWord=20|RX=[V]|TokenType=Root
 27	-kumʉ	_	AUX	_	_	28	comp:aux/m	_	AlignBegin=61220|AlignEnd=61369|GE=[ANTIC]|Gloss=ANTIC|nWord=20|RX=[V:ANY]|TokenType=InflAff
 28	-ya	_	AUX	_	_	29	comp:aux	_	AlignBegin=61369|AlignEnd=61518|GE=[NONEGO]|Gloss=NONEGO|nWord=20|RX=[V:ANY]|TokenType=InflAff
-29	ni	nan	AUX	_	_	_	_	_	AlignBegin=61518|AlignEnd=61965|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]|TokenType=Root
+29	ni	nan	AUX	_	_	0	root	_	AlignBegin=61518|AlignEnd=61965|GE=[DECL]|Gloss=DECL|nWord=21|RX=[AUX]|TokenType=Root
 30	.	_	PUNCT	_	_	29	punct	_	AlignBegin=61965|AlignEnd=62413|Gloss=.|nWord=22
 
 # sent_id = CO18_10-10
@@ -231,7 +231,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 65586, 73419
 # morphemic_text = ey ɉokw -ʉn =pana ʉng -w -e' =ri , du kaw -i ɉe i- do' , kʉssa nʉ -ngwa un -aɉʉ =ri ,.
-# text = ey ɉokwʉnpana ʉngwe'ri , du kawi ɉe ido' , kʉssa nʉngwa unaɉʉri ,.
+# text = ey ɉokw -ʉn pʉn ʉng -w -e' =ri , du kaw -i ɉe i- do' , kʉssa nʉ -ngwa u -n -aɉʉ =ri ,
 # text_en = when we start cooking, we pour plenty of [lit. good] water, then we pour [the maize] into it
 # text_phrase-gls-es = cuando empecemos a cocinar, le echamos bien [=bastante] agua, luego le echamos [el grano]
 1	ey	ey	PART	_	_	_	_	_	AlignBegin=65586|AlignEnd=66189|GE=so|Gloss=so|nWord=1|RX=[PRT]|TokenType=Root
@@ -253,26 +253,27 @@
 17	kʉssa	kʉssa	VERB	_	_	18	comp:aux	_	AlignBegin=71013|AlignEnd=71616|GE=put|Gloss=put|nWord=10|RX=[VT]|TokenType=Root
 18	nʉ	nan	AUX	_	_	19	comp:aux/m	_	AlignBegin=71616|AlignEnd=71918|GE=[AUX]|Gloss=AUX|nWord=11|RX=[AUX]|TokenType=Root
 19	-ngwa	_	AUX	_	_	20	comp:aux	_	AlignBegin=71918|AlignEnd=72219|GE=[FUT]|Gloss=FUT|nWord=11|RX=[VERB]|TokenType=InflAff
-20	un	un	AUX	_	_	21	comp:aux/m	_	AlignBegin=72219|AlignEnd=72420|GE=aux|Gloss=aux|nWord=12|RX=[AUX]|TokenType=Root
-21	-aɉʉ	_	AUX	_	_	_	_	_	AlignBegin=72420|AlignEnd=72621|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=12|RX=[V:ANY]|TokenType=InflAff
-22	=ri	_	PART	_	_	21	mod	_	AlignBegin=72621|AlignEnd=72822|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]|TokenType=Clit
-23	,	_	PUNCT	_	_	22	punct	_	AlignBegin=72822|AlignEnd=73419|nWord=13|wordform=,.
+20	u	aw	AUX	_	_	22	comp:aux/m	_	AlignBegin=72219|AlignEnd=72420|GE=aux|Gloss=aux|nWord=12|RX=[AUX]|TokenType=Root
+21	-n	-na	AUX	_	_	22	comp:aux/m	_	AlignBegin=72219|AlignEnd=72420|GE=aux|Gloss=RMTPST|nWord=12|RX=[AUX]|TokenType=Root
+22	-aɉʉ	_	AUX	_	_	_	_	_	AlignBegin=72420|AlignEnd=72621|GE=[IMM].[SUC]|Gloss=IMM.SUC|nWord=12|RX=[V:ANY]|TokenType=InflAff
+23	=ri	_	PART	_	_	22	mod	_	AlignBegin=72621|AlignEnd=72822|GE=[TOP]|Gloss==TOP|nWord=12|RX=[PRT]|TokenType=Clit
+24	,	_	PUNCT	_	_	23	punct	_	AlignBegin=72822|AlignEnd=73419|nWord=13|wordform=,.
 
 # sent_id = CO18_11-11
 # speaker_id = @SP18
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 73419, 78502
 # morphemic_text = kwa inʉ =sin ɉokw -ʉn me- 'ɉun n -ʉndi , aw -kwi =gwi na' ni .
-# text = kwa inʉsin ɉokwʉn me'ɉun nʉndi , awkwigwi na' ni .
+# text = kwa inʉ =sin ɉokw -ʉn me- 'ɉun n -ʉndi , aw -kwi =gwi na' ni .
 # text_en = or if we [lit. you] like to cook with other things, it is also possible.
 # text_phrase-gls-es = o si queremos cocinar con otras cosas, también se puede.
 1	kwa	kwa	CCONJ	_	_	_	_	_	AlignBegin=73419|AlignEnd=73927|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	inʉ	inʉ	PRON	_	_	3	comp	_	AlignBegin=73927|AlignEnd=74181|GE=what|Gloss=what|nWord=2|RX=[INTERROG]|TokenType=Root
 3	=sin	_	ADP	_	_	4	comp:obl	_	AlignBegin=74181|AlignEnd=74435|GE=with|Gloss==with|nWord=2|RX=[POST]|TokenType=Clit
 4	ɉokw	ɉokw	VERB	_	_	5	comp:aux/m	_	AlignBegin=74435|AlignEnd=74689|GE=cook|Gloss=cook|nWord=3|RX=[V]|TokenType=Root
-5	-ʉn	_	AUX	_	_	_	_	_	AlignBegin=74689|AlignEnd=74943|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
+5	-ʉn	_	AUX	_	_	7	comp:obj	_	AlignBegin=74689|AlignEnd=74943|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
 6	me-	_	PRON	_	_	7	comp:obj/m	_	AlignBegin=74943|AlignEnd=75197|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]|TokenType=InflAff
-7	'ɉun	'ɉun	VERB	_	_	8	comp:aux	_	AlignBegin=75197|AlignEnd=75451|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root
+7	'ɉun	'ɉun	VERB	_	_	8	comp:aux	_	AlignBegin=75197|AlignEnd=75451|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 8	n	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=75451|AlignEnd=75705|GE=aux|Gloss=aux|nWord=5|RX=[AUX]|TokenType=Root
 9	-ʉndi	_	AUX	_	_	_	_	_	AlignBegin=75705|AlignEnd=75959|GE=[COND]|Gloss=COND|nWord=5|RX=[V:ANY]|TokenType=InflAff
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=75959|AlignEnd=76467|nWord=6
@@ -288,15 +289,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 78502, 82851
 # morphemic_text = kwa ichʉ kʉs -ʉn me- 'ɉun -ʉndi , ichʉ kʉs -ʉkwi =gwi , ichʉ kʉmbarachʉ ,.
-# text = kwa ichʉ kʉsʉn me'ɉunʉndi , ichʉ kʉsʉkwigwi , ichʉ kʉmbarachʉ ,.
+# text = kwa ichʉ kʉs -ʉn me- 'ɉun -ʉndi , ichʉ kʉs -ʉkwi =gwi , ichʉ kʉmbarachʉ ,
 # text_en = If you want to add beans, we can add beans, Kumbaruchu beans,
 # text_phrase-gls-es = Si quieres echarle frijol, podemos echarle frijol, frijol Kumbaruchu,
 1	kwa	kwa	CCONJ	_	_	_	_	_	AlignBegin=78502|AlignEnd=78897|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	ichʉ	ichʉ	NOUN	_	Case=Abs	3	comp:obj	_	AlignBegin=78897|AlignEnd=79292|GE=bean|Gloss=bean|nWord=2|RX=[N]|TokenType=Root
 3	kʉs	kʉs	VERB	_	_	4	comp:aux/m	_	AlignBegin=79292|AlignEnd=79490|GE=put|Gloss=put|nWord=3|RX=[VT]|TokenType=Root
-4	-ʉn	_	AUX	_	_	_	_	_	AlignBegin=79490|AlignEnd=79687|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
+4	-ʉn	_	AUX	_	_	6	comp:obj	_	AlignBegin=79490|AlignEnd=79687|GE=[IPFV]|Gloss=IPFV|nWord=3|RX=[VERB]|TokenType=InflAff
 5	me-	_	PRON	_	_	6	comp:obj/m	_	AlignBegin=79687|AlignEnd=79819|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]|TokenType=InflAff
-6	'ɉun	'ɉun	VERB	_	_	7	comp:aux/m	_	AlignBegin=79819|AlignEnd=79951|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root
+6	'ɉun	'ɉun	VERB	_	_	7	comp:aux/m	_	AlignBegin=79819|AlignEnd=79951|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 7	-ʉndi	_	AUX	_	_	_	_	_	AlignBegin=79951|AlignEnd=80082|GE=[EXHORT]|Gloss=EXHORT|nWord=4|RX=[V:ANY]|TokenType=InflAff
 8	,	_	PUNCT	_	_	7	punct	_	AlignBegin=80082|AlignEnd=80477|nWord=5
 9	ichʉ	ichʉ	NOUN	_	Case=Abs	10	comp:obj	_	AlignBegin=80477|AlignEnd=80872|GE=bean|Gloss=bean|nWord=6|RX=[N]|TokenType=Root
@@ -313,13 +314,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 82851, 91827
 # morphemic_text = kwa awʉn' me- 'ɉuna , kwa wimʉ neki , kwa inʉ kʉs -ʉn me- 'ɉu nanʉn =di , kʉs -ʉkwi =gwi ,.
-# text = kwa awʉn' me'ɉuna , kwa wimʉ neki , kwa inʉ kʉsʉn me'ɉu nʉndi , kʉsʉkwigwi ,.
+# text = kwa awʉn' me- 'ɉuna , kwa wimʉ neki , kwa inʉ kʉs -ʉn me- 'ɉu nan -ʉn =di , kʉs -ʉkwi =gwi ,
 # text_en = or whatever you want, or meat, or if we want to put something in it, we can put something in it,
 # text_phrase-gls-es = o lo que tú quieras, o carne, o si queremos echarle algo, le podemos echar,
 1	kwa	kwa	CCONJ	_	_	4	cc	_	AlignBegin=82851|AlignEnd=83412|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	awʉn'	awʉn'	ADJ	_	_	4	comp:obj	_	AlignBegin=83412|AlignEnd=83973|GE=big|Gloss=big|nWord=2|RX=[ADJ]|TokenType=Root
 3	me-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=83973|AlignEnd=84253|GE=[2SG].[O]|Gloss=2SG.O|nWord=3|RX=[PRONOUN]|TokenType=InflAff
-4	'ɉuna	'ɉuna	VERB	_	_	_	_	_	AlignBegin=84253|AlignEnd=84534|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root
+4	'ɉuna	'ɉuna	VERB	_	_	_	_	_	AlignBegin=84253|AlignEnd=84534|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 5	,	_	PUNCT	_	_	4	punct	_	AlignBegin=84534|AlignEnd=85095|nWord=4
 6	kwa	kwa	CCONJ	_	_	7	cc	_	AlignBegin=85095|AlignEnd=85656|GE=or|Gloss=or|nWord=5|RX=[COORDCONN]|TokenType=Root
 7	wimʉ	wimʉ	NOUN	_	_	4	conj:coord	_	AlignBegin=85656|AlignEnd=86217|GE=meat|Gloss=meat|nWord=6|RX=[N]|TokenType=Root
@@ -330,7 +331,7 @@
 12	kʉs	kʉs	VERB	_	_	13	comp:aux/m	_	AlignBegin=88461|AlignEnd=88741|GE=put|Gloss=put|nWord=11|RX=[VT]|TokenType=Root
 13	-ʉn	_	AUX	_	_	_	_	_	AlignBegin=88741|AlignEnd=89022|GE=[IPFV]|Gloss=IPFV|nWord=11|RX=[VERB]|TokenType=InflAff
 14	me-	_	PRON	_	_	15	comp:obj/m	_	AlignBegin=89022|AlignEnd=89302|GE=[2SG].[O]|Gloss=2SG.O|nWord=12|RX=[PRONOUN]|TokenType=InflAff
-15	'ɉu	'ɉu	VERB	_	_	16	comp:aux	_	AlignBegin=89302|AlignEnd=89583|GE=like|Gloss=like|nWord=12|RX=[V]|TokenType=Root
+15	'ɉu	'ɉu	VERB	_	_	16	comp:aux	_	AlignBegin=89302|AlignEnd=89583|GE=like|Gloss=like|nWord=12|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 16	nan	nan	AUX	_	_	17	comp:aux/m	_	AlignBegin=89583|AlignEnd=89863|GE=cop|Gloss=cop|nWord=13|RX=[COP]|TokenType=Root
 17	-ʉn	-ʉn	AUX	_	_	_	_	_	Gloss=IPFV|TokenType=InflAff
 18	=di	_	PART	_	_	16	mod	_	AlignBegin=89863|AlignEnd=90144|GE=[TOP]|Gloss==TOP|nWord=13|RX=[PRT]|TokenType=Clit
@@ -345,7 +346,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 91844, 95086
 # morphemic_text = uw -e' =ki ikʉnʉ awʉn me- 'ɉu nʉ -ndi , aw -kwey =gwi ,.
-# text = uwe'ki ikʉnʉ awʉn me'ɉu nʉndi , awkweygwi ,.
+# text = uw -e' =ki ikʉnʉ awʉn me- 'ɉu nʉ -ndi , aw -kwey =gwi ,
 # text_en = But if we want to do it alone [cook only mais with beans], we can do it too.
 # text_phrase-gls-es = Pero si queremos hacerlo sólo [cocinar solamente mais con frijoles], también lo podemos hacer
 1	uw	aw	AUX	_	_	2	comp:aux/m	_	AlignBegin=91844|AlignEnd=91979|GE=aux|Gloss=aux|nWord=1|RX=[AUX]|TokenType=Root
@@ -354,9 +355,9 @@
 4	ikʉnʉ	ikʉnʉ	ADJ	_	_	_	_	_	AlignBegin=92249|AlignEnd=92654|GE=alone|Gloss=alone|nWord=2|RX=[ADJ]|TokenType=Root
 5	awʉn	awʉn	ADJ	_	_	_	_	_	AlignBegin=92654|AlignEnd=93059|GE=big|Gloss=big|nWord=3|RX=[ADJ]|TokenType=Root
 6	me-	_	PRON	_	_	7	comp:obj/m	_	AlignBegin=93059|AlignEnd=93261|GE=[2SG].[O]|Gloss=2SG.O|nWord=4|RX=[PRONOUN]|TokenType=InflAff
-7	'ɉu	'ɉu	VERB	_	_	8	comp:aux	_	AlignBegin=93261|AlignEnd=93464|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root
+7	'ɉu	'ɉu	VERB	_	_	8	comp:aux	_	AlignBegin=93261|AlignEnd=93464|GE=like|Gloss=like|nWord=4|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 8	nʉ	nan	AUX	_	_	9	comp:aux/m	_	AlignBegin=93464|AlignEnd=93666|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
-9	-ndi	_	AUX	_	_	_	_	_	AlignBegin=93666|AlignEnd=93869|GE=[COND]|Gloss=COND|nWord=5|RX=[V:ANY]|TokenType=InflAff
+9	-ndi	_	AUX	_	_	11	parataxis	_	AlignBegin=93666|AlignEnd=93869|GE=[COND]|Gloss=COND|nWord=5|RX=[V:ANY]|TokenType=InflAff
 10	,	_	PUNCT	_	_	9	punct	_	AlignBegin=93869|AlignEnd=94274|nWord=6
 11	aw	aw	VERB	_	_	12	comp:aux/m	_	AlignBegin=94274|AlignEnd=94409|GE=make|Gloss=make|nWord=7|RX=[VT]|TokenType=Root
 12	-kwey	_	AUX	_	_	_	_	_	AlignBegin=94409|AlignEnd=94544|GE=[ABLE]|Gloss=ABLE|nWord=7|RX=[VERB]|TokenType=InflAff
@@ -378,7 +379,7 @@
 5	-i	_	SCONJ	_	_	_	_	_	AlignBegin=96627|AlignEnd=96846|GE=while|Gloss=CONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 6	gunti	gunti	ADV	_	_	_	_	_	AlignBegin=96846|AlignEnd=97285|GE=finally|Gloss=finally|nWord=5|RX=[ADV]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=97285|AlignEnd=97724|nWord=6
-8	sey'a	sey'a	NOUN	_	_	11	comp:obl	_	AlignBegin=97724|AlignEnd=98163|GE=night|Gloss=night|nWord=7|RX=[N]|TokenType=Root
+8	sey'a	sey'a	NOUN	_	_	11	mod:tmod	_	AlignBegin=97724|AlignEnd=98163|GE=night|Gloss=night|nWord=7|RX=[N]|TokenType=Root
 9	neki	neki	PART	_	_	8	mod:emph	_	AlignBegin=98163|AlignEnd=98602|GE=[CNTR]|Gloss=CNTR|nWord=8|RX=[PRT]|TokenType=Root
 10	gey	gey	NOUN	_	Case=Abs	11	comp:obj	_	AlignBegin=98602|AlignEnd=99041|GE=fire|Gloss=fire|nWord=9|RX=[N]|TokenType=Root
 11	awisi	awisi	VERB	_	_	_	_	_	AlignBegin=99041|AlignEnd=99480|GE=stoke|Gloss=stoke|nWord=10|RX=[V]|TokenType=Root
@@ -462,16 +463,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 117316, 121045
 # morphemic_text = kwa manʉnka' me- 'ɉuna -y kaw -i zʉn siboya =sin ,.
-# text = kwa manʉnka me'ɉunay kawi zʉn siboyasin ,.
+# text = kwa manʉnka' me- 'ɉuna -y kaw -i zʉn siboya =sin ,
 # text_en = Or, as we like it, with onions.
 # text_phrase-gls-es = O como nos guste a nosotros, con cebolla
-1	kwa	kwa	CCONJ	_	_	_	_	_	AlignBegin=117316|AlignEnd=117849|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
-2	manʉnka'	manʉnka'	PRON	_	_	4	comp:obl	_	AlignBegin=117849|AlignEnd=118382|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=2|RX=[PRO]|TokenType=Root
+1	kwa	kwa	CCONJ	_	_	4	cc	_	AlignBegin=117316|AlignEnd=117849|GE=or|Gloss=or|nWord=1|RX=[COORDCONN]|TokenType=Root
+2	manʉnka'	manʉnka'	PRON	_	Case=Dat	4	comp:obl	_	AlignBegin=117849|AlignEnd=118382|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=2|RX=[PRO]|SemanticRole=Experiencer|TokenType=Root
 3	me-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=118382|AlignEnd=118560|GE=[2SG].[O]|Gloss=2SG.O|nWord=3|RX=[PRONOUN]|TokenType=InflAff
-4	'ɉuna	'ɉuna	VERB	_	_	5	comp:pred/m	_	AlignBegin=118560|AlignEnd=118738|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root
-5	-y	_	SCONJ	_	_	_	_	_	AlignBegin=118738|AlignEnd=118915|GE=while|Gloss=CONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
+4	'ɉuna	'ɉuna	VERB	_	_	5	comp:pred/m	_	AlignBegin=118560|AlignEnd=118738|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
+5	-y	_	SCONJ	_	_	6	mod	_	AlignBegin=118738|AlignEnd=118915|GE=while|Gloss=CONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
 6	kaw	kaw	AUX	_	_	7	comp:pred/m	_	AlignBegin=118915|AlignEnd=119181|GE=seem|Gloss=seem|nWord=4|RX=[AUX]|TokenType=Root
-7	-i	_	SCONJ	_	_	_	_	_	AlignBegin=119181|AlignEnd=119448|GE=while|Gloss=CONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
+7	-i	_	SCONJ	_	_	0	root	_	AlignBegin=119181|AlignEnd=119448|GE=while|Gloss=CONV.SIM|nWord=4|RX=[VERB]|TokenType=InflAff
 8	zʉn	zan	PART	_	_	7	mod:emph	_	AlignBegin=119448|AlignEnd=119981|GE=[COP]|Gloss=COP|nWord=5|RX=[COP]|TokenType=Root
 9	siboya	siboya	NOUN	_	_	10	comp	_	AlignBegin=119981|AlignEnd=120247|GE=[SPA_onion]|Gloss=SPA_onion|nWord=6|RX=[N]|TokenType=Root
 10	=sin	_	ADP	_	_	4	comp:obl	_	AlignBegin=120247|AlignEnd=120514|GE=with|Gloss==with|nWord=6|RX=[POST]|TokenType=Clit
@@ -482,14 +483,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 121045, 124851
 # morphemic_text = kwa manʉnka' me- 'ɉʉna -y kwa ,.
-# text = kwa manʉnka me'ɉʉnay kwa ,.
+# text = kwa manʉnka' me- 'ɉʉna -y kwa ,
 # text_en = as we like it, | elliptical clause: en lugar de kwa debería ir kawi para que la oración sea correcta
 # text_phrase-gls-es = como nosotros preferimos (queremos)
 1	kwa	kwa	INTJ	_	_	2	discourse	_	AlignBegin=121045|AlignEnd=121806|GE=[HES]|Gloss=HES|nWord=1|RX=[INTERJ]|TokenType=Root
-2	manʉnka'	manʉnka'	PRON	_	_	4	comp:obl	_	AlignBegin=121806|AlignEnd=122567|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=2|RX=[PRO]|TokenType=Root
+2	manʉnka'	manʉnka'	PRON	_	Case=Dat	4	comp:obl	_	AlignBegin=121806|AlignEnd=122567|GE=[1PL].[INCL]|Gloss=1PL.INCL|nWord=2|RX=[PRO]|SemanticRole=Experiencer|TokenType=Root
 3	me-	_	PRON	_	_	4	comp:obj/m	_	AlignBegin=122567|AlignEnd=122821|GE=[2SG].[O]|Gloss=2SG.O|nWord=3|RX=[PRONOUN]|TokenType=InflAff
-4	'ɉʉna	'ɉʉna	VERB	_	_	5	comp:pred/m	_	AlignBegin=122821|AlignEnd=123075|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root
-5	-y	_	SCONJ	_	_	_	_	_	AlignBegin=123075|AlignEnd=123328|GE=while|Gloss=CONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
+4	'ɉʉna	'ɉʉna	VERB	_	_	5	comp:pred/m	_	AlignBegin=122821|AlignEnd=123075|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
+5	-y	_	SCONJ	_	_	0	root	_	AlignBegin=123075|AlignEnd=123328|GE=while|Gloss=CONV.SIM|nWord=3|RX=[VERB]|TokenType=InflAff
 6	kwa	kwa	INTJ	_	_	5	discourse	_	AlignBegin=123328|AlignEnd=124089|GE=[HES]|Gloss=HES|nWord=4|RX=[INTERJ]|TokenType=Root
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=124089|AlignEnd=124851|nWord=5|wordform=,.
 
@@ -498,14 +499,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-18.WAV/WAV/ARH-TXT-CO-00000-18.WAV
 # sent_timecode = 124851, 128319
 # morphemic_text = bosi gʉ -n me- 'ɉun -ʉndi , ayey =gwi nʉgu a- kus -u' nan -i ,.
-# text = bosi gʉn me'ɉunʉndi , ayeygwi nʉgu akusu' nari ,.
+# text = bosi gʉ -n me- 'ɉun -ʉndi , ayey =gwi nʉgu a- kus -u' nan -i ,
 # text_en = if we want to eat without salt [lit. simple], then we do put salt in it
 # text_phrase-gls-es = si queremos comer sin sal [lit. simple], pues no le echamos la sal
-1	bosi	bosi	ADJ	_	_	_	_	_	AlignBegin=124851|AlignEnd=125236|GE=simple|Gloss=simple|nWord=1|RX=[ADJ]|TokenType=Root
+1	bosi	bosi	ADJ	_	_	2	mod	_	AlignBegin=124851|AlignEnd=125236|GE=simple|Gloss=simple|nWord=1|RX=[ADJ]|TokenType=Root
 2	gʉ	gʉ	VERB	_	_	3	comp:aux/m	_	AlignBegin=125236|AlignEnd=125428|GE=eat|Gloss=eat|nWord=2|RX=[VT]|TokenType=Root
-3	-n	_	AUX	_	_	_	_	_	AlignBegin=125428|AlignEnd=125621|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
+3	-n	_	AUX	_	_	5	comp:obj	_	AlignBegin=125428|AlignEnd=125621|GE=[IPFV]|Gloss=IPFV|nWord=2|RX=[VERB]|TokenType=InflAff
 4	me-	_	PRON	_	_	5	comp:obj/m	_	AlignBegin=125621|AlignEnd=125749|GE=[2SG].[O]|Gloss=2SG.O|nWord=3|RX=[PRONOUN]|TokenType=InflAff
-5	'ɉun	'ɉun	VERB	_	_	6	comp:aux/m	_	AlignBegin=125749|AlignEnd=125877|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root
+5	'ɉun	'ɉun	VERB	_	_	6	comp:aux/m	_	AlignBegin=125749|AlignEnd=125877|GE=like|Gloss=like|nWord=3|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 6	-ʉndi	_	AUX	_	_	_	_	_	AlignBegin=125877|AlignEnd=126006|GE=[EXHORT]|Gloss=EXHORT|nWord=3|RX=[V:ANY]|TokenType=InflAff
 7	,	_	PUNCT	_	_	6	punct	_	AlignBegin=126006|AlignEnd=126391|nWord=4
 8	ayey	ayey	ADJ	_	_	_	_	_	AlignBegin=126391|AlignEnd=126583|GE=similar|Gloss=similar|nWord=5|RX=[ADJ]|TokenType=Root

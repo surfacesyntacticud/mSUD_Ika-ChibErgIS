@@ -37,22 +37,22 @@
 1	(	_	PUNCT	_	_	2	punct	_	AlignBegin=9639|AlignEnd=10090|nWord=1
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=10090|AlignEnd=10541|GE=[HES]|Gloss=HES|nWord=2|RX=[INTERJ]|TokenType=Root
 3	)	_	PUNCT	_	_	2	punct	_	AlignBegin=10541|AlignEnd=10992|nWord=3
-4	be	be	PRON	_	_	6	comp:obl	_	AlignBegin=10992|AlignEnd=11218|GE=where|Gloss=where|nWord=4|RX=[INTERROG]|TokenType=Root
+4	be	be	PRON	_	_	6	comp:obj	_	AlignBegin=10992|AlignEnd=11218|GE=where|Gloss=where|nWord=4|RX=[INTERROG]|TokenType=Root
 5	=ki	_	PART	_	_	4	mod	_	AlignBegin=11218|AlignEnd=11443|GE=[CNTR]|Gloss==CNTR|nWord=4|RX=[POST]|TokenType=Clit
-6	ɉokwa	ɉokwa	VERB	_	_	_	_	_	AlignBegin=11443|AlignEnd=11669|GE=cook|Gloss=cook|nWord=5|RX=[V]|TokenType=Root
+6	ɉokwa	ɉokwa	VERB	_	_	8	comp:aux	_	AlignBegin=11443|AlignEnd=11669|GE=cook|Gloss=cook|nWord=5|RX=[V]|TokenType=Root
 7	=kʉchʉ	_	PART	_	_	6	mod	_	AlignBegin=11669|AlignEnd=11894|GE=[EMPH]|Gloss==EMPH|nWord=5|RX=[PRT]|TokenType=Clit
 8	aw	aw	AUX	_	_	9	comp:aux/m	_	AlignBegin=11894|AlignEnd=12120|GE=aux|Gloss=aux|nWord=6|RX=[AUX]|TokenType=Root
 9	-kwa	_	AUX	_	_	10	comp:aux	_	AlignBegin=12120|AlignEnd=12345|GE=[OBL]|Gloss=OBL|nWord=6|RX=[VERB]|TokenType=InflAff
 10	na	nan	AUX	_	_	11	comp:aux/m	_	AlignBegin=12345|AlignEnd=12571|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
 11	-'	_	AUX	_	_	12	comp:aux	_	AlignBegin=12571|AlignEnd=12796|GE=[NEG]|Gloss=NEG|nWord=7|RX=[VERB]|TokenType=InflAff
 12	n	nan	AUX	_	_	13	comp:aux/m	_	AlignBegin=12796|AlignEnd=13022|GE=aux|Gloss=aux|nWord=8|RX=[AUX]|TokenType=Root
-13	-eyka	_	AUX	_	_	_	_	_	AlignBegin=13022|AlignEnd=13247|GE=[EYKA]|Gloss=EYKA|nWord=8|RX=[V:ANY]|TokenType=InflAff
+13	-eyka	_	AUX	_	_	15	comp:obj	_	AlignBegin=13022|AlignEnd=13247|GE=[EYKA]|Gloss=EYKA|nWord=8|RX=[V:ANY]|TokenType=InflAff
 14	a-	_	PRON	_	_	15	udep:poss/m	_	AlignBegin=13247|AlignEnd=13360|GE=[3SG].[POSS]|Gloss=3SG.POSS|nWord=9|RX=[POSS]|TokenType=InflAff
 15	wan	wan	VERB	_	_	16	comp:aux/m	_	AlignBegin=13360|AlignEnd=13473|GE=think|Gloss=think|nWord=9|RX=[V]|TokenType=Root
-16	-ʉkwa	_	AUX	_	_	_	_	_	AlignBegin=13473|AlignEnd=13586|GE=[ABLE]|Gloss=ABLE|nWord=9|RX=[VERB]|TokenType=InflAff
+16	-ʉkwa	_	AUX	_	_	0	root	_	AlignBegin=13473|AlignEnd=13586|GE=[ABLE]|Gloss=ABLE|nWord=9|RX=[VERB]|TokenType=InflAff
 17	=ri	_	PART	_	_	16	mod	_	AlignBegin=13586|AlignEnd=13698|GE=[TOP]|Gloss==TOP|nWord=9|RX=[PRT]|TokenType=Clit
 18	(	_	PUNCT	_	_	19	punct	_	AlignBegin=13698|AlignEnd=14149|nWord=10
-19	mhm	mhm	INTJ	_	_	_	_	_	AlignBegin=14149|AlignEnd=14600|GE=[HES]|Gloss=HES|nWord=11|RX=[INTERJ]|TokenType=Root
+19	mhm	mhm	INTJ	_	_	16	discourse	_	AlignBegin=14149|AlignEnd=14600|GE=[HES]|Gloss=HES|nWord=11|RX=[INTERJ]|TokenType=Root
 20	)	_	PUNCT	_	_	19	punct	_	AlignBegin=14600|AlignEnd=15050|nWord=12
 
 # sent_id = CO21_03-03
@@ -313,37 +313,38 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-21.WAV/WAV/ARH-TXT-CO-00000-21.WAV
 # sent_timecode = 87177, 91713
 # morphemic_text = ʉndi bunachʉ =se' gu- nʉgu =ri umʉ'n kʉnʉ nʉn =di
-# text = ʉndi bunachʉse' gun nʉguri umʉ'n kʉnʉ nʉndi
+# text = ʉndi bunachʉ =se' gu- nʉgu =ri umʉ'n kʉ- nʉ nʉn =di
 # text_en = The non-indigenous people have more salt [in the food].
 # text_phrase-gls-es = Los no-indígenas tienen más sal [en los alimentos]
-1	ʉndi	ʉndi	ADV	_	_	_	_	_	AlignBegin=87177|AlignEnd=87825|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
+1	ʉndi	ʉndi	ADV	_	_	9	discourse	_	AlignBegin=87177|AlignEnd=87825|GE=so|Gloss=so|nWord=1|RX=[ADV]|TokenType=Root
 2	bunachʉ	bunachʉ	NOUN	_	_	3	comp	_	AlignBegin=87825|AlignEnd=88149|GE=non-indigenous person|Gloss=non-indigenous person|nWord=2|RX=[N]|TokenType=Root
-3	=se'	_	ADP	_	_	8	comp:obl	_	AlignBegin=88149|AlignEnd=88473|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]|TokenType=Clit
-4	gu-	_	X	_	_	_	_	_	AlignBegin=88473|AlignEnd=89121|GE=[GUN]|Gloss=GUN|nWord=3|RX=[V:ANY]|TokenType=InflAff
-5	nʉgu	nʉgu	NOUN	_	_	8	comp:obj	_	AlignBegin=89121|AlignEnd=89445|GE=salt|Gloss=salt|nWord=4|RX=[N]|TokenType=Root
+3	=se'	=se'	ADP	_	Case=Dat	9	comp:obl	_	AgentShift=yes|AlignBegin=88149|AlignEnd=88473|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]|SemanticRole=Possessor|TokenType=Clit|Topic=no
+4	gu-	_	X	_	_	5	mod/m	_	AlignBegin=88473|AlignEnd=89121|GE=[GUN]|Gloss=GUN|nWord=3|RX=[V:ANY]|TokenType=InflAff
+5	nʉgu	nʉgu	NOUN	_	_	9	comp:obj	_	AlignBegin=89121|AlignEnd=89445|GE=salt|Gloss=salt|nWord=4|RX=[N]|TokenType=Root
 6	=ri	_	PART	_	_	5	mod	_	AlignBegin=89445|AlignEnd=89769|GE=[TOP]|Gloss==TOP|nWord=4|RX=[PRT]|TokenType=Clit
-7	umʉ'n	umʉ'n	ADV	_	_	_	_	_	AlignBegin=89769|AlignEnd=90417|GE=more|Gloss=more|nWord=5|RX=[ADV]|TokenType=Root
-8	kʉnʉ	kʉnʉ	VERB	_	_	9	comp:aux	_	AlignBegin=90417|AlignEnd=91065|GE=have|Gloss=have|nWord=6|RX=[VT]|TokenType=Root
-9	nʉn	nan	AUX	_	_	_	_	_	AlignBegin=91065|AlignEnd=91389|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
-10	=di	_	PART	_	_	9	mod	_	AlignBegin=91389|AlignEnd=91713|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
+7	umʉ'n	umʉ'n	ADV	_	_	9	mod	_	AlignBegin=89769|AlignEnd=90417|GE=more|Gloss=more|nWord=5|RX=[ADV]|TokenType=Root
+8	kʉ-	kʉ-	AUX	_	_	9	mod/m	_	AlignBegin=90417|AlignEnd=91065|GE=APPL1|Gloss=APPL1|nWord=6|TokenType=DerAff
+9	nʉ	nan	AUX	_	_	10	comp:aux	_	AlignBegin=90417|AlignEnd=91065|ArgumentOrder=SOV|GE=have|Gloss=have|nWord=6|RX=[VT]|TokenType=Root|Transitivity=DAT-ABS
+10	nʉn	nan	AUX	_	_	0	root	_	AlignBegin=91065|AlignEnd=91389|GE=cop|Gloss=cop|nWord=7|RX=[COP]|TokenType=Root
+11	=di	_	PART	_	_	10	mod	_	AlignBegin=91389|AlignEnd=91713|GE=[TOP]|Gloss==TOP|nWord=7|RX=[PRT]|TokenType=Clit
 
 # sent_id = CO21_14-14
 # speaker_id = @SP21
 # sound_url = https://corporan.huma-num.fr/Archives/media/ARH-TXT-CO-00000-21.WAV/WAV/ARH-TXT-CO-00000-21.WAV
 # sent_timecode = 91713, 93288
 # morphemic_text = iwa ikʉ =se' =ri nʉgu azan -u' nan -i
-# text = iwa ikʉse'ri nʉgu azanu' nari
+# text = iwa ikʉ =se' =ri nʉgu azan -u' nan -i
 # text_en = The Ika people have no salt [in their food], |
 # text_phrase-gls-es = Los arhuacos no tienen sal,
-1	iwa	iwa	SCONJ	_	_	_	_	_	AlignBegin=91713|AlignEnd=92028|GE=and|Gloss=CONV.SIM|nWord=1|RX=[COORDCONN]|TokenType=Root
+1	iwa	iwa	CCONJ	_	_	6	cc	_	AlignBegin=91713|AlignEnd=92028|GE=and|Gloss=and|nWord=1|RX=[COORDCONN]|TokenType=Root
 2	ikʉ	ikʉ	PROPN	_	_	3	comp	_	AlignBegin=92028|AlignEnd=92133|GE=[Ika]|Gloss=Ika|nWord=2|RX=[NPROP]|TokenType=Root
-3	=se'	_	ADP	_	_	6	comp:obl	_	AlignBegin=92133|AlignEnd=92238|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]|TokenType=Clit
+3	=se'	=se'	ADP	_	Case=Dat	6	comp:obl	_	AgentShift=yes|AlignBegin=92133|AlignEnd=92238|GE=[DAT]|Gloss==DAT|nWord=2|RX=[POST]|SemanticRole=Experiencer|TokenType=Clit|Topic=yes
 4	=ri	_	PART	_	_	3	mod	_	AlignBegin=92238|AlignEnd=92343|GE=[TOP]|Gloss==TOP|nWord=2|RX=[PRT]|TokenType=Clit
 5	nʉgu	nʉgu	NOUN	_	_	6	comp:obj	_	AlignBegin=92343|AlignEnd=92658|GE=salt|Gloss=salt|nWord=3|RX=[N]|TokenType=Root
-6	azan	azan	VERB	_	_	7	comp:aux/m	_	AlignBegin=92658|AlignEnd=92816|GE=feel|Gloss=feel|nWord=4|RX=[V]|TokenType=Root
+6	azan	azan	VERB	_	_	7	comp:aux/m	_	AlignBegin=92658|AlignEnd=92816|ArgumentOrder=SOV|GE=feel|Gloss=feel|nWord=4|RX=[V]|TokenType=Root|Transitivity=DAT-ABS
 7	-u'	_	AUX	_	_	8	comp:aux	_	AlignBegin=92816|AlignEnd=92973|GE=[NEG]|Gloss=NEG|nWord=4|RX=[VERB]|TokenType=InflAff
 8	nan	nan	AUX	_	_	9	comp:pred/m	_	AlignBegin=92973|AlignEnd=93131|GE=[AUX]|Gloss=AUX|nWord=5|RX=[AUX]|TokenType=Root
-9	-i	_	SCONJ	_	_	_	_	_	AlignBegin=93131|AlignEnd=93288|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
+9	-i	_	SCONJ	_	_	0	root	_	AlignBegin=93131|AlignEnd=93288|GE=while|Gloss=CONV.SIM|nWord=5|RX=[VERB]|TokenType=InflAff
 
 # sent_id = CO21_15-15
 # speaker_id = @SP21
